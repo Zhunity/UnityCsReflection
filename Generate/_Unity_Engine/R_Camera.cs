@@ -4646,2218 +4646,1723 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetTransparencySortSettings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetTransparencySortSettings.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetAspect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetAspect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Single[] GetLayerCullDistances()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLayerCullDistances.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single[]>(___result);
-        }
-
-
-        public virtual void SetLayerCullDistances(System.Single[] @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMSetLayerCullDistances_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetCullingMatrix()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetCullingMatrix.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetReplacementShader(UnityEngine.Shader @shader, System.String @replacementTag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shader, @replacementTag};
-            var ___result = RMSetReplacementShader_Shader_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetReplacementShader()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetReplacementShader.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Single GetGateFittedFieldOfView()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGateFittedFieldOfView.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 GetGateFittedLensShift()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGateFittedLensShift.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 GetLocalSpaceAim()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLocalSpaceAim.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual void SetTargetBuffersImpl(UnityEngine.RenderBuffer @color, UnityEngine.RenderBuffer @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth};
-            var ___result = RMSetTargetBuffersImpl_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colorBuffer, @depthBuffer};
-            var ___result = RMSetTargetBuffers_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTargetBuffersMRTImpl(UnityEngine.RenderBuffer[] @color, UnityEngine.RenderBuffer @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth};
-            var ___result = RMSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer[] @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colorBuffer, @depthBuffer};
-            var ___result = RMSetTargetBuffers_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String[] GetCameraBufferWarnings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCameraBufferWarnings.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual void ResetWorldToCameraMatrix()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetWorldToCameraMatrix.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetProjectionMatrix()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetProjectionMatrix.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4 @clipPlane)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clipPlane};
-            var ___result = RMCalculateObliqueMatrix_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RMWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RMWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RMViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RMScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMWorldToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMWorldToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMViewportToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMScreenToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMScreenToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ViewportToScreenPoint(UnityEngine.Vector3 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMViewportToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 GetFrustumPlaneSizeAt(System.Single @distance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@distance};
-            var ___result = RMGetFrustumPlaneSizeAt_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RMViewportPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RMViewportPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos};
-            var ___result = RMViewportPointToRay_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RMScreenPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RMScreenPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos};
-            var ___result = RMScreenPointToRay_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
-        }
-
-
-        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RMCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CalculateFrustumCorners(UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RMCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode @gateFitMode)
-        {
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetTransparencySortSettings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetTransparencySortSettings.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetAspect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetAspect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Single[] GetLayerCullDistances()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLayerCullDistances.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single[]>(___result);
+		}
+
+
+		public virtual void SetLayerCullDistances(System.Single[] @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMSetLayerCullDistances_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetCullingMatrix()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetCullingMatrix.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetReplacementShader(UnityEngine.Shader @shader, System.String @replacementTag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shader, @replacementTag};
+			var ___result = RMSetReplacementShader_Shader_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetReplacementShader()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetReplacementShader.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Single GetGateFittedFieldOfView()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGateFittedFieldOfView.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetGateFittedLensShift()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGateFittedLensShift.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 GetLocalSpaceAim()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLocalSpaceAim.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual void SetTargetBuffersImpl(UnityEngine.RenderBuffer @color, UnityEngine.RenderBuffer @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth};
+			var ___result = RMSetTargetBuffersImpl_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTargetBuffers(UnityEngine.RenderBuffer @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colorBuffer, @depthBuffer};
+			var ___result = RMSetTargetBuffers_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTargetBuffersMRTImpl(UnityEngine.RenderBuffer[] @color, UnityEngine.RenderBuffer @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth};
+			var ___result = RMSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTargetBuffers(UnityEngine.RenderBuffer[] @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colorBuffer, @depthBuffer};
+			var ___result = RMSetTargetBuffers_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String[] GetCameraBufferWarnings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCameraBufferWarnings.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual void ResetWorldToCameraMatrix()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetWorldToCameraMatrix.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetProjectionMatrix()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetProjectionMatrix.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4 @clipPlane)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clipPlane};
+			var ___result = RMCalculateObliqueMatrix_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value};
+			var ___result = RMWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value};
+			var ___result = RMWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value};
+			var ___result = RMViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value};
+			var ___result = RMScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMWorldToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMWorldToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMViewportToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMScreenToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMScreenToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ViewportToScreenPoint(UnityEngine.Vector3 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMViewportToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetFrustumPlaneSizeAt(System.Single @distance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@distance};
+			var ___result = RMGetFrustumPlaneSizeAt_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value};
+			var ___result = RMViewportPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value};
+			var ___result = RMViewportPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos};
+			var ___result = RMViewportPointToRay_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value};
+			var ___result = RMScreenPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value};
+			var ___result = RMScreenPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos};
+			var ___result = RMScreenPointToRay_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Ray>(___result);
+		}
+
+
+		public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+			var ___result = RMCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CalculateFrustumCorners(UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+			var ___result = RMCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode @gateFitMode)
+		{
 			@output = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
-            var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
+			var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitParameters @gateFitParameters)
-        {
+		public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitParameters @gateFitParameters)
+		{
 			@output = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateFitParameters.Value};
-            var ___result = RMCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateFitParameters.Value};
+			var ___result = RMCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
-
-
-        public static System.Single FocalLengthToFieldOfView(System.Single @focalLength, System.Single @sensorSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focalLength, @sensorSize};
-            var ___result = RMFocalLengthToFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static System.Single FieldOfViewToFocalLength(System.Single @fieldOfView, System.Single @sensorSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldOfView, @sensorSize};
-            var ___result = RMFieldOfViewToFocalLength_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static System.Single HorizontalToVerticalFieldOfView(System.Single @horizontalFieldOfView, System.Single @aspectRatio)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@horizontalFieldOfView, @aspectRatio};
-            var ___result = RMHorizontalToVerticalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static System.Single VerticalToHorizontalFieldOfView(System.Single @verticalFieldOfView, System.Single @aspectRatio)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@verticalFieldOfView, @aspectRatio};
-            var ___result = RMVerticalToHorizontalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value};
-            var ___result = RMGetStereoNonJitteredProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value};
-            var ___result = RMGetStereoViewMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value};
-            var ___result = RMCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value};
-            var ___result = RMGetStereoProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual void SetStereoProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RMSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetStereoProjectionMatrices()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetStereoViewMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RMSetStereoViewMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetStereoViewMatrices()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetStereoViewMatrices.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 GetAllCamerasCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAllCamerasCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetAllCamerasImpl(UnityEngine.Camera[] @cam)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cam};
-            var ___result = RMGetAllCamerasImpl_CameraArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetAllCameras(UnityEngine.Camera[] @cameras)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cameras};
-            var ___result = RMGetAllCameras_CameraArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemapImpl(UnityEngine.Texture @tex, System.Int32 @faceMask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tex, @faceMask};
-            var ___result = RMRenderToCubemapImpl_Texture_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap, System.Int32 @faceMask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap, @faceMask};
-            var ___result = RMRenderToCubemap_Cubemap_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap};
-            var ___result = RMRenderToCubemap_Cubemap.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap, @faceMask};
-            var ___result = RMRenderToCubemap_RenderTexture_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap};
-            var ___result = RMRenderToCubemap_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetFilterMode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFilterMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
-            var ___result = RMRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
-            var ___result = RMRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Render()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRender.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RenderWithShader(UnityEngine.Shader @shader, System.String @replacementTag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shader, @replacementTag};
-            var ___result = RMRenderWithShader_Shader_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RenderDontRestore()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRenderDontRestore.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SubmitRenderRequests(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequest> @renderRequests)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderRequests.Value};
-            var ___result = RMSubmitRenderRequests_List_d_RenderRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SubmitRenderRequestsInternal(System.Object @requests)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requests};
-            var ___result = RMSubmitRenderRequestsInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetupCurrent(UnityEngine.Camera @cur)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cur};
-            var ___result = RMSetupCurrent_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyFrom(UnityEngine.Camera @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMCopyFrom_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMRemoveCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAllCommandBuffers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveAllCommandBuffers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RMAddCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCommandBufferAsyncImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer, @queueType};
-            var ___result = RMAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RMRemoveCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RMAddCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCommandBufferAsync(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer, @queueType};
-            var ___result = RMAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RMRemoveCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rendering.CommandBuffer[] GetCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMGetCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.CommandBuffer[]>(___result);
-        }
-
-
-        public static void FireOnPreCull(UnityEngine.Camera @cam)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cam};
-            var ___result = RMFireOnPreCull_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void FireOnPreRender(UnityEngine.Camera @cam)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cam};
-            var ___result = RMFireOnPreRender_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void FireOnPostRender(UnityEngine.Camera @cam)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cam};
-            var ___result = RMFireOnPostRender_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnlyUsedForTesting1()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnlyUsedForTesting1.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnlyUsedForTesting2()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnlyUsedForTesting2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TryGetCullingParameters(out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
-        {
+		}
+
+
+		public static System.Single FocalLengthToFieldOfView(System.Single @focalLength, System.Single @sensorSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focalLength, @sensorSize};
+			var ___result = RMFocalLengthToFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Single FieldOfViewToFocalLength(System.Single @fieldOfView, System.Single @sensorSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldOfView, @sensorSize};
+			var ___result = RMFieldOfViewToFocalLength_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Single HorizontalToVerticalFieldOfView(System.Single @horizontalFieldOfView, System.Single @aspectRatio)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@horizontalFieldOfView, @aspectRatio};
+			var ___result = RMHorizontalToVerticalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Single VerticalToHorizontalFieldOfView(System.Single @verticalFieldOfView, System.Single @aspectRatio)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@verticalFieldOfView, @aspectRatio};
+			var ___result = RMVerticalToHorizontalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value};
+			var ___result = RMGetStereoNonJitteredProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value};
+			var ___result = RMGetStereoViewMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value};
+			var ___result = RMCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value};
+			var ___result = RMGetStereoProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual void SetStereoProjectionMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @matrix};
+			var ___result = RMSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetStereoProjectionMatrices()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetStereoViewMatrix(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @matrix};
+			var ___result = RMSetStereoViewMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetStereoViewMatrices()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetStereoViewMatrices.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 GetAllCamerasCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAllCamerasCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetAllCamerasImpl(UnityEngine.Camera[] @cam)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cam};
+			var ___result = RMGetAllCamerasImpl_CameraArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetAllCameras(UnityEngine.Camera[] @cameras)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cameras};
+			var ___result = RMGetAllCameras_CameraArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemapImpl(UnityEngine.Texture @tex, System.Int32 @faceMask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tex, @faceMask};
+			var ___result = RMRenderToCubemapImpl_Texture_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap, System.Int32 @faceMask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap, @faceMask};
+			var ___result = RMRenderToCubemap_Cubemap_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap};
+			var ___result = RMRenderToCubemap_Cubemap.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap, @faceMask};
+			var ___result = RMRenderToCubemap_RenderTexture_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap};
+			var ___result = RMRenderToCubemap_RenderTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetFilterMode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFilterMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
+			var ___result = RMRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
+			var ___result = RMRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Render()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRender.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RenderWithShader(UnityEngine.Shader @shader, System.String @replacementTag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shader, @replacementTag};
+			var ___result = RMRenderWithShader_Shader_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RenderDontRestore()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRenderDontRestore.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SubmitRenderRequests(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequest> @renderRequests)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderRequests.Value};
+			var ___result = RMSubmitRenderRequests_List_d_RenderRequest_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SubmitRenderRequestsInternal(System.Object @requests)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requests};
+			var ___result = RMSubmitRenderRequestsInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetupCurrent(UnityEngine.Camera @cur)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cur};
+			var ___result = RMSetupCurrent_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyFrom(UnityEngine.Camera @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMCopyFrom_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMRemoveCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAllCommandBuffers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveAllCommandBuffers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer};
+			var ___result = RMAddCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddCommandBufferAsyncImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer, @queueType};
+			var ___result = RMAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer};
+			var ___result = RMRemoveCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer};
+			var ___result = RMAddCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddCommandBufferAsync(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer, @queueType};
+			var ___result = RMAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @buffer};
+			var ___result = RMRemoveCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rendering.CommandBuffer[] GetCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMGetCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.CommandBuffer[]>(___result);
+		}
+
+
+		public static void FireOnPreCull(UnityEngine.Camera @cam)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cam};
+			var ___result = RMFireOnPreCull_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void FireOnPreRender(UnityEngine.Camera @cam)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cam};
+			var ___result = RMFireOnPreRender_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void FireOnPostRender(UnityEngine.Camera @cam)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cam};
+			var ___result = RMFireOnPostRender_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnlyUsedForTesting1()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnlyUsedForTesting1.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnlyUsedForTesting2()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnlyUsedForTesting2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TryGetCullingParameters(out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
+		{
 			@cullingParameters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cullingParameters};
-            var ___result = RMTryGetCullingParameters_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cullingParameters};
+			var ___result = RMTryGetCullingParameters_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 			@cullingParameters = ReflectionUtils.Convert<UnityEngine.Rendering.ScriptableCullingParameters>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetCullingParameters(System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
-        {
+		public virtual System.Boolean TryGetCullingParameters(System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
+		{
 			@cullingParameters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stereoAware, @cullingParameters};
-            var ___result = RMTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stereoAware, @cullingParameters};
+			var ___result = RMTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 			@cullingParameters = ReflectionUtils.Convert<UnityEngine.Rendering.ScriptableCullingParameters>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean GetCullingParameters_Internal(UnityEngine.Camera @camera, System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters, System.Int32 @managedCullingParametersSize)
-        {
+		public static System.Boolean GetCullingParameters_Internal(UnityEngine.Camera @camera, System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters, System.Int32 @managedCullingParametersSize)
+		{
 			@cullingParameters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@camera, @stereoAware, @cullingParameters, @managedCullingParametersSize};
-            var ___result = RMGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@camera, @stereoAware, @cullingParameters, @managedCullingParametersSize};
+			var ___result = RMGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.Invoke(___genericsType, ___parameters);
 			@cullingParameters = ReflectionUtils.Convert<UnityEngine.Rendering.ScriptableCullingParameters>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Single GetScreenWidth()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetScreenWidth.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Single GetScreenHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetScreenHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetScreenWidth()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetScreenWidth.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual void DoClear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Single GetScreenHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetScreenHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual void ResetFieldOfView()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetFieldOfView.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DoClear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetStereoViewMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@leftMatrix, @rightMatrix};
-            var ___result = RMSetStereoViewMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResetFieldOfView()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetFieldOfView.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetStereoProjectionMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@leftMatrix, @rightMatrix};
-            var ___result = RMSetStereoProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetStereoViewMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@leftMatrix, @rightMatrix};
+			var ___result = RMSetStereoViewMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.Matrix4x4[] GetStereoViewMatrices()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStereoViewMatrices.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4[]>(___result);
-        }
+		public virtual void SetStereoProjectionMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@leftMatrix, @rightMatrix};
+			var ___result = RMSetStereoProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.Matrix4x4[] GetStereoProjectionMatrices()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4[]>(___result);
-        }
+		public virtual UnityEngine.Matrix4x4[] GetStereoViewMatrices()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStereoViewMatrices.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4[]>(___result);
+		}
 
 
-        public virtual void get_transparencySortAxis_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual UnityEngine.Matrix4x4[] GetStereoProjectionMatrices()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4[]>(___result);
+		}
+
+
+		public virtual void get_transparencySortAxis_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_transparencySortAxis_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_transparencySortAxis_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_transparencySortAxis_Injected(ref UnityEngine.Vector3 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_transparencySortAxis_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void set_transparencySortAxis_Injected(ref UnityEngine.Vector3 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_transparencySortAxis_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_velocity_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual void get_velocity_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_velocity_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_velocity_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_cullingMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_cullingMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_cullingMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_cullingMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_cullingMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_cullingMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void set_cullingMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_cullingMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_backgroundColor_Injected(out UnityEngine.Color @ret)
-        {
+		public virtual void get_backgroundColor_Injected(out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_backgroundColor_Injected(ref UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void set_backgroundColor_Injected(ref UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_sensorSize_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_sensorSize_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_sensorSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_sensorSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_sensorSize_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_sensorSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_sensorSize_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_sensorSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_lensShift_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_lensShift_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_lensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_lensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_lensShift_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_lensShift_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_lensShift_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_lensShift_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetGateFittedLensShift_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void GetGateFittedLensShift_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetGateFittedLensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetGateFittedLensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetLocalSpaceAim_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual void GetLocalSpaceAim_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetLocalSpaceAim_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetLocalSpaceAim_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
-        {
+		public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_rect_Injected(ref UnityEngine.Rect @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_rect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public virtual void set_rect_Injected(ref UnityEngine.Rect @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_rect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_pixelRect_Injected(out UnityEngine.Rect @ret)
-        {
+		public virtual void get_pixelRect_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_pixelRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_pixelRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_pixelRect_Injected(ref UnityEngine.Rect @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_pixelRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public virtual void set_pixelRect_Injected(ref UnityEngine.Rect @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_pixelRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetTargetBuffersImpl_Injected(ref UnityEngine.RenderBuffer @color, ref UnityEngine.RenderBuffer @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth};
-            var ___result = RMSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+		public virtual void SetTargetBuffersImpl_Injected(ref UnityEngine.RenderBuffer @color, ref UnityEngine.RenderBuffer @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth};
+			var ___result = RMSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@color = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 			@depth = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetTargetBuffersMRTImpl_Injected(UnityEngine.RenderBuffer[] @color, ref UnityEngine.RenderBuffer @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth};
-            var ___result = RMSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+		public virtual void SetTargetBuffersMRTImpl_Injected(UnityEngine.RenderBuffer[] @color, ref UnityEngine.RenderBuffer @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth};
+			var ___result = RMSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@depth = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void get_cameraToWorldMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_cameraToWorldMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_cameraToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_cameraToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_worldToCameraMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_worldToCameraMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_worldToCameraMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_worldToCameraMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_projectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_projectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_projectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_projectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_nonJitteredProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_nonJitteredProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_nonJitteredProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void set_nonJitteredProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_previousViewProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void get_previousViewProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4 @clipPlane, out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4 @clipPlane, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clipPlane, @ret};
-            var ___result = RMCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clipPlane, @ret};
+			var ___result = RMCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@clipPlane = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RMWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value, @ret};
+			var ___result = RMWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RMWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value, @ret};
+			var ___result = RMWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RMViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value, @ret};
+			var ___result = RMViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3 @position, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RMScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @eye.Value, @ret};
+			var ___result = RMScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @ret};
-            var ___result = RMScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @ret};
+			var ___result = RMScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ViewportToScreenPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
-        {
+		public virtual void ViewportToScreenPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @ret};
-            var ___result = RMViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @ret};
+			var ___result = RMViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void GetFrustumPlaneSizeAt_Injected(System.Single @distance, out UnityEngine.Vector2 @ret)
-        {
+		public virtual void GetFrustumPlaneSizeAt_Injected(System.Single @distance, out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@distance, @ret};
-            var ___result = RMGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@distance, @ret};
+			var ___result = RMGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
-        {
+		public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value, @ret};
-            var ___result = RMViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value, @ret};
+			var ___result = RMViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Ray>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
-        {
+		public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2 @pos, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @eye.Value, @ret};
-            var ___result = RMScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @eye.Value, @ret};
+			var ___result = RMScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Ray>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RMCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+		public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect @viewport, System.Single @z, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+			var ___result = RMCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
 			@viewport = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, ref UnityEngine.Vector2 @sensorSize, ref UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode @gateFitMode)
-        {
+		public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, ref UnityEngine.Vector2 @sensorSize, ref UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode @gateFitMode)
+		{
 			@output = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
-            var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
+			var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@sensorSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 			@lensShift = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene @ret)
-        {
+		public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_scene_Injected_Out_Scene.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_scene_Injected_Out_Scene.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_scene_Injected(ref UnityEngine.SceneManagement.Scene @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_scene_Injected_Ref_Scene.Invoke(___genericsType, ___parameters);
+		public virtual void set_scene_Injected(ref UnityEngine.SceneManagement.Scene @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_scene_Injected_Ref_Scene.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void GetStereoNonJitteredProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RMGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @ret};
+			var ___result = RMGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void GetStereoViewMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void GetStereoViewMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RMGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @ret};
+			var ___result = RMGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void GetStereoProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
-        {
+		public virtual void GetStereoProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RMGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @ret};
+			var ___result = RMGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetStereoProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RMSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetStereoProjectionMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @matrix};
+			var ___result = RMSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetStereoViewMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RMSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetStereoViewMatrix_Injected(Hvak.Editor.Refleaction.RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eye.Value, @matrix};
+			var ___result = RMSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual UnityEngine.Component GetComponent(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
+		public virtual UnityEngine.Component GetComponent(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
 
 
-        public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
-            var ___result = RMGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
+			var ___result = RMGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual T GetComponent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T GetComponent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
-        {
+		public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
+		{
 			@component = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @component};
-            var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @component};
+			var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
 			@component = ReflectionUtils.Convert<UnityEngine.Component>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetComponent<T>(out T @component)
-        {
+		public virtual System.Boolean TryGetComponent<T>(out T @component)
+		{
 			@component = default;
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@component};
-            var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@component};
+			var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
 			@component = ReflectionUtils.Convert<T>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponent(System.String @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetComponentInChildren<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive, @result};
-            var ___result = RMGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponentsInChildren<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@results};
-            var ___result = RMGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetComponentInParent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive, @results};
-            var ___result = RMGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponentsInParent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponents(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponents_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @results};
-            var ___result = RMGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@results};
-            var ___result = RMGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponents<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponents_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual System.Boolean CompareTag(System.String @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag};
-            var ___result = RMCompareTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetCoupledComponent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCoupledComponent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual System.Boolean IsCoupledComponent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCoupledComponent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RMSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value};
-            var ___result = RMSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value};
-            var ___result = RMSendMessage_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMSendMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RMSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @parameter, @options};
-            var ___result = RMBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @parameter};
-            var ___result = RMBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMBroadcastMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponent(System.String @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetComponentInChildren<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive, @result};
+			var ___result = RMGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponentsInChildren<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@results};
+			var ___result = RMGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetComponentInParent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive, @results};
+			var ___result = RMGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponentsInParent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponents(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponents_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @results};
+			var ___result = RMGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@results};
+			var ___result = RMGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponents<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponents_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual System.Boolean CompareTag(System.String @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag};
+			var ___result = RMCompareTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetCoupledComponent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCoupledComponent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual System.Boolean IsCoupledComponent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCoupledComponent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value, @options};
+			var ___result = RMSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value};
+			var ___result = RMSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value};
+			var ___result = RMSendMessage_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMSendMessage_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value, @options};
+			var ___result = RMSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @parameter, @options};
+			var ___result = RMBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @parameter};
+			var ___result = RMBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMBroadcastMessage_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

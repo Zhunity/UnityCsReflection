@@ -742,158 +742,122 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityConnect.Value, @assetStoreRestAPI.Value, @assetStoreCache.Value};
-            var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreRestAPI_AssetStoreCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unityConnect.Value, @assetStoreRestAPI.Value, @assetStoreCache.Value};
+			var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreRestAPI_AssetStoreCache.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.String QueryToString(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@queryArgs.Value};
-            var ___result = RMQueryToString_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String QueryToString(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@queryArgs.Value};
+			var ___result = RMQueryToString_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Start(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@queryArgs.Value};
-            var ___result = RMStart_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Start(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@queryArgs.Value};
+			var ___result = RMStart_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Stop()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStop.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Stop()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStop.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetQueryArgs(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@queryArgs.Value};
-            var ___result = RMSetQueryArgs_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetQueryArgs(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs @queryArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@queryArgs.Value};
+			var ___result = RMSetQueryArgs_PurchasesQueryArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetPurchasesCallback(System.Collections.Generic.IDictionary<System.String, System.Object> @result, System.Int64 @operationTimestamp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@result, @operationTimestamp};
-            var ___result = RMGetPurchasesCallback_IDictionary_d_String_Object_p__Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetPurchasesCallback(System.Collections.Generic.IDictionary<System.String, System.Object> @result, System.Int64 @operationTimestamp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@result, @operationTimestamp};
+			var ___result = RMGetPurchasesCallback_IDictionary_d_String_Object_p__Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnOperationError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@error.Value};
-            var ___result = RMOnOperationError_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnOperationError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@error.Value};
+			var ___result = RMOnOperationError_UIError.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void FinalizedOperation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalizedOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void FinalizedOperation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalizedOperation.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

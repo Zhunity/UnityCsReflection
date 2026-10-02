@@ -134,63 +134,49 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void OnCreate(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@model.Value};
-            var ___result = RMOnCreate_IWindowModel.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnCreate(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@model.Value};
+			var ___result = RMOnCreate_IWindowModel.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnDestroy(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@model.Value};
-            var ___result = RMOnDestroy_IWindowModel.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnDestroy(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@model.Value};
+			var ___result = RMOnDestroy_IWindowModel.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean GetTooltip(UnityEngine.Vector2 @windowMouseCoordinates, out System.String @tooltip, out UnityEngine.Rect @screenRectPosition)
-        {
+		public virtual System.Boolean GetTooltip(UnityEngine.Vector2 @windowMouseCoordinates, out System.String @tooltip, out UnityEngine.Rect @screenRectPosition)
+		{
 			@tooltip = default;
 			@screenRectPosition = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@windowMouseCoordinates, @tooltip, @screenRectPosition};
-            var ___result = RMGetTooltip_Vector2_Out_String_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@windowMouseCoordinates, @tooltip, @screenRectPosition};
+			var ___result = RMGetTooltip_Vector2_Out_String_Out_Rect.Invoke(___genericsType, ___parameters);
 			@tooltip = ReflectionUtils.Convert<System.String>(___parameters[1]);
 			@screenRectPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SizeChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSizeChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void EventInterestsChanged()
-        {
+		public virtual void SizeChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSizeChanged.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEventInterestsChanged.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void EventInterestsChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEventInterestsChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -422,15 +422,13 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual System.Boolean HasTag(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag.Value};
-            var ___result = RMHasTag_PackageTag.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasTag(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag.Value};
+			var ___result = RMHasTag_PackageTag.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

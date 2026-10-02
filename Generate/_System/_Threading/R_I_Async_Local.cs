@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void OnValueChanged(System.Object @previousValue, System.Object @currentValue, System.Boolean @contextChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@previousValue, @currentValue, @contextChanged};
-            var ___result = RMOnValueChanged_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnValueChanged(System.Object @previousValue, System.Object @currentValue, System.Boolean @contextChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@previousValue, @currentValue, @contextChanged};
+			var ___result = RMOnValueChanged_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -1302,708 +1302,555 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public static System.Boolean IsCompatibleObject(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIsCompatibleObject_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Add(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddWithResize(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMAddWithResize_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMSystem__2__Collections__2__IList__2__Add_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void AddRange(System.Collections.Generic.IEnumerable<T> @collection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@collection};
-            var ___result = RMAddRange_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.ObjectModel.ReadOnlyCollection<T>>(___result);
-        }
-
-
-        public virtual System.Int32 BinarySearch(System.Int32 @index, System.Int32 @count, T @item, System.Collections.Generic.IComparer<T> @comparer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count, @item, @comparer};
-            var ___result = RMBinarySearch_Int32_Int32_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 BinarySearch(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMBinarySearch_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 BinarySearch(T @item, System.Collections.Generic.IComparer<T> @comparer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @comparer};
-            var ___result = RMBinarySearch_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Contains(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMSystem__2__Collections__2__IList__2__Contains_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.List<TOutput> ConvertAll<TOutput>(System.Converter<T, TOutput> @converter)
-        {
-
-            var ___genericsType = new Type[] {typeof(TOutput)};
-            var ___parameters = new object[]{@converter};
-            var ___result = RMConvertAll_GTOutput_Converter_d_T_TOutput_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<TOutput>>(___result);
-        }
-
-
-        public virtual void CopyTo(T[] @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array};
-            var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMSystem__2__Collections__2__ICollection__2__CopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.Int32 @index, T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @array, @arrayIndex, @count};
-            var ___result = RMCopyTo_Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnsureCapacity(System.Int32 @min)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@min};
-            var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Exists(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMExists_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual T Find(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMFind_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.List<T> FindAll(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMFindAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<T>>(___result);
-        }
-
-
-        public virtual System.Int32 FindIndex(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMFindIndex_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 FindIndex(System.Int32 @startIndex, System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @match};
-            var ___result = RMFindIndex_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 FindIndex(System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @count, @match};
-            var ___result = RMFindIndex_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual T FindLast(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMFindLast_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual System.Int32 FindLastIndex(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMFindLastIndex_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 FindLastIndex(System.Int32 @startIndex, System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @match};
-            var ___result = RMFindLastIndex_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 FindLastIndex(System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @count, @match};
-            var ___result = RMFindLastIndex_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void ForEach(System.Action<T> @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RMForEach_Action_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.List<T> GetRange(System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count};
-            var ___result = RMGetRange_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<T>>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMIndexOf_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMSystem__2__Collections__2__IList__2__IndexOf_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(T @item, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @index};
-            var ___result = RMIndexOf_T_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(T @item, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @index, @count};
-            var ___result = RMIndexOf_T_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Insert(System.Int32 @index, T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @item};
-            var ___result = RMInsert_Int32_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32 @index, System.Object @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @item};
-            var ___result = RMSystem__2__Collections__2__IList__2__Insert_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InsertRange(System.Int32 @index, System.Collections.Generic.IEnumerable<T> @collection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @collection};
-            var ___result = RMInsertRange_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 LastIndexOf(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMLastIndexOf_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(T @item, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @index};
-            var ___result = RMLastIndexOf_T_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(T @item, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @index, @count};
-            var ___result = RMLastIndexOf_T_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Remove(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void System__2__Collections__2__IList__2__Remove(System.Object @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMSystem__2__Collections__2__IList__2__Remove_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 RemoveAll(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMRemoveAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveRange(System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count};
-            var ___result = RMRemoveRange_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reverse()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReverse.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reverse(System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count};
-            var ___result = RMReverse_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Sort()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSort.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Sort(System.Collections.Generic.IComparer<T> @comparer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comparer};
-            var ___result = RMSort_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Sort(System.Int32 @index, System.Int32 @count, System.Collections.Generic.IComparer<T> @comparer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count, @comparer};
-            var ___result = RMSort_Int32_Int32_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Sort(System.Comparison<T> @comparison)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comparison};
-            var ___result = RMSort_Comparison_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] ToArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void TrimExcess()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrimExcess.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TrueForAll(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMTrueForAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddEnumerable(System.Collections.Generic.IEnumerable<T> @enumerable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumerable};
-            var ___result = RMAddEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.Boolean IsCompatibleObject(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIsCompatibleObject_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Add(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddWithResize(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMAddWithResize_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMSystem__2__Collections__2__IList__2__Add_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void AddRange(System.Collections.Generic.IEnumerable<T> @collection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@collection};
+			var ___result = RMAddRange_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.ObjectModel.ReadOnlyCollection<T>>(___result);
+		}
+
+
+		public virtual System.Int32 BinarySearch(System.Int32 @index, System.Int32 @count, T @item, System.Collections.Generic.IComparer<T> @comparer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count, @item, @comparer};
+			var ___result = RMBinarySearch_Int32_Int32_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 BinarySearch(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMBinarySearch_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 BinarySearch(T @item, System.Collections.Generic.IComparer<T> @comparer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @comparer};
+			var ___result = RMBinarySearch_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Contains(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMSystem__2__Collections__2__IList__2__Contains_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.List<TOutput> ConvertAll<TOutput>(System.Converter<T, TOutput> @converter)
+		{
+			var ___genericsType = new Type[] {typeof(TOutput)};
+			var ___parameters = new object[]{@converter};
+			var ___result = RMConvertAll_GTOutput_Converter_d_T_TOutput_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<TOutput>>(___result);
+		}
+
+
+		public virtual void CopyTo(T[] @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array};
+			var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMSystem__2__Collections__2__ICollection__2__CopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.Int32 @index, T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @array, @arrayIndex, @count};
+			var ___result = RMCopyTo_Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnsureCapacity(System.Int32 @min)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@min};
+			var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Exists(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMExists_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual T Find(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMFind_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.List<T> FindAll(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMFindAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<T>>(___result);
+		}
+
+
+		public virtual System.Int32 FindIndex(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMFindIndex_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 FindIndex(System.Int32 @startIndex, System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @match};
+			var ___result = RMFindIndex_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 FindIndex(System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @count, @match};
+			var ___result = RMFindIndex_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual T FindLast(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMFindLast_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual System.Int32 FindLastIndex(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMFindLastIndex_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 FindLastIndex(System.Int32 @startIndex, System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @match};
+			var ___result = RMFindLastIndex_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 FindLastIndex(System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @count, @match};
+			var ___result = RMFindLastIndex_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void ForEach(System.Action<T> @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RMForEach_Action_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.List<T> GetRange(System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count};
+			var ___result = RMGetRange_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<T>>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMIndexOf_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMSystem__2__Collections__2__IList__2__IndexOf_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(T @item, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @index};
+			var ___result = RMIndexOf_T_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(T @item, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @index, @count};
+			var ___result = RMIndexOf_T_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Insert(System.Int32 @index, T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @item};
+			var ___result = RMInsert_Int32_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Collections__2__IList__2__Insert(System.Int32 @index, System.Object @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @item};
+			var ___result = RMSystem__2__Collections__2__IList__2__Insert_Int32_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InsertRange(System.Int32 @index, System.Collections.Generic.IEnumerable<T> @collection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @collection};
+			var ___result = RMInsertRange_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMLastIndexOf_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(T @item, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @index};
+			var ___result = RMLastIndexOf_T_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(T @item, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @index, @count};
+			var ___result = RMLastIndexOf_T_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Remove(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void System__2__Collections__2__IList__2__Remove(System.Object @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMSystem__2__Collections__2__IList__2__Remove_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 RemoveAll(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMRemoveAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveRange(System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count};
+			var ___result = RMRemoveRange_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reverse()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReverse.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reverse(System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count};
+			var ___result = RMReverse_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Sort()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSort.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Sort(System.Collections.Generic.IComparer<T> @comparer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comparer};
+			var ___result = RMSort_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Sort(System.Int32 @index, System.Int32 @count, System.Collections.Generic.IComparer<T> @comparer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count, @comparer};
+			var ___result = RMSort_Int32_Int32_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Sort(System.Comparison<T> @comparison)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comparison};
+			var ___result = RMSort_Comparison_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] ToArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void TrimExcess()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrimExcess.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TrueForAll(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMTrueForAll_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddEnumerable(System.Collections.Generic.IEnumerable<T> @enumerable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumerable};
+			var ___result = RMAddEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

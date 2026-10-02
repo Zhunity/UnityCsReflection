@@ -326,147 +326,120 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateClass(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMCreateClass_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateClass(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMCreateClass_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePseudoClass(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMCreatePseudoClass_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePseudoClass(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMCreatePseudoClass_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateId(System.String @Id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@Id};
-            var ___result = RMCreateId_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateId(System.String @Id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@Id};
+			var ___result = RMCreateId_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMCreateType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMCreateType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.String @typeName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeName};
-            var ___result = RMCreateType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.String @typeName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeName};
+			var ___result = RMCreateType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePredicate(System.Object @predicate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@predicate};
-            var ___result = RMCreatePredicate_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePredicate(System.Object @predicate)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@predicate};
+			var ___result = RMCreatePredicate_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateWildCard()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateWildCard.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateWildCard()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateWildCard.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

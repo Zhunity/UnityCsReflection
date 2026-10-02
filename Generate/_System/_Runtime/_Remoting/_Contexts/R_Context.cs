@@ -886,323 +886,255 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		}
 
 
-        public static void RegisterContext(System.Runtime.Remoting.Contexts.Context @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMRegisterContext_Context.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ReleaseContext(System.Runtime.Remoting.Contexts.Context @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMReleaseContext_Context.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty @prop, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop, @obj, @ctx};
-            var ___result = RMRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean UnregisterDynamicProperty(System.String @name, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @obj, @ctx};
-            var ___result = RMUnregisterDynamicProperty_String_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @ctx};
-            var ___result = RMGetDynamicPropertyCollection_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection>(___result);
-        }
-
-
-        public static void NotifyGlobalDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @req_msg, @client_site, @async};
-            var ___result = RMNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void NotifyDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @req_msg, @client_site, @async};
-            var ___result = RMNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetProperty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.IContextProperty>(___result);
-        }
-
-
-        public virtual void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty @prop)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop};
-            var ___result = RMSetProperty_IContextProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Freeze()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFreeze.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSinkChain()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetServerContextSinkChain.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSinkChain()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetClientContextSinkChain.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject @obj, System.Boolean @forceInternalExecute)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @forceInternalExecute};
-            var ___result = RMCreateServerObjectSinkChain_MarshalByRefObject_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject @serverObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@serverObject};
-            var ___result = RMCreateEnvoySink_MarshalByRefObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
-        }
-
-
-        public static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context @newContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newContext};
-            var ___result = RMSwitchToContext_Context.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
-        }
-
-
-        public static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@msg};
-            var ___result = RMCreateNewContext_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
-        }
-
-
-        public virtual void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate @deleg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@deleg};
-            var ___result = RMDoCallBack_CrossContextDelegate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.LocalDataStoreSlot AllocateDataSlot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static void FreeNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static System.Object GetData(System.LocalDataStoreSlot @slot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot};
-            var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot, @data};
-            var ___result = RMSetData_LocalDataStoreSlot_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static void RegisterContext(System.Runtime.Remoting.Contexts.Context @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMRegisterContext_Context.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ReleaseContext(System.Runtime.Remoting.Contexts.Context @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMReleaseContext_Context.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty @prop, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop, @obj, @ctx};
+			var ___result = RMRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean UnregisterDynamicProperty(System.String @name, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @obj, @ctx};
+			var ___result = RMUnregisterDynamicProperty_String_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @ctx};
+			var ___result = RMGetDynamicPropertyCollection_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection>(___result);
+		}
+
+
+		public static void NotifyGlobalDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @req_msg, @client_site, @async};
+			var ___result = RMNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void NotifyDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @req_msg, @client_site, @async};
+			var ___result = RMNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetProperty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.IContextProperty>(___result);
+		}
+
+
+		public virtual void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty @prop)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop};
+			var ___result = RMSetProperty_IContextProperty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Freeze()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFreeze.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSinkChain()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetServerContextSinkChain.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
+		}
+
+
+		public virtual System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSinkChain()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetClientContextSinkChain.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
+		}
+
+
+		public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject @obj, System.Boolean @forceInternalExecute)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @forceInternalExecute};
+			var ___result = RMCreateServerObjectSinkChain_MarshalByRefObject_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
+		}
+
+
+		public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject @serverObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@serverObject};
+			var ___result = RMCreateEnvoySink_MarshalByRefObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
+		}
+
+
+		public static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context @newContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newContext};
+			var ___result = RMSwitchToContext_Context.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
+		}
+
+
+		public static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@msg};
+			var ___result = RMCreateNewContext_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
+		}
+
+
+		public virtual void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate @deleg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@deleg};
+			var ___result = RMDoCallBack_CrossContextDelegate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.LocalDataStoreSlot AllocateDataSlot()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static void FreeNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static System.Object GetData(System.LocalDataStoreSlot @slot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot};
+			var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot, @data};
+			var ___result = RMSetData_LocalDataStoreSlot_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

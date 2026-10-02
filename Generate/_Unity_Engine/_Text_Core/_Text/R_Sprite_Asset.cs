@@ -838,258 +838,207 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 
-        public virtual void Awake()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAwake.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Awake()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAwake.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateLookupTables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateLookupTables.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateLookupTables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateLookupTables.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetSpriteIndexFromHashcode(System.Int32 @hashCode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hashCode};
-            var ___result = RMGetSpriteIndexFromHashcode_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetSpriteIndexFromHashcode(System.Int32 @hashCode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hashCode};
+			var ___result = RMGetSpriteIndexFromHashcode_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetSpriteIndexFromUnicode(System.UInt32 @unicode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode};
-            var ___result = RMGetSpriteIndexFromUnicode_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetSpriteIndexFromUnicode(System.UInt32 @unicode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode};
+			var ___result = RMGetSpriteIndexFromUnicode_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetSpriteIndexFromName(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetSpriteIndexFromName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetSpriteIndexFromName(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetSpriteIndexFromName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
-            var ___result = RMSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
+			var ___result = RMSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
 
-
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAssets, @unicode, @includeFallbacks, @spriteIndex};
-            var ___result = RMSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAssets, @unicode, @includeFallbacks, @spriteIndex};
+			var ___result = RMSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
 
-
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
-            var ___result = RMSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
+			var ___result = RMSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
 
-
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex, UnityEngine.TextCore.Text.TextSettings @textSettings)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex, UnityEngine.TextCore.Text.TextSettings @textSettings)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAsset, @hashCode, @includeFallbacks, @spriteIndex, @textSettings};
-            var ___result = RMSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAsset, @hashCode, @includeFallbacks, @spriteIndex, @textSettings};
+			var ___result = RMSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
 
-
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAssets, @hashCode, @searchFallbacks, @spriteIndex};
-            var ___result = RMSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAssets, @hashCode, @searchFallbacks, @spriteIndex};
+			var ___result = RMSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
 
-
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
-        {
+		public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
+		{
 			@spriteIndex = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@spriteAsset, @hashCode, @searchFallbacks, @spriteIndex};
-            var ___result = RMSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@spriteAsset, @hashCode, @searchFallbacks, @spriteIndex};
+			var ___result = RMSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
-
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
-        }
-
-
-        public virtual void SortGlyphTable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortGlyphTable.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
+		}
 
 
-        public virtual void SortCharacterTable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortCharacterTable.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SortGlyphTable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortGlyphTable.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SortGlyphAndCharacterTables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortGlyphAndCharacterTables.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SortCharacterTable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortCharacterTable.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SortGlyphAndCharacterTables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortGlyphAndCharacterTables.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

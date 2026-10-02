@@ -902,488 +902,371 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public static void Internal_Create(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_Create_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void Internal_Dispose(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_Dispose_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_Destroy(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_Destroy_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Destroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Array Internal_GetActiveEditors(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetActiveEditors_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Array>(___result);
-        }
-
-
-        public static void Internal_GetActiveEditorsNonAlloc(UnityEditor.ActiveEditorTracker @self, UnityEditor.Editor[] @editors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @editors};
-            var ___result = RMInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @lockedObjects)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lockedObjects};
-            var ___result = RMGetObjectsLockedByThisTracker_List_d_Object_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_GetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @lockedObjects)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @lockedObjects};
-            var ___result = RMInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetObjectsLockedByThisTrackerInternal(System.Object @lockedObjects)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lockedObjects};
-            var ___result = RMGetObjectsLockedByThisTrackerInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @toBeLocked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toBeLocked};
-            var ___result = RMSetObjectsLockedByThisTracker_List_d_Object_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_SetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @toBeLocked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @toBeLocked};
-            var ___result = RMInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetObjectsLockedByThisTrackerInternal(System.Object @toBeLocked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toBeLocked};
-            var ___result = RMSetObjectsLockedByThisTrackerInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 Internal_GetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index};
-            var ___result = RMInternal_GetVisible_ActiveEditorTracker_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetVisible(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetVisible_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void Internal_SetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index, System.Int32 @visible)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index, @visible};
-            var ___result = RMInternal_SetVisible_ActiveEditorTracker_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVisible(System.Int32 @index, System.Int32 @visible)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @visible};
-            var ___result = RMSetVisible_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Internal_GetIsDirty(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetIsDirty_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_ClearDirty(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_ClearDirty_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Internal_GetIsLocked(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetIsLocked_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_SetIsLocked(UnityEditor.ActiveEditorTracker @self, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @value};
-            var ___result = RMInternal_SetIsLocked_ActiveEditorTracker_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Internal_GetDelayFlushDirtyRebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_GetDelayFlushDirtyRebuild.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_SetDelayFlushDirtyRebuild(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMInternal_SetDelayFlushDirtyRebuild_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEditor.InspectorMode Internal_GetInspectorMode(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetInspectorMode_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.InspectorMode>(___result);
-        }
-
-
-        public static void Internal_SetInspectorMode(UnityEditor.ActiveEditorTracker @self, UnityEditor.InspectorMode @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @value};
-            var ___result = RMInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Internal_GetHasComponentsWhichCannotBeMultiEdited(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_RebuildIfNecessary(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_RebuildIfNecessary_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RebuildIfNecessary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuildIfNecessary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_RebuildAllIfNecessary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_RebuildAllIfNecessary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void RebuildAllIfNecessary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuildAllIfNecessary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_ForceRebuild(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_ForceRebuild_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ForceRebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMForceRebuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_VerifyModifiedMonoBehaviours(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void VerifyModifiedMonoBehaviours()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMVerifyModifiedMonoBehaviours.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEditor.Editor MakeCustomEditor(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMMakeCustomEditor_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public static System.Boolean HasCustomEditor(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMHasCustomEditor_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SetupSharedTracker(UnityEditor.ActiveEditorTracker @sharedTracker)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sharedTracker};
-            var ___result = RMSetupSharedTracker_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_OnTrackerRebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_OnTrackerRebuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static void Internal_Create(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_Create_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void Internal_Dispose(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_Dispose_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_Destroy(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_Destroy_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Destroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDestroy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Array Internal_GetActiveEditors(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_GetActiveEditors_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Array>(___result);
+		}
+
+
+		public static void Internal_GetActiveEditorsNonAlloc(UnityEditor.ActiveEditorTracker @self, UnityEditor.Editor[] @editors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @editors};
+			var ___result = RMInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @lockedObjects)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lockedObjects};
+			var ___result = RMGetObjectsLockedByThisTracker_List_d_Object_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_GetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @lockedObjects)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @lockedObjects};
+			var ___result = RMInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetObjectsLockedByThisTrackerInternal(System.Object @lockedObjects)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lockedObjects};
+			var ___result = RMGetObjectsLockedByThisTrackerInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @toBeLocked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toBeLocked};
+			var ___result = RMSetObjectsLockedByThisTracker_List_d_Object_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_SetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @toBeLocked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @toBeLocked};
+			var ___result = RMInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetObjectsLockedByThisTrackerInternal(System.Object @toBeLocked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toBeLocked};
+			var ___result = RMSetObjectsLockedByThisTrackerInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 Internal_GetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index};
+			var ___result = RMInternal_GetVisible_ActiveEditorTracker_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetVisible(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetVisible_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void Internal_SetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index, System.Int32 @visible)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index, @visible};
+			var ___result = RMInternal_SetVisible_ActiveEditorTracker_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVisible(System.Int32 @index, System.Int32 @visible)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @visible};
+			var ___result = RMSetVisible_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Internal_GetIsDirty(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_GetIsDirty_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void Internal_ClearDirty(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_ClearDirty_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearDirty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Internal_GetIsLocked(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_GetIsLocked_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void Internal_SetIsLocked(UnityEditor.ActiveEditorTracker @self, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @value};
+			var ___result = RMInternal_SetIsLocked_ActiveEditorTracker_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Internal_GetDelayFlushDirtyRebuild()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_GetDelayFlushDirtyRebuild.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void Internal_SetDelayFlushDirtyRebuild(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMInternal_SetDelayFlushDirtyRebuild_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEditor.InspectorMode Internal_GetInspectorMode(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_GetInspectorMode_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.InspectorMode>(___result);
+		}
+
+
+		public static void Internal_SetInspectorMode(UnityEditor.ActiveEditorTracker @self, UnityEditor.InspectorMode @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @value};
+			var ___result = RMInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Internal_GetHasComponentsWhichCannotBeMultiEdited(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void Internal_RebuildIfNecessary(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_RebuildIfNecessary_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RebuildIfNecessary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuildIfNecessary.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_RebuildAllIfNecessary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_RebuildAllIfNecessary.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void RebuildAllIfNecessary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuildAllIfNecessary.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_ForceRebuild(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_ForceRebuild_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ForceRebuild()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMForceRebuild.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_VerifyModifiedMonoBehaviours(UnityEditor.ActiveEditorTracker @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void VerifyModifiedMonoBehaviours()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMVerifyModifiedMonoBehaviours.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEditor.Editor MakeCustomEditor(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMMakeCustomEditor_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public static System.Boolean HasCustomEditor(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMHasCustomEditor_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void SetupSharedTracker(UnityEditor.ActiveEditorTracker @sharedTracker)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sharedTracker};
+			var ___result = RMSetupSharedTracker_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_OnTrackerRebuild()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_OnTrackerRebuild.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

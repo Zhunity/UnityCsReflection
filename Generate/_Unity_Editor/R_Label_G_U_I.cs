@@ -438,195 +438,149 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnLostFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnLostFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InvalidateLabels()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateLabels.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InvalidateLabels()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateLabels.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AssetLabelsChangedForObject(UnityEngine.Object @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset};
-            var ___result = RMAssetLabelsChangedForObject_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AssetLabelsChangedForObject(UnityEngine.Object @asset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset};
+			var ___result = RMAssetLabelsChangedForObject_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SaveLabels()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveLabels.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SaveLabels()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSaveLabels.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AssetLabelListCallback(Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element.Value};
-            var ___result = RMAssetLabelListCallback_ListElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AssetLabelListCallback(Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element.Value};
+			var ___result = RMAssetLabelListCallback_ListElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InitLabelCache(UnityEngine.Object[] @assets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets};
-            var ___result = RMInitLabelCache_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitLabelCache(UnityEngine.Object[] @assets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets};
+			var ___result = RMInitLabelCache_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnLabelGUI(UnityEngine.Object[] @assets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets};
-            var ___result = RMOnLabelGUI_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnLabelGUI(UnityEngine.Object[] @assets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets};
+			var ___result = RMOnLabelGUI_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawLabelList(System.Boolean @partiallySelected, System.Single @xMax)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@partiallySelected, @xMax};
-            var ___result = RMDrawLabelList_Boolean_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawLabelList(System.Boolean @partiallySelected, System.Single @xMax)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@partiallySelected, @xMax};
+			var ___result = RMDrawLabelList_Boolean_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetLabelsForAssets(UnityEngine.Object[] @assets, out System.Collections.Generic.List<System.String> @all, out System.Collections.Generic.List<System.String> @partial)
-        {
+		public virtual void GetLabelsForAssets(UnityEngine.Object[] @assets, out System.Collections.Generic.List<System.String> @all, out System.Collections.Generic.List<System.String> @partial)
+		{
 			@all = default;
 			@partial = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets, @all, @partial};
-            var ___result = RMGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets, @all, @partial};
+			var ___result = RMGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_.Invoke(___genericsType, ___parameters);
 			@all = ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___parameters[1]);
 			@partial = ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -1126,578 +1126,458 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromCertFile(System.String @filename)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filename};
-            var ___result = RMCreateFromCertFile_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
-        }
+		public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromCertFile(System.String @filename)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filename};
+			var ___result = RMCreateFromCertFile_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
+		}
 
 
-        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromSignedFile(System.String @filename)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filename};
-            var ___result = RMCreateFromSignedFile_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
-        }
+		public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromSignedFile(System.String @filename)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filename};
+			var ___result = RMCreateFromSignedFile_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
+		}
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_X509Certificate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_X509Certificate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentType};
-            var ___result = RMExport_X509ContentType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentType};
+			var ___result = RMExport_X509ContentType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.String @password)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentType, @password};
-            var ___result = RMExport_X509ContentType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.String @password)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentType, @password};
+			var ___result = RMExport_X509ContentType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.Security.SecureString @password)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentType, @password};
-            var ___result = RMExport_X509ContentType_SecureString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.Security.SecureString @password)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentType, @password};
+			var ___result = RMExport_X509ContentType_SecureString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.String GetRawCertDataString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawCertDataString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String GetRawCertDataString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawCertDataString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Byte[] GetCertHash()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCertHash.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] GetCertHash()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCertHash.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Byte[] GetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hashAlgorithm};
-            var ___result = RMGetCertHash_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] GetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hashAlgorithm};
+			var ___result = RMGetCertHash_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryGetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hashAlgorithm, @destination.Value, @bytesWritten};
-            var ___result = RMTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hashAlgorithm, @destination.Value, @bytesWritten};
+			var ___result = RMTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetCertHashString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCertHashString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetCertHashString(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hashAlgorithm};
-            var ___result = RMGetCertHashString_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Byte[] GetRawCertHash()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawCertHash.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String GetEffectiveDateString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEffectiveDateString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetExpirationDateString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExpirationDateString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetFormat()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetPublicKeyString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPublicKeyString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Byte[] GetRawCertData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawCertData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String GetKeyAlgorithm()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeyAlgorithm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Byte[] GetKeyAlgorithmParameters()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeyAlgorithmParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String GetKeyAlgorithmParametersString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeyAlgorithmParametersString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Byte[] GetPublicKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPublicKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] GetSerialNumber()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerialNumber.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String GetSerialNumberString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerialNumberString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Byte[] GetRawSerialNumber()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawSerialNumber.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String GetName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetIssuerName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIssuerName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.Boolean @fVerbose)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fVerbose};
-            var ___result = RMToString_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Import(System.Byte[] @rawData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rawData};
-            var ___result = RMImport_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Import(System.Byte[] @rawData, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rawData, @password, @keyStorageFlags};
-            var ___result = RMImport_ByteArray_String_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Import(System.Byte[] @rawData, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rawData, @password, @keyStorageFlags};
-            var ___result = RMImport_ByteArray_SecureString_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Import(System.String @fileName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName};
-            var ___result = RMImport_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Import(System.String @fileName, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName, @password, @keyStorageFlags};
-            var ___result = RMImport_String_String_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Import(System.String @fileName, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName, @password, @keyStorageFlags};
-            var ___result = RMImport_String_SecureString_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.DateTime GetNotAfter()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNotAfter.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime GetNotBefore()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNotBefore.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.String FormatDate(System.DateTime @date)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@date};
-            var ___result = RMFormatDate_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static void ValidateKeyStorageFlags(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyStorageFlags};
-            var ___result = RMValidateKeyStorageFlags_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void VerifyContentType(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentType};
-            var ___result = RMVerifyContentType_X509ContentType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ImportHandle(Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @impl)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@impl.Value};
-            var ___result = RMImportHandle_X509CertificateImpl.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowIfInvalid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowIfInvalid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetCertHashString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCertHashString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetCertHashString(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hashAlgorithm};
+			var ___result = RMGetCertHashString_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Byte[] GetRawCertHash()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawCertHash.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String GetEffectiveDateString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEffectiveDateString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetExpirationDateString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExpirationDateString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetFormat()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetPublicKeyString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPublicKeyString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Byte[] GetRawCertData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawCertData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String GetKeyAlgorithm()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeyAlgorithm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Byte[] GetKeyAlgorithmParameters()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeyAlgorithmParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String GetKeyAlgorithmParametersString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeyAlgorithmParametersString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Byte[] GetPublicKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPublicKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] GetSerialNumber()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerialNumber.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String GetSerialNumberString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerialNumberString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Byte[] GetRawSerialNumber()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawSerialNumber.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String GetName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetIssuerName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIssuerName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.Boolean @fVerbose)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fVerbose};
+			var ___result = RMToString_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Import(System.Byte[] @rawData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rawData};
+			var ___result = RMImport_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Import(System.Byte[] @rawData, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rawData, @password, @keyStorageFlags};
+			var ___result = RMImport_ByteArray_String_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Import(System.Byte[] @rawData, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rawData, @password, @keyStorageFlags};
+			var ___result = RMImport_ByteArray_SecureString_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Import(System.String @fileName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName};
+			var ___result = RMImport_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Import(System.String @fileName, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName, @password, @keyStorageFlags};
+			var ___result = RMImport_String_String_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Import(System.String @fileName, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName, @password, @keyStorageFlags};
+			var ___result = RMImport_String_SecureString_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.DateTime GetNotAfter()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNotAfter.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime GetNotBefore()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNotBefore.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.String FormatDate(System.DateTime @date)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@date};
+			var ___result = RMFormatDate_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static void ValidateKeyStorageFlags(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyStorageFlags};
+			var ___result = RMValidateKeyStorageFlags_X509KeyStorageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void VerifyContentType(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentType};
+			var ___result = RMVerifyContentType_X509ContentType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ImportHandle(Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @impl)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@impl.Value};
+			var ___result = RMImportHandle_X509CertificateImpl.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowIfInvalid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowIfInvalid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -70,26 +70,21 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMCanDispatchEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMCanDispatchEvent_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void DispatchEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @panel};
-            var ___result = RMDispatchEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DispatchEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @panel};
+			var ___result = RMDispatchEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

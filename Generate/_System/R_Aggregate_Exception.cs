@@ -630,226 +630,177 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Exception GetBaseException()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBaseException.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
+		public virtual System.Exception GetBaseException()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBaseException.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
 
 
-        public virtual void Handle(System.Func<System.Exception, System.Boolean> @predicate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@predicate};
-            var ___result = RMHandle_Func_d_Exception_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Handle(System.Func<System.Exception, System.Boolean> @predicate)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@predicate};
+			var ___result = RMHandle_Func_d_Exception_Boolean_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.AggregateException Flatten()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlatten.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.AggregateException>(___result);
-        }
+		public virtual System.AggregateException Flatten()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlatten.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.AggregateException>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void AddExceptionDataForRestrictedErrorInfo(System.String @restrictedError, System.String @restrictedErrorReference, System.String @restrictedCapabilitySid, System.Object @restrictedErrorObject, System.Boolean @hasrestrictedLanguageErrorObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@restrictedError, @restrictedErrorReference, @restrictedCapabilitySid, @restrictedErrorObject, @hasrestrictedLanguageErrorObject};
-            var ___result = RMAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddExceptionDataForRestrictedErrorInfo(System.String @restrictedError, System.String @restrictedErrorReference, System.String @restrictedCapabilitySid, System.Object @restrictedErrorObject, System.Boolean @hasrestrictedLanguageErrorObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@restrictedError, @restrictedErrorReference, @restrictedCapabilitySid, @restrictedErrorObject, @hasrestrictedLanguageErrorObject};
+			var ___result = RMAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryGetRestrictedLanguageErrorObject(out System.Object @restrictedErrorObject)
-        {
+		public virtual System.Boolean TryGetRestrictedLanguageErrorObject(out System.Object @restrictedErrorObject)
+		{
 			@restrictedErrorObject = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@restrictedErrorObject};
-            var ___result = RMTryGetRestrictedLanguageErrorObject_Out_Object.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@restrictedErrorObject};
+			var ___result = RMTryGetRestrictedLanguageErrorObject_Out_Object.Invoke(___genericsType, ___parameters);
 			@restrictedErrorObject = ReflectionUtils.Convert<System.Object>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetErrorCode(System.Int32 @hr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hr};
-            var ___result = RMSetErrorCode_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Exception PrepForRemoting()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPrepForRemoting.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
+		public virtual void SetErrorCode(System.Int32 @hr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hr};
+			var ___result = RMSetErrorCode_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InternalPreserveStackTrace()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalPreserveStackTrace.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Exception PrepForRemoting()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPrepForRemoting.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
 
 
-        public virtual void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo @exceptionDispatchInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@exceptionDispatchInfo};
-            var ___result = RMRestoreExceptionDispatchInfo_ExceptionDispatchInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InternalPreserveStackTrace()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalPreserveStackTrace.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String InternalToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo @exceptionDispatchInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@exceptionDispatchInfo};
+			var ___result = RMRestoreExceptionDispatchInfo_ExceptionDispatchInfo.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.String InternalToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void SetMessage(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMSetMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual void SetStackTrace(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMSetStackTrace_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetMessage(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMSetMessage_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Exception FixRemotingException()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFixRemotingException.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
+		public virtual void SetStackTrace(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMSetStackTrace_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Exception FixRemotingException()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFixRemotingException.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

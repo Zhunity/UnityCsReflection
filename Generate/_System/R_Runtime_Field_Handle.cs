@@ -310,170 +310,135 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Boolean IsNullHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsNullHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsNullHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsNullHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.RuntimeFieldHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEquals_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.RuntimeFieldHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEquals_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void SetValueInternal(System.Reflection.FieldInfo @fi, System.Object @obj, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fi, @obj, @value};
-            var ___result = RMSetValueInternal_FieldInfo_Object_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetValueInternal(System.Reflection.FieldInfo @fi, System.Object @obj, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fi, @obj, @value};
+			var ___result = RMSetValueInternal_FieldInfo_Object_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void SetValue(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, System.Object @obj, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, System.Reflection.FieldAttributes @fieldAttr, Hvak.Editor.Refleaction.RSystem.RRuntimeType @declaringType, ref System.Boolean @domainInitialized)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@field.Value, @obj, @value, @fieldType.Value, @fieldAttr, @declaringType.Value, @domainInitialized};
-            var ___result = RMSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean.Invoke(___genericsType, ___parameters);
+		public static void SetValue(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, System.Object @obj, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, System.Reflection.FieldAttributes @fieldAttr, Hvak.Editor.Refleaction.RSystem.RRuntimeType @declaringType, ref System.Boolean @domainInitialized)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@field.Value, @obj, @value, @fieldType.Value, @fieldAttr, @declaringType.Value, @domainInitialized};
+			var ___result = RMSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean.Invoke(___genericsType, ___parameters);
 			@domainInitialized = ReflectionUtils.Convert<System.Boolean>(___parameters[6]);
-
-            
-        }
+		}
 
 
-        public unsafe static System.Object GetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @contextType.Value};
-            var ___result = RMGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public unsafe static System.Object GetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @contextType.Value};
+			var ___result = RMGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public unsafe static void SetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @value, @contextType.Value};
-            var ___result = RMSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public unsafe static void SetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @value, @contextType.Value};
+			var ___result = RMSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -214,26 +214,22 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		}
 
 
-        public virtual System.Object GetArg(System.Int32 @argNum)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@argNum};
-            var ___result = RMGetArg_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetArg(System.Int32 @argNum)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@argNum};
+			var ___result = RMGetArg_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String GetArgName(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetArgName_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String GetArgName(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetArgName_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

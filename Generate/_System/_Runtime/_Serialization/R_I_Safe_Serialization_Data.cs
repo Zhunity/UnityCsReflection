@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		}
 
 
-        public virtual void CompleteDeserialization(System.Object @deserialized)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@deserialized};
-            var ___result = RMCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CompleteDeserialization(System.Object @deserialized)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@deserialized};
+			var ___result = RMCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

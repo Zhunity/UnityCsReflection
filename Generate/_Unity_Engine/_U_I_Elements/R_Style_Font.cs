@@ -278,125 +278,102 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFont @lhs, UnityEngine.UIElements.StyleFont @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_StyleFont_StyleFont.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFont @lhs, UnityEngine.UIElements.StyleFont @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_StyleFont_StyleFont.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleFont @lhs, UnityEngine.UIElements.StyleFont @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_StyleFont_StyleFont.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleFont @lhs, UnityEngine.UIElements.StyleFont @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_StyleFont_StyleFont.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.StyleFont op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMop_Implicit_StyleKeyword.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
-        }
+		public static UnityEngine.UIElements.StyleFont op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMop_Implicit_StyleKeyword.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.StyleFont op_Implicit(UnityEngine.Font @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Font.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
-        }
+		public static UnityEngine.UIElements.StyleFont op_Implicit(UnityEngine.Font @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v};
+			var ___result = RMop_Implicit_Font.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleFont @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_StyleFont.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(UnityEngine.UIElements.StyleFont @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_StyleFont.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

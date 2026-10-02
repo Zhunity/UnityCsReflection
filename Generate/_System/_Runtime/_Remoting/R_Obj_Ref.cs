@@ -502,169 +502,135 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		}
 
 
-        public virtual System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 @domainId, System.Byte[] @tInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@domainId, @tInfo};
-            var ___result = RMDeserializeInTheCurrentDomain_Int32_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
-        }
+		public virtual System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 @domainId, System.Byte[] @tInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@domainId, @tInfo};
+			var ___result = RMDeserializeInTheCurrentDomain_Int32_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
+		}
 
 
-        public virtual System.Byte[] SerializeType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSerializeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] SerializeType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSerializeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Boolean IsPossibleToCAD()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsPossibleToCAD.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsPossibleToCAD()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsPossibleToCAD.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object GetRealObject(System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@context};
-            var ___result = RMGetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetRealObject(System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@context};
+			var ___result = RMGetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Boolean IsFromThisAppDomain()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsFromThisAppDomain.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsFromThisAppDomain()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsFromThisAppDomain.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsFromThisProcess()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsFromThisProcess.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsFromThisProcess()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsFromThisProcess.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void UpdateChannelInfo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateChannelInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateChannelInfo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateChannelInfo.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetDomainID(System.Int32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMSetDomainID_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetDomainID(System.Int32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id};
+			var ___result = RMSetDomainID_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

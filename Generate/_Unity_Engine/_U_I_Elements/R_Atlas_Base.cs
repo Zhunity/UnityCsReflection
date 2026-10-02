@@ -358,217 +358,167 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
-        {
+		public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
+		{
 			@atlas = default;
 			@atlasRect = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
-            var ___result = RMTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
+			var ___result = RMTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
 			@atlas = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[2]);
 			@atlasRect = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
+		public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx, @src, @atlas.Value};
+			var ___result = RMReturnAtlas_VisualElement_Texture2D_TextureId.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx, @src, @atlas.Value};
-            var ___result = RMReturnAtlas_VisualElement_Texture2D_TextureId.Invoke(___genericsType, ___parameters);
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void OnAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMOnAssignedToPanel_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMOnAssignedToPanel_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMOnRemovedFromPanel_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMOnUpdateDynamicTextures_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMInvokeAssignedToPanel_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMInvokeRemovedFromPanel_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMInvokeUpdateDynamicTextures_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void RepaintTexturedElements(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMRepaintTexturedElements_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocateDynamicTexture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocateDynamicTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
-        }
-
-
-        public virtual void FreeDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMFreeDynamicTexture_TextureId.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @texture};
-            var ___result = RMSetDynamicTexture_TextureId_Texture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMOnRemovedFromPanel_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMOnUpdateDynamicTextures_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMInvokeAssignedToPanel_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMInvokeRemovedFromPanel_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMInvokeUpdateDynamicTextures_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void RepaintTexturedElements(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMRepaintTexturedElements_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocateDynamicTexture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocateDynamicTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
+		}
+
+
+		public virtual void FreeDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMFreeDynamicTexture_TextureId.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @texture};
+			var ___result = RMSetDynamicTexture_TextureId_Texture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

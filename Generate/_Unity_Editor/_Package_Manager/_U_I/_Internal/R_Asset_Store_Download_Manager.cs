@@ -854,334 +854,251 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI)
-        {
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@application.Value, @httpClientFactory.Value, @unityConnect.Value, @ioProxy.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value};
+			var ___result = RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterDownloadDelegate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRegisterDownloadDelegate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnRegisterDownloadDelegate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnRegisterDownloadDelegate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsAnyDownloadInProgress()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAnyDownloadInProgress.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Download(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMDownload_IPackage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation GetDownloadOperation(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMGetDownloadOperation_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation>(___result);
+		}
+
+
+		public virtual void SetupDownloadOperation(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation @operation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@operation.Value};
+			var ___result = RMSetupDownloadOperation_AssetStoreDownloadOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDownloadFinalized(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @operation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@operation.Value};
+			var ___result = RMOnDownloadFinalized_IOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveDownloadOperation(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMRemoveDownloadOperation_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDownloadProgress(System.String @downloadId, System.String @message, System.UInt64 @bytes, System.UInt64 @total, System.Int32 @errorCode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@downloadId, @message, @bytes, @total, @errorCode};
+			var ___result = RMOnDownloadProgress_String_String_UInt64_UInt64_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AbortAllDownloads()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAbortAllDownloads.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AbortDownload(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMAbortDownload_String.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@application.Value, @httpClientFactory.Value, @unityConnect.Value, @ioProxy.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI.Invoke(___genericsType, ___parameters);
+
+		public virtual void PauseDownload(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMPauseDownload_String.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
+
+		public virtual void ResumeDownload(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMResumeDownload_String.Invoke(___genericsType, ___parameters);
+		}
 
-
-        public virtual void RegisterDownloadDelegate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRegisterDownloadDelegate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnRegisterDownloadDelegate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnRegisterDownloadDelegate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsAnyDownloadInProgress()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnyDownloadInProgress.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Download(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMDownload_IPackage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation GetDownloadOperation(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMGetDownloadOperation_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation>(___result);
-        }
-
-
-        public virtual void SetupDownloadOperation(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadOperation @operation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@operation.Value};
-            var ___result = RMSetupDownloadOperation_AssetStoreDownloadOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDownloadFinalized(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @operation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@operation.Value};
-            var ___result = RMOnDownloadFinalized_IOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveDownloadOperation(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMRemoveDownloadOperation_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDownloadProgress(System.String @downloadId, System.String @message, System.UInt64 @bytes, System.UInt64 @total, System.Int32 @errorCode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@downloadId, @message, @bytes, @total, @errorCode};
-            var ___result = RMOnDownloadProgress_String_String_UInt64_UInt64_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AbortAllDownloads()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAbortAllDownloads.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AbortDownload(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMAbortDownload_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PauseDownload(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMPauseDownload_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResumeDownload(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMResumeDownload_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPlayModeStateChanged(UnityEditor.PlayModeStateChange @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMOnPlayModeStateChanged_PlayModeStateChange.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnUserLoginStateChange(System.Boolean @userInfoReady, System.Boolean @loggedIn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@userInfoReady, @loggedIn};
-            var ___result = RMOnUserLoginStateChange_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupDownloadOperation__1__b__34_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupDownloadOperation__1__b__34_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__34_1_IOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupDownloadOperation__1__b__34_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__34_2_IOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+
+		public virtual void OnPlayModeStateChanged(UnityEditor.PlayModeStateChange @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMOnPlayModeStateChanged_PlayModeStateChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnUserLoginStateChange(System.Boolean @userInfoReady, System.Boolean @loggedIn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@userInfoReady, @loggedIn};
+			var ___result = RMOnUserLoginStateChange_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupDownloadOperation__1__b__34_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value, @error.Value};
+			var ___result = RM__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupDownloadOperation__1__b__34_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value};
+			var ___result = RM__0__SetupDownloadOperation__1__b__34_1_IOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupDownloadOperation__1__b__34_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value};
+			var ___result = RM__0__SetupDownloadOperation__1__b__34_2_IOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

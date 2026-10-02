@@ -646,191 +646,146 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		}
 
 
-        public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawSecurityDescriptor @rawSecurityDescriptor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isContainer, @isDS, @rawSecurityDescriptor};
-            var ___result = RMInit_Boolean_Boolean_RawSecurityDescriptor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.ControlFlags @flags, System.Security.Principal.SecurityIdentifier @owner, System.Security.Principal.SecurityIdentifier @group, System.Security.AccessControl.SystemAcl @systemAcl, System.Security.AccessControl.DiscretionaryAcl @discretionaryAcl)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isContainer, @isDS, @flags, @owner, @group, @systemAcl, @discretionaryAcl};
-            var ___result = RMInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PurgeAccessControl(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMPurgeAccessControl_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PurgeAudit(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMPurgeAudit_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetDiscretionaryAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isProtected, @preserveInheritance};
-            var ___result = RMSetDiscretionaryAclProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSystemAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isProtected, @preserveInheritance};
-            var ___result = RMSetSystemAclProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddDiscretionaryAcl(System.Byte @revision, System.Int32 @trusted)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@revision, @trusted};
-            var ___result = RMAddDiscretionaryAcl_Byte_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddSystemAcl(System.Byte @revision, System.Int32 @trusted)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@revision, @trusted};
-            var ___result = RMAddSystemAcl_Byte_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckAclConsistency(System.Security.AccessControl.CommonAcl @acl)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@acl};
-            var ___result = RMCheckAclConsistency_CommonAcl.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeSections};
-            var ___result = RMGetSddlForm_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawSecurityDescriptor @rawSecurityDescriptor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isContainer, @isDS, @rawSecurityDescriptor};
+			var ___result = RMInit_Boolean_Boolean_RawSecurityDescriptor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.ControlFlags @flags, System.Security.Principal.SecurityIdentifier @owner, System.Security.Principal.SecurityIdentifier @group, System.Security.AccessControl.SystemAcl @systemAcl, System.Security.AccessControl.DiscretionaryAcl @discretionaryAcl)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isContainer, @isDS, @flags, @owner, @group, @systemAcl, @discretionaryAcl};
+			var ___result = RMInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PurgeAccessControl(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMPurgeAccessControl_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PurgeAudit(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMPurgeAudit_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetDiscretionaryAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isProtected, @preserveInheritance};
+			var ___result = RMSetDiscretionaryAclProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSystemAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isProtected, @preserveInheritance};
+			var ___result = RMSetSystemAclProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddDiscretionaryAcl(System.Byte @revision, System.Int32 @trusted)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@revision, @trusted};
+			var ___result = RMAddDiscretionaryAcl_Byte_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddSystemAcl(System.Byte @revision, System.Int32 @trusted)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@revision, @trusted};
+			var ___result = RMAddSystemAcl_Byte_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckAclConsistency(System.Security.AccessControl.CommonAcl @acl)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@acl};
+			var ___result = RMCheckAclConsistency_CommonAcl.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @offset};
+			var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeSections};
+			var ___result = RMGetSddlForm_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

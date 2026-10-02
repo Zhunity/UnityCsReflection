@@ -166,92 +166,72 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Int32 StartTrackingAsset(T @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset};
-            var ___result = RMStartTrackingAsset_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 StartTrackingAsset(T @asset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset};
+			var ___result = RMStartTrackingAsset_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void StopTrackingAsset(T @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset};
-            var ___result = RMStopTrackingAsset_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void StopTrackingAsset(T @asset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset};
+			var ___result = RMStopTrackingAsset_T.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean IsTrackingAsset(T @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset};
-            var ___result = RMIsTrackingAsset_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsTrackingAsset(T @asset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset};
+			var ___result = RMIsTrackingAsset_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsTrackingAssets()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsTrackingAssets.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsTrackingAssets()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsTrackingAssets.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean CheckTrackedAssetsDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckTrackedAssetsDirty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CheckTrackedAssetsDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckTrackedAssetsDirty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void UpdateAssetDirtyCount(T @asset, System.Int32 @newDirtyCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset, @newDirtyCount};
-            var ___result = RMUpdateAssetDirtyCount_T_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateAssetDirtyCount(T @asset, System.Int32 @newDirtyCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset, @newDirtyCount};
+			var ___result = RMUpdateAssetDirtyCount_T_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnAssetsImported(System.Collections.Generic.HashSet<T> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@changedAssets, @deletedAssets};
-            var ___result = RMOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnAssetsImported(System.Collections.Generic.HashSet<T> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@changedAssets, @deletedAssets};
+			var ___result = RMOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnTrackedAssetChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnTrackedAssetChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnTrackedAssetChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnTrackedAssetChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

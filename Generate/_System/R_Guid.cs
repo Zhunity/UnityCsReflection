@@ -918,511 +918,423 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static System.Guid NewGuid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNewGuid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+		public static System.Guid NewGuid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNewGuid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
 
 
-        public static System.Guid Parse(System.String @input)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+		public static System.Guid Parse(System.String @input)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
 
 
-        public static System.Guid Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+		public static System.Guid Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
 
 
-        public static System.Boolean TryParse(System.String @input, out System.Guid @result)
-        {
+		public static System.Boolean TryParse(System.String @input, out System.Guid @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result};
-            var ___result = RMTryParse_String_Out_Guid.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result};
+			var ___result = RMTryParse_String_Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Guid>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, out System.Guid @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, out System.Guid @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Guid>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Guid ParseExact(System.String @input, System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format};
-            var ___result = RMParseExact_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Guid ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @format.Value};
-            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+		public static System.Guid ParseExact(System.String @input, System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format};
+			var ___result = RMParseExact_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
 
 
-        public static System.Boolean TryParseExact(System.String @input, System.String @format, out System.Guid @result)
-        {
+		public static System.Guid ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @format.Value};
+			var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
+
+
+		public static System.Boolean TryParseExact(System.String @input, System.String @format, out System.Guid @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format, @result};
-            var ___result = RMTryParseExact_String_String_Out_Guid.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format, @result};
+			var ___result = RMTryParseExact_String_String_Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Guid>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, out System.Guid @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, out System.Guid @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @format.Value, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @format.Value, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Guid>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseGuid(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles @flags, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@guidString.Value, @flags.Value, @result.Value};
-            var ___result = RMTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+		public static System.Boolean TryParseGuid(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles @flags, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@guidString.Value, @flags.Value, @result.Value};
+			var ___result = RMTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseGuidWithHexPrefix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RMTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+		public static System.Boolean TryParseGuidWithHexPrefix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@guidString.Value, @result.Value};
+			var ___result = RMTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseGuidWithNoStyle(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RMTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+		public static System.Boolean TryParseGuidWithNoStyle(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@guidString.Value, @result.Value};
+			var ___result = RMTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseGuidWithDashes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RMTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+		public static System.Boolean TryParseGuidWithDashes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @guidString, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@guidString.Value, @result.Value};
+			var ___result = RMTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StringToShort(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
-        {
+		public static System.Boolean StringToShort(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
+			var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Int16>(___parameters[3]);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StringToShort(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
-        {
+		public static System.Boolean StringToShort(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
+			var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@result = ReflectionUtils.Convert<System.Int16>(___parameters[4]);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[5]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StringToInt(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
-        {
+		public static System.Boolean StringToInt(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
+			var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StringToInt(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
-        {
+		public static System.Boolean StringToInt(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
+			var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@result = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[5]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StringToLong(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @flags, out System.Int64 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
-        {
+		public static System.Boolean StringToLong(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @flags, out System.Int64 @result, ref Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult @parseResult)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @parsePos, @flags, @result, @parseResult.Value};
-            var ___result = RMStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @parsePos, @flags, @result, @parseResult.Value};
+			var ___result = RMStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@result = ReflectionUtils.Convert<System.Int64>(___parameters[3]);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGuid.RGuidResult>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> EatAllWhitespace(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value};
+			var ___result = RMEatAllWhitespace_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public static System.Boolean IsHexPrefix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @i)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str.Value, @i};
+			var ___result = RMIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void WriteByteHelper(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value};
+			var ___result = RMWriteByteHelper_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Byte[] ToByteArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Boolean TryWriteBytes(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value};
+			var ___result = RMTryWriteBytes_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Guid @g)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@g};
+			var ___result = RMEquals_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetResult(System.UInt32 @me, System.UInt32 @them)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@me, @them};
+			var ___result = RMGetResult_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> EatAllWhitespace(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value};
-            var ___result = RMEatAllWhitespace_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public static System.Boolean IsHexPrefix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @str, System.Int32 @i)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str.Value, @i};
-            var ___result = RMIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void WriteByteHelper(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value};
-            var ___result = RMWriteByteHelper_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Byte[] ToByteArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Boolean TryWriteBytes(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value};
-            var ___result = RMTryWriteBytes_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Guid @g)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@g};
-            var ___result = RMEquals_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetResult(System.UInt32 @me, System.UInt32 @them)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@me, @them};
-            var ___result = RMGetResult_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Guid @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Guid @a, System.Guid @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Equality_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.Guid @a, System.Guid @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Inequality_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Char HexToChar(System.Int32 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMHexToChar_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public unsafe static System.Int32 HexsToChars(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
-            var ___result = RMHexsToChars_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe static System.Int32 HexsToCharsHexOutput(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
-            var ___result = RMHexsToCharsHexOutput_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @provider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format)
-        {
+		public virtual System.Int32 CompareTo(System.Guid @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.Guid @a, System.Guid @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Equality_Guid_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.Guid @a, System.Guid @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Inequality_Guid_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Char HexToChar(System.Int32 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMHexToChar_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public unsafe static System.Int32 HexsToChars(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
+			var ___result = RMHexsToChars_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe static System.Int32 HexsToCharsHexOutput(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
+			var ___result = RMHexsToCharsHexOutput_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @provider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
-        {
+		public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
-            var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+			var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Byte[] FastNewGuidArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFastNewGuidArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static System.Byte[] FastNewGuidArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFastNewGuidArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

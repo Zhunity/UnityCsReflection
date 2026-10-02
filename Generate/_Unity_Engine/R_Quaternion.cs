@@ -1222,761 +1222,608 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromDirection, @toDirection};
-            var ___result = RMFromToRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromDirection, @toDirection};
+			var ___result = RMFromToRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion Inverse(UnityEngine.Quaternion @rotation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation};
-            var ___result = RMInverse_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion Inverse(UnityEngine.Quaternion @rotation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation};
+			var ___result = RMInverse_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion Slerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMSlerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion Slerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMSlerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMSlerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMSlerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion Lerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion Lerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMInternal_FromEulerRad_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMInternal_FromEulerRad_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion @rotation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation};
-            var ___result = RMInternal_ToEulerRad_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
+		public static UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion @rotation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation};
+			var ___result = RMInternal_ToEulerRad_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
 
 
-        public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
-        {
+		public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
+		{
 			@axis = default;
 			@angle = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@q, @axis, @angle};
-            var ___result = RMInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@q, @axis, @angle};
+			var ___result = RMInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
 			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@angle = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-
-            
-        }
-
-
-        public static UnityEngine.Quaternion AngleAxis(System.Single @angle, UnityEngine.Vector3 @axis)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@angle, @axis};
-            var ___result = RMAngleAxis_Single_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward, UnityEngine.Vector3 @upwards)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@forward, @upwards};
-            var ___result = RMLookRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@forward};
-            var ___result = RMLookRotation_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newX, @newY, @newZ, @newW};
-            var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Multiply_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion @rotation, UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation, @point};
-            var ___result = RMop_Multiply_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public static System.Boolean IsEqualUsingDot(System.Single @dot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dot};
-            var ___result = RMIsEqualUsingDot_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Single Dot(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMDot_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void SetLookRotation(UnityEngine.Vector3 @view)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view};
-            var ___result = RMSetLookRotation_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetLookRotation(UnityEngine.Vector3 @view, UnityEngine.Vector3 @up)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view, @up};
-            var ___result = RMSetLookRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Single Angle(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMAngle_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMInternal_MakePositive_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion Euler(System.Single @x, System.Single @y, System.Single @z)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @z};
-            var ___result = RMEuler_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion Euler(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMEuler_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void ToAngleAxis(out System.Single @angle, out UnityEngine.Vector3 @axis)
-        {
+		}
+
+
+		public static UnityEngine.Quaternion AngleAxis(System.Single @angle, UnityEngine.Vector3 @axis)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@angle, @axis};
+			var ___result = RMAngleAxis_Single_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward, UnityEngine.Vector3 @upwards)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@forward, @upwards};
+			var ___result = RMLookRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@forward};
+			var ___result = RMLookRotation_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newX, @newY, @newZ, @newW};
+			var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Multiply_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion @rotation, UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation, @point};
+			var ___result = RMop_Multiply_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public static System.Boolean IsEqualUsingDot(System.Single @dot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dot};
+			var ___result = RMIsEqualUsingDot_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Single Dot(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMDot_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void SetLookRotation(UnityEngine.Vector3 @view)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view};
+			var ___result = RMSetLookRotation_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetLookRotation(UnityEngine.Vector3 @view, UnityEngine.Vector3 @up)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view, @up};
+			var ___result = RMSetLookRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Single Angle(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMAngle_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMInternal_MakePositive_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion Euler(System.Single @x, System.Single @y, System.Single @z)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @z};
+			var ___result = RMEuler_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion Euler(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMEuler_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void ToAngleAxis(out System.Single @angle, out UnityEngine.Vector3 @axis)
+		{
 			@angle = default;
 			@axis = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@angle, @axis};
-            var ___result = RMToAngleAxis_Out_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@angle, @axis};
+			var ___result = RMToAngleAxis_Out_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@angle = ReflectionUtils.Convert<System.Single>(___parameters[0]);
 			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual void SetFromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromDirection, @toDirection};
-            var ___result = RMSetFromToRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Single @maxDegreesDelta)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @maxDegreesDelta};
-            var ___result = RMRotateTowards_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion Normalize(UnityEngine.Quaternion @q)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@q};
-            var ___result = RMNormalize_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void Normalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.Quaternion @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion EulerRotation(System.Single @x, System.Single @y, System.Single @z)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @z};
-            var ___result = RMEulerRotation_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMEulerRotation_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void SetEulerRotation(System.Single @x, System.Single @y, System.Single @z)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @z};
-            var ___result = RMSetEulerRotation_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetEulerRotation(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMSetEulerRotation_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector3 ToEuler()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToEuler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion EulerAngles(System.Single @x, System.Single @y, System.Single @z)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @z};
-            var ___result = RMEulerAngles_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public static UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMEulerAngles_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void ToAxisAngle(out UnityEngine.Vector3 @axis, out System.Single @angle)
-        {
+		}
+
+
+		public virtual void SetFromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromDirection, @toDirection};
+			var ___result = RMSetFromToRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Single @maxDegreesDelta)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @maxDegreesDelta};
+			var ___result = RMRotateTowards_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion Normalize(UnityEngine.Quaternion @q)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@q};
+			var ___result = RMNormalize_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void Normalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.Quaternion @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion EulerRotation(System.Single @x, System.Single @y, System.Single @z)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @z};
+			var ___result = RMEulerRotation_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMEulerRotation_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void SetEulerRotation(System.Single @x, System.Single @y, System.Single @z)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @z};
+			var ___result = RMSetEulerRotation_Single_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetEulerRotation(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMSetEulerRotation_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector3 ToEuler()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToEuler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion EulerAngles(System.Single @x, System.Single @y, System.Single @z)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @z};
+			var ___result = RMEulerAngles_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public static UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMEulerAngles_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void ToAxisAngle(out UnityEngine.Vector3 @axis, out System.Single @angle)
+		{
 			@axis = default;
 			@angle = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@axis, @angle};
-            var ___result = RMToAxisAngle_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@axis, @angle};
+			var ___result = RMToAxisAngle_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
 			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@angle = ReflectionUtils.Convert<System.Single>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetEulerAngles(System.Single @x, System.Single @y, System.Single @z)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @z};
-            var ___result = RMSetEulerAngles_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetEulerAngles(System.Single @x, System.Single @y, System.Single @z)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @z};
+			var ___result = RMSetEulerAngles_Single_Single_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetEulerAngles(UnityEngine.Vector3 @euler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler};
-            var ___result = RMSetEulerAngles_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetEulerAngles(UnityEngine.Vector3 @euler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler};
+			var ___result = RMSetEulerAngles_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion @rotation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation};
-            var ___result = RMToEulerAngles_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
+		public static UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion @rotation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation};
+			var ___result = RMToEulerAngles_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
 
 
-        public virtual UnityEngine.Vector3 ToEulerAngles()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToEulerAngles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
+		public virtual UnityEngine.Vector3 ToEulerAngles()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToEulerAngles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
 
 
-        public virtual void SetAxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@axis, @angle};
-            var ___result = RMSetAxisAngle_Vector3_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetAxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@axis, @angle};
+			var ___result = RMSetAxisAngle_Vector3_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@axis, @angle};
-            var ___result = RMAxisAngle_Vector3_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public static UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@axis, @angle};
+			var ___result = RMAxisAngle_Vector3_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public static void FromToRotation_Injected(ref UnityEngine.Vector3 @fromDirection, ref UnityEngine.Vector3 @toDirection, out UnityEngine.Quaternion @ret)
-        {
+		public static void FromToRotation_Injected(ref UnityEngine.Vector3 @fromDirection, ref UnityEngine.Vector3 @toDirection, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromDirection, @toDirection, @ret};
-            var ___result = RMFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromDirection, @toDirection, @ret};
+			var ___result = RMFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@fromDirection = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@toDirection = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void Inverse_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Quaternion @ret)
-        {
+		public static void Inverse_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation, @ret};
-            var ___result = RMInverse_Injected_Ref_Quaternion_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation, @ret};
+			var ___result = RMInverse_Injected_Ref_Quaternion_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@rotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Slerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
-        {
+		public static void Slerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t, @ret};
-            var ___result = RMSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t, @ret};
+			var ___result = RMSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
-        {
+		public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t, @ret};
-            var ___result = RMSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t, @ret};
+			var ___result = RMSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void Lerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
-        {
+		public static void Lerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t, @ret};
-            var ___result = RMLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t, @ret};
+			var ___result = RMLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
-        {
+		public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t, @ret};
-            var ___result = RMLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t, @ret};
+			var ___result = RMLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 @euler, out UnityEngine.Quaternion @ret)
-        {
+		public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 @euler, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@euler, @ret};
-            var ___result = RMInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@euler, @ret};
+			var ___result = RMInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@euler = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Vector3 @ret)
-        {
+		public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotation, @ret};
-            var ___result = RMInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotation, @ret};
+			var ___result = RMInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@rotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
-        {
+		public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
+		{
 			@axis = default;
 			@angle = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@q, @axis, @angle};
-            var ___result = RMInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@q, @axis, @angle};
+			var ___result = RMInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
 			@q = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
 			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@angle = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void AngleAxis_Injected(System.Single @angle, ref UnityEngine.Vector3 @axis, out UnityEngine.Quaternion @ret)
-        {
+		public static void AngleAxis_Injected(System.Single @angle, ref UnityEngine.Vector3 @axis, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@angle, @axis, @ret};
-            var ___result = RMAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@angle, @axis, @ret};
+			var ___result = RMAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void LookRotation_Injected(ref UnityEngine.Vector3 @forward, ref UnityEngine.Vector3 @upwards, out UnityEngine.Quaternion @ret)
-        {
+		public static void LookRotation_Injected(ref UnityEngine.Vector3 @forward, ref UnityEngine.Vector3 @upwards, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@forward, @upwards, @ret};
-            var ___result = RMLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@forward, @upwards, @ret};
+			var ___result = RMLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@forward = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@upwards = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

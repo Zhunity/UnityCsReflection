@@ -1046,147 +1046,115 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static System.String GetAppBase(System.String @appBase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@appBase};
-            var ___result = RMGetAppBase_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String GetAppBase(System.String @appBase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@appBase};
+			var ___result = RMGetAppBase_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Byte[] GetConfigurationBytes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetConfigurationBytes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] GetConfigurationBytes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetConfigurationBytes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual void SetConfigurationBytes(System.Byte[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetConfigurationBytes_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetConfigurationBytes(System.Byte[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetConfigurationBytes_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DeserializeNonPrimitives()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeserializeNonPrimitives.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DeserializeNonPrimitives()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeserializeNonPrimitives.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SerializeNonPrimitives()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSerializeNonPrimitives.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SerializeNonPrimitives()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSerializeNonPrimitives.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable<System.String> @switches)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@switches};
-            var ___result = RMSetCompatibilitySwitches_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable<System.String> @switches)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@switches};
+			var ___result = RMSetCompatibilitySwitches_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetNativeFunction(System.String @functionName, System.Int32 @functionVersion, System.IntPtr @functionPointer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@functionName, @functionVersion, @functionPointer};
-            var ___result = RMSetNativeFunction_String_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetNativeFunction(System.String @functionName, System.Int32 @functionVersion, System.IntPtr @functionPointer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@functionName, @functionVersion, @functionPointer};
+			var ___result = RMSetNativeFunction_String_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

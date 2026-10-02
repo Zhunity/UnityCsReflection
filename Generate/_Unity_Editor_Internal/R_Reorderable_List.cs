@@ -1782,500 +1782,388 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 
-        public static System.String GetParentListPath(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMGetParentListPath_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String GetParentListPath(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMGetParentListPath_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static void InvalidateParentCaches(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMInvalidateParentCaches_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void InvalidateParentCaches(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMInvalidateParentCaches_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean CheckForChildInvalidation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckForChildInvalidation.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CheckForChildInvalidation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckForChildInvalidation.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void InvalidateExistingListCaches()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateExistingListCaches.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void InvalidateExistingListCaches()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateExistingListCaches.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InitList(UnityEditor.SerializedObject @serializedObject, UnityEditor.SerializedProperty @elements, System.Collections.IList @elementList, System.Boolean @draggable, System.Boolean @displayHeader, System.Boolean @displayAddButton, System.Boolean @displayRemoveButton)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@serializedObject, @elements, @elementList, @draggable, @displayHeader, @displayAddButton, @displayRemoveButton};
-            var ___result = RMInitList_SerializedObject_SerializedProperty_IList_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitList(UnityEditor.SerializedObject @serializedObject, UnityEditor.SerializedProperty @elements, System.Collections.IList @elementList, System.Boolean @draggable, System.Boolean @displayHeader, System.Boolean @displayAddButton, System.Boolean @displayRemoveButton)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@serializedObject, @elements, @elementList, @draggable, @displayHeader, @displayAddButton, @displayRemoveButton};
+			var ___result = RMInitList_SerializedObject_SerializedProperty_IList_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void TryOverrideElementHeightWithPropertyDrawer(UnityEditor.SerializedProperty @property, ref System.Single @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @height};
-            var ___result = RMTryOverrideElementHeightWithPropertyDrawer_SerializedProperty_Ref_Single.Invoke(___genericsType, ___parameters);
+		public virtual void TryOverrideElementHeightWithPropertyDrawer(UnityEditor.SerializedProperty @property, ref System.Single @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @height};
+			var ___result = RMTryOverrideElementHeightWithPropertyDrawer_SerializedProperty_Ref_Single.Invoke(___genericsType, ___parameters);
 			@height = ReflectionUtils.Convert<System.Single>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual void CacheIfNeeded()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCacheIfNeeded.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvalidateCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvalidateCacheRecursive()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateCacheRecursive.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearSelection()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearSelection.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Select(System.Int32 @index, System.Boolean @append)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @append};
-            var ___result = RMSelect_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectRange(System.Int32 @indexFrom, System.Int32 @indexTo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexFrom, @indexTo};
-            var ___result = RMSelectRange_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsSelected(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMIsSelected_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Deselect(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMDeselect_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect GetContentRect(UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMGetContentRect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual System.Single GetElementYOffset(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetElementYOffset_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single GetElementYOffset(System.Int32 @index, System.Int32 @skipIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @skipIndex};
-            var ___result = RMGetElementYOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single GetElementHeight(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetElementHeight_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect GetRowRect(System.Int32 @index, UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @listRect};
-            var ___result = RMGetRowRect_Int32_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void DoLayoutList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoLayoutList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoList(UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMDoList_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoList(UnityEngine.Rect @rect, UnityEngine.Rect @visibleRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @visibleRect};
-            var ___result = RMDoList_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Single GetHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single GetListElementHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetListElementHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void DoListElements(UnityEngine.Rect @listRect, UnityEngine.Rect @visibleRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect, @visibleRect};
-            var ___result = RMDoListElements_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoListHeader(UnityEngine.Rect @headerRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@headerRect};
-            var ___result = RMDoListHeader_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoListFooter(UnityEngine.Rect @footerRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@footerRect};
-            var ___result = RMDoListFooter_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoDraggingAndSelection(UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect};
-            var ___result = RMDoDraggingAndSelection_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsMouseInsideActiveElement(UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect};
-            var ___result = RMIsMouseInsideActiveElement_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UpdateDraggedY(UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect};
-            var ___result = RMUpdateDraggedY_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Single GetClampedDragPosition(UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect};
-            var ___result = RMGetClampedDragPosition_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Int32 CalculateRowIndex(UnityEngine.Rect @listRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect};
-            var ___result = RMCalculateRowIndex_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetRowIndex(System.Single @localY, System.Boolean @skipActiveElement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localY, @skipActiveElement};
-            var ___result = RMGetRowIndex_Single_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsDragging()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsDragging.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GrabKeyboardFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGrabKeyboardFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReleaseKeyboardFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseKeyboardFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean HasKeyboardControl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasKeyboardControl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__CheckForChildInvalidation__1__b__58_0(System.String @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RM__0__CheckForChildInvalidation__1__b__58_0_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__DoDraggingAndSelection__1__b__128_0(System.Int32 @i)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@i};
-            var ___result = RM__0__DoDraggingAndSelection__1__b__128_0_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		}
+
+
+		public virtual void CacheIfNeeded()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCacheIfNeeded.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvalidateCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvalidateCacheRecursive()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateCacheRecursive.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearSelection()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearSelection.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Select(System.Int32 @index, System.Boolean @append)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @append};
+			var ___result = RMSelect_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectRange(System.Int32 @indexFrom, System.Int32 @indexTo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexFrom, @indexTo};
+			var ___result = RMSelectRange_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsSelected(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMIsSelected_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Deselect(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMDeselect_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect GetContentRect(UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMGetContentRect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual System.Single GetElementYOffset(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetElementYOffset_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Single GetElementYOffset(System.Int32 @index, System.Int32 @skipIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @skipIndex};
+			var ___result = RMGetElementYOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Single GetElementHeight(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetElementHeight_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect GetRowRect(System.Int32 @index, UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @listRect};
+			var ___result = RMGetRowRect_Int32_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void DoLayoutList()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoLayoutList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoList(UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMDoList_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoList(UnityEngine.Rect @rect, UnityEngine.Rect @visibleRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @visibleRect};
+			var ___result = RMDoList_Rect_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Single GetHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Single GetListElementHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetListElementHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void DoListElements(UnityEngine.Rect @listRect, UnityEngine.Rect @visibleRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect, @visibleRect};
+			var ___result = RMDoListElements_Rect_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoListHeader(UnityEngine.Rect @headerRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@headerRect};
+			var ___result = RMDoListHeader_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoListFooter(UnityEngine.Rect @footerRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@footerRect};
+			var ___result = RMDoListFooter_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoDraggingAndSelection(UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect};
+			var ___result = RMDoDraggingAndSelection_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsMouseInsideActiveElement(UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect};
+			var ___result = RMIsMouseInsideActiveElement_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UpdateDraggedY(UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect};
+			var ___result = RMUpdateDraggedY_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Single GetClampedDragPosition(UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect};
+			var ___result = RMGetClampedDragPosition_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Int32 CalculateRowIndex(UnityEngine.Rect @listRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect};
+			var ___result = RMCalculateRowIndex_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetRowIndex(System.Single @localY, System.Boolean @skipActiveElement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localY, @skipActiveElement};
+			var ___result = RMGetRowIndex_Single_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsDragging()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsDragging.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GrabKeyboardFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGrabKeyboardFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReleaseKeyboardFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReleaseKeyboardFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean HasKeyboardControl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasKeyboardControl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__CheckForChildInvalidation__1__b__58_0(System.String @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RM__0__CheckForChildInvalidation__1__b__58_0_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__DoDraggingAndSelection__1__b__128_0(System.Int32 @i)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@i};
+			var ___result = RM__0__DoDraggingAndSelection__1__b__128_0_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

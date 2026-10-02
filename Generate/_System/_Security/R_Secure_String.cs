@@ -454,213 +454,164 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 		}
 
 
-        public virtual void AppendChar(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMAppendChar_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.SecureString Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecureString>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InsertAt(System.Int32 @index, System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @c};
-            var ___result = RMInsertAt_Int32_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsReadOnly()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsReadOnly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void MakeReadOnly()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeReadOnly.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAt(System.Int32 @index, System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @c};
-            var ___result = RMSetAt_Int32_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Encrypt()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEncrypt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Decrypt()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDecrypt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Alloc(System.Int32 @length, System.Boolean @realloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@length, @realloc};
-            var ___result = RMAlloc_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Byte[] GetBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void AppendChar(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMAppendChar_Char.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.SecureString Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecureString>(___result);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InsertAt(System.Int32 @index, System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @c};
+			var ___result = RMInsertAt_Int32_Char.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsReadOnly()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsReadOnly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void MakeReadOnly()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeReadOnly.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAt(System.Int32 @index, System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @c};
+			var ___result = RMSetAt_Int32_Char.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Encrypt()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEncrypt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Decrypt()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDecrypt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Alloc(System.Int32 @length, System.Boolean @realloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@length, @realloc};
+			var ___result = RMAlloc_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Byte[] GetBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

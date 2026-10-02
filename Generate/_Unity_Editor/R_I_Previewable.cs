@@ -246,136 +246,104 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void Initialize(UnityEngine.Object[] @targets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targets};
-            var ___result = RMInitialize_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Initialize(UnityEngine.Object[] @targets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targets};
+			var ___result = RMInitialize_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Cleanup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Cleanup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean MoveNextTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveNextTarget.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean MoveNextTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveNextTarget.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ResetTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResetTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetTarget.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasPreviewGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasPreviewGUI.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasPreviewGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasPreviewGUI.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual UnityEngine.GUIContent GetPreviewTitle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPreviewTitle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
-        }
+		public virtual UnityEngine.GUIContent GetPreviewTitle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPreviewTitle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
+		}
 
 
-        public virtual void DrawPreview(UnityEngine.Rect @previewArea)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@previewArea};
-            var ___result = RMDrawPreview_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawPreview(UnityEngine.Rect @previewArea)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@previewArea};
+			var ___result = RMDrawPreview_Rect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r, @background};
-            var ___result = RMOnPreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r, @background};
+			var ___result = RMOnPreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r, @background};
-            var ___result = RMOnInteractivePreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r, @background};
+			var ___result = RMOnInteractivePreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnPreviewSettings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnPreviewSettings.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnPreviewSettings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnPreviewSettings.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String GetInfoString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInfoString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String GetInfoString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInfoString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void ReloadPreviewInstances()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReloadPreviewInstances.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ReloadPreviewInstances()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReloadPreviewInstances.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

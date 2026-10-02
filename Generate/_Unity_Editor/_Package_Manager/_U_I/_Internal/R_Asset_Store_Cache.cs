@@ -710,257 +710,198 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @systemIOProxy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@application.Value, @assetStoreUtils.Value, @httpClientFactory.Value, @systemIOProxy.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy_AssetStoreUtils_HttpClientFactory_IOProxy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetLastETag(System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetLastETag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void SetLastETag(System.String @key, System.String @etag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @etag};
-            var ___result = RMSetLastETag_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCategory(System.String @category, System.Int64 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@category, @count};
-            var ___result = RMSetCategory_String_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Texture2D LoadImage(System.Int64 @productId, System.String @url)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @url};
-            var ___result = RMLoadImage_Int64_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
-        }
-
-
-        public virtual void SaveImage(System.Int64 @productId, System.String @url, UnityEngine.Texture2D @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @url, @texture};
-            var ___result = RMSaveImage_Int64_String_Texture2D.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DownloadImageAsync(System.Int64 @productID, System.String @url, System.Action<System.Int64, UnityEngine.Texture2D> @doneCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productID, @url, @doneCallbackAction};
-            var ___result = RMDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo GetPurchaseInfo(System.String @productIdString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIdString};
-            var ___result = RMGetPurchaseInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo GetProductInfo(System.String @productIdString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIdString};
-            var ___result = RMGetProductInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo GetLocalInfo(System.String @productIdString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIdString};
-            var ___result = RMGetLocalInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo>(___result);
-        }
-
-
-        public virtual void SetPurchaseInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info.Value};
-            var ___result = RMSetPurchaseInfo_AssetStorePurchaseInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info.Value};
-            var ___result = RMSetProductInfo_AssetStoreProductInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetLocalInfos(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @localInfos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localInfos.Value};
-            var ___result = RMSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveProductInfo(System.String @productIdString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIdString};
-            var ___result = RMRemoveProductInfo_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @systemIOProxy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@application.Value, @assetStoreUtils.Value, @httpClientFactory.Value, @systemIOProxy.Value};
+			var ___result = RMResolveDependencies_ApplicationProxy_AssetStoreUtils_HttpClientFactory_IOProxy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetLastETag(System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetLastETag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void SetLastETag(System.String @key, System.String @etag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @etag};
+			var ___result = RMSetLastETag_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCategory(System.String @category, System.Int64 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@category, @count};
+			var ___result = RMSetCategory_String_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Texture2D LoadImage(System.Int64 @productId, System.String @url)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId, @url};
+			var ___result = RMLoadImage_Int64_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
+		}
+
+
+		public virtual void SaveImage(System.Int64 @productId, System.String @url, UnityEngine.Texture2D @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId, @url, @texture};
+			var ___result = RMSaveImage_Int64_String_Texture2D.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DownloadImageAsync(System.Int64 @productID, System.String @url, System.Action<System.Int64, UnityEngine.Texture2D> @doneCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productID, @url, @doneCallbackAction};
+			var ___result = RMDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo GetPurchaseInfo(System.String @productIdString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIdString};
+			var ___result = RMGetPurchaseInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo GetProductInfo(System.String @productIdString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIdString};
+			var ___result = RMGetProductInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo GetLocalInfo(System.String @productIdString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIdString};
+			var ___result = RMGetLocalInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo>(___result);
+		}
+
+
+		public virtual void SetPurchaseInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info.Value};
+			var ___result = RMSetPurchaseInfo_AssetStorePurchaseInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info.Value};
+			var ___result = RMSetProductInfo_AssetStoreProductInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetLocalInfos(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @localInfos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localInfos.Value};
+			var ___result = RMSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveProductInfo(System.String @productIdString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIdString};
+			var ___result = RMRemoveProductInfo_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

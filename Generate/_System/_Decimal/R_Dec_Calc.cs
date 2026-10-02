@@ -1000,458 +1000,370 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static System.UInt32 GetExponent(System.Single @f)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMGetExponent_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
+		public static System.UInt32 GetExponent(System.Single @f)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f};
+			var ___result = RMGetExponent_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static System.UInt32 GetExponent(System.Double @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMGetExponent_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
+		public static System.UInt32 GetExponent(System.Double @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMGetExponent_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static System.UInt64 UInt32x32To64(System.UInt32 @a, System.UInt32 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMUInt32x32To64_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
+		public static System.UInt64 UInt32x32To64(System.UInt32 @a, System.UInt32 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMUInt32x32To64_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
 
 
-        public static void UInt64x64To128(System.UInt64 @a, System.UInt64 @b, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @result.Value};
-            var ___result = RMUInt64x64To128_UInt64_UInt64_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+		public static void UInt64x64To128(System.UInt64 @a, System.UInt64 @b, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @result.Value};
+			var ___result = RMUInt64x64To128_UInt64_UInt64_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static System.UInt32 Div96By32(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @den)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @den};
-            var ___result = RMDiv96By32_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 Div96By32(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @den)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @den};
+			var ___result = RMDiv96By32_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static System.Boolean Div96ByConst(ref System.UInt64 @high64, ref System.UInt32 @low, System.UInt32 @pow)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@high64, @low, @pow};
-            var ___result = RMDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		public static System.Boolean Div96ByConst(ref System.UInt64 @high64, ref System.UInt32 @low, System.UInt32 @pow)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@high64, @low, @pow};
+			var ___result = RMDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 			@high64 = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
 			@low = ReflectionUtils.Convert<System.UInt32>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void Unscale(ref System.UInt32 @low, ref System.UInt64 @high64, ref System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@low, @high64, @scale};
-            var ___result = RMUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32.Invoke(___genericsType, ___parameters);
+		public static void Unscale(ref System.UInt32 @low, ref System.UInt64 @high64, ref System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@low, @high64, @scale};
+			var ___result = RMUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@low = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 			@high64 = ReflectionUtils.Convert<System.UInt64>(___parameters[1]);
 			@scale = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static System.UInt32 Div96By64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt64 @den)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @den};
-            var ___result = RMDiv96By64_Ref_Buf12_UInt64.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 Div96By64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt64 @den)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @den};
+			var ___result = RMDiv96By64_Ref_Buf12_UInt64.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static System.UInt32 Div128By96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16 @bufNum, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufDen)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @bufDen.Value};
-            var ___result = RMDiv128By96_Ref_Buf16_Ref_Buf12.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 Div128By96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16 @bufNum, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufDen)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @bufDen.Value};
+			var ___result = RMDiv128By96_Ref_Buf16_Ref_Buf12.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16>(___parameters[0]);
 			@bufDen = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[1]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static System.UInt32 IncreaseScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @power};
-            var ___result = RMIncreaseScale_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 IncreaseScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @power};
+			var ___result = RMIncreaseScale_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static void IncreaseScale64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @power};
-            var ___result = RMIncreaseScale64_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+		public static void IncreaseScale64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @power};
+			var ___result = RMIncreaseScale64_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public unsafe static System.Int32 ScaleResult(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf24> @bufRes, System.UInt32 @hiRes, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufRes.Value, @hiRes, @scale};
-            var ___result = RMScaleResult_Buf24Pointer_UInt32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public unsafe static System.Int32 ScaleResult(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf24> @bufRes, System.UInt32 @hiRes, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufRes.Value, @hiRes, @scale};
+			var ___result = RMScaleResult_Buf24Pointer_UInt32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public unsafe static System.UInt32 DivByConst(System.UInt32* @result, System.UInt32 @hiRes, out System.UInt32 @quotient, out System.UInt32 @remainder, System.UInt32 @power)
-        {
+		public unsafe static System.UInt32 DivByConst(System.UInt32* @result, System.UInt32 @hiRes, out System.UInt32 @quotient, out System.UInt32 @remainder, System.UInt32 @power)
+		{
 			@quotient = default;
 			@remainder = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@result, typeof(System.UInt32)), @hiRes, @quotient, @remainder, @power};
-            var ___result = RMDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@result, typeof(System.UInt32)), @hiRes, @quotient, @remainder, @power};
+			var ___result = RMDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 			@quotient = ReflectionUtils.Convert<System.UInt32>(___parameters[2]);
 			@remainder = ReflectionUtils.Convert<System.UInt32>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public static System.Int32 LeadingZeroCount(System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMLeadingZeroCount_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static System.Int32 OverflowUnscale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale, System.Boolean @sticky)
-        {
+		public static System.Int32 LeadingZeroCount(System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMLeadingZeroCount_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufQuo.Value, @scale, @sticky};
-            var ___result = RMOverflowUnscale_Ref_Buf12_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+		public static System.Int32 OverflowUnscale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale, System.Boolean @sticky)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufQuo.Value, @scale, @sticky};
+			var ___result = RMOverflowUnscale_Ref_Buf12_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@bufQuo = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int32 SearchScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufQuo.Value, @scale};
-            var ___result = RMSearchScale_Ref_Buf12_Int32.Invoke(___genericsType, ___parameters);
+		public static System.Int32 SearchScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufQuo.Value, @scale};
+			var ___result = RMSearchScale_Ref_Buf12_Int32.Invoke(___genericsType, ___parameters);
 			@bufQuo = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Boolean Add32To96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bufNum.Value, @value};
-            var ___result = RMAdd32To96_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+		public static System.Boolean Add32To96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bufNum.Value, @value};
+			var ___result = RMAdd32To96_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
 			@bufNum = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void DecAddSub(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Boolean @sign)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1.Value, @d2.Value, @sign};
-            var ___result = RMDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.Invoke(___genericsType, ___parameters);
+		public static void DecAddSub(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Boolean @sign)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1.Value, @d2.Value, @sign};
+			var ___result = RMDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.Int64 VarCyFromDec(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @pdecIn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pdecIn.Value};
-            var ___result = RMVarCyFromDec_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+		public static System.Int64 VarCyFromDec(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @pdecIn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pdecIn.Value};
+			var ___result = RMVarCyFromDec_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@pdecIn = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static System.Int32 VarDecCmp(in System.Decimal @d1, in System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMVarDecCmp_In_Decimal_In_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public static System.Int32 VarDecCmpSub(in System.Decimal @d1, in System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMVarDecCmpSub_In_Decimal_In_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 VarDecCmp(in System.Decimal @d1, in System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMVarDecCmp_In_Decimal_In_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static void VarDecMul(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
-        {
+		public static System.Int32 VarDecCmpSub(in System.Decimal @d1, in System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMVarDecCmpSub_In_Decimal_In_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1.Value, @d2.Value};
-            var ___result = RMVarDecMul_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+		public static void VarDecMul(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1.Value, @d2.Value};
+			var ___result = RMVarDecMul_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void VarDecFromR4(System.Single @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
-        {
+		public static void VarDecFromR4(System.Single @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result.Value};
-            var ___result = RMVarDecFromR4_Single_Out_DecCalc.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result.Value};
+			var ___result = RMVarDecFromR4_Single_Out_DecCalc.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void VarDecFromR8(System.Double @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
-        {
+		public static void VarDecFromR8(System.Double @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result.Value};
-            var ___result = RMVarDecFromR8_Double_Out_DecCalc.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result.Value};
+			var ___result = RMVarDecFromR8_Double_Out_DecCalc.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.Single VarR4FromDec(in System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMVarR4FromDec_In_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public static System.Single VarR4FromDec(in System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMVarR4FromDec_In_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public static System.Double VarR8FromDec(in System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMVarR8FromDec_In_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
+		public static System.Double VarR8FromDec(in System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMVarR8FromDec_In_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
 
 
-        public static System.Int32 GetHashCode(in System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMGetHashCode_In_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 GetHashCode(in System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMGetHashCode_In_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static void VarDecDiv(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1.Value, @d2.Value};
-            var ___result = RMVarDecDiv_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+		public static void VarDecDiv(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1.Value, @d2.Value};
+			var ___result = RMVarDecDiv_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void VarDecMod(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1.Value, @d2.Value};
-            var ___result = RMVarDecMod_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+		public static void VarDecMod(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1.Value, @d2.Value};
+			var ___result = RMVarDecMod_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void VarDecModFull(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1.Value, @d2.Value, @scale};
-            var ___result = RMVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.Invoke(___genericsType, ___parameters);
+		public static void VarDecModFull(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1.Value, @d2.Value, @scale};
+			var ___result = RMVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void InternalRound(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d, System.UInt32 @scale, Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d.Value, @scale, @mode.Value};
-            var ___result = RMInternalRound_Ref_DecCalc_UInt32_RoundingMode.Invoke(___genericsType, ___parameters);
+		public static void InternalRound(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d, System.UInt32 @scale, Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d.Value, @scale, @mode.Value};
+			var ___result = RMInternalRound_Ref_DecCalc_UInt32_RoundingMode.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.UInt32 DecDivMod1E9(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMDecDivMod1E9_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 DecDivMod1E9(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMDecDivMod1E9_Ref_DecCalc.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

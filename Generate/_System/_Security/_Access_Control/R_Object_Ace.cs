@@ -598,169 +598,135 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		}
 
 
-        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @offset};
+			var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Int32 MaxOpaqueLength(System.Boolean @isCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isCallback};
-            var ___result = RMMaxOpaqueLength_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 MaxOpaqueLength(System.Boolean @isCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isCallback};
+			var ___result = RMMaxOpaqueLength_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String GetSddlForm()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String GetSddlForm()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier @qualifier, System.Boolean @isCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@qualifier, @isCallback};
-            var ___result = RMConvertType_AceQualifier_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AceType>(___result);
-        }
+		public static System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier @qualifier, System.Boolean @isCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@qualifier, @isCallback};
+			var ___result = RMConvertType_AceQualifier_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AceType>(___result);
+		}
 
 
-        public virtual void WriteGuid(System.Guid @val, System.Byte[] @buffer, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@val, @buffer, @offset};
-            var ___result = RMWriteGuid_Guid_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void WriteGuid(System.Guid @val, System.Byte[] @buffer, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@val, @buffer, @offset};
+			var ___result = RMWriteGuid_Guid_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Guid ReadGuid(System.Byte[] @buffer, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset};
-            var ___result = RMReadGuid_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Guid>(___result);
-        }
+		public virtual System.Guid ReadGuid(System.Byte[] @buffer, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset};
+			var ___result = RMReadGuid_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Guid>(___result);
+		}
 
 
-        public virtual System.Byte[] GetOpaque()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetOpaque.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] GetOpaque()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetOpaque.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual void SetOpaque(System.Byte[] @opaque)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opaque};
-            var ___result = RMSetOpaque_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetOpaque(System.Byte[] @opaque)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opaque};
+			var ___result = RMSetOpaque_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Security.AccessControl.GenericAce Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
-        }
+		public virtual System.Security.AccessControl.GenericAce Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

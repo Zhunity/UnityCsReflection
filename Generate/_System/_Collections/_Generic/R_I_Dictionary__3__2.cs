@@ -150,50 +150,41 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual System.Boolean ContainsKey(TKey @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMContainsKey_TKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ContainsKey(TKey @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMContainsKey_TKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Add(TKey @key, TValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMAdd_TKey_TValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Add(TKey @key, TValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMAdd_TKey_TValue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Remove(TKey @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Remove(TKey @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
-        {
+		public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

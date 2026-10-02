@@ -294,158 +294,129 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 		}
 
 
-        public virtual System.Security.Policy.ApplicationTrust DetermineApplicationTrust(System.Security.Policy.Evidence @applicationEvidence, System.Security.Policy.Evidence @activatorEvidence, System.Security.Policy.TrustManagerContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@applicationEvidence, @activatorEvidence, @context};
-            var ___result = RMDetermineApplicationTrust_Evidence_Evidence_TrustManagerContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.ApplicationTrust>(___result);
-        }
+		public virtual System.Security.Policy.ApplicationTrust DetermineApplicationTrust(System.Security.Policy.Evidence @applicationEvidence, System.Security.Policy.Evidence @activatorEvidence, System.Security.Policy.TrustManagerContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@applicationEvidence, @activatorEvidence, @context};
+			var ___result = RMDetermineApplicationTrust_Evidence_Evidence_TrustManagerContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.ApplicationTrust>(___result);
+		}
 
 
-        public virtual System.Security.Policy.Evidence ProvideAppDomainEvidence(System.Security.Policy.Evidence @inputEvidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inputEvidence};
-            var ___result = RMProvideAppDomainEvidence_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
-        }
+		public virtual System.Security.Policy.Evidence ProvideAppDomainEvidence(System.Security.Policy.Evidence @inputEvidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inputEvidence};
+			var ___result = RMProvideAppDomainEvidence_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
+		}
 
 
-        public virtual System.Security.Policy.Evidence ProvideAssemblyEvidence(System.Reflection.Assembly @loadedAssembly, System.Security.Policy.Evidence @inputEvidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@loadedAssembly, @inputEvidence};
-            var ___result = RMProvideAssemblyEvidence_Assembly_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
-        }
+		public virtual System.Security.Policy.Evidence ProvideAssemblyEvidence(System.Reflection.Assembly @loadedAssembly, System.Security.Policy.Evidence @inputEvidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@loadedAssembly, @inputEvidence};
+			var ___result = RMProvideAssemblyEvidence_Assembly_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
+		}
 
 
-        public virtual System.Security.PermissionSet ResolvePolicy(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMResolvePolicy_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
-        }
+		public virtual System.Security.PermissionSet ResolvePolicy(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMResolvePolicy_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
+		}
 
 
-        public virtual System.Security.Policy.EvidenceBase GenerateAppDomainEvidence(System.Type @evidenceType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidenceType};
-            var ___result = RMGenerateAppDomainEvidence_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
-        }
+		public virtual System.Security.Policy.EvidenceBase GenerateAppDomainEvidence(System.Type @evidenceType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidenceType};
+			var ___result = RMGenerateAppDomainEvidence_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
+		}
 
 
-        public virtual System.Security.Policy.EvidenceBase GenerateAssemblyEvidence(System.Type @evidenceType, System.Reflection.Assembly @assembly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidenceType, @assembly};
-            var ___result = RMGenerateAssemblyEvidence_Type_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
-        }
+		public virtual System.Security.Policy.EvidenceBase GenerateAssemblyEvidence(System.Type @evidenceType, System.Reflection.Assembly @assembly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidenceType, @assembly};
+			var ___result = RMGenerateAssemblyEvidence_Type_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
+		}
 
 
-        public virtual System.Type[] GetHostSuppliedAppDomainEvidenceTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHostSuppliedAppDomainEvidenceTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
+		public virtual System.Type[] GetHostSuppliedAppDomainEvidenceTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHostSuppliedAppDomainEvidenceTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
 
 
-        public virtual System.Type[] GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly @assembly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assembly};
-            var ___result = RMGetHostSuppliedAssemblyEvidenceTypes_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
+		public virtual System.Type[] GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly @assembly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assembly};
+			var ___result = RMGetHostSuppliedAssemblyEvidenceTypes_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

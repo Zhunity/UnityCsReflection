@@ -614,257 +614,203 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public static void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void InvalidateListCacheIncludingChildren(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMInvalidateListCacheIncludingChildren_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleAttribute(UnityEditor.SerializedProperty @property, UnityEngine.PropertyAttribute @attribute, System.Reflection.FieldInfo @field, System.Type @propertyType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @attribute, @field, @propertyType};
-            var ___result = RMHandleAttribute_SerializedProperty_PropertyAttribute_FieldInfo_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleDrawnType(UnityEditor.SerializedProperty @property, System.Type @drawnType, System.Type @propertyType, System.Reflection.FieldInfo @field, UnityEngine.PropertyAttribute @attribute)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @drawnType, @propertyType, @field, @attribute};
-            var ___result = RMHandleDrawnType_SerializedProperty_Type_Type_FieldInfo_PropertyAttribute.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @property, @label, @includeChildren};
-            var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.Rect @visibleArea)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @property, @label, @includeChildren, @visibleArea};
-            var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean OnGUILayout(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.GUILayoutOption[] @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @label, @includeChildren, @options};
-            var ___result = RMOnGUILayout_SerializedProperty_GUIContent_Boolean_GUILayoutOptionArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Single GetHeight(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @label, @includeChildren};
-            var ___result = RMGetHeight_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property};
-            var ___result = RMCanCacheInspectorGUI_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddMenuItems(UnityEditor.SerializedProperty @property, UnityEditor.GenericMenu @menu)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @menu};
-            var ___result = RMAddMenuItems_SerializedProperty_GenericMenu.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CallMenuCallback(System.Object[] @targets, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targets, @method};
-            var ___result = RMCallMenuCallback_ObjectArray_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TestInvalidateCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTestInvalidateCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsNonStringArray(UnityEditor.SerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property};
-            var ___result = RMIsNonStringArray_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsArrayReorderable(UnityEditor.SerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property};
-            var ___result = RMIsArrayReorderable_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean UseReorderabelListControl(UnityEditor.SerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property};
-            var ___result = RMUseReorderabelListControl_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext ApplyNestingContext(System.Int32 @nestingLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nestingLevel};
-            var ___result = RMApplyNestingContext_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext IncrementNestingContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIncrementNestingContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void InvalidateListCacheIncludingChildren(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMInvalidateListCacheIncludingChildren_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void HandleAttribute(UnityEditor.SerializedProperty @property, UnityEngine.PropertyAttribute @attribute, System.Reflection.FieldInfo @field, System.Type @propertyType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @attribute, @field, @propertyType};
+			var ___result = RMHandleAttribute_SerializedProperty_PropertyAttribute_FieldInfo_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void HandleDrawnType(UnityEditor.SerializedProperty @property, System.Type @drawnType, System.Type @propertyType, System.Reflection.FieldInfo @field, UnityEngine.PropertyAttribute @attribute)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @drawnType, @propertyType, @field, @attribute};
+			var ___result = RMHandleDrawnType_SerializedProperty_Type_Type_FieldInfo_PropertyAttribute.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @property, @label, @includeChildren};
+			var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.Rect @visibleArea)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @property, @label, @includeChildren, @visibleArea};
+			var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean OnGUILayout(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.GUILayoutOption[] @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @label, @includeChildren, @options};
+			var ___result = RMOnGUILayout_SerializedProperty_GUIContent_Boolean_GUILayoutOptionArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Single GetHeight(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @label, @includeChildren};
+			var ___result = RMGetHeight_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty @property)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property};
+			var ___result = RMCanCacheInspectorGUI_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddMenuItems(UnityEditor.SerializedProperty @property, UnityEditor.GenericMenu @menu)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @menu};
+			var ___result = RMAddMenuItems_SerializedProperty_GenericMenu.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CallMenuCallback(System.Object[] @targets, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targets, @method};
+			var ___result = RMCallMenuCallback_ObjectArray_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void TestInvalidateCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTestInvalidateCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsNonStringArray(UnityEditor.SerializedProperty @property)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property};
+			var ___result = RMIsNonStringArray_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsArrayReorderable(UnityEditor.SerializedProperty @property)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property};
+			var ___result = RMIsArrayReorderable_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean UseReorderabelListControl(UnityEditor.SerializedProperty @property)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property};
+			var ___result = RMUseReorderabelListControl_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext ApplyNestingContext(System.Int32 @nestingLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nestingLevel};
+			var ___result = RMApplyNestingContext_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext IncrementNestingContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIncrementNestingContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

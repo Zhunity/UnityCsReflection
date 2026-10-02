@@ -70,15 +70,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		}
 
 
-        public virtual System.Boolean IsInRole(System.String @role)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@role};
-            var ___result = RMIsInRole_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsInRole(System.String @role)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@role};
+			var ___result = RMIsInRole_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

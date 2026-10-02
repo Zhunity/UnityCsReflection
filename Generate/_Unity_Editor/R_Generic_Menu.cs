@@ -390,202 +390,154 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction @func)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @on, @func.Value};
-            var ___result = RMAddItem_GUIContent_Boolean_MenuFunction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 @func, System.Object @userData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @on, @func.Value, @userData};
-            var ___result = RMAddItem_GUIContent_Boolean_MenuFunction2_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddDisabledItem(UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMAddDisabledItem_GUIContent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddDisabledItem(UnityEngine.GUIContent @content, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @on};
-            var ___result = RMAddDisabledItem_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddSeparator(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMAddSeparator_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetItemCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetItemCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void ShowAsContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowAsContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DropDown(UnityEngine.Rect @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMDropDown_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DropDown(UnityEngine.Rect @position, System.Boolean @shouldDiscardMenuOnSecondClick)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @shouldDiscardMenuOnSecondClick};
-            var ___result = RMDropDown_Rect_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Popup(UnityEngine.Rect @position, System.Int32 @selectedIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @selectedIndex};
-            var ___result = RMPopup_Rect_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CatchMenu(System.Object @userData, System.String[] @options, System.Int32 @selected)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@userData, @options, @selected};
-            var ___result = RMCatchMenu_Object_StringArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ObjectContextDropDown(UnityEngine.Rect @position, UnityEngine.Object[] @context, System.Int32 @contextUserData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @context, @contextUserData};
-            var ___result = RMObjectContextDropDown_Rect_ObjectArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction @func)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @on, @func.Value};
+			var ___result = RMAddItem_GUIContent_Boolean_MenuFunction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 @func, System.Object @userData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @on, @func.Value, @userData};
+			var ___result = RMAddItem_GUIContent_Boolean_MenuFunction2_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddDisabledItem(UnityEngine.GUIContent @content)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content};
+			var ___result = RMAddDisabledItem_GUIContent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddDisabledItem(UnityEngine.GUIContent @content, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @on};
+			var ___result = RMAddDisabledItem_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddSeparator(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMAddSeparator_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetItemCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetItemCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void ShowAsContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowAsContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DropDown(UnityEngine.Rect @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMDropDown_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DropDown(UnityEngine.Rect @position, System.Boolean @shouldDiscardMenuOnSecondClick)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @shouldDiscardMenuOnSecondClick};
+			var ___result = RMDropDown_Rect_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Popup(UnityEngine.Rect @position, System.Int32 @selectedIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @selectedIndex};
+			var ___result = RMPopup_Rect_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CatchMenu(System.Object @userData, System.String[] @options, System.Int32 @selected)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@userData, @options, @selected};
+			var ___result = RMCatchMenu_Object_StringArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ObjectContextDropDown(UnityEngine.Rect @position, UnityEngine.Object[] @context, System.Int32 @contextUserData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @context, @contextUserData};
+			var ___result = RMObjectContextDropDown_Rect_ObjectArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

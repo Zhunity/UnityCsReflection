@@ -454,224 +454,180 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual T GetPinnableReference()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPinnableReference.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Fill(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFill_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value};
-            var ___result = RMCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TryCopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value};
-            var ___result = RMTryCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Equality_Span_d_T_p__Span_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @span)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@span.Value};
-            var ___result = RMop_Implicit_Span_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start};
-            var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual T[] ToArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Inequality_Span_d_T_p__Span_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(T[] @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array};
-            var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(System.ArraySegment<T> @segment)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@segment};
-            var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual T GetPinnableReference()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPinnableReference.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Fill(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFill_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value};
+			var ___result = RMCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TryCopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value};
+			var ___result = RMTryCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Equality_Span_d_T_p__Span_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @span)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@span.Value};
+			var ___result = RMop_Implicit_Span_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start};
+			var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual T[] ToArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Inequality_Span_d_T_p__Span_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(T[] @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array};
+			var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(System.ArraySegment<T> @segment)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@segment};
+			var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

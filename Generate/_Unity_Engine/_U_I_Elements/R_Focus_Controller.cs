@@ -630,314 +630,243 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Boolean IsFocused(UnityEngine.UIElements.Focusable @f)
-        {
+		public virtual System.Boolean IsFocused(UnityEngine.UIElements.Focusable @f)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f};
+			var ___result = RMIsFocused_Focusable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Focusable GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@retargetAgainst};
+			var ___result = RMGetRetargetedFocusedElement_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Focusable GetLeafFocusedElement()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLeafFocusedElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
+
+
+		public virtual System.Boolean IsLocalElement(UnityEngine.UIElements.Focusable @f)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f};
+			var ___result = RMIsLocalElement_Focusable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ValidateInternalState(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMValidateInternalState_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearPendingFocusEvents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearPendingFocusEvents.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsPendingFocus(UnityEngine.UIElements.Focusable @f)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f};
+			var ___result = RMIsPendingFocus_Focusable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetFocusToLastFocusedElement()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetFocusToLastFocusedElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BlurLastFocusedElement()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlurLastFocusedElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoFocusChange(UnityEngine.UIElements.Focusable @f)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f};
+			var ___result = RMDoFocusChange_Focusable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection @direction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@direction};
+			var ___result = RMFocusNextInDirection_FocusChangeDirection.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
+
+
+		public virtual void AboutToReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focusable, @willGiveFocusTo, @direction, @dispatchMode.Value};
+			var ___result = RMAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMIsFocused_Focusable.Invoke(___genericsType, ___parameters);
+		public virtual void ReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focusable, @willGiveFocusTo, @direction, @dispatchMode.Value};
+			var ___result = RMReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
+		public virtual void AboutToGrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focusable, @willTakeFocusFrom, @direction, @dispatchMode.Value};
+			var ___result = RMAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual UnityEngine.UIElements.Focusable GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@retargetAgainst};
-            var ___result = RMGetRetargetedFocusedElement_VisualElement.Invoke(___genericsType, ___parameters);
+		public virtual void GrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focusable, @willTakeFocusFrom, @direction, @bIsFocusDelegated, @dispatchMode.Value};
+			var ___result = RMGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
 
+		public virtual void Blur(UnityEngine.UIElements.Focusable @focusable, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focusable, @bIsFocusDelegated, @dispatchMode.Value};
+			var ___result = RMBlur_Focusable_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual UnityEngine.UIElements.Focusable GetLeafFocusedElement()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLeafFocusedElement.Invoke(___genericsType, ___parameters);
+		public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newFocusedElement, @bIsFocusDelegated, @dispatchMode.Value};
+			var ___result = RMSwitchFocus_Focusable_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
 
+		public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newFocusedElement, @direction, @bIsFocusDelegated, @dispatchMode.Value};
+			var ___result = RMSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual System.Boolean IsLocalElement(UnityEngine.UIElements.Focusable @f)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMIsLocalElement_Focusable.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.UIElements.Focusable SwitchFocusOnEvent(UnityEngine.UIElements.EventBase @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSwitchFocusOnEvent_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
+		public virtual void ReevaluateFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReevaluateFocus.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void ValidateInternalState(UnityEngine.UIElements.IPanel @panel)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMValidateInternalState_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearPendingFocusEvents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearPendingFocusEvents.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsPendingFocus(UnityEngine.UIElements.Focusable @f)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMIsPendingFocus_Focusable.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetFocusToLastFocusedElement()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetFocusToLastFocusedElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BlurLastFocusedElement()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlurLastFocusedElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoFocusChange(UnityEngine.UIElements.Focusable @f)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMDoFocusChange_Focusable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection @direction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@direction};
-            var ___result = RMFocusNextInDirection_FocusChangeDirection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
-
-
-        public virtual void AboutToReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focusable, @willGiveFocusTo, @direction, @dispatchMode.Value};
-            var ___result = RMAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focusable, @willGiveFocusTo, @direction, @dispatchMode.Value};
-            var ___result = RMReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AboutToGrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focusable, @willTakeFocusFrom, @direction, @dispatchMode.Value};
-            var ___result = RMAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focusable, @willTakeFocusFrom, @direction, @bIsFocusDelegated, @dispatchMode.Value};
-            var ___result = RMGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blur(UnityEngine.UIElements.Focusable @focusable, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focusable, @bIsFocusDelegated, @dispatchMode.Value};
-            var ___result = RMBlur_Focusable_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newFocusedElement, @bIsFocusDelegated, @dispatchMode.Value};
-            var ___result = RMSwitchFocus_Focusable_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newFocusedElement, @direction, @bIsFocusDelegated, @dispatchMode.Value};
-            var ___result = RMSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.Focusable SwitchFocusOnEvent(UnityEngine.UIElements.EventBase @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSwitchFocusOnEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
-
-
-        public virtual void ReevaluateFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReevaluateFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable @target, out UnityEngine.UIElements.Focusable @effectiveTarget)
-        {
+		public virtual System.Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable @target, out UnityEngine.UIElements.Focusable @effectiveTarget)
+		{
 			@effectiveTarget = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @effectiveTarget};
-            var ___result = RMGetFocusableParentForPointerEvent_Focusable_Out_Focusable.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @effectiveTarget};
+			var ___result = RMGetFocusableParentForPointerEvent_Focusable_Out_Focusable.Invoke(___genericsType, ___parameters);
 			@effectiveTarget = ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SyncIMGUIFocus(System.Int32 @imguiKeyboardControlID, UnityEngine.UIElements.Focusable @imguiContainerHavingKeyboardControl, System.Boolean @forceSwitch)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@imguiKeyboardControlID, @imguiContainerHavingKeyboardControl, @forceSwitch};
-            var ___result = RMSyncIMGUIFocus_Int32_Focusable_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void SyncIMGUIFocus(System.Int32 @imguiKeyboardControlID, UnityEngine.UIElements.Focusable @imguiContainerHavingKeyboardControl, System.Boolean @forceSwitch)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@imguiKeyboardControlID, @imguiContainerHavingKeyboardControl, @forceSwitch};
+			var ___result = RMSyncIMGUIFocus_Int32_Focusable_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

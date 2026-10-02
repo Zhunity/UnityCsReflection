@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

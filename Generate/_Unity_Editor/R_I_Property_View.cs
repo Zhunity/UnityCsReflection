@@ -230,59 +230,48 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @headerOnGUI, System.String @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@headerOnGUI, @v};
-            var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
-        }
+		public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @headerOnGUI, System.String @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@headerOnGUI, @v};
+			var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
+		}
 
 
-        public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @target};
-            var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editor, @target};
+			var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors, @editorIndex, @target};
-            var ___result = RMWasEditorVisible_EditorArray_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors, @editorIndex, @target};
+			var ___result = RMWasEditorVisible_EditorArray_Int32_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors, @editorIndex};
-            var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors, @editorIndex};
+			var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Repaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Repaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

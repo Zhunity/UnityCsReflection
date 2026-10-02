@@ -5030,2120 +5030,1716 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
-        {
+		public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
+		{
 			@pcTInfo = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pcTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pcTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.TypeAttributes GetAttributeFlagsImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAttributeFlagsImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.TypeAttributes>(___result);
-        }
-
-
-        public virtual System.Boolean IsSubclassOf(System.Type @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMIsSubclassOf_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RTypeName GetFullName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFullName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypeName>(___result);
-        }
-
-
-        public virtual void AddDeclarativeSecurity(System.Security.Permissions.SecurityAction @action, System.Security.PermissionSet @pset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @pset};
-            var ___result = RMAddDeclarativeSecurity_SecurityAction_PermissionSet.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInterfaceImplementation(System.Type @interfaceType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@interfaceType};
-            var ___result = RMAddInterfaceImplementation_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo GetConstructorImpl(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inherit};
-            var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object[]>(___result);
-        }
-
-
-        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object[]>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMDefineNestedType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr};
-            var ___result = RMDefineNestedType_String_TypeAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces, System.Reflection.Emit.PackingSize @packSize, System.Int32 @typeSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent, @interfaces, @packSize, @typeSize};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent, @interfaces};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Int32 @typeSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent, @typeSize};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent, @packSize};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type_PackingSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packSize, System.Int32 @typeSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attr, @parent, @packSize, @typeSize};
-            var ___result = RMDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.ConstructorBuilder DefineConstructor(System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributes, @callingConvention, @parameterTypes};
-            var ___result = RMDefineConstructor_MethodAttributes_CallingConventions_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.ConstructorBuilder DefineConstructor(System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type[] @parameterTypes, System.Type[][] @requiredCustomModifiers, System.Type[][] @optionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributes, @callingConvention, @parameterTypes, @requiredCustomModifiers, @optionalCustomModifiers};
-            var ___result = RMDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.ConstructorBuilder DefineDefaultConstructor(System.Reflection.MethodAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributes};
-            var ___result = RMDefineDefaultConstructor_MethodAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
-        }
-
-
-        public virtual void append_method(System.Reflection.Emit.MethodBuilder @mb)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mb};
-            var ___result = RMappend_method_MethodBuilder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @returnType, @parameterTypes};
-            var ___result = RMDefineMethod_String_MethodAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @parameterTypes};
-            var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
-            var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.String @entryName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @dllName, @entryName, @attributes, @callingConvention, @returnType, @parameterTypes, @nativeCallConv, @nativeCharSet};
-            var ___result = RMDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.String @entryName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @dllName, @entryName, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers, @nativeCallConv, @nativeCharSet};
-            var ___result = RMDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @dllName, @attributes, @callingConvention, @returnType, @parameterTypes, @nativeCallConv, @nativeCharSet};
-            var ___result = RMDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes};
-            var ___result = RMDefineMethod_String_MethodAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @callingConvention};
-            var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
-        }
-
-
-        public virtual void DefineMethodOverride(System.Reflection.MethodInfo @methodInfoBody, System.Reflection.MethodInfo @methodInfoDeclaration)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodInfoBody, @methodInfoDeclaration};
-            var ___result = RMDefineMethodOverride_MethodInfo_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.Emit.FieldBuilder DefineField(System.String @fieldName, System.Type @type, System.Reflection.FieldAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldName, @type, @attributes};
-            var ___result = RMDefineField_String_Type_FieldAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.FieldBuilder DefineField(System.String @fieldName, System.Type @type, System.Type[] @requiredCustomModifiers, System.Type[] @optionalCustomModifiers, System.Reflection.FieldAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldName, @type, @requiredCustomModifiers, @optionalCustomModifiers, @attributes};
-            var ___result = RMDefineField_String_Type_TypeArray_TypeArray_FieldAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @returnType, @parameterTypes};
-            var ___result = RMDefineProperty_String_PropertyAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @parameterTypes};
-            var ___result = RMDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
-            var ___result = RMDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
-            var ___result = RMDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.ConstructorBuilder DefineTypeInitializer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDefineTypeInitializer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.TypeInfo create_runtime_class()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMcreate_runtime_class.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
-        }
-
-
-        public virtual System.Boolean is_nested_in(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMis_nested_in_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean has_ctor_method()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMhas_ctor_method.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Type CreateType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Reflection.TypeInfo CreateTypeInfo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateTypeInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
-        }
-
-
-        public virtual void ResolveUserTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveUserTypes.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ResolveUserTypes(System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@types};
-            var ___result = RMResolveUserTypes_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Type ResolveUserType(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMResolveUserType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32> @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo> @member_map)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token_map, @member_map};
-            var ___result = RMFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateDebugInfo(System.Diagnostics.SymbolStore.ISymbolWriter @symbolWriter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@symbolWriter};
-            var ___result = RMGenerateDebugInfo_ISymbolWriter.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo[] GetConstructors(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetConstructors_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo[] GetConstructorsInternal(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetConstructorsInternal_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
-        }
-
-
-        public virtual System.Type GetElementType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetElementType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Reflection.EventInfo GetEvent(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetEvent_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.EventInfo[] GetEvents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEvents.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.EventInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.EventInfo[] GetEvents(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetEvents_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.EventInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo GetField(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetField_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetFields_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
-        }
-
-
-        public virtual System.Type GetInterface(System.String @name, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @ignoreCase};
-            var ___result = RMGetInterface_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type[] GetInterfaces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInterfaces.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetMember(System.String @name, System.Reflection.MemberTypes @type, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @type, @bindingAttr};
-            var ___result = RMGetMember_String_MemberTypes_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetMembers(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetMembers_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo[] GetMethodsByName(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Boolean @ignoreCase, System.Type @reflected_type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @ignoreCase, @reflected_type};
-            var ___result = RMGetMethodsByName_String_BindingFlags_Boolean_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetMethods_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethodImpl(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Type GetNestedType(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetNestedType_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type[] GetNestedTypes(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetNestedTypes_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo[] GetProperties(System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr};
-            var ___result = RMGetProperties_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetPropertyImpl(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @binder, @returnType, @types, @modifiers};
-            var ___result = RMGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Boolean HasElementTypeImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasElementTypeImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args, System.Reflection.ParameterModifier[] @modifiers, System.Globalization.CultureInfo @culture, System.String[] @namedParameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args, @modifiers, @culture, @namedParameters};
-            var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean IsArrayImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsArrayImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsByRefImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsByRefImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsCOMObjectImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCOMObjectImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPointerImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsPointerImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPrimitiveImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsPrimitiveImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValueTypeImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValueTypeImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Type MakeArrayType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeArrayType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type MakeArrayType(System.Int32 @rank)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rank};
-            var ___result = RMMakeArrayType_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type MakeByRefType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeByRefType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type MakeGenericType(System.Type[] @typeArguments)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeArguments};
-            var ___result = RMMakeGenericType_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type MakePointerType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakePointerType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@customBuilder};
-            var ___result = RMSetCustomAttribute_CustomAttributeBuilder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo @con, System.Byte[] @binaryAttribute)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@con, @binaryAttribute};
-            var ___result = RMSetCustomAttribute_ConstructorInfo_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.Emit.EventBuilder DefineEvent(System.String @name, System.Reflection.EventAttributes @attributes, System.Type @eventtype)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @eventtype};
-            var ___result = RMDefineEvent_String_EventAttributes_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.EventBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.FieldBuilder DefineInitializedData(System.String @name, System.Byte[] @data, System.Reflection.FieldAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @data, @attributes};
-            var ___result = RMDefineInitializedData_String_ByteArray_FieldAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.FieldBuilder DefineUninitializedData(System.String @name, System.Int32 @size, System.Reflection.FieldAttributes @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @size, @attributes};
-            var ___result = RMDefineUninitializedData_String_Int32_FieldAttributes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
-        }
-
-
-        public virtual void SetParent(System.Type @parent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parent};
-            var ___result = RMSetParent_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 get_next_table_index(System.Object @obj, System.Int32 @table, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @table, @count};
-            var ___result = RMget_next_table_index_Object_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Reflection.InterfaceMapping GetInterfaceMap(System.Type @interfaceType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@interfaceType};
-            var ___result = RMGetInterfaceMap_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.InterfaceMapping>(___result);
-        }
-
-
-        public virtual System.Type InternalResolve()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalResolve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type RuntimeResolve()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRuntimeResolve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Exception not_supported()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMnot_supported.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
-
-
-        public virtual void check_not_created()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMcheck_not_created.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void check_created()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMcheck_created.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void check_name(System.String @argName, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@argName, @name};
-            var ___result = RMcheck_name_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsAssignableFrom(System.Type @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMIsAssignableFrom_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsAssignableTo(System.Type @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMIsAssignableTo_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsCreated()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCreated.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Type[] GetGenericArguments()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGenericArguments.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Type GetGenericTypeDefinition()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGenericTypeDefinition.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.GenericTypeParameterBuilder[] DefineGenericParameters(System.String[] @names)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@names};
-            var ___result = RMDefineGenericParameters_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.GenericTypeParameterBuilder[]>(___result);
-        }
-
-
-        public static System.Reflection.ConstructorInfo GetConstructor(System.Type @type, System.Reflection.ConstructorInfo @constructor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @constructor};
-            var ___result = RMGetConstructor_Type_ConstructorInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public static System.Boolean IsValidGetMethodType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMIsValidGetMethodType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Reflection.MethodInfo GetMethod(System.Type @type, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @method};
-            var ___result = RMGetMethod_Type_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public static System.Reflection.FieldInfo GetField(System.Type @type, System.Reflection.FieldInfo @field)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @field};
-            var ___result = RMGetField_Type_FieldInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
-        }
-
-
-        public virtual System.Boolean IsAssignableFrom(System.Reflection.TypeInfo @typeInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeInfo};
-            var ___result = RMIsAssignableFrom_TypeInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean SetConstantValue(System.Type @destType, System.Object @value, ref System.Object @destValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destType, @value, @destValue};
-            var ___result = RMSetConstantValue_Type_Object_Ref_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.TypeAttributes GetAttributeFlagsImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAttributeFlagsImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.TypeAttributes>(___result);
+		}
+
+
+		public virtual System.Boolean IsSubclassOf(System.Type @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMIsSubclassOf_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RTypeName GetFullName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFullName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypeName>(___result);
+		}
+
+
+		public virtual void AddDeclarativeSecurity(System.Security.Permissions.SecurityAction @action, System.Security.PermissionSet @pset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @pset};
+			var ___result = RMAddDeclarativeSecurity_SecurityAction_PermissionSet.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInterfaceImplementation(System.Type @interfaceType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@interfaceType};
+			var ___result = RMAddInterfaceImplementation_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo GetConstructorImpl(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributeType, @inherit};
+			var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inherit};
+			var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object[]>(___result);
+		}
+
+
+		public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributeType, @inherit};
+			var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object[]>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMDefineNestedType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr};
+			var ___result = RMDefineNestedType_String_TypeAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces, System.Reflection.Emit.PackingSize @packSize, System.Int32 @typeSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent, @interfaces, @packSize, @typeSize};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent, @interfaces};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Int32 @typeSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent, @typeSize};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent, @packSize};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type_PackingSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.TypeBuilder DefineNestedType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packSize, System.Int32 @typeSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attr, @parent, @packSize, @typeSize};
+			var ___result = RMDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.TypeBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.ConstructorBuilder DefineConstructor(System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributes, @callingConvention, @parameterTypes};
+			var ___result = RMDefineConstructor_MethodAttributes_CallingConventions_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.ConstructorBuilder DefineConstructor(System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type[] @parameterTypes, System.Type[][] @requiredCustomModifiers, System.Type[][] @optionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributes, @callingConvention, @parameterTypes, @requiredCustomModifiers, @optionalCustomModifiers};
+			var ___result = RMDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.ConstructorBuilder DefineDefaultConstructor(System.Reflection.MethodAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributes};
+			var ___result = RMDefineDefaultConstructor_MethodAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
+		}
+
+
+		public virtual void append_method(System.Reflection.Emit.MethodBuilder @mb)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mb};
+			var ___result = RMappend_method_MethodBuilder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @returnType, @parameterTypes};
+			var ___result = RMDefineMethod_String_MethodAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @parameterTypes};
+			var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
+			var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.String @entryName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @dllName, @entryName, @attributes, @callingConvention, @returnType, @parameterTypes, @nativeCallConv, @nativeCharSet};
+			var ___result = RMDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.String @entryName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @dllName, @entryName, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers, @nativeCallConv, @nativeCharSet};
+			var ___result = RMDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @dllName, @attributes, @callingConvention, @returnType, @parameterTypes, @nativeCallConv, @nativeCharSet};
+			var ___result = RMDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes};
+			var ___result = RMDefineMethod_String_MethodAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.MethodBuilder DefineMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @callingConvention};
+			var ___result = RMDefineMethod_String_MethodAttributes_CallingConventions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.MethodBuilder>(___result);
+		}
+
+
+		public virtual void DefineMethodOverride(System.Reflection.MethodInfo @methodInfoBody, System.Reflection.MethodInfo @methodInfoDeclaration)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodInfoBody, @methodInfoDeclaration};
+			var ___result = RMDefineMethodOverride_MethodInfo_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.Emit.FieldBuilder DefineField(System.String @fieldName, System.Type @type, System.Reflection.FieldAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldName, @type, @attributes};
+			var ___result = RMDefineField_String_Type_FieldAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.FieldBuilder DefineField(System.String @fieldName, System.Type @type, System.Type[] @requiredCustomModifiers, System.Type[] @optionalCustomModifiers, System.Reflection.FieldAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldName, @type, @requiredCustomModifiers, @optionalCustomModifiers, @attributes};
+			var ___result = RMDefineField_String_Type_TypeArray_TypeArray_FieldAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @returnType, @parameterTypes};
+			var ___result = RMDefineProperty_String_PropertyAttributes_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @parameterTypes};
+			var ___result = RMDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
+			var ___result = RMDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.PropertyBuilder DefineProperty(System.String @name, System.Reflection.PropertyAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @returnTypeRequiredCustomModifiers, System.Type[] @returnTypeOptionalCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @parameterTypeRequiredCustomModifiers, System.Type[][] @parameterTypeOptionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @callingConvention, @returnType, @returnTypeRequiredCustomModifiers, @returnTypeOptionalCustomModifiers, @parameterTypes, @parameterTypeRequiredCustomModifiers, @parameterTypeOptionalCustomModifiers};
+			var ___result = RMDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.PropertyBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.ConstructorBuilder DefineTypeInitializer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDefineTypeInitializer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.ConstructorBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.TypeInfo create_runtime_class()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMcreate_runtime_class.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
+		}
+
+
+		public virtual System.Boolean is_nested_in(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMis_nested_in_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean has_ctor_method()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMhas_ctor_method.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Type CreateType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Reflection.TypeInfo CreateTypeInfo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateTypeInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
+		}
+
+
+		public virtual void ResolveUserTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveUserTypes.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ResolveUserTypes(System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@types};
+			var ___result = RMResolveUserTypes_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Type ResolveUserType(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMResolveUserType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32> @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo> @member_map)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token_map, @member_map};
+			var ___result = RMFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateDebugInfo(System.Diagnostics.SymbolStore.ISymbolWriter @symbolWriter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@symbolWriter};
+			var ___result = RMGenerateDebugInfo_ISymbolWriter.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo[] GetConstructors(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetConstructors_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo[] GetConstructorsInternal(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetConstructorsInternal_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
+		}
+
+
+		public virtual System.Type GetElementType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetElementType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Reflection.EventInfo GetEvent(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetEvent_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.EventInfo[] GetEvents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEvents.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.EventInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.EventInfo[] GetEvents(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetEvents_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.EventInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo GetField(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetField_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetFields_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
+		}
+
+
+		public virtual System.Type GetInterface(System.String @name, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @ignoreCase};
+			var ___result = RMGetInterface_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type[] GetInterfaces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInterfaces.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetMember(System.String @name, System.Reflection.MemberTypes @type, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @type, @bindingAttr};
+			var ___result = RMGetMember_String_MemberTypes_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetMembers(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetMembers_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo[] GetMethodsByName(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Boolean @ignoreCase, System.Type @reflected_type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @ignoreCase, @reflected_type};
+			var ___result = RMGetMethodsByName_String_BindingFlags_Boolean_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetMethods_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethodImpl(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Type GetNestedType(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetNestedType_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type[] GetNestedTypes(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetNestedTypes_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo[] GetProperties(System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr};
+			var ___result = RMGetProperties_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetPropertyImpl(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @binder, @returnType, @types, @modifiers};
+			var ___result = RMGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Boolean HasElementTypeImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasElementTypeImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args, System.Reflection.ParameterModifier[] @modifiers, System.Globalization.CultureInfo @culture, System.String[] @namedParameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args, @modifiers, @culture, @namedParameters};
+			var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean IsArrayImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsArrayImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsByRefImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsByRefImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsCOMObjectImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCOMObjectImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsPointerImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsPointerImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsPrimitiveImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsPrimitiveImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsValueTypeImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsValueTypeImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Type MakeArrayType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeArrayType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type MakeArrayType(System.Int32 @rank)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rank};
+			var ___result = RMMakeArrayType_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type MakeByRefType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeByRefType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type MakeGenericType(System.Type[] @typeArguments)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeArguments};
+			var ___result = RMMakeGenericType_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type MakePointerType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakePointerType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@customBuilder};
+			var ___result = RMSetCustomAttribute_CustomAttributeBuilder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo @con, System.Byte[] @binaryAttribute)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@con, @binaryAttribute};
+			var ___result = RMSetCustomAttribute_ConstructorInfo_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.Emit.EventBuilder DefineEvent(System.String @name, System.Reflection.EventAttributes @attributes, System.Type @eventtype)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @eventtype};
+			var ___result = RMDefineEvent_String_EventAttributes_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.EventBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.FieldBuilder DefineInitializedData(System.String @name, System.Byte[] @data, System.Reflection.FieldAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @data, @attributes};
+			var ___result = RMDefineInitializedData_String_ByteArray_FieldAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.FieldBuilder DefineUninitializedData(System.String @name, System.Int32 @size, System.Reflection.FieldAttributes @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @size, @attributes};
+			var ___result = RMDefineUninitializedData_String_Int32_FieldAttributes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.FieldBuilder>(___result);
+		}
+
+
+		public virtual void SetParent(System.Type @parent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parent};
+			var ___result = RMSetParent_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 get_next_table_index(System.Object @obj, System.Int32 @table, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @table, @count};
+			var ___result = RMget_next_table_index_Object_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Reflection.InterfaceMapping GetInterfaceMap(System.Type @interfaceType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@interfaceType};
+			var ___result = RMGetInterfaceMap_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.InterfaceMapping>(___result);
+		}
+
+
+		public virtual System.Type InternalResolve()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalResolve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type RuntimeResolve()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRuntimeResolve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Exception not_supported()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMnot_supported.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
+
+
+		public virtual void check_not_created()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMcheck_not_created.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void check_created()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMcheck_created.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void check_name(System.String @argName, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@argName, @name};
+			var ___result = RMcheck_name_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsAssignableFrom(System.Type @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMIsAssignableFrom_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsAssignableTo(System.Type @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMIsAssignableTo_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsCreated()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCreated.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Type[] GetGenericArguments()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGenericArguments.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Type GetGenericTypeDefinition()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGenericTypeDefinition.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.GenericTypeParameterBuilder[] DefineGenericParameters(System.String[] @names)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@names};
+			var ___result = RMDefineGenericParameters_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.GenericTypeParameterBuilder[]>(___result);
+		}
+
+
+		public static System.Reflection.ConstructorInfo GetConstructor(System.Type @type, System.Reflection.ConstructorInfo @constructor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @constructor};
+			var ___result = RMGetConstructor_Type_ConstructorInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public static System.Boolean IsValidGetMethodType(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMIsValidGetMethodType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Reflection.MethodInfo GetMethod(System.Type @type, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @method};
+			var ___result = RMGetMethod_Type_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public static System.Reflection.FieldInfo GetField(System.Type @type, System.Reflection.FieldInfo @field)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @field};
+			var ___result = RMGetField_Type_FieldInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
+		}
+
+
+		public virtual System.Boolean IsAssignableFrom(System.Reflection.TypeInfo @typeInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeInfo};
+			var ___result = RMIsAssignableFrom_TypeInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean SetConstantValue(System.Type @destType, System.Object @value, ref System.Object @destValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destType, @value, @destValue};
+			var ___result = RMSetConstantValue_Type_Object_Ref_Object.Invoke(___genericsType, ___parameters);
 			@destValue = ReflectionUtils.Convert<System.Object>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void throw_argument_ConstantDoesntMatch()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMthrow_argument_ConstantDoesntMatch.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type AsType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAsType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Reflection.EventInfo GetDeclaredEvent(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredEvent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo GetDeclaredField(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredField_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetDeclaredMethod(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredMethod_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.TypeInfo GetDeclaredNestedType(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredNestedType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetDeclaredProperty(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredProperty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo> GetDeclaredMethods(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDeclaredMethods_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>>(___result);
+		}
+
+
+		public virtual System.Boolean IsEnumDefined(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIsEnumDefined_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetEnumName(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMGetEnumName_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String[] GetEnumNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void throw_argument_ConstantDoesntMatch()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMthrow_argument_ConstantDoesntMatch.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type AsType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAsType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Reflection.EventInfo GetDeclaredEvent(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredEvent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo GetDeclaredField(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredField_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetDeclaredMethod(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredMethod_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.TypeInfo GetDeclaredNestedType(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredNestedType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.TypeInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetDeclaredProperty(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredProperty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo> GetDeclaredMethods(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDeclaredMethods_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>>(___result);
-        }
-
-
-        public virtual System.Boolean IsEnumDefined(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIsEnumDefined_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetEnumName(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMGetEnumName_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String[] GetEnumNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.Type GetRootElementType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRootElementType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type[] FindInterfaces(System.Reflection.TypeFilter @filter, System.Object @filterCriteria)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filter, @filterCriteria};
-            var ___result = RMFindInterfaces_TypeFilter_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] FindMembers(System.Reflection.MemberTypes @memberType, System.Reflection.BindingFlags @bindingAttr, System.Reflection.MemberFilter @filter, System.Object @filterCriteria)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@memberType, @bindingAttr, @filter, @filterCriteria};
-            var ___result = RMFindMembers_MemberTypes_BindingFlags_MemberFilter_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Boolean ImplementInterface(System.Type @ifaceType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ifaceType};
-            var ___result = RMImplementInterface_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Int32 GetArrayRank()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetArrayRank.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type[] GetGenericParameterConstraints()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGenericParameterConstraints.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Boolean IsContextfulImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsContextfulImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsMarshalByRefImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsMarshalByRefImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo GetConstructor(System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@types};
-            var ___result = RMGetConstructor_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr, @binder, @types, @modifiers};
-            var ___result = RMGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo[] GetConstructors()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetConstructors.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.EventInfo GetEvent(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetEvent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo GetField(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetField_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo[] GetFields()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFields.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetMember(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetMember_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetMember(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetMember_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetMembers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMembers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetMethod_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetMethod_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @types};
-            var ___result = RMGetMethod_String_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @types, @modifiers};
-            var ___result = RMGetMethod_String_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @binder, @types, @modifiers};
-            var ___result = RMGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @genericParameterCount, @types};
-            var ___result = RMGetMethod_String_Int32_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @genericParameterCount, @types, @modifiers};
-            var ___result = RMGetMethod_String_Int32_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @types, @modifiers};
-            var ___result = RMGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethodImpl(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @callConvention, @types, @modifiers};
-            var ___result = RMGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo[] GetMethods()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMethods.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
-        }
-
-
-        public virtual System.Type GetNestedType(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetNestedType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Type[] GetNestedTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNestedTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetProperty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Reflection.BindingFlags @bindingAttr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr};
-            var ___result = RMGetProperty_String_BindingFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @returnType};
-            var ___result = RMGetProperty_String_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @types};
-            var ___result = RMGetProperty_String_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType, System.Type[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @returnType, @types};
-            var ___result = RMGetProperty_String_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @returnType, @types, @modifiers};
-            var ___result = RMGetProperty_String_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @bindingAttr, @binder, @returnType, @types, @modifiers};
-            var ___result = RMGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.PropertyInfo[] GetProperties()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetProperties.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.PropertyInfo[]>(___result);
-        }
-
-
-        public virtual System.Reflection.MemberInfo[] GetDefaultMembers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDefaultMembers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCodeImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCodeImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args};
-            var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args, @culture};
-            var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Type GetInterface(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetInterface_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Boolean IsInstanceOfType(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMIsInstanceOfType_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsEquivalentTo(System.Type @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsEquivalentTo_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Type GetEnumUnderlyingType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumUnderlyingType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Array GetEnumValues()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Array>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Type @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethod(System.Reflection.MethodInfo @fromNoninstanciated)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromNoninstanciated};
-            var ___result = RMGetMethod_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.ConstructorInfo @fromNoninstanciated)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromNoninstanciated};
-            var ___result = RMGetConstructor_ConstructorInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.FieldInfo GetField(System.Reflection.FieldInfo @fromNoninstanciated)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromNoninstanciated};
-            var ___result = RMGetField_FieldInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
-        }
-
-
-        public virtual System.RuntimeTypeHandle GetTypeHandleInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeHandleInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
-        }
-
-
-        public virtual System.Boolean IsWindowsRuntimeObjectImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsWindowsRuntimeObjectImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsExportedToWindowsRuntimeImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsExportedToWindowsRuntimeImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasProxyAttributeImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasProxyAttributeImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String FormatTypeName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFormatTypeName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String FormatTypeName(System.Boolean @serialization)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@serialization};
-            var ___result = RMFormatTypeName_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsRuntimeImplemented()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsRuntimeImplemented.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String InternalGetNameIfAvailable(ref System.Type @rootCauseForFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rootCauseForFailure};
-            var ___result = RMInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
+		public virtual System.Type GetRootElementType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRootElementType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type[] FindInterfaces(System.Reflection.TypeFilter @filter, System.Object @filterCriteria)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filter, @filterCriteria};
+			var ___result = RMFindInterfaces_TypeFilter_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] FindMembers(System.Reflection.MemberTypes @memberType, System.Reflection.BindingFlags @bindingAttr, System.Reflection.MemberFilter @filter, System.Object @filterCriteria)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@memberType, @bindingAttr, @filter, @filterCriteria};
+			var ___result = RMFindMembers_MemberTypes_BindingFlags_MemberFilter_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Boolean ImplementInterface(System.Type @ifaceType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ifaceType};
+			var ___result = RMImplementInterface_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Int32 GetArrayRank()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetArrayRank.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type[] GetGenericParameterConstraints()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGenericParameterConstraints.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Boolean IsContextfulImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsContextfulImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsMarshalByRefImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsMarshalByRefImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo GetConstructor(System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@types};
+			var ___result = RMGetConstructor_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr, @binder, @types, @modifiers};
+			var ___result = RMGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo[] GetConstructors()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetConstructors.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.EventInfo GetEvent(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetEvent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.EventInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo GetField(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetField_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo[] GetFields()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFields.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetMember(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetMember_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetMember(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetMember_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetMembers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMembers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetMethod_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetMethod_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @types};
+			var ___result = RMGetMethod_String_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @types, @modifiers};
+			var ___result = RMGetMethod_String_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @binder, @types, @modifiers};
+			var ___result = RMGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @genericParameterCount, @types};
+			var ___result = RMGetMethod_String_Int32_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @genericParameterCount, @types, @modifiers};
+			var ___result = RMGetMethod_String_Int32_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @types, @modifiers};
+			var ___result = RMGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethodImpl(System.String @name, System.Int32 @genericParameterCount, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @genericParameterCount, @bindingAttr, @binder, @callConvention, @types, @modifiers};
+			var ___result = RMGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo[] GetMethods()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMethods.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
+		}
+
+
+		public virtual System.Type GetNestedType(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetNestedType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Type[] GetNestedTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNestedTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetProperty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Reflection.BindingFlags @bindingAttr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr};
+			var ___result = RMGetProperty_String_BindingFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @returnType};
+			var ___result = RMGetProperty_String_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @types};
+			var ___result = RMGetProperty_String_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType, System.Type[] @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @returnType, @types};
+			var ___result = RMGetProperty_String_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @returnType, @types, @modifiers};
+			var ___result = RMGetProperty_String_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo GetProperty(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Type @returnType, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @bindingAttr, @binder, @returnType, @types, @modifiers};
+			var ___result = RMGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.PropertyInfo[] GetProperties()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetProperties.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.PropertyInfo[]>(___result);
+		}
+
+
+		public virtual System.Reflection.MemberInfo[] GetDefaultMembers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDefaultMembers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MemberInfo[]>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCodeImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCodeImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args};
+			var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Object InvokeMember(System.String @name, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object @target, System.Object[] @args, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @invokeAttr, @binder, @target, @args, @culture};
+			var ___result = RMInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Type GetInterface(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetInterface_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Boolean IsInstanceOfType(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMIsInstanceOfType_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsEquivalentTo(System.Type @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsEquivalentTo_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Type GetEnumUnderlyingType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumUnderlyingType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Array GetEnumValues()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Array>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Type @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethod(System.Reflection.MethodInfo @fromNoninstanciated)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromNoninstanciated};
+			var ___result = RMGetMethod_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.ConstructorInfo GetConstructor(System.Reflection.ConstructorInfo @fromNoninstanciated)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromNoninstanciated};
+			var ___result = RMGetConstructor_ConstructorInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ConstructorInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.FieldInfo GetField(System.Reflection.FieldInfo @fromNoninstanciated)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromNoninstanciated};
+			var ___result = RMGetField_FieldInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
+		}
+
+
+		public virtual System.RuntimeTypeHandle GetTypeHandleInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeHandleInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
+		}
+
+
+		public virtual System.Boolean IsWindowsRuntimeObjectImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsWindowsRuntimeObjectImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsExportedToWindowsRuntimeImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsExportedToWindowsRuntimeImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean HasProxyAttributeImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasProxyAttributeImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String FormatTypeName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFormatTypeName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String FormatTypeName(System.Boolean @serialization)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@serialization};
+			var ___result = RMFormatTypeName_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsRuntimeImplemented()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsRuntimeImplemented.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String InternalGetNameIfAvailable(ref System.Type @rootCauseForFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rootCauseForFailure};
+			var ___result = RMInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
 			@rootCauseForFailure = ReflectionUtils.Convert<System.Type>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Reflection.Module get_Module()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_Module.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMHasSameMetadataDefinitionAs_MemberInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Reflection.Module get_Module()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_Module.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
 
 
-        public virtual System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCustomAttributesData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IList<System.Reflection.CustomAttributeData>>(___result);
-        }
+		public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMHasSameMetadataDefinitionAs_MemberInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean CacheEquals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMCacheEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCustomAttributesData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IList<System.Reflection.CustomAttributeData>>(___result);
+		}
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
-        {
-
-            var ___genericsType = new Type[] {typeof(TOther)};
-            var ___parameters = new object[]{@other};
-            var ___result = RMHasSameMetadataDefinitionAsCore_GTOther_MemberInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CacheEquals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMCacheEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
+		{
+			var ___genericsType = new Type[] {typeof(TOther)};
+			var ___parameters = new object[]{@other};
+			var ___result = RMHasSameMetadataDefinitionAsCore_GTOther_MemberInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -598,311 +598,250 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Boolean GetNext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean GetNext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean AtEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAtEnd.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean AtEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAtEnd.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Advance(System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@count};
-            var ___result = RMAdvance_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Advance(System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@count};
+			var ___result = RMAdvance_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void GetRegularToken(out Hvak.Editor.Refleaction.RSystem.RTokenType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
-        {
+		public virtual void GetRegularToken(out Hvak.Editor.Refleaction.RSystem.RTokenType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
+		{
 			@tokenType = default;
 			@tokenValue = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
-            var ___result = RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
+			var ___result = RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
 			@tokenType = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___parameters[0]);
 			@tokenValue = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RTokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
-        {
+		public virtual Hvak.Editor.Refleaction.RSystem.RTokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
+		{
 			@indexBeforeSeparator = default;
 			@charBeforeSeparator = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dtfi, @indexBeforeSeparator, @charBeforeSeparator};
-            var ___result = RMGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dtfi, @indexBeforeSeparator, @charBeforeSeparator};
+			var ___result = RMGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
 			@indexBeforeSeparator = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@charBeforeSeparator = ReflectionUtils.Convert<System.Char>(___parameters[2]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___result);
-        }
-
-
-        public virtual System.Boolean MatchSpecifiedWord(System.String @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMMatchSpecifiedWord_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___result);
+		}
 
 
-        public virtual System.Boolean MatchSpecifiedWords(System.String @target, System.Boolean @checkWordBoundary, ref System.Int32 @matchLength)
-        {
+		public virtual System.Boolean MatchSpecifiedWord(System.String @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMMatchSpecifiedWord_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @checkWordBoundary, @matchLength};
-            var ___result = RMMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
+
+		public virtual System.Boolean MatchSpecifiedWords(System.String @target, System.Boolean @checkWordBoundary, ref System.Int32 @matchLength)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @checkWordBoundary, @matchLength};
+			var ___result = RMMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@matchLength = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Match(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMMatch_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Match(System.Char @ch)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch};
-            var ___result = RMMatch_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Match(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMMatch_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 MatchLongestWords(System.String[] @words, ref System.Int32 @maxMatchStrLen)
-        {
+		public virtual System.Boolean Match(System.Char @ch)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch};
+			var ___result = RMMatch_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@words, @maxMatchStrLen};
-            var ___result = RMMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
+
+		public virtual System.Int32 MatchLongestWords(System.String[] @words, ref System.Int32 @maxMatchStrLen)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@words, @maxMatchStrLen};
+			var ___result = RMMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@maxMatchStrLen = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetRepeatCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRepeatCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean GetNextDigit()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNextDigit.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char GetChar()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetChar.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.Int32 GetDigit()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDigit.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SkipWhiteSpaces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSkipWhiteSpaces.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SkipWhiteSpaceCurrent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSkipWhiteSpaceCurrent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void TrimTail()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrimTail.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveTrailingInQuoteSpaces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveTrailingInQuoteSpaces.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveLeadingInQuoteSpaces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveLeadingInQuoteSpaces.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RDTSubString GetSubString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSubString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDTSubString>(___result);
-        }
-
-
-        public virtual void ConsumeSubString(Hvak.Editor.Refleaction.RSystem.RDTSubString @sub)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sub.Value};
-            var ___result = RMConsumeSubString_DTSubString.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetRepeatCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRepeatCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean GetNextDigit()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNextDigit.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char GetChar()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetChar.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.Int32 GetDigit()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDigit.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SkipWhiteSpaces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSkipWhiteSpaces.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SkipWhiteSpaceCurrent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSkipWhiteSpaceCurrent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void TrimTail()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrimTail.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveTrailingInQuoteSpaces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveTrailingInQuoteSpaces.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveLeadingInQuoteSpaces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveLeadingInQuoteSpaces.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RDTSubString GetSubString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSubString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDTSubString>(___result);
+		}
+
+
+		public virtual void ConsumeSubString(Hvak.Editor.Refleaction.RSystem.RDTSubString @sub)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sub.Value};
+			var ___result = RMConsumeSubString_DTSubString.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

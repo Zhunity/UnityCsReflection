@@ -406,177 +406,143 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 		}
 
 
-        public virtual void init_frames(System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@skipFrames, @fNeedFileInfo};
-            var ___result = RMinit_frames_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void init_frames(System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@skipFrames, @fNeedFileInfo};
+			var ___result = RMinit_frames_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Diagnostics.StackFrame[] get_trace(System.Exception @e, System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @skipFrames, @fNeedFileInfo};
-            var ___result = RMget_trace_Exception_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
-        }
+		public static System.Diagnostics.StackFrame[] get_trace(System.Exception @e, System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @skipFrames, @fNeedFileInfo};
+			var ___result = RMget_trace_Exception_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
+		}
 
 
-        public virtual System.Diagnostics.StackFrame GetFrame(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetFrame_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Diagnostics.StackFrame>(___result);
-        }
+		public virtual System.Diagnostics.StackFrame GetFrame(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetFrame_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Diagnostics.StackFrame>(___result);
+		}
 
 
-        public virtual System.Diagnostics.StackFrame[] GetFrames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFrames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
-        }
+		public virtual System.Diagnostics.StackFrame[] GetFrames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFrames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
+		}
 
 
-        public static System.String GetAotId()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAotId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String GetAotId()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAotId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean AddFrames(System.Text.StringBuilder @sb, System.Boolean @separator, out System.Boolean @isAsync)
-        {
+		public virtual System.Boolean AddFrames(System.Text.StringBuilder @sb, System.Boolean @separator, out System.Boolean @isAsync)
+		{
 			@isAsync = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sb, @separator, @isAsync};
-            var ___result = RMAddFrames_StringBuilder_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sb, @separator, @isAsync};
+			var ___result = RMAddFrames_StringBuilder_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@isAsync = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual void GetFullNameForStackTrace(System.Text.StringBuilder @sb, System.Reflection.MethodBase @mi, System.Boolean @needsNewLine, out System.Boolean @skipped, out System.Boolean @isAsync)
-        {
+		public virtual void GetFullNameForStackTrace(System.Text.StringBuilder @sb, System.Reflection.MethodBase @mi, System.Boolean @needsNewLine, out System.Boolean @skipped, out System.Boolean @isAsync)
+		{
 			@skipped = default;
 			@isAsync = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sb, @mi, @needsNewLine, @skipped, @isAsync};
-            var ___result = RMGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sb, @mi, @needsNewLine, @skipped, @isAsync};
+			var ___result = RMGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@skipped = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 			@isAsync = ReflectionUtils.Convert<System.Boolean>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public static void ConvertAsyncStateMachineMethod(ref System.Reflection.MethodBase @method, ref System.Type @declaringType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@method, @declaringType};
-            var ___result = RMConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.Invoke(___genericsType, ___parameters);
+		public static void ConvertAsyncStateMachineMethod(ref System.Reflection.MethodBase @method, ref System.Type @declaringType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@method, @declaringType};
+			var ___result = RMConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.Invoke(___genericsType, ___parameters);
 			@method = ReflectionUtils.Convert<System.Reflection.MethodBase>(___parameters[0]);
 			@declaringType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace.RTraceFormat @traceFormat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@traceFormat.Value};
-            var ___result = RMToString_TraceFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace.RTraceFormat @traceFormat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@traceFormat.Value};
+			var ___result = RMToString_TraceFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

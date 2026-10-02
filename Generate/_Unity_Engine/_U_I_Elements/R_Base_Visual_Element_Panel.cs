@@ -1606,444 +1606,336 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Repaint(UnityEngine.Event @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMRepaint_Event.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ValidateLayout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidateLayout.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateAnimations()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateAnimations.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateBindings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateBindings.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyStyles()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyStyles.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateAssetTrackers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateAssetTrackers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DirtyStyleSheets()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDirtyStyleSheets.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RequestUpdateAfterExternalEvent(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updater.Value};
-            var ___result = RMRequestUpdateAfterExternalEvent_IVisualTreeUpdater.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
-            var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updater.Value, @phase.Value};
-            var ___result = RMSetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @dispatchMode.Value};
-            var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMPick_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement PickAll(UnityEngine.Vector2 @point, System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @picked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point, @picked};
-            var ___result = RMPickAll_Vector2_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@phase.Value};
-            var ___result = RMGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetEditorUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeEditorUpdatePhase @phase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@phase.Value};
-            var ___result = RMGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
-        }
-
-
-        public virtual void StartVisualTreeAssetTracking(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> @tracker, UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tracker.Value, @visualElementUsingAsset};
-            var ___result = RMStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void StopVisualTreeAssetTracking(UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@visualElementUsingAsset};
-            var ___result = RMStopVisualTreeAssetTracking_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnTextElementAdded(UnityEngine.UIElements.TextElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMOnTextElementAdded_TextElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnTextElementRemoved(UnityEngine.UIElements.TextElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMOnTextElementRemoved_TextElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>> GetVisualTreeAssetTrackersListCopy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetVisualTreeAssetTrackersListCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pointerId};
-            var ___result = RMGetTopElementUnderPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement RecomputeTopElementUnderPointer(System.Int32 @pointerId, UnityEngine.Vector2 @pointerPos, UnityEngine.UIElements.EventBase @triggerEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pointerId, @pointerPos, @triggerEvent};
-            var ___result = RMRecomputeTopElementUnderPointer_Int32_Vector2_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void ClearCachedElementUnderPointer(System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pointerId, @triggerEvent};
-            var ___result = RMClearCachedElementUnderPointer_Int32_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CommitElementUnderPointers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCommitElementUnderPointers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeStandardShaderChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvokeStandardShaderChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeStandardWorldSpaceShaderChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvokeStandardWorldSpaceShaderChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeAtlasChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvokeAtlasChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeUpdateMaterial(UnityEngine.Material @mat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mat};
-            var ___result = RMInvokeUpdateMaterial_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeHierarchyChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType @changeType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @changeType.Value};
-            var ___result = RMInvokeHierarchyChanged_VisualElement_HierarchyChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeBeforeUpdate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvokeBeforeUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateElementUnderPointers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateElementUnderPointers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Repaint(UnityEngine.Event @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMRepaint_Event.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ValidateLayout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidateLayout.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateAnimations()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateAnimations.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateBindings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateBindings.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyStyles()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyStyles.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateAssetTrackers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateAssetTrackers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DirtyStyleSheets()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDirtyStyleSheets.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RequestUpdateAfterExternalEvent(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updater.Value};
+			var ___result = RMRequestUpdateAfterExternalEvent_IVisualTreeUpdater.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
+			var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updater.Value, @phase.Value};
+			var ___result = RMSetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @dispatchMode.Value};
+			var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMPick_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement PickAll(UnityEngine.Vector2 @point, System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @picked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point, @picked};
+			var ___result = RMPickAll_Vector2_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@phase.Value};
+			var ___result = RMGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetEditorUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeEditorUpdatePhase @phase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@phase.Value};
+			var ___result = RMGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
+		}
+
+
+		public virtual void StartVisualTreeAssetTracking(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> @tracker, UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tracker.Value, @visualElementUsingAsset};
+			var ___result = RMStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void StopVisualTreeAssetTracking(UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@visualElementUsingAsset};
+			var ___result = RMStopVisualTreeAssetTracking_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnTextElementAdded(UnityEngine.UIElements.TextElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMOnTextElementAdded_TextElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnTextElementRemoved(UnityEngine.UIElements.TextElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMOnTextElementRemoved_TextElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>> GetVisualTreeAssetTrackersListCopy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetVisualTreeAssetTrackersListCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pointerId};
+			var ___result = RMGetTopElementUnderPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement RecomputeTopElementUnderPointer(System.Int32 @pointerId, UnityEngine.Vector2 @pointerPos, UnityEngine.UIElements.EventBase @triggerEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pointerId, @pointerPos, @triggerEvent};
+			var ___result = RMRecomputeTopElementUnderPointer_Int32_Vector2_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual void ClearCachedElementUnderPointer(System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pointerId, @triggerEvent};
+			var ___result = RMClearCachedElementUnderPointer_Int32_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CommitElementUnderPointers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCommitElementUnderPointers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeStandardShaderChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvokeStandardShaderChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeStandardWorldSpaceShaderChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvokeStandardWorldSpaceShaderChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeAtlasChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvokeAtlasChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeUpdateMaterial(UnityEngine.Material @mat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mat};
+			var ___result = RMInvokeUpdateMaterial_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeHierarchyChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType @changeType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @changeType.Value};
+			var ___result = RMInvokeHierarchyChanged_VisualElement_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeBeforeUpdate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvokeBeforeUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateElementUnderPointers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateElementUnderPointers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

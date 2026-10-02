@@ -328,125 +328,98 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual void Init(System.Boolean @canMethodThrow)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@canMethodThrow};
-            var ___result = RMInit_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Init(System.Boolean @canMethodThrow)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@canMethodThrow};
+			var ___result = RMInit_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetFailure(System.Exception @unhandledException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unhandledException};
-            var ___result = RMSetFailure_Exception.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetFailure(System.Exception @unhandledException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unhandledException};
+			var ___result = RMSetFailure_Exception.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind @failure, System.String @failureParameter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@failure.Value, @failureParameter};
-            var ___result = RMSetFailure_ParseFailureKind_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind @failure, System.String @failureParameter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@failure.Value, @failureParameter};
+			var ___result = RMSetFailure_ParseFailureKind_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@failure.Value, @failureMessageID, @failureMessageFormatArgument};
-            var ___result = RMSetFailure_ParseFailureKind_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@failure.Value, @failureMessageID, @failureMessageFormatArgument};
+			var ___result = RMSetFailure_ParseFailureKind_String_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Exception GetEnumParseException()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumParseException.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
+		public virtual System.Exception GetEnumParseException()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumParseException.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

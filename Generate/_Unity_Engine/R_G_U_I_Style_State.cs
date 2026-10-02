@@ -310,139 +310,111 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static System.IntPtr Init()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInit.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
+		public static System.IntPtr Init()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInit.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public virtual void Cleanup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Cleanup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.GUIStyleState ProduceGUIStyleStateFromDeserialization(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceStyle, @source};
-            var ___result = RMProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
-        }
+		public static UnityEngine.GUIStyleState ProduceGUIStyleStateFromDeserialization(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceStyle, @source};
+			var ___result = RMProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
+		}
 
 
-        public static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceStyle, @source};
-            var ___result = RMGetGUIStyleState_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
-        }
+		public static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceStyle, @source};
+			var ___result = RMGetGUIStyleState_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void get_textColor_Injected(out UnityEngine.Color @ret)
-        {
+		public virtual void get_textColor_Injected(out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_textColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_textColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_textColor_Injected(ref UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_textColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void set_textColor_Injected(ref UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_textColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

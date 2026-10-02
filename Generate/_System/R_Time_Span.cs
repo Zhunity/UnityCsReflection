@@ -1622,745 +1622,613 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.TimeSpan Add(System.TimeSpan @ts)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ts};
-            var ___result = RMAdd_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMCompare_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.TimeSpan @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.TimeSpan FromDays(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromDays_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.TimeSpan Duration()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDuration.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.TimeSpan @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Equals(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMEquals_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.TimeSpan FromHours(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromHours_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan Interval(System.Double @value, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @scale};
-            var ___result = RMInterval_Double_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan FromMilliseconds(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromMilliseconds_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan FromMinutes(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromMinutes_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.TimeSpan Negate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan FromSeconds(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromSeconds_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.TimeSpan Subtract(System.TimeSpan @ts)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ts};
-            var ___result = RMSubtract_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.TimeSpan Multiply(System.Double @factor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@factor};
-            var ___result = RMMultiply_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.TimeSpan Divide(System.Double @divisor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@divisor};
-            var ___result = RMDivide_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.Double Divide(System.TimeSpan @ts)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ts};
-            var ___result = RMDivide_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public static System.TimeSpan FromTicks(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFromTicks_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hour, @minute, @second};
-            var ___result = RMTimeToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static void ValidateStyles(System.Globalization.TimeSpanStyles @style, System.String @parameterName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@style, @parameterName};
-            var ___result = RMValidateStyles_TimeSpanStyles_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.TimeSpan Parse(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan Parse(System.String @input, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formatProvider};
-            var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @formatProvider};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format, @formatProvider};
-            var ___result = RMParseExact_String_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formats, @formatProvider};
-            var ___result = RMParseExact_String_StringArray_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format, @formatProvider, @styles};
-            var ___result = RMParseExact_String_String_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles};
-            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formats, @formatProvider, @styles};
-            var ___result = RMParseExact_String_StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles};
-            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.Boolean TryParse(System.String @s, out System.TimeSpan @result)
-        {
+		public virtual System.TimeSpan Add(System.TimeSpan @ts)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ts};
+			var ___result = RMAdd_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMCompare_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.TimeSpan @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.TimeSpan FromDays(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromDays_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.TimeSpan Duration()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDuration.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.TimeSpan @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Equals(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMEquals_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.TimeSpan FromHours(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromHours_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan Interval(System.Double @value, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @scale};
+			var ___result = RMInterval_Double_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan FromMilliseconds(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromMilliseconds_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan FromMinutes(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromMinutes_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.TimeSpan Negate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan FromSeconds(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromSeconds_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.TimeSpan Subtract(System.TimeSpan @ts)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ts};
+			var ___result = RMSubtract_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.TimeSpan Multiply(System.Double @factor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@factor};
+			var ___result = RMMultiply_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.TimeSpan Divide(System.Double @divisor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@divisor};
+			var ___result = RMDivide_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.Double Divide(System.TimeSpan @ts)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ts};
+			var ___result = RMDivide_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public static System.TimeSpan FromTicks(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFromTicks_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hour, @minute, @second};
+			var ___result = RMTimeToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static void ValidateStyles(System.Globalization.TimeSpanStyles @style, System.String @parameterName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@style, @parameterName};
+			var ___result = RMValidateStyles_TimeSpanStyles_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.TimeSpan Parse(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan Parse(System.String @input, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formatProvider};
+			var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @formatProvider};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format, @formatProvider};
+			var ___result = RMParseExact_String_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formats, @formatProvider};
+			var ___result = RMParseExact_String_StringArray_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format, @formatProvider, @styles};
+			var ___result = RMParseExact_String_String_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles};
+			var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formats, @formatProvider, @styles};
+			var ___result = RMParseExact_String_StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles};
+			var ___result = RMParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.String @s, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @result};
-            var ___result = RMTryParse_String_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @result};
+			var ___result = RMTryParse_String_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(System.String @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParse(System.String @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formatProvider, @result};
-            var ___result = RMTryParse_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formatProvider, @result};
+			var ___result = RMTryParse_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @formatProvider, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @formatProvider, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format, @formatProvider, @result};
-            var ___result = RMTryParseExact_String_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format, @formatProvider, @result};
+			var ___result = RMTryParseExact_String_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formats, @formatProvider, @result};
-            var ___result = RMTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formats, @formatProvider, @result};
+			var ___result = RMTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @format, @formatProvider, @styles, @result};
-            var ___result = RMTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @format, @formatProvider, @styles, @result};
+			var ___result = RMTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @formats, @formatProvider, @styles, @result};
-            var ___result = RMTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @formats, @formatProvider, @styles, @result};
+			var ___result = RMTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider)
-        {
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @formatProvider)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @formatProvider};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @formatProvider};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.TimeSpan op_UnaryNegation(System.TimeSpan @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMop_UnaryNegation_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_Subtraction(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_Subtraction_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_UnaryPlus(System.TimeSpan @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMop_UnaryPlus_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_Addition(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_Addition_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_Multiply(System.TimeSpan @timeSpan, System.Double @factor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeSpan, @factor};
-            var ___result = RMop_Multiply_TimeSpan_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_Multiply(System.Double @factor, System.TimeSpan @timeSpan)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@factor, @timeSpan};
-            var ___result = RMop_Multiply_Double_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.TimeSpan op_Division(System.TimeSpan @timeSpan, System.Double @divisor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeSpan, @divisor};
-            var ___result = RMop_Division_TimeSpan_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.Double op_Division(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_Division_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_Equality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_Inequality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThan(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_LessThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_LessThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThan(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_GreaterThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_GreaterThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.TimeSpan op_UnaryNegation(System.TimeSpan @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMop_UnaryNegation_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_Subtraction(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_Subtraction_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_UnaryPlus(System.TimeSpan @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMop_UnaryPlus_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_Addition(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_Addition_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_Multiply(System.TimeSpan @timeSpan, System.Double @factor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeSpan, @factor};
+			var ___result = RMop_Multiply_TimeSpan_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_Multiply(System.Double @factor, System.TimeSpan @timeSpan)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@factor, @timeSpan};
+			var ___result = RMop_Multiply_Double_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.TimeSpan op_Division(System.TimeSpan @timeSpan, System.Double @divisor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeSpan, @divisor};
+			var ___result = RMop_Division_TimeSpan_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.Double op_Division(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_Division_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_Equality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_Inequality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThan(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_LessThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_LessThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThan(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_GreaterThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_GreaterThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

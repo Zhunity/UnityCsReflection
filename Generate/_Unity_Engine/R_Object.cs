@@ -1094,646 +1094,519 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Implicit(UnityEngine.Object @exists)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@exists};
-            var ___result = RMop_Implicit_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean CompareBaseObjects(UnityEngine.Object @lhs, UnityEngine.Object @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMCompareBaseObjects_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void EnsureRunningOnMainThread()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureRunningOnMainThread.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsNativeObjectAlive(UnityEngine.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMIsNativeObjectAlive_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.IntPtr GetCachedPtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCachedPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @position, @rotation};
-            var ___result = RMInstantiate_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @position, @rotation, @parent};
-            var ___result = RMInstantiate_Object_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original};
-            var ___result = RMInstantiate_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @parent};
-            var ___result = RMInstantiate_Object_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent, System.Boolean @instantiateInWorldSpace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @parent, @instantiateInWorldSpace};
-            var ___result = RMInstantiate_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static T Instantiate<T>(T @original) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original};
-            var ___result = RMInstantiate_GT_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @position, @rotation};
-            var ___result = RMInstantiate_GT_T_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @position, @rotation, @parent};
-            var ___result = RMInstantiate_GT_T_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T Instantiate<T>(T @original, UnityEngine.Transform @parent) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @parent};
-            var ___result = RMInstantiate_GT_T_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T Instantiate<T>(T @original, UnityEngine.Transform @parent, System.Boolean @worldPositionStays) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @parent, @worldPositionStays};
-            var ___result = RMInstantiate_GT_T_Transform_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static void Destroy(UnityEngine.Object @obj, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @t};
-            var ___result = RMDestroy_Object_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Destroy(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMDestroy_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DestroyImmediate(UnityEngine.Object @obj, System.Boolean @allowDestroyingAssets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @allowDestroyingAssets};
-            var ___result = RMDestroyImmediate_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DestroyImmediate(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMDestroyImmediate_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Object[] FindObjectsOfType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindObjectsOfType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static UnityEngine.Object[] FindObjectsOfType(System.Type @type, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @includeInactive};
-            var ___result = RMFindObjectsOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static void DontDestroyOnLoad(UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMDontDestroyOnLoad_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DestroyObject(UnityEngine.Object @obj, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @t};
-            var ___result = RMDestroyObject_Object_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DestroyObject(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMDestroyObject_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Object[] FindSceneObjectsOfType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindSceneObjectsOfType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static UnityEngine.Object[] FindObjectsOfTypeIncludingAssets(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindObjectsOfTypeIncludingAssets_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static T[] FindObjectsOfType<T>() where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMFindObjectsOfType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public static T[] FindObjectsOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMFindObjectsOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public static T FindObjectOfType<T>() where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMFindObjectOfType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T FindObjectOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMFindObjectOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static UnityEngine.Object[] FindObjectsOfTypeAll(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindObjectsOfTypeAll_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static void CheckNullArgument(System.Object @arg, System.String @message)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg, @message};
-            var ___result = RMCheckNullArgument_Object_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Object FindObjectOfType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindObjectOfType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object FindObjectOfType(System.Type @type, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @includeInactive};
-            var ___result = RMFindObjectOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Object @x, UnityEngine.Object @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMop_Equality_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Object @x, UnityEngine.Object @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMop_Inequality_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 GetOffsetOfInstanceIDInCPlusPlusObject()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetOffsetOfInstanceIDInCPlusPlusObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean CurrentThreadIsMainThread()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCurrentThreadIsMainThread.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Object Internal_CloneSingle(UnityEngine.Object @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMInternal_CloneSingle_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, System.Boolean @worldPositionStays)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @parent, @worldPositionStays};
-            var ___result = RMInternal_CloneSingleWithParent_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object @data, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @pos, @rot};
-            var ___result = RMInternal_InstantiateSingle_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @parent, @pos, @rot};
-            var ___result = RMInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static System.String ToString(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMToString_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String GetName(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMGetName_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Boolean IsPersistent(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMIsPersistent_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SetName(UnityEngine.Object @obj, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @name};
-            var ___result = RMSetName_Object_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean DoesObjectWithInstanceIDExist(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMDoesObjectWithInstanceIDExist_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Object FindObjectFromInstanceID(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMFindObjectFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object ForceLoadFromInstanceID(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMForceLoadFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object @data, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @pos, @rot};
-            var ___result = RMInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Implicit(UnityEngine.Object @exists)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@exists};
+			var ___result = RMop_Implicit_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean CompareBaseObjects(UnityEngine.Object @lhs, UnityEngine.Object @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMCompareBaseObjects_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void EnsureRunningOnMainThread()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureRunningOnMainThread.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsNativeObjectAlive(UnityEngine.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMIsNativeObjectAlive_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.IntPtr GetCachedPtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCachedPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@original, @position, @rotation};
+			var ___result = RMInstantiate_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@original, @position, @rotation, @parent};
+			var ___result = RMInstantiate_Object_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Instantiate(UnityEngine.Object @original)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@original};
+			var ___result = RMInstantiate_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@original, @parent};
+			var ___result = RMInstantiate_Object_Transform.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent, System.Boolean @instantiateInWorldSpace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@original, @parent, @instantiateInWorldSpace};
+			var ___result = RMInstantiate_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static T Instantiate<T>(T @original) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@original};
+			var ___result = RMInstantiate_GT_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@original, @position, @rotation};
+			var ___result = RMInstantiate_GT_T_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@original, @position, @rotation, @parent};
+			var ___result = RMInstantiate_GT_T_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static T Instantiate<T>(T @original, UnityEngine.Transform @parent) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@original, @parent};
+			var ___result = RMInstantiate_GT_T_Transform.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static T Instantiate<T>(T @original, UnityEngine.Transform @parent, System.Boolean @worldPositionStays) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@original, @parent, @worldPositionStays};
+			var ___result = RMInstantiate_GT_T_Transform_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static void Destroy(UnityEngine.Object @obj, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @t};
+			var ___result = RMDestroy_Object_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Destroy(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMDestroy_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void DestroyImmediate(UnityEngine.Object @obj, System.Boolean @allowDestroyingAssets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @allowDestroyingAssets};
+			var ___result = RMDestroyImmediate_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void DestroyImmediate(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMDestroyImmediate_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Object[] FindObjectsOfType(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMFindObjectsOfType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public static UnityEngine.Object[] FindObjectsOfType(System.Type @type, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @includeInactive};
+			var ___result = RMFindObjectsOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public static void DontDestroyOnLoad(UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMDontDestroyOnLoad_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void DestroyObject(UnityEngine.Object @obj, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @t};
+			var ___result = RMDestroyObject_Object_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void DestroyObject(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMDestroyObject_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Object[] FindSceneObjectsOfType(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMFindSceneObjectsOfType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public static UnityEngine.Object[] FindObjectsOfTypeIncludingAssets(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMFindObjectsOfTypeIncludingAssets_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public static T[] FindObjectsOfType<T>() where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMFindObjectsOfType_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public static T[] FindObjectsOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMFindObjectsOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public static T FindObjectOfType<T>() where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMFindObjectOfType_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static T FindObjectOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMFindObjectOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public static UnityEngine.Object[] FindObjectsOfTypeAll(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMFindObjectsOfTypeAll_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public static void CheckNullArgument(System.Object @arg, System.String @message)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg, @message};
+			var ___result = RMCheckNullArgument_Object_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Object FindObjectOfType(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMFindObjectOfType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object FindObjectOfType(System.Type @type, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @includeInactive};
+			var ___result = RMFindObjectOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Object @x, UnityEngine.Object @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMop_Equality_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Object @x, UnityEngine.Object @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMop_Inequality_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 GetOffsetOfInstanceIDInCPlusPlusObject()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetOffsetOfInstanceIDInCPlusPlusObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean CurrentThreadIsMainThread()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCurrentThreadIsMainThread.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Object Internal_CloneSingle(UnityEngine.Object @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMInternal_CloneSingle_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, System.Boolean @worldPositionStays)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @parent, @worldPositionStays};
+			var ___result = RMInternal_CloneSingleWithParent_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object @data, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @pos, @rot};
+			var ___result = RMInternal_InstantiateSingle_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @parent, @pos, @rot};
+			var ___result = RMInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static System.String ToString(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMToString_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String GetName(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMGetName_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Boolean IsPersistent(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMIsPersistent_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void SetName(UnityEngine.Object @obj, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @name};
+			var ___result = RMSetName_Object_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean DoesObjectWithInstanceIDExist(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMDoesObjectWithInstanceIDExist_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Object FindObjectFromInstanceID(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMFindObjectFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object ForceLoadFromInstanceID(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMForceLoadFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public static UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object @data, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @pos, @rot};
+			var ___result = RMInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@rot = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
 
-
-        public static UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object @data, UnityEngine.Transform @parent, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @parent, @pos, @rot};
-            var ___result = RMInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object @data, UnityEngine.Transform @parent, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @parent, @pos, @rot};
+			var ___result = RMInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 			@rot = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

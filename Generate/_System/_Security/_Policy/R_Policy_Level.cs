@@ -758,345 +758,268 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		}
 
 
-        public virtual void LoadFromFile(System.String @filename)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filename};
-            var ___result = RMLoadFromFile_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LoadFromString(System.String @xml)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@xml};
-            var ___result = RMLoadFromString_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.SecurityElement FromString(System.String @xml)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@xml};
-            var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
-
-
-        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongName @sn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sn};
-            var ___result = RMAddFullTrustAssembly_StrongName.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@snMC};
-            var ___result = RMAddFullTrustAssembly_StrongNameMembershipCondition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permSet};
-            var ___result = RMAddNamedPermissionSet_NamedPermissionSet.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.NamedPermissionSet ChangeNamedPermissionSet(System.String @name, System.Security.PermissionSet @pSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @pSet};
-            var ___result = RMChangeNamedPermissionSet_String_PermissionSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
-        }
-
-
-        public static System.Security.Policy.PolicyLevel CreateAppDomainLevel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateAppDomainLevel.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.PolicyLevel>(___result);
-        }
-
-
-        public virtual void FromXml(System.Security.SecurityElement @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.NamedPermissionSet GetNamedPermissionSet(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
-        }
-
-
-        public virtual void Recover()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRecover.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongName @sn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sn};
-            var ___result = RMRemoveFullTrustAssembly_StrongName.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@snMC};
-            var ___result = RMRemoveFullTrustAssembly_StrongNameMembershipCondition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permSet};
-            var ___result = RMRemoveNamedPermissionSet_NamedPermissionSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
-        }
-
-
-        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMRemoveNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMResolve_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.PolicyStatement>(___result);
-        }
-
-
-        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMResolveMatchingCodeGroups_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
-        }
-
-
-        public virtual System.Security.SecurityElement ToXml()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToXml.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
-
-
-        public virtual void Save()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSave.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CreateDefaultLevel(System.Security.PolicyLevelType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMCreateDefaultLevel_PolicyLevelType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CreateDefaultFullTrustAssemblies()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateDefaultFullTrustAssemblies.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CreateDefaultNamedPermissionSets()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateDefaultNamedPermissionSets.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ResolveClassName(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMResolveClassName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsFullTrustAssembly(System.Reflection.Assembly @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMIsFullTrustAssembly_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void LoadFromFile(System.String @filename)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filename};
+			var ___result = RMLoadFromFile_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LoadFromString(System.String @xml)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@xml};
+			var ___result = RMLoadFromString_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.SecurityElement FromString(System.String @xml)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@xml};
+			var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
+
+
+		public virtual void AddFullTrustAssembly(System.Security.Policy.StrongName @sn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sn};
+			var ___result = RMAddFullTrustAssembly_StrongName.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@snMC};
+			var ___result = RMAddFullTrustAssembly_StrongNameMembershipCondition.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permSet};
+			var ___result = RMAddNamedPermissionSet_NamedPermissionSet.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.NamedPermissionSet ChangeNamedPermissionSet(System.String @name, System.Security.PermissionSet @pSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @pSet};
+			var ___result = RMChangeNamedPermissionSet_String_PermissionSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
+		}
+
+
+		public static System.Security.Policy.PolicyLevel CreateAppDomainLevel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateAppDomainLevel.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.PolicyLevel>(___result);
+		}
+
+
+		public virtual void FromXml(System.Security.SecurityElement @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.NamedPermissionSet GetNamedPermissionSet(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
+		}
+
+
+		public virtual void Recover()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRecover.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongName @sn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sn};
+			var ___result = RMRemoveFullTrustAssembly_StrongName.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@snMC};
+			var ___result = RMRemoveFullTrustAssembly_StrongNameMembershipCondition.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permSet};
+			var ___result = RMRemoveNamedPermissionSet_NamedPermissionSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
+		}
+
+
+		public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMRemoveNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMResolve_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.PolicyStatement>(___result);
+		}
+
+
+		public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMResolveMatchingCodeGroups_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
+		}
+
+
+		public virtual System.Security.SecurityElement ToXml()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToXml.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
+
+
+		public virtual void Save()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSave.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CreateDefaultLevel(System.Security.PolicyLevelType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMCreateDefaultLevel_PolicyLevelType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CreateDefaultFullTrustAssemblies()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateDefaultFullTrustAssemblies.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CreateDefaultNamedPermissionSets()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateDefaultNamedPermissionSets.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ResolveClassName(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMResolveClassName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsFullTrustAssembly(System.Reflection.Assembly @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMIsFullTrustAssembly_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

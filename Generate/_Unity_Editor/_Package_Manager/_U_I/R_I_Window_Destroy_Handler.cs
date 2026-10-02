@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 
-        public virtual void OnWindowDestroy(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowDestroyArgs @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMOnWindowDestroy_WindowDestroyArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnWindowDestroy(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowDestroyArgs @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMOnWindowDestroy_WindowDestroyArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

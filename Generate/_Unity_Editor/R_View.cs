@@ -726,279 +726,213 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void Reflow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReflow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String DebugHierarchy(System.Int32 @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@level};
-            var ___result = RMDebugHierarchy_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Initialize(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@win.Value};
-            var ___result = RMInitialize_ContainerWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMinMaxSizes(UnityEngine.Vector2 @min, UnityEngine.Vector2 @max)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@min, @max};
-            var ___result = RMSetMinMaxSizes_Vector2_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ChildrenMinMaxChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMChildrenMinMaxChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __internalAwake()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__internalAwake.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPosition(UnityEngine.Rect @newPos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newPos};
-            var ___result = RMSetPosition_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPositionOnly(UnityEngine.Rect @newPos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newPos};
-            var ___result = RMSetPositionOnly_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 IndexOfChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value};
-            var ___result = RMIndexOfChild_View.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void OnDestroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value};
-            var ___result = RMAddChild_View.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child, System.Int32 @idx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value, @idx};
-            var ___result = RMAddChild_View_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value};
-            var ___result = RMRemoveChild_View.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveChild(System.Int32 @idx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idx};
-            var ___result = RMRemoveChild_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetWindow(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@win.Value};
-            var ___result = RMSetWindow_ContainerWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetWindowRecurse(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@win.Value};
-            var ___result = RMSetWindowRecurse_ContainerWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean OnFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnFocus.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void Reflow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReflow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String DebugHierarchy(System.Int32 @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@level};
+			var ___result = RMDebugHierarchy_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Initialize(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@win.Value};
+			var ___result = RMInitialize_ContainerWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMinMaxSizes(UnityEngine.Vector2 @min, UnityEngine.Vector2 @max)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@min, @max};
+			var ___result = RMSetMinMaxSizes_Vector2_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ChildrenMinMaxChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMChildrenMinMaxChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __internalAwake()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__internalAwake.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPosition(UnityEngine.Rect @newPos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newPos};
+			var ___result = RMSetPosition_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPositionOnly(UnityEngine.Rect @newPos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newPos};
+			var ___result = RMSetPositionOnly_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 IndexOfChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value};
+			var ___result = RMIndexOfChild_View.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void OnDestroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value};
+			var ___result = RMAddChild_View.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child, System.Int32 @idx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value, @idx};
+			var ___result = RMAddChild_View_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveChild(Hvak.Editor.Refleaction.RUnityEditor.RView @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value};
+			var ___result = RMRemoveChild_View.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveChild(System.Int32 @idx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@idx};
+			var ___result = RMRemoveChild_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetWindow(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@win.Value};
+			var ___result = RMSetWindow_ContainerWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetWindowRecurse(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@win.Value};
+			var ___result = RMSetWindowRecurse_ContainerWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean OnFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnFocus.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

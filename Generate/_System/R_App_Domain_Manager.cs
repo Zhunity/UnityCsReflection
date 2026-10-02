@@ -406,171 +406,139 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @appDomainInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
-            var ___result = RMCreateDomain_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.AppDomain>(___result);
-        }
+		public virtual System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @appDomainInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
+			var ___result = RMCreateDomain_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.AppDomain>(___result);
+		}
 
 
-        public virtual void InitializeNewDomain(System.AppDomainSetup @appDomainInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@appDomainInfo};
-            var ___result = RMInitializeNewDomain_AppDomainSetup.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitializeNewDomain(System.AppDomainSetup @appDomainInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@appDomainInfo};
+			var ___result = RMInitializeNewDomain_AppDomainSetup.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean CheckSecuritySettings(System.Security.SecurityState @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMCheckSecuritySettings_SecurityState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CheckSecuritySettings(System.Security.SecurityState @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMCheckSecuritySettings_SecurityState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.AppDomain CreateDomainHelper(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @appDomainInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
-            var ___result = RMCreateDomainHelper_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.AppDomain>(___result);
-        }
+		public static System.AppDomain CreateDomainHelper(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @appDomainInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
+			var ___result = RMCreateDomainHelper_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.AppDomain>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
-        {
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+		{
 			@IsClient = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @IsClient};
+			var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requestedType};
-            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
+		}
 
 
-        public virtual System.Object GetLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requestedType};
+			var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
+		}
 
 
-        public virtual System.Object InitializeLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
-        }
+		public virtual System.Object InitializeLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cloneIdentity};
+			var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -838,254 +838,199 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetZero()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetZero.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetZero()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetZero.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddAmbientLight(UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color};
-            var ___result = RMAddAmbientLight_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddAmbientLight(UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color};
+			var ___result = RMAddAmbientLight_Color.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddDirectionalLight(UnityEngine.Vector3 @direction, UnityEngine.Color @color, System.Single @intensity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@direction, @color, @intensity};
-            var ___result = RMAddDirectionalLight_Vector3_Color_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddDirectionalLight(UnityEngine.Vector3 @direction, UnityEngine.Color @color, System.Single @intensity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@direction, @color, @intensity};
+			var ___result = RMAddDirectionalLight_Vector3_Color_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void AddDirectionalLightInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3 @direction, UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sh, @direction, @color};
-            var ___result = RMAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.Invoke(___genericsType, ___parameters);
+		public static void AddDirectionalLightInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3 @direction, UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sh, @direction, @color};
+			var ___result = RMAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.Invoke(___genericsType, ___parameters);
 			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Evaluate(UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directions, @results};
-            var ___result = RMEvaluate_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Evaluate(UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directions, @results};
+			var ___result = RMEvaluate_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void EvaluateInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sh, @directions, @results};
-            var ___result = RMEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
+		public static void EvaluateInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sh, @directions, @results};
+			var ___result = RMEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
 			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.SphericalHarmonicsL2 @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(UnityEngine.Rendering.SphericalHarmonicsL2 @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, System.Single @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Multiply_SphericalHarmonicsL2_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
-        }
+		public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, System.Single @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Multiply_SphericalHarmonicsL2_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
+		}
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(System.Single @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Multiply_Single_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
-        }
+		public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(System.Single @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Multiply_Single_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
+		}
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
-        }
+		public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void SetZero_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMSetZero_Injected_Ref_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
+		public static void SetZero_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMSetZero_Injected_Ref_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void AddAmbientLight_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self, ref UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @color};
-            var ___result = RMAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.Invoke(___genericsType, ___parameters);
+		public static void AddAmbientLight_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self, ref UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @color};
+			var ___result = RMAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
 			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void AddDirectionalLightInternal_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, ref UnityEngine.Vector3 @direction, ref UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sh, @direction, @color};
-            var ___result = RMAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.Invoke(___genericsType, ___parameters);
+		public static void AddDirectionalLightInternal_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, ref UnityEngine.Vector3 @direction, ref UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sh, @direction, @color};
+			var ___result = RMAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.Invoke(___genericsType, ___parameters);
 			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
 			@direction = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

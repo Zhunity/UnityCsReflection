@@ -70,15 +70,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RTypeName NestedName(Hvak.Editor.Refleaction.RSystem.RTypeIdentifier @innerName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@innerName.Value};
-            var ___result = RMNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypeName>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RTypeName NestedName(Hvak.Editor.Refleaction.RSystem.RTypeIdentifier @innerName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@innerName.Value};
+			var ___result = RMNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypeName>(___result);
+		}
 
 
     }

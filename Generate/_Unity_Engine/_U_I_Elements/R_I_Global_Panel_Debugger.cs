@@ -70,26 +70,21 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @ev};
-            var ___result = RMInterceptMouseEvent_IPanel_IMouseEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @ev};
+			var ___result = RMInterceptMouseEvent_IPanel_IMouseEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void OnPostMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @ev};
-            var ___result = RMOnPostMouseEvent_IPanel_IMouseEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnPostMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @ev};
+			var ___result = RMOnPostMouseEvent_IPanel_IMouseEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

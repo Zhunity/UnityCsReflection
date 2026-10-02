@@ -182,81 +182,64 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Resume()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResume.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Resume()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResume.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Pause()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPause.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Pause()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPause.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ExecuteLater(System.Int64 @delayMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delayMs};
-            var ___result = RMExecuteLater_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExecuteLater(System.Int64 @delayMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delayMs};
+			var ___result = RMExecuteLater_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem StartingIn(System.Int64 @delayMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delayMs};
-            var ___result = RMStartingIn_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem StartingIn(System.Int64 @delayMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delayMs};
+			var ___result = RMStartingIn_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Every(System.Int64 @intervalMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@intervalMs};
-            var ___result = RMEvery_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem Every(System.Int64 @intervalMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@intervalMs};
+			var ___result = RMEvery_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Until(System.Func<System.Boolean> @stopCondition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stopCondition};
-            var ___result = RMUntil_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem Until(System.Func<System.Boolean> @stopCondition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stopCondition};
+			var ___result = RMUntil_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem ForDuration(System.Int64 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@durationMs};
-            var ___result = RMForDuration_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem ForDuration(System.Int64 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@durationMs};
+			var ___result = RMForDuration_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
 
 
     }

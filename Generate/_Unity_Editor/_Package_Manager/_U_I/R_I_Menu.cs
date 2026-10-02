@@ -70,26 +70,21 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem AddDropdownItem()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddDropdownItem.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem AddDropdownItem()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddDropdownItem.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem>(___result);
+		}
 
 
-        public virtual void ShowInputDropdown(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInputDropdownArgs @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMShowInputDropdown_InputDropdownArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ShowInputDropdown(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInputDropdownArgs @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMShowInputDropdown_InputDropdownArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

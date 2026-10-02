@@ -886,569 +886,465 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.RuntimeTypeHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEquals_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.RuntimeTypeHandle @left, System.Object @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_RuntimeTypeHandle_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.RuntimeTypeHandle @left, System.Object @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_RuntimeTypeHandle_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Object @left, System.RuntimeTypeHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_Object_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.Object @left, System.RuntimeTypeHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_Object_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Reflection.TypeAttributes GetAttributes(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetAttributes_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.TypeAttributes>(___result);
-        }
-
-
-        public virtual System.ModuleHandle GetModuleHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetModuleHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.ModuleHandle>(___result);
-        }
-
-
-        public static System.Int32 GetMetadataToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetMetadataToken_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetToken_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Type GetGenericTypeDefinition_impl(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetGenericTypeDefinition_impl_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public static System.Type GetGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public static System.Boolean HasProxyAttribute(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMHasProxyAttribute_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsPrimitive(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsPrimitive_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsByRef(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsByRef_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsPointer(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsPointer_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsArray_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsSzArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsSzArray_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean HasElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMHasElementType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType GetCorElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetCorElementType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType>(___result);
-        }
-
-
-        public static System.Boolean HasInstantiation(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMHasInstantiation_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsComObject_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsInstanceOfType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value, @o};
-            var ___result = RMIsInstanceOfType_RuntimeType_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean HasReferences(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMHasReferences_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Boolean @isGenericCOM)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value, @isGenericCOM};
-            var ___result = RMIsComObject_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsContextful(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsContextful_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsEquivalentTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType1, Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rtType1.Value, @rtType2.Value};
-            var ___result = RMIsEquivalentTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsInterface(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsInterface_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 GetArrayRank(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetArrayRank_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetAssembly(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetAssembly_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetElementType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetModule(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetModule_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule>(___result);
-        }
-
-
-        public static System.Boolean IsGenericVariable(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsGenericVariable_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetBaseType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetBaseType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
-        }
-
-
-        public static System.Boolean CanCastTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, Hvak.Editor.Refleaction.RSystem.RRuntimeType @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value, @target.Value};
-            var ___result = RMCanCastTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean type_is_assignable_from(System.Type @a, System.Type @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMtype_is_assignable_from_Type_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.IntPtr GetGenericParameterInfo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMGetGenericParameterInfo_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.Boolean IsSubclassOf(Hvak.Editor.Refleaction.RSystem.RRuntimeType @childType, Hvak.Editor.Refleaction.RSystem.RRuntimeType @baseType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@childType.Value, @baseType.Value};
-            var ___result = RMIsSubclassOf_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean is_subclass_of(System.IntPtr @childType, System.IntPtr @baseType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@childType, @baseType};
-            var ___result = RMis_subclass_of_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsByRefLike(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsByRefLike_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIsTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType internal_from_name(System.String @name, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Reflection.Assembly @callerAssembly, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @stackMark.Value, @callerAssembly, @throwOnError, @ignoreCase, @reflectionOnly};
-            var ___result = RMinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.RuntimeTypeHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEquals_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.RuntimeTypeHandle @left, System.Object @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_RuntimeTypeHandle_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.RuntimeTypeHandle @left, System.Object @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_RuntimeTypeHandle_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.Object @left, System.RuntimeTypeHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_Object_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.Object @left, System.RuntimeTypeHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_Object_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Reflection.TypeAttributes GetAttributes(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetAttributes_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.TypeAttributes>(___result);
+		}
+
+
+		public virtual System.ModuleHandle GetModuleHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetModuleHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.ModuleHandle>(___result);
+		}
+
+
+		public static System.Int32 GetMetadataToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetMetadataToken_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetToken_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Type GetGenericTypeDefinition_impl(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetGenericTypeDefinition_impl_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public static System.Type GetGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public static System.Boolean HasProxyAttribute(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMHasProxyAttribute_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsPrimitive(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsPrimitive_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsByRef(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsByRef_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsPointer(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsPointer_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsArray_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsSzArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsSzArray_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean HasElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMHasElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType GetCorElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetCorElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType>(___result);
+		}
+
+
+		public static System.Boolean HasInstantiation(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMHasInstantiation_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsComObject_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsInstanceOfType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value, @o};
+			var ___result = RMIsInstanceOfType_RuntimeType_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean HasReferences(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMHasReferences_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Boolean @isGenericCOM)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value, @isGenericCOM};
+			var ___result = RMIsComObject_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsContextful(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsContextful_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsEquivalentTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType1, Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rtType1.Value, @rtType2.Value};
+			var ___result = RMIsEquivalentTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsInterface(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsInterface_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 GetArrayRank(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetArrayRank_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetAssembly(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetAssembly_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetModule(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetModule_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule>(___result);
+		}
+
+
+		public static System.Boolean IsGenericVariable(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsGenericVariable_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetBaseType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetBaseType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
+		}
+
+
+		public static System.Boolean CanCastTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, Hvak.Editor.Refleaction.RSystem.RRuntimeType @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value, @target.Value};
+			var ___result = RMCanCastTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean type_is_assignable_from(System.Type @a, System.Type @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMtype_is_assignable_from_Type_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.IntPtr GetGenericParameterInfo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMGetGenericParameterInfo_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static System.Boolean IsSubclassOf(Hvak.Editor.Refleaction.RSystem.RRuntimeType @childType, Hvak.Editor.Refleaction.RSystem.RRuntimeType @baseType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@childType.Value, @baseType.Value};
+			var ___result = RMIsSubclassOf_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean is_subclass_of(System.IntPtr @childType, System.IntPtr @baseType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@childType, @baseType};
+			var ___result = RMis_subclass_of_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsByRefLike(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsByRefLike_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIsTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType internal_from_name(System.String @name, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Reflection.Assembly @callerAssembly, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @stackMark.Value, @callerAssembly, @throwOnError, @ignoreCase, @reflectionOnly};
+			var ___result = RMinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[1]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
-        }
 
-
-        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetTypeByName(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @loadTypeFromPartialName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value, @loadTypeFromPartialName};
-            var ___result = RMGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetTypeByName(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @loadTypeFromPartialName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value, @loadTypeFromPartialName};
+			var ___result = RMGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[4]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
-        }
 
-
-        public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[] @inHandles, out System.Int32 @length)
-        {
+		public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[] @inHandles, out System.Int32 @length)
+		{
 			@length = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inHandles, @length};
-            var ___result = RMCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inHandles, @length};
+			var ___result = RMCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32.Invoke(___genericsType, ___parameters);
 			@length = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.IntPtr[]>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.IntPtr[]>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

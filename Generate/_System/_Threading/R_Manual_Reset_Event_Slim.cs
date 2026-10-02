@@ -726,279 +726,216 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void Initialize(System.Boolean @initialState, System.Int32 @spinCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@initialState, @spinCount};
-            var ___result = RMInitialize_Boolean_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnsureLockObjectCreated()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureLockObjectCreated.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean LazyInitializeEvent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLazyInitializeEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Set()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSet.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Set(System.Boolean @duringCancellation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@duringCancellation};
-            var ___result = RMSet_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Wait()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWait.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cancellationToken};
-            var ___result = RMWait_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Wait(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout, @cancellationToken};
-            var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
-            var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowIfDisposed()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowIfDisposed.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CancellationTokenCallback(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMCancellationTokenCallback_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateStateAtomically(System.Int32 @newBits, System.Int32 @updateBitsMask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newBits, @updateBitsMask};
-            var ___result = RMUpdateStateAtomically_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 ExtractStatePortionAndShiftRight(System.Int32 @state, System.Int32 @mask, System.Int32 @rightBitShiftCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state, @mask, @rightBitShiftCount};
-            var ___result = RMExtractStatePortionAndShiftRight_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 ExtractStatePortion(System.Int32 @state, System.Int32 @mask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state, @mask};
-            var ___result = RMExtractStatePortion_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Initialize(System.Boolean @initialState, System.Int32 @spinCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@initialState, @spinCount};
+			var ___result = RMInitialize_Boolean_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnsureLockObjectCreated()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureLockObjectCreated.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean LazyInitializeEvent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLazyInitializeEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Set()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSet.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Set(System.Boolean @duringCancellation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@duringCancellation};
+			var ___result = RMSet_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Wait()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWait.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cancellationToken};
+			var ___result = RMWait_CancellationToken.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Wait(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout, @cancellationToken};
+			var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
+			var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowIfDisposed()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowIfDisposed.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CancellationTokenCallback(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMCancellationTokenCallback_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateStateAtomically(System.Int32 @newBits, System.Int32 @updateBitsMask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newBits, @updateBitsMask};
+			var ___result = RMUpdateStateAtomically_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 ExtractStatePortionAndShiftRight(System.Int32 @state, System.Int32 @mask, System.Int32 @rightBitShiftCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state, @mask, @rightBitShiftCount};
+			var ___result = RMExtractStatePortionAndShiftRight_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 ExtractStatePortion(System.Int32 @state, System.Int32 @mask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state, @mask};
+			var ___result = RMExtractStatePortion_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

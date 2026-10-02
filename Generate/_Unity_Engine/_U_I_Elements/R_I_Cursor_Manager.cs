@@ -70,26 +70,20 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void SetCursor(UnityEngine.UIElements.Cursor @cursor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursor};
-            var ___result = RMSetCursor_Cursor.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetCursor(UnityEngine.UIElements.Cursor @cursor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursor};
+			var ___result = RMSetCursor_Cursor.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ResetCursor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetCursor.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResetCursor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetCursor.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

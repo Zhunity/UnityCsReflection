@@ -678,378 +678,287 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr InitBuffer(System.Int32 @count, System.Int32 @stride, UnityEngine.ComputeBufferType @type, UnityEngine.ComputeBufferMode @usage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@count, @stride, @type, @usage};
-            var ___result = RMInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static void DestroyBuffer(UnityEngine.ComputeBuffer @buf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buf};
-            var ___result = RMDestroyBuffer_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsValidBuffer(UnityEngine.ComputeBuffer @buf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buf};
-            var ___result = RMIsValidBuffer_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetData(System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMSetData_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMSetData_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMSetData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
-            var ___result = RMSetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value, @managedBufferStartIndex, @computeBufferStartIndex, @count};
-            var ___result = RMSetData_GT_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value, @nativeBufferStartIndex, @computeBufferStartIndex, @count};
-            var ___result = RMSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @nativeBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetData(System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMGetData_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
-            var ___result = RMGetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalGetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalGetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual void* BeginBufferWrite(System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset, @size};
-            var ___result = RMBeginBufferWrite_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return (void*)Pointer.Unbox(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@computeBufferStartIndex, @count};
-            var ___result = RMBeginWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void EndBufferWrite(System.Int32 @bytesWritten)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytesWritten};
-            var ___result = RMEndBufferWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndWrite<T>(System.Int32 @countWritten) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@countWritten};
-            var ___result = RMEndWrite_GT_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetName(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMSetName_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCounterValue(System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@counterValue};
-            var ___result = RMSetCounterValue_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCount_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetNativeBufferPtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeBufferPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void AddBufferToLeakDetector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddBufferToLeakDetector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveBufferFromLeakDetector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveBufferFromLeakDetector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr InitBuffer(System.Int32 @count, System.Int32 @stride, UnityEngine.ComputeBufferType @type, UnityEngine.ComputeBufferMode @usage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@count, @stride, @type, @usage};
+			var ___result = RMInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static void DestroyBuffer(UnityEngine.ComputeBuffer @buf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buf};
+			var ___result = RMDestroyBuffer_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsValidBuffer(UnityEngine.ComputeBuffer @buf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buf};
+			var ___result = RMIsValidBuffer_ComputeBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsValid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetData(System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMSetData_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMSetData_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMSetData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
+			var ___result = RMSetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value, @managedBufferStartIndex, @computeBufferStartIndex, @count};
+			var ___result = RMSetData_GT_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value, @nativeBufferStartIndex, @computeBufferStartIndex, @count};
+			var ___result = RMSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @nativeBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetData(System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMGetData_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
+			var ___result = RMGetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalGetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalGetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe virtual void* BeginBufferWrite(System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset, @size};
+			var ___result = RMBeginBufferWrite_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return (void*)Pointer.Unbox(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@computeBufferStartIndex, @count};
+			var ___result = RMBeginWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual void EndBufferWrite(System.Int32 @bytesWritten)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytesWritten};
+			var ___result = RMEndBufferWrite_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EndWrite<T>(System.Int32 @countWritten) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@countWritten};
+			var ___result = RMEndWrite_GT_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetName(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMSetName_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCounterValue(System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@counterValue};
+			var ___result = RMSetCounterValue_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCount_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IntPtr GetNativeBufferPtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeBufferPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual void AddBufferToLeakDetector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddBufferToLeakDetector.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveBufferFromLeakDetector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveBufferFromLeakDetector.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

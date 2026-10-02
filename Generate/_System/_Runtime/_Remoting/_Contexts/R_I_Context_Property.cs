@@ -86,26 +86,21 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		}
 
 
-        public virtual void Freeze(System.Runtime.Remoting.Contexts.Context @newContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newContext};
-            var ___result = RMFreeze_Context.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Freeze(System.Runtime.Remoting.Contexts.Context @newContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newContext};
+			var ___result = RMFreeze_Context.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context @newCtx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newCtx};
-            var ___result = RMIsNewContextOK_Context.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context @newCtx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newCtx};
+			var ___result = RMIsNewContextOK_Context.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

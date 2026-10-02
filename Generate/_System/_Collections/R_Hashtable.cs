@@ -1094,360 +1094,280 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		}
 
 
-        public virtual System.UInt32 InitHash(System.Object @key, System.Int32 @hashsize, out System.UInt32 @seed, out System.UInt32 @incr)
-        {
+		public virtual System.UInt32 InitHash(System.Object @key, System.Int32 @hashsize, out System.UInt32 @seed, out System.UInt32 @incr)
+		{
 			@seed = default;
 			@incr = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @hashsize, @seed, @incr};
-            var ___result = RMInitHash_Object_Int32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @hashsize, @seed, @incr};
+			var ___result = RMInitHash_Object_Int32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@seed = ReflectionUtils.Convert<System.UInt32>(___parameters[2]);
 			@incr = ReflectionUtils.Convert<System.UInt32>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual void Add(System.Object @key, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMAdd_Object_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ContainsKey(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMContainsKey_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ContainsValue(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMContainsValue_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CopyKeys(System.Array @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyKeys_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyEntries(System.Array @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyEntries_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.Array @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs> ToKeyValuePairsArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToKeyValuePairsArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs>>(___result);
-        }
-
-
-        public virtual void CopyValues(System.Array @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyValues_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void expand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMexpand.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void rehash()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMrehash.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateVersion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void rehash(System.Int32 @newsize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newsize};
-            var ___result = RMrehash_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.IDictionaryEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IDictionaryEnumerator>(___result);
-        }
-
-
-        public virtual System.Int32 GetHash(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetHash_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean KeyEquals(System.Object @item, System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @key};
-            var ___result = RMKeyEquals_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Insert(System.Object @key, System.Object @nvalue, System.Boolean @add)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @nvalue, @add};
-            var ___result = RMInsert_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void putEntry(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable.Rbucket> @newBuckets, System.Object @key, System.Object @nvalue, System.Int32 @hashcode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newBuckets.Value, @key, @nvalue, @hashcode};
-            var ___result = RMputEntry_bucketArray_Object_Object_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Remove(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMRemove_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Collections.Hashtable Synchronized(System.Collections.Hashtable @table)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@table};
-            var ___result = RMSynchronized_Hashtable.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Hashtable>(___result);
-        }
-
-
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual void Add(System.Object @key, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMAdd_Object_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ContainsKey(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMContainsKey_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ContainsValue(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMContainsValue_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CopyKeys(System.Array @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyKeys_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyEntries(System.Array @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyEntries_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.Array @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs> ToKeyValuePairsArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToKeyValuePairsArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs>>(___result);
+		}
+
+
+		public virtual void CopyValues(System.Array @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyValues_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void expand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMexpand.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void rehash()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMrehash.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateVersion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void rehash(System.Int32 @newsize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newsize};
+			var ___result = RMrehash_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.IDictionaryEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IDictionaryEnumerator>(___result);
+		}
+
+
+		public virtual System.Int32 GetHash(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetHash_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean KeyEquals(System.Object @item, System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @key};
+			var ___result = RMKeyEquals_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Insert(System.Object @key, System.Object @nvalue, System.Boolean @add)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @nvalue, @add};
+			var ___result = RMInsert_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void putEntry(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable.Rbucket> @newBuckets, System.Object @key, System.Object @nvalue, System.Int32 @hashcode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newBuckets.Value, @key, @nvalue, @hashcode};
+			var ___result = RMputEntry_bucketArray_Object_Object_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Remove(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMRemove_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Collections.Hashtable Synchronized(System.Collections.Hashtable @table)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@table};
+			var ___result = RMSynchronized_Hashtable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Hashtable>(___result);
+		}
+
+
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

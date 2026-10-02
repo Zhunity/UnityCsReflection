@@ -86,37 +86,29 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		}
 
 
-        public virtual System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(System.Int16 @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token};
-            var ___result = RMGetStatus_Int16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Sources.ValueTaskSourceStatus>(___result);
-        }
+		public virtual System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(System.Int16 @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token};
+			var ___result = RMGetStatus_Int16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Sources.ValueTaskSourceStatus>(___result);
+		}
 
 
-        public virtual void OnCompleted(System.Action<System.Object> @continuation, System.Object @state, System.Int16 @token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continuation, @state, @token, @flags};
-            var ___result = RMOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnCompleted(System.Action<System.Object> @continuation, System.Object @state, System.Int16 @token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continuation, @state, @token, @flags};
+			var ___result = RMOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetResult(System.Int16 @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token};
-            var ___result = RMGetResult_Int16.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetResult(System.Int16 @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token};
+			var ___result = RMGetResult_Int16.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

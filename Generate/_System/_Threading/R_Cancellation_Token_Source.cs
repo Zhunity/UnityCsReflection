@@ -806,279 +806,213 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void InitializeWithTimer(System.Int32 @millisecondsDelay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsDelay};
-            var ___result = RMInitializeWithTimer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Cancel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCancel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Cancel(System.Boolean @throwOnFirstException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@throwOnFirstException};
-            var ___result = RMCancel_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CancelAfter(System.TimeSpan @delay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delay};
-            var ___result = RMCancelAfter_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CancelAfter(System.Int32 @millisecondsDelay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsDelay};
-            var ___result = RMCancelAfter_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void TimerCallbackLogic(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMTimerCallbackLogic_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowIfDisposed()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowIfDisposed.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ThrowObjectDisposedException()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowObjectDisposedException.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.CancellationTokenRegistration InternalRegister(System.Action<System.Object> @callback, System.Object @stateForCallback, System.Threading.SynchronizationContext @targetSyncContext, System.Threading.ExecutionContext @executionContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @stateForCallback, @targetSyncContext, @executionContext};
-            var ___result = RMInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.CancellationTokenRegistration>(___result);
-        }
-
-
-        public virtual void NotifyCancellation(System.Boolean @throwOnFirstException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@throwOnFirstException};
-            var ___result = RMNotifyCancellation_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExecuteCallbackHandlers(System.Boolean @throwOnFirstException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@throwOnFirstException};
-            var ___result = RMExecuteCallbackHandlers_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CancellationCallbackCoreWork_OnSyncContext(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMCancellationCallbackCoreWork_OnSyncContext_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CancellationCallbackCoreWork(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackCoreWorkArguments @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token1, System.Threading.CancellationToken @token2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token1, @token2};
-            var ___result = RMCreateLinkedTokenSource_CancellationToken_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
-        }
-
-
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token};
-            var ___result = RMCreateLinkedTokenSource_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
-        }
-
-
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken[] @tokens)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokens};
-            var ___result = RMCreateLinkedTokenSource_CancellationTokenArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
-        }
-
-
-        public virtual void WaitForCallbackToComplete(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo @callbackInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callbackInfo.Value};
-            var ___result = RMWaitForCallbackToComplete_CancellationCallbackInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void InitializeWithTimer(System.Int32 @millisecondsDelay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsDelay};
+			var ___result = RMInitializeWithTimer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Cancel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCancel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Cancel(System.Boolean @throwOnFirstException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@throwOnFirstException};
+			var ___result = RMCancel_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CancelAfter(System.TimeSpan @delay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delay};
+			var ___result = RMCancelAfter_TimeSpan.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CancelAfter(System.Int32 @millisecondsDelay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsDelay};
+			var ___result = RMCancelAfter_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void TimerCallbackLogic(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMTimerCallbackLogic_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowIfDisposed()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowIfDisposed.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ThrowObjectDisposedException()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowObjectDisposedException.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.CancellationTokenRegistration InternalRegister(System.Action<System.Object> @callback, System.Object @stateForCallback, System.Threading.SynchronizationContext @targetSyncContext, System.Threading.ExecutionContext @executionContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @stateForCallback, @targetSyncContext, @executionContext};
+			var ___result = RMInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.CancellationTokenRegistration>(___result);
+		}
+
+
+		public virtual void NotifyCancellation(System.Boolean @throwOnFirstException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@throwOnFirstException};
+			var ___result = RMNotifyCancellation_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExecuteCallbackHandlers(System.Boolean @throwOnFirstException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@throwOnFirstException};
+			var ___result = RMExecuteCallbackHandlers_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CancellationCallbackCoreWork_OnSyncContext(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMCancellationCallbackCoreWork_OnSyncContext_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CancellationCallbackCoreWork(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackCoreWorkArguments @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token1, System.Threading.CancellationToken @token2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token1, @token2};
+			var ___result = RMCreateLinkedTokenSource_CancellationToken_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
+		}
+
+
+		public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token};
+			var ___result = RMCreateLinkedTokenSource_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
+		}
+
+
+		public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken[] @tokens)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokens};
+			var ___result = RMCreateLinkedTokenSource_CancellationTokenArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.CancellationTokenSource>(___result);
+		}
+
+
+		public virtual void WaitForCallbackToComplete(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo @callbackInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callbackInfo.Value};
+			var ___result = RMWaitForCallbackToComplete_CancellationCallbackInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

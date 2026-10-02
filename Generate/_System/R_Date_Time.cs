@@ -2742,1174 +2742,963 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.DateTime Add(System.TimeSpan @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAdd_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime Add(System.Double @value, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @scale};
-            var ___result = RMAdd_Double_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddDays(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddDays_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddHours(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddHours_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMilliseconds(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddMilliseconds_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMinutes(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddMinutes_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMonths(System.Int32 @months)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@months};
-            var ___result = RMAddMonths_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddSeconds(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddSeconds_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddTicks(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddTicks_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddYears(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddYears_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMCompare_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.DateTime @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int64 DateToTicks(System.Int32 @year, System.Int32 @month, System.Int32 @day)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day};
-            var ___result = RMDateToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hour, @minute, @second};
-            var ___result = RMTimeToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static System.Int32 DaysInMonth(System.Int32 @year, System.Int32 @month)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month};
-            var ___result = RMDaysInMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int64 DoubleDateToTicks(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMDoubleDateToTicks_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.DateTime @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Equals(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMEquals_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.DateTime FromBinary(System.Int64 @dateData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dateData};
-            var ___result = RMFromBinary_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime FromBinaryRaw(System.Int64 @dateData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dateData};
-            var ___result = RMFromBinaryRaw_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime FromFileTime(System.Int64 @fileTime)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileTime};
-            var ___result = RMFromFileTime_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime FromFileTimeUtc(System.Int64 @fileTime)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileTime};
-            var ___result = RMFromFileTimeUtc_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime FromOADate(System.Double @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMFromOADate_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsDaylightSavingTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsDaylightSavingTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.DateTime SpecifyKind(System.DateTime @value, System.DateTimeKind @kind)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @kind};
-            var ___result = RMSpecifyKind_DateTime_DateTimeKind.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Int64 ToBinary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToBinary.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.Int32 GetDatePart(System.Int32 @part)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@part};
-            var ___result = RMGetDatePart_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void GetDatePart(out System.Int32 @year, out System.Int32 @month, out System.Int32 @day)
-        {
+		public virtual System.DateTime Add(System.TimeSpan @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAdd_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime Add(System.Double @value, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @scale};
+			var ___result = RMAdd_Double_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddDays(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddDays_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddHours(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddHours_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMilliseconds(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddMilliseconds_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMinutes(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddMinutes_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMonths(System.Int32 @months)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@months};
+			var ___result = RMAddMonths_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddSeconds(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddSeconds_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddTicks(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddTicks_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddYears(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddYears_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMCompare_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.DateTime @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int64 DateToTicks(System.Int32 @year, System.Int32 @month, System.Int32 @day)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day};
+			var ___result = RMDateToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hour, @minute, @second};
+			var ___result = RMTimeToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static System.Int32 DaysInMonth(System.Int32 @year, System.Int32 @month)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month};
+			var ___result = RMDaysInMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int64 DoubleDateToTicks(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMDoubleDateToTicks_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.DateTime @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Equals(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMEquals_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.DateTime FromBinary(System.Int64 @dateData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dateData};
+			var ___result = RMFromBinary_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime FromBinaryRaw(System.Int64 @dateData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dateData};
+			var ___result = RMFromBinaryRaw_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime FromFileTime(System.Int64 @fileTime)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileTime};
+			var ___result = RMFromFileTime_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime FromFileTimeUtc(System.Int64 @fileTime)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileTime};
+			var ___result = RMFromFileTimeUtc_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime FromOADate(System.Double @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMFromOADate_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsDaylightSavingTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsDaylightSavingTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.DateTime SpecifyKind(System.DateTime @value, System.DateTimeKind @kind)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @kind};
+			var ___result = RMSpecifyKind_DateTime_DateTimeKind.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Int64 ToBinary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToBinary.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.Int32 GetDatePart(System.Int32 @part)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@part};
+			var ___result = RMGetDatePart_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void GetDatePart(out System.Int32 @year, out System.Int32 @month, out System.Int32 @day)
+		{
 			@year = default;
 			@month = default;
 			@day = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day};
-            var ___result = RMGetDatePart_Out_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day};
+			var ___result = RMGetDatePart_Out_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@year = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 			@month = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@day = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsAmbiguousDaylightSavingTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAmbiguousDaylightSavingTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsLeapYear(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMIsLeapYear_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.DateTime Parse(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @provider};
+			var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @provider, @styles};
+			var ___result = RMParse_String_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @provider, @styles};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @format, @provider};
+			var ___result = RMParseExact_String_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @format, @provider, @style};
+			var ___result = RMParseExact_String_String_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style};
+			var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime ParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @formats, @provider, @style};
+			var ___result = RMParseExact_String_StringArray_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
 
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsAmbiguousDaylightSavingTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAmbiguousDaylightSavingTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsLeapYear(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMIsLeapYear_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.DateTime Parse(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @provider};
-            var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @provider, @styles};
-            var ___result = RMParse_String_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @provider, @styles};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @format, @provider};
-            var ___result = RMParseExact_String_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @format, @provider, @style};
-            var ___result = RMParseExact_String_String_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style};
-            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime ParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @formats, @provider, @style};
-            var ___result = RMParseExact_String_StringArray_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @formats, @provider, @style};
-            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.TimeSpan Subtract(System.DateTime @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSubtract_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public virtual System.DateTime Subtract(System.TimeSpan @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSubtract_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.Double TicksToOADate(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTicksToOADate_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Double ToOADate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToOADate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Int64 ToFileTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToFileTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.Int64 ToFileTimeUtc()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToFileTimeUtc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.DateTime ToLocalTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToLocalTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime ToLocalTime(System.Boolean @throwOnOverflow)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@throwOnOverflow};
-            var ___result = RMToLocalTime_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.String ToLongDateString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToLongDateString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToLongTimeString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToLongTimeString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToShortDateString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToShortDateString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToShortTimeString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToShortTimeString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @provider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
-        {
+		public static System.DateTime ParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @formats, @provider, @style};
+			var ___result = RMParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.TimeSpan Subtract(System.DateTime @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSubtract_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public virtual System.DateTime Subtract(System.TimeSpan @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSubtract_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.Double TicksToOADate(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTicksToOADate_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Double ToOADate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToOADate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Int64 ToFileTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToFileTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.Int64 ToFileTimeUtc()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToFileTimeUtc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.DateTime ToLocalTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToLocalTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime ToLocalTime(System.Boolean @throwOnOverflow)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@throwOnOverflow};
+			var ___result = RMToLocalTime_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.String ToLongDateString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToLongDateString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToLongTimeString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToLongTimeString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToShortDateString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToShortDateString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToShortTimeString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToShortTimeString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @provider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.DateTime ToUniversalTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToUniversalTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean TryParse(System.String @s, out System.DateTime @result)
-        {
+		public virtual System.DateTime ToUniversalTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToUniversalTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.String @s, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @result};
-            var ___result = RMTryParse_String_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @result};
+			var ___result = RMTryParse_String_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.DateTime @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
-        {
+		public static System.Boolean TryParse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @provider, @styles, @result};
-            var ___result = RMTryParse_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @provider, @styles, @result};
+			var ___result = RMTryParse_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @provider, @styles, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @provider, @styles, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
-        {
+		public static System.Boolean TryParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @format, @provider, @style, @result};
-            var ___result = RMTryParseExact_String_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @format, @provider, @style, @result};
+			var ___result = RMTryParseExact_String_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
-        {
+		public static System.Boolean TryParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @formats, @provider, @style, @result};
-            var ___result = RMTryParseExact_String_StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @formats, @provider, @style, @result};
+			var ___result = RMTryParseExact_String_StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
-        {
+		public static System.Boolean TryParseExact(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @formats, @provider, @style, @result};
-            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @formats, @provider, @style, @result};
+			var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.DateTime op_Addition(System.DateTime @d, System.TimeSpan @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @t};
-            var ___result = RMop_Addition_DateTime_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.DateTime op_Subtraction(System.DateTime @d, System.TimeSpan @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @t};
-            var ___result = RMop_Subtraction_DateTime_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public static System.TimeSpan op_Subtraction(System.DateTime @d1, System.DateTime @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Subtraction_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.DateTime @d1, System.DateTime @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Equality_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.DateTime @d1, System.DateTime @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Inequality_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThan(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_LessThan_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThanOrEqual(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_LessThanOrEqual_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThan(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_GreaterThan_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThanOrEqual(System.DateTime @t1, System.DateTime @t2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t1, @t2};
-            var ___result = RMop_GreaterThanOrEqual_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String[] GetDateTimeFormats()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDateTimeFormats.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] GetDateTimeFormats(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMGetDateTimeFormats_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] GetDateTimeFormats(System.Char @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMGetDateTimeFormats_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] GetDateTimeFormats(System.Char @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @provider};
-            var ___result = RMGetDateTimeFormats_Char_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @provider};
-            var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Boolean TryCreate(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, out System.DateTime @result)
-        {
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.DateTime op_Addition(System.DateTime @d, System.TimeSpan @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @t};
+			var ___result = RMop_Addition_DateTime_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.DateTime op_Subtraction(System.DateTime @d, System.TimeSpan @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @t};
+			var ___result = RMop_Subtraction_DateTime_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public static System.TimeSpan op_Subtraction(System.DateTime @d1, System.DateTime @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Subtraction_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.DateTime @d1, System.DateTime @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Equality_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.DateTime @d1, System.DateTime @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Inequality_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThan(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_LessThan_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThanOrEqual(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_LessThanOrEqual_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThan(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_GreaterThan_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThanOrEqual(System.DateTime @t1, System.DateTime @t2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t1, @t2};
+			var ___result = RMop_GreaterThanOrEqual_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String[] GetDateTimeFormats()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDateTimeFormats.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] GetDateTimeFormats(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMGetDateTimeFormats_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] GetDateTimeFormats(System.Char @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMGetDateTimeFormats_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] GetDateTimeFormats(System.Char @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @provider};
+			var ___result = RMGetDateTimeFormats_Char_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @provider};
+			var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Boolean TryCreate(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @result};
-            var ___result = RMTryCreate_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @result};
+			var ___result = RMTryCreate_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[7]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int64 GetSystemTimeAsFileTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSystemTimeAsFileTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int64 ToBinaryRaw()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToBinaryRaw.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
+		public static System.Int64 GetSystemTimeAsFileTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSystemTimeAsFileTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Int64 ToBinaryRaw()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToBinaryRaw.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

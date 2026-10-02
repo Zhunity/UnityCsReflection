@@ -150,59 +150,46 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual void Add(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Add(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Contains(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Contains(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Remove(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Remove(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

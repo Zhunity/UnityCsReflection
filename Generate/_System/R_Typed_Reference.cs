@@ -310,147 +310,118 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @flds};
-            var ___result = RMMakeTypedReference_Object_FieldInfoArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypedReference>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @flds};
+			var ___result = RMMakeTypedReference_Object_FieldInfoArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypedReference>(___result);
+		}
 
 
-        public unsafe static void InternalMakeTypedReference(void* @result, System.Object @target, System.IntPtr[] @flds, Hvak.Editor.Refleaction.RSystem.RRuntimeType @lastFieldType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@result, typeof(void)), @target, @flds, @lastFieldType.Value};
-            var ___result = RMInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public unsafe static void InternalMakeTypedReference(void* @result, System.Object @target, System.IntPtr[] @flds, Hvak.Editor.Refleaction.RSystem.RRuntimeType @lastFieldType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@result, typeof(void)), @target, @flds, @lastFieldType.Value};
+			var ___result = RMInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Object ToObject(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMToObject_TypedReference.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Object ToObject(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMToObject_TypedReference.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public unsafe static System.Object InternalToObject(void* @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(void))};
-            var ___result = RMInternalToObject_VoidPointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public unsafe static System.Object InternalToObject(void* @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(void))};
+			var ___result = RMInternalToObject_VoidPointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public static System.Type GetTargetType(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMGetTargetType_TypedReference.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public static System.Type GetTargetType(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMGetTargetType_TypedReference.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public static System.RuntimeTypeHandle TargetTypeToken(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMTargetTypeToken_TypedReference.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
-        }
+		public static System.RuntimeTypeHandle TargetTypeToken(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMTargetTypeToken_TypedReference.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
+		}
 
 
-        public static void SetTypedReference(Hvak.Editor.Refleaction.RSystem.RTypedReference @target, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value, @value};
-            var ___result = RMSetTypedReference_TypedReference_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetTypedReference(Hvak.Editor.Refleaction.RSystem.RTypedReference @target, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target.Value, @value};
+			var ___result = RMSetTypedReference_TypedReference_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

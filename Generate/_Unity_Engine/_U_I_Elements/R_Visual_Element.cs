@@ -6678,2143 +6678,1670 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIStylePropertyAnimationSystem GetStylePropertyAnimationSystem()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStylePropertyAnimationSystem.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIStylePropertyAnimationSystem>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @from, System.Single @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Length @from, UnityEngine.UIElements.Length @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Background @from, UnityEngine.UIElements.Background @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.FontDefinition @from, UnityEngine.UIElements.FontDefinition @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Font @from, UnityEngine.Font @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TextShadow @from, UnityEngine.UIElements.TextShadow @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Scale @from, UnityEngine.UIElements.Scale @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Translate @from, UnityEngine.UIElements.Translate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Rotate @from, UnityEngine.UIElements.Rotate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TransformOrigin @from, UnityEngine.UIElements.TransformOrigin @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAllAnimations()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAllAnimations.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @outPropertyIds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outPropertyIds.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations_List_d_StylePropertyId_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TryConvertLengthUnits(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to};
-            var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length.Invoke(___genericsType, ___parameters);
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIStylePropertyAnimationSystem GetStylePropertyAnimationSystem()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStylePropertyAnimationSystem.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIStylePropertyAnimationSystem>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @from, System.Single @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Length @from, UnityEngine.UIElements.Length @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Background @from, UnityEngine.UIElements.Background @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.FontDefinition @from, UnityEngine.UIElements.FontDefinition @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Font @from, UnityEngine.Font @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TextShadow @from, UnityEngine.UIElements.TextShadow @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Scale @from, UnityEngine.UIElements.Scale @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Translate @from, UnityEngine.UIElements.Translate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Rotate @from, UnityEngine.UIElements.Rotate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TransformOrigin @from, UnityEngine.UIElements.TransformOrigin @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAllAnimations()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAllAnimations.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation_StylePropertyId.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @outPropertyIds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outPropertyIds.Value};
+			var ___result = RMUnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations_List_d_StylePropertyId_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TryConvertLengthUnits(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @from, @to};
+			var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length.Invoke(___genericsType, ___parameters);
 			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[1]);
 			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin @from, ref UnityEngine.UIElements.TransformOrigin @to)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin @from, ref UnityEngine.UIElements.TransformOrigin @to)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to};
+			var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
 			@from = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[0]);
 			@to = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate @from, ref UnityEngine.UIElements.Translate @to)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate @from, ref UnityEngine.UIElements.Translate @to)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to};
+			var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
 			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[0]);
 			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void MarkRenderHintsClean()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkRenderHintsClean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector3 ComputeGlobalScale()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMComputeGlobalScale.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void UpdateBoundingBox()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateBoundingBox.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateWorldBoundingBox()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateWorldBoundingBox.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateWorldTransform()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateWorldTransform.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateWorldTransformInverse()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateWorldTransformInverse.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnsureWorldTransformAndClipUpToDate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureWorldTransformAndClipUpToDate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateWorldClip()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateWorldClip.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect CombineClipRects(UnityEngine.Rect @rect, UnityEngine.Rect @parentRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @parentRect};
+			var ___result = RMCombineClipRects_Rect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect SubstractBorderPadding(UnityEngine.Rect @worldRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@worldRect};
+			var ___result = RMSubstractBorderPadding_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public static UnityEngine.Rect ComputeAAAlignedBound(UnityEngine.Rect @position, UnityEngine.Matrix4x4 @mat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @mat};
+			var ___result = RMComputeAAAlignedBound_Rect_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void UpdateHoverPseudoState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateHoverPseudoState.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void MarkRenderHintsClean()
-        {
+		public virtual void ChangeIMGUIContainerCount(System.Int32 @delta)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delta};
+			var ___result = RMChangeIMGUIContainerCount_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkRenderHintsClean.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
 
+		public virtual UnityEngine.Rect GetTooltipRect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTooltipRect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
 
-        public virtual UnityEngine.Vector3 ComputeGlobalScale()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMComputeGlobalScale.Invoke(___genericsType, ___parameters);
+		public virtual void SetTooltip(UnityEngine.UIElements.TooltipEvent @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSetTooltip_TooltipEvent.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
 
+		public virtual void Focus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFocus.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void UpdateBoundingBox()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateBoundingBox.Invoke(___genericsType, ___parameters);
+		public virtual void SetPanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @p)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@p.Value};
+			var ___result = RMSetPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void WillChangePanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @destinationPanel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destinationPanel.Value};
+			var ___result = RMWillChangePanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void UpdateWorldBoundingBox()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateWorldBoundingBox.Invoke(___genericsType, ___parameters);
+		public virtual void HasChangedPanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @prevPanel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prevPanel.Value};
+			var ___result = RMHasChangedPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
-
-
-        public virtual void UpdateWorldTransform()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateWorldTransform.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateWorldTransformInverse()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateWorldTransformInverse.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnsureWorldTransformAndClipUpToDate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureWorldTransformAndClipUpToDate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateWorldClip()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateWorldClip.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect CombineClipRects(UnityEngine.Rect @rect, UnityEngine.Rect @parentRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @parentRect};
-            var ___result = RMCombineClipRects_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect SubstractBorderPadding(UnityEngine.Rect @worldRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@worldRect};
-            var ___result = RMSubstractBorderPadding_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public static UnityEngine.Rect ComputeAAAlignedBound(UnityEngine.Rect @position, UnityEngine.Matrix4x4 @mat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @mat};
-            var ___result = RMComputeAAAlignedBound_Rect_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void UpdateHoverPseudoState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateHoverPseudoState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ChangeIMGUIContainerCount(System.Int32 @delta)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delta};
-            var ___result = RMChangeIMGUIContainerCount_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect GetTooltipRect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTooltipRect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void SetTooltip(UnityEngine.UIElements.TooltipEvent @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSetTooltip_TooltipEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Focus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p.Value};
-            var ___result = RMSetPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WillChangePanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @destinationPanel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destinationPanel.Value};
-            var ___result = RMWillChangePanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HasChangedPanel(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @prevPanel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prevPanel.Value};
-            var ___result = RMHasChangedPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @dispatchMode.Value};
-            var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IncrementVersion(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@changeType.Value};
-            var ___result = RMIncrementVersion_VersionChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeHierarchyChanged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType @changeType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@changeType.Value};
-            var ___result = RMInvokeHierarchyChanged_HierarchyChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetEnabledFromHierarchy(System.Boolean @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMSetEnabledFromHierarchy_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetEnabledFromHierarchyPrivate(System.Boolean @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMSetEnabledFromHierarchyPrivate_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetEnabled(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetEnabled_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PropagateEnabledToChildren(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMPropagateEnabledToChildren_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkDirtyRepaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext @mgc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mgc};
-            var ___result = RMInvokeGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetFullHierarchicalViewDataKey(System.Text.StringBuilder @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetFullHierarchicalViewDataKey_StringBuilder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetFullHierarchicalViewDataKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFullHierarchicalViewDataKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual T GetOrCreateViewData<T>(System.Object @existing, System.String @key) where T : class, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@existing, @key};
-            var ___result = RMGetOrCreateViewData_GT_Object_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetOrCreateViewData<T>(UnityEngine.ScriptableObject @existing, System.String @key) where T : UnityEngine.ScriptableObject
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@existing, @key};
-            var ___result = RMGetOrCreateViewData_GT_ScriptableObject_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual void OverwriteFromViewData(System.Object @obj, System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @key};
-            var ___result = RMOverwriteFromViewData_Object_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SaveViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveViewData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsViewDataPersitenceSupportedOnChildren(System.Boolean @existingState)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@existingState};
-            var ___result = RMIsViewDataPersitenceSupportedOnChildren_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnViewDataReady(System.Boolean @enablePersistence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enablePersistence};
-            var ___result = RMOnViewDataReady_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnViewDataReady()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnViewDataReady.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ContainsPoint(UnityEngine.Vector2 @localPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPoint};
-            var ___result = RMContainsPoint_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Overlaps(UnityEngine.Rect @rectangle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectangle};
-            var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AssignMeasureFunction()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAssignMeasureFunction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveMeasureFunction()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveMeasureFunction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @desiredHeight, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desiredWidth, @widthMode.Value, @desiredHeight, @heightMode.Value};
-            var ___result = RMDoMeasure_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize Measure(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
-            var ___result = RMMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
-        }
-
-
-        public virtual void SetSize(UnityEngine.Vector2 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@size};
-            var ___result = RMSetSize_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FinalizeLayout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalizeLayout.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @rule.Value};
-            var ___result = RMSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @rule.Value};
-            var ___result = RMUpdateInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputedStyle(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newStyle.Value};
-            var ___result = RMSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @dispatchMode.Value};
+			var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IncrementVersion(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@changeType.Value};
+			var ___result = RMIncrementVersion_VersionChangeType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeHierarchyChanged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType @changeType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@changeType.Value};
+			var ___result = RMInvokeHierarchyChanged_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SetEnabledFromHierarchy(System.Boolean @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMSetEnabledFromHierarchy_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetEnabledFromHierarchyPrivate(System.Boolean @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMSetEnabledFromHierarchyPrivate_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetEnabled(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetEnabled_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PropagateEnabledToChildren(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMPropagateEnabledToChildren_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkDirtyRepaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext @mgc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mgc};
+			var ___result = RMInvokeGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetFullHierarchicalViewDataKey(System.Text.StringBuilder @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetFullHierarchicalViewDataKey_StringBuilder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetFullHierarchicalViewDataKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFullHierarchicalViewDataKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual T GetOrCreateViewData<T>(System.Object @existing, System.String @key) where T : class, new()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@existing, @key};
+			var ___result = RMGetOrCreateViewData_GT_Object_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetOrCreateViewData<T>(UnityEngine.ScriptableObject @existing, System.String @key) where T : UnityEngine.ScriptableObject
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@existing, @key};
+			var ___result = RMGetOrCreateViewData_GT_ScriptableObject_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual void OverwriteFromViewData(System.Object @obj, System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @key};
+			var ___result = RMOverwriteFromViewData_Object_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SaveViewData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSaveViewData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsViewDataPersitenceSupportedOnChildren(System.Boolean @existingState)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@existingState};
+			var ___result = RMIsViewDataPersitenceSupportedOnChildren_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void OnViewDataReady(System.Boolean @enablePersistence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enablePersistence};
+			var ___result = RMOnViewDataReady_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnViewDataReady()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnViewDataReady.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ContainsPoint(UnityEngine.Vector2 @localPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localPoint};
+			var ___result = RMContainsPoint_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Overlaps(UnityEngine.Rect @rectangle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectangle};
+			var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AssignMeasureFunction()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAssignMeasureFunction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveMeasureFunction()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveMeasureFunction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @desiredHeight, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desiredWidth, @widthMode.Value, @desiredHeight, @heightMode.Value};
+			var ___result = RMDoMeasure_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize Measure(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
+			var ___result = RMMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
+		}
+
+
+		public virtual void SetSize(UnityEngine.Vector2 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@size};
+			var ___result = RMSetSize_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FinalizeLayout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalizeLayout.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @rule.Value};
+			var ___result = RMSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @rule.Value};
+			var ___result = RMUpdateInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputedStyle(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newStyle.Value};
+			var ___result = RMSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void ResetPositionProperties()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetPositionProperties.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResetPositionProperties()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetPositionProperties.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Collections.Generic.IEnumerable<System.String> GetClasses()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetClasses.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
-        }
+		public virtual System.Collections.Generic.IEnumerable<System.String> GetClasses()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetClasses.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
+		}
 
 
-        public virtual System.Collections.Generic.List<System.String> GetClassesForIteration()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetClassesForIteration.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___result);
-        }
+		public virtual System.Collections.Generic.List<System.String> GetClassesForIteration()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetClassesForIteration.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___result);
+		}
 
 
-        public virtual void ClearClassList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearClassList.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearClassList()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearClassList.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddToClassList(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMAddToClassList_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddToClassList(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMAddToClassList_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RemoveFromClassList(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMRemoveFromClassList_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveFromClassList(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMRemoveFromClassList_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ToggleInClassList(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMToggleInClassList_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ToggleInClassList(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMToggleInClassList_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void EnableInClassList(System.String @className, System.Boolean @enable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className, @enable};
-            var ___result = RMEnableInClassList_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void EnableInClassList(System.String @className, System.Boolean @enable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className, @enable};
+			var ___result = RMEnableInClassList_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean ClassListContains(System.String @cls)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cls};
-            var ___result = RMClassListContains_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ClassListContains(System.String @cls)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cls};
+			var ___result = RMClassListContains_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Object FindAncestorUserData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFindAncestorUserData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object FindAncestorUserData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFindAncestorUserData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Object GetProperty(UnityEngine.PropertyName @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetProperty_PropertyName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetProperty(UnityEngine.PropertyName @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetProperty_PropertyName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual void SetProperty(UnityEngine.PropertyName @key, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMSetProperty_PropertyName_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetProperty(UnityEngine.PropertyName @key, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMSetProperty_PropertyName_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasProperty(UnityEngine.PropertyName @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMHasProperty_PropertyName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasProperty(UnityEngine.PropertyName @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMHasProperty_PropertyName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetPropertyInternal(UnityEngine.PropertyName @key, out System.Object @value)
-        {
+		public virtual System.Boolean TryGetPropertyInternal(UnityEngine.PropertyName @key, out System.Object @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMTryGetPropertyInternal_PropertyName_Out_Object.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMTryGetPropertyInternal_PropertyName_Out_Object.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.Object>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckUserKeyArgument(UnityEngine.PropertyName @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMCheckUserKeyArgument_PropertyName.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPropertyInternal(UnityEngine.PropertyName @key, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMSetPropertyInternal_PropertyName_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateCursorStyle(System.Int64 @eventType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventType};
-            var ___result = RMUpdateCursorStyle_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Material getRuntimeMaterial()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMgetRuntimeMaterial.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Material>(___result);
-        }
-
-
-        public virtual void ApplyPlayerRenderingToEditorElement()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyPlayerRenderingToEditorElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAnimationSystem GetAnimationSystem()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAnimationSystem.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAnimationSystem>(___result);
-        }
-
-
-        public virtual void RegisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anim.Value};
-            var ___result = RMRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anim.Value};
-            var ___result = RMUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterRunningAnimations()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnregisterRunningAnimations.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterRunningAnimations()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRegisterRunningAnimations.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Single_Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Rect_Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Color_Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Vector3_Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Vector2_Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Quaternion_Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_StyleValues_StyleValues_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Single_p__Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Rect_p__Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Color_p__Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Vector3_p__Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Vector2_p__Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Quaternion_p__Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Experimental.ValueAnimation<T> StartAnimation<T>(UnityEngine.UIElements.Experimental.ValueAnimation<T> @anim, System.Func<UnityEngine.UIElements.VisualElement, T> @fromValueGetter, T @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, T> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@anim, @fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStartAnimation_GT_ValueAnimation_d_T_p__Func_d_VisualElement_T_p__T_Int32_Action_d_VisualElement_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
-        }
-
-
-        public static void AssignStyleValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @src)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @src};
-            var ___result = RMAssignStyleValues_VisualElement_StyleValues.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.StyleValues ReadCurrentValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @targetValuesToRead)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @targetValuesToRead};
-            var ___result = RMReadCurrentValues_VisualElement_StyleValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.StyleValues>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_StyleValues_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.Experimental.StyleValues> @fromValueGetter, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs};
-            var ___result = RMStart_Func_d_VisualElement_StyleValues_p__StyleValues_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout_Rect_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale(System.Single @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale_Single_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position(UnityEngine.Vector3 @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position_Vector3_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation(UnityEngine.Quaternion @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation_Quaternion_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
-
-
-        public virtual System.Boolean ShouldClip()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShouldClip.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Add(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @element};
-            var ___result = RMInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Remove(UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMRemove_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement ElementAtTreePath(System.Collections.Generic.List<System.Int32> @childIndexes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@childIndexes};
-            var ___result = RMElementAtTreePath_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual System.Boolean FindElementInTree(UnityEngine.UIElements.VisualElement @element, System.Collections.Generic.List<System.Int32> @outChildIndexes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @outChildIndexes};
-            var ___result = RMFindElementInTree_VisualElement_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement> Children()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMChildren.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>>(___result);
-        }
-
-
-        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comp};
-            var ___result = RMSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BringToFront()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBringToFront.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendToBack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSendToBack.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @sibling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sibling};
-            var ___result = RMPlaceBehind_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @sibling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sibling};
-            var ___result = RMPlaceInFront_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFromHierarchy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveFromHierarchy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T GetFirstOfType<T>() where T : class
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFirstOfType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetFirstAncestorOfType<T>() where T : class
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFirstAncestorOfType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMContains_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GatherAllChildren(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@elements};
-            var ___result = RMGatherAllChildren_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement FindCommonAncestor(UnityEngine.UIElements.VisualElement @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMFindCommonAncestor_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetRoot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRoot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetRootVisualContainer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRootVisualContainer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetNextElementDepthFirst()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNextElementDepthFirst.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetPreviousElementDepthFirst()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPreviousElementDepthFirst.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement RetargetElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@retargetAgainst};
-            var ___result = RMRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void HandlePanelAttachmentEvents(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandlePanelAttachmentEvents_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Single Min(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @c, @d};
-            var ___result = RMMin_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static System.Single Max(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @c, @d};
-            var ___result = RMMax_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void TransformAlignedRectToParentSpace(ref UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMTransformAlignedRectToParentSpace_Ref_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CheckUserKeyArgument(UnityEngine.PropertyName @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMCheckUserKeyArgument_PropertyName.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPropertyInternal(UnityEngine.PropertyName @key, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMSetPropertyInternal_PropertyName_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateCursorStyle(System.Int64 @eventType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eventType};
+			var ___result = RMUpdateCursorStyle_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Material getRuntimeMaterial()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMgetRuntimeMaterial.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Material>(___result);
+		}
+
+
+		public virtual void ApplyPlayerRenderingToEditorElement()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyPlayerRenderingToEditorElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAnimationSystem GetAnimationSystem()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAnimationSystem.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAnimationSystem>(___result);
+		}
+
+
+		public virtual void RegisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anim.Value};
+			var ___result = RMRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anim.Value};
+			var ___result = RMUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterRunningAnimations()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnregisterRunningAnimations.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterRunningAnimations()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRegisterRunningAnimations.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Single_Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Rect_Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Color_Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Vector3_Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Vector2_Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Quaternion_Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_StyleValues_StyleValues_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Single_p__Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Rect_p__Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Color_p__Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Vector3_p__Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Vector2_p__Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_Func_d_VisualElement_Quaternion_p__Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
+
+
+		public static UnityEngine.UIElements.Experimental.ValueAnimation<T> StartAnimation<T>(UnityEngine.UIElements.Experimental.ValueAnimation<T> @anim, System.Func<UnityEngine.UIElements.VisualElement, T> @fromValueGetter, T @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, T> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@anim, @fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStartAnimation_GT_ValueAnimation_d_T_p__Func_d_VisualElement_T_p__T_Int32_Action_d_VisualElement_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
+		}
+
+
+		public static void AssignStyleValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @src)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @src};
+			var ___result = RMAssignStyleValues_VisualElement_StyleValues.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.StyleValues ReadCurrentValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @targetValuesToRead)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @targetValuesToRead};
+			var ___result = RMReadCurrentValues_VisualElement_StyleValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.StyleValues>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start_StyleValues_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.Experimental.StyleValues> @fromValueGetter, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs};
+			var ___result = RMStart_Func_d_VisualElement_StyleValues_p__StyleValues_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout_Rect_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft_Vector2_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size_Vector2_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale(System.Single @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale_Single_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position(UnityEngine.Vector3 @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position_Vector3_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation(UnityEngine.Quaternion @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMUnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation_Quaternion_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
+
+
+		public virtual System.Boolean ShouldClip()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShouldClip.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Add(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @element};
+			var ___result = RMInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Remove(UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMRemove_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement ElementAtTreePath(System.Collections.Generic.List<System.Int32> @childIndexes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@childIndexes};
+			var ___result = RMElementAtTreePath_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual System.Boolean FindElementInTree(UnityEngine.UIElements.VisualElement @element, System.Collections.Generic.List<System.Int32> @outChildIndexes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @outChildIndexes};
+			var ___result = RMFindElementInTree_VisualElement_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement> Children()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMChildren.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>>(___result);
+		}
+
+
+		public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comp};
+			var ___result = RMSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BringToFront()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBringToFront.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendToBack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSendToBack.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @sibling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sibling};
+			var ___result = RMPlaceBehind_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @sibling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sibling};
+			var ___result = RMPlaceInFront_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFromHierarchy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveFromHierarchy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T GetFirstOfType<T>() where T : class
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFirstOfType_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetFirstAncestorOfType<T>() where T : class
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFirstAncestorOfType_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMContains_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GatherAllChildren(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@elements};
+			var ___result = RMGatherAllChildren_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement FindCommonAncestor(UnityEngine.UIElements.VisualElement @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMFindCommonAncestor_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement GetRoot()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRoot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement GetRootVisualContainer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRootVisualContainer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement GetNextElementDepthFirst()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNextElementDepthFirst.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement GetPreviousElementDepthFirst()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPreviousElementDepthFirst.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement RetargetElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@retargetAgainst};
+			var ___result = RMRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual void HandlePanelAttachmentEvents(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandlePanelAttachmentEvents_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Single Min(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @c, @d};
+			var ___result = RMMin_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Single Max(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @c, @d};
+			var ___result = RMMax_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void TransformAlignedRectToParentSpace(ref UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMTransformAlignedRectToParentSpace_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.Rect CalculateConservativeRect(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @rect};
-            var ___result = RMCalculateConservativeRect_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Rect CalculateConservativeRect(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @rect};
+			var ___result = RMCalculateConservativeRect_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
 
-
-        public static void TransformAlignedRect(ref UnityEngine.Matrix4x4 @matrix, ref UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @rect};
-            var ___result = RMTransformAlignedRect_Ref_Matrix4x4_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public static void TransformAlignedRect(ref UnityEngine.Matrix4x4 @matrix, ref UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @rect};
+			var ___result = RMTransformAlignedRect_Ref_Matrix4x4_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void OrderMinMaxRect(ref UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMOrderMinMaxRect_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public static void OrderMinMaxRect(ref UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMOrderMinMaxRect_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.Vector2 MultiplyMatrix44Point2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @point};
-            var ___result = RMMultiplyMatrix44Point2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Vector2 MultiplyMatrix44Point2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @point};
+			var ___result = RMMultiplyMatrix44Point2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
 
-
-        public static UnityEngine.Vector2 MultiplyVector2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @vector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @vector};
-            var ___result = RMMultiplyVector2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Vector2 MultiplyVector2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @vector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @vector};
+			var ___result = RMMultiplyVector2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
 
-
-        public static UnityEngine.Rect MultiplyMatrix44Rect2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Rect @r)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @r};
-            var ___result = RMMultiplyMatrix44Rect2_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Rect MultiplyMatrix44Rect2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Rect @r)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @r};
+			var ___result = RMMultiplyMatrix44Rect2_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
 
-
-        public static void MultiplyMatrix34(ref UnityEngine.Matrix4x4 @lhs, ref UnityEngine.Matrix4x4 @rhs, out UnityEngine.Matrix4x4 @res)
-        {
+		public static void MultiplyMatrix34(ref UnityEngine.Matrix4x4 @lhs, ref UnityEngine.Matrix4x4 @rhs, out UnityEngine.Matrix4x4 @res)
+		{
 			@res = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs, @res};
-            var ___result = RMMultiplyMatrix34_Ref_Matrix4x4_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs, @res};
+			var ___result = RMMultiplyMatrix34_Ref_Matrix4x4_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@rhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 			@res = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void TranslateMatrix34(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs, out UnityEngine.Matrix4x4 @res)
-        {
+		public static void TranslateMatrix34(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs, out UnityEngine.Matrix4x4 @res)
+		{
 			@res = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs, @res};
-            var ___result = RMTranslateMatrix34_Ref_Matrix4x4_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs, @res};
+			var ___result = RMTranslateMatrix34_Ref_Matrix4x4_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@res = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void TranslateMatrix34InPlace(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMTranslateMatrix34InPlace_Ref_Matrix4x4_Vector3.Invoke(___genericsType, ___parameters);
+		public static void TranslateMatrix34InPlace(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMTranslateMatrix34InPlace_Ref_Matrix4x4_Vector3.Invoke(___genericsType, ___parameters);
 			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timerUpdateEvent};
-            var ___result = RMUnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute_Action_d_TimerState_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action @updateEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updateEvent};
-            var ___result = RMUnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute_Action.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
-        }
-
-
-        public virtual void AddStyleSheetPath(System.String @sheetPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheetPath};
-            var ___result = RMAddStyleSheetPath_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean HasStyleSheetPath(System.String @sheetPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheetPath};
-            var ___result = RMHasStyleSheetPath_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveStyleSheetPath(System.String @sheetPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheetPath};
-            var ___result = RMRemoveStyleSheetPath_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleFloat ResolveLengthValue(UnityEngine.UIElements.Length @length, System.Boolean @isRow)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@length, @isRow};
-            var ___result = RMResolveLengthValue_Length_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFloat>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ResolveTranslate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveTranslate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ResolveTransformOrigin()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveTransformOrigin.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Quaternion ResolveRotation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveRotation.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ResolveScale()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveScale.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize __0__AssignMeasureFunction__1__b__253_0(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @f, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @mode, System.Single @f1, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node.Value, @f, @mode.Value, @f1, @heightMode.Value};
-            var ___result = RM__0__AssignMeasureFunction__1__b__253_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
-        }
-
-
-        public virtual void Blur()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlur.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BlurImmediately()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlurImmediately.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, TUserArgsType @userArgs, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
-            var ___parameters = new object[]{@callback, @userArgs, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown, out TCallbackArgs @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
+		}
+
+
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timerUpdateEvent};
+			var ___result = RMUnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute_Action_d_TimerState_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action @updateEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updateEvent};
+			var ___result = RMUnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute_Action.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
+		}
+
+
+		public virtual void AddStyleSheetPath(System.String @sheetPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheetPath};
+			var ___result = RMAddStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean HasStyleSheetPath(System.String @sheetPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheetPath};
+			var ___result = RMHasStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveStyleSheetPath(System.String @sheetPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheetPath};
+			var ___result = RMRemoveStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.StyleFloat ResolveLengthValue(UnityEngine.UIElements.Length @length, System.Boolean @isRow)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@length, @isRow};
+			var ___result = RMResolveLengthValue_Length_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFloat>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ResolveTranslate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveTranslate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ResolveTransformOrigin()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveTransformOrigin.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Quaternion ResolveRotation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveRotation.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 ResolveScale()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveScale.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize __0__AssignMeasureFunction__1__b__253_0(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @f, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @mode, System.Single @f1, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node.Value, @f, @mode.Value, @f1, @heightMode.Value};
+			var ___result = RM__0__AssignMeasureFunction__1__b__253_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
+		}
+
+
+		public virtual void Blur()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlur.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BlurImmediately()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlurImmediately.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, TUserArgsType @userArgs, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
+			var ___parameters = new object[]{@callback, @userArgs, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown, out TCallbackArgs @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
 			@userData = default;
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
-            var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
-            var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
+			var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
+			var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
 			@userData = ReflectionUtils.Convert<TCallbackArgs>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasTrickleDownHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasBubbleUpHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasTrickleDownHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean HasBubbleUpHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

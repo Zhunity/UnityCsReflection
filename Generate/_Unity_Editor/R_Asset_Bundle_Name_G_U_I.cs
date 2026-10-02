@@ -342,160 +342,124 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void OnAssetBundleNameGUI(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets};
-            var ___result = RMOnAssetBundleNameGUI_IEnumerable_d_Object_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnAssetBundleNameGUI(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets};
+			var ___result = RMOnAssetBundleNameGUI_IEnumerable_d_Object_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ShowNewAssetBundleField(System.Boolean @isVariant)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isVariant};
-            var ___result = RMShowNewAssetBundleField_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ShowNewAssetBundleField(System.Boolean @isVariant)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isVariant};
+			var ___result = RMShowNewAssetBundleField_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AssetBundleTextField(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @id, @assets, @isVariant};
-            var ___result = RMAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AssetBundleTextField(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @id, @assets, @isVariant};
+			var ___result = RMAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ShowAssetBundlePopup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowAssetBundlePopup.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ShowAssetBundlePopup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowAssetBundlePopup.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AssetBundlePopup(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @id, @assets, @isVariant};
-            var ___result = RMAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AssetBundlePopup(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @id, @assets, @isVariant};
+			var ___result = RMAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void FilterSelected(System.Collections.Generic.IEnumerable<System.String> @assetBundleNames)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetBundleNames};
-            var ___result = RMFilterSelected_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void FilterSelected(System.Collections.Generic.IEnumerable<System.String> @assetBundleNames)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetBundleNames};
+			var ___result = RMFilterSelected_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Collections.Generic.IEnumerable<System.String> GetAssetBundlesFromAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant, out System.Boolean @isMixed)
-        {
+		public virtual System.Collections.Generic.IEnumerable<System.String> GetAssetBundlesFromAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant, out System.Boolean @isMixed)
+		{
 			@isMixed = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets, @isVariant, @isMixed};
-            var ___result = RMGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets, @isVariant, @isMixed};
+			var ___result = RMGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@isMixed = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
-        }
-
-
-        public virtual void SetAssetBundleForAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.String @name, System.Boolean @isVariant)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets, @name, @isVariant};
-            var ___result = RMSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void SetAssetBundleForAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.String @name, System.Boolean @isVariant)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets, @name, @isVariant};
+			var ___result = RMSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

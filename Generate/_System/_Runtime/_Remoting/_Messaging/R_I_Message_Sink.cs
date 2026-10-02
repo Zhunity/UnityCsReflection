@@ -86,26 +86,22 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		}
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@msg};
-            var ___result = RMSyncProcessMessage_IMessage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessage>(___result);
-        }
+		public virtual System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@msg};
+			var ___result = RMSyncProcessMessage_IMessage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessage>(___result);
+		}
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg, System.Runtime.Remoting.Messaging.IMessageSink @replySink)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@msg, @replySink};
-            var ___result = RMAsyncProcessMessage_IMessage_IMessageSink.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageCtrl>(___result);
-        }
+		public virtual System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg, System.Runtime.Remoting.Messaging.IMessageSink @replySink)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@msg, @replySink};
+			var ___result = RMAsyncProcessMessage_IMessage_IMessageSink.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageCtrl>(___result);
+		}
 
 
     }

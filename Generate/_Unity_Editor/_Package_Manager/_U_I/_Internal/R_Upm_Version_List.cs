@@ -678,202 +678,161 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean CheckIsNonLifecycleVersionInstalled(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @installed, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @lifecycleVersion)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@installed.Value, @lifecycleVersion.Value};
-            var ___result = RMCheckIsNonLifecycleVersionInstalled_IPackageVersion_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UpdateVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@version.Value};
-            var ___result = RMUpdateVersion_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstalledVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @newVersion)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newVersion.Value};
-            var ___result = RMAddInstalledVersion_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 AddToSortedVersions(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion> @sortedVersions, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @versionToAdd)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sortedVersions.Value, @versionToAdd.Value};
-            var ___result = RMAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Boolean __0__get_lifecycleVersion__1__b__14_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v.Value};
-            var ___result = RM__0__get_lifecycleVersion__1__b__14_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__get_resolvedLifecycleVersion__1__b__16_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v.Value};
-            var ___result = RM__0__get_resolvedLifecycleVersion__1__b__16_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__get_resolvedLifecycleVersion__1__b__16_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v.Value};
-            var ___result = RM__0__get_resolvedLifecycleVersion__1__b__16_1_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__get_resolvedLifecycleNextVersion__1__b__22_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v.Value};
-            var ___result = RM__0__get_resolvedLifecycleNextVersion__1__b__22_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean CheckIsNonLifecycleVersionInstalled(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @installed, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @lifecycleVersion)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@installed.Value, @lifecycleVersion.Value};
+			var ___result = RMCheckIsNonLifecycleVersionInstalled_IPackageVersion_IPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UpdateVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@version.Value};
+			var ___result = RMUpdateVersion_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstalledVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @newVersion)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newVersion.Value};
+			var ___result = RMAddInstalledVersion_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 AddToSortedVersions(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion> @sortedVersions, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @versionToAdd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sortedVersions.Value, @versionToAdd.Value};
+			var ___result = RMAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Boolean __0__get_lifecycleVersion__1__b__14_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v.Value};
+			var ___result = RM__0__get_lifecycleVersion__1__b__14_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__get_resolvedLifecycleVersion__1__b__16_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v.Value};
+			var ___result = RM__0__get_resolvedLifecycleVersion__1__b__16_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__get_resolvedLifecycleVersion__1__b__16_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v.Value};
+			var ___result = RM__0__get_resolvedLifecycleVersion__1__b__16_1_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__get_resolvedLifecycleNextVersion__1__b__22_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v.Value};
+			var ___result = RM__0__get_resolvedLifecycleNextVersion__1__b__22_0_UpmPackageVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

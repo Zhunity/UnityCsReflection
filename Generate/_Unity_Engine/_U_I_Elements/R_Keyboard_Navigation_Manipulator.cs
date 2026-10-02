@@ -342,193 +342,149 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void RegisterCallbacksOnTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRegisterCallbacksOnTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterCallbacksOnTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRegisterCallbacksOnTarget.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UnregisterCallbacksFromTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnregisterCallbacksFromTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UnregisterCallbacksFromTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnregisterCallbacksFromTarget.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnRuntimeKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnRuntimeKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnRuntimeKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnRuntimeKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnEditorKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnEditorKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnEditorKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnEditorKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnNavigationCancel(UnityEngine.UIElements.NavigationCancelEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnNavigationCancel_NavigationCancelEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnNavigationCancel(UnityEngine.UIElements.NavigationCancelEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnNavigationCancel_NavigationCancelEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnNavigationSubmit(UnityEngine.UIElements.NavigationSubmitEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnNavigationSubmit_NavigationSubmitEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnNavigationSubmit(UnityEngine.UIElements.NavigationSubmitEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnNavigationSubmit_NavigationSubmitEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnNavigationMove(UnityEngine.UIElements.NavigationMoveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnNavigationMove_NavigationMoveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnNavigationMove(UnityEngine.UIElements.NavigationMoveEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnNavigationMove_NavigationMoveEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Invoke(UnityEngine.UIElements.KeyboardNavigationOperation @operation, UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@operation, @evt};
-            var ___result = RMInvoke_KeyboardNavigationOperation_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Invoke(UnityEngine.UIElements.KeyboardNavigationOperation @operation, UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@operation, @evt};
+			var ___result = RMInvoke_KeyboardNavigationOperation_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass5_0 @_______)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_______.Value};
-            var ___result = RM__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass5_0 @_______)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_______.Value};
+			var ___result = RM__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0.Invoke(___genericsType, ___parameters);
 			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass5_0>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
-        }
 
-
-        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnEditorKeyDown__1__g__GetOperation__5__6_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass6_0 @_______)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_______.Value};
-            var ___result = RM__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnEditorKeyDown__1__g__GetOperation__5__6_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass6_0 @_______)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_______.Value};
+			var ___result = RM__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0.Invoke(___genericsType, ___parameters);
 			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass6_0>(___parameters[0]);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

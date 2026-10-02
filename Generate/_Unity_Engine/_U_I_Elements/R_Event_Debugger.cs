@@ -902,378 +902,292 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void UpdateModificationCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateModificationCount.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @mouseCapture};
-            var ___result = RMBeginProcessEvent_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @duration, @mouseCapture};
-            var ___result = RMEndProcessEvent_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LogCall(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cbHashCode, @cbName, @evt, @propagationHasStopped, @immediatePropagationHasStopped, @defaultHasBeenPrevented, @duration, @mouseCapture};
-            var ___result = RMLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LogIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @duration, @mouseCapture};
-            var ___result = RMLogIMGUICall_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LogExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @phase, @duration, @mouseCapture};
-            var ___result = RMLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void LogPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @paths.Value};
-            var ___result = RMLogPropagationPaths_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @paths.Value};
-            var ___result = RMLogPropagationPathsInternal_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace> GetCalls(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @evt.Value};
-            var ___result = RMGetCalls_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace> GetDefaultActions(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @evt.Value};
-            var ___result = RMGetDefaultActions_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace> GetPropagationPaths(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @evt.Value};
-            var ___result = RMGetPropagationPaths_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace> GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel, @evt.Value};
-            var ___result = RMGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>>(___result);
-        }
-
-
-        public virtual System.Int64 GetModificationCount(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMGetModificationCount_IPanel.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual void ClearLogs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearLogs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SaveReplaySessionFromSelection(System.String @path, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path, @eventList.Value};
-            var ___result = RMSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList LoadReplaySession(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMLoadReplaySession_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator ReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventBases.Value, @refreshList};
-            var ___result = RMReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual void StopPlayback()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStopPlayback.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.IEnumerator DoReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventBases.Value, @refreshList};
-            var ___result = RMDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventBases.Value};
-            var ___result = RMComputeHistogram_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>>(___result);
-        }
-
-
-        public virtual void AddCallObject(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cbHashCode, @cbName, @evt, @propagationHasStopped, @immediatePropagationHasStopped, @defaultHasBeenPrevented, @duration, @mouseCapture};
-            var ___result = RMAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @phase, @duration, @mouseCapture};
-            var ___result = RMAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @paths.Value};
-            var ___result = RMAddPropagationPaths_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @duration, @mouseCapture};
-            var ___result = RMAddIMGUICall_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddBeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @mouseCapture};
-            var ___result = RMAddBeginProcessEvent_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddEndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @duration, @mouseCapture};
-            var ___result = RMAddEndProcessEvent_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.String GetObjectDisplayName(System.Object @obj, System.Boolean @withHashCode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @withHashCode};
-            var ___result = RMGetObjectDisplayName_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String GetTypeDisplayName(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetTypeDisplayName_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void UpdateModificationCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateModificationCount.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @mouseCapture};
+			var ___result = RMBeginProcessEvent_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @duration, @mouseCapture};
+			var ___result = RMEndProcessEvent_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LogCall(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cbHashCode, @cbName, @evt, @propagationHasStopped, @immediatePropagationHasStopped, @defaultHasBeenPrevented, @duration, @mouseCapture};
+			var ___result = RMLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LogIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @duration, @mouseCapture};
+			var ___result = RMLogIMGUICall_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LogExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @phase, @duration, @mouseCapture};
+			var ___result = RMLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void LogPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @paths.Value};
+			var ___result = RMLogPropagationPaths_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @paths.Value};
+			var ___result = RMLogPropagationPathsInternal_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace> GetCalls(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @evt.Value};
+			var ___result = RMGetCalls_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace> GetDefaultActions(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @evt.Value};
+			var ___result = RMGetDefaultActions_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace> GetPropagationPaths(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @evt.Value};
+			var ___result = RMGetPropagationPaths_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace> GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel, @evt.Value};
+			var ___result = RMGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>>(___result);
+		}
+
+
+		public virtual System.Int64 GetModificationCount(UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panel};
+			var ___result = RMGetModificationCount_IPanel.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual void ClearLogs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearLogs.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SaveReplaySessionFromSelection(System.String @path, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path, @eventList.Value};
+			var ___result = RMSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList LoadReplaySession(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMLoadReplaySession_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator ReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eventBases.Value, @refreshList};
+			var ___result = RMReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual void StopPlayback()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStopPlayback.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.IEnumerator DoReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eventBases.Value, @refreshList};
+			var ___result = RMDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eventBases.Value};
+			var ___result = RMComputeHistogram_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>>(___result);
+		}
+
+
+		public virtual void AddCallObject(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cbHashCode, @cbName, @evt, @propagationHasStopped, @immediatePropagationHasStopped, @defaultHasBeenPrevented, @duration, @mouseCapture};
+			var ___result = RMAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @phase, @duration, @mouseCapture};
+			var ___result = RMAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @paths.Value};
+			var ___result = RMAddPropagationPaths_EventBase_PropagationPaths.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @duration, @mouseCapture};
+			var ___result = RMAddIMGUICall_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddBeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @mouseCapture};
+			var ___result = RMAddBeginProcessEvent_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddEndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @duration, @mouseCapture};
+			var ___result = RMAddEndProcessEvent_EventBase_Int64_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.String GetObjectDisplayName(System.Object @obj, System.Boolean @withHashCode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @withHashCode};
+			var ___result = RMGetObjectDisplayName_Object_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String GetTypeDisplayName(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetTypeDisplayName_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

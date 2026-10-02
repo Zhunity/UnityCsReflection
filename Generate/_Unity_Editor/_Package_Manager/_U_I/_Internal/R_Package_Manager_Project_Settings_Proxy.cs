@@ -774,235 +774,180 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void SetRegistries(UnityEditor.PackageManager.RegistryInfo[] @registries)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@registries};
-            var ___result = RMSetRegistries_RegistryInfoArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean AddRegistry(UnityEditor.PackageManager.RegistryInfo @registry)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@registry};
-            var ___result = RMAddRegistry_RegistryInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UpdateRegistry(System.String @oldName, UnityEditor.PackageManager.RegistryInfo @newRegistry)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldName, @newRegistry};
-            var ___result = RMUpdateRegistry_String_RegistryInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RemoveRegistry(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMRemoveRegistry_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SelectRegistry(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMSelectRegistry_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Save()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSave.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnInitializationFinished()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnInitializationFinished.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnablePreReleasePackagesChanged(System.Boolean @enablePreReleasePackages)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enablePreReleasePackages};
-            var ___result = RMOnEnablePreReleasePackagesChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnablePackageDependenciesChanged(System.Boolean @enablePackageDependencies)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enablePackageDependencies};
-            var ___result = RMOnEnablePackageDependenciesChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAdvancedSettingsFoldoutChanged(System.Boolean @advancedSettingsExpanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@advancedSettingsExpanded};
-            var ___result = RMOnAdvancedSettingsFoldoutChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnScopedRegistriesSettingsFoldoutChanged(System.Boolean @scopedRegistriesSettingsExpanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scopedRegistriesSettingsExpanded};
-            var ___result = RMOnScopedRegistriesSettingsFoldoutChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnSeeAllPackageVersionsChanged(System.Boolean @seeAllPackageVersions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@seeAllPackageVersions};
-            var ___result = RMOnSeeAllPackageVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnLoadAssetsChanged(System.Int64 @loadAssets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@loadAssets};
-            var ___result = RMOnLoadAssetsChanged_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void SetRegistries(UnityEditor.PackageManager.RegistryInfo[] @registries)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@registries};
+			var ___result = RMSetRegistries_RegistryInfoArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean AddRegistry(UnityEditor.PackageManager.RegistryInfo @registry)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@registry};
+			var ___result = RMAddRegistry_RegistryInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UpdateRegistry(System.String @oldName, UnityEditor.PackageManager.RegistryInfo @newRegistry)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldName, @newRegistry};
+			var ___result = RMUpdateRegistry_String_RegistryInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RemoveRegistry(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMRemoveRegistry_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SelectRegistry(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMSelectRegistry_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Save()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSave.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnInitializationFinished()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnInitializationFinished.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnablePreReleasePackagesChanged(System.Boolean @enablePreReleasePackages)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enablePreReleasePackages};
+			var ___result = RMOnEnablePreReleasePackagesChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnablePackageDependenciesChanged(System.Boolean @enablePackageDependencies)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enablePackageDependencies};
+			var ___result = RMOnEnablePackageDependenciesChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAdvancedSettingsFoldoutChanged(System.Boolean @advancedSettingsExpanded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@advancedSettingsExpanded};
+			var ___result = RMOnAdvancedSettingsFoldoutChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnScopedRegistriesSettingsFoldoutChanged(System.Boolean @scopedRegistriesSettingsExpanded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scopedRegistriesSettingsExpanded};
+			var ___result = RMOnScopedRegistriesSettingsFoldoutChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnSeeAllPackageVersionsChanged(System.Boolean @seeAllPackageVersions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@seeAllPackageVersions};
+			var ___result = RMOnSeeAllPackageVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnLoadAssetsChanged(System.Int64 @loadAssets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@loadAssets};
+			var ___result = RMOnLoadAssetsChanged_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -550,213 +550,168 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		}
 
 
-        public virtual System.Security.Policy.CodeGroup Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
-        }
-
-
-        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMResolve_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.PolicyStatement>(___result);
-        }
-
-
-        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMResolveMatchingCodeGroups_Evidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
-        }
-
-
-        public virtual void AddChild(System.Security.Policy.CodeGroup @group)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@group};
-            var ___result = RMAddChild_CodeGroup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Security.Policy.CodeGroup @cg, System.Boolean @compareChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cg, @compareChildren};
-            var ___result = RMEquals_CodeGroup_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveChild(System.Security.Policy.CodeGroup @group)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@group};
-            var ___result = RMRemoveChild_CodeGroup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void FromXml(System.Security.SecurityElement @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FromXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @level};
-            var ___result = RMFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ParseXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @level};
-            var ___result = RMParseXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.SecurityElement ToXml()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToXml.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
-
-
-        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@level};
-            var ___result = RMToXml_PolicyLevel.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
-
-
-        public virtual void CreateXml(System.Security.SecurityElement @element, System.Security.Policy.PolicyLevel @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @level};
-            var ___result = RMCreateXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Security.Policy.CodeGroup CreateFromXml(System.Security.SecurityElement @se, System.Security.Policy.PolicyLevel @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@se, @level};
-            var ___result = RMCreateFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Security.Policy.CodeGroup Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
+		}
+
+
+		public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMResolve_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.PolicyStatement>(___result);
+		}
+
+
+		public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMResolveMatchingCodeGroups_Evidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
+		}
+
+
+		public virtual void AddChild(System.Security.Policy.CodeGroup @group)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@group};
+			var ___result = RMAddChild_CodeGroup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Security.Policy.CodeGroup @cg, System.Boolean @compareChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cg, @compareChildren};
+			var ___result = RMEquals_CodeGroup_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveChild(System.Security.Policy.CodeGroup @group)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@group};
+			var ___result = RMRemoveChild_CodeGroup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void FromXml(System.Security.SecurityElement @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FromXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @level};
+			var ___result = RMFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ParseXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @level};
+			var ___result = RMParseXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.SecurityElement ToXml()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToXml.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
+
+
+		public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@level};
+			var ___result = RMToXml_PolicyLevel.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
+
+
+		public virtual void CreateXml(System.Security.SecurityElement @element, System.Security.Policy.PolicyLevel @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @level};
+			var ___result = RMCreateXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Security.Policy.CodeGroup CreateFromXml(System.Security.SecurityElement @se, System.Security.Policy.PolicyLevel @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@se, @level};
+			var ___result = RMCreateFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

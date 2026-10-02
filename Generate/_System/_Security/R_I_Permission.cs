@@ -118,59 +118,48 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 		}
 
 
-        public virtual System.Security.IPermission Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
+		public virtual System.Security.IPermission Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
 
 
-        public virtual void Demand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDemand.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Demand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDemand.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Security.IPermission Intersect(System.Security.IPermission @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMIntersect_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
+		public virtual System.Security.IPermission Intersect(System.Security.IPermission @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMIntersect_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
 
 
-        public virtual System.Boolean IsSubsetOf(System.Security.IPermission @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMIsSubsetOf_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsSubsetOf(System.Security.IPermission @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMIsSubsetOf_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Security.IPermission Union(System.Security.IPermission @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMUnion_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
+		public virtual System.Security.IPermission Union(System.Security.IPermission @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMUnion_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
 
 
     }

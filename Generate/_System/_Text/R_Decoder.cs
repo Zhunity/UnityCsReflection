@@ -406,220 +406,179 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @index, @count};
-            var ___result = RMGetCharCount_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @index, @count};
+			var ___result = RMGetCharCount_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @index, @count, @flush};
-            var ___result = RMGetCharCount_ByteArray_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @index, @count, @flush};
+			var ___result = RMGetCharCount_ByteArray_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @flush};
-            var ___result = RMGetCharCount_BytePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @flush};
+			var ___result = RMGetCharCount_BytePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetCharCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value, @flush};
-            var ___result = RMGetCharCount_ReadOnlySpan_d_Byte_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetCharCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value, @flush};
+			var ___result = RMGetCharCount_ReadOnlySpan_d_Byte_p__Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex};
-            var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex};
+			var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex, @flush};
-            var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex, @flush};
+			var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush};
-            var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush};
+			var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetChars(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush};
-            var ___result = RMGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetChars(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush};
+			var ___result = RMGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Convert(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
-        {
+		public virtual void Convert(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+		{
 			@bytesUsed = default;
 			@charsUsed = default;
 			@completed = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex, @charCount, @flush, @bytesUsed, @charsUsed, @completed};
-            var ___result = RMConvert_ByteArray_Int32_Int32_CharArray_Int32_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex, @charCount, @flush, @bytesUsed, @charsUsed, @completed};
+			var ___result = RMConvert_ByteArray_Int32_Int32_CharArray_Int32_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[7]);
 			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[8]);
 			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[9]);
-
-            
-        }
+		}
 
 
-        public unsafe virtual void Convert(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
-        {
+		public unsafe virtual void Convert(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+		{
 			@bytesUsed = default;
 			@charsUsed = default;
 			@completed = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush, @bytesUsed, @charsUsed, @completed};
-            var ___result = RMConvert_BytePointer_Int32_CharPointer_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush, @bytesUsed, @charsUsed, @completed};
+			var ___result = RMConvert_BytePointer_Int32_CharPointer_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[5]);
 			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[6]);
 			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[7]);
-
-            
-        }
+		}
 
 
-        public virtual void Convert(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
-        {
+		public virtual void Convert(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+		{
 			@bytesUsed = default;
 			@charsUsed = default;
 			@completed = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush, @bytesUsed, @charsUsed, @completed};
-            var ___result = RMConvert_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush, @bytesUsed, @charsUsed, @completed};
+			var ___result = RMConvert_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
 			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

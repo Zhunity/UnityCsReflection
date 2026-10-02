@@ -70,26 +70,22 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual System.Boolean Equals(T @x, T @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMEquals_T_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(T @x, T @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMEquals_T_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode(T @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMGetHashCode_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode(T @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMGetHashCode_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
     }

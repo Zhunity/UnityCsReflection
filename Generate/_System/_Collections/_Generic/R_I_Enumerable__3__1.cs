@@ -54,15 +54,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual System.Collections.Generic.IEnumerator<T> GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
-        }
+		public virtual System.Collections.Generic.IEnumerator<T> GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
+		}
 
 
     }

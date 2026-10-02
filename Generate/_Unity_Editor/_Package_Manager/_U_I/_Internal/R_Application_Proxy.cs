@@ -614,191 +614,148 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PlayModeStateChanged(UnityEditor.PlayModeStateChange @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMPlayModeStateChanged_PlayModeStateChange.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnUpdate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckInternetReachability()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckInternetReachability.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckCompilationStatus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckCompilationStatus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OpenURL(System.String @url)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@url};
-            var ___result = RMOpenURL_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevealInFinder(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMRevealInFinder_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String OpenFilePanelWithFilters(System.String @title, System.String @directory, System.String[] @filters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@title, @directory, @filters};
-            var ___result = RMOpenFilePanelWithFilters_String_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean DisplayDialog(System.String @title, System.String @message, System.String @ok, System.String @cancel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@title, @message, @ok, @cancel};
-            var ___result = RMDisplayDialog_String_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 DisplayDialogComplex(System.String @title, System.String @message, System.String @ok, System.String @cancel, System.String @alt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@title, @message, @ok, @cancel, @alt};
-            var ___result = RMDisplayDialogComplex_String_String_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PlayModeStateChanged(UnityEditor.PlayModeStateChange @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMPlayModeStateChanged_PlayModeStateChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnUpdate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckInternetReachability()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckInternetReachability.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckCompilationStatus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckCompilationStatus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OpenURL(System.String @url)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@url};
+			var ___result = RMOpenURL_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RevealInFinder(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMRevealInFinder_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String OpenFilePanelWithFilters(System.String @title, System.String @directory, System.String[] @filters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@title, @directory, @filters};
+			var ___result = RMOpenFilePanelWithFilters_String_String_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean DisplayDialog(System.String @title, System.String @message, System.String @ok, System.String @cancel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@title, @message, @ok, @cancel};
+			var ___result = RMDisplayDialog_String_String_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 DisplayDialogComplex(System.String @title, System.String @message, System.String @ok, System.String @cancel, System.String @alt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@title, @message, @ok, @cancel, @alt};
+			var ___result = RMDisplayDialogComplex_String_String_String_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

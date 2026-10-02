@@ -1398,771 +1398,593 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		}
 
 
-        public virtual System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AccessControlType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @type};
-            var ___result = RMAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
-        }
-
-
-        public virtual void AddAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMAddAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRuleAll_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRuleSpecific_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMResetAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMSetAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.AccessControl.AuditRule AuditRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @flags};
-            var ___result = RMAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
-        }
-
-
-        public virtual void AddAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMAddAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRuleAll_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRuleSpecific_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMSetAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @includeSections};
-            var ___result = RMPersist_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @includeSections};
-            var ___result = RMPersist_String_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PersistModifications(System.Runtime.InteropServices.SafeHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMPersistModifications_SafeHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @includeSections, @exceptionContext};
-            var ___result = RMPersist_SafeHandle_AccessControlSections_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PersistModifications(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMPersistModifications_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @includeSections, @exceptionContext};
-            var ___result = RMPersist_String_AccessControlSections_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 InternalGet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @includeSections};
-            var ___result = RMInternalGet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 InternalGet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @includeSections};
-            var ___result = RMInternalGet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 InternalSet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @includeSections};
-            var ___result = RMInternalSet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 InternalSet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @includeSections};
-            var ___result = RMInternalSet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
-            var ___result = RMGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
-        }
-
-
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
-            var ___result = RMGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
-        }
-
-
-        public virtual void AddAccessRule(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMAddAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRuleAll_AccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAccessRuleSpecific_AccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetAccessRule(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMResetAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAccessRule(System.Security.AccessControl.AccessRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMSetAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
-        {
+		public virtual System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AccessControlType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @type};
+			var ___result = RMAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
+		}
+
+
+		public virtual void AddAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMAddAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRuleAll_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRuleSpecific_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMResetAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMSetAccessRule_FileSystemAccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.AccessControl.AuditRule AuditRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @flags};
+			var ___result = RMAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
+		}
+
+
+		public virtual void AddAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMAddAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRuleAll_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRuleSpecific_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMSetAuditRule_FileSystemAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @includeSections};
+			var ___result = RMPersist_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @includeSections};
+			var ___result = RMPersist_String_AccessControlSections.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PersistModifications(System.Runtime.InteropServices.SafeHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMPersistModifications_SafeHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @includeSections, @exceptionContext};
+			var ___result = RMPersist_SafeHandle_AccessControlSections_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PersistModifications(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMPersistModifications_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @includeSections, @exceptionContext};
+			var ___result = RMPersist_String_AccessControlSections_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 InternalGet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @includeSections};
+			var ___result = RMInternalGet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 InternalGet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @includeSections};
+			var ___result = RMInternalGet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 InternalSet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @includeSections};
+			var ___result = RMInternalSet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 InternalSet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @includeSections};
+			var ___result = RMInternalSet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
+			var ___result = RMGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
+		}
+
+
+		public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
+			var ___result = RMGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
+		}
+
+
+		public virtual void AddAccessRule(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMAddAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveAccessRuleAll(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRuleAll_AccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAccessRuleSpecific_AccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetAccessRule(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMResetAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAccessRule(System.Security.AccessControl.AccessRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMSetAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
+		{
 			@modified = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@modification, @rule, @modified};
-            var ___result = RMModifyAccess_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@modification, @rule, @modified};
+			var ___result = RMModifyAccess_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddAuditRule(System.Security.AccessControl.AuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMAddAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.AuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void AddAuditRule(System.Security.AccessControl.AuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMAddAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.AuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRuleAll_AuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.AuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMRemoveAuditRuleSpecific_AuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveAuditRuleAll(System.Security.AccessControl.AuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRuleAll_AuditRule.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetAuditRule(System.Security.AccessControl.AuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rule};
-            var ___result = RMSetAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMRemoveAuditRuleSpecific_AuditRule.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
-        {
+		public virtual void SetAuditRule(System.Security.AccessControl.AuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rule};
+			var ___result = RMSetAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
+		{
 			@modified = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@modification, @rule, @modified};
-            var ___result = RMModifyAudit_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@modification, @rule, @modified};
+			var ___result = RMModifyAudit_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Security.Principal.IdentityReference GetGroup(System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetType};
-            var ___result = RMGetGroup_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Security.Principal.IdentityReference GetOwner(System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetType};
-            var ___result = RMGetOwner_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
-        }
+		public virtual System.Security.Principal.IdentityReference GetGroup(System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetType};
+			var ___result = RMGetGroup_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
+		}
 
 
-        public virtual System.Byte[] GetSecurityDescriptorBinaryForm()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSecurityDescriptorBinaryForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Security.Principal.IdentityReference GetOwner(System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetType};
+			var ___result = RMGetOwner_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
+		}
 
 
-        public virtual System.String GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeSections};
-            var ___result = RMGetSecurityDescriptorSddlForm_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Byte[] GetSecurityDescriptorBinaryForm()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSecurityDescriptorBinaryForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
-        {
+		public virtual System.String GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeSections};
+			var ___result = RMGetSecurityDescriptorSddlForm_AccessControlSections.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
+		{
 			@modified = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@modification, @rule, @modified};
-            var ___result = RMModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@modification, @rule, @modified};
+			var ___result = RMModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
-        {
+		public virtual System.Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
+		{
 			@modified = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@modification, @rule, @modified};
-            var ___result = RMModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@modification, @rule, @modified};
+			var ___result = RMModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
+		public virtual void PurgeAccessRules(System.Security.Principal.IdentityReference @identity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identity};
+			var ___result = RMPurgeAccessRules_IdentityReference.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void PurgeAccessRules(System.Security.Principal.IdentityReference @identity)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identity};
-            var ___result = RMPurgeAccessRules_IdentityReference.Invoke(___genericsType, ___parameters);
+		public virtual void PurgeAuditRules(System.Security.Principal.IdentityReference @identity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identity};
+			var ___result = RMPurgeAuditRules_IdentityReference.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetAccessRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isProtected, @preserveInheritance};
+			var ___result = RMSetAccessRuleProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void PurgeAuditRules(System.Security.Principal.IdentityReference @identity)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identity};
-            var ___result = RMPurgeAuditRules_IdentityReference.Invoke(___genericsType, ___parameters);
+		public virtual void SetAuditRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isProtected, @preserveInheritance};
+			var ___result = RMSetAuditRuleProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetGroup(System.Security.Principal.IdentityReference @identity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identity};
+			var ___result = RMSetGroup_IdentityReference.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SetAccessRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isProtected, @preserveInheritance};
-            var ___result = RMSetAccessRuleProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SetOwner(System.Security.Principal.IdentityReference @identity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@identity};
+			var ___result = RMSetOwner_IdentityReference.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
-
-
-        public virtual void SetAuditRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isProtected, @preserveInheritance};
-            var ___result = RMSetAuditRuleProtection_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGroup(System.Security.Principal.IdentityReference @identity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identity};
-            var ___result = RMSetGroup_IdentityReference.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetOwner(System.Security.Principal.IdentityReference @identity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@identity};
-            var ___result = RMSetOwner_IdentityReference.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm};
-            var ___result = RMSetSecurityDescriptorBinaryForm_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @includeSections};
-            var ___result = RMSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sddlForm};
-            var ___result = RMSetSecurityDescriptorSddlForm_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sddlForm, @includeSections};
-            var ___result = RMSetSecurityDescriptorSddlForm_String_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Persist(System.Boolean @enableOwnershipPrivilege, System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enableOwnershipPrivilege, @name, @includeSections};
-            var ___result = RMPersist_Boolean_String_AccessControlSections.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadLock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReadLock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadUnlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReadUnlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WriteLock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWriteLock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WriteUnlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWriteUnlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
-            var ___result = RMInternalGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
-        }
-
-
-        public virtual System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType, System.Security.AccessControl.AccessControlType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ace, @targetType, @type};
-            var ___result = RMInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
-        }
-
-
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
-            var ___result = RMInternalGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
-        }
-
-
-        public virtual System.Security.AccessControl.AuditRule InternalAuditRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ace, @targetType};
-            var ___result = RMInternalAuditRuleFactory_QualifiedAce_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm};
+			var ___result = RMSetSecurityDescriptorBinaryForm_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @includeSections};
+			var ___result = RMSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sddlForm};
+			var ___result = RMSetSecurityDescriptorSddlForm_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sddlForm, @includeSections};
+			var ___result = RMSetSecurityDescriptorSddlForm_String_AccessControlSections.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Persist(System.Boolean @enableOwnershipPrivilege, System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enableOwnershipPrivilege, @name, @includeSections};
+			var ___result = RMPersist_Boolean_String_AccessControlSections.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadLock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReadLock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadUnlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReadUnlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WriteLock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWriteLock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WriteUnlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWriteUnlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
+			var ___result = RMInternalGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
+		}
+
+
+		public virtual System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType, System.Security.AccessControl.AccessControlType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ace, @targetType, @type};
+			var ___result = RMInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
+		}
+
+
+		public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
+			var ___result = RMInternalGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
+		}
+
+
+		public virtual System.Security.AccessControl.AuditRule InternalAuditRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ace, @targetType};
+			var ___result = RMInternalAuditRuleFactory_QualifiedAce_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

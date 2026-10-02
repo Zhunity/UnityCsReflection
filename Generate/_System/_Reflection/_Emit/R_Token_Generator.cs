@@ -102,48 +102,40 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 		}
 
 
-        public virtual System.Int32 GetToken(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMGetToken_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetToken(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMGetToken_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MemberInfo @member, System.Boolean @create_open_instance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@member, @create_open_instance};
-            var ___result = RMGetToken_MemberInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetToken(System.Reflection.MemberInfo @member, System.Boolean @create_open_instance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@member, @create_open_instance};
+			var ___result = RMGetToken_MemberInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MethodBase @method, System.Type[] @opt_param_types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@method, @opt_param_types};
-            var ___result = RMGetToken_MethodBase_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetToken(System.Reflection.MethodBase @method, System.Type[] @opt_param_types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@method, @opt_param_types};
+			var ___result = RMGetToken_MethodBase_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetToken(System.Reflection.Emit.SignatureHelper @helper)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@helper};
-            var ___result = RMGetToken_SignatureHelper.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetToken(System.Reflection.Emit.SignatureHelper @helper)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@helper};
+			var ___result = RMGetToken_SignatureHelper.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
     }

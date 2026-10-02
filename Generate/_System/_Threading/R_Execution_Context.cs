@@ -774,328 +774,256 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public static System.Object GetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@local.Value};
-            var ___result = RMGetLocalValue_IAsyncLocal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Object GetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@local.Value};
+			var ___result = RMGetLocalValue_IAsyncLocal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public static void SetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local, System.Object @newValue, System.Boolean @needChangeNotifications)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@local.Value, @newValue, @needChangeNotifications};
-            var ___result = RMSetLocalValue_IAsyncLocal_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local, System.Object @newValue, System.Boolean @needChangeNotifications)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@local.Value, @newValue, @needChangeNotifications};
+			var ___result = RMSetLocalValue_IAsyncLocal_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void OnAsyncLocalContextChanged(System.Threading.ExecutionContext @previous, System.Threading.ExecutionContext @current)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@previous, @current};
-            var ___result = RMOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void OnAsyncLocalContextChanged(System.Threading.ExecutionContext @previous, System.Threading.ExecutionContext @current)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@previous, @current};
+			var ___result = RMOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@executionContext, @callback, @state};
-            var ___result = RMRun_ExecutionContext_ContextCallback_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@executionContext, @callback, @state};
+			var ___result = RMRun_ExecutionContext_ContextCallback_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@executionContext, @callback, @state, @preserveSyncCtx};
-            var ___result = RMRun_ExecutionContext_ContextCallback_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@executionContext, @callback, @state, @preserveSyncCtx};
+			var ___result = RMRun_ExecutionContext_ContextCallback_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@executionContext, @callback, @state};
-            var ___result = RMRunInternal_ExecutionContext_ContextCallback_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@executionContext, @callback, @state};
+			var ___result = RMRunInternal_ExecutionContext_ContextCallback_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@executionContext, @callback, @state, @preserveSyncCtx};
-            var ___result = RMRunInternal_ExecutionContext_ContextCallback_Object_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@executionContext, @callback, @state, @preserveSyncCtx};
+			var ___result = RMRunInternal_ExecutionContext_ContextCallback_Object_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TState)};
-            var ___parameters = new object[]{@executionContext, @callback.Value, @state};
-            var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState.Invoke(___genericsType, ___parameters);
+		public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state)
+		{
+			var ___genericsType = new Type[] {typeof(TState)};
+			var ___parameters = new object[]{@executionContext, @callback.Value, @state};
+			var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState.Invoke(___genericsType, ___parameters);
 			@state = ReflectionUtils.Convert<TState>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state, System.Boolean @preserveSyncCtx)
-        {
-
-            var ___genericsType = new Type[] {typeof(TState)};
-            var ___parameters = new object[]{@executionContext, @callback.Value, @state, @preserveSyncCtx};
-            var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean.Invoke(___genericsType, ___parameters);
+		public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state, System.Boolean @preserveSyncCtx)
+		{
+			var ___genericsType = new Type[] {typeof(TState)};
+			var ___parameters = new object[]{@executionContext, @callback.Value, @state, @preserveSyncCtx};
+			var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean.Invoke(___genericsType, ___parameters);
 			@state = ReflectionUtils.Convert<TState>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void EstablishCopyOnWriteScope(ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ecsw.Value};
-            var ___result = RMEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+		public static void EstablishCopyOnWriteScope(ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ecsw.Value};
+			var ___result = RMEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
 			@ecsw = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void EstablishCopyOnWriteScope(System.Threading.Thread @currentThread, System.Boolean @knownNullWindowsIdentity, ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
-            var ___result = RMEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+		public static void EstablishCopyOnWriteScope(System.Threading.Thread @currentThread, System.Boolean @knownNullWindowsIdentity, ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
+			var ___result = RMEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
 			@ecsw = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext @executionContext, System.Boolean @preserveSyncCtx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@executionContext, @preserveSyncCtx};
-            var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext @executionContext, System.Boolean @preserveSyncCtx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@executionContext, @preserveSyncCtx};
+			var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___result);
+		}
 
 
-        public virtual System.Threading.ExecutionContext CreateCopy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
+		public virtual System.Threading.ExecutionContext CreateCopy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
 
-        public virtual System.Threading.ExecutionContext CreateMutableCopy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateMutableCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
+		public virtual System.Threading.ExecutionContext CreateMutableCopy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateMutableCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
 
-        public static System.Threading.AsyncFlowControl SuppressFlow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSuppressFlow.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.AsyncFlowControl>(___result);
-        }
+		public static System.Threading.AsyncFlowControl SuppressFlow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSuppressFlow.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.AsyncFlowControl>(___result);
+		}
 
 
-        public static void RestoreFlow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRestoreFlow.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RestoreFlow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRestoreFlow.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean IsFlowSuppressed()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsFlowSuppressed.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsFlowSuppressed()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsFlowSuppressed.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Threading.ExecutionContext Capture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCapture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
+		public static System.Threading.ExecutionContext Capture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCapture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
 
-        public static System.Threading.ExecutionContext FastCapture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFastCapture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
+		public static System.Threading.ExecutionContext FastCapture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFastCapture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
 
-        public static System.Threading.ExecutionContext Capture(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stackMark.Value, @options.Value};
-            var ___result = RMCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
+		public static System.Threading.ExecutionContext Capture(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stackMark.Value, @options.Value};
+			var ___result = RMCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
-
-
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
 
-        public virtual System.Boolean IsDefaultFTContext(System.Boolean @ignoreSyncCtx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ignoreSyncCtx};
-            var ___result = RMIsDefaultFTContext_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsDefaultFTContext(System.Boolean @ignoreSyncCtx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ignoreSyncCtx};
+			var ___result = RMIsDefaultFTContext_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

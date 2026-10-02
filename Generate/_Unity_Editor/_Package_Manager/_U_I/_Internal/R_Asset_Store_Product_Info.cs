@@ -582,169 +582,137 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetStoreUtils.Value};
-            var ___result = RMResolveDependencies_AssetStoreUtils.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetStoreUtils.Value};
+			var ___result = RMResolveDependencies_AssetStoreUtils.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo ParseProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, System.String @productId, System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetStoreUtils.Value, @productId, @productDetail};
-            var ___result = RMParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo ParseProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, System.String @productId, System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetStoreUtils.Value, @productId, @productDetail};
+			var ___result = RMParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo>(___result);
+		}
 
 
-        public static System.String CleanUpHtml(System.String @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source};
-            var ___result = RMCleanUpHtml_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String CleanUpHtml(System.String @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source};
+			var ___result = RMCleanUpHtml_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String PrependProtocolIfNotPresent(System.String @url)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@url};
-            var ___result = RMPrependProtocolIfNotPresent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String PrependProtocolIfNotPresent(System.String @url)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@url};
+			var ___result = RMPrependProtocolIfNotPresent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> GetImagesFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productDetail};
-            var ___result = RMGetImagesFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> GetImagesFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productDetail};
+			var ___result = RMGetImagesFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage>>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> GetLinksFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productDetail};
-            var ___result = RMGetLinksFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> GetLinksFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productDetail};
+			var ___result = RMGetLinksFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetAssetStoreLinkFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productDetail};
-            var ___result = RMGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetAssetStoreLinkFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productDetail};
+			var ___result = RMGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> GetSizeInfoFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productDetail};
-            var ___result = RMGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> GetSizeInfoFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productDetail};
+			var ___result = RMGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo>>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetPackageLink(System.String @name, System.String @url, System.String @analyticsEventName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @url, @analyticsEventName};
-            var ___result = RMGetPackageLink_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetPackageLink(System.String @name, System.String @url, System.String @analyticsEventName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @url, @analyticsEventName};
+			var ___result = RMGetPackageLink_String_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

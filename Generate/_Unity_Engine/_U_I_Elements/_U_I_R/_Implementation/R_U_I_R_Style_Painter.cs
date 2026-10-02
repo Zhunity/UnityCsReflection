@@ -1046,370 +1046,283 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData GetPooledMeshWriteData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPooledMeshWriteData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
+		public virtual UnityEngine.UIElements.MeshWriteData GetPooledMeshWriteData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPooledMeshWriteData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData AllocRawVertsIndices(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
-            var ___result = RMAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.UIElements.MeshWriteData AllocRawVertsIndices(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
+			var ___result = RMAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
 			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
 
-
-        public virtual UnityEngine.UIElements.MeshWriteData AllocThroughDrawMesh(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
-            var ___result = RMAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.UIElements.MeshWriteData AllocThroughDrawMesh(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
+			var ___result = RMAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
 			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
 
-
-        public virtual UnityEngine.UIElements.MeshWriteData AllocThroughDrawGradients(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
-            var ___result = RMAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.UIElements.MeshWriteData AllocThroughDrawGradients(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
+			var ___result = RMAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
 			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
 
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Dispose()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void Begin(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMBegin_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void LandClipUnregisterMeshDrawCommand(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cmd.Value};
+			var ___result = RMLandClipUnregisterMeshDrawCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void LandClipRegisterMesh(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices, System.Int32 @indexOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices.Value, @indices.Value, @indexOffset};
+			var ___result = RMLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
 
-        public virtual void Begin(UnityEngine.UIElements.VisualElement @ve)
-        {
+		public virtual UnityEngine.UIElements.MeshWriteData AddGradientsEntry(System.Int32 @vertexCount, System.Int32 @indexCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @texture.Value, @material, @flags.Value};
+			var ___result = RMAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMBegin_VisualElement.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
+			var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
+
+		public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+			var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void LandClipUnregisterMeshDrawCommand(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd)
-        {
+
+		public virtual void DrawTextNative(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+			var ___result = RMDrawTextNative_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cmd.Value};
-            var ___result = RMLandClipUnregisterMeshDrawCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+
+		public virtual void DrawTextCore(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+			var ___result = RMDrawTextCore_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
+
+		public virtual void DrawRectangle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectParams.Value};
+			var ___result = RMDrawRectangle_RectangleParams.Invoke(___genericsType, ___parameters);
+		}
 
+
+		public virtual void DrawBorder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams @borderParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@borderParams.Value};
+			var ___result = RMDrawBorder_BorderParams.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void LandClipRegisterMesh(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices, System.Int32 @indexOffset)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices.Value, @indices.Value, @indexOffset};
-            var ___result = RMLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32.Invoke(___genericsType, ___parameters);
+		public virtual void DrawImmediate(System.Action @callback, System.Boolean @cullingEnabled)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @cullingEnabled};
+			var ___result = RMDrawImmediate_Action_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void DrawVisualElementBackground()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawVisualElementBackground.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual UnityEngine.UIElements.MeshWriteData AddGradientsEntry(System.Int32 @vertexCount, System.Int32 @indexCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @texture.Value, @material, @flags.Value};
-            var ___result = RMAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
-            var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
-
-
-        public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
-            var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawTextNative(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
-            var ___result = RMDrawTextNative_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawTextCore(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
-            var ___result = RMDrawTextCore_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRectangle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value};
-            var ___result = RMDrawRectangle_RectangleParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawBorder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams @borderParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@borderParams.Value};
-            var ___result = RMDrawBorder_BorderParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawImmediate(System.Action @callback, System.Boolean @cullingEnabled)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @cullingEnabled};
-            var ___result = RMDrawImmediate_Action_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawVisualElementBackground()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawVisualElementBackground.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawVisualElementBorder()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawVisualElementBorder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyVisualElementClipping()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyVisualElementClipping.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt16[] AdjustSpriteWinding(UnityEngine.Vector2[] @vertices, System.UInt16[] @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices, @indices};
-            var ___result = RMAdjustSpriteWinding_Vector2Array_UInt16Array.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16[]>(___result);
-        }
-
-
-        public virtual void DrawSprite(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value};
-            var ___result = RMDrawSprite_RectangleParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawVectorImage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value};
-            var ___result = RMDrawVectorImage_RectangleParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ValidateMeshWriteData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidateMeshWriteData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateStencilClipEntryForRoundedRectBackground()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGenerateStencilClipEntryForRoundedRectBackground.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateStencilClipEntryForSVGBackground()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGenerateStencilClipEntryForSVGBackground.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void DrawVisualElementBorder()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawVisualElementBorder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyVisualElementClipping()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyVisualElementClipping.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt16[] AdjustSpriteWinding(UnityEngine.Vector2[] @vertices, System.UInt16[] @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices, @indices};
+			var ___result = RMAdjustSpriteWinding_Vector2Array_UInt16Array.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16[]>(___result);
+		}
+
+
+		public virtual void DrawSprite(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectParams.Value};
+			var ___result = RMDrawSprite_RectangleParams.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawVectorImage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectParams.Value};
+			var ___result = RMDrawVectorImage_RectangleParams.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ValidateMeshWriteData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidateMeshWriteData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateStencilClipEntryForRoundedRectBackground()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGenerateStencilClipEntryForRoundedRectBackground.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateStencilClipEntryForSVGBackground()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGenerateStencilClipEntryForSVGBackground.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

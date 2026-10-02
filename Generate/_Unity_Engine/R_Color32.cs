@@ -342,147 +342,120 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static UnityEngine.Color32 op_Implicit(UnityEngine.Color @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMop_Implicit_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
+		public static UnityEngine.Color32 op_Implicit(UnityEngine.Color @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMop_Implicit_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
 
 
-        public static UnityEngine.Color op_Implicit(UnityEngine.Color32 @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMop_Implicit_Color32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
+		public static UnityEngine.Color op_Implicit(UnityEngine.Color32 @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMop_Implicit_Color32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
 
 
-        public static UnityEngine.Color32 Lerp(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerp_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
+		public static UnityEngine.Color32 Lerp(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerp_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
 
 
-        public static UnityEngine.Color32 LerpUnclamped(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerpUnclamped_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
+		public static UnityEngine.Color32 LerpUnclamped(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerpUnclamped_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
 
 
-        public virtual System.Boolean InternalEquals(UnityEngine.Color32 @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMInternalEquals_Color32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean InternalEquals(UnityEngine.Color32 @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMInternalEquals_Color32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

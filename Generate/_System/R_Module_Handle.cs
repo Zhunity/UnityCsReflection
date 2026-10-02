@@ -422,228 +422,186 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds @peKind, out System.Reflection.ImageFileMachine @machine)
-        {
+		public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds @peKind, out System.Reflection.ImageFileMachine @machine)
+		{
 			@peKind = default;
 			@machine = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@peKind, @machine};
-            var ___result = RMGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@peKind, @machine};
+			var ___result = RMGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
 			@peKind = ReflectionUtils.Convert<System.Reflection.PortableExecutableKinds>(___parameters[0]);
 			@machine = ReflectionUtils.Convert<System.Reflection.ImageFileMachine>(___parameters[1]);
+		}
+
+
+		public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldToken};
+			var ___result = RMResolveFieldHandle_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodToken};
+			var ___result = RMResolveMethodHandle_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeToken};
+			var ___result = RMResolveTypeHandle_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
+		}
+
+
+		public virtual System.IntPtr[] ptrs_from_handles(System.RuntimeTypeHandle[] @handles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handles};
+			var ___result = RMptrs_from_handles_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr[]>(___result);
+		}
+
+
+		public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeToken, @typeInstantiationContext, @methodInstantiationContext};
+			var ___result = RMResolveTypeHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodToken, @typeInstantiationContext, @methodInstantiationContext};
+			var ___result = RMResolveMethodHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldToken, @typeInstantiationContext, @methodInstantiationContext};
+			var ___result = RMResolveFieldHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeFieldHandle GetRuntimeFieldHandleFromMetadataToken(System.Int32 @fieldToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldToken};
+			var ___result = RMGetRuntimeFieldHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeMethodHandle GetRuntimeMethodHandleFromMetadataToken(System.Int32 @methodToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodToken};
+			var ___result = RMGetRuntimeMethodHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
+		}
+
+
+		public virtual System.RuntimeTypeHandle GetRuntimeTypeHandleFromMetadataToken(System.Int32 @typeToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeToken};
+			var ___result = RMGetRuntimeTypeHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
 
-            
-        }
-
-
-        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldToken};
-            var ___result = RMResolveFieldHandle_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodToken};
-            var ___result = RMResolveMethodHandle_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeToken};
-            var ___result = RMResolveTypeHandle_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
-        }
-
-
-        public virtual System.IntPtr[] ptrs_from_handles(System.RuntimeTypeHandle[] @handles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handles};
-            var ___result = RMptrs_from_handles_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr[]>(___result);
-        }
-
-
-        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeToken, @typeInstantiationContext, @methodInstantiationContext};
-            var ___result = RMResolveTypeHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodToken, @typeInstantiationContext, @methodInstantiationContext};
-            var ___result = RMResolveMethodHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldToken, @typeInstantiationContext, @methodInstantiationContext};
-            var ___result = RMResolveFieldHandle_Int32_RuntimeTypeHandleArray_RuntimeTypeHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeFieldHandle GetRuntimeFieldHandleFromMetadataToken(System.Int32 @fieldToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldToken};
-            var ___result = RMGetRuntimeFieldHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeFieldHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeMethodHandle GetRuntimeMethodHandleFromMetadataToken(System.Int32 @methodToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodToken};
-            var ___result = RMGetRuntimeMethodHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeMethodHandle>(___result);
-        }
-
-
-        public virtual System.RuntimeTypeHandle GetRuntimeTypeHandleFromMetadataToken(System.Int32 @typeToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeToken};
-            var ___result = RMGetRuntimeTypeHandleFromMetadataToken_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.ModuleHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEquals_ModuleHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.ModuleHandle @left, System.ModuleHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_ModuleHandle_ModuleHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.ModuleHandle @left, System.ModuleHandle @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_ModuleHandle_ModuleHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Boolean Equals(System.ModuleHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEquals_ModuleHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.ModuleHandle @left, System.ModuleHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_ModuleHandle_ModuleHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.ModuleHandle @left, System.ModuleHandle @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_ModuleHandle_ModuleHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

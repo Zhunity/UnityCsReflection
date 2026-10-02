@@ -1846,793 +1846,624 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual System.Boolean GetIsPowerOfTwo()
-        {
+		public virtual System.Boolean GetIsPowerOfTwo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsPowerOfTwo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetActive()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetActive.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static void SetActive(UnityEngine.RenderTexture @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMSetActive_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.RenderBuffer GetColorBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetColorBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
+		}
+
+
+		public virtual UnityEngine.RenderBuffer GetDepthBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDepthBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
+		}
+
+
+		public virtual void SetMipMapCount(System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@count};
+			var ___result = RMSetMipMapCount_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetShadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode @samplingMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@samplingMode};
+			var ___result = RMSetShadowSamplingMode_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IntPtr GetNativeDepthBufferPtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeDepthBufferPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual void DiscardContents(System.Boolean @discardColor, System.Boolean @discardDepth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@discardColor, @discardDepth};
+			var ___result = RMDiscardContents_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkRestoreExpected()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkRestoreExpected.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DiscardContents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDiscardContents.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResolveAA()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveAA.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResolveAATo(UnityEngine.RenderTexture @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMResolveAATo_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsPowerOfTwo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetActive()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetActive.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static void SetActive(UnityEngine.RenderTexture @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMSetActive_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.RenderBuffer GetColorBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetColorBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
-        }
-
-
-        public virtual UnityEngine.RenderBuffer GetDepthBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDepthBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
-        }
-
-
-        public virtual void SetMipMapCount(System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@count};
-            var ___result = RMSetMipMapCount_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode @samplingMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@samplingMode};
-            var ___result = RMSetShadowSamplingMode_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetNativeDepthBufferPtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeDepthBufferPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void DiscardContents(System.Boolean @discardColor, System.Boolean @discardDepth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@discardColor, @discardDepth};
-            var ___result = RMDiscardContents_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkRestoreExpected()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkRestoreExpected.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DiscardContents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDiscardContents.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveAA()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveAA.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveAATo(UnityEngine.RenderTexture @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMResolveAATo_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveAntiAliasedSurface()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolveAntiAliasedSurface.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMResolveAntiAliasedSurface_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalShaderProperty(System.String @propertyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName};
-            var ___result = RMSetGlobalShaderProperty_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Create()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsCreated()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCreated.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GenerateMips()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGenerateMips.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ConvertToEquirect(UnityEngine.RenderTexture @equirect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@equirect, @eye.Value};
-            var ___result = RMConvertToEquirect_RenderTexture_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSRGBReadWrite(System.Boolean @srgb)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srgb};
-            var ___result = RMSetSRGBReadWrite_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_Create(UnityEngine.RenderTexture @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMInternal_Create_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean SupportsStencil(UnityEngine.RenderTexture @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMSupportsStencil_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMSetRenderTextureDescriptor_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.RenderTextureDescriptor GetDescriptor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDescriptor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary_Internal(UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMGetTemporary_Internal_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static void ReleaseTemporary(UnityEngine.RenderTexture @temp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@temp};
-            var ___result = RMReleaseTemporary_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Initialize(System.Int32 @width, System.Int32 @height, System.Int32 @depth, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @mipCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depth, @format, @readWrite, @mipCount};
-            var ___result = RMInitialize_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetDepthStencilFormatLegacy(System.Int32 @depthBits, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@depthBits, @colorFormat};
-            var ___result = RMGetDepthStencilFormatLegacy_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
-        }
-
-
-        public static void ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMValidateRenderTextureDesc_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.RenderTextureFormat @renderTextureFormat, UnityEngine.RenderTextureReadWrite @readWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderTextureFormat, @readWrite};
-            var ___result = RMGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMGetTemporary_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporaryImpl(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @colorFormat, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
-            var ___result = RMGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
-            var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @depthBuffer};
-            var ___result = RMGetTemporary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height};
-            var ___result = RMGetTemporary_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public virtual void SetBorderColor(UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color};
-            var ___result = RMSetBorderColor_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2 GetTexelOffset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTexelOffset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void GetColorBuffer_Injected(out UnityEngine.RenderBuffer @ret)
-        {
+		public virtual void ResolveAntiAliasedSurface()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolveAntiAliasedSurface.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMResolveAntiAliasedSurface_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalShaderProperty(System.String @propertyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName};
+			var ___result = RMSetGlobalShaderProperty_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Create()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsCreated()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCreated.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GenerateMips()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGenerateMips.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ConvertToEquirect(UnityEngine.RenderTexture @equirect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@equirect, @eye.Value};
+			var ___result = RMConvertToEquirect_RenderTexture_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSRGBReadWrite(System.Boolean @srgb)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srgb};
+			var ___result = RMSetSRGBReadWrite_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_Create(UnityEngine.RenderTexture @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMInternal_Create_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean SupportsStencil(UnityEngine.RenderTexture @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMSupportsStencil_RenderTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMSetRenderTextureDescriptor_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.RenderTextureDescriptor GetDescriptor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDescriptor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary_Internal(UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMGetTemporary_Internal_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static void ReleaseTemporary(UnityEngine.RenderTexture @temp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@temp};
+			var ___result = RMReleaseTemporary_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Initialize(System.Int32 @width, System.Int32 @height, System.Int32 @depth, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @mipCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depth, @format, @readWrite, @mipCount};
+			var ___result = RMInitialize_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Experimental.Rendering.GraphicsFormat GetDepthStencilFormatLegacy(System.Int32 @depthBits, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@depthBits, @colorFormat};
+			var ___result = RMGetDepthStencilFormatLegacy_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
+		}
+
+
+		public static void ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMValidateRenderTextureDesc_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.RenderTextureFormat @renderTextureFormat, UnityEngine.RenderTextureReadWrite @readWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderTextureFormat, @readWrite};
+			var ___result = RMGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMGetTemporary_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporaryImpl(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @colorFormat, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
+			var ___result = RMGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
+			var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @depthBuffer};
+			var ___result = RMGetTemporary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height};
+			var ___result = RMGetTemporary_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public virtual void SetBorderColor(UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color};
+			var ___result = RMSetBorderColor_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetTexelOffset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTexelOffset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual void GetColorBuffer_Injected(out UnityEngine.RenderBuffer @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetColorBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetColorBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer @ret)
-        {
+		public virtual void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetDepthBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetDepthBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTextureDescriptor_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMSetRenderTextureDescriptor_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTextureDescriptor_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMSetRenderTextureDescriptor_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor @ret)
-        {
+		public virtual void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetDescriptor_Injected_Out_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetDescriptor_Injected_Out_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.RenderTexture GetTemporary_Internal_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc};
-            var ___result = RMGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.RenderTexture GetTemporary_Internal_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc};
+			var ___result = RMGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
+		}
+
+
+		public virtual UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_graphicsFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
+		}
+
+
+		public virtual System.IntPtr GetNativeTexturePtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.Int32 GetNativeTextureID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void IncrementUpdateCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @usage};
+			var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
+		}
+
+
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
 
-            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
-        }
-
-
-        public virtual UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_graphicsFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
-        }
-
-
-        public virtual System.IntPtr GetNativeTexturePtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Int32 GetNativeTextureID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void IncrementUpdateCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @usage};
-            var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
-        }
-
-
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -422,158 +422,129 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask<TResult> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask<TResult> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Threading.Tasks.Task<TResult> AsTask()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAsTask.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
+		public virtual System.Threading.Tasks.Task<TResult> AsTask()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAsTask.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
 
 
-        public virtual System.Threading.Tasks.ValueTask<TResult> Preserve()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPreserve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<TResult>>(___result);
-        }
+		public virtual System.Threading.Tasks.ValueTask<TResult> Preserve()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPreserve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<TResult>>(___result);
+		}
 
 
-        public virtual System.Threading.Tasks.Task<TResult> GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource<TResult> @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
+		public virtual System.Threading.Tasks.Task<TResult> GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource<TResult> @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
 
 
-        public virtual System.Runtime.CompilerServices.ValueTaskAwaiter<TResult> GetAwaiter()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>>(___result);
-        }
+		public virtual System.Runtime.CompilerServices.ValueTaskAwaiter<TResult> GetAwaiter()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>>(___result);
+		}
 
 
-        public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult> ConfigureAwait(System.Boolean @continueOnCapturedContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continueOnCapturedContext};
-            var ___result = RMConfigureAwait_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>>(___result);
-        }
+		public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult> ConfigureAwait(System.Boolean @continueOnCapturedContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continueOnCapturedContext};
+			var ___result = RMConfigureAwait_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

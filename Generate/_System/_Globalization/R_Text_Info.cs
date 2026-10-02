@@ -1094,481 +1094,384 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 		}
 
 
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDeserialized.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMGetHashCodeOrdinalIgnoreCase_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @forceRandomizedHashing, @additionalEntropy};
-            var ___result = RMGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinalIgnoreCaseEx(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lengthA, System.Int32 @lengthB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lengthA, @lengthB};
-            var ___result = RMCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @value, @startIndex, @count};
-            var ___result = RMIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @value, @startIndex, @count};
-            var ___result = RMLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Globalization.TextInfo ReadOnly(System.Globalization.TextInfo @textInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textInfo};
-            var ___result = RMReadOnly_TextInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.TextInfo>(___result);
-        }
-
-
-        public virtual void VerifyWritable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetReadOnlyState(System.Boolean @readOnly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@readOnly};
-            var ___result = RMSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Char ToLower(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToLower_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.String ToLower(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMToLower_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Char ToLowerAsciiInvariant(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToLowerAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.Char ToUpper(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToUpper_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.String ToUpper(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMToUpper_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Char ToUpperAsciiInvariant(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToUpperAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public static System.Boolean IsAscii(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMIsAscii_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToTitleCase(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMToTitleCase_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Int32 AddNonLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
-            var ___result = RMAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDeserialized.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMGetHashCodeOrdinalIgnoreCase_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @forceRandomizedHashing, @additionalEntropy};
+			var ___result = RMGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinalIgnoreCaseEx(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lengthA, System.Int32 @lengthB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lengthA, @lengthB};
+			var ___result = RMCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @value, @startIndex, @count};
+			var ___result = RMIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @value, @startIndex, @count};
+			var ___result = RMLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Globalization.TextInfo ReadOnly(System.Globalization.TextInfo @textInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textInfo};
+			var ___result = RMReadOnly_TextInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.TextInfo>(___result);
+		}
+
+
+		public virtual void VerifyWritable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetReadOnlyState(System.Boolean @readOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@readOnly};
+			var ___result = RMSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Char ToLower(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToLower_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.String ToLower(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMToLower_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Char ToLowerAsciiInvariant(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToLowerAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.Char ToUpper(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToUpper_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.String ToUpper(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMToUpper_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Char ToUpperAsciiInvariant(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToUpperAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public static System.Boolean IsAscii(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMIsAscii_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToTitleCase(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMToTitleCase_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Int32 AddNonLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
+			var ___result = RMAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
 			@input = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public virtual System.Int32 AddTitlecaseLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
-            var ___result = RMAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual System.Int32 AddTitlecaseLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
+			var ___result = RMAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
 			@input = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean IsWordSeparator(System.Globalization.UnicodeCategory @category)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@category};
+			var ___result = RMIsWordSeparator_UnicodeCategory.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsLetterCategory(System.Globalization.UnicodeCategory @uc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@uc};
+			var ___result = RMIsLetterCategory_UnicodeCategory.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMGetCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str, @forceRandomizedHashing, @additionalEntropy};
+			var ___result = RMGetCaseInsensitiveHashCode_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetInvariantCaseInsensitiveHashCode(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMGetInvariantCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToUpperInternal(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMToUpperInternal_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToLowerInternal(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMToLowerInternal_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Char ToUpperInternal(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToUpperInternal_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.Char ToLowerInternal(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMToLowerInternal_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public static System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lenA, System.Int32 @lenB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lenA, @lenB};
+			var ___result = RMInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean IsWordSeparator(System.Globalization.UnicodeCategory @category)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@category};
-            var ___result = RMIsWordSeparator_UnicodeCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsLetterCategory(System.Globalization.UnicodeCategory @uc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uc};
-            var ___result = RMIsLetterCategory_UnicodeCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMGetCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str, @forceRandomizedHashing, @additionalEntropy};
-            var ___result = RMGetCaseInsensitiveHashCode_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetInvariantCaseInsensitiveHashCode(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMGetInvariantCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToUpperInternal(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMToUpperInternal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToLowerInternal(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMToLowerInternal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Char ToUpperInternal(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToUpperInternal_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.Char ToLowerInternal(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMToLowerInternal_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public static System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lenA, System.Int32 @lenB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lenA, @lenB};
-            var ___result = RMInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void ToLowerAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value, @destination.Value};
-            var ___result = RMToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ToUpperAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value, @destination.Value};
-            var ___result = RMToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ChangeCase(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Boolean @toUpper)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value, @destination.Value, @toUpper};
-            var ___result = RMChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void ToLowerAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source.Value, @destination.Value};
+			var ___result = RMToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ToUpperAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source.Value, @destination.Value};
+			var ___result = RMToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ChangeCase(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Boolean @toUpper)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source.Value, @destination.Value, @toUpper};
+			var ___result = RMChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

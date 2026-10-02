@@ -742,404 +742,319 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetFieldSigHelper(System.Reflection.Module @mod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod};
-            var ___result = RMGetFieldSigHelper_Module.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetFieldSigHelper(System.Reflection.Module @mod)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod};
+			var ___result = RMGetFieldSigHelper_Module.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper(System.Reflection.Module @mod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod};
-            var ___result = RMGetLocalVarSigHelper_Module.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper(System.Reflection.Module @mod)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod};
+			var ___result = RMGetLocalVarSigHelper_Module.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLocalVarSigHelper.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLocalVarSigHelper.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callingConvention, @returnType};
-            var ___result = RMGetMethodSigHelper_CallingConventions_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callingConvention, @returnType};
+			var ___result = RMGetMethodSigHelper_CallingConventions_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unmanagedCallingConvention, @returnType};
-            var ___result = RMGetMethodSigHelper_CallingConvention_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unmanagedCallingConvention, @returnType};
+			var ___result = RMGetMethodSigHelper_CallingConvention_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @callingConvention, @returnType};
-            var ___result = RMGetMethodSigHelper_Module_CallingConventions_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @callingConvention, @returnType};
+			var ___result = RMGetMethodSigHelper_Module_CallingConventions_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Runtime.InteropServices.CallingConvention @unmanagedCallConv, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @unmanagedCallConv, @returnType};
-            var ___result = RMGetMethodSigHelper_Module_CallingConvention_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Runtime.InteropServices.CallingConvention @unmanagedCallConv, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @unmanagedCallConv, @returnType};
+			var ___result = RMGetMethodSigHelper_Module_CallingConvention_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
-            var ___result = RMGetMethodSigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
+			var ___result = RMGetMethodSigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
-            var ___result = RMGetPropertySigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
+			var ___result = RMGetPropertySigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
-            var ___result = RMGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
+			var ___result = RMGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @callingConvention, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
-            var ___result = RMGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
+		public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @callingConvention, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
+			var ___result = RMGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
 
 
-        public static System.Int32 AppendArray(ref System.Type[] @array, System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @t};
-            var ___result = RMAppendArray_Ref_TypeArray_Type.Invoke(___genericsType, ___parameters);
+		public static System.Int32 AppendArray(ref System.Type[] @array, System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @t};
+			var ___result = RMAppendArray_Ref_TypeArray_Type.Invoke(___genericsType, ___parameters);
 			@array = ReflectionUtils.Convert<System.Type[]>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static void AppendArrayAt(ref System.Type[][] @array, System.Type[] @t, System.Int32 @pos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @t, @pos};
-            var ___result = RMAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32.Invoke(___genericsType, ___parameters);
+		public static void AppendArrayAt(ref System.Type[][] @array, System.Type[] @t, System.Int32 @pos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @t, @pos};
+			var ___result = RMAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32.Invoke(___genericsType, ___parameters);
 			@array = ReflectionUtils.Convert<System.Type[][]>(___parameters[0]);
-
-            
-        }
-
-
-        public static void ValidateParameterModifiers(System.String @name, System.Type[] @parameter_modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @parameter_modifiers};
-            var ___result = RMValidateParameterModifiers_String_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ValidateCustomModifier(System.Int32 @n, System.Type[][] @custom_modifiers, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@n, @custom_modifiers, @name};
-            var ___result = RMValidateCustomModifier_Int32_TypeArrayArray_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Exception MissingFeature()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMissingFeature.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
-
-
-        public virtual void AddArguments(System.Type[] @arguments, System.Type[][] @requiredCustomModifiers, System.Type[][] @optionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arguments, @requiredCustomModifiers, @optionalCustomModifiers};
-            var ___result = RMAddArguments_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddArgument(System.Type @argument, System.Boolean @pinned)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@argument, @pinned};
-            var ___result = RMAddArgument_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddArgument(System.Type @argument, System.Type[] @requiredCustomModifiers, System.Type[] @optionalCustomModifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@argument, @requiredCustomModifiers, @optionalCustomModifiers};
-            var ___result = RMAddArgument_Type_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddArgument(System.Type @clsArgument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clsArgument};
-            var ___result = RMAddArgument_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddSentinel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddSentinel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean CompareOK(System.Type[][] @one, System.Type[][] @two)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@one, @two};
-            var ___result = RMCompareOK_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Byte[] get_signature_local()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_signature_local.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] get_signature_field()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_signature_field.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] GetSignature()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSignature.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType, System.Type[] @parameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mod, @callingConvention, @unmanagedCallingConvention, @returnType, @parameters};
-            var ___result = RMGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
-        }
-
-
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
-        {
+		}
+
+
+		public static void ValidateParameterModifiers(System.String @name, System.Type[] @parameter_modifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @parameter_modifiers};
+			var ___result = RMValidateParameterModifiers_String_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ValidateCustomModifier(System.Int32 @n, System.Type[][] @custom_modifiers, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@n, @custom_modifiers, @name};
+			var ___result = RMValidateCustomModifier_Int32_TypeArrayArray_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Exception MissingFeature()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMissingFeature.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
+
+
+		public virtual void AddArguments(System.Type[] @arguments, System.Type[][] @requiredCustomModifiers, System.Type[][] @optionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arguments, @requiredCustomModifiers, @optionalCustomModifiers};
+			var ___result = RMAddArguments_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddArgument(System.Type @argument, System.Boolean @pinned)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@argument, @pinned};
+			var ___result = RMAddArgument_Type_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddArgument(System.Type @argument, System.Type[] @requiredCustomModifiers, System.Type[] @optionalCustomModifiers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@argument, @requiredCustomModifiers, @optionalCustomModifiers};
+			var ___result = RMAddArgument_Type_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddArgument(System.Type @clsArgument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clsArgument};
+			var ___result = RMAddArgument_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddSentinel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddSentinel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean CompareOK(System.Type[][] @one, System.Type[][] @two)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@one, @two};
+			var ___result = RMCompareOK_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Byte[] get_signature_local()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_signature_local.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] get_signature_field()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_signature_field.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] GetSignature()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSignature.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType, System.Type[] @parameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mod, @callingConvention, @unmanagedCallingConvention, @returnType, @parameters};
+			var ___result = RMGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
+		}
+
+
+		public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
+		{
 			@pcTInfo = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pcTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pcTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

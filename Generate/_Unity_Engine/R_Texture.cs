@@ -1014,284 +1014,227 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static void SetGlobalAnisotropicFilteringLimits(System.Int32 @forcedMin, System.Int32 @globalMax)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@forcedMin, @globalMax};
-            var ___result = RMSetGlobalAnisotropicFilteringLimits_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetGlobalAnisotropicFilteringLimits(System.Int32 @forcedMin, System.Int32 @globalMax)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@forcedMin, @globalMax};
+			var ___result = RMSetGlobalAnisotropicFilteringLimits_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetDataWidth()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataWidth.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetDataWidth()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDataWidth.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetDataHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetDataHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDataHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual UnityEngine.Rendering.TextureDimension GetDimension()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDimension.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.TextureDimension>(___result);
-        }
+		public virtual UnityEngine.Rendering.TextureDimension GetDimension()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDimension.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.TextureDimension>(___result);
+		}
 
 
-        public virtual System.IntPtr GetNativeTexturePtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
+		public virtual System.IntPtr GetNativeTexturePtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public virtual System.Int32 GetNativeTextureID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetNativeTextureID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void IncrementUpdateCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void IncrementUpdateCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 Internal_GetActiveTextureColorSpace()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_GetActiveTextureColorSpace.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 Internal_GetActiveTextureColorSpace()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_GetActiveTextureColorSpace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static void SetStreamingTextureMaterialDebugProperties()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetStreamingTextureMaterialDebugProperties.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetStreamingTextureMaterialDebugProperties()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetStreamingTextureMaterialDebugProperties.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @usage};
-            var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @usage};
+			var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
-        }
+		public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
+		}
 
 
-        public virtual void get_texelSize_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_texelSize_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_imageContentsHash_Injected(out UnityEngine.Hash128 @ret)
-        {
+		public virtual void get_imageContentsHash_Injected(out UnityEngine.Hash128 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_imageContentsHash_Injected(ref UnityEngine.Hash128 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
+		public virtual void set_imageContentsHash_Injected(ref UnityEngine.Hash128 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

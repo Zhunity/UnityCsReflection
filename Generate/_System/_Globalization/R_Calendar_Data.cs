@@ -646,169 +646,136 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 		}
 
 
-        public virtual void InitializeEraNames(System.String @localeName, System.Int32 @calendarId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localeName, @calendarId};
-            var ___result = RMInitializeEraNames_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitializeEraNames(System.String @localeName, System.Int32 @calendarId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localeName, @calendarId};
+			var ___result = RMInitializeEraNames_String_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.String[] GetJapaneseEraNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetJapaneseEraNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetJapaneseEraNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetJapaneseEraNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public static System.String[] GetJapaneseEnglishEraNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetJapaneseEnglishEraNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetJapaneseEnglishEraNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetJapaneseEnglishEraNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public virtual void InitializeAbbreviatedEraNames(System.String @localeName, System.Int32 @calendarId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localeName, @calendarId};
-            var ___result = RMInitializeAbbreviatedEraNames_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitializeAbbreviatedEraNames(System.String @localeName, System.Int32 @calendarId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localeName, @calendarId};
+			var ___result = RMInitializeAbbreviatedEraNames_String_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendarData(System.Int32 @calendarId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@calendarId};
-            var ___result = RMGetCalendarData_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendarData(System.Int32 @calendarId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@calendarId};
+			var ___result = RMGetCalendarData_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData>(___result);
+		}
 
 
-        public static System.String CalendarIdToCultureName(System.Int32 @calendarId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@calendarId};
-            var ___result = RMCalendarIdToCultureName_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String CalendarIdToCultureName(System.Int32 @calendarId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@calendarId};
+			var ___result = RMCalendarIdToCultureName_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.Int32 nativeGetTwoDigitYearMax(System.Int32 @calID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@calID};
-            var ___result = RMnativeGetTwoDigitYearMax_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 nativeGetTwoDigitYearMax(System.Int32 @calID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@calID};
+			var ___result = RMnativeGetTwoDigitYearMax_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean nativeGetCalendarData(Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData @data, System.String @localeName, System.Int32 @calendarId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data.Value, @localeName, @calendarId};
-            var ___result = RMnativeGetCalendarData_CalendarData_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean nativeGetCalendarData(Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData @data, System.String @localeName, System.Int32 @calendarId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data.Value, @localeName, @calendarId};
+			var ___result = RMnativeGetCalendarData_CalendarData_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean fill_calendar_data(System.String @localeName, System.Int32 @datetimeIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localeName, @datetimeIndex};
-            var ___result = RMfill_calendar_data_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean fill_calendar_data(System.String @localeName, System.Int32 @datetimeIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localeName, @datetimeIndex};
+			var ___result = RMfill_calendar_data_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

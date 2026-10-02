@@ -230,103 +230,84 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_CoreCameraValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other.Value};
+			var ___result = RMEquals_CoreCameraValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Equality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Equality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Inequality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Inequality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

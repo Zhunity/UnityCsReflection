@@ -646,313 +646,258 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Object @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@version};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Object @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@version};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Version @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Version @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Version @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Version @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.Int32 @fieldCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldCount};
-            var ___result = RMToString_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.Int32 @fieldCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldCount};
+			var ___result = RMToString_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
-        {
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @fieldCount, out System.Int32 @charsWritten)
-        {
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @fieldCount, out System.Int32 @charsWritten)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @fieldCount, @charsWritten};
-            var ___result = RMTryFormat_Span_d_Char_p__Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @fieldCount, @charsWritten};
+			var ___result = RMTryFormat_Span_d_Char_p__Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
-        {
+		public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
-            var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+			var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder ToCachedStringBuilder(System.Int32 @fieldCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fieldCount};
-            var ___result = RMToCachedStringBuilder_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Version Parse(System.String @input)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Version>(___result);
-        }
+		public virtual System.Text.StringBuilder ToCachedStringBuilder(System.Int32 @fieldCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fieldCount};
+			var ___result = RMToCachedStringBuilder_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
 
 
-        public static System.Version Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Version>(___result);
-        }
+		public static System.Version Parse(System.String @input)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Version>(___result);
+		}
 
 
-        public static System.Boolean TryParse(System.String @input, out System.Version @result)
-        {
+		public static System.Version Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Version>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.String @input, out System.Version @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result};
-            var ___result = RMTryParse_String_Out_Version.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result};
+			var ___result = RMTryParse_String_Out_Version.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Version>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, out System.Version @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, out System.Version @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Version.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Version.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Version>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Version ParseVersion(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.Boolean @throwOnFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input.Value, @throwOnFailure};
-            var ___result = RMParseVersion_ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Version>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean TryParseComponent(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @component, System.String @componentName, System.Boolean @throwOnFailure, out System.Int32 @parsedComponent)
-        {
+		public static System.Version ParseVersion(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.Boolean @throwOnFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input.Value, @throwOnFailure};
+			var ___result = RMParseVersion_ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Version>(___result);
+		}
+
+
+		public static System.Boolean TryParseComponent(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @component, System.String @componentName, System.Boolean @throwOnFailure, out System.Int32 @parsedComponent)
+		{
 			@parsedComponent = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@component.Value, @componentName, @throwOnFailure, @parsedComponent};
-            var ___result = RMTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@component.Value, @componentName, @throwOnFailure, @parsedComponent};
+			var ___result = RMTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@parsedComponent = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_Equality_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_Inequality_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_Equality_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_LessThan(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_LessThan_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_Inequality_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_LessThanOrEqual(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_LessThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_LessThan(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_LessThan_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_GreaterThan(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_GreaterThan_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_LessThanOrEqual(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_LessThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_GreaterThanOrEqual(System.Version @v1, System.Version @v2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v1, @v2};
-            var ___result = RMop_GreaterThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_GreaterThan(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_GreaterThan_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static System.Boolean op_GreaterThanOrEqual(System.Version @v1, System.Version @v2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v1, @v2};
+			var ___result = RMop_GreaterThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

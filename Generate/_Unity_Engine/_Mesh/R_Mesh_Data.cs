@@ -1048,634 +1048,493 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static System.Boolean HasVertexAttribute(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr};
-            var ___result = RMHasVertexAttribute_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 GetVertexAttributeDimension(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr};
-            var ___result = RMGetVertexAttributeDimension_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr};
-            var ___result = RMGetVertexAttributeFormat_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
-        }
-
-
-        public static System.Int32 GetVertexAttributeStream(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr};
-            var ___result = RMGetVertexAttributeStream_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetVertexAttributeOffset(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr};
-            var ___result = RMGetVertexAttributeOffset_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetVertexCount(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetVertexCount_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetVertexBufferCount(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetVertexBufferCount_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.IntPtr GetVertexDataPtr(System.IntPtr @self, System.Int32 @stream)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @stream};
-            var ___result = RMGetVertexDataPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.UInt64 GetVertexDataSize(System.IntPtr @self, System.Int32 @stream)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @stream};
-            var ___result = RMGetVertexDataSize_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public static System.Int32 GetVertexBufferStride(System.IntPtr @self, System.Int32 @stream)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @stream};
-            var ___result = RMGetVertexBufferStride_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void CopyAttributeIntoPtr(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim, System.IntPtr @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @attr, @format, @dim, @dst};
-            var ___result = RMCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyIndicesIntoPtr(System.IntPtr @self, System.Int32 @submesh, System.Boolean @applyBaseVertex, System.Int32 @dstStride, System.IntPtr @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @submesh, @applyBaseVertex, @dstStride, @dst};
-            var ___result = RMCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Rendering.IndexFormat GetIndexFormat(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetIndexFormat_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.IndexFormat>(___result);
-        }
-
-
-        public static System.Int32 GetIndexCount(System.IntPtr @self, System.Int32 @submesh)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @submesh};
-            var ___result = RMGetIndexCount_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.IntPtr GetIndexDataPtr(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetIndexDataPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.UInt64 GetIndexDataSize(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetIndexDataSize_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public static System.Int32 GetSubMeshCount(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMGetSubMeshCount_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.IntPtr @self, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index};
-            var ___result = RMGetSubMesh_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
-        }
-
-
-        public static void SetVertexBufferParamsFromPtr(System.IntPtr @self, System.Int32 @vertexCount, System.IntPtr @attributesPtr, System.Int32 @attributesCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @vertexCount, @attributesPtr, @attributesCount};
-            var ___result = RMSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetVertexBufferParamsFromArray(System.IntPtr @self, System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @vertexCount, @attributes};
-            var ___result = RMSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetIndexBufferParamsImpl(System.IntPtr @self, System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @indexFormat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @indexCount, @indexFormat};
-            var ___result = RMSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetSubMeshCount(System.IntPtr @self, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @count};
-            var ___result = RMSetSubMeshCount_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetSubMeshImpl(System.IntPtr @self, System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index, @desc, @flags};
-            var ___result = RMSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetVertexBufferStride(System.Int32 @stream)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stream};
-            var ___result = RMGetVertexBufferStride_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attr};
-            var ___result = RMHasVertexAttribute_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attr};
-            var ___result = RMGetVertexAttributeDimension_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attr};
-            var ___result = RMGetVertexAttributeFormat_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
-        }
-
-
-        public virtual System.Int32 GetVertexAttributeStream(UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attr};
-            var ___result = RMGetVertexAttributeStream_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetVertexAttributeOffset(UnityEngine.Rendering.VertexAttribute @attr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attr};
-            var ___result = RMGetVertexAttributeOffset_VertexAttribute.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void GetVertices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outVertices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outVertices.Value};
-            var ___result = RMGetVertices_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetNormals(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outNormals)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outNormals.Value};
-            var ___result = RMGetNormals_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTangents(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @outTangents)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outTangents.Value};
-            var ___result = RMGetTangents_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetColors(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RColor> @outColors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outColors.Value};
-            var ___result = RMGetColors_NativeArray_d_Color_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetColors(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RColor32> @outColors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outColors.Value};
-            var ___result = RMGetColors_NativeArray_d_Color32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> @outUVs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@channel, @outUVs.Value};
-            var ___result = RMGetUVs_Int32_NativeArray_d_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outUVs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@channel, @outUVs.Value};
-            var ___result = RMGetUVs_Int32_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @outUVs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@channel, @outUVs.Value};
-            var ___result = RMGetUVs_Int32_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetVertexData<T>(System.Int32 @stream) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@stream};
-            var ___result = RMGetVertexData_GT_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void CopyAttributeInto<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @buffer, UnityEngine.Rendering.VertexAttribute @channel, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer.Value, @channel, @format, @dim};
-            var ___result = RMCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVertexBufferParams(System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @attributes};
-            var ___result = RMSetVertexBufferParams_Int32_VertexAttributeDescriptorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVertexBufferParams(System.Int32 @vertexCount, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeDescriptor> @attributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @attributes.Value};
-            var ___result = RMSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetIndexBufferParams(System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexCount, @format};
-            var ___result = RMSetIndexBufferParams_Int32_IndexFormat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RUInt16> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
-            var ___result = RMGetIndices_NativeArray_d_UInt16_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RInt32> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
-            var ___result = RMGetIndices_NativeArray_d_Int32_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetIndexData<T>() where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIndexData_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetSubMesh_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
-        }
-
-
-        public virtual void SetSubMesh(System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @desc, @flags};
-            var ___result = RMSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckReadAccess()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckReadAccess.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckWriteAccess()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckWriteAccess.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void GetSubMesh_Injected(System.IntPtr @self, System.Int32 @index, out UnityEngine.Rendering.SubMeshDescriptor @ret)
-        {
+		public static System.Boolean HasVertexAttribute(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr};
+			var ___result = RMHasVertexAttribute_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 GetVertexAttributeDimension(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr};
+			var ___result = RMGetVertexAttributeDimension_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr};
+			var ___result = RMGetVertexAttributeFormat_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
+		}
+
+
+		public static System.Int32 GetVertexAttributeStream(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr};
+			var ___result = RMGetVertexAttributeStream_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetVertexAttributeOffset(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr};
+			var ___result = RMGetVertexAttributeOffset_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetVertexCount(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetVertexCount_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetVertexBufferCount(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetVertexBufferCount_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.IntPtr GetVertexDataPtr(System.IntPtr @self, System.Int32 @stream)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @stream};
+			var ___result = RMGetVertexDataPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static System.UInt64 GetVertexDataSize(System.IntPtr @self, System.Int32 @stream)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @stream};
+			var ___result = RMGetVertexDataSize_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public static System.Int32 GetVertexBufferStride(System.IntPtr @self, System.Int32 @stream)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @stream};
+			var ___result = RMGetVertexBufferStride_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void CopyAttributeIntoPtr(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim, System.IntPtr @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @attr, @format, @dim, @dst};
+			var ___result = RMCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyIndicesIntoPtr(System.IntPtr @self, System.Int32 @submesh, System.Boolean @applyBaseVertex, System.Int32 @dstStride, System.IntPtr @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @submesh, @applyBaseVertex, @dstStride, @dst};
+			var ___result = RMCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Rendering.IndexFormat GetIndexFormat(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetIndexFormat_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.IndexFormat>(___result);
+		}
+
+
+		public static System.Int32 GetIndexCount(System.IntPtr @self, System.Int32 @submesh)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @submesh};
+			var ___result = RMGetIndexCount_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.IntPtr GetIndexDataPtr(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetIndexDataPtr_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static System.UInt64 GetIndexDataSize(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetIndexDataSize_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public static System.Int32 GetSubMeshCount(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMGetSubMeshCount_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.IntPtr @self, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index};
+			var ___result = RMGetSubMesh_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
+		}
+
+
+		public static void SetVertexBufferParamsFromPtr(System.IntPtr @self, System.Int32 @vertexCount, System.IntPtr @attributesPtr, System.Int32 @attributesCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @vertexCount, @attributesPtr, @attributesCount};
+			var ___result = RMSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetVertexBufferParamsFromArray(System.IntPtr @self, System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @vertexCount, @attributes};
+			var ___result = RMSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetIndexBufferParamsImpl(System.IntPtr @self, System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @indexFormat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @indexCount, @indexFormat};
+			var ___result = RMSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetSubMeshCount(System.IntPtr @self, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @count};
+			var ___result = RMSetSubMeshCount_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetSubMeshImpl(System.IntPtr @self, System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index, @desc, @flags};
+			var ___result = RMSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetVertexBufferStride(System.Int32 @stream)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stream};
+			var ___result = RMGetVertexBufferStride_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attr};
+			var ___result = RMHasVertexAttribute_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attr};
+			var ___result = RMGetVertexAttributeDimension_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attr};
+			var ___result = RMGetVertexAttributeFormat_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
+		}
+
+
+		public virtual System.Int32 GetVertexAttributeStream(UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attr};
+			var ___result = RMGetVertexAttributeStream_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetVertexAttributeOffset(UnityEngine.Rendering.VertexAttribute @attr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attr};
+			var ___result = RMGetVertexAttributeOffset_VertexAttribute.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void GetVertices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outVertices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outVertices.Value};
+			var ___result = RMGetVertices_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetNormals(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outNormals)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outNormals.Value};
+			var ___result = RMGetNormals_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTangents(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @outTangents)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outTangents.Value};
+			var ___result = RMGetTangents_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetColors(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RColor> @outColors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outColors.Value};
+			var ___result = RMGetColors_NativeArray_d_Color_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetColors(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RColor32> @outColors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outColors.Value};
+			var ___result = RMGetColors_NativeArray_d_Color32_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> @outUVs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@channel, @outUVs.Value};
+			var ___result = RMGetUVs_Int32_NativeArray_d_Vector2_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @outUVs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@channel, @outUVs.Value};
+			var ___result = RMGetUVs_Int32_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetUVs(System.Int32 @channel, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @outUVs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@channel, @outUVs.Value};
+			var ___result = RMGetUVs_Int32_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetVertexData<T>(System.Int32 @stream) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@stream};
+			var ___result = RMGetVertexData_GT_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual void CopyAttributeInto<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @buffer, UnityEngine.Rendering.VertexAttribute @channel, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer.Value, @channel, @format, @dim};
+			var ___result = RMCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVertexBufferParams(System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @attributes};
+			var ___result = RMSetVertexBufferParams_Int32_VertexAttributeDescriptorArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVertexBufferParams(System.Int32 @vertexCount, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeDescriptor> @attributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @attributes.Value};
+			var ___result = RMSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetIndexBufferParams(System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexCount, @format};
+			var ___result = RMSetIndexBufferParams_Int32_IndexFormat.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RUInt16> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
+			var ___result = RMGetIndices_NativeArray_d_UInt16_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RInt32> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
+			var ___result = RMGetIndices_NativeArray_d_Int32_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetIndexData<T>() where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIndexData_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetSubMesh_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
+		}
+
+
+		public virtual void SetSubMesh(System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @desc, @flags};
+			var ___result = RMSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckReadAccess()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckReadAccess.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckWriteAccess()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckWriteAccess.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void GetSubMesh_Injected(System.IntPtr @self, System.Int32 @index, out UnityEngine.Rendering.SubMeshDescriptor @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index, @ret};
-            var ___result = RMGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index, @ret};
+			var ___result = RMGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void SetSubMeshImpl_Injected(System.IntPtr @self, System.Int32 @index, ref UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @index, @desc, @flags};
-            var ___result = RMSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+		public static void SetSubMeshImpl_Injected(System.IntPtr @self, System.Int32 @index, ref UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @index, @desc, @flags};
+			var ___result = RMSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
 			@desc = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

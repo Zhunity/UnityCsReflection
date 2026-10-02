@@ -198,59 +198,46 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		}
 
 
-        public virtual System.Boolean Contains(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Contains(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Add(System.Object @key, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMAdd_Object_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Add(System.Object @key, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMAdd_Object_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Collections.IDictionaryEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IDictionaryEnumerator>(___result);
-        }
+		public virtual System.Collections.IDictionaryEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IDictionaryEnumerator>(___result);
+		}
 
 
-        public virtual void Remove(System.Object @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMRemove_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Remove(System.Object @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMRemove_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

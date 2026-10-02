@@ -2022,1179 +2022,965 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___result);
-        }
 
-
-        public static System.UInt32 DecDivMod1E9(ref System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMDecDivMod1E9_Ref_Decimal.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 DecDivMod1E9(ref System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMDecDivMod1E9_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public static System.Decimal FromOACurrency(System.Int64 @cy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cy};
-            var ___result = RMFromOACurrency_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static System.Int64 ToOACurrency(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToOACurrency_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
+		public static System.Decimal FromOACurrency(System.Int64 @cy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cy};
+			var ___result = RMFromOACurrency_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Boolean IsValid(System.Int32 @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@flags};
-            var ___result = RMIsValid_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Int64 ToOACurrency(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToOACurrency_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static System.Boolean IsValid(System.Int32 @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@flags};
+			var ___result = RMIsValid_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Decimal Abs(ref System.Decimal @d)
-        {
+		public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMAbs_Ref_Decimal.Invoke(___genericsType, ___parameters);
+
+		public static System.Decimal Abs(ref System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMAbs_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal Add(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMAdd_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Ceiling(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMCeiling_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Add(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMAdd_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Int32 Compare(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMCompare_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Decimal Ceiling(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMCeiling_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 Compare(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMCompare_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Decimal Divide(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMDivide_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Decimal Divide(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMDivide_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean Equals(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMEquals_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Decimal Floor(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMFloor_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Boolean Equals(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMEquals_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.Decimal Floor(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMFloor_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @provider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
-        {
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @provider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Decimal Parse(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @style};
-            var ___result = RMParse_String_NumberStyles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Parse(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Parse(System.String @s, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @provider};
-            var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @style};
+			var ___result = RMParse_String_NumberStyles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @style, @provider};
-            var ___result = RMParse_String_NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Parse(System.String @s, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @provider};
+			var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @style, @provider};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @style, @provider};
+			var ___result = RMParse_String_NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Boolean TryParse(System.String @s, out System.Decimal @result)
-        {
+		public static System.Decimal Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @style, @provider};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.String @s, out System.Decimal @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @result};
-            var ___result = RMTryParse_String_Out_Decimal.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @result};
+			var ___result = RMTryParse_String_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.Decimal @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.Decimal @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Decimal.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
-        {
+		public static System.Boolean TryParse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @style, @provider, @result};
-            var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @style, @provider, @result};
+			var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value, @style, @provider, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s.Value, @style, @provider, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32[] GetBits(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMGetBits_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32[]>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void GetBytes(in System.Decimal @d, System.Byte[] @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @buffer};
-            var ___result = RMGetBytes_In_Decimal_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static System.Int32[] GetBits(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMGetBits_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32[]>(___result);
+		}
 
 
-        public static System.Decimal ToDecimal(System.Byte[] @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer};
-            var ___result = RMToDecimal_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static void GetBytes(in System.Decimal @d, System.Byte[] @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @buffer};
+			var ___result = RMGetBytes_In_Decimal_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Decimal Max(ref System.Decimal @d1, ref System.Decimal @d2)
-        {
+		public static System.Decimal ToDecimal(System.Byte[] @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer};
+			var ___result = RMToDecimal_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMMax_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
+
+		public static System.Decimal Max(ref System.Decimal @d1, ref System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMMax_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
 
-
-        public static System.Decimal Min(ref System.Decimal @d1, ref System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMMin_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
+		public static System.Decimal Min(ref System.Decimal @d1, ref System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMMin_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d1 = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 			@d2 = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal Remainder(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMRemainder_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Multiply(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMMultiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Remainder(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMRemainder_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Negate(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMNegate_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Multiply(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMMultiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Round(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMRound_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Negate(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMNegate_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @decimals};
-            var ___result = RMRound_Decimal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Round(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMRound_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Round(System.Decimal @d, System.MidpointRounding @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @mode};
-            var ___result = RMRound_Decimal_MidpointRounding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @decimals};
+			var ___result = RMRound_Decimal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @decimals, @mode};
-            var ___result = RMRound_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Decimal Round(System.Decimal @d, System.MidpointRounding @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @mode};
+			var ___result = RMRound_Decimal_MidpointRounding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.Decimal Round(ref System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
-        {
+		public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @decimals, @mode};
+			var ___result = RMRound_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @decimals, @mode};
-            var ___result = RMRound_Ref_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
+
+		public static System.Decimal Round(ref System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @decimals, @mode};
+			var ___result = RMRound_Ref_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
 
-
-        public static System.Int32 Sign(ref System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMSign_Ref_Decimal.Invoke(___genericsType, ___parameters);
+		public static System.Int32 Sign(ref System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMSign_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Decimal Subtract(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMSubtract_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Byte ToByte(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToByte_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
+		public static System.Decimal Subtract(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMSubtract_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
 
-        public static System.SByte ToSByte(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToSByte_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
+		public static System.Byte ToByte(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToByte_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
 
 
-        public static System.Int16 ToInt16(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToInt16_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
+		public static System.SByte ToSByte(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToSByte_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
 
 
-        public static System.Double ToDouble(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToDouble_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
+		public static System.Int16 ToInt16(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToInt16_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
 
 
-        public static System.Int32 ToInt32(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToInt32_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Double ToDouble(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToDouble_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
 
 
-        public static System.Int64 ToInt64(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToInt64_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
+		public static System.Int32 ToInt32(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToInt32_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.UInt16 ToUInt16(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToUInt16_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
+		public static System.Int64 ToInt64(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToInt64_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public static System.UInt32 ToUInt32(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToUInt32_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
+		public static System.UInt16 ToUInt16(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToUInt16_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
 
 
-        public static System.UInt64 ToUInt64(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToUInt64_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
+		public static System.UInt32 ToUInt32(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToUInt32_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static System.Single ToSingle(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMToSingle_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public static System.UInt64 ToUInt64(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToUInt64_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
 
 
-        public static System.Decimal Truncate(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMTruncate_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
+		public static System.Single ToSingle(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMToSingle_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public static void Truncate(ref System.Decimal @d)
-        {
+		public static System.Decimal Truncate(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMTruncate_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMTruncate_Ref_Decimal.Invoke(___genericsType, ___parameters);
+
+		public static void Truncate(ref System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMTruncate_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
+		}
+
+
+		public static System.Decimal op_Implicit(System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_SByte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_Int16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_UInt16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Implicit(System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_UInt64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Explicit(System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Explicit_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Explicit(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Explicit_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
 
-            
-        }
-
-
-        public static System.Decimal op_Implicit(System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_SByte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_Int16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_UInt16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Implicit(System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_UInt64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Explicit(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Explicit_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Explicit(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Explicit_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Byte op_Explicit(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Explicit_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public static System.Decimal op_UnaryPlus(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMop_UnaryPlus_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_UnaryNegation(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMop_UnaryNegation_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Increment(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMop_Increment_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Decrement(System.Decimal @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMop_Decrement_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Addition(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Addition_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Subtraction(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Subtraction_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Multiply(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Multiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Division(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Division_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Decimal op_Modulus(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Modulus_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Equality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Inequality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThan(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_LessThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_LessThanOrEqual(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_LessThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThan(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_GreaterThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_GreaterThanOrEqual(System.Decimal @d1, System.Decimal @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_GreaterThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @provider};
-            var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Byte op_Explicit(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Explicit_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public static System.Decimal op_UnaryPlus(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMop_UnaryPlus_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_UnaryNegation(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMop_UnaryNegation_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Increment(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMop_Increment_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Decrement(System.Decimal @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMop_Decrement_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Addition(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Addition_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Subtraction(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Subtraction_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Multiply(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Multiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Division(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Division_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Decimal op_Modulus(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Modulus_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Equality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Inequality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThan(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_LessThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_LessThanOrEqual(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_LessThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThan(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_GreaterThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_GreaterThanOrEqual(System.Decimal @d1, System.Decimal @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_GreaterThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @provider};
+			var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

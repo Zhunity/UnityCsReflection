@@ -758,389 +758,308 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 		}
 
 
-        public virtual System.Security.PermissionSet Copy()
-        {
+		public virtual System.Security.PermissionSet Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
+		}
+
+
+		public virtual System.Security.NamedPermissionSet Copy(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMCopy_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
+		}
+
+
+		public virtual void FromXml(System.Security.SecurityElement @et)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@et};
+			var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.SecurityElement ToXml()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToXml.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Security.IPermission AddPermission(System.Security.IPermission @perm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@perm};
+			var ___result = RMAddPermission_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual void Assert()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAssert.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.Array @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Demand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDemand.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CasOnlyDemand(System.Int32 @skip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@skip};
+			var ___result = RMCasOnlyDemand_Int32.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
-        }
-
-
-        public virtual System.Security.NamedPermissionSet Copy(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMCopy_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
-        }
-
-
-        public virtual void FromXml(System.Security.SecurityElement @et)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@et};
-            var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.SecurityElement ToXml()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToXml.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Security.IPermission AddPermission(System.Security.IPermission @perm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@perm};
-            var ___result = RMAddPermission_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual void Assert()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAssert.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.Array @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Demand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDemand.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CasOnlyDemand(System.Int32 @skip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@skip};
-            var ___result = RMCasOnlyDemand_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Deny()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeny.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.IEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Boolean IsSubsetOf(System.Security.PermissionSet @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMIsSubsetOf_PermissionSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void PermitOnly()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPermitOnly.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ContainsNonCodeAccessPermissions()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMContainsNonCodeAccessPermissions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Security.IPermission GetPermission(System.Type @permClass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permClass};
-            var ___result = RMGetPermission_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.Security.PermissionSet Intersect(System.Security.PermissionSet @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIntersect_PermissionSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
-        }
-
-
-        public virtual void InternalIntersect(System.Security.PermissionSet @intersect, System.Security.PermissionSet @a, System.Security.PermissionSet @b, System.Boolean @unrestricted)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@intersect, @a, @b, @unrestricted};
-            var ___result = RMInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsEmpty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsEmpty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsUnrestricted()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsUnrestricted.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Security.IPermission RemovePermission(System.Type @permClass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permClass};
-            var ___result = RMRemovePermission_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.Security.IPermission SetPermission(System.Security.IPermission @perm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@perm};
-            var ___result = RMSetPermission_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Security.PermissionSet Union(System.Security.PermissionSet @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMUnion_PermissionSet.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
-        }
-
-
-        public virtual void SetReadOnly(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetReadOnly_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.IPermission AddPermissionImpl(System.Security.IPermission @perm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@perm};
-            var ___result = RMAddPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator GetEnumeratorImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumeratorImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Security.IPermission GetPermissionImpl(System.Type @permClass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permClass};
-            var ___result = RMGetPermissionImpl_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.Security.IPermission RemovePermissionImpl(System.Type @permClass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@permClass};
-            var ___result = RMRemovePermissionImpl_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual System.Security.IPermission SetPermissionImpl(System.Security.IPermission @perm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@perm};
-            var ___result = RMSetPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void Deny()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeny.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Boolean IsSubsetOf(System.Security.PermissionSet @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMIsSubsetOf_PermissionSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void PermitOnly()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPermitOnly.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ContainsNonCodeAccessPermissions()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMContainsNonCodeAccessPermissions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Security.IPermission GetPermission(System.Type @permClass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permClass};
+			var ___result = RMGetPermission_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.Security.PermissionSet Intersect(System.Security.PermissionSet @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIntersect_PermissionSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
+		}
+
+
+		public virtual void InternalIntersect(System.Security.PermissionSet @intersect, System.Security.PermissionSet @a, System.Security.PermissionSet @b, System.Boolean @unrestricted)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@intersect, @a, @b, @unrestricted};
+			var ___result = RMInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsEmpty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsEmpty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsUnrestricted()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsUnrestricted.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Security.IPermission RemovePermission(System.Type @permClass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permClass};
+			var ___result = RMRemovePermission_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.Security.IPermission SetPermission(System.Security.IPermission @perm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@perm};
+			var ___result = RMSetPermission_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Security.PermissionSet Union(System.Security.PermissionSet @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMUnion_PermissionSet.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
+		}
+
+
+		public virtual void SetReadOnly(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetReadOnly_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.IPermission AddPermissionImpl(System.Security.IPermission @perm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@perm};
+			var ___result = RMAddPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetEnumeratorImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumeratorImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Security.IPermission GetPermissionImpl(System.Type @permClass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permClass};
+			var ___result = RMGetPermissionImpl_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.Security.IPermission RemovePermissionImpl(System.Type @permClass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@permClass};
+			var ___result = RMRemovePermissionImpl_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual System.Security.IPermission SetPermissionImpl(System.Security.IPermission @perm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@perm};
+			var ___result = RMSetPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.IPermission>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

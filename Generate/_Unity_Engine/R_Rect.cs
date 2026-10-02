@@ -726,235 +726,191 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static UnityEngine.Rect MinMaxRect(System.Single @xmin, System.Single @ymin, System.Single @xmax, System.Single @ymax)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@xmin, @ymin, @xmax, @ymax};
-            var ___result = RMMinMaxRect_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void Set(System.Single @x, System.Single @y, System.Single @width, System.Single @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @width, @height};
-            var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Contains(UnityEngine.Vector2 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMContains_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(UnityEngine.Vector3 @point, System.Boolean @allowInverse)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point, @allowInverse};
-            var ___result = RMContains_Vector3_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Rect OrderMinMax(UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMOrderMinMax_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual System.Boolean Overlaps(UnityEngine.Rect @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Overlaps(UnityEngine.Rect @other, System.Boolean @allowInverse)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other, @allowInverse};
-            var ___result = RMOverlaps_Rect_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Vector2 NormalizedToPoint(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @normalizedRectCoordinates)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectangle, @normalizedRectCoordinates};
-            var ___result = RMNormalizedToPoint_Rect_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public static UnityEngine.Vector2 PointToNormalized(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectangle, @point};
-            var ___result = RMPointToNormalized_Rect_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.Rect @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static UnityEngine.Rect MinMaxRect(System.Single @xmin, System.Single @ymin, System.Single @xmax, System.Single @ymax)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@xmin, @ymin, @xmax, @ymax};
+			var ___result = RMMinMaxRect_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void Set(System.Single @x, System.Single @y, System.Single @width, System.Single @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @width, @height};
+			var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Contains(UnityEngine.Vector2 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMContains_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(UnityEngine.Vector3 @point, System.Boolean @allowInverse)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point, @allowInverse};
+			var ___result = RMContains_Vector3_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Rect OrderMinMax(UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMOrderMinMax_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual System.Boolean Overlaps(UnityEngine.Rect @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Overlaps(UnityEngine.Rect @other, System.Boolean @allowInverse)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other, @allowInverse};
+			var ___result = RMOverlaps_Rect_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Vector2 NormalizedToPoint(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @normalizedRectCoordinates)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectangle, @normalizedRectCoordinates};
+			var ___result = RMNormalizedToPoint_Rect_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public static UnityEngine.Vector2 PointToNormalized(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectangle, @point};
+			var ___result = RMPointToNormalized_Rect_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Rect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Rect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.Rect @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

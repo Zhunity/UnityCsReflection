@@ -1398,657 +1398,531 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual UnityEngine.Quaternion GetRotation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRotation.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
+		public virtual UnityEngine.Quaternion GetRotation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRotation.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
 
 
-        public virtual UnityEngine.Vector3 GetLossyScale()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLossyScale.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
+		public virtual UnityEngine.Vector3 GetLossyScale()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLossyScale.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
 
 
-        public virtual System.Boolean IsIdentity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsIdentity.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsIdentity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsIdentity.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Single GetDeterminant()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDeterminant.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetDeterminant()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDeterminant.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual UnityEngine.FrustumPlanes DecomposeProjection()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDecomposeProjection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.FrustumPlanes>(___result);
-        }
+		public virtual UnityEngine.FrustumPlanes DecomposeProjection()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDecomposeProjection.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.FrustumPlanes>(___result);
+		}
 
 
-        public virtual System.Boolean ValidTRS()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidTRS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ValidTRS()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidTRS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Single Determinant(UnityEngine.Matrix4x4 @m)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@m};
-            var ___result = RMDeterminant_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public static System.Single Determinant(UnityEngine.Matrix4x4 @m)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@m};
+			var ___result = RMDeterminant_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public static UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @q, @s};
-            var ___result = RMTRS_Vector3_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
+		public static UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @q, @s};
+			var ___result = RMTRS_Vector3_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
 
 
-        public virtual void SetTRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @q, @s};
-            var ___result = RMSetTRS_Vector3_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetTRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @q, @s};
+			var ___result = RMSetTRS_Vector3_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean Inverse3DAffine(UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result};
-            var ___result = RMInverse3DAffine_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public static System.Boolean Inverse3DAffine(UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result};
+			var ___result = RMInverse3DAffine_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4 @m)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@m};
-            var ___result = RMInverse_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4 @m)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@m};
-            var ___result = RMTranspose_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Ortho(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar};
-            var ___result = RMOrtho_Single_Single_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Perspective(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fov, @aspect, @zNear, @zFar};
-            var ___result = RMPerspective_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, UnityEngine.Vector3 @up)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @up};
-            var ___result = RMLookAt_Vector3_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Frustum(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar};
-            var ___result = RMFrustum_Single_Single_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes @fp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fp};
-            var ___result = RMFrustum_FrustumPlanes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.Matrix4x4 @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Multiply_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector4 @vector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @vector};
-            var ___result = RMop_Multiply_Matrix4x4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector4 GetColumn(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetColumn_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector4 GetRow(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetRow_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 GetPosition()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPosition.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual void SetColumn(System.Int32 @index, UnityEngine.Vector4 @column)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @column};
-            var ___result = RMSetColumn_Int32_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRow(System.Int32 @index, UnityEngine.Vector4 @row)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @row};
-            var ___result = RMSetRow_Int32_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMMultiplyPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMMultiplyPoint3x4_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3 @vector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vector};
-            var ___result = RMMultiplyVector_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual UnityEngine.Plane TransformPlane(UnityEngine.Plane @plane)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@plane};
-            var ___result = RMTransformPlane_Plane.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3 @vector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vector};
-            var ___result = RMScale_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3 @vector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vector};
-            var ___result = RMTranslate_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion @q)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@q};
-            var ___result = RMRotate_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static void GetRotation_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Quaternion @ret)
-        {
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4 @m)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@m};
+			var ___result = RMInverse_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4 @m)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@m};
+			var ___result = RMTranspose_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Ortho(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar};
+			var ___result = RMOrtho_Single_Single_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Perspective(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fov, @aspect, @zNear, @zFar};
+			var ___result = RMPerspective_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, UnityEngine.Vector3 @up)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @up};
+			var ___result = RMLookAt_Vector3_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Frustum(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar};
+			var ___result = RMFrustum_Single_Single_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes @fp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fp};
+			var ___result = RMFrustum_FrustumPlanes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.Matrix4x4 @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Multiply_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector4 @vector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @vector};
+			var ___result = RMop_Multiply_Matrix4x4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetColumn(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetColumn_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetRow(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetRow_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 GetPosition()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPosition.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual void SetColumn(System.Int32 @index, UnityEngine.Vector4 @column)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @column};
+			var ___result = RMSetColumn_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRow(System.Int32 @index, UnityEngine.Vector4 @row)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @row};
+			var ___result = RMSetRow_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMMultiplyPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMMultiplyPoint3x4_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3 @vector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vector};
+			var ___result = RMMultiplyVector_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual UnityEngine.Plane TransformPlane(UnityEngine.Plane @plane)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@plane};
+			var ___result = RMTransformPlane_Plane.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3 @vector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vector};
+			var ___result = RMScale_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3 @vector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vector};
+			var ___result = RMTranslate_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public static UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion @q)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@q};
+			var ___result = RMRotate_Quaternion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static void GetRotation_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @ret};
-            var ___result = RMGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @ret};
+			var ___result = RMGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Vector3 @ret)
-        {
+		public static void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @ret};
-            var ___result = RMGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @ret};
+			var ___result = RMGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean IsIdentity_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMIsIdentity_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public static System.Boolean IsIdentity_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMIsIdentity_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Single GetDeterminant_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetDeterminant_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public static System.Single GetDeterminant_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetDeterminant_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
 
-
-        public static void DecomposeProjection_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.FrustumPlanes @ret)
-        {
+		public static void DecomposeProjection_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.FrustumPlanes @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @ret};
-            var ___result = RMDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @ret};
+			var ___result = RMDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.FrustumPlanes>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean ValidTRS_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMValidTRS_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public static System.Boolean ValidTRS_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMValidTRS_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void TRS_Injected(ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @q, ref UnityEngine.Vector3 @s, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void TRS_Injected(ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @q, ref UnityEngine.Vector3 @s, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos, @q, @s, @ret};
-            var ___result = RMTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos, @q, @s, @ret};
+			var ___result = RMTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@q = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 			@s = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean Inverse3DAffine_Injected(ref UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input, @result};
-            var ___result = RMInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public static System.Boolean Inverse3DAffine_Injected(ref UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input, @result};
+			var ___result = RMInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@input = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void Inverse_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void Inverse_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@m, @ret};
-            var ___result = RMInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@m, @ret};
+			var ___result = RMInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@m = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Transpose_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void Transpose_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@m, @ret};
-            var ___result = RMTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@m, @ret};
+			var ___result = RMTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@m = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Ortho_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void Ortho_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
-            var ___result = RMOrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
+			var ___result = RMOrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[6]);
-
-            
-        }
+		}
 
 
-        public static void Perspective_Injected(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void Perspective_Injected(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fov, @aspect, @zNear, @zFar, @ret};
-            var ___result = RMPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fov, @aspect, @zNear, @zFar, @ret};
+			var ___result = RMPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public static void LookAt_Injected(ref UnityEngine.Vector3 @from, ref UnityEngine.Vector3 @to, ref UnityEngine.Vector3 @up, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void LookAt_Injected(ref UnityEngine.Vector3 @from, ref UnityEngine.Vector3 @to, ref UnityEngine.Vector3 @up, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @up, @ret};
-            var ___result = RMLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @up, @ret};
+			var ___result = RMLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@from = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 			@to = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@up = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void Frustum_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
-        {
+		public static void Frustum_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
-            var ___result = RMFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
+			var ___result = RMFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[6]);
-
-            
-        }
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

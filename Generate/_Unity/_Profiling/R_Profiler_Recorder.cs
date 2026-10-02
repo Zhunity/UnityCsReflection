@@ -1062,584 +1062,466 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 		}
 
 
-        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory @category, System.String @statName, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
-        {
+		public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory @category, System.String @statName, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@category, @statName, @capacity, @options};
+			var ___result = RMStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
+		}
+
+
+		public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerMarker @marker, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@marker, @capacity, @options};
+			var ___result = RMStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
+		}
+
+
+		public static Unity.Profiling.ProfilerRecorder StartNew()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStartNew.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
+		}
+
+
+		public virtual void Start()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStart.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Stop()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStop.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Unity.Profiling.ProfilerRecorderSample GetSample(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetSample_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___result);
+		}
+
+
+		public virtual void CopyTo(System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outSamples, @reset};
+			var ___result = RMCopyTo_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe virtual System.Int32 CopyTo(Unity.Profiling.ProfilerRecorderSample* @dest, System.Int32 @destSize, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample)), @destSize, @reset};
+			var ___result = RMCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual Unity.Profiling.ProfilerRecorderSample[] ToArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample[]>(___result);
+		}
+
+
+		public virtual void FilterToCurrentThread()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFilterToCurrentThread.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CollectFromAllThreads()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCollectFromAllThreads.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@category, @statName, @capacity, @options};
-            var ___result = RMStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
-        }
-
-
-        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerMarker @marker, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@marker, @capacity, @options};
-            var ___result = RMStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
-        }
-
-
-        public static Unity.Profiling.ProfilerRecorder StartNew()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStartNew.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
-        }
-
-
-        public virtual void Start()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Stop()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStop.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Unity.Profiling.ProfilerRecorderSample GetSample(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetSample_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___result);
-        }
-
-
-        public virtual void CopyTo(System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outSamples, @reset};
-            var ___result = RMCopyTo_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual System.Int32 CopyTo(Unity.Profiling.ProfilerRecorderSample* @dest, System.Int32 @destSize, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample)), @destSize, @reset};
-            var ___result = RMCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual Unity.Profiling.ProfilerRecorderSample[] ToArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample[]>(___result);
-        }
-
-
-        public virtual void FilterToCurrentThread()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFilterToCurrentThread.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CollectFromAllThreads()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCollectFromAllThreads.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Unity.Profiling.ProfilerRecorder Create(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@statHandle, @maxSampleCount, @options};
-            var ___result = RMCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
-        }
-
-
-        public static void Control(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @options.Value};
-            var ___result = RMControl_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValueUnitType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerMarkerDataUnit>(___result);
-        }
-
-
-        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValueDataType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.LowLevel.ProfilerMarkerDataType>(___result);
-        }
-
-
-        public static System.Int64 GetCurrentValue(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetCurrentValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static System.Double GetCurrentValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetCurrentValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public static System.Int64 GetLastValue(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetLastValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static System.Double GetLastValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetLastValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @countOptions.Value};
-            var ___result = RMGetCount_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean GetValid(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValid_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean GetWrapped(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetWrapped_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean GetRunning(Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetRunning_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Unity.Profiling.ProfilerRecorderSample GetSampleInternal(Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @index};
-            var ___result = RMGetSampleInternal_ProfilerRecorder_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___result);
-        }
-
-
-        public static void CopyTo_List(Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @outSamples, @reset};
-            var ___result = RMCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static System.Int32 CopyTo_Pointer(Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
-            var ___result = RMCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual void CheckInitializedWithParamsAndThrow(Unity.Profiling.ProfilerRecorderSample* @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample))};
-            var ___result = RMCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckInitializedAndThrow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckInitializedAndThrow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Create_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options, out Unity.Profiling.ProfilerRecorder @ret)
-        {
+		public static Unity.Profiling.ProfilerRecorder Create(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@statHandle, @maxSampleCount, @options};
+			var ___result = RMCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___result);
+		}
+
+
+		public static void Control(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @options.Value};
+			var ___result = RMControl_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValueUnitType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerMarkerDataUnit>(___result);
+		}
+
+
+		public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValueDataType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.LowLevel.ProfilerMarkerDataType>(___result);
+		}
+
+
+		public static System.Int64 GetCurrentValue(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetCurrentValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static System.Double GetCurrentValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetCurrentValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public static System.Int64 GetLastValue(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetLastValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static System.Double GetLastValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetLastValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @countOptions.Value};
+			var ___result = RMGetCount_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean GetValid(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValid_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean GetWrapped(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetWrapped_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean GetRunning(Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetRunning_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Unity.Profiling.ProfilerRecorderSample GetSampleInternal(Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @index};
+			var ___result = RMGetSampleInternal_ProfilerRecorder_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___result);
+		}
+
+
+		public static void CopyTo_List(Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @outSamples, @reset};
+			var ___result = RMCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static System.Int32 CopyTo_Pointer(Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
+			var ___result = RMCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe virtual void CheckInitializedWithParamsAndThrow(Unity.Profiling.ProfilerRecorderSample* @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample))};
+			var ___result = RMCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckInitializedAndThrow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckInitializedAndThrow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Create_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options, out Unity.Profiling.ProfilerRecorder @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@statHandle, @maxSampleCount, @options, @ret};
-            var ___result = RMCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@statHandle, @maxSampleCount, @options, @ret};
+			var ___result = RMCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@statHandle = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @options.Value};
-            var ___result = RMControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+		public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @options.Value};
+			var ___result = RMControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValueUnitType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValueUnitType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<Unity.Profiling.ProfilerMarkerDataUnit>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Profiling.ProfilerMarkerDataUnit>(___result);
-        }
 
-
-        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValueDataType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValueDataType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<Unity.Profiling.LowLevel.ProfilerMarkerDataType>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Profiling.LowLevel.ProfilerMarkerDataType>(___result);
-        }
 
-
-        public static System.Int64 GetCurrentValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetCurrentValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Int64 GetCurrentValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetCurrentValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
 
-
-        public static System.Double GetCurrentValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Double GetCurrentValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
 
-
-        public static System.Int64 GetLastValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetLastValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Int64 GetLastValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetLastValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
 
-
-        public static System.Double GetLastValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Double GetLastValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
 
-
-        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @countOptions.Value};
-            var ___result = RMGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @countOptions.Value};
+			var ___result = RMGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Boolean GetValid_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetValid_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Boolean GetValid_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetValid_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean GetWrapped_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetWrapped_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Boolean GetWrapped_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetWrapped_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean GetRunning_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetRunning_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+		public static System.Boolean GetRunning_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetRunning_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void GetSampleInternal_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index, out Unity.Profiling.ProfilerRecorderSample @ret)
-        {
+		public static void GetSampleInternal_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index, out Unity.Profiling.ProfilerRecorderSample @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @index, @ret};
-            var ___result = RMGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @index, @ret};
+			var ___result = RMGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void CopyTo_List_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @outSamples, @reset};
-            var ___result = RMCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+		public static void CopyTo_List_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @outSamples, @reset};
+			var ___result = RMCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public unsafe static System.Int32 CopyTo_Pointer_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
-            var ___result = RMCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		public unsafe static System.Int32 CopyTo_Pointer_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
+			var ___result = RMCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

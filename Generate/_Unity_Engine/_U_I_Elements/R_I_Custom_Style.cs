@@ -182,121 +182,103 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single> @property, out System.Single @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single> @property, out System.Single @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Single_p__Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Single_p__Out_Single.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.Single>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Int32> @property, out System.Int32 @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Int32> @property, out System.Int32 @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Boolean> @property, out System.Boolean @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Boolean> @property, out System.Boolean @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Color> @property, out UnityEngine.Color @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Color> @property, out UnityEngine.Color @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Color_p__Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Color_p__Out_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Texture2D> @property, out UnityEngine.Texture2D @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Texture2D> @property, out UnityEngine.Texture2D @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Texture2D>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Sprite> @property, out UnityEngine.Sprite @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Sprite> @property, out UnityEngine.Sprite @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Sprite>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.UIElements.VectorImage> @property, out UnityEngine.UIElements.VectorImage @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.UIElements.VectorImage> @property, out UnityEngine.UIElements.VectorImage @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.VectorImage>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue<T>(UnityEngine.UIElements.CustomStyleProperty<T> @property, out T @value) where T : UnityEngine.Object
-        {
+		public virtual System.Boolean TryGetValue<T>(UnityEngine.UIElements.CustomStyleProperty<T> @property, out T @value) where T : UnityEngine.Object
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<T>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.String> @property, out System.String @value)
-        {
+		public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.String> @property, out System.String @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property, @value};
-            var ___result = RMTryGetValue_CustomStyleProperty_d_String_p__Out_String.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property, @value};
+			var ___result = RMTryGetValue_CustomStyleProperty_d_String_p__Out_String.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

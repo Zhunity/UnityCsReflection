@@ -662,362 +662,297 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
-        {
+		public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
+		{
 			@charsWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @charsWritten};
-            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @charsWritten};
+			var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Boolean @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Boolean @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 CompareTo(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean Parse(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 CompareTo(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean Parse(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean TryParse(System.String @value, out System.Boolean @result)
-        {
+		public static System.Boolean Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.String @value, out System.Boolean @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @result};
-            var ___result = RMTryParse_String_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @result};
+			var ___result = RMTryParse_String_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, out System.Boolean @result)
-        {
+		public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, out System.Boolean @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value, @result};
-            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value, @result};
+			var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Boolean.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> TrimWhiteSpaceAndNull(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @provider};
-            var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> TrimWhiteSpaceAndNull(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @provider};
+			var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

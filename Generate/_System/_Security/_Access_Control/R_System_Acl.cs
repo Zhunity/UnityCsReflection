@@ -854,444 +854,339 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		}
 
 
-        public virtual void AddAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
-            var ___result = RMAddAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMAddAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid, @rule};
-            var ___result = RMAddAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
-            var ___result = RMRemoveAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RemoveAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMRemoveAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean RemoveAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid, @rule};
-            var ___result = RMRemoveAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveAuditSpecific(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
-            var ___result = RMRemoveAuditSpecific_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAuditSpecific(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMRemoveAuditSpecific_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid, @rule};
-            var ___result = RMRemoveAuditSpecific_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
-            var ___result = RMSetAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMSetAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid, @rule};
-            var ___result = RMSetAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyCanonicalSortToExplicitAces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyCanonicalSortToExplicitAces.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier @aceQualifier)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier};
-            var ___result = RMGetAceInsertPosition_AceQualifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce @ace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ace};
-            var ___result = RMIsAceMeaningless_GenericAce.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsValidAuditFlags(System.Security.AccessControl.AuditFlags @auditFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@auditFlags};
-            var ___result = RMIsValidAuditFlags_AuditFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Purge(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMPurge_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveInheritedAces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveInheritedAces.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RequireCanonicity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRequireCanonicity.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CanonicalizeAndClearAefa()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanonicalizeAndClearAefa.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetCanonicalExplicitDenyAceCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCanonicalExplicitDenyAceCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetCanonicalExplicitAceCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCanonicalExplicitAceCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void ApplyCanonicalSortToExplicitAces(System.Int32 @start, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @count};
-            var ___result = RMApplyCanonicalSortToExplicitAces_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags @sdFlags, System.Boolean @isDacl)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sdFlags, @isDacl};
-            var ___result = RMGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void RemoveAces<T>(Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<Hvak.Editor.Refleaction.RType> @callback) where T : System.Security.AccessControl.GenericAce
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@callback.Value};
-            var ___result = RMRemoveAces_GT_RemoveAcesCallback_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMCopyTo_GenericAceArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.AccessControl.AceEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.AceEnumerator>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void AddAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
+			var ___result = RMAddAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMAddAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid, @rule};
+			var ___result = RMAddAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean RemoveAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
+			var ___result = RMRemoveAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RemoveAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMRemoveAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean RemoveAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid, @rule};
+			var ___result = RMRemoveAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RemoveAuditSpecific(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
+			var ___result = RMRemoveAuditSpecific_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAuditSpecific(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMRemoveAuditSpecific_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid, @rule};
+			var ___result = RMRemoveAuditSpecific_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags};
+			var ___result = RMSetAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMSetAudit_AuditFlags_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAudit(System.Security.Principal.SecurityIdentifier @sid, System.Security.AccessControl.ObjectAuditRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid, @rule};
+			var ___result = RMSetAudit_SecurityIdentifier_ObjectAuditRule.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyCanonicalSortToExplicitAces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyCanonicalSortToExplicitAces.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier @aceQualifier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier};
+			var ___result = RMGetAceInsertPosition_AceQualifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce @ace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ace};
+			var ___result = RMIsAceMeaningless_GenericAce.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsValidAuditFlags(System.Security.AccessControl.AuditFlags @auditFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@auditFlags};
+			var ___result = RMIsValidAuditFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @offset};
+			var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Purge(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMPurge_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveInheritedAces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveInheritedAces.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RequireCanonicity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRequireCanonicity.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CanonicalizeAndClearAefa()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanonicalizeAndClearAefa.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetCanonicalExplicitDenyAceCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCanonicalExplicitDenyAceCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetCanonicalExplicitAceCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCanonicalExplicitAceCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void ApplyCanonicalSortToExplicitAces(System.Int32 @start, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @count};
+			var ___result = RMApplyCanonicalSortToExplicitAces_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags @sdFlags, System.Boolean @isDacl)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sdFlags, @isDacl};
+			var ___result = RMGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void RemoveAces<T>(Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<Hvak.Editor.Refleaction.RType> @callback) where T : System.Security.AccessControl.GenericAce
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@callback.Value};
+			var ___result = RMRemoveAces_GT_RemoveAcesCallback_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
+			var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
+			var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
+			var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
+			var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMCopyTo_GenericAceArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.AccessControl.AceEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.AceEnumerator>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

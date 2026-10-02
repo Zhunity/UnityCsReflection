@@ -1606,743 +1606,585 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 		}
 
 
-        public virtual void Init(Microsoft.Win32.SafeHandles.SafeFileHandle @safeHandle, System.IO.FileAccess @access, System.Boolean @ownsHandle, System.Int32 @bufferSize, System.Boolean @isAsync, System.Boolean @isConsoleWrapper)
-        {
+		public virtual void Init(Microsoft.Win32.SafeHandles.SafeFileHandle @safeHandle, System.IO.FileAccess @access, System.Boolean @ownsHandle, System.Int32 @bufferSize, System.Boolean @isAsync, System.Boolean @isConsoleWrapper)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@safeHandle, @access, @ownsHandle, @bufferSize, @isAsync, @isConsoleWrapper};
+			var ___result = RMInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExposeHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExposeHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 ReadByte()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReadByte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void WriteByte(System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWriteByte_Byte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 Read(System.Byte[] @array, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @offset, @count};
+			var ___result = RMRead_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 ReadInternal(System.Byte[] @dest, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dest, @offset, @count};
+			var ___result = RMReadInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.IAsyncResult BeginRead(System.Byte[] @array, System.Int32 @offset, System.Int32 @numBytes, System.AsyncCallback @userCallback, System.Object @stateObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
+			var ___result = RMBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual System.Int32 EndRead(System.IAsyncResult @asyncResult)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncResult};
+			var ___result = RMEndRead_IAsyncResult.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Write(System.Byte[] @array, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @offset, @count};
+			var ___result = RMWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WriteInternal(System.Byte[] @src, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @offset, @count};
+			var ___result = RMWriteInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IAsyncResult BeginWrite(System.Byte[] @array, System.Int32 @offset, System.Int32 @numBytes, System.AsyncCallback @userCallback, System.Object @stateObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
+			var ___result = RMBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual void EndWrite(System.IAsyncResult @asyncResult)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncResult};
+			var ___result = RMEndWrite_IAsyncResult.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safeHandle, @access, @ownsHandle, @bufferSize, @isAsync, @isConsoleWrapper};
-            var ___result = RMInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExposeHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExposeHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 ReadByte()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReadByte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void WriteByte(System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWriteByte_Byte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 Read(System.Byte[] @array, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @offset, @count};
-            var ___result = RMRead_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 ReadInternal(System.Byte[] @dest, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dest, @offset, @count};
-            var ___result = RMReadInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.IAsyncResult BeginRead(System.Byte[] @array, System.Int32 @offset, System.Int32 @numBytes, System.AsyncCallback @userCallback, System.Object @stateObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
-            var ___result = RMBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual System.Int32 EndRead(System.IAsyncResult @asyncResult)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncResult};
-            var ___result = RMEndRead_IAsyncResult.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Write(System.Byte[] @array, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @offset, @count};
-            var ___result = RMWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WriteInternal(System.Byte[] @src, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @offset, @count};
-            var ___result = RMWriteInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IAsyncResult BeginWrite(System.Byte[] @array, System.Int32 @offset, System.Int32 @numBytes, System.AsyncCallback @userCallback, System.Object @stateObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
-            var ___result = RMBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual void EndWrite(System.IAsyncResult @asyncResult)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncResult};
-            var ___result = RMEndWrite_IAsyncResult.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int64 Seek(System.Int64 @offset, System.IO.SeekOrigin @origin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset, @origin};
-            var ___result = RMSeek_Int64_SeekOrigin.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual void SetLength(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetLength_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Flush()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlush.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Flush(System.Boolean @flushToDisk)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@flushToDisk};
-            var ___result = RMFlush_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Lock(System.Int64 @position, System.Int64 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @length};
-            var ___result = RMLock_Int64_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Unlock(System.Int64 @position, System.Int64 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @length};
-            var ___result = RMUnlock_Int64_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.AccessControl.FileSecurity GetAccessControl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAccessControl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.AccessControl.FileSecurity>(___result);
-        }
-
-
-        public virtual void SetAccessControl(System.Security.AccessControl.FileSecurity @fileSecurity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileSecurity};
-            var ___result = RMSetAccessControl_FileSecurity.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.Tasks.Task FlushAsync(System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cancellationToken};
-            var ___result = RMFlushAsync_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
-            var ___result = RMReadAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
-            var ___result = RMWriteAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Int32 ReadSegment(System.Byte[] @dest, System.Int32 @dest_offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dest, @dest_offset, @count};
-            var ___result = RMReadSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 WriteSegment(System.Byte[] @src, System.Int32 @src_offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @src_offset, @count};
-            var ___result = RMWriteSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void FlushBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlushBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FlushBufferIfDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlushBufferIfDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RefillBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefillBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 ReadData(System.Runtime.InteropServices.SafeHandle @safeHandle, System.Byte[] @buf, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safeHandle, @buf, @offset, @count};
-            var ___result = RMReadData_SafeHandle_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void InitBuffer(System.Int32 @size, System.Boolean @isZeroSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@size, @isZeroSize};
-            var ___result = RMInitBuffer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetSecureFileName(System.String @filename)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filename};
-            var ___result = RMGetSecureFileName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetSecureFileName(System.String @filename, System.Boolean @full)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filename, @full};
-            var ___result = RMGetSecureFileName_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Threading.SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureAsyncActiveSemaphoreInitialized.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.SemaphoreSlim>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination};
-            var ___result = RMCopyToAsync_Stream.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @bufferSize};
-            var ___result = RMCopyToAsync_Stream_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @cancellationToken};
-            var ___result = RMCopyToAsync_Stream_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @bufferSize, @cancellationToken};
-            var ___result = RMCopyToAsync_Stream_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual void CopyTo(System.IO.Stream @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination};
-            var ___result = RMCopyTo_Stream.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.IO.Stream @destination, System.Int32 @bufferSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @bufferSize};
-            var ___result = RMCopyTo_Stream_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.Tasks.Task FlushAsync()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlushAsync.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.WaitHandle CreateWaitHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateWaitHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.WaitHandle>(___result);
-        }
-
-
-        public virtual System.IAsyncResult BeginReadInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
-            var ___result = RMBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count};
-            var ___result = RMReadAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.ValueTask<System.Int32> ReadAsync(System.Memory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @cancellationToken};
-            var ___result = RMReadAsync_Memory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<System.Int32>>(___result);
-        }
-
-
-        public virtual System.IAsyncResult BeginWriteInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
-            var ___result = RMBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count};
-            var ___result = RMWriteAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @cancellationToken};
-            var ___result = RMWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
-        }
-
-
-        public virtual System.Int32 Read(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer.Value};
-            var ___result = RMRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer.Value};
-            var ___result = RMWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ObjectInvariant()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMObjectInvariant.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IAsyncResult BlockingBeginRead(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
-            var ___result = RMBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual System.IAsyncResult BlockingBeginWrite(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
-            var ___result = RMBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.ValueTask DisposeAsync()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
-        {
+		public virtual System.Int64 Seek(System.Int64 @offset, System.IO.SeekOrigin @origin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset, @origin};
+			var ___result = RMSeek_Int64_SeekOrigin.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual void SetLength(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetLength_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Flush()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlush.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Flush(System.Boolean @flushToDisk)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@flushToDisk};
+			var ___result = RMFlush_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Lock(System.Int64 @position, System.Int64 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @length};
+			var ___result = RMLock_Int64_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Unlock(System.Int64 @position, System.Int64 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @length};
+			var ___result = RMUnlock_Int64_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.AccessControl.FileSecurity GetAccessControl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAccessControl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.AccessControl.FileSecurity>(___result);
+		}
+
+
+		public virtual void SetAccessControl(System.Security.AccessControl.FileSecurity @fileSecurity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileSecurity};
+			var ___result = RMSetAccessControl_FileSecurity.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FlushAsync(System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cancellationToken};
+			var ___result = RMFlushAsync_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
+			var ___result = RMReadAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
+			var ___result = RMWriteAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Int32 ReadSegment(System.Byte[] @dest, System.Int32 @dest_offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dest, @dest_offset, @count};
+			var ___result = RMReadSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 WriteSegment(System.Byte[] @src, System.Int32 @src_offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @src_offset, @count};
+			var ___result = RMWriteSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void FlushBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlushBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FlushBufferIfDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlushBufferIfDirty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RefillBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRefillBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 ReadData(System.Runtime.InteropServices.SafeHandle @safeHandle, System.Byte[] @buf, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@safeHandle, @buf, @offset, @count};
+			var ___result = RMReadData_SafeHandle_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void InitBuffer(System.Int32 @size, System.Boolean @isZeroSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@size, @isZeroSize};
+			var ___result = RMInitBuffer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetSecureFileName(System.String @filename)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filename};
+			var ___result = RMGetSecureFileName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetSecureFileName(System.String @filename, System.Boolean @full)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filename, @full};
+			var ___result = RMGetSecureFileName_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Threading.SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureAsyncActiveSemaphoreInitialized.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.SemaphoreSlim>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination};
+			var ___result = RMCopyToAsync_Stream.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination, @bufferSize};
+			var ___result = RMCopyToAsync_Stream_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination, @cancellationToken};
+			var ___result = RMCopyToAsync_Stream_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination, @bufferSize, @cancellationToken};
+			var ___result = RMCopyToAsync_Stream_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual void CopyTo(System.IO.Stream @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination};
+			var ___result = RMCopyTo_Stream.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.IO.Stream @destination, System.Int32 @bufferSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination, @bufferSize};
+			var ___result = RMCopyTo_Stream_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FlushAsync()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlushAsync.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.WaitHandle CreateWaitHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateWaitHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.WaitHandle>(___result);
+		}
+
+
+		public virtual System.IAsyncResult BeginReadInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
+			var ___result = RMBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count};
+			var ___result = RMReadAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.ValueTask<System.Int32> ReadAsync(System.Memory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @cancellationToken};
+			var ___result = RMReadAsync_Memory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<System.Int32>>(___result);
+		}
+
+
+		public virtual System.IAsyncResult BeginWriteInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
+			var ___result = RMBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count};
+			var ___result = RMWriteAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @cancellationToken};
+			var ___result = RMWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
+		}
+
+
+		public virtual System.Int32 Read(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer.Value};
+			var ___result = RMRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer.Value};
+			var ___result = RMWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ObjectInvariant()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMObjectInvariant.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IAsyncResult BlockingBeginRead(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
+			var ___result = RMBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual System.IAsyncResult BlockingBeginWrite(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
+			var ___result = RMBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IAsyncResult>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.ValueTask DisposeAsync()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+		{
 			@IsClient = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @IsClient};
+			var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requestedType};
-            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
+		}
 
 
-        public virtual System.Object GetLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requestedType};
+			var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
+		}
 
 
-        public virtual System.Object InitializeLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
-        }
+		public virtual System.Object InitializeLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cloneIdentity};
+			var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

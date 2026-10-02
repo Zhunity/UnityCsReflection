@@ -1782,633 +1782,515 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 		}
 
 
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Globalization.Calendar ReadOnly(System.Globalization.Calendar @calendar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@calendar};
-            var ___result = RMReadOnly_Calendar.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
-        }
-
-
-        public virtual void VerifyWritable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetReadOnlyState(System.Boolean @readOnly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@readOnly};
-            var ___result = RMSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckAddResult(System.Int64 @ticks, System.DateTime @minValue, System.DateTime @maxValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ticks, @minValue, @maxValue};
-            var ___result = RMCheckAddResult_Int64_DateTime_DateTime.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.DateTime Add(System.DateTime @time, System.Double @value, System.Int32 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @value, @scale};
-            var ___result = RMAdd_DateTime_Double_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMilliseconds(System.DateTime @time, System.Double @milliseconds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @milliseconds};
-            var ___result = RMAddMilliseconds_DateTime_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddDays(System.DateTime @time, System.Int32 @days)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @days};
-            var ___result = RMAddDays_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddHours(System.DateTime @time, System.Int32 @hours)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @hours};
-            var ___result = RMAddHours_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMinutes(System.DateTime @time, System.Int32 @minutes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @minutes};
-            var ___result = RMAddMinutes_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddMonths(System.DateTime @time, System.Int32 @months)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @months};
-            var ___result = RMAddMonths_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddSeconds(System.DateTime @time, System.Int32 @seconds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @seconds};
-            var ___result = RMAddSeconds_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddWeeks(System.DateTime @time, System.Int32 @weeks)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @weeks};
-            var ___result = RMAddWeeks_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime AddYears(System.DateTime @time, System.Int32 @years)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @years};
-            var ___result = RMAddYears_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Int32 GetDayOfMonth(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetDayOfMonth_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.DayOfWeek GetDayOfWeek(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetDayOfWeek_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DayOfWeek>(___result);
-        }
-
-
-        public virtual System.Int32 GetDayOfYear(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetDayOfYear_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month};
-            var ___result = RMGetDaysInMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @era};
-            var ___result = RMGetDaysInMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetDaysInYear(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMGetDaysInYear_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetDaysInYear(System.Int32 @year, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @era};
-            var ___result = RMGetDaysInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetEra(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetEra_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHour(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetHour_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Double GetMilliseconds(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetMilliseconds_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Int32 GetMinute(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetMinute_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetMonth(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetMonth_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetMonthsInYear(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMGetMonthsInYear_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetMonthsInYear(System.Int32 @year, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @era};
-            var ___result = RMGetMonthsInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetSecond(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetSecond_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetFirstDayWeekOfYear(System.DateTime @time, System.Int32 @firstDayOfWeek)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @firstDayOfWeek};
-            var ___result = RMGetFirstDayWeekOfYear_DateTime_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetWeekOfYearFullDays(System.DateTime @time, System.Int32 @firstDayOfWeek, System.Int32 @fullDays)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @firstDayOfWeek, @fullDays};
-            var ___result = RMGetWeekOfYearFullDays_DateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetWeekOfYearOfMinSupportedDateTime(System.Int32 @firstDayOfWeek, System.Int32 @minimumDaysInFirstWeek)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@firstDayOfWeek, @minimumDaysInFirstWeek};
-            var ___result = RMGetWeekOfYearOfMinSupportedDateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetWeekOfYear(System.DateTime @time, System.Globalization.CalendarWeekRule @rule, System.DayOfWeek @firstDayOfWeek)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @rule, @firstDayOfWeek};
-            var ___result = RMGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetYear(System.DateTime @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMGetYear_DateTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day};
-            var ___result = RMIsLeapDay_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @era};
-            var ___result = RMIsLeapDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month};
-            var ___result = RMIsLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @era};
-            var ___result = RMIsLeapMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetLeapMonth(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMGetLeapMonth_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetLeapMonth(System.Int32 @year, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @era};
-            var ___result = RMGetLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapYear(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMIsLeapYear_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLeapYear(System.Int32 @year, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @era};
-            var ___result = RMIsLeapYear_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond};
-            var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era};
-            var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Boolean TryToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era, out System.DateTime @result)
-        {
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Globalization.Calendar ReadOnly(System.Globalization.Calendar @calendar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@calendar};
+			var ___result = RMReadOnly_Calendar.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
+		}
+
+
+		public virtual void VerifyWritable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetReadOnlyState(System.Boolean @readOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@readOnly};
+			var ___result = RMSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckAddResult(System.Int64 @ticks, System.DateTime @minValue, System.DateTime @maxValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ticks, @minValue, @maxValue};
+			var ___result = RMCheckAddResult_Int64_DateTime_DateTime.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.DateTime Add(System.DateTime @time, System.Double @value, System.Int32 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @value, @scale};
+			var ___result = RMAdd_DateTime_Double_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMilliseconds(System.DateTime @time, System.Double @milliseconds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @milliseconds};
+			var ___result = RMAddMilliseconds_DateTime_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddDays(System.DateTime @time, System.Int32 @days)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @days};
+			var ___result = RMAddDays_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddHours(System.DateTime @time, System.Int32 @hours)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @hours};
+			var ___result = RMAddHours_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMinutes(System.DateTime @time, System.Int32 @minutes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @minutes};
+			var ___result = RMAddMinutes_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddMonths(System.DateTime @time, System.Int32 @months)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @months};
+			var ___result = RMAddMonths_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddSeconds(System.DateTime @time, System.Int32 @seconds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @seconds};
+			var ___result = RMAddSeconds_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddWeeks(System.DateTime @time, System.Int32 @weeks)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @weeks};
+			var ___result = RMAddWeeks_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime AddYears(System.DateTime @time, System.Int32 @years)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @years};
+			var ___result = RMAddYears_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Int32 GetDayOfMonth(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetDayOfMonth_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.DayOfWeek GetDayOfWeek(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetDayOfWeek_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DayOfWeek>(___result);
+		}
+
+
+		public virtual System.Int32 GetDayOfYear(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetDayOfYear_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month};
+			var ___result = RMGetDaysInMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @era};
+			var ___result = RMGetDaysInMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetDaysInYear(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMGetDaysInYear_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetDaysInYear(System.Int32 @year, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @era};
+			var ___result = RMGetDaysInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetEra(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetEra_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHour(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetHour_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Double GetMilliseconds(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetMilliseconds_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Int32 GetMinute(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetMinute_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetMonth(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetMonth_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetMonthsInYear(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMGetMonthsInYear_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetMonthsInYear(System.Int32 @year, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @era};
+			var ___result = RMGetMonthsInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetSecond(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetSecond_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetFirstDayWeekOfYear(System.DateTime @time, System.Int32 @firstDayOfWeek)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @firstDayOfWeek};
+			var ___result = RMGetFirstDayWeekOfYear_DateTime_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetWeekOfYearFullDays(System.DateTime @time, System.Int32 @firstDayOfWeek, System.Int32 @fullDays)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @firstDayOfWeek, @fullDays};
+			var ___result = RMGetWeekOfYearFullDays_DateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetWeekOfYearOfMinSupportedDateTime(System.Int32 @firstDayOfWeek, System.Int32 @minimumDaysInFirstWeek)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@firstDayOfWeek, @minimumDaysInFirstWeek};
+			var ___result = RMGetWeekOfYearOfMinSupportedDateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetWeekOfYear(System.DateTime @time, System.Globalization.CalendarWeekRule @rule, System.DayOfWeek @firstDayOfWeek)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @rule, @firstDayOfWeek};
+			var ___result = RMGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetYear(System.DateTime @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMGetYear_DateTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day};
+			var ___result = RMIsLeapDay_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @era};
+			var ___result = RMIsLeapDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month};
+			var ___result = RMIsLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @era};
+			var ___result = RMIsLeapMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetLeapMonth(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMGetLeapMonth_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetLeapMonth(System.Int32 @year, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @era};
+			var ___result = RMGetLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapYear(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMIsLeapYear_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsLeapYear(System.Int32 @year, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @era};
+			var ___result = RMIsLeapYear_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond};
+			var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era};
+			var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Boolean TryToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era, out System.DateTime @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era, @result};
-            var ___result = RMTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era, @result};
+			var ___result = RMTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[8]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValidYear(System.Int32 @year, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @era};
-            var ___result = RMIsValidYear_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsValidMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @era};
-            var ___result = RMIsValidMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsValidYear(System.Int32 @year, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @era};
+			var ___result = RMIsValidYear_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsValidDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year, @month, @day, @era};
-            var ___result = RMIsValidDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsValidMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @era};
+			var ___result = RMIsValidMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 ToFourDigitYear(System.Int32 @year)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@year};
-            var ___result = RMToFourDigitYear_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean IsValidDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year, @month, @day, @era};
+			var ___result = RMIsValidDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hour, @minute, @second, @millisecond};
-            var ___result = RMTimeToTicks_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
+		public virtual System.Int32 ToFourDigitYear(System.Int32 @year)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@year};
+			var ___result = RMToFourDigitYear_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Int32 GetSystemTwoDigitYearSetting(System.Int32 @CalID, System.Int32 @defaultYearValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@CalID, @defaultYearValue};
-            var ___result = RMGetSystemTwoDigitYearSetting_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hour, @minute, @second, @millisecond};
+			var ___result = RMTimeToTicks_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Int32 GetSystemTwoDigitYearSetting(System.Int32 @CalID, System.Int32 @defaultYearValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@CalID, @defaultYearValue};
+			var ___result = RMGetSystemTwoDigitYearSetting_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

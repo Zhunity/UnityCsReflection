@@ -262,114 +262,86 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void AttachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@debugger.Value};
-            var ___result = RMAttachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AttachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@debugger.Value};
+			var ___result = RMAttachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DetachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@debugger.Value};
-            var ___result = RMDetachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DetachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@debugger.Value};
+			var ___result = RMDetachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DetachAllDebuggers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDetachAllDebuggers.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DetachAllDebuggers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDetachAllDebuggers.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger> GetAttachedDebuggers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAttachedDebuggers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger> GetAttachedDebuggers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAttachedDebuggers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger>>(___result);
+		}
 
 
-        public virtual void MarkDirtyRepaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void MarkDirtyRepaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void MarkDebugContainerDirtyRepaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDebugContainerDirtyRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void MarkDebugContainerDirtyRepaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkDebugContainerDirtyRepaint.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Refresh()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefresh.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Refresh()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRefresh.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
-            var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
+			var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ev};
-            var ___result = RMInterceptEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ev};
+			var ___result = RMInterceptEvent_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ev};
-            var ___result = RMPostProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ev};
+			var ___result = RMPostProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -678,258 +678,208 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 		}
 
 
-        public virtual void AddAttribute(System.String @name, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddAttribute_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddAttribute(System.String @name, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddAttribute_String_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddChild(System.Security.SecurityElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMAddChild_SecurityElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddChild(System.Security.SecurityElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMAddChild_SecurityElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String Attribute(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMAttribute_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String Attribute(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMAttribute_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Security.SecurityElement Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
+		public virtual System.Security.SecurityElement Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
 
 
-        public virtual System.Boolean Equal(System.Security.SecurityElement @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEqual_SecurityElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equal(System.Security.SecurityElement @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEqual_SecurityElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.String Escape(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMEscape_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String Escape(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMEscape_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.String Unescape(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMUnescape_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String Unescape(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMUnescape_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.Security.SecurityElement FromString(System.String @xml)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@xml};
-            var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
+		public static System.Security.SecurityElement FromString(System.String @xml)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@xml};
+			var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
 
 
-        public static System.Boolean IsValidAttributeName(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMIsValidAttributeName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsValidAttributeName(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMIsValidAttributeName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IsValidAttributeValue(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIsValidAttributeValue_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsValidAttributeValue(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIsValidAttributeValue_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IsValidTag(System.String @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag};
-            var ___result = RMIsValidTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsValidTag(System.String @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag};
+			var ___result = RMIsValidTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IsValidText(System.String @text)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text};
-            var ___result = RMIsValidText_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsValidText(System.String @text)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text};
+			var ___result = RMIsValidText_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Security.SecurityElement SearchForChildByTag(System.String @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag};
-            var ___result = RMSearchForChildByTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
-        }
+		public virtual System.Security.SecurityElement SearchForChildByTag(System.String @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag};
+			var ___result = RMSearchForChildByTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
+		}
 
 
-        public virtual System.String SearchForTextOfTag(System.String @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag};
-            var ___result = RMSearchForTextOfTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String SearchForTextOfTag(System.String @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag};
+			var ___result = RMSearchForTextOfTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void ToXml(ref System.Text.StringBuilder @s, System.Int32 @level)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @level};
-            var ___result = RMToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void ToXml(ref System.Text.StringBuilder @s, System.Int32 @level)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @level};
+			var ___result = RMToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
 			@s = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute GetAttribute(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetAttribute_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute GetAttribute(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetAttribute_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute>(___result);
+		}
 
 
-        public virtual System.String SearchForTextOfLocalName(System.String @strLocalName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strLocalName};
-            var ___result = RMSearchForTextOfLocalName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String SearchForTextOfLocalName(System.String @strLocalName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strLocalName};
+			var ___result = RMSearchForTextOfLocalName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

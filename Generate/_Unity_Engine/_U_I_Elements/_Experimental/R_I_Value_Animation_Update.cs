@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		}
 
 
-        public virtual void Tick(System.Int64 @currentTimeMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@currentTimeMs};
-            var ___result = RMTick_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Tick(System.Int64 @currentTimeMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@currentTimeMs};
+			var ___result = RMTick_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

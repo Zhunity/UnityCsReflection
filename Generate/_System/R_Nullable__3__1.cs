@@ -310,147 +310,120 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueOrDefault.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueOrDefault.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault(Hvak.Editor.Refleaction.RType @defaultValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@defaultValue.Value};
-            var ___result = RMGetValueOrDefault_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault(Hvak.Editor.Refleaction.RType @defaultValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@defaultValue.Value};
+			var ___result = RMGetValueOrDefault_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RType @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMop_Implicit_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RType @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMop_Implicit_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RType op_Explicit(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMop_Explicit_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RType op_Explicit(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMop_Explicit_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
 
 
-        public static System.Object Box(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o.Value};
-            var ___result = RMBox_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Object Box(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o.Value};
+			var ___result = RMBox_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> Unbox(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMUnbox_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> Unbox(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMUnbox_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> UnboxExact(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMUnboxExact_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> UnboxExact(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMUnboxExact_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

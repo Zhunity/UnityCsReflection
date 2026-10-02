@@ -662,314 +662,240 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Focus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Focus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFocus.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Blur()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlur.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Blur()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlur.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void BlurImmediately()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlurImmediately.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BlurImmediately()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlurImmediately.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.UIElements.Focusable GetFocusDelegate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFocusDelegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
+		public virtual UnityEngine.UIElements.Focusable GetFocusDelegate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFocusDelegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.Focusable GetFirstFocusableChild(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMGetFirstFocusableChild_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
+		public static UnityEngine.UIElements.Focusable GetFirstFocusableChild(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMGetFirstFocusableChild_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
 
 
-        public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, TUserArgsType @userArgs, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
-            var ___parameters = new object[]{@callback, @userArgs, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, TUserArgsType @userArgs, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
+			var ___parameters = new object[]{@callback, @userArgs, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
-            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
+			var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
-            var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
+			var ___parameters = new object[]{@callback, @useTrickleDown};
+			var ___result = RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown, out TCallbackArgs @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
-        {
+		public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown, out TCallbackArgs @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+		{
 			@userData = default;
-
-            var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
-            var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
-            var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
+			var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
+			var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
 			@userData = ReflectionUtils.Convert<TCallbackArgs>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @dispatchMode.Value};
-            var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @dispatchMode.Value};
+			var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasTrickleDownHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasBubbleUpHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasTrickleDownHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean HasBubbleUpHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

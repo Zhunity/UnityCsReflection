@@ -582,317 +582,256 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(UnityEngine.Bounds @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Bounds.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(UnityEngine.Bounds @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Bounds.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void SetMinMax(UnityEngine.Vector3 @min, UnityEngine.Vector3 @max)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@min, @max};
-            var ___result = RMSetMinMax_Vector3_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetMinMax(UnityEngine.Vector3 @min, UnityEngine.Vector3 @max)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@min, @max};
+			var ___result = RMSetMinMax_Vector3_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Encapsulate(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMEncapsulate_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Encapsulate(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMEncapsulate_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Encapsulate(UnityEngine.Bounds @bounds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bounds};
-            var ___result = RMEncapsulate_Bounds.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Encapsulate(UnityEngine.Bounds @bounds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bounds};
+			var ___result = RMEncapsulate_Bounds.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Expand(System.Single @amount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@amount};
-            var ___result = RMExpand_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Expand(System.Single @amount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@amount};
+			var ___result = RMExpand_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Expand(UnityEngine.Vector3 @amount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@amount};
-            var ___result = RMExpand_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Expand(UnityEngine.Vector3 @amount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@amount};
+			var ___result = RMExpand_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Intersects(UnityEngine.Bounds @bounds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bounds};
-            var ___result = RMIntersects_Bounds.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Intersects(UnityEngine.Bounds @bounds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bounds};
+			var ___result = RMIntersects_Bounds.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ray};
-            var ___result = RMIntersectRay_Ray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ray};
+			var ___result = RMIntersectRay_Ray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray, out System.Single @distance)
-        {
+		public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray, out System.Single @distance)
+		{
 			@distance = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ray, @distance};
-            var ___result = RMIntersectRay_Ray_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ray, @distance};
+			var ___result = RMIntersectRay_Ray_Out_Single.Invoke(___genericsType, ___parameters);
 			@distance = ReflectionUtils.Convert<System.Single>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Single SqrDistance(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMSqrDistance_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IntersectRayAABB(UnityEngine.Ray @ray, UnityEngine.Bounds @bounds, out System.Single @dist)
-        {
+		public virtual System.Single SqrDistance(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMSqrDistance_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Boolean IntersectRayAABB(UnityEngine.Ray @ray, UnityEngine.Bounds @bounds, out System.Single @dist)
+		{
 			@dist = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ray, @bounds, @dist};
-            var ___result = RMIntersectRayAABB_Ray_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ray, @bounds, @dist};
+			var ___result = RMIntersectRayAABB_Ray_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
 			@dist = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector3 ClosestPoint(UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@point};
-            var ___result = RMClosestPoint_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean Contains_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
-        {
+		public virtual UnityEngine.Vector3 ClosestPoint(UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@point};
+			var ___result = RMClosestPoint_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @point};
-            var ___result = RMContains_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
+
+		public static System.Boolean Contains_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @point};
+			var ___result = RMContains_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Single SqrDistance_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @point};
-            var ___result = RMSqrDistance_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public static System.Single SqrDistance_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @point};
+			var ___result = RMSqrDistance_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
 
-
-        public static System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray @ray, ref UnityEngine.Bounds @bounds, out System.Single @dist)
-        {
+		public static System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray @ray, ref UnityEngine.Bounds @bounds, out System.Single @dist)
+		{
 			@dist = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ray, @bounds, @dist};
-            var ___result = RMIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ray, @bounds, @dist};
+			var ___result = RMIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
 			@ray = ReflectionUtils.Convert<UnityEngine.Ray>(___parameters[0]);
 			@bounds = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[1]);
 			@dist = ReflectionUtils.Convert<System.Single>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void ClosestPoint_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point, out UnityEngine.Vector3 @ret)
-        {
+		public static void ClosestPoint_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point, out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @point, @ret};
-            var ___result = RMClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @point, @ret};
+			var ___result = RMClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

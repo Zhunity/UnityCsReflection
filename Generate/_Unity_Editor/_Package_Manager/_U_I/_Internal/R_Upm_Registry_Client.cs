@@ -598,192 +598,148 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@upmCache.Value, @settingsProxy.Value, @clientProxy.Value, @applicationProxy.Value};
-            var ___result = RMResolveDependencies_UpmCache_PackageManagerProjectSettingsProxy_ClientProxy_ApplicationProxy.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@upmCache.Value, @settingsProxy.Value, @clientProxy.Value, @applicationProxy.Value};
+			var ___result = RMResolveDependencies_UpmCache_PackageManagerProjectSettingsProxy_ClientProxy_ApplicationProxy.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddRegistry(System.String @name, System.String @url, System.String[] @scopes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @url, @scopes};
-            var ___result = RMAddRegistry_String_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddRegistry(System.String @name, System.String @url, System.String[] @scopes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @url, @scopes};
+			var ___result = RMAddRegistry_String_String_StringArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnProcessAddRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request.Value};
-            var ___result = RMOnProcessAddRegistryResult_AddScopedRegistryRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnProcessAddRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request.Value};
+			var ___result = RMOnProcessAddRegistryResult_AddScopedRegistryRequest.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateRegistry(System.String @oldName, System.String @newName, System.String @url, System.String[] @scopes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldName, @newName, @url, @scopes};
-            var ___result = RMUpdateRegistry_String_String_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateRegistry(System.String @oldName, System.String @newName, System.String @url, System.String[] @scopes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldName, @newName, @url, @scopes};
+			var ___result = RMUpdateRegistry_String_String_String_StringArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnProcessUpdateRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request.Value};
-            var ___result = RMOnProcessUpdateRegistryResult_UpdateScopedRegistryRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnProcessUpdateRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request.Value};
+			var ___result = RMOnProcessUpdateRegistryResult_UpdateScopedRegistryRequest.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RemoveRegistry(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMRemoveRegistry_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveRegistry(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMRemoveRegistry_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnProcessRemoveRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request.Value};
-            var ___result = RMOnProcessRemoveRegistryResult_RemoveScopedRegistryRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnProcessRemoveRegistryResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request.Value};
+			var ___result = RMOnProcessRemoveRegistryResult_RemoveScopedRegistryRequest.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CheckRegistriesChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckRegistriesChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CheckRegistriesChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckRegistriesChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnProcessGetRegistriesResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request.Value};
-            var ___result = RMOnProcessGetRegistriesResult_GetRegistriesRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnProcessGetRegistriesResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request.Value};
+			var ___result = RMOnProcessGetRegistriesResult_GetRegistriesRequest.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RType CreateOperation<T>(ref Hvak.Editor.Refleaction.RType @operation) where T : new()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@operation.Value};
-            var ___result = RMCreateOperation_GT_Ref_T.Invoke(___genericsType, ___parameters);
+		public virtual Hvak.Editor.Refleaction.RType CreateOperation<T>(ref Hvak.Editor.Refleaction.RType @operation) where T : new()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@operation.Value};
+			var ___result = RMCreateOperation_GT_Ref_T.Invoke(___genericsType, ___parameters);
 			@operation = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
-
-
-        public virtual System.Boolean __0__OnProcessGetRegistriesResult__1__b__33_0(UnityEditor.PackageManager.RegistryInfo @r)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r};
-            var ___result = RM__0__OnProcessGetRegistriesResult__1__b__33_0_RegistryInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean __0__OnProcessGetRegistriesResult__1__b__33_0(UnityEditor.PackageManager.RegistryInfo @r)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r};
+			var ___result = RM__0__OnProcessGetRegistriesResult__1__b__33_0_RegistryInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

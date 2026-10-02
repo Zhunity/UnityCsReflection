@@ -54,15 +54,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		}
 
 
-        public virtual System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease @lease)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lease};
-            var ___result = RMRenewal_ILease.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
+		public virtual System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease @lease)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lease};
+			var ___result = RMRenewal_ILease.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
 
 
     }

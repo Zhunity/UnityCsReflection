@@ -854,534 +854,396 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 
-        public virtual void SetFloat(System.Int32 @nameID, System.Single @val)
-        {
+		public virtual void SetFloat(System.Int32 @nameID, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetFloat_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetInt(System.Int32 @nameID, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetInt_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVector(System.Int32 @nameID, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetFloatArray(System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetIntArray(System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetIntArray_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTexture(System.Int32 @nameID, UnityEngine.Texture @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @texture};
+			var ___result = RMSetTexture_Int32_Texture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer};
+			var ___result = RMSetBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGraphicsBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer};
+			var ___result = RMSetGraphicsBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantComputeBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
+			var ___result = RMSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantGraphicsBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
+			var ___result = RMSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetFloat_Int32_Single.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetAccelerationStructure(System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @accelerationStructure};
+			var ___result = RMSetAccelerationStructure_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetInt(System.Int32 @nameID, System.Int32 @val)
-        {
+		public virtual void SetShaderPass(System.String @passName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@passName};
+			var ___result = RMSetShaderPass_String.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetInt_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetTextureFromGlobal(System.Int32 @nameID, System.Int32 @globalTextureNameID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @globalTextureNameID};
+			var ___result = RMSetTextureFromGlobal_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetVector(System.Int32 @nameID, UnityEngine.Vector4 @val)
-        {
+		public virtual void Dispatch(System.String @rayGenFunctionName, System.Int32 @width, System.Int32 @height, System.Int32 @depth, UnityEngine.Camera @camera)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayGenFunctionName, @width, @height, @depth, @camera};
+			var ___result = RMDispatch_String_Int32_Int32_Int32_Camera.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer};
+			var ___result = RMSetBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
-        {
+		public virtual void SetFloat(System.String @name, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @val};
+			var ___result = RMSetFloat_String_Single.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetInt(System.String @name, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @val};
+			var ___result = RMSetInt_String_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetFloatArray(System.Int32 @nameID, System.Single[] @values)
-        {
+		public virtual void SetVector(System.String @name, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @val};
+			var ___result = RMSetVector_String_Vector4.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetMatrix(System.String @name, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @val};
+			var ___result = RMSetMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetIntArray(System.Int32 @nameID, System.Int32[] @values)
-        {
+		public virtual void SetVectorArray(System.String @name, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @values};
+			var ___result = RMSetVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetIntArray_Int32_Int32Array.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetMatrixArray(System.String @name, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @values};
+			var ___result = RMSetMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
-        {
+		public virtual void SetFloats(System.String @name, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @values};
+			var ___result = RMSetFloats_String_SingleArray.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetFloats(System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetFloats_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
-        {
+		public virtual void SetInts(System.String @name, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @values};
+			var ___result = RMSetInts_String_Int32Array.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
 
-            
-        }
-
-
-        public virtual void SetTexture(System.Int32 @nameID, UnityEngine.Texture @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @texture};
-            var ___result = RMSetTexture_Int32_Texture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RMSetBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGraphicsBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RMSetGraphicsBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantComputeBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RMSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantGraphicsBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RMSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAccelerationStructure(System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @accelerationStructure};
-            var ___result = RMSetAccelerationStructure_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetShaderPass(System.String @passName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@passName};
-            var ___result = RMSetShaderPass_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTextureFromGlobal(System.Int32 @nameID, System.Int32 @globalTextureNameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @globalTextureNameID};
-            var ___result = RMSetTextureFromGlobal_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispatch(System.String @rayGenFunctionName, System.Int32 @width, System.Int32 @height, System.Int32 @depth, UnityEngine.Camera @camera)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayGenFunctionName, @width, @height, @depth, @camera};
-            var ___result = RMDispatch_String_Int32_Int32_Int32_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RMSetBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetFloat(System.String @name, System.Single @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @val};
-            var ___result = RMSetFloat_String_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInt(System.String @name, System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @val};
-            var ___result = RMSetInt_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVector(System.String @name, UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @val};
-            var ___result = RMSetVector_String_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMatrix(System.String @name, UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @val};
-            var ___result = RMSetMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVectorArray(System.String @name, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @values};
-            var ___result = RMSetVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMatrixArray(System.String @name, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @values};
-            var ___result = RMSetMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetFloats(System.String @name, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @values};
-            var ___result = RMSetFloats_String_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetFloats(System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetFloats_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInts(System.String @name, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @values};
-            var ___result = RMSetInts_String_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInts(System.Int32 @nameID, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetInts_Int32_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBool(System.String @name, System.Boolean @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @val};
-            var ___result = RMSetBool_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBool(System.Int32 @nameID, System.Boolean @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetBool_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTexture(System.String @name, UnityEngine.Texture @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @texture};
-            var ___result = RMSetTexture_String_Texture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBuffer(System.String @name, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @buffer};
-            var ___result = RMSetBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBuffer(System.String @name, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @buffer};
-            var ___result = RMSetBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RMSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantBuffer(System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @buffer, @offset, @size};
-            var ___result = RMSetConstantBuffer_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RMSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetConstantBuffer(System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @buffer, @offset, @size};
-            var ___result = RMSetConstantBuffer_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAccelerationStructure(System.String @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @accelerationStructure};
-            var ___result = RMSetAccelerationStructure_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTextureFromGlobal(System.String @name, System.String @globalTextureName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @globalTextureName};
-            var ___result = RMSetTextureFromGlobal_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVector_Injected(System.Int32 @nameID, ref UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void SetInts(System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetInts_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBool(System.String @name, System.Boolean @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @val};
+			var ___result = RMSetBool_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBool(System.Int32 @nameID, System.Boolean @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetBool_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTexture(System.String @name, UnityEngine.Texture @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @texture};
+			var ___result = RMSetTexture_String_Texture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBuffer(System.String @name, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @buffer};
+			var ___result = RMSetBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBuffer(System.String @name, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @buffer};
+			var ___result = RMSetBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
+			var ___result = RMSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantBuffer(System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @buffer, @offset, @size};
+			var ___result = RMSetConstantBuffer_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
+			var ___result = RMSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetConstantBuffer(System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @buffer, @offset, @size};
+			var ___result = RMSetConstantBuffer_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAccelerationStructure(System.String @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @accelerationStructure};
+			var ___result = RMSetAccelerationStructure_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTextureFromGlobal(System.String @name, System.String @globalTextureName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @globalTextureName};
+			var ___result = RMSetTextureFromGlobal_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetVector_Injected(System.Int32 @nameID, ref UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetMatrix_Injected(System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @val};
-            var ___result = RMSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetMatrix_Injected(System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @val};
+			var ___result = RMSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

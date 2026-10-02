@@ -886,400 +886,324 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newX, @newY, @newZ, @newW};
-            var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Vector4 Lerp(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerp_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 LerpUnclamped(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerpUnclamped_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 MoveTowards(UnityEngine.Vector4 @current, UnityEngine.Vector4 @target, System.Single @maxDistanceDelta)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@current, @target, @maxDistanceDelta};
-            var ___result = RMMoveTowards_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 Scale(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMScale_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual void Scale(UnityEngine.Vector4 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scale};
-            var ___result = RMScale_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.Vector4 @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 Normalize(UnityEngine.Vector4 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMNormalize_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual void Normalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Single Dot(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMDot_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 Project(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMProject_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static System.Single Distance(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMDistance_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static System.Single Magnitude(UnityEngine.Vector4 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMMagnitude_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 Min(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMMin_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 Max(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMMax_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Addition_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Subtraction(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Subtraction_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_UnaryNegation(UnityEngine.Vector4 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMop_UnaryNegation_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Multiply(UnityEngine.Vector4 @a, System.Single @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @d};
-            var ___result = RMop_Multiply_Vector4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Multiply(System.Single @d, UnityEngine.Vector4 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @a};
-            var ___result = RMop_Multiply_Single_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Division(UnityEngine.Vector4 @a, System.Single @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @d};
-            var ___result = RMop_Division_Vector4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Vector4_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Implicit(UnityEngine.Vector3 @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Vector3.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Vector3 op_Implicit(UnityEngine.Vector4 @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Implicit(UnityEngine.Vector2 @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Single SqrMagnitude(UnityEngine.Vector4 @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMSqrMagnitude_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single SqrMagnitude()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSqrMagnitude.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newX, @newY, @newZ, @newW};
+			var ___result = RMSet_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Vector4 Lerp(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerp_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 LerpUnclamped(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerpUnclamped_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 MoveTowards(UnityEngine.Vector4 @current, UnityEngine.Vector4 @target, System.Single @maxDistanceDelta)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@current, @target, @maxDistanceDelta};
+			var ___result = RMMoveTowards_Vector4_Vector4_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 Scale(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMScale_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual void Scale(UnityEngine.Vector4 @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scale};
+			var ___result = RMScale_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.Vector4 @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 Normalize(UnityEngine.Vector4 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMNormalize_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual void Normalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Single Dot(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMDot_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 Project(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMProject_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static System.Single Distance(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMDistance_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static System.Single Magnitude(UnityEngine.Vector4 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMMagnitude_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 Min(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMMin_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 Max(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMMax_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Addition_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Subtraction(UnityEngine.Vector4 @a, UnityEngine.Vector4 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Subtraction_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_UnaryNegation(UnityEngine.Vector4 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMop_UnaryNegation_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Multiply(UnityEngine.Vector4 @a, System.Single @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @d};
+			var ___result = RMop_Multiply_Vector4_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Multiply(System.Single @d, UnityEngine.Vector4 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @a};
+			var ___result = RMop_Multiply_Single_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Division(UnityEngine.Vector4 @a, System.Single @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @d};
+			var ___result = RMop_Division_Vector4_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Vector4 @lhs, UnityEngine.Vector4 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Vector4_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Implicit(UnityEngine.Vector3 @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v};
+			var ___result = RMop_Implicit_Vector3.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Vector3 op_Implicit(UnityEngine.Vector4 @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v};
+			var ___result = RMop_Implicit_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Implicit(UnityEngine.Vector2 @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v};
+			var ___result = RMop_Implicit_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Single SqrMagnitude(UnityEngine.Vector4 @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMSqrMagnitude_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Single SqrMagnitude()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSqrMagnitude.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

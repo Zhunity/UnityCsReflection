@@ -70,15 +70,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		}
 
 
-        public virtual System.Boolean CanCastTo(System.Type @fromType, System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromType, @o};
-            var ___result = RMCanCastTo_Type_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean CanCastTo(System.Type @fromType, System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromType, @o};
+			var ___result = RMCanCastTo_Type_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

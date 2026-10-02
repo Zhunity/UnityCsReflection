@@ -2214,1048 +2214,820 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Compress(System.Boolean @highQuality)
-        {
+		public virtual void Compress(System.Boolean @highQuality)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@highQuality};
+			var ___result = RMCompress_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex};
+			var ___result = RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void Internal_Create(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex};
+			var ___result = RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyImpl(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updateMipmaps, @makeNoLongerReadable};
+			var ___result = RMApplyImpl_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ReinitializeImpl(System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height};
+			var ___result = RMReinitializeImpl_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @x, @y, @color};
+			var ___result = RMSetPixelImpl_Int32_Int32_Int32_Int32_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Color GetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @x, @y};
+			var ___result = RMGetPixelImpl_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color GetPixelBilinearImpl(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @u, @v};
+			var ___result = RMGetPixelBilinearImpl_Int32_Int32_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual System.Boolean ReinitializeWithFormatImpl(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
+			var ___result = RMReinitializeWithFormatImpl_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ReadPixelsImpl(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
+			var ___result = RMReadPixelsImpl_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixelsImpl(System.Int32 @x, System.Int32 @y, System.Int32 @w, System.Int32 @h, UnityEngine.Color[] @pixel, System.Int32 @miplevel, System.Int32 @frame)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @w, @h, @pixel, @miplevel, @frame};
+			var ___result = RMSetPixelsImpl_Int32_Int32_Int32_Int32_ColorArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean LoadRawTextureDataImpl(System.IntPtr @data, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @size};
+			var ___result = RMLoadRawTextureDataImpl_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@highQuality};
-            var ___result = RMCompress_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex};
-            var ___result = RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_Create(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex};
-            var ___result = RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyImpl(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updateMipmaps, @makeNoLongerReadable};
-            var ___result = RMApplyImpl_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ReinitializeImpl(System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height};
-            var ___result = RMReinitializeImpl_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @x, @y, @color};
-            var ___result = RMSetPixelImpl_Int32_Int32_Int32_Int32_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Color GetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @x, @y};
-            var ___result = RMGetPixelImpl_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color GetPixelBilinearImpl(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @u, @v};
-            var ___result = RMGetPixelBilinearImpl_Int32_Int32_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual System.Boolean ReinitializeWithFormatImpl(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
-            var ___result = RMReinitializeWithFormatImpl_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ReadPixelsImpl(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
-            var ___result = RMReadPixelsImpl_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixelsImpl(System.Int32 @x, System.Int32 @y, System.Int32 @w, System.Int32 @h, UnityEngine.Color[] @pixel, System.Int32 @miplevel, System.Int32 @frame)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @w, @h, @pixel, @miplevel, @frame};
-            var ___result = RMSetPixelsImpl_Int32_Int32_Int32_Int32_ColorArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean LoadRawTextureDataImpl(System.IntPtr @data, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @size};
-            var ___result = RMLoadRawTextureDataImpl_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean LoadRawTextureDataImplArray(System.Byte[] @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMLoadRawTextureDataImplArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetPixelDataImplArray(System.Array @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @mipLevel, @elementSize, @dataArraySize, @sourceDataStartIndex};
-            var ___result = RMSetPixelDataImplArray_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetPixelDataImpl(System.IntPtr @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @mipLevel, @elementSize, @dataArraySize, @sourceDataStartIndex};
-            var ___result = RMSetPixelDataImpl_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.IntPtr GetWritableImageData(System.Int32 @frame)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@frame};
-            var ___result = RMGetWritableImageData_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Int64 GetRawImageDataSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawImageDataSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.Texture2D @tex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tex};
-            var ___result = RMGetSafetyHandle_Texture2D.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
-
-
-        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel};
-            var ___result = RMGetSafetyHandleForSlice_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
-
-
-        public static void GenerateAtlasImpl(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, UnityEngine.Rect[] @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sizes, @padding, @atlasSize, @rect};
-            var ___result = RMGenerateAtlasImpl_Vector2Array_Int32_Int32_RectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearRequestedMipmapLevel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearRequestedMipmapLevel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsRequestedMipmapLevelLoaded()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsRequestedMipmapLevelLoaded.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ClearMinimumMipmapLevel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearMinimumMipmapLevel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateExternalTexture(System.IntPtr @nativeTex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeTex};
-            var ___result = RMUpdateExternalTexture_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetAllPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @miplevel};
-            var ___result = RMSetAllPixels32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBlockOfPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
-            var ___result = RMSetBlockOfPixels32_Int32_Int32_Int32_Int32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Byte[] GetRawTextureData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawTextureData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @miplevel};
-            var ___result = RMGetPixels_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight};
-            var ___result = RMGetPixels_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32[] GetPixels32(System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@miplevel};
-            var ___result = RMGetPixels32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32[] GetPixels32()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPixels32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize, System.Boolean @makeNoLongerReadable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textures, @padding, @maximumAtlasSize, @makeNoLongerReadable};
-            var ___result = RMPackTextures_Texture2DArray_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textures, @padding, @maximumAtlasSize};
-            var ___result = RMPackTextures_Texture2DArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textures, @padding};
-            var ___result = RMPackTextures_Texture2DArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format, System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @width, @height};
-            var ___result = RMValidateFormat_TextureFormat_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @width, @height};
-            var ___result = RMValidateFormat_GraphicsFormat_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Texture2D CreateExternalTexture(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @mipChain, System.Boolean @linear, System.IntPtr @nativeTex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @mipChain, @linear, @nativeTex};
-            var ___result = RMCreateExternalTexture_Int32_Int32_TextureFormat_Boolean_Boolean_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
-        }
-
-
-        public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @color};
-            var ___result = RMSetPixel_Int32_Int32_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @color, @mipLevel};
-            var ___result = RMSetPixel_Int32_Int32_Color_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
-            var ___result = RMSetPixels_Int32_Int32_Int32_Int32_ColorArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors};
-            var ___result = RMSetPixels_Int32_Int32_Int32_Int32_ColorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels(UnityEngine.Color[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @miplevel};
-            var ___result = RMSetPixels_ColorArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels(UnityEngine.Color[] @colors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors};
-            var ___result = RMSetPixels_ColorArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMGetPixel_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @mipLevel};
-            var ___result = RMGetPixel_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@u, @v};
-            var ___result = RMGetPixelBilinear_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@u, @v, @mipLevel};
-            var ___result = RMGetPixelBilinear_Single_Single_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual void LoadRawTextureData(System.IntPtr @data, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @size};
-            var ___result = RMLoadRawTextureData_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LoadRawTextureData(System.Byte[] @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMLoadRawTextureData_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LoadRawTextureData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMLoadRawTextureData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixelData<T>(T[] @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @mipLevel, @sourceDataStartIndex};
-            var ___result = RMSetPixelData_GT_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixelData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value, @mipLevel, @sourceDataStartIndex};
-            var ___result = RMSetPixelData_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetPixelData<T>(System.Int32 @mipLevel) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@mipLevel};
-            var ___result = RMGetPixelData_GT_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetRawTextureData<T>() where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawTextureData_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void Apply(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updateMipmaps, @makeNoLongerReadable};
-            var ___result = RMApply_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Apply(System.Boolean @updateMipmaps)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updateMipmaps};
-            var ___result = RMApply_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Apply()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApply.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height};
-            var ___result = RMReinitialize_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
-            var ___result = RMReinitialize_Int32_Int32_TextureFormat_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
-            var ___result = RMReinitialize_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height};
-            var ___result = RMResize_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
-            var ___result = RMResize_Int32_Int32_TextureFormat_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
-            var ___result = RMResize_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
-            var ___result = RMReadPixels_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @destX, @destY};
-            var ___result = RMReadPixels_Rect_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean GenerateAtlas(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, System.Collections.Generic.List<UnityEngine.Rect> @results)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sizes, @padding, @atlasSize, @results};
-            var ___result = RMGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @miplevel};
-            var ___result = RMSetPixels32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels32(UnityEngine.Color32[] @colors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors};
-            var ___result = RMSetPixels32_Color32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
-            var ___result = RMSetPixels32_Int32_Int32_Int32_Int32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors};
-            var ___result = RMSetPixels32_Int32_Int32_Int32_Int32_Color32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Color[] GetPixels(System.Int32 @miplevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@miplevel};
-            var ___result = RMGetPixels_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Color[] GetPixels()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPixels.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
-        }
-
-
-        public virtual void SetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, ref UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @x, @y, @color};
-            var ___result = RMSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean LoadRawTextureDataImplArray(System.Byte[] @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMLoadRawTextureDataImplArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetPixelDataImplArray(System.Array @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @mipLevel, @elementSize, @dataArraySize, @sourceDataStartIndex};
+			var ___result = RMSetPixelDataImplArray_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetPixelDataImpl(System.IntPtr @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @mipLevel, @elementSize, @dataArraySize, @sourceDataStartIndex};
+			var ___result = RMSetPixelDataImpl_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.IntPtr GetWritableImageData(System.Int32 @frame)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@frame};
+			var ___result = RMGetWritableImageData_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.Int64 GetRawImageDataSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawImageDataSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.Texture2D @tex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tex};
+			var ___result = RMGetSafetyHandle_Texture2D.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
+
+
+		public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel};
+			var ___result = RMGetSafetyHandleForSlice_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
+
+
+		public static void GenerateAtlasImpl(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, UnityEngine.Rect[] @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sizes, @padding, @atlasSize, @rect};
+			var ___result = RMGenerateAtlasImpl_Vector2Array_Int32_Int32_RectArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearRequestedMipmapLevel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearRequestedMipmapLevel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsRequestedMipmapLevelLoaded()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsRequestedMipmapLevelLoaded.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ClearMinimumMipmapLevel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearMinimumMipmapLevel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateExternalTexture(System.IntPtr @nativeTex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeTex};
+			var ___result = RMUpdateExternalTexture_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetAllPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @miplevel};
+			var ___result = RMSetAllPixels32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBlockOfPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
+			var ___result = RMSetBlockOfPixels32_Int32_Int32_Int32_Int32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Byte[] GetRawTextureData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawTextureData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @miplevel};
+			var ___result = RMGetPixels_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight};
+			var ___result = RMGetPixels_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32[] GetPixels32(System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@miplevel};
+			var ___result = RMGetPixels32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32[] GetPixels32()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPixels32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize, System.Boolean @makeNoLongerReadable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textures, @padding, @maximumAtlasSize, @makeNoLongerReadable};
+			var ___result = RMPackTextures_Texture2DArray_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textures, @padding, @maximumAtlasSize};
+			var ___result = RMPackTextures_Texture2DArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textures, @padding};
+			var ___result = RMPackTextures_Texture2DArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format, System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @width, @height};
+			var ___result = RMValidateFormat_TextureFormat_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @width, @height};
+			var ___result = RMValidateFormat_GraphicsFormat_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Texture2D CreateExternalTexture(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @mipChain, System.Boolean @linear, System.IntPtr @nativeTex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @mipChain, @linear, @nativeTex};
+			var ___result = RMCreateExternalTexture_Int32_Int32_TextureFormat_Boolean_Boolean_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
+		}
+
+
+		public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @color};
+			var ___result = RMSetPixel_Int32_Int32_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @color, @mipLevel};
+			var ___result = RMSetPixel_Int32_Int32_Color_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
+			var ___result = RMSetPixels_Int32_Int32_Int32_Int32_ColorArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors};
+			var ___result = RMSetPixels_Int32_Int32_Int32_Int32_ColorArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels(UnityEngine.Color[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @miplevel};
+			var ___result = RMSetPixels_ColorArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels(UnityEngine.Color[] @colors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors};
+			var ___result = RMSetPixels_ColorArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMGetPixel_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @mipLevel};
+			var ___result = RMGetPixel_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@u, @v};
+			var ___result = RMGetPixelBilinear_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@u, @v, @mipLevel};
+			var ___result = RMGetPixelBilinear_Single_Single_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual void LoadRawTextureData(System.IntPtr @data, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @size};
+			var ___result = RMLoadRawTextureData_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LoadRawTextureData(System.Byte[] @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMLoadRawTextureData_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LoadRawTextureData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMLoadRawTextureData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixelData<T>(T[] @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data, @mipLevel, @sourceDataStartIndex};
+			var ___result = RMSetPixelData_GT_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixelData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value, @mipLevel, @sourceDataStartIndex};
+			var ___result = RMSetPixelData_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetPixelData<T>(System.Int32 @mipLevel) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@mipLevel};
+			var ___result = RMGetPixelData_GT_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetRawTextureData<T>() where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawTextureData_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual void Apply(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updateMipmaps, @makeNoLongerReadable};
+			var ___result = RMApply_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Apply(System.Boolean @updateMipmaps)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@updateMipmaps};
+			var ___result = RMApply_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Apply()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApply.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height};
+			var ___result = RMReinitialize_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
+			var ___result = RMReinitialize_Int32_Int32_TextureFormat_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
+			var ___result = RMReinitialize_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height};
+			var ___result = RMResize_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
+			var ___result = RMResize_Int32_Int32_TextureFormat_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height, @format, @hasMipMap};
+			var ___result = RMResize_Int32_Int32_GraphicsFormat_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
+			var ___result = RMReadPixels_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @destX, @destY};
+			var ___result = RMReadPixels_Rect_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean GenerateAtlas(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, System.Collections.Generic.List<UnityEngine.Rect> @results)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sizes, @padding, @atlasSize, @results};
+			var ___result = RMGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @miplevel};
+			var ___result = RMSetPixels32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels32(UnityEngine.Color32[] @colors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors};
+			var ___result = RMSetPixels32_Color32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors, @miplevel};
+			var ___result = RMSetPixels32_Int32_Int32_Int32_Int32_Color32Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y, @blockWidth, @blockHeight, @colors};
+			var ___result = RMSetPixels32_Int32_Int32_Int32_Int32_Color32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Color[] GetPixels(System.Int32 @miplevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@miplevel};
+			var ___result = RMGetPixels_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Color[] GetPixels()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPixels.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color[]>(___result);
+		}
+
+
+		public virtual void SetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, ref UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @x, @y, @color};
+			var ___result = RMSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
 			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public virtual void GetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, out UnityEngine.Color @ret)
-        {
+		public virtual void GetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
-            var ___result = RMGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
+			var ___result = RMGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public virtual void GetPixelBilinearImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v, out UnityEngine.Color @ret)
-        {
+		public virtual void GetPixelBilinearImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v, out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @mip, @u, @v, @ret};
-            var ___result = RMGetPixelBilinearImpl_Injected_Int32_Int32_Single_Single_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@image, @mip, @u, @v, @ret};
+			var ___result = RMGetPixelBilinearImpl_Injected_Int32_Int32_Single_Single_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public virtual void ReadPixelsImpl_Injected(ref UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
-            var ___result = RMReadPixelsImpl_Injected_Ref_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void ReadPixelsImpl_Injected(ref UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
+			var ___result = RMReadPixelsImpl_Injected_Ref_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@source = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void GetSafetyHandle_Injected(UnityEngine.Texture2D @tex, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public static void GetSafetyHandle_Injected(UnityEngine.Texture2D @tex, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tex, @ret};
-            var ___result = RMGetSafetyHandle_Injected_Texture2D_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tex, @ret};
+			var ___result = RMGetSafetyHandle_Injected_Texture2D_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void GetSafetyHandleForSlice_Injected(System.Int32 @mipLevel, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public virtual void GetSafetyHandleForSlice_Injected(System.Int32 @mipLevel, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @ret};
-            var ___result = RMGetSafetyHandleForSlice_Injected_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @ret};
+			var ___result = RMGetSafetyHandleForSlice_Injected_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetNativeTexturePtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Int32 GetNativeTextureID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void IncrementUpdateCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @usage};
-            var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
-        }
-
-
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		}
+
+
+		public virtual System.IntPtr GetNativeTexturePtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.Int32 GetNativeTextureID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void IncrementUpdateCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mipLevel, @element};
+			var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @usage};
+			var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
+		}
+
+
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

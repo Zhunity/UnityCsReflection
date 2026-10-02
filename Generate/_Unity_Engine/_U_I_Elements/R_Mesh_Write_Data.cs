@@ -390,158 +390,121 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void SetNextVertex(UnityEngine.UIElements.Vertex @vertex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertex};
-            var ___result = RMSetNextVertex_Vertex.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetNextVertex(UnityEngine.UIElements.Vertex @vertex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertex};
+			var ___result = RMSetNextVertex_Vertex.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetNextIndex(System.UInt16 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMSetNextIndex_UInt16.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetNextIndex(System.UInt16 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMSetNextIndex_UInt16.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetAllVertices(UnityEngine.UIElements.Vertex[] @vertices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices};
-            var ___result = RMSetAllVertices_VertexArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetAllVertices(UnityEngine.UIElements.Vertex[] @vertices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices};
+			var ___result = RMSetAllVertices_VertexArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetAllVertices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices.Value};
-            var ___result = RMSetAllVertices_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetAllVertices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices.Value};
+			var ___result = RMSetAllVertices_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetAllIndices(System.UInt16[] @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indices};
-            var ___result = RMSetAllIndices_UInt16Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetAllIndices(System.UInt16[] @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indices};
+			var ___result = RMSetAllIndices_UInt16Array.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetAllIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indices.Value};
-            var ___result = RMSetAllIndices_NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetAllIndices(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indices.Value};
+			var ___result = RMSetAllIndices_NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Reset(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices.Value, @indices.Value};
-            var ___result = RMReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices.Value, @indices.Value};
+			var ___result = RMReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Reset(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices, UnityEngine.Rect @uvRegion)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices.Value, @indices.Value, @uvRegion};
-            var ___result = RMReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertices, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indices, UnityEngine.Rect @uvRegion)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices.Value, @indices.Value, @uvRegion};
+			var ___result = RMReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

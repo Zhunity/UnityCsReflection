@@ -406,158 +406,125 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 
-        public static System.String GetPropertyIdentifier(UnityEditor.SerializedProperty @serializedProperty)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@serializedProperty};
-            var ___result = RMGetPropertyIdentifier_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String GetPropertyIdentifier(UnityEditor.SerializedProperty @serializedProperty)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@serializedProperty};
+			var ___result = RMGetPropertyIdentifier_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Init(System.Boolean @reorderable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reorderable};
-            var ___result = RMInit_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Init(System.Boolean @reorderable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reorderable};
+			var ___result = RMInit_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InvalidateCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InvalidateCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Single GetHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual void Draw(UnityEngine.GUIContent @label, UnityEngine.Rect @r, UnityEngine.Rect @visibleArea, System.String @tooltip, System.Boolean @includeChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@label, @r, @visibleArea, @tooltip, @includeChildren};
-            var ___result = RMDraw_GUIContent_Rect_Rect_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Draw(UnityEngine.GUIContent @label, UnityEngine.Rect @r, UnityEngine.Rect @visibleArea, System.String @tooltip, System.Boolean @includeChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@label, @r, @visibleArea, @tooltip, @includeChildren};
+			var ___result = RMDraw_GUIContent_Rect_Rect_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawChildren(UnityEngine.Rect @listRect, UnityEngine.Rect @headerRect, UnityEngine.Rect @sizeRect, UnityEngine.Rect @visibleRect, UnityEngine.EventType @previousEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@listRect, @headerRect, @sizeRect, @visibleRect, @previousEvent};
-            var ___result = RMDrawChildren_Rect_Rect_Rect_Rect_EventType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawChildren(UnityEngine.Rect @listRect, UnityEngine.Rect @headerRect, UnityEngine.Rect @sizeRect, UnityEngine.Rect @visibleRect, UnityEngine.EventType @previousEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@listRect, @headerRect, @sizeRect, @visibleRect, @previousEvent};
+			var ___result = RMDrawChildren_Rect_Rect_Rect_Rect_EventType.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean __0__Init__1__b__15_0(UnityEditorInternal.ReorderableList @list)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list};
-            var ___result = RM__0__Init__1__b__15_0_ReorderableList.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean __0__Init__1__b__15_0(UnityEditorInternal.ReorderableList @list)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list};
+			var ___result = RM__0__Init__1__b__15_0_ReorderableList.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean __0__Init__1__b__15_1(UnityEditorInternal.ReorderableList @list)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list};
-            var ___result = RM__0__Init__1__b__15_1_ReorderableList.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean __0__Init__1__b__15_1(UnityEditorInternal.ReorderableList @list)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list};
+			var ___result = RM__0__Init__1__b__15_1_ReorderableList.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

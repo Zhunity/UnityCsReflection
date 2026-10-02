@@ -358,224 +358,166 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		}
 
 
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CloseMethod()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCloseMethod.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CloseNamespace()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCloseNamespace.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CloseScope(System.Int32 @endOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@endOffset};
-            var ___result = RMCloseScope_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String @url, System.Guid @language, System.Guid @languageVendor, System.Guid @documentType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@url, @language, @languageVendor, @documentType};
-            var ___result = RMDefineDocument_String_Guid_Guid_Guid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Diagnostics.SymbolStore.ISymbolDocumentWriter>(___result);
-        }
-
-
-        public virtual void DefineField(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parent, @name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3};
-            var ___result = RMDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DefineGlobalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3};
-            var ___result = RMDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DefineLocalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3, System.Int32 @startOffset, System.Int32 @endOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3, @startOffset, @endOffset};
-            var ___result = RMDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DefineParameter(System.String @name, System.Reflection.ParameterAttributes @attributes, System.Int32 @sequence, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @attributes, @sequence, @addrKind, @addr1, @addr2, @addr3};
-            var ___result = RMDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @document, System.Int32[] @offsets, System.Int32[] @lines, System.Int32[] @columns, System.Int32[] @endLines, System.Int32[] @endColumns)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@document, @offsets, @lines, @columns, @endLines, @endColumns};
-            var ___result = RMDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Initialize(System.IntPtr @emitter, System.String @filename, System.Boolean @fFullBuild)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@emitter, @filename, @fFullBuild};
-            var ___result = RMInitialize_IntPtr_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OpenMethod(System.Diagnostics.SymbolStore.SymbolToken @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@method};
-            var ___result = RMOpenMethod_SymbolToken.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OpenNamespace(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMOpenNamespace_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 OpenScope(System.Int32 @startOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startOffset};
-            var ___result = RMOpenScope_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @startDoc, System.Int32 @startLine, System.Int32 @startColumn, System.Diagnostics.SymbolStore.ISymbolDocumentWriter @endDoc, System.Int32 @endLine, System.Int32 @endColumn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startDoc, @startLine, @startColumn, @endDoc, @endLine, @endColumn};
-            var ___result = RMSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetScopeRange(System.Int32 @scopeID, System.Int32 @startOffset, System.Int32 @endOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scopeID, @startOffset, @endOffset};
-            var ___result = RMSetScopeRange_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Byte[] @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parent, @name, @data};
-            var ___result = RMSetSymAttribute_SymbolToken_String_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetUnderlyingWriter(System.IntPtr @underlyingWriter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@underlyingWriter};
-            var ___result = RMSetUnderlyingWriter_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken @entryMethod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@entryMethod};
-            var ___result = RMSetUserEntryPoint_SymbolToken.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UsingNamespace(System.String @fullName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fullName};
-            var ___result = RMUsingNamespace_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CloseMethod()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCloseMethod.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CloseNamespace()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCloseNamespace.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CloseScope(System.Int32 @endOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@endOffset};
+			var ___result = RMCloseScope_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String @url, System.Guid @language, System.Guid @languageVendor, System.Guid @documentType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@url, @language, @languageVendor, @documentType};
+			var ___result = RMDefineDocument_String_Guid_Guid_Guid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Diagnostics.SymbolStore.ISymbolDocumentWriter>(___result);
+		}
+
+
+		public virtual void DefineField(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parent, @name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3};
+			var ___result = RMDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DefineGlobalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3};
+			var ___result = RMDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DefineLocalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3, System.Int32 @startOffset, System.Int32 @endOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @signature, @addrKind, @addr1, @addr2, @addr3, @startOffset, @endOffset};
+			var ___result = RMDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DefineParameter(System.String @name, System.Reflection.ParameterAttributes @attributes, System.Int32 @sequence, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @attributes, @sequence, @addrKind, @addr1, @addr2, @addr3};
+			var ___result = RMDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @document, System.Int32[] @offsets, System.Int32[] @lines, System.Int32[] @columns, System.Int32[] @endLines, System.Int32[] @endColumns)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@document, @offsets, @lines, @columns, @endLines, @endColumns};
+			var ___result = RMDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Initialize(System.IntPtr @emitter, System.String @filename, System.Boolean @fFullBuild)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@emitter, @filename, @fFullBuild};
+			var ___result = RMInitialize_IntPtr_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OpenMethod(System.Diagnostics.SymbolStore.SymbolToken @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@method};
+			var ___result = RMOpenMethod_SymbolToken.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OpenNamespace(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMOpenNamespace_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 OpenScope(System.Int32 @startOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startOffset};
+			var ___result = RMOpenScope_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @startDoc, System.Int32 @startLine, System.Int32 @startColumn, System.Diagnostics.SymbolStore.ISymbolDocumentWriter @endDoc, System.Int32 @endLine, System.Int32 @endColumn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startDoc, @startLine, @startColumn, @endDoc, @endLine, @endColumn};
+			var ___result = RMSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetScopeRange(System.Int32 @scopeID, System.Int32 @startOffset, System.Int32 @endOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scopeID, @startOffset, @endOffset};
+			var ___result = RMSetScopeRange_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Byte[] @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parent, @name, @data};
+			var ___result = RMSetSymAttribute_SymbolToken_String_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetUnderlyingWriter(System.IntPtr @underlyingWriter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@underlyingWriter};
+			var ___result = RMSetUnderlyingWriter_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken @entryMethod)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@entryMethod};
+			var ___result = RMSetUserEntryPoint_SymbolToken.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UsingNamespace(System.String @fullName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fullName};
+			var ___result = RMUsingNamespace_String.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

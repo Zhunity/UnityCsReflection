@@ -902,285 +902,222 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Internal_Use()
-        {
+		public virtual void Internal_Use()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_Use.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr Internal_Create(System.Int32 @displayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@displayIndex};
+			var ___result = RMInternal_Create_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static void Internal_Destroy(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr Internal_Copy(System.IntPtr @otherPtr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@otherPtr};
+			var ___result = RMInternal_Copy_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual UnityEngine.EventType GetTypeForControl(System.Int32 @controlID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@controlID};
+			var ___result = RMGetTypeForControl_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.EventType>(___result);
+		}
+
+
+		public virtual void CopyFromPtr(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMCopyFromPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean PopEvent(UnityEngine.Event @outEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@outEvent};
+			var ___result = RMPopEvent_Event.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 GetEventCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEventCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void Internal_SetNativeEvent(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_SetNativeEvent_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_MakeMasterEventCurrent(System.Int32 @displayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@displayIndex};
+			var ___result = RMInternal_MakeMasterEventCurrent_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 GetDoubleClickTime()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDoubleClickTime.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_Use.Invoke(___genericsType, ___parameters);
+		public static void CleanupRoots()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanupRoots.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void CopyFrom(UnityEngine.Event @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMCopyFrom_Event.Invoke(___genericsType, ___parameters);
+		}
 
-        public static System.IntPtr Internal_Create(System.Int32 @displayIndex)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@displayIndex};
-            var ___result = RMInternal_Create_Int32.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Event KeyboardEvent(System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMKeyboardEvent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Event>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
 
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-        public static void Internal_Destroy(System.IntPtr @ptr)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            
-        }
 
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
-        public static System.IntPtr Internal_Copy(System.IntPtr @otherPtr)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@otherPtr};
-            var ___result = RMInternal_Copy_IntPtr.Invoke(___genericsType, ___parameters);
+		public virtual void Use()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUse.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
 
-
-        public virtual UnityEngine.EventType GetTypeForControl(System.Int32 @controlID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@controlID};
-            var ___result = RMGetTypeForControl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.EventType>(___result);
-        }
-
-
-        public virtual void CopyFromPtr(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMCopyFromPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean PopEvent(UnityEngine.Event @outEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@outEvent};
-            var ___result = RMPopEvent_Event.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 GetEventCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEventCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void Internal_SetNativeEvent(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_SetNativeEvent_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_MakeMasterEventCurrent(System.Int32 @displayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@displayIndex};
-            var ___result = RMInternal_MakeMasterEventCurrent_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 GetDoubleClickTime()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDoubleClickTime.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CleanupRoots()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanupRoots.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyFrom(UnityEngine.Event @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCopyFrom_Event.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Event KeyboardEvent(System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMKeyboardEvent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Event>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Use()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUse.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void get_mousePosition_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_mousePosition_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_mousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_mousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_mousePosition_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_mousePosition_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_mousePosition_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_mousePosition_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_delta_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_delta_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_delta_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_delta_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_delta_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_delta_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_delta_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_delta_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

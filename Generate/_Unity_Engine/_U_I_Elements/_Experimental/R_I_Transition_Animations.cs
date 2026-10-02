@@ -358,224 +358,184 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		}
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Single_Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Rect_Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Color_Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Vector3_Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Vector2_Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Quaternion_Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to, @durationMs};
-            var ___result = RMStart_StyleValues_StyleValues_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMStart_StyleValues_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Single_p__Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Rect_p__Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Color_p__Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Vector3_p__Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Vector2_p__Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
-            var ___result = RMStart_Func_d_VisualElement_Quaternion_p__Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMLayout_Rect_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMTopLeft_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @durationMs};
-            var ___result = RMSize_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Scale(System.Single @to, System.Int32 @duration)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @duration};
-            var ___result = RMScale_Single_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Position(UnityEngine.Vector3 @to, System.Int32 @duration)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @duration};
-            var ___result = RMPosition_Vector3_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Rotation(UnityEngine.Quaternion @to, System.Int32 @duration)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@to, @duration};
-            var ___result = RMRotation_Quaternion_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
-        }
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Single_Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Rect_Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Color_Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Vector3_Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Vector2_Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Quaternion_Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@from, @to, @durationMs};
+			var ___result = RMStart_StyleValues_StyleValues_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMStart_StyleValues_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Single_p__Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Rect_p__Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Color_p__Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Vector3_p__Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Vector2_p__Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
+			var ___result = RMStart_Func_d_VisualElement_Quaternion_p__Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMLayout_Rect_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMTopLeft_Vector2_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @durationMs};
+			var ___result = RMSize_Vector2_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Scale(System.Single @to, System.Int32 @duration)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @duration};
+			var ___result = RMScale_Single_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Position(UnityEngine.Vector3 @to, System.Int32 @duration)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @duration};
+			var ___result = RMPosition_Vector3_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Rotation(UnityEngine.Quaternion @to, System.Int32 @duration)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@to, @duration};
+			var ___result = RMRotation_Quaternion_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
+		}
 
 
     }

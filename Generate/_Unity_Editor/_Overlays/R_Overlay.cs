@@ -1750,417 +1750,317 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 
-        public virtual void SetDisplayedNoCallback(System.Boolean @value)
-        {
+		public virtual void SetDisplayedNoCallback(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetDisplayedNoCallback_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CanCreateRequestedLayout(UnityEditor.Overlays.Layout @requested)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requested};
+			var ___result = RMCanCreateRequestedLayout_Layout.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEditor.Overlays.Layout GetBestLayoutForState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBestLayoutForState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Overlays.Layout>(___result);
+		}
+
+
+		public virtual void RebuildContent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuildContent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement CreateContent(UnityEditor.Overlays.Layout @requestedLayout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requestedLayout};
+			var ___result = RMCreateContent_Layout.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement CreatePanelContent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreatePanelContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual void OnCreated()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnCreated.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnWillBeDestroyed()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnWillBeDestroyed.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ToggleCollapsedPopup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToggleCollapsedPopup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClosePopup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClosePopup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus GetMenuItemState(System.Boolean @isChecked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isChecked};
+			var ___result = RMGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus>(___result);
+		}
+
+
+		public virtual void BuildContextMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMBuildContextMenu_ContextualMenuPopulateEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetHighlightEnabled(System.Boolean @highlight)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@highlight};
+			var ___result = RMSetHighlightEnabled_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetDisplayedNoCallback_Boolean.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void Initialize(UnityEditor.Overlays.OverlayAttribute @attrib)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attrib};
+			var ___result = RMInitialize_OverlayAttribute.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean CanCreateRequestedLayout(UnityEditor.Overlays.Layout @requested)
-        {
+		public virtual void Initialize(System.String @_id, System.String @_uss, System.String @_display)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_id, @_uss, @_display};
+			var ___result = RMInitialize_String_String_String.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requested};
-            var ___result = RMCanCreateRequestedLayout_Layout.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void ApplySaveData(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMApplySaveData_SaveData.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEditor.Overlays.Layout GetBestLayoutForState()
-        {
+		public virtual void OnFloatingChanged(System.Boolean @floating)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@floating};
+			var ___result = RMOnFloatingChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBestLayoutForState.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<UnityEditor.Overlays.Layout>(___result);
-        }
+		public virtual void Undock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUndock.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RebuildContent()
-        {
+		public virtual UnityEngine.Vector2 SnapToFloatingPosition(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner @corner, UnityEngine.Vector2 @snapPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@corner.Value, @snapPosition};
+			var ___result = RMSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuildContent.Invoke(___genericsType, ___parameters);
 
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement CreateContent(UnityEditor.Overlays.Layout @requestedLayout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requestedLayout};
-            var ___result = RMCreateContent_Layout.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement CreatePanelContent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePanelContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void OnCreated()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnCreated.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnWillBeDestroyed()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnWillBeDestroyed.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ToggleCollapsedPopup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToggleCollapsedPopup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClosePopup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClosePopup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus GetMenuItemState(System.Boolean @isChecked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isChecked};
-            var ___result = RMGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus>(___result);
-        }
-
-
-        public virtual void BuildContextMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMBuildContextMenu_ContextualMenuPopulateEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetHighlightEnabled(System.Boolean @highlight)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@highlight};
-            var ___result = RMSetHighlightEnabled_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Initialize(UnityEditor.Overlays.OverlayAttribute @attrib)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attrib};
-            var ___result = RMInitialize_OverlayAttribute.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Initialize(System.String @_id, System.String @_uss, System.String @_display)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_id, @_uss, @_display};
-            var ___result = RMInitialize_String_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplySaveData(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMApplySaveData_SaveData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnFloatingChanged(System.Boolean @floating)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@floating};
-            var ___result = RMOnFloatingChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Undock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUndock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2 SnapToFloatingPosition(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner @corner, UnityEngine.Vector2 @snapPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@corner.Value, @snapPosition};
-            var ___result = RMSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out UnityEngine.Vector2 @snapOffset)
-        {
+		public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out UnityEngine.Vector2 @snapOffset)
+		{
 			@snapOffset = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @snapOffset};
-            var ___result = RMFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @snapOffset};
+			var ___result = RMFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@snapOffset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner @snapCorner, out UnityEngine.Vector2 @snapOffset)
-        {
+		public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner @snapCorner, out UnityEngine.Vector2 @snapOffset)
+		{
 			@snapCorner = default;
 			@snapOffset = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @snapCorner.Value, @snapOffset};
-            var ___result = RMFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @snapCorner.Value, @snapOffset};
+			var ___result = RMFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@snapCorner = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner>(___parameters[1]);
 			@snapOffset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
+		}
 
-            
-        }
 
+		public virtual void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+		public virtual void UpdateSnapping(UnityEngine.Vector2 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMUpdateSnapping_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
-
-
-        public virtual void UpdateSnapping(UnityEngine.Vector2 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMUpdateSnapping_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateAbsolutePosition()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateAbsolutePosition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__ToggleCollapsedPopup__1__b__104_0(UnityEngine.UIElements.FocusOutEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RM__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_0(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_1(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_2(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_3(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_4(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__107_5(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__107_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void UpdateAbsolutePosition()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateAbsolutePosition.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__ToggleCollapsedPopup__1__b__104_0(UnityEngine.UIElements.FocusOutEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RM__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_0(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_1(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_2(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_3(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_4(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__BuildContextMenu__1__b__107_5(UnityEngine.UIElements.DropdownMenuAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RM__0__BuildContextMenu__1__b__107_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

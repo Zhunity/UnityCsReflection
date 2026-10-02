@@ -1446,710 +1446,529 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
-        {
+		public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
+		{
 			@pcTInfo = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pcTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pcTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
+		}
 
-            
-        }
 
+		public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ILGenerator__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___ILGenerator__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		public virtual void add_token_fixup(System.Reflection.MemberInfo @mi)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mi};
+			var ___result = RMadd_token_fixup_MemberInfo.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
+		public virtual void make_room(System.Int32 @nbytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nbytes};
+			var ___result = RMmake_room_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void emit_int(System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@val};
+			var ___result = RMemit_int_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ll_emit(System.Reflection.Emit.OpCode @opcode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode};
+			var ___result = RMll_emit_OpCode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 target_len(System.Reflection.Emit.OpCode @opcode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode};
+			var ___result = RMtarget_len_OpCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void InternalEndClause()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalEndClause.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BeginCatchBlock(System.Type @exceptionType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@exceptionType};
+			var ___result = RMBeginCatchBlock_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BeginExceptFilterBlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginExceptFilterBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.Emit.Label BeginExceptionBlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginExceptionBlock.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
+		}
+
 
+		public virtual void BeginFaultBlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginFaultBlock.Invoke(___genericsType, ___parameters);
+		}
+
 
-        public virtual void add_token_fixup(System.Reflection.MemberInfo @mi)
-        {
+		public virtual void BeginFinallyBlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginFinallyBlock.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mi};
-            var ___result = RMadd_token_fixup_MemberInfo.Invoke(___genericsType, ___parameters);
+		public virtual void BeginScope()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginScope.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
+		public virtual System.Reflection.Emit.LocalBuilder DeclareLocal(System.Type @localType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localType};
+			var ___result = RMDeclareLocal_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
+		}
 
-
-        public virtual void make_room(System.Int32 @nbytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nbytes};
-            var ___result = RMmake_room_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void emit_int(System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@val};
-            var ___result = RMemit_int_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ll_emit(System.Reflection.Emit.OpCode @opcode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode};
-            var ___result = RMll_emit_OpCode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 target_len(System.Reflection.Emit.OpCode @opcode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode};
-            var ___result = RMtarget_len_OpCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void InternalEndClause()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalEndClause.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginCatchBlock(System.Type @exceptionType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@exceptionType};
-            var ___result = RMBeginCatchBlock_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginExceptFilterBlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginExceptFilterBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.Emit.Label BeginExceptionBlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginExceptionBlock.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
-        }
-
-
-        public virtual void BeginFaultBlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginFaultBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginFinallyBlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginFinallyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginScope()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginScope.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.Emit.LocalBuilder DeclareLocal(System.Type @localType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localType};
-            var ___result = RMDeclareLocal_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.LocalBuilder DeclareLocal(System.Type @localType, System.Boolean @pinned)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localType, @pinned};
-            var ___result = RMDeclareLocal_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
-        }
-
-
-        public virtual System.Reflection.Emit.Label DefineLabel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDefineLabel.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode};
-            var ___result = RMEmit_OpCode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Byte @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Byte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.ConstructorInfo @con)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @con};
-            var ___result = RMEmit_OpCode_ConstructorInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Double @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Double.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.FieldInfo @field)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @field};
-            var ___result = RMEmit_OpCode_FieldInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int16 @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Int16.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int32 @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int64 @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.Label @label)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @label};
-            var ___result = RMEmit_OpCode_Label.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.Label[] @labels)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @labels};
-            var ___result = RMEmit_OpCode_LabelArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.LocalBuilder @local)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @local};
-            var ___result = RMEmit_OpCode_LocalBuilder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @meth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @meth};
-            var ___result = RMEmit_OpCode_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @method, System.Int32 @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @method, @token};
-            var ___result = RMEmit_OpCode_MethodInfo_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.SByte @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_SByte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.SignatureHelper @signature)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @signature};
-            var ___result = RMEmit_OpCode_SignatureHelper.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Single @arg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @arg};
-            var ___result = RMEmit_OpCode_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @str};
-            var ___result = RMEmit_OpCode_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Type @cls)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @cls};
-            var ___result = RMEmit_OpCode_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitCall(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @methodInfo, System.Type[] @optionalParameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @methodInfo, @optionalParameterTypes};
-            var ___result = RMEmitCall_OpCode_MethodInfo_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitCalli(System.Reflection.Emit.OpCode @opcode, System.Runtime.InteropServices.CallingConvention @unmanagedCallConv, System.Type @returnType, System.Type[] @parameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @unmanagedCallConv, @returnType, @parameterTypes};
-            var ___result = RMEmitCalli_OpCode_CallingConvention_Type_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitCalli(System.Reflection.Emit.OpCode @opcode, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Type[] @optionalParameterTypes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@opcode, @callingConvention, @returnType, @parameterTypes, @optionalParameterTypes};
-            var ___result = RMEmitCalli_OpCode_CallingConventions_Type_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitWriteLine(System.Reflection.FieldInfo @fld)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fld};
-            var ___result = RMEmitWriteLine_FieldInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitWriteLine(System.Reflection.Emit.LocalBuilder @localBuilder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localBuilder};
-            var ___result = RMEmitWriteLine_LocalBuilder.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmitWriteLine(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEmitWriteLine_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndExceptionBlock()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndExceptionBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndScope()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndScope.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkLabel(System.Reflection.Emit.Label @loc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@loc};
-            var ___result = RMMarkLabel_Label.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @document, System.Int32 @startLine, System.Int32 @startColumn, System.Int32 @endLine, System.Int32 @endColumn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@document, @startLine, @startColumn, @endLine, @endColumn};
-            var ___result = RMMarkSequencePoint_ISymbolDocumentWriter_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateDebugInfo(System.Diagnostics.SymbolStore.ISymbolWriter @symbolWriter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@symbolWriter};
-            var ___result = RMGenerateDebugInfo_ISymbolWriter.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowException(System.Type @excType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@excType};
-            var ___result = RMThrowException_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UsingNamespace(System.String @usingNamespace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@usingNamespace};
-            var ___result = RMUsingNamespace_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void label_fixup(System.Reflection.MethodBase @mb)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mb};
-            var ___result = RMlabel_fixup_MethodBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32> @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo> @member_map)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token_map, @member_map};
-            var ___result = RMFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetExceptionHandlers(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> @exHandlers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@exHandlers.Value};
-            var ___result = RMSetExceptionHandlers_ILExceptionInfoArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTokenFixups(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> @tokenFixups)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenFixups.Value};
-            var ___result = RMSetTokenFixups_ILTokenInfoArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCode(System.Byte[] @code, System.Int32 @max_stack)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@code, @max_stack};
-            var ___result = RMSetCode_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual void SetCode(System.Byte* @code, System.Int32 @code_size, System.Int32 @max_stack)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@code, typeof(System.Byte)), @code_size, @max_stack};
-            var ___result = RMSetCode_BytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Init(System.Byte[] @il, System.Int32 @maxStack, System.Byte[] @localSignature, System.Collections.Generic.IEnumerable<System.Reflection.Emit.ExceptionHandler> @exceptionHandlers, System.Collections.Generic.IEnumerable<System.Int32> @tokenFixups)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@il, @maxStack, @localSignature, @exceptionHandlers, @tokenFixups};
-            var ___result = RMInit_ByteArray_Int32_ByteArray_IEnumerable_d_ExceptionHandler_p__IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 Mono_GetCurrentOffset(System.Reflection.Emit.ILGenerator @ig)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ig};
-            var ___result = RMMono_GetCurrentOffset_ILGenerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+
+		public virtual System.Reflection.Emit.LocalBuilder DeclareLocal(System.Type @localType, System.Boolean @pinned)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localType, @pinned};
+			var ___result = RMDeclareLocal_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
+		}
+
+
+		public virtual System.Reflection.Emit.Label DefineLabel()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDefineLabel.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode};
+			var ___result = RMEmit_OpCode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Byte @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Byte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.ConstructorInfo @con)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @con};
+			var ___result = RMEmit_OpCode_ConstructorInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Double @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Double.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.FieldInfo @field)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @field};
+			var ___result = RMEmit_OpCode_FieldInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int16 @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Int16.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int32 @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Int64 @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.Label @label)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @label};
+			var ___result = RMEmit_OpCode_Label.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.Label[] @labels)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @labels};
+			var ___result = RMEmit_OpCode_LabelArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.LocalBuilder @local)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @local};
+			var ___result = RMEmit_OpCode_LocalBuilder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @meth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @meth};
+			var ___result = RMEmit_OpCode_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @method, System.Int32 @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @method, @token};
+			var ___result = RMEmit_OpCode_MethodInfo_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.SByte @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_SByte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Reflection.Emit.SignatureHelper @signature)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @signature};
+			var ___result = RMEmit_OpCode_SignatureHelper.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Single @arg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @arg};
+			var ___result = RMEmit_OpCode_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @str};
+			var ___result = RMEmit_OpCode_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Emit(System.Reflection.Emit.OpCode @opcode, System.Type @cls)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @cls};
+			var ___result = RMEmit_OpCode_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitCall(System.Reflection.Emit.OpCode @opcode, System.Reflection.MethodInfo @methodInfo, System.Type[] @optionalParameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @methodInfo, @optionalParameterTypes};
+			var ___result = RMEmitCall_OpCode_MethodInfo_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitCalli(System.Reflection.Emit.OpCode @opcode, System.Runtime.InteropServices.CallingConvention @unmanagedCallConv, System.Type @returnType, System.Type[] @parameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @unmanagedCallConv, @returnType, @parameterTypes};
+			var ___result = RMEmitCalli_OpCode_CallingConvention_Type_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitCalli(System.Reflection.Emit.OpCode @opcode, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Type[] @optionalParameterTypes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@opcode, @callingConvention, @returnType, @parameterTypes, @optionalParameterTypes};
+			var ___result = RMEmitCalli_OpCode_CallingConventions_Type_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitWriteLine(System.Reflection.FieldInfo @fld)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fld};
+			var ___result = RMEmitWriteLine_FieldInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitWriteLine(System.Reflection.Emit.LocalBuilder @localBuilder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localBuilder};
+			var ___result = RMEmitWriteLine_LocalBuilder.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmitWriteLine(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEmitWriteLine_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EndExceptionBlock()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndExceptionBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EndScope()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndScope.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkLabel(System.Reflection.Emit.Label @loc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@loc};
+			var ___result = RMMarkLabel_Label.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @document, System.Int32 @startLine, System.Int32 @startColumn, System.Int32 @endLine, System.Int32 @endColumn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@document, @startLine, @startColumn, @endLine, @endColumn};
+			var ___result = RMMarkSequencePoint_ISymbolDocumentWriter_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateDebugInfo(System.Diagnostics.SymbolStore.ISymbolWriter @symbolWriter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@symbolWriter};
+			var ___result = RMGenerateDebugInfo_ISymbolWriter.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowException(System.Type @excType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@excType};
+			var ___result = RMThrowException_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UsingNamespace(System.String @usingNamespace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@usingNamespace};
+			var ___result = RMUsingNamespace_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void label_fixup(System.Reflection.MethodBase @mb)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mb};
+			var ___result = RMlabel_fixup_MethodBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32> @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo> @member_map)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token_map, @member_map};
+			var ___result = RMFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetExceptionHandlers(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> @exHandlers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@exHandlers.Value};
+			var ___result = RMSetExceptionHandlers_ILExceptionInfoArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTokenFixups(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> @tokenFixups)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenFixups.Value};
+			var ___result = RMSetTokenFixups_ILTokenInfoArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCode(System.Byte[] @code, System.Int32 @max_stack)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@code, @max_stack};
+			var ___result = RMSetCode_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe virtual void SetCode(System.Byte* @code, System.Int32 @code_size, System.Int32 @max_stack)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@code, typeof(System.Byte)), @code_size, @max_stack};
+			var ___result = RMSetCode_BytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Init(System.Byte[] @il, System.Int32 @maxStack, System.Byte[] @localSignature, System.Collections.Generic.IEnumerable<System.Reflection.Emit.ExceptionHandler> @exceptionHandlers, System.Collections.Generic.IEnumerable<System.Int32> @tokenFixups)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@il, @maxStack, @localSignature, @exceptionHandlers, @tokenFixups};
+			var ___result = RMInit_ByteArray_Int32_ByteArray_IEnumerable_d_ExceptionHandler_p__IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 Mono_GetCurrentOffset(System.Reflection.Emit.ILGenerator @ig)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ig};
+			var ___result = RMMono_GetCurrentOffset_ILGenerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

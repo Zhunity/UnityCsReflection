@@ -726,334 +726,266 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void Wait()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWait.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cancellationToken};
-            var ___result = RMWait_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Wait(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout, @cancellationToken};
-            var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
-            var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitUntilCountOrTimeout(System.Int32 @millisecondsTimeout, System.UInt32 @startTime, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout, @startTime, @cancellationToken};
-            var ___result = RMWaitUntilCountOrTimeout_Int32_UInt32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task WaitAsync()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitAsync.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cancellationToken};
-            var ___result = RMWaitAsync_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMWaitAsync_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMWaitAsync_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout, @cancellationToken};
-            var ___result = RMWaitAsync_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
-            var ___result = RMWaitAsync_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode CreateAndAddAsyncWaiter()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateAndAddAsyncWaiter.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode>(___result);
-        }
-
-
-        public virtual System.Boolean RemoveAsyncWaiter(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @task)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task.Value};
-            var ___result = RMRemoveAsyncWaiter_TaskNode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @asyncWaiter, System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncWaiter.Value, @millisecondsTimeout, @cancellationToken};
-            var ___result = RMWaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
-        }
-
-
-        public virtual System.Int32 Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 Release(System.Int32 @releaseCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@releaseCount};
-            var ___result = RMRelease_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void QueueWaiterTask(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @waiterTask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waiterTask.Value};
-            var ___result = RMQueueWaiterTask_TaskNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CancellationTokenCanceledEventHandler(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMCancellationTokenCanceledEventHandler_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckDispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.String GetResourceString(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMGetResourceString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Wait()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWait.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cancellationToken};
+			var ___result = RMWait_CancellationToken.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Wait(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout, @cancellationToken};
+			var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
+			var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitUntilCountOrTimeout(System.Int32 @millisecondsTimeout, System.UInt32 @startTime, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout, @startTime, @cancellationToken};
+			var ___result = RMWaitUntilCountOrTimeout_Int32_UInt32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task WaitAsync()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitAsync.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cancellationToken};
+			var ___result = RMWaitAsync_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMWaitAsync_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMWaitAsync_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout, @cancellationToken};
+			var ___result = RMWaitAsync_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
+			var ___result = RMWaitAsync_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode CreateAndAddAsyncWaiter()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateAndAddAsyncWaiter.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode>(___result);
+		}
+
+
+		public virtual System.Boolean RemoveAsyncWaiter(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @task)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task.Value};
+			var ___result = RMRemoveAsyncWaiter_TaskNode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @asyncWaiter, System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncWaiter.Value, @millisecondsTimeout, @cancellationToken};
+			var ___result = RMWaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
+		}
+
+
+		public virtual System.Int32 Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 Release(System.Int32 @releaseCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@releaseCount};
+			var ___result = RMRelease_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void QueueWaiterTask(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @waiterTask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waiterTask.Value};
+			var ___result = RMQueueWaiterTask_TaskNode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CancellationTokenCanceledEventHandler(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMCancellationTokenCanceledEventHandler_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckDispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.String GetResourceString(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMGetResourceString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

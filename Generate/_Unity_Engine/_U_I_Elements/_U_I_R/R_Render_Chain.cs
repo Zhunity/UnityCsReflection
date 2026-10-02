@@ -1590,489 +1590,367 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 
-        public virtual void Constructor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @panelObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice @deviceObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase @atlas, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager @vectorImageMan)
-        {
+		public virtual void Constructor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @panelObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice @deviceObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase @atlas, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager @vectorImageMan)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@panelObj.Value, @deviceObj.Value, @atlas.Value, @vectorImageMan.Value};
+			var ___result = RMConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Destructor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDestructor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessChanges()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMProcessChanges.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Render()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRender.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessTextRegen(System.Boolean @timeSliced)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeSliced};
+			var ___result = RMProcessTextRegen_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UIEOnChildAdded(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMUIEOnChildAdded_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UIEOnChildrenReordered(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMUIEOnChildrenReordered_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UIEOnChildRemoving(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMUIEOnChildRemoving_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void StopTrackingGroupTransformElement(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMStopTrackingGroupTransformElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UIEOnRenderHintsChanged(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMUIEOnRenderHintsChanged_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UIEOnClippingChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @hierarchical};
+			var ___result = RMUIEOnClippingChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panelObj.Value, @deviceObj.Value, @atlas.Value, @vectorImageMan.Value};
-            var ___result = RMConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.Invoke(___genericsType, ___parameters);
+		public virtual void UIEOnOpacityChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @hierarchical};
+			var ___result = RMUIEOnOpacityChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
+		public virtual void UIEOnColorChanged(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMUIEOnColorChanged_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
 
+		public virtual void UIEOnTransformOrSizeChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @transformChanged, System.Boolean @clipRectSizeChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @transformChanged, @clipRectSizeChanged};
+			var ___result = RMUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
 
-        public virtual void Destructor()
-        {
+		public virtual void UIEOnVisualsChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @hierarchical};
+			var ___result = RMUIEOnVisualsChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Material GetStandardMaterial()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStandardMaterial.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Material>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDestructor.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.Material GetStandardWorldSpaceMaterial()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStandardWorldSpaceMaterial.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Material>(___result);
+		}
 
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMProcessChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Render()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRender.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessTextRegen(System.Boolean @timeSliced)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeSliced};
-            var ___result = RMProcessTextRegen_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnChildAdded(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnChildAdded_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnChildrenReordered(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnChildrenReordered_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnChildRemoving(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnChildRemoving_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void StopTrackingGroupTransformElement(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMStopTrackingGroupTransformElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnRenderHintsChanged(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnRenderHintsChanged_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnClippingChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @hierarchical};
-            var ___result = RMUIEOnClippingChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnOpacityChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @hierarchical};
-            var ___result = RMUIEOnOpacityChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnColorChanged(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnColorChanged_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnTransformOrSizeChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @transformChanged, System.Boolean @clipRectSizeChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @transformChanged, @clipRectSizeChanged};
-            var ___result = RMUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnVisualsChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @hierarchical};
-            var ___result = RMUIEOnVisualsChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Material GetStandardMaterial()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStandardMaterial.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Material>(___result);
-        }
-
-
-        public virtual UnityEngine.Material GetStandardWorldSpaceMaterial()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStandardWorldSpaceMaterial.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Material>(___result);
-        }
-
-
-        public virtual void EnsureFitsDepth(System.Int32 @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@depth};
-            var ___result = RMEnsureFitsDepth_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ChildWillBeRemoved(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMChildWillBeRemoved_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand AllocCommand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocCommand.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand>(___result);
-        }
-
-
-        public virtual void FreeCommand(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cmd.Value};
-            var ___result = RMFreeCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnRenderCommandAdded(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @command)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@command.Value};
-            var ___result = RMOnRenderCommandAdded_RenderChainCommand.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnRenderCommandsRemoved(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @firstCommand, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @lastCommand)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@firstCommand.Value, @lastCommand.Value};
-            var ___result = RMOnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddTextElement(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMAddTextElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveTextElement(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMRemoveTextElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnGroupTransformElementChangedTransform(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMOnGroupTransformElementChangedTransform_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData AccessRenderNodeData(System.IntPtr @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMAccessRenderNodeData_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData>(___result);
-        }
-
-
-        public static void OnRenderNodeExecute(System.IntPtr @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMOnRenderNodeExecute_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnRegisterIntermediateRenderers(UnityEngine.Camera @camera)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@camera};
-            var ___result = RMOnRegisterIntermediateRenderers_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnRegisterIntermediateRendererMat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseRuntimePanel @rtp, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData @rnd, UnityEngine.Camera @camera, System.Int32 @sameDistanceSortPriority)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rtp.Value, @renderChain.Value, @rnd.Value, @camera, @sameDistanceSortPriority};
-            var ___result = RMOnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.Invoke(___genericsType, ___parameters);
+
+		public virtual void EnsureFitsDepth(System.Int32 @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@depth};
+			var ___result = RMEnsureFitsDepth_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ChildWillBeRemoved(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMChildWillBeRemoved_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand AllocCommand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocCommand.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand>(___result);
+		}
+
+
+		public virtual void FreeCommand(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cmd.Value};
+			var ___result = RMFreeCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnRenderCommandAdded(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @command)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@command.Value};
+			var ___result = RMOnRenderCommandAdded_RenderChainCommand.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnRenderCommandsRemoved(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @firstCommand, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @lastCommand)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@firstCommand.Value, @lastCommand.Value};
+			var ___result = RMOnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddTextElement(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMAddTextElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveTextElement(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMRemoveTextElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnGroupTransformElementChangedTransform(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMOnGroupTransformElementChangedTransform_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData AccessRenderNodeData(System.IntPtr @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMAccessRenderNodeData_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData>(___result);
+		}
+
+
+		public static void OnRenderNodeExecute(System.IntPtr @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMOnRenderNodeExecute_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OnRegisterIntermediateRenderers(UnityEngine.Camera @camera)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@camera};
+			var ___result = RMOnRegisterIntermediateRenderers_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OnRegisterIntermediateRendererMat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseRuntimePanel @rtp, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData @rnd, UnityEngine.Camera @camera, System.Int32 @sameDistanceSortPriority)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rtp.Value, @renderChain.Value, @rnd.Value, @camera, @sameDistanceSortPriority};
+			var ___result = RMOnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.Invoke(___genericsType, ___parameters);
 			@rnd = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void RepaintTexturedElements()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRepaintTexturedElements.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RepaintTexturedElements()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRepaintTexturedElements.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnFontReset(UnityEngine.Font @font)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font};
-            var ___result = RMOnFontReset_Font.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnFontReset(UnityEngine.Font @font)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font};
+			var ___result = RMOnFontReset_Font.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AppendTexture(UnityEngine.UIElements.VisualElement @ve, UnityEngine.Texture @src, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Boolean @isAtlas)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @src, @id.Value, @isAtlas};
-            var ___result = RMAppendTexture_VisualElement_Texture_TextureId_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AppendTexture(UnityEngine.UIElements.VisualElement @ve, UnityEngine.Texture @src, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Boolean @isAtlas)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @src, @id.Value, @isAtlas};
+			var ___result = RMAppendTexture_VisualElement_Texture_TextureId_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ResetTextures(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMResetTextures_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResetTextures(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMResetTextures_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawStats()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawStats.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawStats()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawStats.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.UIElements.VisualElement GetFirstElementInPanel(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMGetFirstElementInPanel_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
+		public static UnityEngine.UIElements.VisualElement GetFirstElementInPanel(UnityEngine.UIElements.VisualElement @ve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve};
+			var ___result = RMGetFirstElementInPanel_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

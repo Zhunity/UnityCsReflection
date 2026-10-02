@@ -534,224 +534,182 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 		}
 
 
-        public virtual void InvalidateCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Security.Cryptography.HashAlgorithm GetHashAlgorithm(System.String @algorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@algorithm};
-            var ___result = RMGetHashAlgorithm_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.HashAlgorithm>(___result);
-        }
-
-
-        public virtual System.Byte[] GetBytes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBytes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.UInt32 RVAtoPosition(System.UInt32 @r, System.Int32 @sections, System.Byte[] @headers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r, @sections, @headers};
-            var ___result = RMRVAtoPosition_UInt32_Int32_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature Error(System.String @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMError_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
-        }
-
-
-        public static System.Byte[] ReadMore(System.IO.Stream @stream, System.Byte[] @a, System.Int32 @newSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stream, @a, @newSize};
-            var ___result = RMReadMore_Stream_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stream, @options.Value};
-            var ___result = RMStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
-        }
-
-
-        public virtual System.Byte[] Hash(System.String @fileName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName};
-            var ___result = RMHash_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Boolean Sign(System.String @fileName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName};
-            var ___result = RMSign_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Verify(System.String @fileName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fileName};
-            var ___result = RMVerify_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Verify(System.IO.Stream @stream)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stream};
-            var ___result = RMVerify_Stream.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsAssemblyStrongnamed(System.String @assemblyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assemblyName};
-            var ___result = RMIsAssemblyStrongnamed_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean VerifySignature(System.Byte[] @publicKey, System.Int32 @algorithm, System.Byte[] @hash, System.Byte[] @signature)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@publicKey, @algorithm, @hash, @signature};
-            var ___result = RMVerifySignature_ByteArray_Int32_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Verify(System.Security.Cryptography.RSA @rsa, System.Configuration.Assemblies.AssemblyHashAlgorithm @algorithm, System.Byte[] @hash, System.Byte[] @signature)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rsa, @algorithm, @hash, @signature};
-            var ___result = RMVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void InvalidateCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Security.Cryptography.HashAlgorithm GetHashAlgorithm(System.String @algorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@algorithm};
+			var ___result = RMGetHashAlgorithm_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.HashAlgorithm>(___result);
+		}
+
+
+		public virtual System.Byte[] GetBytes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBytes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.UInt32 RVAtoPosition(System.UInt32 @r, System.Int32 @sections, System.Byte[] @headers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r, @sections, @headers};
+			var ___result = RMRVAtoPosition_UInt32_Int32_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature Error(System.String @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMError_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
+		}
+
+
+		public static System.Byte[] ReadMore(System.IO.Stream @stream, System.Byte[] @a, System.Int32 @newSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stream, @a, @newSize};
+			var ___result = RMReadMore_Stream_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stream, @options.Value};
+			var ___result = RMStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
+		}
+
+
+		public virtual System.Byte[] Hash(System.String @fileName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName};
+			var ___result = RMHash_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Boolean Sign(System.String @fileName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName};
+			var ___result = RMSign_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Verify(System.String @fileName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fileName};
+			var ___result = RMVerify_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Verify(System.IO.Stream @stream)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stream};
+			var ___result = RMVerify_Stream.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsAssemblyStrongnamed(System.String @assemblyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assemblyName};
+			var ___result = RMIsAssemblyStrongnamed_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean VerifySignature(System.Byte[] @publicKey, System.Int32 @algorithm, System.Byte[] @hash, System.Byte[] @signature)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@publicKey, @algorithm, @hash, @signature};
+			var ___result = RMVerifySignature_ByteArray_Int32_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Verify(System.Security.Cryptography.RSA @rsa, System.Configuration.Assemblies.AssemblyHashAlgorithm @algorithm, System.Byte[] @hash, System.Byte[] @signature)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rsa, @algorithm, @hash, @signature};
+			var ___result = RMVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

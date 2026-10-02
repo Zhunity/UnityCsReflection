@@ -470,202 +470,159 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void SetWaitNotificationRequired()
-        {
+		public virtual void SetWaitNotificationRequired()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetWaitNotificationRequired.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsWaitNotificationRequired()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsWaitNotificationRequired.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Send(System.Threading.SendOrPostCallback @d, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @state};
+			var ___result = RMSend_SendOrPostCallback_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Post(System.Threading.SendOrPostCallback @d, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d, @state};
+			var ___result = RMPost_SendOrPostCallback_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OperationStarted()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOperationStarted.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OperationCompleted()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOperationCompleted.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 Wait(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
+			var ___result = RMWait_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitHelper(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
+			var ___result = RMWaitHelper_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void SetSynchronizationContext(System.Threading.SynchronizationContext @syncContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@syncContext};
+			var ___result = RMSetSynchronizationContext_SynchronizationContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Threading.SynchronizationContext GetThreadLocalContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetThreadLocalContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
+		}
+
+
+		public virtual System.Threading.SynchronizationContext CreateCopy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
+		}
+
+
+		public static System.Int32 InvokeWaitMethodHelper(System.Threading.SynchronizationContext @syncContext, System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@syncContext, @waitHandles, @waitAll, @millisecondsTimeout};
+			var ___result = RMInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetWaitNotificationRequired.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsWaitNotificationRequired()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsWaitNotificationRequired.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Send(System.Threading.SendOrPostCallback @d, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @state};
-            var ___result = RMSend_SendOrPostCallback_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Post(System.Threading.SendOrPostCallback @d, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d, @state};
-            var ___result = RMPost_SendOrPostCallback_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OperationStarted()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOperationStarted.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OperationCompleted()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOperationCompleted.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 Wait(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
-            var ___result = RMWait_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitHelper(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
-            var ___result = RMWaitHelper_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void SetSynchronizationContext(System.Threading.SynchronizationContext @syncContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@syncContext};
-            var ___result = RMSetSynchronizationContext_SynchronizationContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Threading.SynchronizationContext GetThreadLocalContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetThreadLocalContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
-        }
-
-
-        public virtual System.Threading.SynchronizationContext CreateCopy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
-        }
-
-
-        public static System.Int32 InvokeWaitMethodHelper(System.Threading.SynchronizationContext @syncContext, System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@syncContext, @waitHandles, @waitAll, @millisecondsTimeout};
-            var ___result = RMInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -2806,732 +2806,566 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @familyName, System.String @styleName, System.Int32 @pointSize)
-        {
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @familyName, System.String @styleName, System.Int32 @pointSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@familyName, @styleName, @pointSize};
+			var ___result = RMCreateFontAsset_String_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @fontFilePath, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
+			var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font};
+			var ___result = RMCreateFontAsset_Font.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
+			var ___result = RMCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
+			var ___result = RMCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public static UnityEngine.TextCore.Text.FontAsset CreateFontAssetInstance(UnityEngine.Font @font, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
+			var ___result = RMCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
+		}
+
+
+		public virtual void Awake()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAwake.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDestroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnValidate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnValidate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadFontAssetDefinition()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReadFontAssetDefinition.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InitializeDictionaryLookupTables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeDictionaryLookupTables.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InitializeGlyphLookupDictionary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeGlyphLookupDictionary.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@familyName, @styleName, @pointSize};
-            var ___result = RMCreateFontAsset_String_String_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void InitializeCharacterLookupDictionary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeCharacterLookupDictionary.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InitializeGlyphPaidAdjustmentRecordsLookupDictionary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeGlyphPaidAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual void AddSynthesizedCharactersAndFaceMetrics()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddSynthesizedCharactersAndFaceMetrics.Invoke(___genericsType, ___parameters);
+		}
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @fontFilePath, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void AddSynthesizedCharacter(System.UInt32 @unicode, System.Boolean @isFontFaceLoaded, System.Boolean @addImmediately)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode, @isFontFaceLoaded, @addImmediately};
+			var ___result = RMAddSynthesizedCharacter_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual void AddCharacterToLookupCache(System.UInt32 @unicode, UnityEngine.TextCore.Text.Character @character)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode, @character};
+			var ___result = RMAddCharacterToLookupCache_UInt32_Character.Invoke(___genericsType, ___parameters);
+		}
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font};
-            var ___result = RMCreateFontAsset_Font.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.TextCore.LowLevel.FontEngineError LoadFontFace()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadFontFace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.FontEngineError>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual void SortCharacterTable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortCharacterTable.Invoke(___genericsType, ___parameters);
+		}
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RMCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SortGlyphTable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortGlyphTable.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual void SortFontFeatureTable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortFontFeatureTable.Invoke(___genericsType, ___parameters);
+		}
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RMCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SortAllTables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSortAllTables.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual System.Boolean HasCharacter(System.Int32 @character)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@character};
+			var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAssetInstance(UnityEngine.Font @font, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RMCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean HasCharacter(System.Char @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
+			var ___result = RMHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
-        }
 
+		public virtual System.Boolean HasCharacter_Internal(System.UInt32 @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
+			var ___result = RMHasCharacter_Internal_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-        public virtual void Awake()
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAwake.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDestroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnValidate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnValidate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadFontAssetDefinition()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReadFontAssetDefinition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InitializeDictionaryLookupTables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeDictionaryLookupTables.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InitializeGlyphLookupDictionary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeGlyphLookupDictionary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InitializeCharacterLookupDictionary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeCharacterLookupDictionary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InitializeGlyphPaidAdjustmentRecordsLookupDictionary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeGlyphPaidAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddSynthesizedCharactersAndFaceMetrics()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddSynthesizedCharactersAndFaceMetrics.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddSynthesizedCharacter(System.UInt32 @unicode, System.Boolean @isFontFaceLoaded, System.Boolean @addImmediately)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode, @isFontFaceLoaded, @addImmediately};
-            var ___result = RMAddSynthesizedCharacter_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCharacterToLookupCache(System.UInt32 @unicode, UnityEngine.TextCore.Text.Character @character)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode, @character};
-            var ___result = RMAddCharacterToLookupCache_UInt32_Character.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.TextCore.LowLevel.FontEngineError LoadFontFace()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadFontFace.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.FontEngineError>(___result);
-        }
-
-
-        public virtual void SortCharacterTable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortCharacterTable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SortGlyphTable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortGlyphTable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SortFontFeatureTable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortFontFeatureTable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SortAllTables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSortAllTables.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean HasCharacter(System.Int32 @character)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@character};
-            var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasCharacter(System.Char @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
-            var ___result = RMHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasCharacter_Internal(System.UInt32 @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
-            var ___result = RMHasCharacter_Internal_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasCharacters(System.String @text, out System.Collections.Generic.List<System.Char> @missingCharacters)
-        {
+		public virtual System.Boolean HasCharacters(System.String @text, out System.Collections.Generic.List<System.Char> @missingCharacters)
+		{
 			@missingCharacters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @missingCharacters};
-            var ___result = RMHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @missingCharacters};
+			var ___result = RMHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
 			@missingCharacters = ReflectionUtils.Convert<System.Collections.Generic.List<System.Char>>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean HasCharacters(System.String @text, out System.UInt32[] @missingCharacters, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
-        {
+		public virtual System.Boolean HasCharacters(System.String @text, out System.UInt32[] @missingCharacters, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
+		{
 			@missingCharacters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @missingCharacters, @searchFallbacks, @tryAddCharacter};
-            var ___result = RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @missingCharacters, @searchFallbacks, @tryAddCharacter};
+			var ___result = RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = ReflectionUtils.Convert<System.UInt32[]>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasCharacters(System.String @text)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text};
-            var ___result = RMHasCharacters_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.String GetCharacters(UnityEngine.TextCore.Text.FontAsset @fontAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontAsset};
-            var ___result = RMGetCharacters_FontAsset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean HasCharacters(System.String @text)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text};
+			var ___result = RMHasCharacters_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Int32[] GetCharactersArray(UnityEngine.TextCore.Text.FontAsset @fontAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontAsset};
-            var ___result = RMGetCharactersArray_FontAsset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32[]>(___result);
-        }
+		public static System.String GetCharacters(UnityEngine.TextCore.Text.FontAsset @fontAsset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontAsset};
+			var ___result = RMGetCharacters_FontAsset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.UInt32 GetGlyphIndex(System.UInt32 @unicode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode};
-            var ___result = RMGetGlyphIndex_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
+		public static System.Int32[] GetCharactersArray(UnityEngine.TextCore.Text.FontAsset @fontAsset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontAsset};
+			var ___result = RMGetCharactersArray_FontAsset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32[]>(___result);
+		}
 
 
-        public static void RegisterFontAssetForFontFeatureUpdate(UnityEngine.TextCore.Text.FontAsset @fontAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontAsset};
-            var ___result = RMRegisterFontAssetForFontFeatureUpdate_FontAsset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.UInt32 GetGlyphIndex(System.UInt32 @unicode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode};
+			var ___result = RMGetGlyphIndex_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public static void UpdateFontFeaturesForFontAssetsInQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateFontFeaturesForFontAssetsInQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RegisterFontAssetForFontFeatureUpdate(UnityEngine.TextCore.Text.FontAsset @fontAsset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontAsset};
+			var ___result = RMRegisterFontAssetForFontFeatureUpdate_FontAsset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void RegisterAtlasTextureForApply(UnityEngine.Texture2D @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture};
-            var ___result = RMRegisterAtlasTextureForApply_Texture2D.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void UpdateFontFeaturesForFontAssetsInQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateFontFeaturesForFontAssetsInQueue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void UpdateAtlasTexturesInQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateAtlasTexturesInQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RegisterAtlasTextureForApply(UnityEngine.Texture2D @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture};
+			var ___result = RMRegisterAtlasTextureForApply_Texture2D.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void UpdateFontAssetInUpdateQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateFontAssetInUpdateQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void UpdateAtlasTexturesInQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateAtlasTexturesInQueue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, System.Boolean @includeFontFeatures)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicodes, @includeFontFeatures};
-            var ___result = RMTryAddCharacters_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static void UpdateFontAssetInUpdateQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateFontAssetInUpdateQueue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, out System.UInt32[] @missingUnicodes, System.Boolean @includeFontFeatures)
-        {
+		public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, System.Boolean @includeFontFeatures)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicodes, @includeFontFeatures};
+			var ___result = RMTryAddCharacters_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, out System.UInt32[] @missingUnicodes, System.Boolean @includeFontFeatures)
+		{
 			@missingUnicodes = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicodes, @missingUnicodes, @includeFontFeatures};
-            var ___result = RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicodes, @missingUnicodes, @includeFontFeatures};
+			var ___result = RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
 			@missingUnicodes = ReflectionUtils.Convert<System.UInt32[]>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean TryAddCharacters(System.String @characters, System.Boolean @includeFontFeatures)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characters, @includeFontFeatures};
-            var ___result = RMTryAddCharacters_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryAddCharacters(System.String @characters, out System.String @missingCharacters, System.Boolean @includeFontFeatures)
-        {
+		public virtual System.Boolean TryAddCharacters(System.String @characters, System.Boolean @includeFontFeatures)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characters, @includeFontFeatures};
+			var ___result = RMTryAddCharacters_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean TryAddCharacters(System.String @characters, out System.String @missingCharacters, System.Boolean @includeFontFeatures)
+		{
 			@missingCharacters = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characters, @missingCharacters, @includeFontFeatures};
-            var ___result = RMTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characters, @missingCharacters, @includeFontFeatures};
+			var ___result = RMTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryAddCharacterInternal(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
-        {
+		public virtual System.Boolean TryAddCharacterInternal(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
+		{
 			@character = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
-            var ___result = RMTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
+			var ___result = RMTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = ReflectionUtils.Convert<UnityEngine.TextCore.Text.Character>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetCharacter_and_QueueRenderToTexture(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
-        {
+		public virtual System.Boolean TryGetCharacter_and_QueueRenderToTexture(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
+		{
 			@character = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
-            var ___result = RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
+			var ___result = RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = ReflectionUtils.Convert<UnityEngine.TextCore.Text.Character>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void TryAddGlyphsToAtlasTextures()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTryAddGlyphsToAtlasTextures.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryAddGlyphsToNewAtlasTexture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTryAddGlyphsToNewAtlasTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void TryAddGlyphsToAtlasTextures()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTryAddGlyphsToAtlasTextures.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetupNewAtlasTexture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetupNewAtlasTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean TryAddGlyphsToNewAtlasTexture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTryAddGlyphsToNewAtlasTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void UpdateAtlasTexture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateAtlasTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetupNewAtlasTexture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetupNewAtlasTexture.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateGlyphAdjustmentRecords()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateGlyphAdjustmentRecords.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateAtlasTexture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateAtlasTexture.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.UInt32[] @glyphIndexes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@glyphIndexes};
-            var ___result = RMUpdateGlyphAdjustmentRecords_UInt32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateGlyphAdjustmentRecords()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateGlyphAdjustmentRecords.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @glyphIndexes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@glyphIndexes};
-            var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateGlyphAdjustmentRecords(System.UInt32[] @glyphIndexes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@glyphIndexes};
+			var ___result = RMUpdateGlyphAdjustmentRecords_UInt32Array.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @newGlyphIndexes, System.Collections.Generic.List<System.UInt32> @allGlyphIndexes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newGlyphIndexes, @allGlyphIndexes};
-            var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @glyphIndexes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@glyphIndexes};
+			var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CopyListDataToArray<T>(System.Collections.Generic.List<T> @srcList, ref T[] @dstArray)
-        {
+		public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @newGlyphIndexes, System.Collections.Generic.List<System.UInt32> @allGlyphIndexes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newGlyphIndexes, @allGlyphIndexes};
+			var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@srcList, @dstArray};
-            var ___result = RMCopyListDataToArray_GT_List_d_T_p__Ref_TArray.Invoke(___genericsType, ___parameters);
+
+		public virtual void CopyListDataToArray<T>(System.Collections.Generic.List<T> @srcList, ref T[] @dstArray)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@srcList, @dstArray};
+			var ___result = RMCopyListDataToArray_GT_List_d_T_p__Ref_TArray.Invoke(___genericsType, ___parameters);
 			@dstArray = ReflectionUtils.Convert<T[]>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ClearFontAssetData(System.Boolean @setAtlasSizeToZero)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@setAtlasSizeToZero};
-            var ___result = RMClearFontAssetData_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearFontAssetData(System.Boolean @setAtlasSizeToZero)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@setAtlasSizeToZero};
+			var ___result = RMClearFontAssetData_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearFontAssetDataInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearFontAssetDataInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearFontAssetDataInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearFontAssetDataInternal.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateFontAssetData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateFontAssetData.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateFontAssetData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateFontAssetData.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearFontAssetTables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearFontAssetTables.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearFontAssetTables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearFontAssetTables.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearAtlasTextures(System.Boolean @setAtlasSizeToZero)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@setAtlasSizeToZero};
-            var ___result = RMClearAtlasTextures_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearAtlasTextures(System.Boolean @setAtlasSizeToZero)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@setAtlasSizeToZero};
+			var ___result = RMClearAtlasTextures_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DestroyAtlasTextures()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDestroyAtlasTextures.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DestroyAtlasTextures()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDestroyAtlasTextures.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

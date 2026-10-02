@@ -1430,235 +1430,181 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 		}
 
 
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void VerifyDecimalSeparator(System.String @decSep, System.String @propertyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@decSep, @propertyName};
-            var ___result = RMVerifyDecimalSeparator_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void VerifyGroupSeparator(System.String @groupSep, System.String @propertyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@groupSep, @propertyName};
-            var ___result = RMVerifyGroupSeparator_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void VerifyNativeDigits(System.String[] @nativeDig, System.String @propertyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeDig, @propertyName};
-            var ___result = RMVerifyNativeDigits_StringArray_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void VerifyDigitSubstitution(System.Globalization.DigitShapes @digitSub, System.String @propertyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@digitSub, @propertyName};
-            var ___result = RMVerifyDigitSubstitution_DigitShapes_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void VerifyWritable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@formatProvider};
-            var ___result = RMGetInstance_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static void CheckGroupSize(System.String @propName, System.Int32[] @groupSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propName, @groupSize};
-            var ___result = RMCheckGroupSize_String_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object GetFormat(System.Type @formatType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@formatType};
-            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo @nfi)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nfi};
-            var ___result = RMReadOnly_NumberFormatInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
-        }
-
-
-        public static void ValidateParseStyleInteger(System.Globalization.NumberStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@style};
-            var ___result = RMValidateParseStyleInteger_NumberStyles.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@style};
-            var ___result = RMValidateParseStyleFloatingPoint_NumberStyles.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void VerifyDecimalSeparator(System.String @decSep, System.String @propertyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@decSep, @propertyName};
+			var ___result = RMVerifyDecimalSeparator_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void VerifyGroupSeparator(System.String @groupSep, System.String @propertyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@groupSep, @propertyName};
+			var ___result = RMVerifyGroupSeparator_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void VerifyNativeDigits(System.String[] @nativeDig, System.String @propertyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeDig, @propertyName};
+			var ___result = RMVerifyNativeDigits_StringArray_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void VerifyDigitSubstitution(System.Globalization.DigitShapes @digitSub, System.String @propertyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@digitSub, @propertyName};
+			var ___result = RMVerifyDigitSubstitution_DigitShapes_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void VerifyWritable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@formatProvider};
+			var ___result = RMGetInstance_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static void CheckGroupSize(System.String @propName, System.Int32[] @groupSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propName, @groupSize};
+			var ___result = RMCheckGroupSize_String_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object GetFormat(System.Type @formatType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@formatType};
+			var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo @nfi)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nfi};
+			var ___result = RMReadOnly_NumberFormatInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
+		}
+
+
+		public static void ValidateParseStyleInteger(System.Globalization.NumberStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@style};
+			var ___result = RMValidateParseStyleInteger_NumberStyles.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@style};
+			var ___result = RMValidateParseStyleFloatingPoint_NumberStyles.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

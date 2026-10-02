@@ -1526,435 +1526,329 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 
-        public virtual void SetOverlaysEnabled(System.Boolean @visible)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@visible};
-            var ___result = RMSetOverlaysEnabled_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement CreateRoot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateRoot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void SetPickingMode(UnityEngine.UIElements.VisualElement @element, UnityEngine.UIElements.PickingMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @mode};
-            var ___result = RMSetPickingMode_VisualElement_PickingMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseEnterOverlayContainer(UnityEngine.UIElements.MouseEnterEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseEnterOverlayContainer_MouseEnterEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnAttachedToPanel_AttachToPanelEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDetachedFromPanel(UnityEngine.UIElements.DetachFromPanelEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnDetachedFromPanel_DetachFromPanelEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnContainerWindowDisabled()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnContainerWindowDisabled.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect @rect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect};
-            var ___result = RMClampToOverlayWindow_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public static UnityEngine.Rect ClampRectToBounds(UnityEngine.Rect @boundary, UnityEngine.Rect @rectToClamp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@boundary, @rectToClamp};
-            var ___result = RMClampRectToBounds_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void GeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseMove_MouseMoveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseEnter(UnityEngine.UIElements.MouseOverEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseEnter_MouseOverEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseLeaveOverlay(UnityEngine.UIElements.MouseLeaveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseLeaveOverlay_MouseLeaveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseEnterOverlay(UnityEngine.UIElements.MouseEnterEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseEnterOverlay_MouseEnterEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HideHoveredOverlay()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHideHoveredOverlay.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Initialize(UnityEditor.EditorWindow @window)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@window};
-            var ___result = RMInitialize_EditorWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeAssemblyReload()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeAssemblyReload.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect GetOriginGhostWorldBound()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetOriginGhostWorldBound.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void HideOriginGhost()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHideOriginGhost.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowOriginGhost(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMShowOriginGhost_Overlay.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateGhostHover(System.Boolean @hovered)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hovered};
-            var ___result = RMUpdateGhostHover_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopySaveData(out Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> @saveData)
-        {
+		public virtual void SetOverlaysEnabled(System.Boolean @visible)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@visible};
+			var ___result = RMSetOverlaysEnabled_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement CreateRoot()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateRoot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual void SetPickingMode(UnityEngine.UIElements.VisualElement @element, UnityEngine.UIElements.PickingMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @mode};
+			var ___result = RMSetPickingMode_VisualElement_PickingMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseEnterOverlayContainer(UnityEngine.UIElements.MouseEnterEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseEnterOverlayContainer_MouseEnterEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnAttachedToPanel_AttachToPanelEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDetachedFromPanel(UnityEngine.UIElements.DetachFromPanelEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnDetachedFromPanel_DetachFromPanelEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnContainerWindowDisabled()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnContainerWindowDisabled.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect @rect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect};
+			var ___result = RMClampToOverlayWindow_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public static UnityEngine.Rect ClampRectToBounds(UnityEngine.Rect @boundary, UnityEngine.Rect @rectToClamp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@boundary, @rectToClamp};
+			var ___result = RMClampRectToBounds_Rect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void GeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseMove_MouseMoveEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseEnter(UnityEngine.UIElements.MouseOverEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseEnter_MouseOverEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseLeaveOverlay(UnityEngine.UIElements.MouseLeaveEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseLeaveOverlay_MouseLeaveEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseEnterOverlay(UnityEngine.UIElements.MouseEnterEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseEnterOverlay_MouseEnterEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void HideHoveredOverlay()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHideHoveredOverlay.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Initialize(UnityEditor.EditorWindow @window)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@window};
+			var ___result = RMInitialize_EditorWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeAssemblyReload()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeAssemblyReload.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect GetOriginGhostWorldBound()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetOriginGhostWorldBound.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void HideOriginGhost()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHideOriginGhost.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowOriginGhost(UnityEditor.Overlays.Overlay @overlay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@overlay};
+			var ___result = RMShowOriginGhost_Overlay.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateGhostHover(System.Boolean @hovered)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hovered};
+			var ___result = RMUpdateGhostHover_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopySaveData(out Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> @saveData)
+		{
 			@saveData = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@saveData.Value};
-            var ___result = RMCopySaveData_Out_SaveDataArray.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@saveData.Value};
+			var ___result = RMCopySaveData_Out_SaveDataArray.Invoke(___genericsType, ___parameters);
 			@saveData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyPreset(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayPreset @preset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@preset.Value};
-            var ___result = RMApplyPreset_OverlayPreset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPreset(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayPreset @preset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@preset.Value};
+			var ___result = RMApplyPreset_OverlayPreset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplySaveData(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> @saveData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@saveData.Value};
-            var ___result = RMApplySaveData_SaveDataArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplySaveData(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> @saveData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@saveData.Value};
+			var ___result = RMApplySaveData_SaveDataArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Rebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Rebuild()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuild.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddOverlay(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMAddOverlay_Overlay.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddOverlay(UnityEditor.Overlays.Overlay @overlay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@overlay};
+			var ___result = RMAddOverlay_Overlay.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual T GetOrCreateOverlay<T>(System.String @id) where T : UnityEditor.Overlays.Overlay, new()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@id};
-            var ___result = RMGetOrCreateOverlay_GT_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T GetOrCreateOverlay<T>(System.String @id) where T : UnityEditor.Overlays.Overlay, new()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@id};
+			var ___result = RMGetOrCreateOverlay_GT_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData FindSaveData(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMFindSaveData_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData FindSaveData(UnityEditor.Overlays.Overlay @overlay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@overlay};
+			var ___result = RMFindSaveData_Overlay.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData>(___result);
+		}
 
 
-        public virtual void RestoreOverlay(UnityEditor.Overlays.Overlay @overlay, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @data.Value};
-            var ___result = RMRestoreOverlay_Overlay_SaveData.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RestoreOverlay(UnityEditor.Overlays.Overlay @overlay, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@overlay, @data.Value};
+			var ___result = RMRestoreOverlay_Overlay_SaveData.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RestoreOverlays()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRestoreOverlays.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RestoreOverlays()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRestoreOverlays.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void __0__OnBeforeSerialize__1__g__SaveContainer__5__103_0(System.Collections.Generic.List<UnityEditor.Overlays.Overlay> @overlays)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlays};
-            var ___result = RM__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void __0__OnBeforeSerialize__1__g__SaveContainer__5__103_0(System.Collections.Generic.List<UnityEditor.Overlays.Overlay> @overlays)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@overlays};
+			var ___result = RM__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -358,158 +358,126 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Schedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item.Value};
-            var ___result = RMSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Schedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item.Value};
+			var ___result = RMSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timerUpdateEvent, @delayMs};
-            var ___result = RMScheduleOnce_Action_d_TimerState_p__Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timerUpdateEvent, @delayMs};
+			var ___result = RMScheduleOnce_Action_d_TimerState_p__Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Func<System.Boolean> @stopCondition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @stopCondition};
-            var ___result = RMScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Func<System.Boolean> @stopCondition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @stopCondition};
+			var ___result = RMScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Int64 @durationMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @durationMs};
-            var ___result = RMScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Int64 @durationMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @durationMs};
+			var ___result = RMScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem>(___result);
+		}
 
 
-        public virtual System.Boolean RemovedScheduledItemAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemovedScheduledItemAt_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean RemovedScheduledItemAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemovedScheduledItemAt_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Unschedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item.Value};
-            var ___result = RMUnschedule_ScheduledItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Unschedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item.Value};
+			var ___result = RMUnschedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean PrivateUnSchedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @sItem)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sItem.Value};
-            var ___result = RMPrivateUnSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean PrivateUnSchedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @sItem)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sItem.Value};
+			var ___result = RMPrivateUnSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void UpdateScheduledEvents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateScheduledEvents.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateScheduledEvents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateScheduledEvents.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

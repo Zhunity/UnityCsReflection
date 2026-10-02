@@ -1110,369 +1110,288 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 
-        public static UnityEngine.Vector2Int AllocToTexelCoord(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@allocator.Value, @alloc.Value};
-            var ___result = RMAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Vector2Int AllocToTexelCoord(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@allocator.Value, @alloc.Value};
+			var ___result = RMAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
 			@allocator = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32>(___parameters[0]);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
-        }
-
-
-        public static System.Int32 AllocToConstantBufferIndex(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMAllocToConstantBufferIndex_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+			return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
+		}
 
 
-        public static System.Boolean AtlasRectMatchesPage(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @defAlloc, UnityEngine.RectInt @atlasRect)
-        {
+		public static System.Int32 AllocToConstantBufferIndex(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMAllocToConstantBufferIndex_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
-            var ___result = RMAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
+
+		public static System.Boolean AtlasRectMatchesPage(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @defAlloc, UnityEngine.RectInt @atlasRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
+			var ___result = RMAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
 			@allocator = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Construct()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMConstruct.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReallyCreateStorage()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReallyCreateStorage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePendingStorageChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIssuePendingStorageChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTransform()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocTransform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocClipRect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocClipRect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocOpacity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocOpacity.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocColor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocColor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@settings.Value};
-            var ___result = RMAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
-
-
-        public virtual void SetTransformValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Matrix4x4 @xform)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @xform};
-            var ___result = RMSetTransformValue_BMPAlloc_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetClipRectValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Vector4 @clipRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @clipRect};
-            var ___result = RMSetClipRectValue_BMPAlloc_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetOpacityValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, System.Single @opacity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @opacity};
-            var ___result = RMSetOpacityValue_BMPAlloc_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetColorValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @color};
-            var ___result = RMSetColorValue_BMPAlloc_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTextCoreSettingValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @settings.Value};
-            var ___result = RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FreeTransform(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFreeTransform_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FreeClipRect(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFreeClipRect_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FreeOpacity(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFreeOpacity_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FreeColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFreeColor_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FreeTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFreeTextCoreSettings_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Color32 TransformAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMTransformAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMClipRectAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32 OpacityAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMOpacityAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32 ColorAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMColorAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
-
-
-        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMTextCoreSettingsToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Construct()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMConstruct.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReallyCreateStorage()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReallyCreateStorage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePendingStorageChanges()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIssuePendingStorageChanges.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTransform()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocTransform.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocClipRect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocClipRect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocOpacity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocOpacity.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocColor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocColor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@settings.Value};
+			var ___result = RMAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
+
+
+		public virtual void SetTransformValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Matrix4x4 @xform)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value, @xform};
+			var ___result = RMSetTransformValue_BMPAlloc_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetClipRectValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Vector4 @clipRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value, @clipRect};
+			var ___result = RMSetClipRectValue_BMPAlloc_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetOpacityValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, System.Single @opacity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value, @opacity};
+			var ___result = RMSetOpacityValue_BMPAlloc_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetColorValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value, @color};
+			var ___result = RMSetColorValue_BMPAlloc_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTextCoreSettingValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value, @settings.Value};
+			var ___result = RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FreeTransform(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFreeTransform_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FreeClipRect(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFreeClipRect_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FreeOpacity(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFreeOpacity_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FreeColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFreeColor_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FreeTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFreeTextCoreSettings_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Color32 TransformAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMTransformAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32 ClipRectAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMClipRectAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32 OpacityAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMOpacityAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32 ColorAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMColorAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
+
+
+		public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMTextCoreSettingsToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

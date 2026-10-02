@@ -1558,950 +1558,774 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		}
 
 
-        public virtual System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task @currTask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@currTask};
-            var ___result = RMGetDefaultScheduler_Task.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler>(___result);
-        }
-
-
-        public static void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@creationOptions};
-            var ___result = RMCheckCreationOptions_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RMStartNew_Action.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @cancellationToken};
-            var ___result = RMStartNew_Action_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @creationOptions};
-            var ___result = RMStartNew_Action_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @scheduler};
-            var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
-            var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @state};
-            var ___result = RMStartNew_Action_d_Object_p__Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @state, @cancellationToken};
-            var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @state, @creationOptions};
-            var ___result = RMStartNew_Action_d_Object_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @scheduler};
-            var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function};
-            var ___result = RMStartNew_GTResult_Func_d_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @cancellationToken};
-            var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @creationOptions};
-            var ___result = RMStartNew_GTResult_Func_d_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @cancellationToken, @creationOptions, @scheduler};
-            var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @state};
-            var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @state, @cancellationToken};
-            var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @state, @creationOptions};
-            var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@function, @state, @cancellationToken, @creationOptions, @scheduler};
-            var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncResult, @endMethod};
-            var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
-            var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
-            var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @state};
-            var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
-            var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
-            var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
-            var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@asyncResult, @endMethod};
-            var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
-            var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
-            var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @state};
-            var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
-            var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
-            var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
-            var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
-            var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public static void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Boolean @hasBeginMethod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@creationOptions, @hasBeginMethod};
-            var ___result = RMCheckFromAsyncOptions_TaskCreationOptions_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task[]> CommonCWAllLogic(System.Threading.Tasks.Task[] @tasksCopy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasksCopy};
-            var ___result = RMCommonCWAllLogic_TaskArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task[]>>(___result);
-        }
-
-
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]> CommonCWAllLogic<T>(System.Threading.Tasks.Task<T>[] @tasksCopy)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@tasksCopy};
-            var ___result = RMCommonCWAllLogic_GT_Task_d_T_p_Array.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction};
-            var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
-            var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
-            var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction};
-            var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
-            var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
-            var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList<System.Threading.Tasks.Task> @tasks)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks};
-            var ___result = RMCommonCWAnyLogic_IList_d_Task_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction};
-            var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
-            var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
-            var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction};
-            var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
-            var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
-            var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
-            var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
-        {
-
-            var ___genericsType = new Type[] {typeof(TAntecedentResult)};
-            var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
-        }
-
-
-        public static System.Threading.Tasks.Task[] CheckMultiContinuationTasksAndCopy(System.Threading.Tasks.Task[] @tasks)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tasks};
-            var ___result = RMCheckMultiContinuationTasksAndCopy_TaskArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task[]>(___result);
-        }
-
-
-        public static System.Threading.Tasks.Task<TResult>[] CheckMultiContinuationTasksAndCopy<TResult>(System.Threading.Tasks.Task<TResult>[] @tasks)
-        {
-
-            var ___genericsType = new Type[] {typeof(TResult)};
-            var ___parameters = new object[]{@tasks};
-            var ___result = RMCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>[]>(___result);
-        }
-
-
-        public static void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continuationOptions};
-            var ___result = RMCheckMultiTaskContinuationOptions_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task @currTask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@currTask};
+			var ___result = RMGetDefaultScheduler_Task.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler>(___result);
+		}
+
+
+		public static void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@creationOptions};
+			var ___result = RMCheckCreationOptions_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RMStartNew_Action.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @cancellationToken};
+			var ___result = RMStartNew_Action_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @creationOptions};
+			var ___result = RMStartNew_Action_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @scheduler};
+			var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
+			var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @state};
+			var ___result = RMStartNew_Action_d_Object_p__Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @state, @cancellationToken};
+			var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @state, @creationOptions};
+			var ___result = RMStartNew_Action_d_Object_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @scheduler};
+			var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function};
+			var ___result = RMStartNew_GTResult_Func_d_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @cancellationToken};
+			var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @creationOptions};
+			var ___result = RMStartNew_GTResult_Func_d_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @cancellationToken, @creationOptions, @scheduler};
+			var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @state};
+			var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @state, @cancellationToken};
+			var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @state, @creationOptions};
+			var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@function, @state, @cancellationToken, @creationOptions, @scheduler};
+			var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncResult, @endMethod};
+			var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
+			var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
+			var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @state};
+			var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
+			var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
+			var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
+			var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@asyncResult, @endMethod};
+			var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
+			var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
+			var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @state};
+			var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
+			var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
+			var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
+			var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
+			var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public static void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Boolean @hasBeginMethod)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@creationOptions, @hasBeginMethod};
+			var ___result = RMCheckFromAsyncOptions_TaskCreationOptions_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Threading.Tasks.Task<System.Threading.Tasks.Task[]> CommonCWAllLogic(System.Threading.Tasks.Task[] @tasksCopy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasksCopy};
+			var ___result = RMCommonCWAllLogic_TaskArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task[]>>(___result);
+		}
+
+
+		public static System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]> CommonCWAllLogic<T>(System.Threading.Tasks.Task<T>[] @tasksCopy)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@tasksCopy};
+			var ___result = RMCommonCWAllLogic_GT_Task_d_T_p_Array.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction};
+			var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
+			var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
+			var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction};
+			var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
+			var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
+			var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public static System.Threading.Tasks.Task<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList<System.Threading.Tasks.Task> @tasks)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks};
+			var ___result = RMCommonCWAnyLogic_IList_d_Task_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction};
+			var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
+			var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
+			var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction};
+			var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
+			var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
+			var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
+			var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+		{
+			var ___genericsType = new Type[] {typeof(TAntecedentResult)};
+			var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
+			var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
+		}
+
+
+		public static System.Threading.Tasks.Task[] CheckMultiContinuationTasksAndCopy(System.Threading.Tasks.Task[] @tasks)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tasks};
+			var ___result = RMCheckMultiContinuationTasksAndCopy_TaskArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task[]>(___result);
+		}
+
+
+		public static System.Threading.Tasks.Task<TResult>[] CheckMultiContinuationTasksAndCopy<TResult>(System.Threading.Tasks.Task<TResult>[] @tasks)
+		{
+			var ___genericsType = new Type[] {typeof(TResult)};
+			var ___parameters = new object[]{@tasks};
+			var ___result = RMCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>[]>(___result);
+		}
+
+
+		public static void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continuationOptions};
+			var ___result = RMCheckMultiTaskContinuationOptions_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

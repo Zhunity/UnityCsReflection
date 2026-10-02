@@ -550,246 +550,193 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		}
 
 
-        public virtual void AddAssembly(System.Object @id)
-        {
+		public virtual void AddAssembly(System.Object @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id};
+			var ___result = RMAddAssembly_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddHost(System.Object @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id};
+			var ___result = RMAddHost_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Security.Policy.Evidence Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
+		}
+
+
+		public virtual void CopyTo(System.Array @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetAssemblyEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAssemblyEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetHostEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHostEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual void Merge(System.Security.Policy.Evidence @evidence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMMerge_Evidence.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveType(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMRemoveType_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsAuthenticodePresent(System.Reflection.Assembly @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMIsAuthenticodePresent_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Security.Policy.Evidence GetDefaultHostEvidence(System.Reflection.Assembly @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMGetDefaultHostEvidence_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMAddAssembly_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddHost(System.Object @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMAddHost_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Security.Policy.Evidence Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
-        }
-
-
-        public virtual void CopyTo(System.Array @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.IEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator GetAssemblyEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAssemblyEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator GetHostEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHostEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual void Merge(System.Security.Policy.Evidence @evidence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMMerge_Evidence.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveType(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMRemoveType_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsAuthenticodePresent(System.Reflection.Assembly @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMIsAuthenticodePresent_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Security.Policy.Evidence GetDefaultHostEvidence(System.Reflection.Assembly @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMGetDefaultHostEvidence_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
-        }
-
-
-        public virtual void AddAssemblyEvidence<T>(T @evidence)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMAddAssemblyEvidence_GT_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddHostEvidence<T>(T @evidence)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@evidence};
-            var ___result = RMAddHostEvidence_GT_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T GetAssemblyEvidence<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAssemblyEvidence_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetHostEvidence<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHostEvidence_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void AddAssemblyEvidence<T>(T @evidence)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMAddAssemblyEvidence_GT_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddHostEvidence<T>(T @evidence)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@evidence};
+			var ___result = RMAddHostEvidence_GT_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T GetAssemblyEvidence<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAssemblyEvidence_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetHostEvidence<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHostEvidence_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

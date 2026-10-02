@@ -102,37 +102,29 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual System.Int32 IndexOf(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMIndexOf_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 IndexOf(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMIndexOf_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Insert(System.Int32 @index, T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @item};
-            var ___result = RMInsert_Int32_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Insert(System.Int32 @index, T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @item};
+			var ___result = RMInsert_Int32_T.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

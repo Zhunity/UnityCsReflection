@@ -870,367 +870,286 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		}
 
 
-        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart, @prevlen, @quick};
-            var ___result = RMScan_Regex_String_Int32_Int32_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
-        }
-
-
-        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick, System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart, @prevlen, @quick, @timeout};
-            var ___result = RMScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
-        }
-
-
-        public virtual void StartTimeoutWatch()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStartTimeoutWatch.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckTimeout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckTimeout.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoCheckTimeout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoCheckTimeout.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Go()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean FindFirstChar()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFindFirstChar.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void InitTrackCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitTrackCount.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InitMatch()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitMatch.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.RegularExpressions.Match TidyMatch(System.Boolean @quick)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@quick};
-            var ___result = RMTidyMatch_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
-        }
-
-
-        public virtual void EnsureStorage()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureStorage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsBoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @startpos, @endpos};
-            var ___result = RMIsBoundary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsECMABoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @startpos, @endpos};
-            var ___result = RMIsECMABoundary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean CharInSet(System.Char @ch, System.String @set, System.String @category)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch, @set, @category};
-            var ___result = RMCharInSet_Char_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean CharInClass(System.Char @ch, System.String @charClass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch, @charClass};
-            var ___result = RMCharInClass_Char_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void DoubleTrack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoubleTrack.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoubleStack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoubleStack.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DoubleCrawl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoubleCrawl.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Crawl(System.Int32 @i)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@i};
-            var ___result = RMCrawl_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 Popcrawl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPopcrawl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 Crawlpos()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCrawlpos.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Capture(System.Int32 @capnum, System.Int32 @start, System.Int32 @end)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@capnum, @start, @end};
-            var ___result = RMCapture_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransferCapture(System.Int32 @capnum, System.Int32 @uncapnum, System.Int32 @start, System.Int32 @end)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@capnum, @uncapnum, @start, @end};
-            var ___result = RMTransferCapture_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Uncapture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUncapture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsMatched(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMIsMatched_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 MatchIndex(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMMatchIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 MatchLength(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMMatchLength_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart, @prevlen, @quick};
+			var ___result = RMScan_Regex_String_Int32_Int32_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
+		}
+
+
+		public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick, System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart, @prevlen, @quick, @timeout};
+			var ___result = RMScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
+		}
+
+
+		public virtual void StartTimeoutWatch()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStartTimeoutWatch.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckTimeout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckTimeout.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoCheckTimeout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoCheckTimeout.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Go()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean FindFirstChar()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFindFirstChar.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void InitTrackCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitTrackCount.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InitMatch()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitMatch.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.RegularExpressions.Match TidyMatch(System.Boolean @quick)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@quick};
+			var ___result = RMTidyMatch_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
+		}
+
+
+		public virtual void EnsureStorage()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureStorage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsBoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @startpos, @endpos};
+			var ___result = RMIsBoundary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsECMABoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @startpos, @endpos};
+			var ___result = RMIsECMABoundary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean CharInSet(System.Char @ch, System.String @set, System.String @category)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch, @set, @category};
+			var ___result = RMCharInSet_Char_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean CharInClass(System.Char @ch, System.String @charClass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch, @charClass};
+			var ___result = RMCharInClass_Char_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void DoubleTrack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoubleTrack.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoubleStack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoubleStack.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DoubleCrawl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoubleCrawl.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Crawl(System.Int32 @i)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@i};
+			var ___result = RMCrawl_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 Popcrawl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPopcrawl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 Crawlpos()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCrawlpos.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Capture(System.Int32 @capnum, System.Int32 @start, System.Int32 @end)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@capnum, @start, @end};
+			var ___result = RMCapture_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void TransferCapture(System.Int32 @capnum, System.Int32 @uncapnum, System.Int32 @start, System.Int32 @end)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@capnum, @uncapnum, @start, @end};
+			var ___result = RMTransferCapture_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Uncapture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUncapture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsMatched(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMIsMatched_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 MatchIndex(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMMatchIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 MatchLength(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMMatchLength_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

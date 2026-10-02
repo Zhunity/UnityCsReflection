@@ -742,367 +742,275 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 		}
 
 
-        public virtual void Close()
-        {
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Flush()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlush.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int64 Seek(System.Int32 @offset, System.IO.SeekOrigin @origin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset, @origin};
+			var ___result = RMSeek_Int32_SeekOrigin.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer.Value};
+			var ___result = RMWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer.Value};
+			var ___result = RMWrite_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.Tasks.ValueTask DisposeAsync()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
+		}
+
+
+		public virtual void Write(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Byte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_SByte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Byte[] @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer};
+			var ___result = RMWrite_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Byte[] @buffer, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @index, @count};
+			var ___result = RMWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
+
+		public virtual void Write(System.Char @ch)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch};
+			var ___result = RMWrite_Char.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
+
+		public virtual void Write(System.Char[] @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars};
+			var ___result = RMWrite_CharArray.Invoke(___genericsType, ___parameters);
+		}
 
+
+		public virtual void Write(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars, @index, @count};
+			var ___result = RMWrite_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
+
+		public virtual void Write(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Double.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+
+		public virtual void Write(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Decimal.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Flush()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlush.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int64 Seek(System.Int32 @offset, System.IO.SeekOrigin @origin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset, @origin};
-            var ___result = RMSeek_Int32_SeekOrigin.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer.Value};
-            var ___result = RMWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer.Value};
-            var ___result = RMWrite_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.Tasks.ValueTask DisposeAsync()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
-        }
-
-
-        public virtual void Write(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Byte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_SByte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Byte[] @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer};
-            var ___result = RMWrite_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Byte[] @buffer, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @index, @count};
-            var ___result = RMWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Char @ch)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch};
-            var ___result = RMWrite_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Char[] @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars};
-            var ___result = RMWrite_CharArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars, @index, @count};
-            var ___result = RMWrite_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Double.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Decimal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Int16.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_UInt16.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_UInt64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Write7BitEncodedInt(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMWrite7BitEncodedInt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+
+		public virtual void Write(System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Int16.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_UInt16.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_UInt64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Write7BitEncodedInt(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMWrite7BitEncodedInt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

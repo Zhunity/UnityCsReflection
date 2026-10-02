@@ -870,532 +870,430 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		}
 
 
-        public static System.Security.Cryptography.DSA Create()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
-        }
-
-
-        public static System.Security.Cryptography.DSA Create(System.String @algName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@algName};
-            var ___result = RMCreate_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
-        }
-
-
-        public virtual System.Byte[] CreateSignature(System.Byte[] @rgbHash)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rgbHash};
-            var ___result = RMCreateSignature_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Boolean VerifySignature(System.Byte[] @rgbHash, System.Byte[] @rgbSignature)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rgbHash, @rgbSignature};
-            var ___result = RMVerifySignature_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Byte[] HashData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @offset, @count, @hashAlgorithm};
-            var ___result = RMHashData_ByteArray_Int32_Int32_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] HashData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @hashAlgorithm};
-            var ___result = RMHashData_Stream_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] SignData(System.Byte[] @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @hashAlgorithm};
-            var ___result = RMSignData_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] SignData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @offset, @count, @hashAlgorithm};
-            var ___result = RMSignData_ByteArray_Int32_Int32_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] SignData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @hashAlgorithm};
-            var ___result = RMSignData_Stream_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Boolean VerifyData(System.Byte[] @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @signature, @hashAlgorithm};
-            var ___result = RMVerifyData_ByteArray_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean VerifyData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @offset, @count, @signature, @hashAlgorithm};
-            var ___result = RMVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean VerifyData(System.IO.Stream @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @signature, @hashAlgorithm};
-            var ___result = RMVerifyData_Stream_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void FromXmlString(System.String @xmlString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@xmlString};
-            var ___result = RMFromXmlString_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToXmlString(System.Boolean @includePrivateParameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includePrivateParameters};
-            var ___result = RMToXmlString_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean @includePrivateParameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includePrivateParameters};
-            var ___result = RMExportParameters_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSAParameters>(___result);
-        }
-
-
-        public virtual void ImportParameters(System.Security.Cryptography.DSAParameters @parameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parameters};
-            var ___result = RMImportParameters_DSAParameters.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Exception DerivedClassMustOverride()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDerivedClassMustOverride.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
-
-
-        public static System.Exception HashAlgorithmNameNullOrEmpty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHashAlgorithmNameNullOrEmpty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
-
-
-        public static System.Security.Cryptography.DSA Create(System.Int32 @keySizeInBits)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keySizeInBits};
-            var ___result = RMCreate_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
-        }
-
-
-        public static System.Security.Cryptography.DSA Create(System.Security.Cryptography.DSAParameters @parameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parameters};
-            var ___result = RMCreate_DSAParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
-        }
-
-
-        public virtual System.Boolean TryCreateSignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public static System.Security.Cryptography.DSA Create()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
+		}
+
+
+		public static System.Security.Cryptography.DSA Create(System.String @algName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@algName};
+			var ___result = RMCreate_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
+		}
+
+
+		public virtual System.Byte[] CreateSignature(System.Byte[] @rgbHash)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rgbHash};
+			var ___result = RMCreateSignature_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Boolean VerifySignature(System.Byte[] @rgbHash, System.Byte[] @rgbSignature)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rgbHash, @rgbSignature};
+			var ___result = RMVerifySignature_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Byte[] HashData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @offset, @count, @hashAlgorithm};
+			var ___result = RMHashData_ByteArray_Int32_Int32_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] HashData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @hashAlgorithm};
+			var ___result = RMHashData_Stream_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] SignData(System.Byte[] @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @hashAlgorithm};
+			var ___result = RMSignData_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] SignData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @offset, @count, @hashAlgorithm};
+			var ___result = RMSignData_ByteArray_Int32_Int32_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] SignData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @hashAlgorithm};
+			var ___result = RMSignData_Stream_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Boolean VerifyData(System.Byte[] @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @signature, @hashAlgorithm};
+			var ___result = RMVerifyData_ByteArray_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean VerifyData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @offset, @count, @signature, @hashAlgorithm};
+			var ___result = RMVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean VerifyData(System.IO.Stream @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @signature, @hashAlgorithm};
+			var ___result = RMVerifyData_Stream_ByteArray_HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void FromXmlString(System.String @xmlString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@xmlString};
+			var ___result = RMFromXmlString_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToXmlString(System.Boolean @includePrivateParameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includePrivateParameters};
+			var ___result = RMToXmlString_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean @includePrivateParameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includePrivateParameters};
+			var ___result = RMExportParameters_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSAParameters>(___result);
+		}
+
+
+		public virtual void ImportParameters(System.Security.Cryptography.DSAParameters @parameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parameters};
+			var ___result = RMImportParameters_DSAParameters.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Exception DerivedClassMustOverride()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDerivedClassMustOverride.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
+
+
+		public static System.Exception HashAlgorithmNameNullOrEmpty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHashAlgorithmNameNullOrEmpty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
+
+
+		public static System.Security.Cryptography.DSA Create(System.Int32 @keySizeInBits)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keySizeInBits};
+			var ___result = RMCreate_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
+		}
+
+
+		public static System.Security.Cryptography.DSA Create(System.Security.Cryptography.DSAParameters @parameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parameters};
+			var ___result = RMCreate_DSAParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
+		}
+
+
+		public virtual System.Boolean TryCreateSignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hash.Value, @destination.Value, @bytesWritten};
-            var ___result = RMTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hash.Value, @destination.Value, @bytesWritten};
+			var ___result = RMTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryHashData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryHashData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
-            var ___result = RMTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
+			var ___result = RMTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TrySignData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TrySignData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
-            var ___result = RMTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
+			var ___result = RMTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean VerifyData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data.Value, @signature.Value, @hashAlgorithm};
-            var ___result = RMVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean VerifySignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hash.Value, @signature.Value};
-            var ___result = RMVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean VerifyData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data.Value, @signature.Value, @hashAlgorithm};
+			var ___result = RMVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean VerifySignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hash.Value, @signature.Value};
+			var ___result = RMVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters};
-            var ___result = RMExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@password.Value, @pbeParameters};
-            var ___result = RMExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters};
+			var ___result = RMExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Byte[] ExportPkcs8PrivateKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExportPkcs8PrivateKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@password.Value, @pbeParameters};
+			var ___result = RMExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Byte[] ExportSubjectPublicKeyInfo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExportSubjectPublicKeyInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Byte[] ExportPkcs8PrivateKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExportPkcs8PrivateKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
-        {
+		public virtual System.Byte[] ExportSubjectPublicKeyInfo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExportSubjectPublicKeyInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+		{
 			@bytesRead = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@passwordBytes.Value, @source.Value, @bytesRead};
-            var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@passwordBytes.Value, @source.Value, @bytesRead};
+			var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
-        {
+		public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+		{
 			@bytesRead = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@password.Value, @source.Value, @bytesRead};
-            var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@password.Value, @source.Value, @bytesRead};
+			var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void ImportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
-        {
+		public virtual void ImportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+		{
 			@bytesRead = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value, @bytesRead};
-            var ___result = RMImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source.Value, @bytesRead};
+			var ___result = RMImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ImportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
-        {
+		public virtual void ImportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+		{
 			@bytesRead = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value, @bytesRead};
-            var ___result = RMImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source.Value, @bytesRead};
+			var ___result = RMImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters, @destination.Value, @bytesWritten};
-            var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters, @destination.Value, @bytesWritten};
+			var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@password.Value, @pbeParameters, @destination.Value, @bytesWritten};
-            var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@password.Value, @pbeParameters, @destination.Value, @bytesWritten};
+			var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryExportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryExportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @bytesWritten};
-            var ___result = RMTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @bytesWritten};
+			var ___result = RMTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryExportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
-        {
+		public virtual System.Boolean TryExportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+		{
 			@bytesWritten = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination.Value, @bytesWritten};
-            var ___result = RMTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination.Value, @bytesWritten};
+			var ___result = RMTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

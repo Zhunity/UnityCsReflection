@@ -102,15 +102,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		}
 
 
-        public virtual void CopyTo(System.Array @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CopyTo(System.Array @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMCopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

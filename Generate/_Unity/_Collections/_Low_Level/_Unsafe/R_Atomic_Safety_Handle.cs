@@ -1174,704 +1174,551 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle Create()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
+		public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle Create()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
 
 
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempUnsafePtrSliceHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTempUnsafePtrSliceHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
+		public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempUnsafePtrSliceHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTempUnsafePtrSliceHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
 
 
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempMemoryHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTempMemoryHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
+		public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempMemoryHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTempMemoryHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
 
 
-        public static System.Boolean IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMIsTempMemoryHandle_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMIsTempMemoryHandle_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMRelease_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMRelease_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean IsDefaultValue(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMIsDefaultValue_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsDefaultValue(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMIsDefaultValue_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void PrepareUndisposable(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMPrepareUndisposable_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void PrepareUndisposable(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMPrepareUndisposable_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void UseSecondaryVersion(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMUseSecondaryVersion_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void UseSecondaryVersion(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMUseSecondaryVersion_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
-
-
-        public static void SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @allowWriting};
-            var ___result = RMSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetBumpSecondaryVersionOnScheduleWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @value};
-            var ___result = RMSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @allowReadWriteAccess};
-            var ___result = RMSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetAllowReadOrWriteAccess_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
-
-
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
-
-
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
-
-
-        public static void CheckReadAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckWriteAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckDeallocateAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @maxCount, @output};
-            var ___result = RMGetReaderArray_AtomicSafetyHandle_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static Unity.Jobs.JobHandle GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetWriter_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
-
-
-        public static void CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckReadAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ValidateNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMValidateNonDefaultHandle_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsValidNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMIsValidNonDefaultHandle_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckExistsAndThrow(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckExistsAndThrow_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsHandleValid(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMIsHandleValid_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @readerIndex};
-            var ___result = RMGetReaderName_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetWriterName_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.Int32 NewStaticSafetyId(System.Byte* @ownerTypeNameBytes, System.Int32 @byteCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@ownerTypeNameBytes, typeof(System.Byte)), @byteCount};
-            var ___result = RMNewStaticSafetyId_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 NewStaticSafetyId<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMNewStaticSafetyId_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe static void SetCustomErrorMessage(System.Int32 @staticSafetyId, Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType @errorType, System.Byte* @messageBytes, System.Int32 @byteCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@staticSafetyId, @errorType, Pointer.Box(@messageBytes, typeof(System.Byte)), @byteCount};
-            var ___result = RMSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @staticSafetyId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @staticSafetyId};
-            var ___result = RMSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @allowWriting};
+			var ___result = RMSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetBumpSecondaryVersionOnScheduleWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @value};
+			var ___result = RMSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @allowReadWriteAccess};
+			var ___result = RMSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetAllowReadOrWriteAccess_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
+
+
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
+
+
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
+
+
+		public static void CheckReadAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckWriteAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckDeallocateAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @maxCount, @output};
+			var ___result = RMGetReaderArray_AtomicSafetyHandle_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static Unity.Jobs.JobHandle GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetWriter_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
+
+
+		public static void CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckReadAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckWriteAndThrow_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ValidateNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMValidateNonDefaultHandle_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsValidNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMIsValidNonDefaultHandle_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CheckExistsAndThrow(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckExistsAndThrow_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsHandleValid(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMIsHandleValid_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @readerIndex};
+			var ___result = RMGetReaderName_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetWriterName_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.Int32 NewStaticSafetyId(System.Byte* @ownerTypeNameBytes, System.Int32 @byteCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@ownerTypeNameBytes, typeof(System.Byte)), @byteCount};
+			var ___result = RMNewStaticSafetyId_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 NewStaticSafetyId<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMNewStaticSafetyId_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe static void SetCustomErrorMessage(System.Int32 @staticSafetyId, Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType @errorType, System.Byte* @messageBytes, System.Int32 @byteCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@staticSafetyId, @errorType, Pointer.Box(@messageBytes, typeof(System.Byte)), @byteCount};
+			var ___result = RMSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @staticSafetyId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @staticSafetyId};
+			var ___result = RMSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void Create_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public static void Create_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMCreate_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMCreate_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void GetTempUnsafePtrSliceHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public static void GetTempUnsafePtrSliceHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void GetTempMemoryHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public static void GetTempMemoryHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean IsTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static System.Boolean IsTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void Release_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void Release_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void SetAllowSecondaryVersionWriting_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @allowWriting};
-            var ___result = RMSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		public static void SetAllowSecondaryVersionWriting_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @allowWriting};
+			var ___result = RMSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void SetBumpSecondaryVersionOnScheduleWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @value};
-            var ___result = RMSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		public static void SetBumpSecondaryVersionOnScheduleWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @value};
+			var ___result = RMSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void SetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @allowReadWriteAccess};
-            var ___result = RMSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
+		public static void SetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @allowReadWriteAccess};
+			var ___result = RMSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean GetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static System.Boolean GetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
 
-
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
 
-
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
-        }
 
-
-        public static void CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CheckDeallocateAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void CheckDeallocateAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CheckGetSecondaryDataPointerAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void CheckGetSecondaryDataPointerAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Int32 GetReaderArray_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @maxCount, @output};
-            var ___result = RMGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetReaderArray_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @maxCount, @output};
+			var ___result = RMGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static void GetWriter_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, out Unity.Jobs.JobHandle @ret)
-        {
+		public static void GetWriter_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, out Unity.Jobs.JobHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @ret};
-            var ___result = RMGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @ret};
+			var ___result = RMGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.String GetReaderName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @readerIndex};
-            var ___result = RMGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
+		public static System.String GetReaderName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle, @readerIndex};
+			var ___result = RMGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
 
-
-        public static System.String GetWriterName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetWriterName_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static System.String GetWriterName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMGetWriterName_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -134,59 +134,45 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Disconnect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisconnect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Disconnect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisconnect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Refresh()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefresh.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Refresh()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRefresh.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
-            var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
+			var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ev};
-            var ___result = RMInterceptEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ev};
+			var ___result = RMInterceptEvent_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ev};
-            var ___result = RMPostProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ev};
+			var ___result = RMPostProcessEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

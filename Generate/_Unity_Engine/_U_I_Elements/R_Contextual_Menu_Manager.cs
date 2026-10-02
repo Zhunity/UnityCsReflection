@@ -214,103 +214,81 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void DisplayMenuIfEventMatches(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @eventHandler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @eventHandler};
-            var ___result = RMDisplayMenuIfEventMatches_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DisplayMenuIfEventMatches(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @eventHandler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @eventHandler};
+			var ___result = RMDisplayMenuIfEventMatches_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DisplayMenu(UnityEngine.UIElements.EventBase @triggerEvent, UnityEngine.UIElements.IEventHandler @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@triggerEvent, @target};
-            var ___result = RMDisplayMenu_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DisplayMenu(UnityEngine.UIElements.EventBase @triggerEvent, UnityEngine.UIElements.IEventHandler @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@triggerEvent, @target};
+			var ___result = RMDisplayMenu_EventBase_IEventHandler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DoDisplayMenu(UnityEngine.UIElements.DropdownMenu @menu, UnityEngine.UIElements.EventBase @triggerEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@menu, @triggerEvent};
-            var ___result = RMDoDisplayMenu_DropdownMenu_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DoDisplayMenu(UnityEngine.UIElements.DropdownMenu @menu, UnityEngine.UIElements.EventBase @triggerEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@menu, @triggerEvent};
+			var ___result = RMDoDisplayMenu_DropdownMenu_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

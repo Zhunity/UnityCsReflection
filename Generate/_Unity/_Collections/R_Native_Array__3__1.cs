@@ -1110,624 +1110,475 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 		}
 
 
-        public static void InitStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMInitStaticSafetyId_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+		public static void InitStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMInitStaticSafetyId_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CheckAllocateArguments(System.Int32 @length, Unity.Collections.Allocator @allocator, System.Int64 @totalSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@length, @allocator, @totalSize};
-            var ___result = RMCheckAllocateArguments_Int32_Allocator_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CheckAllocateArguments(System.Int32 @length, Unity.Collections.Allocator @allocator, System.Int64 @totalSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@length, @allocator, @totalSize};
+			var ___result = RMCheckAllocateArguments_Int32_Allocator_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Allocate(System.Int32 @length, Unity.Collections.Allocator @allocator, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
-        {
+		public static void Allocate(System.Int32 @length, Unity.Collections.Allocator @allocator, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
+		{
 			@array = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@length, @allocator, @array.Value};
-            var ___result = RMAllocate_Int32_Allocator_Out_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@length, @allocator, @array.Value};
+			var ___result = RMAllocate_Int32_Allocator_Out_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 			@array = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[2]);
+		}
+
 
-            
-        }
+		public static void IsUnmanagedAndThrow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsUnmanagedAndThrow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckElementReadAccess(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMCheckElementReadAccess_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckElementWriteAccess(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMCheckElementWriteAccess_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Unity.Jobs.JobHandle Dispose(Unity.Jobs.JobHandle @inputDeps)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inputDeps};
+			var ___result = RMDispose_JobHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
+
+
+		public virtual void CopyFrom(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array.Value};
+			var ___result = RMCopyFrom_TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyFrom(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array.Value};
+			var ___result = RMCopyFrom_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array.Value};
+			var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array.Value};
+			var ___result = RMCopyTo_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> ToArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual void FailOutOfRangeError(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMFailOutOfRangeError_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
+		}
+
 
-
-        public static void IsUnmanagedAndThrow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsUnmanagedAndThrow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckElementReadAccess(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMCheckElementReadAccess_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckElementWriteAccess(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMCheckElementWriteAccess_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Unity.Jobs.JobHandle Dispose(Unity.Jobs.JobHandle @inputDeps)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inputDeps};
-            var ___result = RMDispose_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
-
-
-        public virtual void CopyFrom(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array.Value};
-            var ___result = RMCopyFrom_TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyFrom(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array.Value};
-            var ___result = RMCopyFrom_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array.Value};
-            var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array.Value};
-            var ___result = RMCopyTo_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> ToArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void FailOutOfRangeError(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMFailOutOfRangeError_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = RMop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckCopyLengths(System.Int32 @srcLength, System.Int32 @dstLength)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcLength, @dstLength};
-            var ___result = RMCheckCopyLengths_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value};
-            var ___result = RMCopy_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value};
-            var ___result = RMCopy_ReadOnly_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value};
-            var ___result = RMCopy_TArray_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value};
-            var ___result = RMCopy_NativeArray_d_T_p__TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value};
-            var ___result = RMCopy_ReadOnly_TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value, @length};
-            var ___result = RMCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value, @length};
-            var ___result = RMCopy_ReadOnly_NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value, @length};
-            var ___result = RMCopy_TArray_NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value, @length};
-            var ___result = RMCopy_NativeArray_d_T_p__TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @dst.Value, @length};
-            var ___result = RMCopy_ReadOnly_TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckCopyArguments(System.Int32 @srcLength, System.Int32 @srcIndex, System.Int32 @dstLength, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcLength, @srcIndex, @dstLength, @dstIndex, @length};
-            var ___result = RMCheckCopyArguments_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
-            var ___result = RMCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
-            var ___result = RMCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
-            var ___result = RMCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
-            var ___result = RMCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
-            var ___result = RMCopy_ReadOnly_Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckReinterpretLoadRange<U>(System.Int32 @sourceIndex) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@sourceIndex};
-            var ___result = RMCheckReinterpretLoadRange_GU_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckReinterpretStoreRange<U>(System.Int32 @destIndex) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@destIndex};
-            var ___result = RMCheckReinterpretStoreRange_GU_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RType ReinterpretLoad<U>(System.Int32 @sourceIndex) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@sourceIndex};
-            var ___result = RMReinterpretLoad_GU_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
-
-
-        public virtual void ReinterpretStore<U>(System.Int32 @destIndex, Hvak.Editor.Refleaction.RType @data) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@destIndex, @data.Value};
-            var ___result = RMReinterpretStore_GU_Int32_U.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> InternalReinterpret<U>(System.Int32 @length) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@length};
-            var ___result = RMInternalReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void SetDisposeSentinel<U>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @result) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@result.Value};
-            var ___result = RMSetDisposeSentinel_GU_Ref_NativeArray_d_U_p_.Invoke(___genericsType, ___parameters);
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other.Value};
+			var ___result = RMEquals_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left.Value, @right.Value};
+			var ___result = RMop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CheckCopyLengths(System.Int32 @srcLength, System.Int32 @dstLength)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcLength, @dstLength};
+			var ___result = RMCheckCopyLengths_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value};
+			var ___result = RMCopy_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value};
+			var ___result = RMCopy_ReadOnly_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value};
+			var ___result = RMCopy_TArray_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value};
+			var ___result = RMCopy_NativeArray_d_T_p__TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value};
+			var ___result = RMCopy_ReadOnly_TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value, @length};
+			var ___result = RMCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value, @length};
+			var ___result = RMCopy_ReadOnly_NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value, @length};
+			var ___result = RMCopy_TArray_NativeArray_d_T_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value, @length};
+			var ___result = RMCopy_NativeArray_d_T_p__TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @dst.Value, @length};
+			var ___result = RMCopy_ReadOnly_TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckCopyArguments(System.Int32 @srcLength, System.Int32 @srcIndex, System.Int32 @dstLength, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcLength, @srcIndex, @dstLength, @dstIndex, @length};
+			var ___result = RMCheckCopyArguments_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
+			var ___result = RMCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
+			var ___result = RMCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
+			var ___result = RMCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
+			var ___result = RMCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src.Value, @srcIndex, @dst.Value, @dstIndex, @length};
+			var ___result = RMCopy_ReadOnly_Int32_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckReinterpretLoadRange<U>(System.Int32 @sourceIndex) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@sourceIndex};
+			var ___result = RMCheckReinterpretLoadRange_GU_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckReinterpretStoreRange<U>(System.Int32 @destIndex) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@destIndex};
+			var ___result = RMCheckReinterpretStoreRange_GU_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RType ReinterpretLoad<U>(System.Int32 @sourceIndex) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@sourceIndex};
+			var ___result = RMReinterpretLoad_GU_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
+
+
+		public virtual void ReinterpretStore<U>(System.Int32 @destIndex, Hvak.Editor.Refleaction.RType @data) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@destIndex, @data.Value};
+			var ___result = RMReinterpretStore_GU_Int32_U.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> InternalReinterpret<U>(System.Int32 @length) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@length};
+			var ___result = RMInternalReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
+
+
+		public virtual void SetDisposeSentinel<U>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @result) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@result.Value};
+			var ___result = RMSetDisposeSentinel_GU_Ref_NativeArray_d_U_p_.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void CheckReinterpretSize<U>() where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckReinterpretSize_GU.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CheckReinterpretSize<U>() where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckReinterpretSize_GU.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>() where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{};
-            var ___result = RMReinterpret_GU.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>() where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{};
+			var ___result = RMReinterpret_GU.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual void CheckReinterpretSize<U>(System.Int64 @tSize, System.Int64 @uSize, System.Int32 @expectedTypeSize, System.Int64 @byteLen, System.Int64 @uLen)
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@tSize, @uSize, @expectedTypeSize, @byteLen, @uLen};
-            var ___result = RMCheckReinterpretSize_GU_Int64_Int64_Int32_Int64_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CheckReinterpretSize<U>(System.Int64 @tSize, System.Int64 @uSize, System.Int32 @expectedTypeSize, System.Int64 @byteLen, System.Int64 @uLen)
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@tSize, @uSize, @expectedTypeSize, @byteLen, @uLen};
+			var ___result = RMCheckReinterpretSize_GU_Int64_Int64_Int32_Int64_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>(System.Int32 @expectedTypeSize) where U : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(U)};
-            var ___parameters = new object[]{@expectedTypeSize};
-            var ___result = RMReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>(System.Int32 @expectedTypeSize) where U : struct
+		{
+			var ___genericsType = new Type[] {typeof(U)};
+			var ___parameters = new object[]{@expectedTypeSize};
+			var ___result = RMReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual void CheckGetSubArrayArguments(System.Int32 @start, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMCheckGetSubArrayArguments_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CheckGetSubArrayArguments(System.Int32 @start, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMCheckGetSubArrayArguments_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetSubArray(System.Int32 @start, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMGetSubArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetSubArray(System.Int32 @start, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMGetSubArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly AsReadOnly()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly AsReadOnly()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

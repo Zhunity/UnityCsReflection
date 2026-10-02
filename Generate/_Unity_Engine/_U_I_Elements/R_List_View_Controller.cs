@@ -758,378 +758,289 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void InvokeMakeItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reusableItem.Value};
-            var ___result = RMInvokeMakeItem_ReusableCollectionItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeBindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reusableItem.Value, @index};
-            var ___result = RMInvokeBindItem_ReusableCollectionItem_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean NeedsDragHandle(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMNeedsDragHandle_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddItems(System.Int32 @itemCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@itemCount};
-            var ___result = RMAddItems_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Move(System.Int32 @index, System.Int32 @newIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @newIndex};
-            var ___result = RMMove_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveItem(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveItem_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveItems(System.Collections.Generic.List<System.Int32> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indices};
-            var ___result = RMRemoveItems_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RaiseOnSizeChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRaiseOnSizeChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RaiseItemsAdded(System.Collections.Generic.IEnumerable<System.Int32> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indices};
-            var ___result = RMRaiseItemsAdded_IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RaiseItemsRemoved(System.Collections.Generic.IEnumerable<System.Int32> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indices};
-            var ___result = RMRaiseItemsRemoved_IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Array AddToArray(System.Array @source, System.Int32 @itemCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @itemCount};
-            var ___result = RMAddToArray_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Array>(___result);
-        }
-
-
-        public static System.Array RemoveFromArray(System.Array @source, System.Collections.Generic.List<System.Int32> @indicesToRemove)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @indicesToRemove};
-            var ___result = RMRemoveFromArray_Array_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Array>(___result);
-        }
-
-
-        public virtual void Swap(System.Int32 @lhs, System.Int32 @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMSwap_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnsureItemSourceCanBeResized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnsureItemSourceCanBeResized.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetItemsSourceWithoutNotify(System.Collections.IList @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source};
-            var ___result = RMSetItemsSourceWithoutNotify_IList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetView(UnityEngine.UIElements.BaseVerticalCollectionView @view)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view};
-            var ___result = RMSetView_BaseVerticalCollectionView.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetItemCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetItemCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetIndexForId(System.Int32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMGetIndexForId_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetIdForIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetIdForIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Object GetItemForIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetItemForIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void InvokeUnbindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reusableItem.Value, @index};
-            var ___result = RMInvokeUnbindItem_ReusableCollectionItem_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InvokeDestroyItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reusableItem.Value};
-            var ___result = RMInvokeDestroyItem_ReusableCollectionItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement MakeItem()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeItem.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void BindItem(UnityEngine.UIElements.VisualElement @element, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @index};
-            var ___result = RMBindItem_VisualElement_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnbindItem(UnityEngine.UIElements.VisualElement @element, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @index};
-            var ___result = RMUnbindItem_VisualElement_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DestroyItem(UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMDestroyItem_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RaiseItemsSourceChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRaiseItemsSourceChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RaiseItemIndexChanged(System.Int32 @srcIndex, System.Int32 @dstIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcIndex, @dstIndex};
-            var ___result = RMRaiseItemIndexChanged_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void InvokeMakeItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reusableItem.Value};
+			var ___result = RMInvokeMakeItem_ReusableCollectionItem.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeBindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reusableItem.Value, @index};
+			var ___result = RMInvokeBindItem_ReusableCollectionItem_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean NeedsDragHandle(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMNeedsDragHandle_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddItems(System.Int32 @itemCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@itemCount};
+			var ___result = RMAddItems_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Move(System.Int32 @index, System.Int32 @newIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @newIndex};
+			var ___result = RMMove_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveItem(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveItem_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveItems(System.Collections.Generic.List<System.Int32> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indices};
+			var ___result = RMRemoveItems_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RaiseOnSizeChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRaiseOnSizeChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RaiseItemsAdded(System.Collections.Generic.IEnumerable<System.Int32> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indices};
+			var ___result = RMRaiseItemsAdded_IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RaiseItemsRemoved(System.Collections.Generic.IEnumerable<System.Int32> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indices};
+			var ___result = RMRaiseItemsRemoved_IEnumerable_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Array AddToArray(System.Array @source, System.Int32 @itemCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @itemCount};
+			var ___result = RMAddToArray_Array_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Array>(___result);
+		}
+
+
+		public static System.Array RemoveFromArray(System.Array @source, System.Collections.Generic.List<System.Int32> @indicesToRemove)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @indicesToRemove};
+			var ___result = RMRemoveFromArray_Array_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Array>(___result);
+		}
+
+
+		public virtual void Swap(System.Int32 @lhs, System.Int32 @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMSwap_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnsureItemSourceCanBeResized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnsureItemSourceCanBeResized.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetItemsSourceWithoutNotify(System.Collections.IList @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source};
+			var ___result = RMSetItemsSourceWithoutNotify_IList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetView(UnityEngine.UIElements.BaseVerticalCollectionView @view)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view};
+			var ___result = RMSetView_BaseVerticalCollectionView.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetItemCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetItemCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetIndexForId(System.Int32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id};
+			var ___result = RMGetIndexForId_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetIdForIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetIdForIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Object GetItemForIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetItemForIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void InvokeUnbindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reusableItem.Value, @index};
+			var ___result = RMInvokeUnbindItem_ReusableCollectionItem_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InvokeDestroyItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reusableItem.Value};
+			var ___result = RMInvokeDestroyItem_ReusableCollectionItem.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement MakeItem()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeItem.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual void BindItem(UnityEngine.UIElements.VisualElement @element, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @index};
+			var ___result = RMBindItem_VisualElement_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnbindItem(UnityEngine.UIElements.VisualElement @element, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @index};
+			var ___result = RMUnbindItem_VisualElement_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DestroyItem(UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMDestroyItem_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RaiseItemsSourceChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRaiseItemsSourceChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RaiseItemIndexChanged(System.Int32 @srcIndex, System.Int32 @dstIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcIndex, @dstIndex};
+			var ___result = RMRaiseItemIndexChanged_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -438,137 +438,109 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ExecuteNonDrawMesh(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams @drawParams, System.Single @pixelsPerPoint, ref System.Exception @immediateException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@drawParams.Value, @pixelsPerPoint, @immediateException};
-            var ___result = RMExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.Invoke(___genericsType, ___parameters);
+		public virtual void ExecuteNonDrawMesh(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams @drawParams, System.Single @pixelsPerPoint, ref System.Exception @immediateException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@drawParams.Value, @pixelsPerPoint, @immediateException};
+			var ___result = RMExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.Invoke(___genericsType, ___parameters);
 			@immediateException = ReflectionUtils.Convert<System.Exception>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.RenderTexture @destination, System.Single @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @destination, @depth};
-            var ___result = RMBlit_Texture_RenderTexture_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Blit(UnityEngine.Texture @source, UnityEngine.RenderTexture @destination, System.Single @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @destination, @depth};
+			var ___result = RMBlit_Texture_RenderTexture_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.Vector4 RectToClipSpace(UnityEngine.Rect @rc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rc};
-            var ___result = RMRectToClipSpace_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
+		public static UnityEngine.Vector4 RectToClipSpace(UnityEngine.Rect @rc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rc};
+			var ___result = RMRectToClipSpace_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
 
 
-        public static UnityEngine.Rect CombineScissorRects(UnityEngine.Rect @r0, UnityEngine.Rect @r1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r0, @r1};
-            var ___result = RMCombineScissorRects_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
+		public static UnityEngine.Rect CombineScissorRects(UnityEngine.Rect @r0, UnityEngine.Rect @r1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r0, @r1};
+			var ___result = RMCombineScissorRects_Rect_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
 
 
-        public static UnityEngine.RectInt RectPointsToPixelsAndFlipYAxis(UnityEngine.Rect @rect, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @pixelsPerPoint};
-            var ___result = RMRectPointsToPixelsAndFlipYAxis_Rect_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RectInt>(___result);
-        }
+		public static UnityEngine.RectInt RectPointsToPixelsAndFlipYAxis(UnityEngine.Rect @rect, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @pixelsPerPoint};
+			var ___result = RMRectPointsToPixelsAndFlipYAxis_Rect_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RectInt>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

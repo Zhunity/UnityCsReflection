@@ -86,15 +86,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		}
 
 
-        public virtual System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@msg};
-            var ___result = RMActivate_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.Activation.IConstructionReturnMessage>(___result);
-        }
+		public virtual System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@msg};
+			var ___result = RMActivate_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.Activation.IConstructionReturnMessage>(___result);
+		}
 
 
     }

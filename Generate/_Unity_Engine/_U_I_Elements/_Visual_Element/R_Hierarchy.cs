@@ -552,301 +552,231 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Add(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @child};
-            var ___result = RMInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Remove(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMRemove_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BringToFront(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMBringToFront_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendToBack(UnityEngine.UIElements.VisualElement @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child};
-            var ___result = RMSendToBack_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @over)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child, @over};
-            var ___result = RMPlaceBehind_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @under)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child, @under};
-            var ___result = RMPlaceInFront_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveChildElement(UnityEngine.UIElements.VisualElement @child, System.Int32 @currentIndex, System.Int32 @nextIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child, @currentIndex, @nextIndex};
-            var ___result = RMMoveChildElement_VisualElement_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement> Children()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMChildren.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>>(___result);
-        }
-
-
-        public virtual void SetParent(UnityEngine.UIElements.VisualElement @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetParent_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comp};
-            var ___result = RMSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PutChildAtIndex(UnityEngine.UIElements.VisualElement @child, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child, @index};
-            var ___result = RMPutChildAtIndex_VisualElement_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveChildAtIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveChildAtIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReleaseChildList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseChildList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_Hierarchy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x.Value, @y.Value};
-            var ___result = RMop_Equality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x.Value, @y.Value};
-            var ___result = RMop_Inequality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void Add(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @child};
+			var ___result = RMInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Remove(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMRemove_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BringToFront(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMBringToFront_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendToBack(UnityEngine.UIElements.VisualElement @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child};
+			var ___result = RMSendToBack_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @over)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child, @over};
+			var ___result = RMPlaceBehind_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @under)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child, @under};
+			var ___result = RMPlaceInFront_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MoveChildElement(UnityEngine.UIElements.VisualElement @child, System.Int32 @currentIndex, System.Int32 @nextIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child, @currentIndex, @nextIndex};
+			var ___result = RMMoveChildElement_VisualElement_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement> Children()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMChildren.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>>(___result);
+		}
+
+
+		public virtual void SetParent(UnityEngine.UIElements.VisualElement @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetParent_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comp};
+			var ___result = RMSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PutChildAtIndex(UnityEngine.UIElements.VisualElement @child, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child, @index};
+			var ___result = RMPutChildAtIndex_VisualElement_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveChildAtIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveChildAtIndex_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReleaseChildList()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReleaseChildList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other.Value};
+			var ___result = RMEquals_Hierarchy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x.Value, @y.Value};
+			var ___result = RMop_Equality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x.Value, @y.Value};
+			var ___result = RMop_Inequality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

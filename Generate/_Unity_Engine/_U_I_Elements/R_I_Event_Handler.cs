@@ -102,48 +102,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HasTrickleDownHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasTrickleDownHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean HasBubbleUpHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasBubbleUpHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

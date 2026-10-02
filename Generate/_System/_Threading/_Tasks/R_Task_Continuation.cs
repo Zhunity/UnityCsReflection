@@ -182,103 +182,82 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		}
 
 
-        public virtual void Run(System.Threading.Tasks.Task @completedTask, System.Boolean @bCanInlineContinuationTask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@completedTask, @bCanInlineContinuationTask};
-            var ___result = RMRun_Task_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Run(System.Threading.Tasks.Task @completedTask, System.Boolean @bCanInlineContinuationTask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@completedTask, @bCanInlineContinuationTask};
+			var ___result = RMRun_Task_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task @task, System.Boolean @needsProtection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task, @needsProtection};
-            var ___result = RMInlineIfPossibleOrElseQueue_Task_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task @task, System.Boolean @needsProtection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task, @needsProtection};
+			var ___result = RMInlineIfPossibleOrElseQueue_Task_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Delegate[] GetDelegateContinuationsForDebugger()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDelegateContinuationsForDebugger.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate[]>(___result);
-        }
+		public virtual System.Delegate[] GetDelegateContinuationsForDebugger()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDelegateContinuationsForDebugger.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate[]>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -358,185 +358,148 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RMSetLoadAction_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RMSetLoadAction_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RMSetStoreAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@action};
+			var ___result = RMSetStoreAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLoadAction.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
-        }
+		public virtual UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLoadAction.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
+		}
 
 
-        public virtual UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStoreAction.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
-        }
+		public virtual UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStoreAction.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
+		}
 
 
-        public virtual System.IntPtr GetNativeRenderBufferPtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeRenderBufferPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
+		public virtual System.IntPtr GetNativeRenderBufferPtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeRenderBufferPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public static void SetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferLoadAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @action};
-            var ___result = RMSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
+		public static void SetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferLoadAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @action};
+			var ___result = RMSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void SetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferStoreAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @action};
-            var ___result = RMSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		public static void SetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferStoreAction @action)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @action};
+			var ___result = RMSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetLoadAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetLoadAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
-        }
 
-
-        public static UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetStoreAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetStoreAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
-        }
 
-
-        public static System.IntPtr GetNativeRenderBufferPtr_Injected(ref UnityEngine.RenderBuffer @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+		public static System.IntPtr GetNativeRenderBufferPtr_Injected(ref UnityEngine.RenderBuffer @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

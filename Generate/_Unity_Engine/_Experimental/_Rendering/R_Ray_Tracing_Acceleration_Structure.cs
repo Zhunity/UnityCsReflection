@@ -550,349 +550,265 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr Create(Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc.Value};
-            var ___result = RMCreate_RASSettings.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelStruct)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@accelStruct};
-            var ___result = RMDestroy_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Build()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Build(UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMBuild_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Update(UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMUpdate_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, System.Boolean[] @subMeshMask, System.Boolean[] @subMeshTransparencyFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer, @subMeshMask, @subMeshTransparencyFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
-            var ___result = RMAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
-            var ___result = RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveInstance(UnityEngine.Renderer @targetRenderer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer};
-            var ___result = RMRemoveInstance_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance_Procedural(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceTransform(UnityEngine.Renderer @renderer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer};
-            var ___result = RMUpdateInstanceTransform_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceMask(UnityEngine.Renderer @renderer, System.UInt32 @mask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @mask};
-            var ___result = RMUpdateInstanceMask_Renderer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceID(UnityEngine.Renderer @renderer, System.UInt32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @instanceID};
-            var ___result = RMUpdateInstanceID_Renderer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt64 GetSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.UInt32 GetInstanceCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual void AddInstanceSubMeshFlagsArray(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
-            var ___result = RMAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr Create_Injected(ref Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@desc.Value};
-            var ___result = RMCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr Create(Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc.Value};
+			var ___result = RMCreate_RASSettings.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelStruct)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@accelStruct};
+			var ___result = RMDestroy_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Build()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBuild.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Build(UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeOrigin};
+			var ___result = RMBuild_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Update(UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeOrigin};
+			var ___result = RMUpdate_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, System.Boolean[] @subMeshMask, System.Boolean[] @subMeshTransparencyFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetRenderer, @subMeshMask, @subMeshTransparencyFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
+			var ___result = RMAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
+			var ___result = RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveInstance(UnityEngine.Renderer @targetRenderer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetRenderer};
+			var ___result = RMRemoveInstance_Renderer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
+			var ___result = RMAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
+			var ___result = RMAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddInstance_Procedural(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
+			var ___result = RMAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateInstanceTransform(UnityEngine.Renderer @renderer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer};
+			var ___result = RMUpdateInstanceTransform_Renderer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateInstanceMask(UnityEngine.Renderer @renderer, System.UInt32 @mask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @mask};
+			var ___result = RMUpdateInstanceMask_Renderer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateInstanceID(UnityEngine.Renderer @renderer, System.UInt32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @instanceID};
+			var ___result = RMUpdateInstanceID_Renderer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt64 GetSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.UInt32 GetInstanceCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual void AddInstanceSubMeshFlagsArray(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
+			var ___result = RMAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr Create_Injected(ref Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@desc.Value};
+			var ___result = RMCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
 			@desc = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings>(___parameters[0]);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
 
-
-        public virtual void Build_Injected(ref UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMBuild_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void Build_Injected(ref UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeOrigin};
+			var ___result = RMBuild_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Update_Injected(ref UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMUpdate_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void Update_Injected(ref UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeOrigin};
+			var ___result = RMUpdate_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, ref UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+		public virtual void AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, ref UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
+			var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
 			@instanceTransform = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

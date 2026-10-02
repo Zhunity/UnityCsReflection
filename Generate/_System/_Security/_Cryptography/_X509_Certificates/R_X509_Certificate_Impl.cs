@@ -550,193 +550,155 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 		}
 
 
-        public virtual System.IntPtr GetNativeAppleCertificate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeAppleCertificate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
+		public virtual System.IntPtr GetNativeAppleCertificate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeAppleCertificate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public virtual void ThrowIfContextInvalid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowIfContextInvalid.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ThrowIfContextInvalid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowIfContextInvalid.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @other, out System.Boolean @result)
-        {
+		public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @other, out System.Boolean @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value, @result};
-            var ___result = RMEquals_X509CertificateImpl_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other.Value, @result};
+			var ___result = RMEquals_X509CertificateImpl_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Security.Cryptography.RSA GetRSAPrivateKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRSAPrivateKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.RSA>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Security.Cryptography.DSA GetDSAPrivateKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDSAPrivateKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
-        }
+		public virtual System.Security.Cryptography.RSA GetRSAPrivateKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRSAPrivateKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.RSA>(___result);
+		}
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle @password)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentType, @password.Value};
-            var ___result = RMExport_X509ContentType_SafePasswordHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.Security.Cryptography.DSA GetDSAPrivateKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDSAPrivateKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.DSA>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA @privateKey)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@privateKey};
-            var ___result = RMCopyWithPrivateKey_RSA.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl>(___result);
-        }
+		public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle @password)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentType, @password.Value};
+			var ___result = RMExport_X509ContentType_SafePasswordHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Security.Cryptography.X509Certificates.X509Certificate CreateCertificate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateCertificate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA @privateKey)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@privateKey};
+			var ___result = RMCopyWithPrivateKey_RSA.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Security.Cryptography.X509Certificates.X509Certificate CreateCertificate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateCertificate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

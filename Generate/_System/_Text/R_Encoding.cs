@@ -2534,774 +2534,618 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 		}
 
 
-        public virtual void SetDefaultFallbacks()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDefaultFallbacks.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserializing()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDeserializing.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDeserialized.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ctx};
-            var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DeserializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMDeserializeEncoding_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SerializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMSerializeEncoding_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcEncoding, @dstEncoding, @bytes};
-            var ___result = RMConvert_Encoding_Encoding_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcEncoding, @dstEncoding, @bytes, @index, @count};
-            var ___result = RMConvert_Encoding_Encoding_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public static void RegisterProvider(System.Text.EncodingProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMRegisterProvider_EncodingProvider.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Text.Encoding GetEncoding(System.Int32 @codepage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage};
-            var ___result = RMGetEncoding_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
-
-
-        public static System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage, @encoderFallback, @decoderFallback};
-            var ___result = RMGetEncoding_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
-
-
-        public static System.Text.Encoding GetEncoding(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetEncoding_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
-
-
-        public static System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @encoderFallback, @decoderFallback};
-            var ___result = RMGetEncoding_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
-
-
-        public static System.Text.EncodingInfo[] GetEncodings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEncodings.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.EncodingInfo[]>(___result);
-        }
-
-
-        public virtual System.Byte[] GetPreamble()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPreamble.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual void GetDataItem()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Int32 GetByteCount(System.Char[] @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars};
-            var ___result = RMGetByteCount_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetByteCount(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMGetByteCount_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetByteCount(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars, @index, @count};
-            var ___result = RMGetByteCount_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetByteCount(System.String @str, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str, @index, @count};
-            var ___result = RMGetByteCount_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count};
-            var ___result = RMGetByteCount_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count, @encoder.Value};
-            var ___result = RMGetByteCount_CharPointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Byte[] GetBytes(System.Char[] @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars};
-            var ___result = RMGetBytes_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Byte[] GetBytes(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars, @index, @count};
-            var ___result = RMGetBytes_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Int32 GetBytes(System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars, @charIndex, @charCount, @bytes, @byteIndex};
-            var ___result = RMGetBytes_CharArray_Int32_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Byte[] GetBytes(System.String @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s};
-            var ___result = RMGetBytes_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.Int32 GetBytes(System.String @s, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @charIndex, @charCount, @bytes, @byteIndex};
-            var ___result = RMGetBytes_String_Int32_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, @encoder.Value};
-            var ___result = RMGetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
-            var ___result = RMGetBytes_CharPointer_Int32_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetCharCount(System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes};
-            var ___result = RMGetCharCount_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @index, @count};
-            var ___result = RMGetCharCount_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count};
-            var ___result = RMGetCharCount_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @decoder.Value};
-            var ___result = RMGetCharCount_BytePointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Char[] GetChars(System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes};
-            var ___result = RMGetChars_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public virtual System.Char[] GetChars(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @index, @count};
-            var ___result = RMGetChars_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex};
-            var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount};
-            var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @decoder.Value};
-            var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe virtual System.String GetString(System.Byte* @bytes, System.Int32 @byteCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
-            var ___result = RMGetString_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetChars(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value, @chars.Value};
-            var ___result = RMGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String GetString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value};
-            var ___result = RMGetString_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsAlwaysNormalized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAlwaysNormalized.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsAlwaysNormalized(System.Text.NormalizationForm @form)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@form};
-            var ___result = RMIsAlwaysNormalized_NormalizationForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Text.Decoder GetDecoder()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDecoder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Decoder>(___result);
-        }
-
-
-        public static System.Text.Encoding CreateDefaultEncoding()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateDefaultEncoding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
-
-
-        public virtual void setReadOnly(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMsetReadOnly_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.Encoder GetEncoder()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEncoder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoder>(___result);
-        }
-
-
-        public virtual System.Int32 GetMaxByteCount(System.Int32 @charCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@charCount};
-            var ___result = RMGetMaxByteCount_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetMaxCharCount(System.Int32 @byteCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@byteCount};
-            var ___result = RMGetMaxCharCount_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String GetString(System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes};
-            var ___result = RMGetString_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetString(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, @index, @count};
-            var ___result = RMGetString_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Char[] GetBestFitUnicodeToBytesData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBestFitUnicodeToBytesData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public virtual System.Char[] GetBestFitBytesToUnicodeData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBestFitBytesToUnicodeData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public virtual void ThrowBytesOverflow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowBytesOverflow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowBytesOverflow(Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @nothingEncoded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@encoder.Value, @nothingEncoded};
-            var ___result = RMThrowBytesOverflow_EncoderNLS_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowCharsOverflow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowCharsOverflow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ThrowCharsOverflow(Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder, System.Boolean @nothingDecoded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@decoder.Value, @nothingDecoded};
-            var ___result = RMThrowCharsOverflow_DecoderNLS_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetCharCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes.Value};
-            var ___result = RMGetCharCount_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetByteCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars.Value};
-            var ___result = RMGetByteCount_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetBytes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chars.Value, @bytes.Value};
-            var ___result = RMGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Byte[] GetBytes(System.String @s, System.Int32 @index, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @index, @count};
-            var ___result = RMGetBytes_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void SetDefaultFallbacks()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDefaultFallbacks.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserializing()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDeserializing.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDeserialized.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ctx};
+			var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DeserializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMDeserializeEncoding_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SerializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMSerializeEncoding_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcEncoding, @dstEncoding, @bytes};
+			var ___result = RMConvert_Encoding_Encoding_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcEncoding, @dstEncoding, @bytes, @index, @count};
+			var ___result = RMConvert_Encoding_Encoding_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public static void RegisterProvider(System.Text.EncodingProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMRegisterProvider_EncodingProvider.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Text.Encoding GetEncoding(System.Int32 @codepage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage};
+			var ___result = RMGetEncoding_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
+
+
+		public static System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage, @encoderFallback, @decoderFallback};
+			var ___result = RMGetEncoding_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
+
+
+		public static System.Text.Encoding GetEncoding(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetEncoding_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
+
+
+		public static System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @encoderFallback, @decoderFallback};
+			var ___result = RMGetEncoding_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
+
+
+		public static System.Text.EncodingInfo[] GetEncodings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEncodings.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.EncodingInfo[]>(___result);
+		}
+
+
+		public virtual System.Byte[] GetPreamble()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPreamble.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual void GetDataItem()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDataItem.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Int32 GetByteCount(System.Char[] @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars};
+			var ___result = RMGetByteCount_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetByteCount(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMGetByteCount_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetByteCount(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars, @index, @count};
+			var ___result = RMGetByteCount_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetByteCount(System.String @str, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str, @index, @count};
+			var ___result = RMGetByteCount_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count};
+			var ___result = RMGetByteCount_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count, @encoder.Value};
+			var ___result = RMGetByteCount_CharPointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Byte[] GetBytes(System.Char[] @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars};
+			var ___result = RMGetBytes_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Byte[] GetBytes(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars, @index, @count};
+			var ___result = RMGetBytes_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Int32 GetBytes(System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars, @charIndex, @charCount, @bytes, @byteIndex};
+			var ___result = RMGetBytes_CharArray_Int32_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Byte[] GetBytes(System.String @s)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s};
+			var ___result = RMGetBytes_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.Int32 GetBytes(System.String @s, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @charIndex, @charCount, @bytes, @byteIndex};
+			var ___result = RMGetBytes_String_Int32_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, @encoder.Value};
+			var ___result = RMGetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
+			var ___result = RMGetBytes_CharPointer_Int32_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetCharCount(System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes};
+			var ___result = RMGetCharCount_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @index, @count};
+			var ___result = RMGetCharCount_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count};
+			var ___result = RMGetCharCount_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @decoder.Value};
+			var ___result = RMGetCharCount_BytePointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Char[] GetChars(System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes};
+			var ___result = RMGetChars_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public virtual System.Char[] GetChars(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @index, @count};
+			var ___result = RMGetChars_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex};
+			var ___result = RMGetChars_ByteArray_Int32_Int32_CharArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount};
+			var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @decoder.Value};
+			var ___result = RMGetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe virtual System.String GetString(System.Byte* @bytes, System.Int32 @byteCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
+			var ___result = RMGetString_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 GetChars(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value, @chars.Value};
+			var ___result = RMGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String GetString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value};
+			var ___result = RMGetString_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsAlwaysNormalized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAlwaysNormalized.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsAlwaysNormalized(System.Text.NormalizationForm @form)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@form};
+			var ___result = RMIsAlwaysNormalized_NormalizationForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Text.Decoder GetDecoder()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDecoder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Decoder>(___result);
+		}
+
+
+		public static System.Text.Encoding CreateDefaultEncoding()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateDefaultEncoding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
+
+
+		public virtual void setReadOnly(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMsetReadOnly_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.Encoder GetEncoder()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEncoder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoder>(___result);
+		}
+
+
+		public virtual System.Int32 GetMaxByteCount(System.Int32 @charCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@charCount};
+			var ___result = RMGetMaxByteCount_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetMaxCharCount(System.Int32 @byteCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@byteCount};
+			var ___result = RMGetMaxCharCount_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String GetString(System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes};
+			var ___result = RMGetString_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetString(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, @index, @count};
+			var ___result = RMGetString_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Char[] GetBestFitUnicodeToBytesData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBestFitUnicodeToBytesData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public virtual System.Char[] GetBestFitBytesToUnicodeData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBestFitBytesToUnicodeData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public virtual void ThrowBytesOverflow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowBytesOverflow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowBytesOverflow(Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @nothingEncoded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@encoder.Value, @nothingEncoded};
+			var ___result = RMThrowBytesOverflow_EncoderNLS_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowCharsOverflow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowCharsOverflow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ThrowCharsOverflow(Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder, System.Boolean @nothingDecoded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@decoder.Value, @nothingDecoded};
+			var ___result = RMThrowCharsOverflow_DecoderNLS_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetCharCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes.Value};
+			var ___result = RMGetCharCount_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetByteCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars.Value};
+			var ___result = RMGetByteCount_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetBytes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chars.Value, @bytes.Value};
+			var ___result = RMGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Byte[] GetBytes(System.String @s, System.Int32 @index, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @index, @count};
+			var ___result = RMGetBytes_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

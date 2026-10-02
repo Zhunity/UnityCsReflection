@@ -806,324 +806,265 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.Color @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Addition(UnityEngine.Color @a, UnityEngine.Color @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Addition_Color_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Subtraction(UnityEngine.Color @a, UnityEngine.Color @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Subtraction_Color_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, UnityEngine.Color @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Multiply_Color_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, System.Single @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Multiply_Color_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Multiply(System.Single @b, UnityEngine.Color @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@b, @a};
-            var ___result = RMop_Multiply_Single_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Division(UnityEngine.Color @a, System.Single @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Division_Color_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Color_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Color_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.Color Lerp(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerp_Color_Color_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Color LerpUnclamped(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @t};
-            var ___result = RMLerpUnclamped_Color_Color_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color RGBMultiplied(System.Single @multiplier)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@multiplier};
-            var ___result = RMRGBMultiplied_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color AlphaMultiplied(System.Single @multiplier)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@multiplier};
-            var ___result = RMAlphaMultiplied_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual UnityEngine.Color RGBMultiplied(UnityEngine.Color @multiplier)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@multiplier};
-            var ___result = RMRGBMultiplied_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static UnityEngine.Vector4 op_Implicit(UnityEngine.Color @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMop_Implicit_Color.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Color op_Implicit(UnityEngine.Vector4 @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public static void RGBToHSV(UnityEngine.Color @rgbColor, out System.Single @H, out System.Single @S, out System.Single @V)
-        {
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @formatProvider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.Color @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Addition(UnityEngine.Color @a, UnityEngine.Color @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Addition_Color_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Subtraction(UnityEngine.Color @a, UnityEngine.Color @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Subtraction_Color_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, UnityEngine.Color @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Multiply_Color_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, System.Single @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Multiply_Color_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Multiply(System.Single @b, UnityEngine.Color @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@b, @a};
+			var ___result = RMop_Multiply_Single_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Division(UnityEngine.Color @a, System.Single @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Division_Color_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Color_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Color_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static UnityEngine.Color Lerp(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerp_Color_Color_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Color LerpUnclamped(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @t};
+			var ___result = RMLerpUnclamped_Color_Color_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color RGBMultiplied(System.Single @multiplier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@multiplier};
+			var ___result = RMRGBMultiplied_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color AlphaMultiplied(System.Single @multiplier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@multiplier};
+			var ___result = RMAlphaMultiplied_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual UnityEngine.Color RGBMultiplied(UnityEngine.Color @multiplier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@multiplier};
+			var ___result = RMRGBMultiplied_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static UnityEngine.Vector4 op_Implicit(UnityEngine.Color @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMop_Implicit_Color.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Color op_Implicit(UnityEngine.Vector4 @v)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@v};
+			var ___result = RMop_Implicit_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public static void RGBToHSV(UnityEngine.Color @rgbColor, out System.Single @H, out System.Single @S, out System.Single @V)
+		{
 			@H = default;
 			@S = default;
 			@V = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rgbColor, @H, @S, @V};
-            var ___result = RMRGBToHSV_Color_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rgbColor, @H, @S, @V};
+			var ___result = RMRGBToHSV_Color_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
 			@H = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 			@S = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 			@V = ReflectionUtils.Convert<System.Single>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void RGBToHSVHelper(System.Single @offset, System.Single @dominantcolor, System.Single @colorone, System.Single @colortwo, out System.Single @H, out System.Single @S, out System.Single @V)
-        {
+		public static void RGBToHSVHelper(System.Single @offset, System.Single @dominantcolor, System.Single @colorone, System.Single @colortwo, out System.Single @H, out System.Single @S, out System.Single @V)
+		{
 			@H = default;
 			@S = default;
 			@V = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset, @dominantcolor, @colorone, @colortwo, @H, @S, @V};
-            var ___result = RMRGBToHSVHelper_Single_Single_Single_Single_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset, @dominantcolor, @colorone, @colortwo, @H, @S, @V};
+			var ___result = RMRGBToHSVHelper_Single_Single_Single_Single_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
 			@H = ReflectionUtils.Convert<System.Single>(___parameters[4]);
 			@S = ReflectionUtils.Convert<System.Single>(___parameters[5]);
 			@V = ReflectionUtils.Convert<System.Single>(___parameters[6]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@H, @S, @V};
-            var ___result = RMHSVToRGB_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
+		public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@H, @S, @V};
+			var ___result = RMHSVToRGB_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
 
 
-        public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V, System.Boolean @hdr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@H, @S, @V, @hdr};
-            var ___result = RMHSVToRGB_Single_Single_Single_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
+		public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V, System.Boolean @hdr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@H, @S, @V, @hdr};
+			var ___result = RMHSVToRGB_Single_Single_Single_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -2406,586 +2406,468 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @rule.Value};
-            var ___result = RMSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @rule.Value};
+			var ___result = RMSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean IsValueSet(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMIsValueSet_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsValueSet(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMIsValueSet_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ApplyInlineStyles(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computedStyle.Value};
-            var ___result = RMApplyInlineStyles_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyInlineStyles(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computedStyle.Value};
+			var ___result = RMApplyInlineStyles_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleList<T> GetStyleList<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleList_GT_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleList<T>>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleList<T> GetStyleList<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleList_GT_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleList<T>>(___result);
+		}
 
 
-        public virtual void SetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMSetStyleValueManaged_StyleValueManaged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMSetStyleValueManaged_StyleValueManaged.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryGetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @value.Value};
-            var ___result = RMTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @value.Value};
+			var ___result = RMTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleLength @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleLength.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFloat @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleFloat.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleInt @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleInt.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleColor @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleColor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @inlineValue) where T : struct, System.IConvertible
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@id.Value, @inlineValue.Value};
+			var ___result = RMSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackground @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleBackground.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFontDefinition @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleFontDefinition.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFont @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_StylePropertyId_StyleFont.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleList<T> @inlineValue)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@id.Value, @inlineValue};
+			var ___result = RMSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetInlineCursor(UnityEngine.UIElements.StyleCursor @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineCursor_StyleCursor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleCursor(UnityEngine.UIElements.StyleCursor @cursor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursor};
+			var ___result = RMApplyStyleCursor_StyleCursor.Invoke(___genericsType, ___parameters);
+		}
+
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleLength @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleLength.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFloat @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleFloat.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleInt @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleInt.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleColor @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleColor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @inlineValue) where T : struct, System.IConvertible
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@id.Value, @inlineValue.Value};
-            var ___result = RMSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackground @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleBackground.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFontDefinition @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleFontDefinition.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFont @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleFont.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleList<T> @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetInlineCursor(UnityEngine.UIElements.StyleCursor @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineCursor_StyleCursor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleCursor(UnityEngine.UIElements.StyleCursor @cursor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursor};
-            var ___result = RMApplyStyleCursor_StyleCursor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetInlineTextShadow(UnityEngine.UIElements.StyleTextShadow @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineTextShadow_StyleTextShadow.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleTextShadow(UnityEngine.UIElements.StyleTextShadow @textShadow)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textShadow};
-            var ___result = RMApplyStyleTextShadow_StyleTextShadow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetInlineTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineTransformOrigin_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin @transformOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@transformOrigin};
-            var ___result = RMApplyStyleTransformOrigin_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetInlineTranslate(UnityEngine.UIElements.StyleTranslate @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineTranslate_StyleTranslate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleTranslate(UnityEngine.UIElements.StyleTranslate @translate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@translate};
-            var ___result = RMApplyStyleTranslate_StyleTranslate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetInlineScale(UnityEngine.UIElements.StyleScale @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineScale_StyleScale.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleScale(UnityEngine.UIElements.StyleScale @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scale};
-            var ___result = RMApplyStyleScale_StyleScale.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SetInlineRotate(UnityEngine.UIElements.StyleRotate @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineRotate_StyleRotate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleRotate(UnityEngine.UIElements.StyleRotate @rotate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotate};
-            var ___result = RMApplyStyleRotate_StyleRotate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMApplyStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMApplyStyleValue_StyleValueManaged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveInlineStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMRemoveInlineStyle_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyFromComputedStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @newStyle.Value};
-            var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean SetInlineTextShadow(UnityEngine.UIElements.StyleTextShadow @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineTextShadow_StyleTextShadow.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleTextShadow(UnityEngine.UIElements.StyleTextShadow @textShadow)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textShadow};
+			var ___result = RMApplyStyleTextShadow_StyleTextShadow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SetInlineTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineTransformOrigin_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin @transformOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@transformOrigin};
+			var ___result = RMApplyStyleTransformOrigin_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SetInlineTranslate(UnityEngine.UIElements.StyleTranslate @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineTranslate_StyleTranslate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleTranslate(UnityEngine.UIElements.StyleTranslate @translate)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@translate};
+			var ___result = RMApplyStyleTranslate_StyleTranslate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SetInlineScale(UnityEngine.UIElements.StyleScale @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineScale_StyleScale.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleScale(UnityEngine.UIElements.StyleScale @scale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scale};
+			var ___result = RMApplyStyleScale_StyleScale.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SetInlineRotate(UnityEngine.UIElements.StyleRotate @inlineValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inlineValue};
+			var ___result = RMSetInlineRotate_StyleRotate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyStyleRotate(UnityEngine.UIElements.StyleRotate @rotate)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotate};
+			var ___result = RMApplyStyleRotate_StyleRotate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMApplyStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMApplyStyleValue_StyleValueManaged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean RemoveInlineStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMRemoveInlineStyle_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ApplyFromComputedStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @newStyle.Value};
+			var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean TryGetInlineCursor(ref UnityEngine.UIElements.StyleCursor @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineCursor_Ref_StyleCursor.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineCursor(ref UnityEngine.UIElements.StyleCursor @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineCursor_Ref_StyleCursor.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleCursor>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetInlineTextShadow(ref UnityEngine.UIElements.StyleTextShadow @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineTextShadow_Ref_StyleTextShadow.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineTextShadow(ref UnityEngine.UIElements.StyleTextShadow @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineTextShadow_Ref_StyleTextShadow.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTextShadow>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetInlineTransformOrigin(ref UnityEngine.UIElements.StyleTransformOrigin @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineTransformOrigin_Ref_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineTransformOrigin(ref UnityEngine.UIElements.StyleTransformOrigin @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineTransformOrigin_Ref_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTransformOrigin>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetInlineTranslate(ref UnityEngine.UIElements.StyleTranslate @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineTranslate_Ref_StyleTranslate.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineTranslate(ref UnityEngine.UIElements.StyleTranslate @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineTranslate_Ref_StyleTranslate.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTranslate>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetInlineRotate(ref UnityEngine.UIElements.StyleRotate @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineRotate_Ref_StyleRotate.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineRotate(ref UnityEngine.UIElements.StyleRotate @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineRotate_Ref_StyleRotate.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleRotate>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetInlineScale(ref UnityEngine.UIElements.StyleScale @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineScale_Ref_StyleScale.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryGetInlineScale(ref UnityEngine.UIElements.StyleScale @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMTryGetInlineScale_Ref_StyleScale.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleScale>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleLength>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFloat>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleLength GetStyleLength(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleLength>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleInt>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFloat>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleColor>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleInt GetStyleInt(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleInt>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackground>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleColor GetStyleColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleColor>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackground>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFontDefinition>(___result);
-        }
+		public virtual UnityEngine.UIElements.StyleFont GetStyleFont(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
-        {
+		public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFontDefinition>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @value.Value};
-            var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
+
+		public virtual System.Boolean TryGetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @value.Value};
+			var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMSetStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMSetStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

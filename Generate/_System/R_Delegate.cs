@@ -950,466 +950,379 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Reflection.MethodInfo GetVirtualMethod_internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetVirtualMethod_internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.IntPtr GetNativeFunctionPointer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeFunctionPointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate_internal(System.Type @type, System.Object @target, System.Reflection.MethodInfo @info, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @info, @throwOnBindFailure};
-            var ___result = RMCreateDelegate_internal_Type_Object_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Boolean arg_type_match(System.Type @delArgType, System.Type @argType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delArgType, @argType};
-            var ___result = RMarg_type_match_Type_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean arg_type_match_this(System.Type @delArgType, System.Type @argType, System.Boolean @boxedThis)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delArgType, @argType, @boxedThis};
-            var ___result = RMarg_type_match_this_Type_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean return_type_match(System.Type @delReturnType, System.Type @returnType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delReturnType, @returnType};
-            var ___result = RMreturn_type_match_Type_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @firstArgument, @method, @throwOnBindFailure};
-            var ___result = RMCreateDelegate_Type_Object_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure, System.Boolean @allowClosed)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @firstArgument, @method, @throwOnBindFailure, @allowClosed};
-            var ___result = RMCreateDelegate_Type_Object_MethodInfo_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @firstArgument, @method};
-            var ___result = RMCreateDelegate_Type_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @method, @throwOnBindFailure};
-            var ___result = RMCreateDelegate_Type_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @method};
-            var ___result = RMCreateDelegate_Type_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method};
-            var ___result = RMCreateDelegate_Type_Object_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Reflection.MethodInfo GetCandidateMethod(System.Type @type, System.Type @target, System.String @method, System.Reflection.BindingFlags @bflags, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method, @bflags, @ignoreCase, @throwOnBindFailure};
-            var ___result = RMGetCandidateMethod_Type_Type_String_BindingFlags_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method, @ignoreCase, @throwOnBindFailure};
-            var ___result = RMCreateDelegate_Type_Type_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method};
-            var ___result = RMCreateDelegate_Type_Type_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method, @ignoreCase};
-            var ___result = RMCreateDelegate_Type_Type_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method, @ignoreCase, @throwOnBindFailure};
-            var ___result = RMCreateDelegate_Type_Object_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @target, @method, @ignoreCase};
-            var ___result = RMCreateDelegate_Type_Object_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public virtual System.Object DynamicInvoke(System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args};
-            var ___result = RMDynamicInvoke_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void InitializeDelegateData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeDelegateData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args};
-            var ___result = RMDynamicInvokeImpl_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo GetMethodImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMethodImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Delegate[] GetInvocationList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInvocationList.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate[]>(___result);
-        }
-
-
-        public static System.Delegate Combine(System.Delegate @a, System.Delegate @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMCombine_Delegate_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate Combine(System.Delegate[] @delegates)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delegates};
-            var ___result = RMCombine_DelegateArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public virtual System.Delegate CombineImpl(System.Delegate @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMCombineImpl_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate Remove(System.Delegate @source, System.Delegate @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @value};
-            var ___result = RMRemove_Delegate_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public virtual System.Delegate RemoveImpl(System.Delegate @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMRemoveImpl_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Delegate RemoveAll(System.Delegate @source, System.Delegate @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @value};
-            var ___result = RMRemoveAll_Delegate_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Delegate @d1, System.Delegate @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Equality_Delegate_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.Delegate @d1, System.Delegate @d2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d1, @d2};
-            var ___result = RMop_Inequality_Delegate_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsTransparentProxy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsTransparentProxy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Delegate CreateDelegateNoSecurityCheck(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value, @firstArgument, @method};
-            var ___result = RMCreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Delegate>(___result);
-        }
-
-
-        public static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMAllocDelegateLike_internal_Delegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.MulticastDelegate>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Reflection.MethodInfo GetVirtualMethod_internal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetVirtualMethod_internal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.IntPtr GetNativeFunctionPointer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeFunctionPointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate_internal(System.Type @type, System.Object @target, System.Reflection.MethodInfo @info, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @info, @throwOnBindFailure};
+			var ___result = RMCreateDelegate_internal_Type_Object_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Boolean arg_type_match(System.Type @delArgType, System.Type @argType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delArgType, @argType};
+			var ___result = RMarg_type_match_Type_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean arg_type_match_this(System.Type @delArgType, System.Type @argType, System.Boolean @boxedThis)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delArgType, @argType, @boxedThis};
+			var ___result = RMarg_type_match_this_Type_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean return_type_match(System.Type @delReturnType, System.Type @returnType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delReturnType, @returnType};
+			var ___result = RMreturn_type_match_Type_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @firstArgument, @method, @throwOnBindFailure};
+			var ___result = RMCreateDelegate_Type_Object_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure, System.Boolean @allowClosed)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @firstArgument, @method, @throwOnBindFailure, @allowClosed};
+			var ___result = RMCreateDelegate_Type_Object_MethodInfo_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @firstArgument, @method};
+			var ___result = RMCreateDelegate_Type_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @method, @throwOnBindFailure};
+			var ___result = RMCreateDelegate_Type_MethodInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @method};
+			var ___result = RMCreateDelegate_Type_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method};
+			var ___result = RMCreateDelegate_Type_Object_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Reflection.MethodInfo GetCandidateMethod(System.Type @type, System.Type @target, System.String @method, System.Reflection.BindingFlags @bflags, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method, @bflags, @ignoreCase, @throwOnBindFailure};
+			var ___result = RMGetCandidateMethod_Type_Type_String_BindingFlags_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method, @ignoreCase, @throwOnBindFailure};
+			var ___result = RMCreateDelegate_Type_Type_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method};
+			var ___result = RMCreateDelegate_Type_Type_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method, @ignoreCase};
+			var ___result = RMCreateDelegate_Type_Type_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method, @ignoreCase, @throwOnBindFailure};
+			var ___result = RMCreateDelegate_Type_Object_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @target, @method, @ignoreCase};
+			var ___result = RMCreateDelegate_Type_Object_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public virtual System.Object DynamicInvoke(System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args};
+			var ___result = RMDynamicInvoke_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void InitializeDelegateData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeDelegateData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args};
+			var ___result = RMDynamicInvokeImpl_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo GetMethodImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMethodImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Delegate[] GetInvocationList()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInvocationList.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate[]>(___result);
+		}
+
+
+		public static System.Delegate Combine(System.Delegate @a, System.Delegate @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMCombine_Delegate_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate Combine(System.Delegate[] @delegates)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@delegates};
+			var ___result = RMCombine_DelegateArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public virtual System.Delegate CombineImpl(System.Delegate @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMCombineImpl_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate Remove(System.Delegate @source, System.Delegate @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @value};
+			var ___result = RMRemove_Delegate_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public virtual System.Delegate RemoveImpl(System.Delegate @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMRemoveImpl_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Delegate RemoveAll(System.Delegate @source, System.Delegate @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @value};
+			var ___result = RMRemoveAll_Delegate_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.Delegate @d1, System.Delegate @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Equality_Delegate_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.Delegate @d1, System.Delegate @d2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d1, @d2};
+			var ___result = RMop_Inequality_Delegate_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsTransparentProxy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsTransparentProxy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Delegate CreateDelegateNoSecurityCheck(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value, @firstArgument, @method};
+			var ___result = RMCreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Delegate>(___result);
+		}
+
+
+		public static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMAllocDelegateLike_internal_Delegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.MulticastDelegate>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

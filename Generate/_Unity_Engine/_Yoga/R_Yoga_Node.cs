@@ -1990,334 +1990,257 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkHasNewLayout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkHasNewLayout.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyStyle(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @srcNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcNode.Value};
-            var ___result = RMCopyStyle_YogaNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkLayoutSeen()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkLayoutSeen.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ValuesEqual(System.Single @f1, System.Single @f2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f1, @f2};
-            var ___result = RMValuesEqual_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Insert(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @node.Value};
-            var ___result = RMInsert_Int32_YogaNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value};
-            var ___result = RMAddChild_YogaNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveChild(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @child)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@child.Value};
-            var ___result = RMRemoveChild_YogaNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 IndexOf(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node.Value};
-            var ___result = RMIndexOf_YogaNode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetMeasureFunction(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RMeasureFunction @measureFunction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@measureFunction.Value};
-            var ___result = RMSetMeasureFunction_MeasureFunction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBaselineFunction(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RBaselineFunction @baselineFunction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@baselineFunction.Value};
-            var ___result = RMSetBaselineFunction_BaselineFunction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CalculateLayout(System.Single @width, System.Single @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@width, @height};
-            var ___result = RMCalculateLayout_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize MeasureInternal(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
-            var ___result = RMMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
-        }
-
-
-        public static System.Single BaselineInternal(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node.Value, @width, @height};
-            var ___result = RMBaselineInternal_YogaNode_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.String Print(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaPrintOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@options.Value};
-            var ___result = RMPrint_YogaPrintOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode> GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode>>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public static System.Int32 GetInstanceCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetStylePosition(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@edge.Value, @value.Value};
-            var ___result = RMSetStylePosition_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetStyleMargin(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@edge.Value, @value.Value};
-            var ___result = RMSetStyleMargin_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetStylePadding(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@edge.Value, @value.Value};
-            var ___result = RMSetStylePadding_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkHasNewLayout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkHasNewLayout.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyStyle(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @srcNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcNode.Value};
+			var ___result = RMCopyStyle_YogaNode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkLayoutSeen()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMarkLayoutSeen.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ValuesEqual(System.Single @f1, System.Single @f2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@f1, @f2};
+			var ___result = RMValuesEqual_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Insert(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @node.Value};
+			var ___result = RMInsert_Int32_YogaNode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddChild(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value};
+			var ___result = RMAddChild_YogaNode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveChild(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @child)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@child.Value};
+			var ___result = RMRemoveChild_YogaNode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 IndexOf(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node.Value};
+			var ___result = RMIndexOf_YogaNode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetMeasureFunction(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RMeasureFunction @measureFunction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@measureFunction.Value};
+			var ___result = RMSetMeasureFunction_MeasureFunction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBaselineFunction(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RBaselineFunction @baselineFunction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@baselineFunction.Value};
+			var ___result = RMSetBaselineFunction_BaselineFunction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CalculateLayout(System.Single @width, System.Single @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@width, @height};
+			var ___result = RMCalculateLayout_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize MeasureInternal(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
+			var ___result = RMMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
+		}
+
+
+		public static System.Single BaselineInternal(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node.Value, @width, @height};
+			var ___result = RMBaselineInternal_YogaNode_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.String Print(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaPrintOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@options.Value};
+			var ___result = RMPrint_YogaPrintOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode> GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode>>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public static System.Int32 GetInstanceCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetStylePosition(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@edge.Value, @value.Value};
+			var ___result = RMSetStylePosition_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetStyleMargin(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@edge.Value, @value.Value};
+			var ___result = RMSetStyleMargin_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetStylePadding(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge @edge, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@edge.Value, @value.Value};
+			var ___result = RMSetStylePadding_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

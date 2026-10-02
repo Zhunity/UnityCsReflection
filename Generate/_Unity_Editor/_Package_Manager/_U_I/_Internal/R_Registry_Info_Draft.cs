@@ -566,202 +566,155 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsReady()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsReady.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetModifiedAfterUndo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetModifiedAfterUndo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterWithOriginalOnUndo(System.String @undoEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@undoEvent};
-            var ___result = RMRegisterWithOriginalOnUndo_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterOnUndo(System.String @undoEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@undoEvent};
-            var ___result = RMRegisterOnUndo_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetOriginalRegistryInfo(UnityEditor.PackageManager.RegistryInfo @registryInfo, System.Boolean @isUndo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@registryInfo, @isUndo};
-            var ___result = RMSetOriginalRegistryInfo_RegistryInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetScopes(System.Collections.Generic.IEnumerable<System.String> @scopes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scopes};
-            var ___result = RMSetScopes_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevertChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRevertChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Validate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddErrorMessage(System.String @message)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@message};
-            var ___result = RMAddErrorMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsReady()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsReady.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetModifiedAfterUndo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetModifiedAfterUndo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterWithOriginalOnUndo(System.String @undoEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@undoEvent};
+			var ___result = RMRegisterWithOriginalOnUndo_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterOnUndo(System.String @undoEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@undoEvent};
+			var ___result = RMRegisterOnUndo_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetOriginalRegistryInfo(UnityEditor.PackageManager.RegistryInfo @registryInfo, System.Boolean @isUndo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@registryInfo, @isUndo};
+			var ___result = RMSetOriginalRegistryInfo_RegistryInfo_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetScopes(System.Collections.Generic.IEnumerable<System.String> @scopes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scopes};
+			var ___result = RMSetScopes_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RevertChanges()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRevertChanges.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Validate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddErrorMessage(System.String @message)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@message};
+			var ___result = RMAddErrorMessage_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

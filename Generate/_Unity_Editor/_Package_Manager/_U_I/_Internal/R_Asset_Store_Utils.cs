@@ -358,180 +358,143 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityConnect.Value};
-            var ___result = RMResolveDependencies_UnityConnectProxy.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unityConnect.Value};
+			var ___result = RMResolveDependencies_UnityConnectProxy.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Collections.Generic.Dictionary<System.String, System.Object> ParseResponseAsDictionary(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request.Value};
-            var ___result = RMParseResponseAsDictionary_IAsyncHTTPClient.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
-        }
+		public static System.Collections.Generic.Dictionary<System.String, System.Object> ParseResponseAsDictionary(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request.Value};
+			var ___result = RMParseResponseAsDictionary_IAsyncHTTPClient.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
+		}
 
 
-        public virtual System.String BuildBaseDownloadPath(System.String @publisher, System.String @category)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@publisher, @category};
-            var ___result = RMBuildBaseDownloadPath_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String BuildBaseDownloadPath(System.String @publisher, System.String @category)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@publisher, @category};
+			var ___result = RMBuildBaseDownloadPath_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String BuildFinalDownloadPath(System.String @basePath, System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@basePath, @packageName};
-            var ___result = RMBuildFinalDownloadPath_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String BuildFinalDownloadPath(System.String @basePath, System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@basePath, @packageName};
+			var ___result = RMBuildFinalDownloadPath_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Download(System.String @id, System.String @url, System.String[] @destination, System.String @key, System.String @jsonData, System.Boolean @resumeOK)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id, @url, @destination, @key, @jsonData, @resumeOK};
-            var ___result = RMDownload_String_String_StringArray_String_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Download(System.String @id, System.String @url, System.String[] @destination, System.String @key, System.String @jsonData, System.Boolean @resumeOK)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id, @url, @destination, @key, @jsonData, @resumeOK};
+			var ___result = RMDownload_String_String_StringArray_String_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String CheckDownload(System.String @id, System.String @url, System.String[] @destination, System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id, @url, @destination, @key};
-            var ___result = RMCheckDownload_String_String_StringArray_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String CheckDownload(System.String @id, System.String @url, System.String[] @destination, System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id, @url, @destination, @key};
+			var ___result = RMCheckDownload_String_String_StringArray_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean AbortDownload(System.String[] @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination};
-            var ___result = RMAbortDownload_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean AbortDownload(System.String[] @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination};
+			var ___result = RMAbortDownload_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void RegisterDownloadDelegate(UnityEngine.ScriptableObject @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMRegisterDownloadDelegate_ScriptableObject.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterDownloadDelegate(UnityEngine.ScriptableObject @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMRegisterDownloadDelegate_ScriptableObject.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UnRegisterDownloadDelegate(UnityEngine.ScriptableObject @d)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@d};
-            var ___result = RMUnRegisterDownloadDelegate_ScriptableObject.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UnRegisterDownloadDelegate(UnityEngine.ScriptableObject @d)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@d};
+			var ___result = RMUnRegisterDownloadDelegate_ScriptableObject.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEditor.PackageInfo[] GetLocalPackageList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLocalPackageList.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageInfo[]>(___result);
-        }
+		public virtual UnityEditor.PackageInfo[] GetLocalPackageList()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLocalPackageList.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageInfo[]>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

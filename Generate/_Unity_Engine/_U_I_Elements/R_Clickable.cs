@@ -822,356 +822,272 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void OnTimer(UnityEngine.UIElements.TimerState @timerState)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timerState};
-            var ___result = RMOnTimer_TimerState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsRepeatable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsRepeatable.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RegisterCallbacksOnTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRegisterCallbacksOnTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterCallbacksFromTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnregisterCallbacksFromTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseDown_MouseDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseMove_MouseMoveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseUp_MouseUpEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseCaptureOut(UnityEngine.UIElements.MouseCaptureOutEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseCaptureOut_MouseCaptureOutEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPointerDown(UnityEngine.UIElements.PointerDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnPointerDown_PointerDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPointerMove(UnityEngine.UIElements.PointerMoveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnPointerMove_PointerMoveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPointerUp(UnityEngine.UIElements.PointerUpEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnPointerUp_PointerUpEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPointerCancel(UnityEngine.UIElements.PointerCancelEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnPointerCancel_PointerCancelEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPointerCaptureOut(UnityEngine.UIElements.PointerCaptureOutEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnPointerCaptureOut_PointerCaptureOutEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ContainsPointer(System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pointerId};
-            var ___result = RMContainsPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsNotMouseEvent(System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pointerId};
-            var ___result = RMIsNotMouseEvent_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Invoke(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMInvoke_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase @evt, System.Int32 @delayMs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @delayMs};
-            var ___result = RMSimulateSingleClick_EventBase_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @localPosition, @pointerId};
-            var ___result = RMProcessDownEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @localPosition};
-            var ___result = RMProcessMoveEvent_EventBase_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @localPosition, @pointerId};
-            var ___result = RMProcessUpEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase @evt, System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @pointerId};
-            var ___result = RMProcessCancelEvent_EventBase_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SimulateSingleClick__1__b__43_0()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__0__SimulateSingleClick__1__b__43_0.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCanStartManipulation_IPointerEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCanStopManipulation_IPointerEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCanStartManipulation_IMouseEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCanStopManipulation_IMouseEvent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void OnTimer(UnityEngine.UIElements.TimerState @timerState)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timerState};
+			var ___result = RMOnTimer_TimerState.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsRepeatable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsRepeatable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void RegisterCallbacksOnTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRegisterCallbacksOnTarget.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterCallbacksFromTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnregisterCallbacksFromTarget.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseDown_MouseDownEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseMove_MouseMoveEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseUp_MouseUpEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMouseCaptureOut(UnityEngine.UIElements.MouseCaptureOutEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnMouseCaptureOut_MouseCaptureOutEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPointerDown(UnityEngine.UIElements.PointerDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnPointerDown_PointerDownEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPointerMove(UnityEngine.UIElements.PointerMoveEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnPointerMove_PointerMoveEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPointerUp(UnityEngine.UIElements.PointerUpEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnPointerUp_PointerUpEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPointerCancel(UnityEngine.UIElements.PointerCancelEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnPointerCancel_PointerCancelEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPointerCaptureOut(UnityEngine.UIElements.PointerCaptureOutEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnPointerCaptureOut_PointerCaptureOutEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ContainsPointer(System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pointerId};
+			var ___result = RMContainsPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsNotMouseEvent(System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pointerId};
+			var ___result = RMIsNotMouseEvent_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Invoke(UnityEngine.UIElements.EventBase @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMInvoke_EventBase.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase @evt, System.Int32 @delayMs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @delayMs};
+			var ___result = RMSimulateSingleClick_EventBase_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @localPosition, @pointerId};
+			var ___result = RMProcessDownEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @localPosition};
+			var ___result = RMProcessMoveEvent_EventBase_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @localPosition, @pointerId};
+			var ___result = RMProcessUpEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase @evt, System.Int32 @pointerId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @pointerId};
+			var ___result = RMProcessCancelEvent_EventBase_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SimulateSingleClick__1__b__43_0()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__0__SimulateSingleClick__1__b__43_0.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMCanStartManipulation_IPointerEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMCanStopManipulation_IPointerEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMCanStartManipulation_IMouseEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMCanStopManipulation_IMouseEvent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

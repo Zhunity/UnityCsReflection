@@ -998,483 +998,388 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 
-        public virtual void SetContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector @selector, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext @varContext, System.Single @dpiScaling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @selector.Value, @varContext.Value, @dpiScaling};
-            var ___result = RMSetContext_StyleSheet_StyleComplexSelector_StyleVariableContext_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInlineContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> @properties, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @propertyIds, System.Single @dpiScaling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @properties.Value, @propertyIds.Value, @dpiScaling};
-            var ___result = RMSetInlineContext_StyleSheet_StylePropertyArray_StylePropertyIdArray_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId MoveNextProperty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveNextProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue GetValue(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetValue_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType GetValueType(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetValueType_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType>(___result);
-        }
-
-
-        public virtual System.Boolean IsValueType(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @type.Value};
-            var ___result = RMIsValueType_Int32_StyleValueType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsKeyword(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @keyword.Value};
-            var ___result = RMIsKeyword_Int32_StyleValueKeyword.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ReadAsString(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadAsString_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Length ReadLength(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadLength_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.TimeValue ReadTimeValue(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadTimeValue_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TimeValue>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadTranslate_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadTransformOrigin_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadRotate_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Rotate>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Scale ReadScale(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadScale_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Scale>(___result);
-        }
-
-
-        public virtual System.Single ReadFloat(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadFloat_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Int32 ReadInt(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadInt_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Color ReadColor(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadColor_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual System.Int32 ReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @index};
-            var ___result = RMReadEnum_StyleEnumType_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.FontDefinition ReadFontDefinition(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadFontDefinition_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.FontDefinition>(___result);
-        }
-
-
-        public virtual UnityEngine.Font ReadFont(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadFont_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Background ReadBackground(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadBackground_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.Cursor ReadCursor(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadCursor_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Cursor>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.TextShadow ReadTextShadow(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadTextShadow_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TextShadow>(___result);
-        }
-
-
-        public virtual void ReadListEasingFunction(System.Collections.Generic.List<UnityEngine.UIElements.EasingFunction> @list, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list, @index};
-            var ___result = RMReadListEasingFunction_List_d_EasingFunction_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadListTimeValue(System.Collections.Generic.List<UnityEngine.UIElements.TimeValue> @list, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list, @index};
-            var ___result = RMReadListTimeValue_List_d_TimeValue_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadListStylePropertyName(System.Collections.Generic.List<UnityEngine.UIElements.StylePropertyName> @list, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list, @index};
-            var ___result = RMReadListStylePropertyName_List_d_StylePropertyName_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReadListString(System.Collections.Generic.List<System.String> @list, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@list, @index};
-            var ___result = RMReadListString_List_d_String_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LoadProperties()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadProperties.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCurrentProperty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetCurrentProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @zVvalue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @zVvalue.Value};
-            var ___result = RMReadTransformOrigin_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Length ReadTransformOriginEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value, out System.Boolean @isVertical, out System.Boolean @isHorizontal)
-        {
+		public virtual void SetContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector @selector, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext @varContext, System.Single @dpiScaling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @selector.Value, @varContext.Value, @dpiScaling};
+			var ___result = RMSetContext_StyleSheet_StyleComplexSelector_StyleVariableContext_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetInlineContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> @properties, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @propertyIds, System.Single @dpiScaling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @properties.Value, @propertyIds.Value, @dpiScaling};
+			var ___result = RMSetInlineContext_StyleSheet_StylePropertyArray_StylePropertyIdArray_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId MoveNextProperty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveNextProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue GetValue(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetValue_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType GetValueType(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetValueType_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType>(___result);
+		}
+
+
+		public virtual System.Boolean IsValueType(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @type.Value};
+			var ___result = RMIsValueType_Int32_StyleValueType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsKeyword(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @keyword.Value};
+			var ___result = RMIsKeyword_Int32_StyleValueKeyword.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ReadAsString(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadAsString_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Length ReadLength(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadLength_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.TimeValue ReadTimeValue(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadTimeValue_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TimeValue>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadTranslate_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadTransformOrigin_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadRotate_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Rotate>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Scale ReadScale(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadScale_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Scale>(___result);
+		}
+
+
+		public virtual System.Single ReadFloat(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadFloat_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Int32 ReadInt(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadInt_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.Color ReadColor(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadColor_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual System.Int32 ReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value, @index};
+			var ___result = RMReadEnum_StyleEnumType_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.FontDefinition ReadFontDefinition(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadFontDefinition_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.FontDefinition>(___result);
+		}
+
+
+		public virtual UnityEngine.Font ReadFont(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadFont_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Font>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Background ReadBackground(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadBackground_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.Cursor ReadCursor(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadCursor_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Cursor>(___result);
+		}
+
+
+		public virtual UnityEngine.UIElements.TextShadow ReadTextShadow(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMReadTextShadow_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TextShadow>(___result);
+		}
+
+
+		public virtual void ReadListEasingFunction(System.Collections.Generic.List<UnityEngine.UIElements.EasingFunction> @list, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list, @index};
+			var ___result = RMReadListEasingFunction_List_d_EasingFunction_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadListTimeValue(System.Collections.Generic.List<UnityEngine.UIElements.TimeValue> @list, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list, @index};
+			var ___result = RMReadListTimeValue_List_d_TimeValue_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadListStylePropertyName(System.Collections.Generic.List<UnityEngine.UIElements.StylePropertyName> @list, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list, @index};
+			var ___result = RMReadListStylePropertyName_List_d_StylePropertyName_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReadListString(System.Collections.Generic.List<System.String> @list, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@list, @index};
+			var ___result = RMReadListString_List_d_String_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LoadProperties()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadProperties.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCurrentProperty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetCurrentProperty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @zVvalue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @zVvalue.Value};
+			var ___result = RMReadTransformOrigin_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___result);
+		}
+
+
+		public static UnityEngine.UIElements.Length ReadTransformOriginEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value, out System.Boolean @isVertical, out System.Boolean @isHorizontal)
+		{
 			@isVertical = default;
 			@isHorizontal = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value, @isVertical, @isHorizontal};
-            var ___result = RMReadTransformOriginEnum_StylePropertyValue_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value, @isVertical, @isHorizontal};
+			var ___result = RMReadTransformOriginEnum_StylePropertyValue_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@isVertical = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 			@isHorizontal = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
-            var ___result = RMReadTranslate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___result);
-        }
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.Scale ReadScale(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
-            var ___result = RMReadScale_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Scale>(___result);
-        }
+		public static UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
+			var ___result = RMReadTranslate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val4)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value, @val4.Value};
-            var ___result = RMReadRotate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Rotate>(___result);
-        }
+		public static UnityEngine.UIElements.Scale ReadScale(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
+			var ___result = RMReadScale_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Scale>(___result);
+		}
 
 
-        public static System.Int32 ReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @value.Value};
-            var ___result = RMReadEnum_StyleEnumType_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val4)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value, @val4.Value};
+			var ___result = RMReadRotate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Rotate>(___result);
+		}
 
 
-        public static UnityEngine.UIElements.Angle ReadAngle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMReadAngle_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
-        }
+		public static System.Int32 ReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value, @value.Value};
+			var ___result = RMReadEnum_StyleEnumType_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean TryGetImageSourceFromValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @propertyValue, System.Single @dpiScaling, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RImageSource @source)
-        {
+		public static UnityEngine.UIElements.Angle ReadAngle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMReadAngle_StylePropertyValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
+		}
+
+
+		public static System.Boolean TryGetImageSourceFromValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @propertyValue, System.Single @dpiScaling, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RImageSource @source)
+		{
 			@source = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyValue.Value, @dpiScaling, @source.Value};
-            var ___result = RMTryGetImageSourceFromValue_StylePropertyValue_Single_Out_ImageSource.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyValue.Value, @dpiScaling, @source.Value};
+			var ___result = RMTryGetImageSourceFromValue_StylePropertyValue_Single_Out_ImageSource.Invoke(___genericsType, ___parameters);
 			@source = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RImageSource>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -662,285 +662,227 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String @fontname, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontname, @size};
-            var ___result = RMCreateDynamicFontFromOSFont_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
-        }
+		public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String @fontname, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontname, @size};
+			var ___result = RMCreateDynamicFontFromOSFont_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Font>(___result);
+		}
 
 
-        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String[] @fontnames, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fontnames, @size};
-            var ___result = RMCreateDynamicFontFromOSFont_StringArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
-        }
+		public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String[] @fontnames, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fontnames, @size};
+			var ___result = RMCreateDynamicFontFromOSFont_StringArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Font>(___result);
+		}
 
 
-        public static void InvokeTextureRebuilt_Internal(UnityEngine.Font @font)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font};
-            var ___result = RMInvokeTextureRebuilt_Internal_Font.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void InvokeTextureRebuilt_Internal(UnityEngine.Font @font)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font};
+			var ___result = RMInvokeTextureRebuilt_Internal_Font.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Int32 GetMaxVertsForString(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMGetMaxVertsForString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 GetMaxVertsForString(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMGetMaxVertsForString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static UnityEngine.Font GetDefault()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDefault.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
-        }
+		public static UnityEngine.Font GetDefault()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDefault.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Font>(___result);
+		}
 
 
-        public virtual System.Boolean HasCharacter(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMHasCharacter_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasCharacter(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMHasCharacter_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean HasCharacter(System.Int32 @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasCharacter(System.Int32 @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.String[] GetOSInstalledFontNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetOSInstalledFontNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetOSInstalledFontNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetOSInstalledFontNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public static System.String[] GetPathsToOSFonts()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPathsToOSFonts.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetPathsToOSFonts()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPathsToOSFonts.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public static void Internal_CreateFont(UnityEngine.Font @self, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @name};
-            var ___result = RMInternal_CreateFont_Font_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Internal_CreateFont(UnityEngine.Font @self, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @name};
+			var ___result = RMInternal_CreateFont_Font_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Internal_CreateFontFromPath(UnityEngine.Font @self, System.String @fontPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @fontPath};
-            var ___result = RMInternal_CreateFontFromPath_Font_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Internal_CreateFontFromPath(UnityEngine.Font @self, System.String @fontPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @fontPath};
+			var ___result = RMInternal_CreateFontFromPath_Font_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Internal_CreateDynamicFont(UnityEngine.Font @self, System.String[] @_names, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @_names, @size};
-            var ___result = RMInternal_CreateDynamicFont_Font_StringArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Internal_CreateDynamicFont(UnityEngine.Font @self, System.String[] @_names, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @_names, @size};
+			var ___result = RMInternal_CreateDynamicFont_Font_StringArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size, UnityEngine.FontStyle @style)
-        {
+		public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size, UnityEngine.FontStyle @style)
+		{
 			@info = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch, @info, @size, @style};
-            var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch, @info, @size, @style};
+			var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.Invoke(___genericsType, ___parameters);
 			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size)
-        {
+		public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size)
+		{
 			@info = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch, @info, @size};
-            var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch, @info, @size};
+			var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32.Invoke(___genericsType, ___parameters);
 			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info)
-        {
+		public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info)
+		{
 			@info = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ch, @info};
-            var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ch, @info};
+			var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo.Invoke(___genericsType, ___parameters);
 			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size, UnityEngine.FontStyle @style)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characters, @size, @style};
-            var ___result = RMRequestCharactersInTexture_String_Int32_FontStyle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characters, @size};
-            var ___result = RMRequestCharactersInTexture_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size, UnityEngine.FontStyle @style)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characters, @size, @style};
+			var ___result = RMRequestCharactersInTexture_String_Int32_FontStyle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestCharactersInTexture(System.String @characters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characters};
-            var ___result = RMRequestCharactersInTexture_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characters, @size};
+			var ___result = RMRequestCharactersInTexture_String_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void RequestCharactersInTexture(System.String @characters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characters};
+			var ___result = RMRequestCharactersInTexture_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

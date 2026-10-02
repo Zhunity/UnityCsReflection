@@ -54,15 +54,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		}
 
 
-        public virtual System.Int32 Compare(System.Object @x, System.Object @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMCompare_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 Compare(System.Object @x, System.Object @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMCompare_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
     }

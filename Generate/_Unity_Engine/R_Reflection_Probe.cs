@@ -2022,782 +2022,612 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 RenderProbe()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRenderProbe.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 RenderProbe()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRenderProbe.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 RenderProbe(UnityEngine.RenderTexture @targetTexture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetTexture};
-            var ___result = RMRenderProbe_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 RenderProbe(UnityEngine.RenderTexture @targetTexture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetTexture};
+			var ___result = RMRenderProbe_RenderTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean IsFinishedRendering(System.Int32 @renderId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderId};
-            var ___result = RMIsFinishedRendering_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsFinishedRendering(System.Int32 @renderId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderId};
+			var ___result = RMIsFinishedRendering_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 ScheduleRender(UnityEngine.Rendering.ReflectionProbeTimeSlicingMode @timeSlicingMode, UnityEngine.RenderTexture @targetTexture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeSlicingMode, @targetTexture};
-            var ___result = RMScheduleRender_ReflectionProbeTimeSlicingMode_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 ScheduleRender(UnityEngine.Rendering.ReflectionProbeTimeSlicingMode @timeSlicingMode, UnityEngine.RenderTexture @targetTexture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeSlicingMode, @targetTexture};
+			var ___result = RMScheduleRender_ReflectionProbeTimeSlicingMode_RenderTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean BlendCubemap(UnityEngine.Texture @src, UnityEngine.Texture @dst, System.Single @blend, UnityEngine.RenderTexture @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @blend, @target};
-            var ___result = RMBlendCubemap_Texture_Texture_Single_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean BlendCubemap(UnityEngine.Texture @src, UnityEngine.Texture @dst, System.Single @blend, UnityEngine.RenderTexture @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @blend, @target};
+			var ___result = RMBlendCubemap_Texture_Texture_Single_RenderTexture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void UpdateCachedState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateCachedState.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void UpdateCachedState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateCachedState.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void CallReflectionProbeEvent(UnityEngine.ReflectionProbe @probe, Hvak.Editor.Refleaction.RUnityEngine.RReflectionProbe.RReflectionProbeEvent @probeEvent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@probe, @probeEvent.Value};
-            var ___result = RMCallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CallReflectionProbeEvent(UnityEngine.ReflectionProbe @probe, Hvak.Editor.Refleaction.RUnityEngine.RReflectionProbe.RReflectionProbeEvent @probeEvent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@probe, @probeEvent.Value};
+			var ___result = RMCallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void CallSetDefaultReflection(UnityEngine.Texture @defaultReflectionCubemap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@defaultReflectionCubemap};
-            var ___result = RMCallSetDefaultReflection_Texture.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CallSetDefaultReflection(UnityEngine.Texture @defaultReflectionCubemap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@defaultReflectionCubemap};
+			var ___result = RMCallSetDefaultReflection_Texture.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void get_size_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual void get_size_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_size_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_size_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_size_Injected(ref UnityEngine.Vector3 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_size_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void set_size_Injected(ref UnityEngine.Vector3 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_size_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_center_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual void get_center_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_center_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_center_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_center_Injected(ref UnityEngine.Vector3 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_center_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void set_center_Injected(ref UnityEngine.Vector3 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_center_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_bounds_Injected(out UnityEngine.Bounds @ret)
-        {
+		public virtual void get_bounds_Injected(out UnityEngine.Bounds @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_backgroundColor_Injected(out UnityEngine.Color @ret)
-        {
+		public virtual void get_backgroundColor_Injected(out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_backgroundColor_Injected(ref UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void set_backgroundColor_Injected(ref UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_textureHDRDecodeValues_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void get_textureHDRDecodeValues_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_textureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_textureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void get_defaultTextureHDRDecodeValues_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public static void get_defaultTextureHDRDecodeValues_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_defaultTextureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_defaultTextureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual UnityEngine.Component GetComponent(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
+		public virtual UnityEngine.Component GetComponent(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
 
 
-        public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
-            var ___result = RMGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
+			var ___result = RMGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual T GetComponent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T GetComponent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
-        {
+		public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
+		{
 			@component = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @component};
-            var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @component};
+			var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
 			@component = ReflectionUtils.Convert<UnityEngine.Component>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean TryGetComponent<T>(out T @component)
-        {
+		public virtual System.Boolean TryGetComponent<T>(out T @component)
+		{
 			@component = default;
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@component};
-            var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@component};
+			var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
 			@component = ReflectionUtils.Convert<T>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponent(System.String @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponent_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetComponentInChildren<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive, @result};
-            var ___result = RMGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponentsInChildren<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@results};
-            var ___result = RMGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual T GetComponentInParent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RMGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive};
-            var ___result = RMGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@includeInactive, @results};
-            var ___result = RMGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponentsInParent<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Component[] GetComponents(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetComponents_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
-        }
-
-
-        public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @results};
-            var ___result = RMGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@results};
-            var ___result = RMGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T[] GetComponents<T>()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponents_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public virtual System.Boolean CompareTag(System.String @tag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tag};
-            var ___result = RMCompareTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.Component GetCoupledComponent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCoupledComponent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
-        }
-
-
-        public virtual System.Boolean IsCoupledComponent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCoupledComponent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RMSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value};
-            var ___result = RMSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value};
-            var ___result = RMSendMessage_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMSendMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RMSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @parameter, @options};
-            var ___result = RMBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @parameter};
-            var ___result = RMBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName};
-            var ___result = RMBroadcastMessage_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@methodName, @options};
-            var ___result = RMBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponent(System.String @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponent_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetComponentInChildren<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive, @result};
+			var ___result = RMGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponentsInChildren<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@results};
+			var ___result = RMGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual T GetComponentInParent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t, @includeInactive};
+			var ___result = RMGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive};
+			var ___result = RMGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@includeInactive, @results};
+			var ___result = RMGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponentsInParent<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Component[] GetComponents(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMGetComponents_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component[]>(___result);
+		}
+
+
+		public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @results};
+			var ___result = RMGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@results};
+			var ___result = RMGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual T[] GetComponents<T>()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMGetComponents_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
+
+
+		public virtual System.Boolean CompareTag(System.String @tag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tag};
+			var ___result = RMCompareTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.Component GetCoupledComponent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCoupledComponent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+		}
+
+
+		public virtual System.Boolean IsCoupledComponent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCoupledComponent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value, @options};
+			var ___result = RMSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value};
+			var ___result = RMSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value};
+			var ___result = RMSendMessage_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMSendMessage_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @value, @options};
+			var ___result = RMSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @parameter, @options};
+			var ___result = RMBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @parameter};
+			var ___result = RMBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName};
+			var ___result = RMBroadcastMessage_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@methodName, @options};
+			var ___result = RMBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

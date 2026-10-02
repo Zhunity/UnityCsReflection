@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		}
 
 
-        public virtual void Cancel(System.Int32 @msToCancel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@msToCancel};
-            var ___result = RMCancel_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Cancel(System.Int32 @msToCancel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@msToCancel};
+			var ___result = RMCancel_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

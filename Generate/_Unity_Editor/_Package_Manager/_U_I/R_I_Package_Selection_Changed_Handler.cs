@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 
-        public virtual void OnPackageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMOnPackageSelectionChanged_PackageSelectionArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnPackageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMOnPackageSelectionChanged_PackageSelectionArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

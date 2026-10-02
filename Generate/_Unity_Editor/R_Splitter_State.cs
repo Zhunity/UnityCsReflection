@@ -646,236 +646,184 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public static System.Single CastIntToFloat(System.Int32 @input)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@input};
-            var ___result = RMCastIntToFloat_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public static System.Single CastIntToFloat(System.Int32 @input)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@input};
+			var ___result = RMCastIntToFloat_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
-            var ___result = RMFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
+			var ___result = RMFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeSizes};
-            var ___result = RMFromRelative_SingleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeSizes};
+			var ___result = RMFromRelative_SingleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes};
-            var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes};
+			var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
-            var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
+			var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RSplitterState>(___result);
+		}
 
 
-        public virtual System.Boolean IsValid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsValid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void InitFromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
-            var ___result = RMInitFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitFromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
+			var ___result = RMInitFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InitFromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
-            var ___result = RMInitFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitFromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
+			var ___result = RMInitFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void NormalizeRelativeSizes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNormalizeRelativeSizes.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void NormalizeRelativeSizes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNormalizeRelativeSizes.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RealToRelativeSizes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRealToRelativeSizes.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RealToRelativeSizes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRealToRelativeSizes.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RelativeToRealSizes(System.Single @totalSpace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@totalSpace};
-            var ___result = RMRelativeToRealSizes_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RelativeToRealSizes(System.Single @totalSpace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@totalSpace};
+			var ___result = RMRelativeToRealSizes_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DoSplitter(System.Int32 @i1, System.Int32 @i2, System.Single @diff)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@i1, @i2, @diff};
-            var ___result = RMDoSplitter_Int32_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DoSplitter(System.Int32 @i1, System.Int32 @i2, System.Single @diff)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@i1, @i2, @diff};
+			var ___result = RMDoSplitter_Int32_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void ConvertOldArray(System.Int32[] @oldArray, ref System.Single[] @newArray)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldArray, @newArray};
-            var ___result = RMConvertOldArray_Int32Array_Ref_SingleArray.Invoke(___genericsType, ___parameters);
+		public static void ConvertOldArray(System.Int32[] @oldArray, ref System.Single[] @newArray)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldArray, @newArray};
+			var ___result = RMConvertOldArray_Int32Array_Ref_SingleArray.Invoke(___genericsType, ___parameters);
 			@newArray = ReflectionUtils.Convert<System.Single[]>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

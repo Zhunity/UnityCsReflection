@@ -358,136 +358,110 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] Internal_GetAddedPackages(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMInternal_GetAddedPackages_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] Internal_GetAddedPackages(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMInternal_GetAddedPackages_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] Internal_GetRemovedPackages(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMInternal_GetRemovedPackages_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] Internal_GetRemovedPackages(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMInternal_GetRemovedPackages_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] Internal_GetChangedFromPackages(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMInternal_GetChangedFromPackages_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] Internal_GetChangedFromPackages(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMInternal_GetChangedFromPackages_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] Internal_GetChangedToPackages(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMInternal_GetChangedToPackages_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] Internal_GetChangedToPackages(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMInternal_GetChangedToPackages_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageRegistrationEventArgs InstantiateFromNative(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMInstantiateFromNative_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageRegistrationEventArgs>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageRegistrationEventArgs InstantiateFromNative(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMInstantiateFromNative_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageRegistrationEventArgs>(___result);
+		}
 
 
-        public virtual void PopulateFromNative(System.IntPtr @nativeHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nativeHandle};
-            var ___result = RMPopulateFromNative_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PopulateFromNative(System.IntPtr @nativeHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nativeHandle};
+			var ___result = RMPopulateFromNative_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

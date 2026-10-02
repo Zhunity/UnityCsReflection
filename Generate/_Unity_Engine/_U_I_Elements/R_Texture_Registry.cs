@@ -374,169 +374,135 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual UnityEngine.Texture GetTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetTexture_TextureId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Texture>(___result);
-        }
+		public virtual UnityEngine.Texture GetTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMGetTexture_TextureId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Texture>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquireDynamic()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocAndAcquireDynamic.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquireDynamic()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocAndAcquireDynamic.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
+		}
 
 
-        public virtual void UpdateDynamic(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @texture};
-            var ___result = RMUpdateDynamic_TextureId_Texture.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateDynamic(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @texture};
+			var ___result = RMUpdateDynamic_TextureId_Texture.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquire(UnityEngine.Texture @texture, System.Boolean @dynamic)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @dynamic};
-            var ___result = RMAllocAndAcquire_Texture_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquire(UnityEngine.Texture @texture, System.Boolean @dynamic)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @dynamic};
+			var ___result = RMAllocAndAcquire_Texture_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId Acquire(UnityEngine.Texture @tex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tex};
-            var ___result = RMAcquire_Texture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId Acquire(UnityEngine.Texture @tex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tex};
+			var ___result = RMAcquire_Texture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
+		}
 
 
-        public virtual void Acquire(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMAcquire_TextureId.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Acquire(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMAcquire_TextureId.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Release(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMRelease_TextureId.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Release(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMRelease_TextureId.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId TextureToId(UnityEngine.Texture @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture};
-            var ___result = RMTextureToId_Texture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId TextureToId(UnityEngine.Texture @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture};
+			var ___result = RMTextureToId_Texture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics GatherStatistics()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics GatherStatistics()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -86,37 +86,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		}
 
 
-        public virtual System.Boolean IsAllowedFirstCharacter(System.Char @c, System.Boolean @strict)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c, @strict};
-            var ___result = RMIsAllowedFirstCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsAllowedFirstCharacter(System.Char @c, System.Boolean @strict)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c, @strict};
+			var ___result = RMIsAllowedFirstCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsAllowedLastCharacter(System.Char @c, System.Boolean @strict)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c, @strict};
-            var ___result = RMIsAllowedLastCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsAllowedLastCharacter(System.Char @c, System.Boolean @strict)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c, @strict};
+			var ___result = RMIsAllowedLastCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean IsAllowedCharacter(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMIsAllowedCharacter_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsAllowedCharacter(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMIsAllowedCharacter_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

@@ -102,26 +102,20 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @versionChangeType.Value};
-            var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @versionChangeType.Value};
+			var ___result = RMOnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

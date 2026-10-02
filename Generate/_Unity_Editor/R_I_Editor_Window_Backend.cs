@@ -182,92 +182,68 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void PlayModeTintColorChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPlayModeTintColorChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PlayModeTintColorChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPlayModeTintColorChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void NotificationVisibilityChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNotificationVisibilityChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void NotificationVisibilityChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNotificationVisibilityChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Focused()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFocused.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Focused()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFocused.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Blurred()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBlurred.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Blurred()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBlurred.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnRegisterWindow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnRegisterWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnRegisterWindow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnRegisterWindow.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnUnregisterWindow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnUnregisterWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnUnregisterWindow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnUnregisterWindow.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnDisplayWindowMenu(UnityEditor.GenericMenu @menu)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@menu};
-            var ___result = RMOnDisplayWindowMenu_GenericMenu.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnDisplayWindowMenu(UnityEditor.GenericMenu @menu)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@menu};
+			var ___result = RMOnDisplayWindowMenu_GenericMenu.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ViewMarginsChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMViewMarginsChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ViewMarginsChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMViewMarginsChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

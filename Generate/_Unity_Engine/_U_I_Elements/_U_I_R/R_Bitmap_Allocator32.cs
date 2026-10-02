@@ -358,140 +358,111 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 
-        public virtual void Construct(System.Int32 @pageHeight, System.Int32 @entryWidth, System.Int32 @entryHeight)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pageHeight, @entryWidth, @entryHeight};
-            var ___result = RMConstruct_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Construct(System.Int32 @pageHeight, System.Int32 @entryWidth, System.Int32 @entryHeight)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pageHeight, @entryWidth, @entryHeight};
+			var ___result = RMConstruct_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ForceFirstAlloc(System.UInt16 @firstPageX, System.UInt16 @firstPageY)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@firstPageX, @firstPageY};
-            var ___result = RMForceFirstAlloc_UInt16_UInt16.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ForceFirstAlloc(System.UInt16 @firstPageX, System.UInt16 @firstPageY)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@firstPageX, @firstPageY};
+			var ___result = RMForceFirstAlloc_UInt16_UInt16.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage @storage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@storage.Value};
-            var ___result = RMAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage @storage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@storage.Value};
+			var ___result = RMAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
+		}
 
 
-        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value};
-            var ___result = RMFree_BMPAlloc.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@alloc.Value};
+			var ___result = RMFree_BMPAlloc.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetAllocPageAtlasLocation(System.Int32 @page, out System.UInt16 @x, out System.UInt16 @y)
-        {
+		public virtual void GetAllocPageAtlasLocation(System.Int32 @page, out System.UInt16 @x, out System.UInt16 @y)
+		{
 			@x = default;
 			@y = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@page, @x, @y};
-            var ___result = RMGetAllocPageAtlasLocation_Int32_Out_UInt16_Out_UInt16.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@page, @x, @y};
+			var ___result = RMGetAllocPageAtlasLocation_Int32_Out_UInt16_Out_UInt16.Invoke(___genericsType, ___parameters);
 			@x = ReflectionUtils.Convert<System.UInt16>(___parameters[1]);
 			@y = ReflectionUtils.Convert<System.UInt16>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static System.Byte CountTrailingZeroes(System.UInt32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@val};
-            var ___result = RMCountTrailingZeroes_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
+		public static System.Byte CountTrailingZeroes(System.UInt32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@val};
+			var ___result = RMCountTrailingZeroes_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

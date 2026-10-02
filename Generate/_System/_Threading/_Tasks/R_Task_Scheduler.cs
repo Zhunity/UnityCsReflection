@@ -534,202 +534,161 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		}
 
 
-        public virtual void QueueTask(System.Threading.Tasks.Task @task)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task};
-            var ___result = RMQueueTask_Task.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean TryExecuteTaskInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task, @taskWasPreviouslyQueued};
-            var ___result = RMTryExecuteTaskInline_Task_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task> GetScheduledTasks()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetScheduledTasks.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>>(___result);
-        }
-
-
-        public virtual System.Boolean TryRunInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task, @taskWasPreviouslyQueued};
-            var ___result = RMTryRunInline_Task_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean TryDequeue(System.Threading.Tasks.Task @task)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task};
-            var ___result = RMTryDequeue_Task.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void NotifyWorkItemProgress()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNotifyWorkItemProgress.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddToActiveTaskSchedulers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddToActiveTaskSchedulers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Threading.Tasks.TaskScheduler FromCurrentSynchronizationContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFromCurrentSynchronizationContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler>(___result);
-        }
-
-
-        public virtual System.Boolean TryExecuteTask(System.Threading.Tasks.Task @task)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@task};
-            var ___result = RMTryExecuteTask_Task.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void PublishUnobservedTaskException(System.Object @sender, System.Threading.Tasks.UnobservedTaskExceptionEventArgs @ueea)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender, @ueea};
-            var ___result = RMPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.Tasks.Task[] GetScheduledTasksForDebugger()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetScheduledTasksForDebugger.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.Task[]>(___result);
-        }
-
-
-        public static System.Threading.Tasks.TaskScheduler[] GetTaskSchedulersForDebugger()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTaskSchedulersForDebugger.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler[]>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void QueueTask(System.Threading.Tasks.Task @task)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task};
+			var ___result = RMQueueTask_Task.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean TryExecuteTaskInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task, @taskWasPreviouslyQueued};
+			var ___result = RMTryExecuteTaskInline_Task_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task> GetScheduledTasks()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetScheduledTasks.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>>(___result);
+		}
+
+
+		public virtual System.Boolean TryRunInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task, @taskWasPreviouslyQueued};
+			var ___result = RMTryRunInline_Task_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean TryDequeue(System.Threading.Tasks.Task @task)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task};
+			var ___result = RMTryDequeue_Task.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void NotifyWorkItemProgress()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNotifyWorkItemProgress.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddToActiveTaskSchedulers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddToActiveTaskSchedulers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Threading.Tasks.TaskScheduler FromCurrentSynchronizationContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFromCurrentSynchronizationContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler>(___result);
+		}
+
+
+		public virtual System.Boolean TryExecuteTask(System.Threading.Tasks.Task @task)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@task};
+			var ___result = RMTryExecuteTask_Task.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void PublishUnobservedTaskException(System.Object @sender, System.Threading.Tasks.UnobservedTaskExceptionEventArgs @ueea)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender, @ueea};
+			var ___result = RMPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Threading.Tasks.Task[] GetScheduledTasksForDebugger()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetScheduledTasksForDebugger.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.Task[]>(___result);
+		}
+
+
+		public static System.Threading.Tasks.TaskScheduler[] GetTaskSchedulersForDebugger()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTaskSchedulersForDebugger.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler[]>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

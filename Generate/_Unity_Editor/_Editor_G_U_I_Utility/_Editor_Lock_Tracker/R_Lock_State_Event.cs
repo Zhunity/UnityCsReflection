@@ -842,554 +842,421 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void AddListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
-        {
+		public virtual void AddListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call};
+			var ___result = RMAddListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call};
+			var ___result = RMRemoveListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Type @targetObjType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @targetObjType};
+			var ___result = RMFindMethod_Impl_String_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall GetDelegate(System.Object @target, System.Reflection.MethodInfo @theFunction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @theFunction};
+			var ___result = RMGetDelegate_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
+		}
+
+
+		public virtual void Invoke(System.Boolean @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg0};
+			var ___result = RMInvoke_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call};
+			var ___result = RMAddPersistentListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call, UnityEngine.Events.UnityEventCallState @callState)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call, @callState};
+			var ___result = RMAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Boolean> @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call};
+			var ___result = RMRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Object @targetObj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @targetObj};
+			var ___result = RMFindMethod_Impl_String_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo FindMethod(Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentCall @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call.Value};
+			var ___result = RMFindMethod_PersistentCall.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Reflection.MethodInfo FindMethod(System.String @name, System.Type @listenerType, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @listenerType, @mode, @argumentType};
+			var ___result = RMFindMethod_String_Type_PersistentListenerMode_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
+		}
+
+
+		public virtual System.Int32 GetPersistentEventCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPersistentEventCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call};
-            var ___result = RMAddListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call};
-            var ___result = RMRemoveListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Type @targetObjType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @targetObjType};
-            var ___result = RMFindMethod_Impl_String_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall GetDelegate(System.Object @target, System.Reflection.MethodInfo @theFunction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @theFunction};
-            var ___result = RMGetDelegate_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
-        }
-
-
-        public virtual void Invoke(System.Boolean @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg0};
-            var ___result = RMInvoke_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call};
-            var ___result = RMAddPersistentListener_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call, UnityEngine.Events.UnityEventCallState @callState)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call, @callState};
-            var ___result = RMAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Boolean> @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call};
-            var ___result = RMRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Object @targetObj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @targetObj};
-            var ___result = RMFindMethod_Impl_String_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo FindMethod(Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentCall @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call.Value};
-            var ___result = RMFindMethod_PersistentCall.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Reflection.MethodInfo FindMethod(System.String @name, System.Type @listenerType, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @listenerType, @mode, @argumentType};
-            var ___result = RMFindMethod_String_Type_PersistentListenerMode_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
-        }
-
-
-        public virtual System.Int32 GetPersistentEventCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPersistentEventCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Object GetPersistentTarget(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetPersistentTarget_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual System.String GetPersistentMethodName(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetPersistentMethodName_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void SetPersistentListenerState(System.Int32 @index, UnityEngine.Events.UnityEventCallState @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @state};
-            var ___result = RMSetPersistentListenerState_Int32_UnityEventCallState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Events.UnityEventCallState GetPersistentListenerState(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetPersistentListenerState_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Events.UnityEventCallState>(___result);
-        }
-
-
-        public virtual void AddListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObj, @method};
-            var ___result = RMAddListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddCall(Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call.Value};
-            var ___result = RMAddCall_BaseInvokableCall.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObj, @method};
-            var ___result = RMRemoveListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAllListeners()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveAllListeners.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPrepareInvoke.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>>(___result);
-        }
-
-
-        public virtual void Invoke(System.Object[] @parameters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parameters};
-            var ___result = RMInvoke_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@method, @targetObj, @mode};
-            var ___result = RMValidateRegistration_MethodInfo_Object_PersistentListenerMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@method, @targetObj, @mode, @argumentType};
-            var ___result = RMValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddPersistentListener()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddPersistentListener.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @targetObj, @method};
-            var ___result = RMRegisterPersistentListener_Int32_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Type @targetObjType, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @targetObj, @targetObjType, @method};
-            var ___result = RMRegisterPersistentListener_Int32_Object_Type_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemovePersistentListener(UnityEngine.Object @target, System.Reflection.MethodInfo @method)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @method};
-            var ___result = RMRemovePersistentListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemovePersistentListener(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemovePersistentListener_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnregisterPersistentListener(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMUnregisterPersistentListener_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddVoidPersistentListener(UnityEngine.Events.UnityAction @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call};
-            var ___result = RMAddVoidPersistentListener_UnityAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterVoidPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction @call)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call};
-            var ___result = RMRegisterVoidPersistentListener_Int32_UnityAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @target, @methodName};
-            var ___result = RMRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.Type @targetType, System.String @methodName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @target, @targetType, @methodName};
-            var ___result = RMRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddIntPersistentListener(UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call, @argument};
-            var ___result = RMAddIntPersistentListener_UnityAction_d_Int32_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterIntPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call, @argument};
-            var ___result = RMRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddFloatPersistentListener(UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call, @argument};
-            var ___result = RMAddFloatPersistentListener_UnityAction_d_Single_p__Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterFloatPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call, @argument};
-            var ___result = RMRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddBoolPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call, @argument};
-            var ___result = RMAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterBoolPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call, @argument};
-            var ___result = RMRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddStringPersistentListener(UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@call, @argument};
-            var ___result = RMAddStringPersistentListener_UnityAction_d_String_p__String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterStringPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @call, @argument};
-            var ___result = RMRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddObjectPersistentListener<T>(UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@call, @argument};
-            var ___result = RMAddObjectPersistentListener_GT_UnityAction_d_T_p__T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RegisterObjectPersistentListener<T>(System.Int32 @index, UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@index, @call, @argument};
-            var ___result = RMRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual UnityEngine.Object GetPersistentTarget(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetPersistentTarget_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public virtual System.String GetPersistentMethodName(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetPersistentMethodName_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void SetPersistentListenerState(System.Int32 @index, UnityEngine.Events.UnityEventCallState @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @state};
+			var ___result = RMSetPersistentListenerState_Int32_UnityEventCallState.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Events.UnityEventCallState GetPersistentListenerState(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetPersistentListenerState_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Events.UnityEventCallState>(___result);
+		}
+
+
+		public virtual void AddListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObj, @method};
+			var ___result = RMAddListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddCall(Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call.Value};
+			var ___result = RMAddCall_BaseInvokableCall.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObj, @method};
+			var ___result = RMRemoveListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveAllListeners()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveAllListeners.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPrepareInvoke.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>>(___result);
+		}
+
+
+		public virtual void Invoke(System.Object[] @parameters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parameters};
+			var ___result = RMInvoke_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@method, @targetObj, @mode};
+			var ___result = RMValidateRegistration_MethodInfo_Object_PersistentListenerMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@method, @targetObj, @mode, @argumentType};
+			var ___result = RMValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddPersistentListener()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddPersistentListener.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @targetObj, @method};
+			var ___result = RMRegisterPersistentListener_Int32_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Type @targetObjType, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @targetObj, @targetObjType, @method};
+			var ___result = RMRegisterPersistentListener_Int32_Object_Type_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemovePersistentListener(UnityEngine.Object @target, System.Reflection.MethodInfo @method)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @method};
+			var ___result = RMRemovePersistentListener_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemovePersistentListener(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemovePersistentListener_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnregisterPersistentListener(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMUnregisterPersistentListener_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddVoidPersistentListener(UnityEngine.Events.UnityAction @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call};
+			var ___result = RMAddVoidPersistentListener_UnityAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterVoidPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction @call)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call};
+			var ___result = RMRegisterVoidPersistentListener_Int32_UnityAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @target, @methodName};
+			var ___result = RMRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.Type @targetType, System.String @methodName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @target, @targetType, @methodName};
+			var ___result = RMRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddIntPersistentListener(UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call, @argument};
+			var ___result = RMAddIntPersistentListener_UnityAction_d_Int32_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterIntPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call, @argument};
+			var ___result = RMRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddFloatPersistentListener(UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call, @argument};
+			var ___result = RMAddFloatPersistentListener_UnityAction_d_Single_p__Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterFloatPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call, @argument};
+			var ___result = RMRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddBoolPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call, @argument};
+			var ___result = RMAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterBoolPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call, @argument};
+			var ___result = RMRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddStringPersistentListener(UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@call, @argument};
+			var ___result = RMAddStringPersistentListener_UnityAction_d_String_p__String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterStringPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @call, @argument};
+			var ___result = RMRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddObjectPersistentListener<T>(UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@call, @argument};
+			var ___result = RMAddObjectPersistentListener_GT_UnityAction_d_T_p__T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RegisterObjectPersistentListener<T>(System.Int32 @index, UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@index, @call, @argument};
+			var ___result = RMRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -326,180 +326,144 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMCreateInstance_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
-        }
+		public static UnityEngine.ScriptableObject CreateInstance(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMCreateInstance_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
+		}
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMCreateInstance_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
-        }
+		public static UnityEngine.ScriptableObject CreateInstance(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMCreateInstance_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
+		}
 
 
-        public static T CreateInstance<T>() where T : UnityEngine.ScriptableObject
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateInstance_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public static T CreateInstance<T>() where T : UnityEngine.ScriptableObject
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateInstance_GT.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.Type @type, System.Action<UnityEngine.ScriptableObject> @initialize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @initialize};
-            var ___result = RMCreateInstance_Type_Action_d_ScriptableObject_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
-        }
+		public static UnityEngine.ScriptableObject CreateInstance(System.Type @type, System.Action<UnityEngine.ScriptableObject> @initialize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @initialize};
+			var ___result = RMCreateInstance_Type_Action_d_ScriptableObject_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
+		}
 
 
-        public static void CreateScriptableObject(UnityEngine.ScriptableObject @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMCreateScriptableObject_ScriptableObject.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CreateScriptableObject(UnityEngine.ScriptableObject @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMCreateScriptableObject_ScriptableObject.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromName(System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@className};
-            var ___result = RMCreateScriptableObjectInstanceFromName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
-        }
+		public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromName(System.String @className)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@className};
+			var ___result = RMCreateScriptableObjectInstanceFromName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
+		}
 
 
-        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type @type, System.Boolean @applyDefaultsAndReset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @applyDefaultsAndReset};
-            var ___result = RMCreateScriptableObjectInstanceFromType_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
-        }
+		public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type @type, System.Boolean @applyDefaultsAndReset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @applyDefaultsAndReset};
+			var ___result = RMCreateScriptableObjectInstanceFromType_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
+		}
 
 
-        public static void ResetAndApplyDefaultInstances(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMResetAndApplyDefaultInstances_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void ResetAndApplyDefaultInstances(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMResetAndApplyDefaultInstances_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

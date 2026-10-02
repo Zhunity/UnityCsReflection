@@ -406,169 +406,134 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder CreateLocalDataStore()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateLocalDataStore.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder CreateLocalDataStore()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateLocalDataStore.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder>(___result);
+		}
 
 
-        public virtual void DeleteLocalDataStore(Hvak.Editor.Refleaction.RSystem.RLocalDataStore @store)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@store.Value};
-            var ___result = RMDeleteLocalDataStore_LocalDataStore.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DeleteLocalDataStore(Hvak.Editor.Refleaction.RSystem.RLocalDataStore @store)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@store.Value};
+			var ___result = RMDeleteLocalDataStore_LocalDataStore.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.LocalDataStoreSlot AllocateDataSlot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
+		public virtual System.LocalDataStoreSlot AllocateDataSlot()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
 
 
-        public virtual System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
+		public virtual System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
 
 
-        public virtual System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
+		public virtual System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
 
 
-        public virtual void FreeNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void FreeNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void FreeDataSlot(System.Int32 @slot, System.Int64 @cookie)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot, @cookie};
-            var ___result = RMFreeDataSlot_Int32_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void FreeDataSlot(System.Int32 @slot, System.Int64 @cookie)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot, @cookie};
+			var ___result = RMFreeDataSlot_Int32_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ValidateSlot(System.LocalDataStoreSlot @slot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot};
-            var ___result = RMValidateSlot_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ValidateSlot(System.LocalDataStoreSlot @slot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot};
+			var ___result = RMValidateSlot_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetSlotTableLength()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSlotTableLength.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetSlotTableLength()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSlotTableLength.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

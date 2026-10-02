@@ -70,27 +70,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual T Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual void CopyFrom(ref T @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMCopyFrom_Ref_T.Invoke(___genericsType, ___parameters);
+		public virtual void CopyFrom(ref T @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMCopyFrom_Ref_T.Invoke(___genericsType, ___parameters);
 			@other = ReflectionUtils.Convert<T>(___parameters[0]);
-
-            
-        }
+		}
 
 
     }

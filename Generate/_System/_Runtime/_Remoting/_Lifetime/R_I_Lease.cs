@@ -182,48 +182,37 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		}
 
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMRegister_ISponsor.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMRegister_ISponsor.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj, System.TimeSpan @renewalTime)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @renewalTime};
-            var ___result = RMRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj, System.TimeSpan @renewalTime)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @renewalTime};
+			var ___result = RMRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.TimeSpan Renew(System.TimeSpan @renewalTime)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renewalTime};
-            var ___result = RMRenew_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TimeSpan>(___result);
-        }
+		public virtual System.TimeSpan Renew(System.TimeSpan @renewalTime)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renewalTime};
+			var ___result = RMRenew_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TimeSpan>(___result);
+		}
 
 
-        public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMUnregister_ISponsor.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMUnregister_ISponsor.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

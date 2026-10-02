@@ -822,389 +822,300 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> AddAfter(System.Collections.Generic.LinkedListNode<T> @node, T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node, @value};
-            var ___result = RMAddAfter_LinkedListNode_d_T_p__T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual void AddAfter(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node, @newNode};
-            var ___result = RMAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> AddBefore(System.Collections.Generic.LinkedListNode<T> @node, T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node, @value};
-            var ___result = RMAddBefore_LinkedListNode_d_T_p__T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual void AddBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node, @newNode};
-            var ___result = RMAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> AddFirst(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddFirst_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual void AddFirst(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMAddFirst_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> AddLast(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddLast_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual void AddLast(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMAddLast_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Contains(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CopyTo(T[] @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> Find(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFind_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.LinkedListNode<T> FindLast(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMFindLast_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
-        }
-
-
-        public virtual System.Boolean Remove(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Remove(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMRemove_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFirst()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveFirst.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveLast()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveLast.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node, @newNode};
-            var ___result = RMInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode<T> @newNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newNode};
-            var ___result = RMInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalRemoveNode(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMInternalRemoveNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ValidateNewNode(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMValidateNewNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ValidateNode(System.Collections.Generic.LinkedListNode<T> @node)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@node};
-            var ___result = RMValidateNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @index};
-            var ___result = RMSystem__2__Collections__2__ICollection__2__CopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> AddAfter(System.Collections.Generic.LinkedListNode<T> @node, T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node, @value};
+			var ___result = RMAddAfter_LinkedListNode_d_T_p__T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual void AddAfter(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node, @newNode};
+			var ___result = RMAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> AddBefore(System.Collections.Generic.LinkedListNode<T> @node, T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node, @value};
+			var ___result = RMAddBefore_LinkedListNode_d_T_p__T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual void AddBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node, @newNode};
+			var ___result = RMAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> AddFirst(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddFirst_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual void AddFirst(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMAddFirst_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> AddLast(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddLast_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual void AddLast(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMAddLast_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Contains(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CopyTo(T[] @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> Find(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFind_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.LinkedListNode<T> FindLast(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMFindLast_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.LinkedListNode<T>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
+		}
+
+
+		public virtual System.Boolean Remove(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Remove(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMRemove_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFirst()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveFirst.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveLast()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveLast.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node, @newNode};
+			var ___result = RMInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode<T> @newNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newNode};
+			var ___result = RMInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalRemoveNode(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMInternalRemoveNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ValidateNewNode(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMValidateNewNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ValidateNode(System.Collections.Generic.LinkedListNode<T> @node)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@node};
+			var ___result = RMValidateNode_LinkedListNode_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @index};
+			var ___result = RMSystem__2__Collections__2__ICollection__2__CopyTo_Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

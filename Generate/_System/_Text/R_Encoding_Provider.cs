@@ -310,169 +310,137 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 		}
 
 
-        public virtual System.Text.Encoding GetEncoding(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetEncoding_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public virtual System.Text.Encoding GetEncoding(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetEncoding_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage};
-            var ___result = RMGetEncoding_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage};
+			var ___result = RMGetEncoding_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public virtual System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @encoderFallback, @decoderFallback};
-            var ___result = RMGetEncoding_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public virtual System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @encoderFallback, @decoderFallback};
+			var ___result = RMGetEncoding_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage, @encoderFallback, @decoderFallback};
-            var ___result = RMGetEncoding_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage, @encoderFallback, @decoderFallback};
+			var ___result = RMGetEncoding_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public static void AddProvider(System.Text.EncodingProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMAddProvider_EncodingProvider.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void AddProvider(System.Text.EncodingProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMAddProvider_EncodingProvider.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage};
-            var ___result = RMGetEncodingFromProvider_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage};
+			var ___result = RMGetEncodingFromProvider_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@encodingName};
-            var ___result = RMGetEncodingFromProvider_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@encodingName};
+			var ___result = RMGetEncodingFromProvider_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@codepage, @enc, @dec};
-            var ___result = RMGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@codepage, @enc, @dec};
+			var ___result = RMGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@encodingName, @enc, @dec};
-            var ___result = RMGetEncodingFromProvider_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
-        }
+		public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@encodingName, @enc, @dec};
+			var ___result = RMGetEncodingFromProvider_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.Encoding>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

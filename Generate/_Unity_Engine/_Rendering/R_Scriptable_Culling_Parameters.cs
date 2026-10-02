@@ -1046,147 +1046,118 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual System.Single GetLayerCullingDistance(System.Int32 @layerIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layerIndex};
-            var ___result = RMGetLayerCullingDistance_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetLayerCullingDistance(System.Int32 @layerIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@layerIndex};
+			var ___result = RMGetLayerCullingDistance_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual void SetLayerCullingDistance(System.Int32 @layerIndex, System.Single @distance)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layerIndex, @distance};
-            var ___result = RMSetLayerCullingDistance_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetLayerCullingDistance(System.Int32 @layerIndex, System.Single @distance)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@layerIndex, @distance};
+			var ___result = RMSetLayerCullingDistance_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.Plane GetCullingPlane(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetCullingPlane_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
-        }
+		public virtual UnityEngine.Plane GetCullingPlane(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetCullingPlane_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
+		}
 
 
-        public virtual void SetCullingPlane(System.Int32 @index, UnityEngine.Plane @plane)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @plane};
-            var ___result = RMSetCullingPlane_Int32_Plane.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetCullingPlane(System.Int32 @index, UnityEngine.Plane @plane)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @plane};
+			var ___result = RMSetCullingPlane_Int32_Plane.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.ScriptableCullingParameters @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(UnityEngine.Rendering.ScriptableCullingParameters @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

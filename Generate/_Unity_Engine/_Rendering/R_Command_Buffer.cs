@@ -7718,5338 +7718,3920 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst};
-            var ___result = RMConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst};
+			var ___result = RMConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
-            var ___result = RMConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
+			var ___result = RMConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void WaitAllAsyncReadbackRequests()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitAllAsyncReadbackRequests.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void WaitAllAsyncReadbackRequests()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitAllAsyncReadbackRequests.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback};
-            var ___result = RMRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback};
+			var ___result = RMRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback};
-            var ___result = RMRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback};
+			var ___result = RMRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
-            var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+			var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
+		}
 
-            
-        }
 
+		public unsafe virtual void Internal_RequestAsyncReadback_1(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_1(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public unsafe virtual void Internal_RequestAsyncReadback_2(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public unsafe virtual void Internal_RequestAsyncReadback_3(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_2(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public unsafe virtual void Internal_RequestAsyncReadback_4(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public unsafe virtual void Internal_RequestAsyncReadback_5(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_3(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public unsafe virtual void Internal_RequestAsyncReadback_6(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public unsafe virtual void Internal_RequestAsyncReadback_7(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_4(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public unsafe virtual void Internal_RequestAsyncReadback_8(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public unsafe virtual void Internal_RequestAsyncReadback_9(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
+			var ___result = RMInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_5(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public virtual void SetInvertCulling(System.Boolean @invertCulling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@invertCulling};
+			var ___result = RMSetInvertCulling_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void ConvertTexture_Internal(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
+			var ___result = RMConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public unsafe virtual void Internal_RequestAsyncReadback_6(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mode};
+			var ___result = RMInternal_SetSinglePassStereo_SinglePassStereoMode.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
-
-        public unsafe virtual void Internal_RequestAsyncReadback_7(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual void Internal_RequestAsyncReadback_8(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual void Internal_RequestAsyncReadback_9(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
-            var ___result = RMInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInvertCulling(System.Boolean @invertCulling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@invertCulling};
-            var ___result = RMSetInvertCulling_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ConvertTexture_Internal(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
-            var ___result = RMConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mode};
-            var ___result = RMInternal_SetSinglePassStereo_SinglePassStereoMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr InitBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.IntPtr CreateGPUFence_Internal(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fenceType, @stage};
-            var ___result = RMCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void WaitOnGPUFence_Internal(System.IntPtr @fencePtr, UnityEngine.Rendering.SynchronisationStageFlags @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fencePtr, @stage};
-            var ___result = RMWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReleaseBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeFloatParam_ComputeShader_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeIntParam_ComputeShader_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeVectorParam_ComputeShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetComputeFloats(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMInternal_SetComputeFloats_ComputeShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetComputeInts(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMInternal_SetComputeInts_ComputeShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
-            var ___result = RMInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		public static System.IntPtr InitBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.IntPtr CreateGPUFence_Internal(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fenceType, @stage};
+			var ___result = RMCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual void WaitOnGPUFence_Internal(System.IntPtr @fencePtr, UnityEngine.Rendering.SynchronisationStageFlags @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fencePtr, @stage};
+			var ___result = RMWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReleaseBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReleaseBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeFloatParam_ComputeShader_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeIntParam_ComputeShader_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeVectorParam_ComputeShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_SetComputeFloats(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMInternal_SetComputeFloats_ComputeShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_SetComputeInts(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMInternal_SetComputeInts_ComputeShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
+			var ___result = RMInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
-            var ___result = RMInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
+			var ___result = RMInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
-            var ___result = RMInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
+			var ___result = RMInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetComputeConstantComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetComputeConstantComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetComputeConstantGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetComputeConstantGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @threadGroupsX, @threadGroupsY, @threadGroupsZ};
-            var ___result = RMInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @threadGroupsX, @threadGroupsY, @threadGroupsZ};
+			var ___result = RMInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_DispatchComputeIndirect(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
-            var ___result = RMInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_DispatchComputeIndirect(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
+			var ___result = RMInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_DispatchComputeIndirectGraphicsBuffer(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
-            var ___result = RMInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_DispatchComputeIndirectGraphicsBuffer(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
+			var ___result = RMInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer};
-            var ___result = RMInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer};
+			var ___result = RMInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetRayTracingConstantComputeBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetRayTracingConstantComputeBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetRayTracingConstantGraphicsBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Internal_SetRayTracingConstantGraphicsBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Internal_SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
-            var ___result = RMInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
+			var ___result = RMInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
+		}
 
-            
-        }
 
+		public virtual void Internal_SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void Internal_SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void Internal_SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void Internal_SetRayTracingFloats(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingInts(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void Internal_BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
+			var ___result = RMInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @accelerationStructure};
+			var ___result = RMInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetRayTracingShaderPass(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @passName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @passName};
+			var ___result = RMSetRayTracingShaderPass_RayTracingShader_String.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void Internal_SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenShaderName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @rayGenShaderName, @width, @height, @depth, @camera};
+			var ___result = RMInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
-
-        public virtual void Internal_SetRayTracingFloats(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetRayTracingInts(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
-            var ___result = RMInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @accelerationStructure};
-            var ___result = RMInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingShaderPass(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @passName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @passName};
-            var ___result = RMSetRayTracingShaderPass_RayTracingShader_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenShaderName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @rayGenShaderName, @width, @height, @depth, @camera};
-            var ___result = RMInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMInternal_GenerateMips_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @target};
-            var ___result = RMInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValueCC(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValueGC(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValueCG(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValueGG(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
-            var ___result = RMInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material, @submeshIndex, @shaderPass};
-            var ___result = RMInternal_DrawRenderer_Renderer_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rendererList};
-            var ___result = RMInternal_DrawRendererList_RendererList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material, @submeshIndex};
-            var ___result = RMInternal_DrawRenderer_Renderer_Material_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material};
-            var ___result = RMInternal_DrawRenderer_Renderer_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
-            var ___result = RMInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProceduralIndexed(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
-            var ___result = RMInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProceduralIndexedIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count, @properties};
-            var ___result = RMInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @count, @properties};
-            var ___result = RMInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawMeshInstancedIndirectGraphicsBuffer(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@normalizedCamViewport};
-            var ___result = RMInternal_DrawOcclusionMesh_RectInt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget_Texture(System.Int32 @index, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @rt};
-            var ___result = RMSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMInternal_GenerateMips_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @target};
+			var ___result = RMInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValueCC(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValueGC(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValueCG(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValueGG(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
+			var ___result = RMInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material, @submeshIndex, @shaderPass};
+			var ___result = RMInternal_DrawRenderer_Renderer_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rendererList};
+			var ___result = RMInternal_DrawRendererList_RendererList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material, @submeshIndex};
+			var ___result = RMInternal_DrawRenderer_Renderer_Material_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material};
+			var ___result = RMInternal_DrawRenderer_Renderer_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
+			var ___result = RMInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProceduralIndexed(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
+			var ___result = RMInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProceduralIndexedIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProceduralIndirectGraphicsBuffer(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count, @properties};
+			var ___result = RMInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @count, @properties};
+			var ___result = RMInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawMeshInstancedIndirectGraphicsBuffer(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@normalizedCamViewport};
+			var ___result = RMInternal_DrawOcclusionMesh_RectInt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget_Texture(System.Int32 @index, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @rt};
+			var ___result = RMSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRandomWriteTarget_Buffer(System.Int32 @index, UnityEngine.ComputeBuffer @uav, System.Boolean @preserveCounterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @uav, @preserveCounterValue};
-            var ___result = RMSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetRandomWriteTarget_Buffer(System.Int32 @index, UnityEngine.ComputeBuffer @uav, System.Boolean @preserveCounterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @uav, @preserveCounterValue};
+			var ___result = RMSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetRandomWriteTarget_GraphicsBuffer(System.Int32 @index, UnityEngine.GraphicsBuffer @uav, System.Boolean @preserveCounterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @uav, @preserveCounterValue};
-            var ___result = RMSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetRandomWriteTarget_GraphicsBuffer(System.Int32 @index, UnityEngine.GraphicsBuffer @uav, System.Boolean @preserveCounterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @uav, @preserveCounterValue};
+			var ___result = RMSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearRandomWriteTargets()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearRandomWriteTargets.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearRandomWriteTargets()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearRandomWriteTargets.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetViewport(UnityEngine.Rect @pixelRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pixelRect};
-            var ___result = RMSetViewport_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetViewport(UnityEngine.Rect @pixelRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pixelRect};
+			var ___result = RMSetViewport_Rect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void EnableScissorRect(UnityEngine.Rect @scissor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scissor};
-            var ___result = RMEnableScissorRect_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void EnableScissorRect(UnityEngine.Rect @scissor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scissor};
+			var ___result = RMEnableScissorRect_Rect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DisableScissorRect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisableScissorRect.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DisableScissorRect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisableScissorRect.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CopyTexture_Internal(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY, System.Int32 @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY, @mode};
-            var ___result = RMCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void CopyTexture_Internal(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY, System.Int32 @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY, @mode};
+			var ___result = RMCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@src = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@dst = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[7]);
-
-            
-        }
+		}
 
 
-        public virtual void Blit_Texture(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Blit_Texture(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Blit_Identifier(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Blit_Identifier(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @memorylessMode, @useDynamicScale};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @memorylessMode, @useDynamicScale};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @memorylessMode};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @memorylessMode};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite, @memorylessMode, @useDynamicScale};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite, @memorylessMode};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @antiAliasing};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite, @memorylessMode, @useDynamicScale};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite, @memorylessMode};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite, @antiAliasing};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format, @readWrite};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter, @format};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer, @filter};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height};
-            var ___result = RMGetTemporaryRT_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTWithDescriptor(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @desc, @filter};
-            var ___result = RMGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @desc, @filter};
-            var ___result = RMGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @desc};
-            var ___result = RMGetTemporaryRT_Int32_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, System.Boolean @useDynamicScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @useDynamicScale};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite, @antiAliasing};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @width, @height, @slices};
-            var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReleaseTemporaryRT(System.Int32 @nameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID};
-            var ___result = RMReleaseTemporaryRT_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearRenderTarget(UnityEngine.Rendering.RTClearFlags @clearFlags, UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
-            var ___result = RMClearRenderTarget_RTClearFlags_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearDepth, @clearColor, @backgroundColor};
-            var ___result = RMClearRenderTarget_Boolean_Boolean_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor, System.Single @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearDepth, @clearColor, @backgroundColor, @depth};
-            var ___result = RMClearRenderTarget_Boolean_Boolean_Color_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloat(System.Int32 @nameID, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalFloat_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalInt(System.Int32 @nameID, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalInt_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalInteger(System.Int32 @nameID, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalInteger_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVector(System.Int32 @nameID, UnityEngine.Vector4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalColor(System.Int32 @nameID, UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalColor_Int32_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableShaderKeyword(System.String @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMEnableShaderKeyword_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMEnableGlobalKeyword_GlobalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMEnableMaterialKeyword_Material_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMEnableComputeKeyword_ComputeShader_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMEnableKeyword_In_GlobalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMEnableKeyword_Material_In_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EnableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMEnableKeyword_ComputeShader_In_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableShaderKeyword(System.String @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMDisableShaderKeyword_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMDisableGlobalKeyword_GlobalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMDisableMaterialKeyword_Material_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMDisableComputeKeyword_ComputeShader_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMDisableKeyword_In_GlobalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMDisableKeyword_Material_In_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DisableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMDisableKeyword_ComputeShader_In_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword, @value};
-            var ___result = RMSetGlobalKeyword_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword, @value};
-            var ___result = RMSetMaterialKeyword_Material_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword, @value};
-            var ___result = RMSetComputeKeyword_ComputeShader_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword, @value};
-            var ___result = RMSetKeyword_In_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword, @value};
-            var ___result = RMSetKeyword_Material_In_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword, @value};
-            var ___result = RMSetKeyword_ComputeShader_In_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetViewMatrix(UnityEngine.Matrix4x4 @view)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view};
-            var ___result = RMSetViewMatrix_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetProjectionMatrix(UnityEngine.Matrix4x4 @proj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@proj};
-            var ___result = RMSetProjectionMatrix_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetViewProjectionMatrices(UnityEngine.Matrix4x4 @view, UnityEngine.Matrix4x4 @proj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view, @proj};
-            var ___result = RMSetViewProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalDepthBias(System.Single @bias, System.Single @slopeBias)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bias, @slopeBias};
-            var ___result = RMSetGlobalDepthBias_Single_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@flags};
-            var ___result = RMSetExecutionFlags_CommandBufferExecutionFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ValidateAgainstExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @requiredFlags, UnityEngine.Rendering.CommandBufferExecutionFlags @invalidFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requiredFlags, @invalidFlags};
-            var ___result = RMValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetGlobalFloatArrayListImpl(System.Int32 @nameID, System.Object @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalFloatArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVectorArrayListImpl(System.Int32 @nameID, System.Object @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalVectorArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrixArrayListImpl(System.Int32 @nameID, System.Object @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalMatrixArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetLateLatchProjectionMatrices(UnityEngine.Matrix4x4[] @projectionMat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@projectionMat};
-            var ___result = RMSetLateLatchProjectionMatrices_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MarkLateLatchMatrixShaderPropertyID(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType, System.Int32 @shaderPropertyID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrixPropertyType, @shaderPropertyID};
-            var ___result = RMMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnmarkLateLatchMatrix(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrixPropertyType};
-            var ___result = RMUnmarkLateLatchMatrix_CameraLateLatchMatrixType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalTexture_Impl(System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @rt, @element};
-            var ___result = RMSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @depthBuffer};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height};
+			var ___result = RMGetTemporaryRT_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTWithDescriptor(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @desc, @filter};
+			var ___result = RMGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @desc, @filter};
+			var ___result = RMGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @desc};
+			var ___result = RMGetTemporaryRT_Int32_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, System.Boolean @useDynamicScale)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite, @useDynamicScale};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing, @enableRandomWrite};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @antiAliasing};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite, @antiAliasing, @enableRandomWrite};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite, @antiAliasing};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format, @readWrite};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter, @format};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer, @filter};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices, @depthBuffer};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @width, @height, @slices};
+			var ___result = RMGetTemporaryRTArray_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReleaseTemporaryRT(System.Int32 @nameID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID};
+			var ___result = RMReleaseTemporaryRT_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearRenderTarget(UnityEngine.Rendering.RTClearFlags @clearFlags, UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
+			var ___result = RMClearRenderTarget_RTClearFlags_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clearDepth, @clearColor, @backgroundColor};
+			var ___result = RMClearRenderTarget_Boolean_Boolean_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor, System.Single @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clearDepth, @clearColor, @backgroundColor, @depth};
+			var ___result = RMClearRenderTarget_Boolean_Boolean_Color_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloat(System.Int32 @nameID, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalFloat_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalInt(System.Int32 @nameID, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalInt_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalInteger(System.Int32 @nameID, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalInteger_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVector(System.Int32 @nameID, UnityEngine.Vector4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalColor(System.Int32 @nameID, UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalColor_Int32_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableShaderKeyword(System.String @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMEnableShaderKeyword_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMEnableGlobalKeyword_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMEnableMaterialKeyword_Material_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMEnableComputeKeyword_ComputeShader_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMEnableKeyword_In_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMEnableKeyword_Material_In_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EnableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMEnableKeyword_ComputeShader_In_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableShaderKeyword(System.String @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMDisableShaderKeyword_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMDisableGlobalKeyword_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMDisableMaterialKeyword_Material_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMDisableComputeKeyword_ComputeShader_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMDisableKeyword_In_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMDisableKeyword_Material_In_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DisableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMDisableKeyword_ComputeShader_In_LocalKeyword.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword, @value};
+			var ___result = RMSetGlobalKeyword_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword, @value};
+			var ___result = RMSetMaterialKeyword_Material_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword, @value};
+			var ___result = RMSetComputeKeyword_ComputeShader_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword, @value};
+			var ___result = RMSetKeyword_In_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword, @value};
+			var ___result = RMSetKeyword_Material_In_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword, @value};
+			var ___result = RMSetKeyword_ComputeShader_In_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetViewMatrix(UnityEngine.Matrix4x4 @view)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view};
+			var ___result = RMSetViewMatrix_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetProjectionMatrix(UnityEngine.Matrix4x4 @proj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@proj};
+			var ___result = RMSetProjectionMatrix_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetViewProjectionMatrices(UnityEngine.Matrix4x4 @view, UnityEngine.Matrix4x4 @proj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view, @proj};
+			var ___result = RMSetViewProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalDepthBias(System.Single @bias, System.Single @slopeBias)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bias, @slopeBias};
+			var ___result = RMSetGlobalDepthBias_Single_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@flags};
+			var ___result = RMSetExecutionFlags_CommandBufferExecutionFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ValidateAgainstExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @requiredFlags, UnityEngine.Rendering.CommandBufferExecutionFlags @invalidFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requiredFlags, @invalidFlags};
+			var ___result = RMValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetGlobalFloatArrayListImpl(System.Int32 @nameID, System.Object @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalFloatArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVectorArrayListImpl(System.Int32 @nameID, System.Object @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalVectorArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrixArrayListImpl(System.Int32 @nameID, System.Object @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalMatrixArrayListImpl_Int32_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetLateLatchProjectionMatrices(UnityEngine.Matrix4x4[] @projectionMat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@projectionMat};
+			var ___result = RMSetLateLatchProjectionMatrices_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MarkLateLatchMatrixShaderPropertyID(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType, System.Int32 @shaderPropertyID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrixPropertyType, @shaderPropertyID};
+			var ___result = RMMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnmarkLateLatchMatrix(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrixPropertyType};
+			var ___result = RMUnmarkLateLatchMatrix_CameraLateLatchMatrixType.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalTexture_Impl(System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @rt, @element};
+			var ___result = RMSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetGlobalBufferInternal(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalBufferInternal_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetGlobalBufferInternal(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalBufferInternal_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetGlobalGraphicsBufferInternal(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetGlobalGraphicsBufferInternal(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetShadowSamplingMode_Impl(ref UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shadowmap, @mode};
-            var ___result = RMSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
+		public virtual void SetShadowSamplingMode_Impl(ref UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shadowmap, @mode};
+			var ___result = RMSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
 			@shadowmap = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void IssuePluginEventInternal(System.IntPtr @callback, System.Int32 @eventID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID};
-            var ___result = RMIssuePluginEventInternal_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void IssuePluginEventInternal(System.IntPtr @callback, System.Int32 @eventID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @eventID};
+			var ___result = RMIssuePluginEventInternal_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void BeginSample(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMBeginSample_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BeginSample(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMBeginSample_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void EndSample(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMEndSample_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void EndSample(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMEndSample_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void BeginSample(UnityEngine.Profiling.CustomSampler @sampler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sampler};
-            var ___result = RMBeginSample_CustomSampler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BeginSample(UnityEngine.Profiling.CustomSampler @sampler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sampler};
+			var ___result = RMBeginSample_CustomSampler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void EndSample(UnityEngine.Profiling.CustomSampler @sampler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sampler};
-            var ___result = RMEndSample_CustomSampler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void EndSample(UnityEngine.Profiling.CustomSampler @sampler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sampler};
+			var ___result = RMEndSample_CustomSampler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void BeginSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sampler};
-            var ___result = RMBeginSample_CustomSampler_CustomSampler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BeginSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sampler};
+			var ___result = RMBeginSample_CustomSampler_CustomSampler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void EndSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sampler};
-            var ___result = RMEndSample_CustomSampler_CustomSampler.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void EndSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sampler};
+			var ___result = RMEndSample_CustomSampler_CustomSampler.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void IssuePluginEventAndDataInternal(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID, @data};
-            var ___result = RMIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void IssuePluginEventAndDataInternal(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @eventID, @data};
+			var ___result = RMIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void IssuePluginCustomBlitInternal(System.IntPtr @callback, System.UInt32 @command, ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
-            var ___result = RMIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		public virtual void IssuePluginCustomBlitInternal(System.IntPtr @callback, System.UInt32 @command, ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
+			var ___result = RMIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[3]);
+		}
 
-            
-        }
 
+		public virtual void IssuePluginCustomTextureUpdateInternal(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData, System.Boolean @useNewUnityRenderingExtTextureUpdateParamsV2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @targetTexture, @userData, @useNewUnityRenderingExtTextureUpdateParamsV2};
+			var ___result = RMIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void IssuePluginCustomTextureUpdateInternal(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData, System.Boolean @useNewUnityRenderingExtTextureUpdateParamsV2)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @targetTexture, @userData, @useNewUnityRenderingExtTextureUpdateParamsV2};
-            var ___result = RMIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SetGlobalConstantBufferInternal(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
+			var ___result = RMSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetGlobalConstantGraphicsBufferInternal(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
+			var ___result = RMSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SetGlobalConstantBufferInternal(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
-            var ___result = RMSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void IncrementUpdateCount(UnityEngine.Rendering.RenderTargetIdentifier @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dest};
+			var ___result = RMIncrementUpdateCount_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetInstanceMultiplier(System.UInt32 @multiplier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@multiplier};
+			var ___result = RMSetInstanceMultiplier_UInt32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SetGlobalConstantGraphicsBufferInternal(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
-            var ___result = RMSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @loadAction, UnityEngine.Rendering.RenderBufferStoreAction @storeAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @loadAction, @storeAction};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void IncrementUpdateCount(UnityEngine.Rendering.RenderTargetIdentifier @dest)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dest};
-            var ___result = RMIncrementUpdateCount_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @mipLevel};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SetInstanceMultiplier(System.UInt32 @multiplier)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@multiplier};
-            var ___result = RMSetInstanceMultiplier_UInt32.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @mipLevel, @cubemapFace};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
 
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @loadAction, UnityEngine.Rendering.RenderBufferStoreAction @storeAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @loadAction, @storeAction};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @mipLevel};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @mipLevel, @cubemapFace};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @mipLevel};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @mipLevel, @cubemapFace};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @colorLoadAction, @colorStoreAction, @depth, @depthLoadAction, @depthStoreAction};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binding, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binding};
-            var ___result = RMSetRenderTarget_RenderTargetBinding.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTargetSingle_Internal(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
-            var ___result = RMSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTargetColorDepth_Internal(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
-            var ___result = RMSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTargetMulti_Internal(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
-            var ___result = RMSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTargetColorDepthSubtarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRenderTargetMultiSubtarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
-            var ___result = RMInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data};
-            var ___result = RMSetBufferData_ComputeBuffer_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @counterValue};
-            var ___result = RMSetBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetComputeBufferNativeData(UnityEngine.ComputeBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @counterValue};
-            var ___result = RMInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data};
-            var ___result = RMSetBufferData_GraphicsBuffer_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetBufferData_GT_GraphicsBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @counterValue};
-            var ___result = RMSetBufferCounterValue_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetGraphicsBufferNativeData(UnityEngine.GraphicsBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetGraphicsBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetGraphicsBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @counterValue};
-            var ___result = RMInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyBufferImpl(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest};
-            var ___result = RMCopyBufferImpl_GraphicsBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateAsyncGraphicsFence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
-        }
-
-
-        public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence(UnityEngine.Rendering.SynchronisationStage @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stage};
-            var ___result = RMCreateAsyncGraphicsFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
-        }
-
-
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGraphicsFence(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fenceType, @stage};
-            var ___result = RMCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
-        }
-
-
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence};
-            var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence, @stage};
-            var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStageFlags @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence, @stage};
-            var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @val};
-            var ___result = RMSetComputeFloatParam_ComputeShader_String_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @val};
-            var ___result = RMSetComputeIntParam_ComputeShader_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @val};
-            var ___result = RMSetComputeVectorParam_ComputeShader_String_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @values};
-            var ___result = RMSetComputeVectorArrayParam_ComputeShader_String_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @val};
-            var ___result = RMSetComputeMatrixParam_ComputeShader_String_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @values};
-            var ___result = RMSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @values};
-            var ___result = RMSetComputeFloatParams_ComputeShader_String_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMSetComputeFloatParams_ComputeShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @values};
-            var ___result = RMSetComputeIntParams_ComputeShader_String_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @values};
-            var ___result = RMSetComputeIntParams_ComputeShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt, @mipLevel};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt, @mipLevel, @element};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
-            var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @buffer};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @buffer};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @buffer, @offset, @size};
-            var ___result = RMSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @name, @buffer, @offset, @size};
-            var ___result = RMSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @threadGroupsX, @threadGroupsY, @threadGroupsZ};
-            var ___result = RMDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
-            var ___result = RMDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
-            var ___result = RMDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@accelerationStructure};
-            var ___result = RMBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
-            var ___result = RMBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @rayTracingAccelerationStructure};
-            var ___result = RMSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @rayTracingAccelerationStructure};
-            var ___result = RMSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @buffer};
-            var ___result = RMSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer};
-            var ___result = RMSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @buffer, @offset, @size};
-            var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
-            var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @buffer, @offset, @size};
-            var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @rt};
-            var ___result = RMSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
-            var ___result = RMSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @val};
-            var ___result = RMSetRayTracingFloatParam_RayTracingShader_String_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMSetRayTracingFloatParam_RayTracingShader_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @values};
-            var ___result = RMSetRayTracingFloatParams_RayTracingShader_String_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @val};
-            var ___result = RMSetRayTracingIntParam_RayTracingShader_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMSetRayTracingIntParam_RayTracingShader_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @values};
-            var ___result = RMSetRayTracingIntParams_RayTracingShader_String_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMSetRayTracingIntParams_RayTracingShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @val};
-            var ___result = RMSetRayTracingVectorParam_RayTracingShader_String_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMSetRayTracingVectorParam_RayTracingShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @values};
-            var ___result = RMSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @val};
-            var ___result = RMSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @name, @values};
-            var ___result = RMSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
-            var ___result = RMSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @rayGenName, @width, @height, @depth, @camera};
-            var ___result = RMDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMGenerateMips_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GenerateMips(UnityEngine.RenderTexture @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMGenerateMips_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @target};
-            var ___result = RMResolveAntiAliasedSurface_RenderTexture_RenderTexture.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
-            var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass};
-            var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex};
-            var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material};
-            var ___result = RMDrawMesh_Mesh_Matrix4x4_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material, @submeshIndex, @shaderPass};
-            var ___result = RMDrawRenderer_Renderer_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material, @submeshIndex};
-            var ___result = RMDrawRenderer_Renderer_Material_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer, @material};
-            var ___result = RMDrawRenderer_Renderer_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rendererList};
-            var ___result = RMDrawRendererList_RendererList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
-            var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount};
-            var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount};
-            var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
-            var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount};
-            var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount};
-            var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs};
-            var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs};
-            var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count, @properties};
-            var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count};
-            var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices};
-            var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @count, @properties};
-            var ___result = RMDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs};
-            var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@normalizedCamViewport};
-            var ___result = RMDrawOcclusionMesh_RectInt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @rt};
-            var ___result = RMSetRandomWriteTarget_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer, System.Boolean @preserveCounterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @buffer, @preserveCounterValue};
-            var ___result = RMSetRandomWriteTarget_Int32_ComputeBuffer_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @buffer};
-            var ___result = RMSetRandomWriteTarget_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer, System.Boolean @preserveCounterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @buffer, @preserveCounterValue};
-            var ___result = RMSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @buffer};
-            var ___result = RMSetRandomWriteTarget_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst};
-            var ___result = RMCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
-            var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @srcMip, @dst, @dstElement, @dstMip};
-            var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY};
-            var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest};
-            var ___result = RMBlit_Texture_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @scale, @offset};
-            var ___result = RMBlit_Texture_RenderTargetIdentifier_Vector2_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat};
-            var ___result = RMBlit_Texture_RenderTargetIdentifier_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass};
-            var ___result = RMBlit_Texture_RenderTargetIdentifier_Material_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @scale, @offset};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass, @destDepthSlice};
-            var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloat(System.String @name, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalFloat_String_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalInt(System.String @name, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalInt_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalInteger(System.String @name, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalInteger_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVector(System.String @name, UnityEngine.Vector4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalVector_String_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalColor(System.String @name, UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalColor_String_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrix(System.String @name, UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloatArray(System.String @propertyName, System.Collections.Generic.List<System.Single> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalFloatArray_String_List_d_Single_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Collections.Generic.List<System.Single> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalFloatArray_Int32_List_d_Single_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalFloatArray(System.String @propertyName, System.Single[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalFloatArray_String_SingleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVectorArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Vector4> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalVectorArray_String_List_d_Vector4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVectorArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Vector4> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalVectorArray_Int32_List_d_Vector4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalVectorArray(System.String @propertyName, UnityEngine.Vector4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrixArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalMatrixArray_String_List_d_Matrix4x4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrixArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @values};
-            var ___result = RMSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalMatrixArray(System.String @propertyName, UnityEngine.Matrix4x4[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName, @values};
-            var ___result = RMSetGlobalMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalTexture_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalTexture_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value, @element};
-            var ___result = RMSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value, @element};
-            var ___result = RMSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalBuffer(System.String @name, UnityEngine.ComputeBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalBuffer(System.String @name, UnityEngine.GraphicsBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetGlobalBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
-            var ___result = RMSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @name, @offset, @size};
-            var ___result = RMSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
-            var ___result = RMSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @name, @offset, @size};
-            var ___result = RMSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shadowmap, @mode};
-            var ___result = RMSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mode};
-            var ___result = RMSetSinglePassStereo_SinglePassStereoMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginEvent(System.IntPtr @callback, System.Int32 @eventID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID};
-            var ___result = RMIssuePluginEvent_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginEventAndData(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID, @data};
-            var ___result = RMIssuePluginEventAndData_IntPtr_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginCustomBlit(System.IntPtr @callback, System.UInt32 @command, UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
-            var ___result = RMIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginCustomTextureUpdate(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @targetTexture, @userData};
-            var ___result = RMIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginCustomTextureUpdateV1(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @targetTexture, @userData};
-            var ___result = RMIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginCustomTextureUpdateV2(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @targetTexture, @userData};
-            var ___result = RMIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
-            var ___result = RMProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyBuffer(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest};
-            var ___result = RMCopyBuffer_GraphicsBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stage};
-            var ___result = RMCreateGPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
-        }
-
-
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateGPUFence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
-        }
-
-
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence, @stage};
-            var ___result = RMWaitOnGPUFence_GPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence};
-            var ___result = RMWaitOnGPUFence_GPUFence.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data};
-            var ___result = RMSetComputeBufferData_ComputeBuffer_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value};
-            var ___result = RMSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buffer, @counterValue};
-            var ___result = RMSetComputeBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ConvertTexture_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
-            var ___result = RMConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @mipLevel};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @mipLevel, @cubemapFace};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @colorLoadAction, @colorStoreAction, @depth, @depthLoadAction, @depthStoreAction};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binding, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binding};
+			var ___result = RMSetRenderTarget_RenderTargetBinding.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTargetSingle_Internal(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
+			var ___result = RMSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTargetColorDepth_Internal(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
+			var ___result = RMSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTargetMulti_Internal(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
+			var ___result = RMSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTargetColorDepthSubtarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRenderTargetMultiSubtarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
+			var ___result = RMInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data};
+			var ___result = RMSetBufferData_ComputeBuffer_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @counterValue};
+			var ___result = RMSetBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetComputeBufferNativeData(UnityEngine.ComputeBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @counterValue};
+			var ___result = RMInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data};
+			var ___result = RMSetBufferData_GraphicsBuffer_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetBufferData_GT_GraphicsBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @counterValue};
+			var ___result = RMSetBufferCounterValue_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetGraphicsBufferNativeData(UnityEngine.GraphicsBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetGraphicsBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetGraphicsBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @counterValue};
+			var ___result = RMInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyBufferImpl(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest};
+			var ___result = RMCopyBufferImpl_GraphicsBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateAsyncGraphicsFence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
+		}
+
+
+		public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence(UnityEngine.Rendering.SynchronisationStage @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stage};
+			var ___result = RMCreateAsyncGraphicsFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
+		}
+
+
+		public virtual UnityEngine.Rendering.GraphicsFence CreateGraphicsFence(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fenceType, @stage};
+			var ___result = RMCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
+		}
+
+
+		public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence};
+			var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence, @stage};
+			var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStageFlags @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence, @stage};
+			var ___result = RMWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @val};
+			var ___result = RMSetComputeFloatParam_ComputeShader_String_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @val};
+			var ___result = RMSetComputeIntParam_ComputeShader_String_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @val};
+			var ___result = RMSetComputeVectorParam_ComputeShader_String_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @values};
+			var ___result = RMSetComputeVectorArrayParam_ComputeShader_String_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @val};
+			var ___result = RMSetComputeMatrixParam_ComputeShader_String_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @values};
+			var ___result = RMSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @values};
+			var ___result = RMSetComputeFloatParams_ComputeShader_String_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMSetComputeFloatParams_ComputeShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @values};
+			var ___result = RMSetComputeIntParams_ComputeShader_String_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @values};
+			var ___result = RMSetComputeIntParams_ComputeShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt, @mipLevel};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @rt, @mipLevel, @element};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
+			var ___result = RMSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
+			var ___result = RMSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @buffer};
+			var ___result = RMSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @buffer};
+			var ___result = RMSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @buffer};
+			var ___result = RMSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @buffer, @offset, @size};
+			var ___result = RMSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @name, @buffer, @offset, @size};
+			var ___result = RMSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @threadGroupsX, @threadGroupsY, @threadGroupsZ};
+			var ___result = RMDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
+			var ___result = RMDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @kernelIndex, @indirectBuffer, @argsOffset};
+			var ___result = RMDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@accelerationStructure};
+			var ___result = RMBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
+			var ___result = RMBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @rayTracingAccelerationStructure};
+			var ___result = RMSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @rayTracingAccelerationStructure};
+			var ___result = RMSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @buffer};
+			var ___result = RMSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer};
+			var ___result = RMSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @buffer, @offset, @size};
+			var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @buffer, @offset, @size};
+			var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @buffer, @offset, @size};
+			var ___result = RMSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @rt};
+			var ___result = RMSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
+			var ___result = RMSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @val};
+			var ___result = RMSetRayTracingFloatParam_RayTracingShader_String_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMSetRayTracingFloatParam_RayTracingShader_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @values};
+			var ___result = RMSetRayTracingFloatParams_RayTracingShader_String_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @val};
+			var ___result = RMSetRayTracingIntParam_RayTracingShader_String_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMSetRayTracingIntParam_RayTracingShader_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @values};
+			var ___result = RMSetRayTracingIntParams_RayTracingShader_String_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMSetRayTracingIntParams_RayTracingShader_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @val};
+			var ___result = RMSetRayTracingVectorParam_RayTracingShader_String_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMSetRayTracingVectorParam_RayTracingShader_Int32_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @values};
+			var ___result = RMSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @val};
+			var ___result = RMSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @name, @values};
+			var ___result = RMSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @values};
+			var ___result = RMSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @rayGenName, @width, @height, @depth, @camera};
+			var ___result = RMDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMGenerateMips_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GenerateMips(UnityEngine.RenderTexture @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMGenerateMips_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @target};
+			var ___result = RMResolveAntiAliasedSurface_RenderTexture_RenderTexture.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
+			var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass};
+			var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex};
+			var ___result = RMDrawMesh_Mesh_Matrix4x4_Material_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material};
+			var ___result = RMDrawMesh_Mesh_Matrix4x4_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material, @submeshIndex, @shaderPass};
+			var ___result = RMDrawRenderer_Renderer_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material, @submeshIndex};
+			var ___result = RMDrawRenderer_Renderer_Material_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@renderer, @material};
+			var ___result = RMDrawRenderer_Renderer_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rendererList};
+			var ___result = RMDrawRendererList_RendererList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
+			var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount};
+			var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount};
+			var ___result = RMDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
+			var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount};
+			var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount};
+			var ___result = RMDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs};
+			var ___result = RMDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs};
+			var ___result = RMDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count, @properties};
+			var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices, @count};
+			var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @matrices};
+			var ___result = RMDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @count, @properties};
+			var ___result = RMDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs, @argsOffset};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @submeshIndex, @material, @shaderPass, @bufferWithArgs};
+			var ___result = RMDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@normalizedCamViewport};
+			var ___result = RMDrawOcclusionMesh_RectInt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @rt};
+			var ___result = RMSetRandomWriteTarget_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer, System.Boolean @preserveCounterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @buffer, @preserveCounterValue};
+			var ___result = RMSetRandomWriteTarget_Int32_ComputeBuffer_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @buffer};
+			var ___result = RMSetRandomWriteTarget_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer, System.Boolean @preserveCounterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @buffer, @preserveCounterValue};
+			var ___result = RMSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @buffer};
+			var ___result = RMSetRandomWriteTarget_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst};
+			var ___result = RMCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
+			var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @srcMip, @dst, @dstElement, @dstMip};
+			var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY};
+			var ___result = RMCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest};
+			var ___result = RMBlit_Texture_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @scale, @offset};
+			var ___result = RMBlit_Texture_RenderTargetIdentifier_Vector2_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat};
+			var ___result = RMBlit_Texture_RenderTargetIdentifier_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass};
+			var ___result = RMBlit_Texture_RenderTargetIdentifier_Material_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @scale, @offset};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass, @destDepthSlice};
+			var ___result = RMBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloat(System.String @name, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalFloat_String_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalInt(System.String @name, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalInt_String_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalInteger(System.String @name, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalInteger_String_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVector(System.String @name, UnityEngine.Vector4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalVector_String_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalColor(System.String @name, UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalColor_String_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrix(System.String @name, UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloatArray(System.String @propertyName, System.Collections.Generic.List<System.Single> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalFloatArray_String_List_d_Single_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Collections.Generic.List<System.Single> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalFloatArray_Int32_List_d_Single_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalFloatArray(System.String @propertyName, System.Single[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalFloatArray_String_SingleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVectorArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Vector4> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalVectorArray_String_List_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVectorArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Vector4> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalVectorArray_Int32_List_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalVectorArray(System.String @propertyName, UnityEngine.Vector4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrixArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalMatrixArray_String_List_d_Matrix4x4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrixArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @values};
+			var ___result = RMSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalMatrixArray(System.String @propertyName, UnityEngine.Matrix4x4[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyName, @values};
+			var ___result = RMSetGlobalMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalTexture_String_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalTexture_Int32_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value, @element};
+			var ___result = RMSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value, @element};
+			var ___result = RMSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalBuffer(System.String @name, UnityEngine.ComputeBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalBuffer(System.String @name, UnityEngine.GraphicsBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMSetGlobalBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
+			var ___result = RMSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @name, @offset, @size};
+			var ___result = RMSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @nameID, @offset, @size};
+			var ___result = RMSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @name, @offset, @size};
+			var ___result = RMSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shadowmap, @mode};
+			var ___result = RMSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mode};
+			var ___result = RMSetSinglePassStereo_SinglePassStereoMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginEvent(System.IntPtr @callback, System.Int32 @eventID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @eventID};
+			var ___result = RMIssuePluginEvent_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginEventAndData(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @eventID, @data};
+			var ___result = RMIssuePluginEventAndData_IntPtr_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginCustomBlit(System.IntPtr @callback, System.UInt32 @command, UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
+			var ___result = RMIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginCustomTextureUpdate(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @targetTexture, @userData};
+			var ___result = RMIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginCustomTextureUpdateV1(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @targetTexture, @userData};
+			var ___result = RMIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IssuePluginCustomTextureUpdateV2(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @targetTexture, @userData};
+			var ___result = RMIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
+			var ___result = RMProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyBuffer(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest};
+			var ___result = RMCopyBuffer_GraphicsBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stage};
+			var ___result = RMCreateGPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
+		}
+
+
+		public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateGPUFence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
+		}
+
+
+		public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence, @stage};
+			var ___result = RMWaitOnGPUFence_GPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence};
+			var ___result = RMWaitOnGPUFence_GPUFence.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data};
+			var ___result = RMSetComputeBufferData_ComputeBuffer_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value};
+			var ___result = RMSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buffer, @counterValue};
+			var ___result = RMSetComputeBufferCounterValue_ComputeBuffer_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ConvertTexture_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
+			var ___result = RMConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
 			@src = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@dst = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void SetComputeVectorParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void SetComputeVectorParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void SetComputeMatrixParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @nameID, @val};
-            var ___result = RMSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetComputeMatrixParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @nameID, @val};
+			var ___result = RMSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_SetRayTracingMatrixParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
-            var ___result = RMInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_SetRayTracingMatrixParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
+			var ___result = RMInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_BuildRayTracingAccelerationStructure_Injected(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, ref UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
-            var ___result = RMInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_BuildRayTracingAccelerationStructure_Injected(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, ref UnityEngine.Vector3 @relativeOrigin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
+			var ___result = RMInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_GenerateMips_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt};
-            var ___result = RMInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_GenerateMips_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt};
+			var ___result = RMInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawMesh_Injected(UnityEngine.Mesh @mesh, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
-            var ___result = RMInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawMesh_Injected(UnityEngine.Mesh @mesh, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
+			var ___result = RMInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rendererList};
-            var ___result = RMInternal_DrawRendererList_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rendererList};
+			var ___result = RMInternal_DrawRendererList_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
 			@rendererList = ReflectionUtils.Convert<UnityEngine.Rendering.RendererUtils.RendererList>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProcedural_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
-            var ___result = RMInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProcedural_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
+			var ___result = RMInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProceduralIndexed_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
-            var ___result = RMInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProceduralIndexed_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
+			var ___result = RMInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProceduralIndirect_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProceduralIndirect_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirect_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProceduralIndexedIndirect_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProceduralIndirectGraphicsBuffer_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
-            var ___result = RMInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
+			var ___result = RMInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawOcclusionMesh_Injected(ref UnityEngine.RectInt @normalizedCamViewport)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@normalizedCamViewport};
-            var ___result = RMInternal_DrawOcclusionMesh_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawOcclusionMesh_Injected(ref UnityEngine.RectInt @normalizedCamViewport)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@normalizedCamViewport};
+			var ___result = RMInternal_DrawOcclusionMesh_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
 			@normalizedCamViewport = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetViewport_Injected(ref UnityEngine.Rect @pixelRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pixelRect};
-            var ___result = RMSetViewport_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public virtual void SetViewport_Injected(ref UnityEngine.Rect @pixelRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pixelRect};
+			var ___result = RMSetViewport_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@pixelRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void EnableScissorRect_Injected(ref UnityEngine.Rect @scissor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scissor};
-            var ___result = RMEnableScissorRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public virtual void EnableScissorRect_Injected(ref UnityEngine.Rect @scissor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scissor};
+			var ___result = RMEnableScissorRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@scissor = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Blit_Texture_Injected(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Blit_Texture_Injected(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 			@scale = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[4]);
 			@offset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[5]);
-
-            
-        }
+		}
 
 
-        public virtual void Blit_Identifier_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
-            var ___result = RMBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Blit_Identifier_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
+			var ___result = RMBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 			@scale = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[4]);
 			@offset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[5]);
-
-            
-        }
+		}
 
 
-        public virtual void GetTemporaryRTWithDescriptor_Injected(System.Int32 @nameID, ref UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @desc, @filter};
-            var ___result = RMGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
+		public virtual void GetTemporaryRTWithDescriptor_Injected(System.Int32 @nameID, ref UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @desc, @filter};
+			var ___result = RMGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
 			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ClearRenderTarget_Injected(UnityEngine.Rendering.RTClearFlags @clearFlags, ref UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
-            var ___result = RMClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
+		public virtual void ClearRenderTarget_Injected(UnityEngine.Rendering.RTClearFlags @clearFlags, ref UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
+			var ___result = RMClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
 			@backgroundColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetGlobalVector_Injected(System.Int32 @nameID, ref UnityEngine.Vector4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void SetGlobalVector_Injected(System.Int32 @nameID, ref UnityEngine.Vector4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetGlobalColor_Injected(System.Int32 @nameID, ref UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalColor_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void SetGlobalColor_Injected(System.Int32 @nameID, ref UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalColor_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetGlobalMatrix_Injected(System.Int32 @nameID, ref UnityEngine.Matrix4x4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetGlobalMatrix_Injected(System.Int32 @nameID, ref UnityEngine.Matrix4x4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nameID, @value};
+			var ___result = RMSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void EnableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMEnableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void EnableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMEnableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void EnableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void EnableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void EnableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void EnableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void DisableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword};
-            var ___result = RMDisableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void DisableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword};
+			var ___result = RMDisableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void DisableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword};
-            var ___result = RMDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void DisableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword};
+			var ___result = RMDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void DisableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword};
-            var ___result = RMDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
+		public virtual void DisableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword};
+			var ___result = RMDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keyword, @value};
-            var ___result = RMSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SetGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keyword, @value};
+			var ___result = RMSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@material, @keyword, @value};
-            var ___result = RMSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SetMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@material, @keyword, @value};
+			var ___result = RMSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @keyword, @value};
-            var ___result = RMSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void SetComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@computeShader, @keyword, @value};
+			var ___result = RMSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
 			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetViewMatrix_Injected(ref UnityEngine.Matrix4x4 @view)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view};
-            var ___result = RMSetViewMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetViewMatrix_Injected(ref UnityEngine.Matrix4x4 @view)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view};
+			var ___result = RMSetViewMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@view = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @proj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@proj};
-            var ___result = RMSetProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @proj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@proj};
+			var ___result = RMSetProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@proj = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetViewProjectionMatrices_Injected(ref UnityEngine.Matrix4x4 @view, ref UnityEngine.Matrix4x4 @proj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view, @proj};
-            var ___result = RMSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+		public virtual void SetViewProjectionMatrices_Injected(ref UnityEngine.Matrix4x4 @view, ref UnityEngine.Matrix4x4 @proj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@view, @proj};
+			var ___result = RMSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@view = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 			@proj = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void IncrementUpdateCount_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @dest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dest};
-            var ___result = RMIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
+		public virtual void IncrementUpdateCount_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @dest)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dest};
+			var ___result = RMIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
 			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTargetSingle_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
-            var ___result = RMSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTargetSingle_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
+			var ___result = RMSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTargetColorDepth_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
-            var ___result = RMSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTargetColorDepth_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
+			var ___result = RMSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
 			@color = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTargetMulti_Internal_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
-            var ___result = RMSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTargetMulti_Internal_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
+			var ___result = RMSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
 			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTargetColorDepthSubtarget_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTargetColorDepthSubtarget_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
 			@color = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void SetRenderTargetMultiSubtarget_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void SetRenderTargetMultiSubtarget_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
+			var ___result = RMSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
 			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_ProcessVTFeedback_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
-            var ___result = RMInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_ProcessVTFeedback_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
+			var ___result = RMInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

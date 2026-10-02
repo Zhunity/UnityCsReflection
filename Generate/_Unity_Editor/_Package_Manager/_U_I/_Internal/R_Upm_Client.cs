@@ -1958,742 +1958,561 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @IOProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@upmCache.Value, @IOProxy.Value, @settingsProxy.Value, @clientProxy.Value, @applicationProxy.Value};
-            var ___result = RMResolveDependencies_UpmCache_IOProxy_PackageManagerProjectSettingsProxy_ClientProxy_ApplicationProxy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsAnyExperimentalPackagesInUse()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnyExperimentalPackagesInUse.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsEmbedInProgress(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMIsEmbedInProgress_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsRemoveInProgress(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMIsRemoveInProgress_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsAddInProgress(System.String @packageId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId};
-            var ___result = RMIsAddInProgress_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddById(System.String @packageId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId};
-            var ___result = RMAddById_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetupAddOperation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetupAddOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessAddResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @operation, UnityEditor.PackageManager.Requests.Request<UnityEditor.PackageManager.PackageInfo> @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@operation.Value, @request};
-            var ___result = RMOnProcessAddResult_IOperation_Request_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddByPath(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMAddByPath_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddByUrl(System.String @url)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@url};
-            var ___result = RMAddByUrl_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddAndResetDependencies(System.String @packageId, System.Collections.Generic.IEnumerable<System.String> @dependencyPackagesNames)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId, @dependencyPackagesNames};
-            var ___result = RMAddAndResetDependencies_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetDependencies(System.String @packageId, System.Collections.Generic.IEnumerable<System.String> @dependencyPackagesNames)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId, @dependencyPackagesNames};
-            var ___result = RMResetDependencies_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetupAddAndRemoveOperation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetupAddAndRemoveOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessAddAndRemoveResult(UnityEditor.PackageManager.Requests.Request<UnityEditor.PackageManager.PackageCollection> @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request};
-            var ___result = RMOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void List(System.Boolean @offlineMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offlineMode};
-            var ___result = RMList_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessListResult(UnityEditor.PackageManager.Requests.ListRequest @request, System.Boolean @offlineMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request, @offlineMode};
-            var ___result = RMOnProcessListResult_ListRequest_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EmbedByName(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMEmbedByName_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveByName(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMRemoveByName_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveEmbeddedByName(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMRemoveEmbeddedByName_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetupRemoveOperation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetupRemoveOperation.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessRemoveResult(UnityEditor.PackageManager.Requests.RemoveRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request};
-            var ___result = RMOnProcessRemoveResult_RemoveRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SearchAll(System.Boolean @offlineMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offlineMode};
-            var ___result = RMSearchAll_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessSearchAllResult(UnityEditor.PackageManager.Requests.SearchRequest @request, System.Boolean @offlineMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request, @offlineMode};
-            var ___result = RMOnProcessSearchAllResult_SearchRequest_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExtraFetch(System.String @packageId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId};
-            var ___result = RMExtraFetch_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmSearchOperation ExtraFetchInternal(System.String @packageIdOrName, System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageIdOrName, @productId};
-            var ___result = RMExtraFetchInternal_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmSearchOperation>(___result);
-        }
-
-
-        public virtual void OnProcessExtraFetchResult(UnityEditor.PackageManager.Requests.SearchRequest @request, System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request, @productId};
-            var ___result = RMOnProcessExtraFetchResult_SearchRequest_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnProcessExtraFetchError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error, System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@error.Value, @productId};
-            var ___result = RMOnProcessExtraFetchError_UIError_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnExtraFetchFinalized(System.String @packageIdOrName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageIdOrName};
-            var ___result = RMOnExtraFetchFinalized_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FetchForProduct(System.String @productId, System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @packageName};
-            var ___result = RMFetchForProduct_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPackageInfosUpdated(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfos};
-            var ___result = RMOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnShowPreReleasePackagesesOrSeeAllVersionsChanged(System.Boolean @showPreReleaseOrSeeAllVersions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@showPreReleaseOrSeeAllVersions};
-            var ___result = RMOnShowPreReleasePackagesesOrSeeAllVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnLoadAllVersionsChanged(System.String @packageUniqueId, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @value};
-            var ___result = RMOnLoadAllVersionsChanged_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage CreateUpmPackage(UnityEditor.PackageManager.PackageInfo @searchInfo, UnityEditor.PackageManager.PackageInfo @installedInfo, System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@searchInfo, @installedInfo, @packageName};
-            var ___result = RMCreateUpmPackage_PackageInfo_PackageInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage>(___result);
-        }
-
-
-        public virtual void UpdateExtraPackageInfos(System.String @packageName, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList @versions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName, @versions.Value};
-            var ___result = RMUpdateExtraPackageInfos_String_IVersionList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean HasHidableVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMHasHidableVersions_IPackage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void FilterVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage @package, System.Boolean @showPreRelease)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @showPreRelease};
-            var ___result = RMFilterVersions_UpmPackage_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnloadVersionsIfNeeded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMUnloadVersionsIfNeeded_UpmPackage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RestoreInProgressOperations()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRestoreInProgressOperations.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearProductCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearProductCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Resolve()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolve.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsUnityPackage(UnityEditor.PackageManager.PackageInfo @packageInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfo};
-            var ___result = RMIsUnityPackage_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsUnityUrl(System.String @url)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@url};
-            var ___result = RMIsUnityUrl_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RType CreateOperation<T>(ref Hvak.Editor.Refleaction.RType @operation) where T : new()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@operation.Value};
-            var ___result = RMCreateOperation_GT_Ref_T.Invoke(___genericsType, ___parameters);
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @IOProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@upmCache.Value, @IOProxy.Value, @settingsProxy.Value, @clientProxy.Value, @applicationProxy.Value};
+			var ___result = RMResolveDependencies_UpmCache_IOProxy_PackageManagerProjectSettingsProxy_ClientProxy_ApplicationProxy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsAnyExperimentalPackagesInUse()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAnyExperimentalPackagesInUse.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsEmbedInProgress(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMIsEmbedInProgress_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsRemoveInProgress(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMIsRemoveInProgress_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsAddInProgress(System.String @packageId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId};
+			var ___result = RMIsAddInProgress_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddById(System.String @packageId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId};
+			var ___result = RMAddById_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetupAddOperation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetupAddOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessAddResult(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @operation, UnityEditor.PackageManager.Requests.Request<UnityEditor.PackageManager.PackageInfo> @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@operation.Value, @request};
+			var ___result = RMOnProcessAddResult_IOperation_Request_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddByPath(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMAddByPath_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddByUrl(System.String @url)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@url};
+			var ___result = RMAddByUrl_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddAndResetDependencies(System.String @packageId, System.Collections.Generic.IEnumerable<System.String> @dependencyPackagesNames)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId, @dependencyPackagesNames};
+			var ___result = RMAddAndResetDependencies_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetDependencies(System.String @packageId, System.Collections.Generic.IEnumerable<System.String> @dependencyPackagesNames)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId, @dependencyPackagesNames};
+			var ___result = RMResetDependencies_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetupAddAndRemoveOperation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetupAddAndRemoveOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessAddAndRemoveResult(UnityEditor.PackageManager.Requests.Request<UnityEditor.PackageManager.PackageCollection> @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request};
+			var ___result = RMOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void List(System.Boolean @offlineMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offlineMode};
+			var ___result = RMList_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessListResult(UnityEditor.PackageManager.Requests.ListRequest @request, System.Boolean @offlineMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request, @offlineMode};
+			var ___result = RMOnProcessListResult_ListRequest_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EmbedByName(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMEmbedByName_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveByName(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMRemoveByName_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveEmbeddedByName(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMRemoveEmbeddedByName_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetupRemoveOperation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetupRemoveOperation.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessRemoveResult(UnityEditor.PackageManager.Requests.RemoveRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request};
+			var ___result = RMOnProcessRemoveResult_RemoveRequest.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SearchAll(System.Boolean @offlineMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offlineMode};
+			var ___result = RMSearchAll_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessSearchAllResult(UnityEditor.PackageManager.Requests.SearchRequest @request, System.Boolean @offlineMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request, @offlineMode};
+			var ___result = RMOnProcessSearchAllResult_SearchRequest_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExtraFetch(System.String @packageId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId};
+			var ___result = RMExtraFetch_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmSearchOperation ExtraFetchInternal(System.String @packageIdOrName, System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageIdOrName, @productId};
+			var ___result = RMExtraFetchInternal_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmSearchOperation>(___result);
+		}
+
+
+		public virtual void OnProcessExtraFetchResult(UnityEditor.PackageManager.Requests.SearchRequest @request, System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request, @productId};
+			var ___result = RMOnProcessExtraFetchResult_SearchRequest_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnProcessExtraFetchError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error, System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@error.Value, @productId};
+			var ___result = RMOnProcessExtraFetchError_UIError_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnExtraFetchFinalized(System.String @packageIdOrName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageIdOrName};
+			var ___result = RMOnExtraFetchFinalized_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FetchForProduct(System.String @productId, System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId, @packageName};
+			var ___result = RMFetchForProduct_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPackageInfosUpdated(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfos};
+			var ___result = RMOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnShowPreReleasePackagesesOrSeeAllVersionsChanged(System.Boolean @showPreReleaseOrSeeAllVersions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@showPreReleaseOrSeeAllVersions};
+			var ___result = RMOnShowPreReleasePackagesesOrSeeAllVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnLoadAllVersionsChanged(System.String @packageUniqueId, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId, @value};
+			var ___result = RMOnLoadAllVersionsChanged_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage CreateUpmPackage(UnityEditor.PackageManager.PackageInfo @searchInfo, UnityEditor.PackageManager.PackageInfo @installedInfo, System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@searchInfo, @installedInfo, @packageName};
+			var ___result = RMCreateUpmPackage_PackageInfo_PackageInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage>(___result);
+		}
+
+
+		public virtual void UpdateExtraPackageInfos(System.String @packageName, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList @versions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName, @versions.Value};
+			var ___result = RMUpdateExtraPackageInfos_String_IVersionList.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean HasHidableVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMHasHidableVersions_IPackage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void FilterVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage @package, System.Boolean @showPreRelease)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @showPreRelease};
+			var ___result = RMFilterVersions_UpmPackage_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UnloadVersionsIfNeeded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMUnloadVersionsIfNeeded_UpmPackage.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RestoreInProgressOperations()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRestoreInProgressOperations.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearProductCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearProductCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Resolve()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolve.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsUnityPackage(UnityEditor.PackageManager.PackageInfo @packageInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfo};
+			var ___result = RMIsUnityPackage_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsUnityUrl(System.String @url)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@url};
+			var ___result = RMIsUnityUrl_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RType CreateOperation<T>(ref Hvak.Editor.Refleaction.RType @operation) where T : new()
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@operation.Value};
+			var ___result = RMCreateOperation_GT_Ref_T.Invoke(___genericsType, ___parameters);
 			@operation = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
-
-
-        public virtual System.Boolean __0__IsAnyExperimentalPackagesInUse__1__b__74_0(UnityEditor.PackageManager.PackageInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info};
-            var ___result = RM__0__IsAnyExperimentalPackagesInUse__1__b__74_0_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void __0__SetupAddOperation__1__b__83_1(UnityEditor.PackageManager.Requests.AddRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request};
-            var ___result = RM__0__SetupAddOperation__1__b__83_1_AddRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupAddOperation__1__b__83_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__SetupAddOperation__1__b__83_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupAddAndRemoveOperation__1__b__89_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__SetupAddAndRemoveOperation__1__b__89_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__OnProcessAddAndRemoveResult__1__b__90_0()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_0.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo __0__OnProcessAddAndRemoveResult__1__b__90_2(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_2_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual void __0__OnProcessAddAndRemoveResult__1__b__90_1()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_1.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo __0__OnProcessAddAndRemoveResult__1__b__90_4(System.String @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_4_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual void __0__EmbedByName__1__b__93_1(UnityEditor.PackageManager.Requests.EmbedRequest @request)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@request};
-            var ___result = RM__0__EmbedByName__1__b__93_1_EmbedRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__EmbedByName__1__b__93_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__EmbedByName__1__b__93_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__SetupRemoveOperation__1__b__96_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__SetupRemoveOperation__1__b__96_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean __0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_0(UnityEditor.PackageManager.PackageInfo @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p};
-            var ___result = RM__0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_0_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean __0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_1(UnityEditor.PackageManager.PackageInfo @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p};
-            var ___result = RM__0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_1_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
+
+
+		public virtual System.Boolean __0__IsAnyExperimentalPackagesInUse__1__b__74_0(UnityEditor.PackageManager.PackageInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info};
+			var ___result = RM__0__IsAnyExperimentalPackagesInUse__1__b__74_0_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void __0__SetupAddOperation__1__b__83_1(UnityEditor.PackageManager.Requests.AddRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request};
+			var ___result = RM__0__SetupAddOperation__1__b__83_1_AddRequest.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupAddOperation__1__b__83_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value, @error.Value};
+			var ___result = RM__0__SetupAddOperation__1__b__83_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupAddAndRemoveOperation__1__b__89_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value, @error.Value};
+			var ___result = RM__0__SetupAddAndRemoveOperation__1__b__89_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__OnProcessAddAndRemoveResult__1__b__90_0()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_0.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo __0__OnProcessAddAndRemoveResult__1__b__90_2(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_2_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual void __0__OnProcessAddAndRemoveResult__1__b__90_1()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_1.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo __0__OnProcessAddAndRemoveResult__1__b__90_4(System.String @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id};
+			var ___result = RM__0__OnProcessAddAndRemoveResult__1__b__90_4_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual void __0__EmbedByName__1__b__93_1(UnityEditor.PackageManager.Requests.EmbedRequest @request)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@request};
+			var ___result = RM__0__EmbedByName__1__b__93_1_EmbedRequest.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__EmbedByName__1__b__93_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value, @error.Value};
+			var ___result = RM__0__EmbedByName__1__b__93_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__SetupRemoveOperation__1__b__96_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@op.Value, @error.Value};
+			var ___result = RM__0__SetupRemoveOperation__1__b__96_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean __0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_0(UnityEditor.PackageManager.PackageInfo @p)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@p};
+			var ___result = RM__0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_0_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean __0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_1(UnityEditor.PackageManager.PackageInfo @p)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@p};
+			var ___result = RM__0__OnShowPreReleasePackagesesOrSeeAllVersionsChanged__1__b__107_1_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

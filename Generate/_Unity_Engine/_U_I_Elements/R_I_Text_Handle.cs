@@ -230,114 +230,93 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual UnityEngine.Vector2 GetCursorPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCursorPositionStylePainterParameters @parms, System.Single @scaling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parms.Value, @scaling};
-            var ___result = RMGetCursorPosition_CursorPositionStylePainterParameters_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
+		public virtual UnityEngine.Vector2 GetCursorPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCursorPositionStylePainterParameters @parms, System.Single @scaling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parms.Value, @scaling};
+			var ___result = RMGetCursorPosition_CursorPositionStylePainterParameters_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
 
 
-        public virtual System.Single ComputeTextWidth(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @scaling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parms.Value, @scaling};
-            var ___result = RMComputeTextWidth_TextParams_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single ComputeTextWidth(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @scaling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parms.Value, @scaling};
+			var ___result = RMComputeTextWidth_TextParams_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Single ComputeTextHeight(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @scaling)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parms.Value, @scaling};
-            var ___result = RMComputeTextHeight_TextParams_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single ComputeTextHeight(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @scaling)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parms.Value, @scaling};
+			var ___result = RMComputeTextHeight_TextParams_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Single GetLineHeight(System.Int32 @characterIndex, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, System.Single @textScaling, System.Single @pixelPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@characterIndex, @textParams.Value, @textScaling, @pixelPerPoint};
-            var ___result = RMGetLineHeight_Int32_TextParams_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetLineHeight(System.Int32 @characterIndex, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, System.Single @textScaling, System.Single @pixelPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@characterIndex, @textParams.Value, @textScaling, @pixelPerPoint};
+			var ___result = RMGetLineHeight_Int32_TextParams_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parms.Value, @pixelsPerPoint};
-            var ___result = RMUpdate_TextParams_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parms.Value, @pixelsPerPoint};
+			var ___result = RMUpdate_TextParams_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo>(___result);
+		}
 
 
-        public virtual System.Int32 VerticesCount(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @pixelPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parms.Value, @pixelPerPoint};
-            var ___result = RMVerticesCount_TextParams_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 VerticesCount(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @parms, System.Single @pixelPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parms.Value, @pixelPerPoint};
+			var ___result = RMVerticesCount_TextParams_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle New()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNew.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle New()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNew.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle>(___result);
+		}
 
 
-        public virtual System.Boolean IsLegacy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsLegacy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsLegacy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsLegacy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean IsElided()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsElided.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsElided()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsElided.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

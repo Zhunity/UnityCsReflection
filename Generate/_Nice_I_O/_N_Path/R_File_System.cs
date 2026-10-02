@@ -616,378 +616,295 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 		}
 
 
-        public static Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem MakeFileSystemForCurrentMachine()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeFileSystemForCurrentMachine.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directory_GetFiles(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @filter, System.IO.SearchOption @searchOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
-            var ___result = RMDirectory_GetFiles_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
-        }
-
-
-        public virtual System.Boolean Directory_Exists(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMDirectory_Exists_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean File_Exists(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_Exists_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void File_WriteAllBytes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @bytes};
-            var ___result = RMFile_WriteAllBytes_NPath_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void File_Copy(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destinationPath, System.Boolean @overWrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @destinationPath.Value, @overWrite};
-            var ___result = RMFile_Copy_NPath_NPath_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void File_Delete(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_Delete_NPath.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void File_Move(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destinationPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @destinationPath.Value};
-            var ___result = RMFile_Move_NPath_NPath.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void File_WriteAllText(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @contents)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @contents};
-            var ___result = RMFile_WriteAllText_NPath_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String File_ReadAllText(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_ReadAllText_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void File_WriteAllLines(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String[] @contents)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @contents};
-            var ___result = RMFile_WriteAllLines_NPath_StringArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Byte[] File_ReadAllBytes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_ReadAllBytes_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String[] File_ReadAllLines(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_ReadAllLines_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual void File_SetLastWriteTimeUtc(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.DateTime @lastWriteTimeUtc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @lastWriteTimeUtc};
-            var ___result = RMFile_SetLastWriteTimeUtc_NPath_DateTime.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.DateTime File_GetLastWriteTimeUtc(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_GetLastWriteTimeUtc_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Int64 File_GetSize(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_GetSize_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual void File_SetAttributes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.IO.FileAttributes @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @value};
-            var ___result = RMFile_SetAttributes_NPath_FileAttributes.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IO.FileAttributes File_GetAttributes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMFile_GetAttributes_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.FileAttributes>(___result);
-        }
-
-
-        public virtual void Directory_CreateDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMDirectory_CreateDirectory_NPath.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Directory_Delete(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.Boolean @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @b};
-            var ___result = RMDirectory_Delete_NPath_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Directory_Move(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @destPath.Value};
-            var ___result = RMDirectory_Move_NPath_NPath.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Directory_GetCurrentDirectory()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDirectory_GetCurrentDirectory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
-        }
-
-
-        public virtual void Directory_SetCurrentDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @directoryPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath.Value};
-            var ___result = RMDirectory_SetCurrentDirectory_NPath.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directory_GetDirectories(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @filter, System.IO.SearchOption @searchOptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
-            var ___result = RMDirectory_GetDirectories_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Resolve(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMResolve_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
-        }
-
-
-        public virtual System.Boolean IsSymbolicLink(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path.Value};
-            var ___result = RMIsSymbolicLink_NPath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CreateSymbolicLink(Hvak.Editor.Refleaction.RNiceIO.RNPath @fromPath, Hvak.Editor.Refleaction.RNiceIO.RNPath @targetPath, System.Boolean @targetIsFile)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fromPath.Value, @targetPath.Value, @targetIsFile};
-            var ___result = RMCreateSymbolicLink_NPath_NPath_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem MakeFileSystemForCurrentMachine()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeFileSystemForCurrentMachine.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem>(___result);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directory_GetFiles(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @filter, System.IO.SearchOption @searchOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
+			var ___result = RMDirectory_GetFiles_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
+		}
+
+
+		public virtual System.Boolean Directory_Exists(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMDirectory_Exists_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean File_Exists(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_Exists_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void File_WriteAllBytes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @bytes};
+			var ___result = RMFile_WriteAllBytes_NPath_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void File_Copy(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destinationPath, System.Boolean @overWrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @destinationPath.Value, @overWrite};
+			var ___result = RMFile_Copy_NPath_NPath_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void File_Delete(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_Delete_NPath.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void File_Move(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destinationPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @destinationPath.Value};
+			var ___result = RMFile_Move_NPath_NPath.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void File_WriteAllText(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @contents)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @contents};
+			var ___result = RMFile_WriteAllText_NPath_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String File_ReadAllText(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_ReadAllText_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void File_WriteAllLines(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String[] @contents)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @contents};
+			var ___result = RMFile_WriteAllLines_NPath_StringArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Byte[] File_ReadAllBytes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_ReadAllBytes_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String[] File_ReadAllLines(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_ReadAllLines_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual void File_SetLastWriteTimeUtc(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.DateTime @lastWriteTimeUtc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @lastWriteTimeUtc};
+			var ___result = RMFile_SetLastWriteTimeUtc_NPath_DateTime.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.DateTime File_GetLastWriteTimeUtc(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_GetLastWriteTimeUtc_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Int64 File_GetSize(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_GetSize_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual void File_SetAttributes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.IO.FileAttributes @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @value};
+			var ___result = RMFile_SetAttributes_NPath_FileAttributes.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IO.FileAttributes File_GetAttributes(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMFile_GetAttributes_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.FileAttributes>(___result);
+		}
+
+
+		public virtual void Directory_CreateDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMDirectory_CreateDirectory_NPath.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Directory_Delete(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.Boolean @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @b};
+			var ___result = RMDirectory_Delete_NPath_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Directory_Move(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, Hvak.Editor.Refleaction.RNiceIO.RNPath @destPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @destPath.Value};
+			var ___result = RMDirectory_Move_NPath_NPath.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Directory_GetCurrentDirectory()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDirectory_GetCurrentDirectory.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+		}
+
+
+		public virtual void Directory_SetCurrentDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @directoryPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath.Value};
+			var ___result = RMDirectory_SetCurrentDirectory_NPath.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directory_GetDirectories(Hvak.Editor.Refleaction.RNiceIO.RNPath @path, System.String @filter, System.IO.SearchOption @searchOptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
+			var ___result = RMDirectory_GetDirectories_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Resolve(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMResolve_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+		}
+
+
+		public virtual System.Boolean IsSymbolicLink(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path.Value};
+			var ___result = RMIsSymbolicLink_NPath.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CreateSymbolicLink(Hvak.Editor.Refleaction.RNiceIO.RNPath @fromPath, Hvak.Editor.Refleaction.RNiceIO.RNPath @targetPath, System.Boolean @targetIsFile)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fromPath.Value, @targetPath.Value, @targetIsFile};
+			var ___result = RMCreateSymbolicLink_NPath_NPath_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

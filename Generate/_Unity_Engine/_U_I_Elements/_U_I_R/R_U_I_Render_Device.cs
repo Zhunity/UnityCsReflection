@@ -1542,466 +1542,360 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 
-        public virtual void InitVertexDeclaration()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitVertexDeclaration.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InitVertexDeclaration()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitVertexDeclaration.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CompleteCreation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCompleteCreation.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CompleteCreation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCompleteCreation.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DisposeImmediate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisposeImmediate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DisposeImmediate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisposeImmediate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
-        {
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+		{
 			@vertexData = default;
 			@indexData = default;
 			@indexOffset = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
-            var ___result = RMAllocate_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
+			var ___result = RMAllocate_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
 			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[2]);
 			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[3]);
 			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[4]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle>(___result);
-        }
 
-
-        public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData)
-        {
+		public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData)
+		{
 			@vertexData = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value, @vertexCount, @vertexData.Value};
-            var ___result = RMUpdate_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh.Value, @vertexCount, @vertexData.Value};
+			var ___result = RMUpdate_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
 			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
-        {
+		public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+		{
 			@vertexData = default;
 			@indexData = default;
 			@indexOffset = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
-            var ___result = RMUpdate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
+			var ___result = RMUpdate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
 			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
 			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
 			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[5]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean TryAllocFromPage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @va, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
-            var ___result = RMTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean TryAllocFromPage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @va, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
+			var ___result = RMTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
 			@va = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc>(___parameters[3]);
 			@ia = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc>(___parameters[4]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual void Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @meshHandle, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, System.Boolean @shortLived)
-        {
+		public virtual void Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @meshHandle, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, System.Boolean @shortLived)
+		{
 			@vertexData = default;
 			@indexData = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@meshHandle.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @shortLived};
-            var ___result = RMAllocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@meshHandle.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @shortLived};
+			var ___result = RMAllocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.Invoke(___genericsType, ___parameters);
 			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
 			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public virtual void UpdateAfterGPUUsedData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate @allocToUpdate, System.Boolean @copyBackIndices)
-        {
+		public virtual void UpdateAfterGPUUsedData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate @allocToUpdate, System.Boolean @copyBackIndices)
+		{
 			@vertexData = default;
 			@indexData = default;
 			@indexOffset = default;
 			@allocToUpdate = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset, @allocToUpdate.Value, @copyBackIndices};
-            var ___result = RMUpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset, @allocToUpdate.Value, @copyBackIndices};
+			var ___result = RMUpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.Invoke(___genericsType, ___parameters);
 			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
 			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
 			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[5]);
 			@allocToUpdate = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>(___parameters[6]);
-
-            
-        }
+		}
 
 
-        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value};
-            var ___result = RMFree_MeshHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mesh.Value};
+			var ___result = RMFree_MeshHandle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.Vector4 GetClipSpaceParams()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetClipSpaceParams.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
+		public static UnityEngine.Vector4 GetClipSpaceParams()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetClipSpaceParams.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
 
 
-        public virtual void OnFrameRenderingBegin()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnFrameRenderingBegin.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnFrameRenderingBegin()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnFrameRenderingBegin.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public unsafe static Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{Pointer.Box(@p, typeof(void)), @count};
-            var ___result = RMPtrToSlice_GT_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public unsafe static Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{Pointer.Box(@p, typeof(void)), @count};
+			var ___result = RMPtrToSlice_GT_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual void ApplyDrawCommandState(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, System.Boolean @newFontDiffers, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @newFontDiffers, @st.Value};
-            var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyDrawCommandState(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, System.Boolean @newFontDiffers, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @newFontDiffers, @st.Value};
+			var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
 			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[5]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyBatchState(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st, System.Boolean @allowMaterialChange)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@st.Value, @allowMaterialChange};
-            var ___result = RMApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyBatchState(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st, System.Boolean @allowMaterialChange)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@st.Value, @allowMaterialChange};
+			var ___result = RMApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
 			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void EvaluateChain(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @head, UnityEngine.Material @initialMat, UnityEngine.Material @defaultMat, UnityEngine.Texture @gradientSettings, UnityEngine.Texture @shaderInfo, System.Single @pixelsPerPoint, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> @transforms, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @clipRects, UnityEngine.MaterialPropertyBlock @stateMatProps, System.Boolean @allowMaterialChange, ref System.Exception @immediateException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@head.Value, @initialMat, @defaultMat, @gradientSettings, @shaderInfo, @pixelsPerPoint, @transforms.Value, @clipRects.Value, @stateMatProps, @allowMaterialChange, @immediateException};
-            var ___result = RMEvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception.Invoke(___genericsType, ___parameters);
+		public virtual void EvaluateChain(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @head, UnityEngine.Material @initialMat, UnityEngine.Material @defaultMat, UnityEngine.Texture @gradientSettings, UnityEngine.Texture @shaderInfo, System.Single @pixelsPerPoint, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> @transforms, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @clipRects, UnityEngine.MaterialPropertyBlock @stateMatProps, System.Boolean @allowMaterialChange, ref System.Exception @immediateException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@head.Value, @initialMat, @defaultMat, @gradientSettings, @shaderInfo, @pixelsPerPoint, @transforms.Value, @clipRects.Value, @stateMatProps, @allowMaterialChange, @immediateException};
+			var ___result = RMEvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception.Invoke(___genericsType, ___parameters);
 			@immediateException = ReflectionUtils.Convert<System.Exception>(___parameters[10]);
-
-            
-        }
+		}
 
 
-        public virtual void UpdateFenceValue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateFenceValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateFenceValue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateFenceValue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public unsafe virtual void KickRanges(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges, ref System.Int32 @rangesReady, ref System.Int32 @rangesStart, System.Int32 @rangesCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @curPage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ranges.Value, @rangesReady, @rangesStart, @rangesCount, @curPage.Value};
-            var ___result = RMKickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page.Invoke(___genericsType, ___parameters);
+		public unsafe virtual void KickRanges(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges, ref System.Int32 @rangesReady, ref System.Int32 @rangesStart, System.Int32 @rangesCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @curPage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ranges.Value, @rangesReady, @rangesStart, @rangesCount, @curPage.Value};
+			var ___result = RMKickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page.Invoke(___genericsType, ___parameters);
 			@rangesReady = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@rangesStart = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+		}
 
-            
-        }
 
+		public virtual void DrawRanges<I, T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @ib, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @vb, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges) where I : struct where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(I), typeof(T)};
+			var ___parameters = new object[]{@ib.Value, @vb.Value, @ranges.Value};
+			var ___result = RMDrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void DrawRanges<I, T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @ib, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @vb, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges) where I : struct where T : struct
-        {
 
-            var ___genericsType = new Type[] {typeof(I), typeof(T)};
-            var ___parameters = new object[]{@ib.Value, @vb.Value, @ranges.Value};
-            var ___result = RMDrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_.Invoke(___genericsType, ___parameters);
+		public virtual void WaitOnAllCpuFences()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitOnAllCpuFences.Invoke(___genericsType, ___parameters);
+		}
+
 
-            
-        }
+		public virtual void WaitOnCpuFence(System.UInt32 @fence)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@fence};
+			var ___result = RMWaitOnCpuFence_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
 
-
-        public virtual void WaitOnAllCpuFences()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitOnAllCpuFences.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void WaitOnCpuFence(System.UInt32 @fence)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@fence};
-            var ___result = RMWaitOnCpuFence_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AdvanceFrame()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAdvanceFrame.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PruneUnusedPages()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPruneUnusedPages.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void PrepareForGfxDeviceRecreate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPrepareForGfxDeviceRecreate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void WrapUpGfxDeviceRecreate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWrapUpGfxDeviceRecreate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void FlushAllPendingDeviceDisposes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFlushAllPendingDeviceDisposes.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics GatherAllocationStatistics()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGatherAllocationStatistics.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics GatherDrawStatistics()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGatherDrawStatistics.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics>(___result);
-        }
-
-
-        public static void ProcessDeviceFreeQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMProcessDeviceFreeQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnEngineUpdateGlobal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEngineUpdateGlobal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnFlushPendingResources()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnFlushPendingResources.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void AdvanceFrame()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAdvanceFrame.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PruneUnusedPages()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPruneUnusedPages.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void PrepareForGfxDeviceRecreate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPrepareForGfxDeviceRecreate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void WrapUpGfxDeviceRecreate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWrapUpGfxDeviceRecreate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void FlushAllPendingDeviceDisposes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFlushAllPendingDeviceDisposes.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics GatherAllocationStatistics()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGatherAllocationStatistics.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics GatherDrawStatistics()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGatherDrawStatistics.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics>(___result);
+		}
+
+
+		public static void ProcessDeviceFreeQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMProcessDeviceFreeQueue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OnEngineUpdateGlobal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEngineUpdateGlobal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OnFlushPendingResources()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnFlushPendingResources.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

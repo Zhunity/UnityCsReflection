@@ -150,81 +150,63 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Set<T>(System.String @key, T @value) where T : class
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMSet_GT_String_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Set<T>(System.String @key, T @value) where T : class
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMSet_GT_String_T.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual T Get<T>(System.String @key) where T : class
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGet_GT_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T Get<T>(System.String @key) where T : class
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGet_GT_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual T GetScriptable<T>(System.String @key) where T : UnityEngine.ScriptableObject
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetScriptable_GT_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
+		public virtual T GetScriptable<T>(System.String @key) where T : UnityEngine.ScriptableObject
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetScriptable_GT_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T>(___result);
+		}
 
 
-        public virtual void Overwrite(System.Object @obj, System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @key};
-            var ___result = RMOverwrite_Object_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Overwrite(System.Object @obj, System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @key};
+			var ___result = RMOverwrite_Object_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean ContainsKey(System.String @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMContainsKey_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean ContainsKey(System.String @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMContainsKey_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

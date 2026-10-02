@@ -566,191 +566,147 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public static void ClearEditorDispatcher()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearEditorDispatcher.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.UIElements.EventDispatcher CreateDefault()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateDefault.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> @strategies)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strategies.Value};
-            var ___result = RMCreateForRuntime_IList_d_IEventDispatchingStrategy_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
-        }
-
-
-        public virtual void Dispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @panel, @dispatchMode.Value};
-            var ___result = RMDispatch_EventBase_IPanel_DispatchMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PushDispatcherContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPushDispatcherContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void PopDispatcherContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPopDispatcherContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CloseGate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCloseGate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OpenGate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOpenGate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessEventQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMProcessEventQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @panel};
-            var ___result = RMProcessEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyDispatchingStrategies(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, System.Boolean @imguiEventIsInitiallyUsed)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @panel, @imguiEventIsInitiallyUsed};
-            var ___result = RMApplyDispatchingStrategies_EventBase_IPanel_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static void ClearEditorDispatcher()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearEditorDispatcher.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.UIElements.EventDispatcher CreateDefault()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateDefault.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
+		}
+
+
+		public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> @strategies)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strategies.Value};
+			var ___result = RMCreateForRuntime_IList_d_IEventDispatchingStrategy_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
+		}
+
+
+		public virtual void Dispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @panel, @dispatchMode.Value};
+			var ___result = RMDispatch_EventBase_IPanel_DispatchMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PushDispatcherContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPushDispatcherContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void PopDispatcherContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPopDispatcherContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CloseGate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCloseGate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OpenGate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOpenGate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessEventQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMProcessEventQueue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @panel};
+			var ___result = RMProcessEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ApplyDispatchingStrategies(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, System.Boolean @imguiEventIsInitiallyUsed)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @panel, @imguiEventIsInitiallyUsed};
+			var ___result = RMApplyDispatchingStrategies_EventBase_IPanel_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -54,15 +54,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 
-        public virtual void OnWindowCreated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowCreatedArgs @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMOnWindowCreated_WindowCreatedArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnWindowCreated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowCreatedArgs @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMOnWindowCreated_WindowCreatedArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

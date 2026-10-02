@@ -54,15 +54,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public virtual System.Object GetFormat(System.Type @formatType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@formatType};
-            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetFormat(System.Type @formatType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@formatType};
+			var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

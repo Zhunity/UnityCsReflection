@@ -1718,805 +1718,659 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetExecutingAssembly(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stackMark.Value};
-            var ___result = RMGetExecutingAssembly_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetExecutingAssembly(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stackMark.Value};
+			var ___result = RMGetExecutingAssembly_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[0]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
 
-
-        public static System.Reflection.AssemblyName CreateAssemblyName(System.String @assemblyString, System.Boolean @forIntrospection, out Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly @assemblyFromResolveEvent)
-        {
+		public static System.Reflection.AssemblyName CreateAssemblyName(System.String @assemblyString, System.Boolean @forIntrospection, out Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly @assemblyFromResolveEvent)
+		{
 			@assemblyFromResolveEvent = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assemblyString, @forIntrospection, @assemblyFromResolveEvent.Value};
-            var ___result = RMCreateAssemblyName_String_Boolean_Out_RuntimeAssembly.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assemblyString, @forIntrospection, @assemblyFromResolveEvent.Value};
+			var ___result = RMCreateAssemblyName_String_Boolean_Out_RuntimeAssembly.Invoke(___genericsType, ___parameters);
 			@assemblyFromResolveEvent = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
-        }
 
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly InternalLoadAssemblyName(System.Reflection.AssemblyName @assemblyRef, System.Security.Policy.Evidence @assemblySecurity, Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly @reqAssembly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @throwOnFileNotFound, System.Boolean @forIntrospection, System.Boolean @suppressSecurityChecks)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assemblyRef, @assemblySecurity, @reqAssembly.Value, @stackMark.Value, @throwOnFileNotFound, @forIntrospection, @suppressSecurityChecks};
-            var ___result = RMInternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly InternalLoadAssemblyName(System.Reflection.AssemblyName @assemblyRef, System.Security.Policy.Evidence @assemblySecurity, Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly @reqAssembly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @throwOnFileNotFound, System.Boolean @forIntrospection, System.Boolean @suppressSecurityChecks)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assemblyRef, @assemblySecurity, @reqAssembly.Value, @stackMark.Value, @throwOnFileNotFound, @forIntrospection, @suppressSecurityChecks};
+			var ___result = RMInternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[3]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
 
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly LoadWithPartialNameInternal(System.String @partialName, System.Security.Policy.Evidence @securityEvidence, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@partialName, @securityEvidence, @stackMark.Value};
-            var ___result = RMLoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly LoadWithPartialNameInternal(System.String @partialName, System.Security.Policy.Evidence @securityEvidence, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@partialName, @securityEvidence, @stackMark.Value};
+			var ___result = RMLoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[2]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
 
-
-        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName @an, System.Security.Policy.Evidence @securityEvidence, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@an, @securityEvidence, @stackMark.Value};
-            var ___result = RMLoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName @an, System.Security.Policy.Evidence @securityEvidence, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@an, @securityEvidence, @stackMark.Value};
+			var ___result = RMLoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[2]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
-
-
-        public virtual System.Reflection.AssemblyName GetName(System.Boolean @copiedName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@copiedName};
-            var ___result = RMGetName_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
-        }
-
-
-        public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @throwOnError, @ignoreCase};
-            var ___result = RMGetType_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Reflection.Module GetModule(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetModule_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
-
-
-        public virtual System.Reflection.AssemblyName[] GetReferencedAssemblies()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetReferencedAssemblies.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.AssemblyName[]>(___result);
-        }
-
-
-        public virtual System.Reflection.Module[] GetModules(System.Boolean @getResourceModules)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@getResourceModules};
-            var ___result = RMGetModules_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
-        }
-
-
-        public virtual System.Reflection.Module[] GetLoadedModules(System.Boolean @getResourceModules)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@getResourceModules};
-            var ___result = RMGetLoadedModules_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
-        }
-
-
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture};
-            var ___result = RMGetSatelliteAssembly_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
-        }
-
-
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture, @version};
-            var ___result = RMGetSatelliteAssembly_CultureInfo_Version.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
-        }
-
-
-        public virtual System.Type[] GetExportedTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExportedTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
-
-
-        public static System.Byte[] GetAotId()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAotId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public static System.String get_code_base(System.Reflection.Assembly @a, System.Boolean @escaped)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @escaped};
-            var ___result = RMget_code_base_Assembly_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String get_location()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_location.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String get_fullname(System.Reflection.Assembly @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMget_fullname_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Boolean GetAotIdInternal(System.Byte[] @aotid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aotid};
-            var ___result = RMGetAotIdInternal_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String InternalImageRuntimeVersion(System.Reflection.Assembly @a)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a};
-            var ___result = RMInternalImageRuntimeVersion_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean get_global_assembly_cache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_global_assembly_cache.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String GetCodeBase(System.Reflection.Assembly @a, System.Boolean @escaped)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @escaped};
-            var ___result = RMGetCodeBase_Assembly_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean GetManifestResourceInfoInternal(System.String @name, System.Reflection.ManifestResourceInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @info};
-            var ___result = RMGetManifestResourceInfoInternal_String_ManifestResourceInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Reflection.ManifestResourceInfo GetManifestResourceInfo(System.String @resourceName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@resourceName};
-            var ___result = RMGetManifestResourceInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.ManifestResourceInfo>(___result);
-        }
-
-
-        public virtual System.String[] GetManifestResourceNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManifestResourceNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.IntPtr GetManifestResourceInternal(System.String @name, out System.Int32 @size, out System.Reflection.Module @module)
-        {
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
+
+
+		public virtual System.Reflection.AssemblyName GetName(System.Boolean @copiedName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@copiedName};
+			var ___result = RMGetName_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
+		}
+
+
+		public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @throwOnError, @ignoreCase};
+			var ___result = RMGetType_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Reflection.Module GetModule(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetModule_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
+
+
+		public virtual System.Reflection.AssemblyName[] GetReferencedAssemblies()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetReferencedAssemblies.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.AssemblyName[]>(___result);
+		}
+
+
+		public virtual System.Reflection.Module[] GetModules(System.Boolean @getResourceModules)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@getResourceModules};
+			var ___result = RMGetModules_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
+		}
+
+
+		public virtual System.Reflection.Module[] GetLoadedModules(System.Boolean @getResourceModules)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@getResourceModules};
+			var ___result = RMGetLoadedModules_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
+		}
+
+
+		public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture};
+			var ___result = RMGetSatelliteAssembly_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
+		}
+
+
+		public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture, @version};
+			var ___result = RMGetSatelliteAssembly_CultureInfo_Version.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
+		}
+
+
+		public virtual System.Type[] GetExportedTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExportedTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
+
+
+		public static System.Byte[] GetAotId()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAotId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public static System.String get_code_base(System.Reflection.Assembly @a, System.Boolean @escaped)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @escaped};
+			var ___result = RMget_code_base_Assembly_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String get_location()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_location.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String get_fullname(System.Reflection.Assembly @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMget_fullname_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Boolean GetAotIdInternal(System.Byte[] @aotid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@aotid};
+			var ___result = RMGetAotIdInternal_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String InternalImageRuntimeVersion(System.Reflection.Assembly @a)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a};
+			var ___result = RMInternalImageRuntimeVersion_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean get_global_assembly_cache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_global_assembly_cache.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String GetCodeBase(System.Reflection.Assembly @a, System.Boolean @escaped)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @escaped};
+			var ___result = RMGetCodeBase_Assembly_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean GetManifestResourceInfoInternal(System.String @name, System.Reflection.ManifestResourceInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @info};
+			var ___result = RMGetManifestResourceInfoInternal_String_ManifestResourceInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Reflection.ManifestResourceInfo GetManifestResourceInfo(System.String @resourceName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@resourceName};
+			var ___result = RMGetManifestResourceInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.ManifestResourceInfo>(___result);
+		}
+
+
+		public virtual System.String[] GetManifestResourceNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManifestResourceNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.IntPtr GetManifestResourceInternal(System.String @name, out System.Int32 @size, out System.Reflection.Module @module)
+		{
 			@size = default;
 			@module = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @size, @module};
-            var ___result = RMGetManifestResourceInternal_String_Out_Int32_Out_Module.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @size, @module};
+			var ___result = RMGetManifestResourceInternal_String_Out_Int32_Out_Module.Invoke(___genericsType, ___parameters);
 			@size = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@module = ReflectionUtils.Convert<System.Reflection.Module>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.IO.Stream GetManifestResourceStream(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetManifestResourceStream_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.Stream>(___result);
-        }
-
-
-        public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @name};
-            var ___result = RMGetManifestResourceStream_Type_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.Stream>(___result);
-        }
-
-
-        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inherit};
-            var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object[]>(___result);
-        }
-
-
-        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object[]>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCustomAttributesData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IList<System.Reflection.CustomAttributeData>>(___result);
-        }
-
-
-        public virtual System.Reflection.Module GetManifestModule()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManifestModule.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
-
-
-        public virtual System.Reflection.Module GetManifestModuleInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManifestModuleInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
-
-
-        public virtual System.Reflection.Module[] GetModulesInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetModulesInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
-        }
-
-
-        public virtual System.Object GetFilesInternal(System.String @name, System.Boolean @getResourceModules)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @getResourceModules};
-            var ___result = RMGetFilesInternal_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.IO.FileStream[] GetFiles(System.Boolean @getResourceModules)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@getResourceModules};
-            var ___result = RMGetFiles_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.FileStream[]>(___result);
-        }
-
-
-        public virtual System.IO.FileStream GetFile(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetFile_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.FileStream>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Security.Policy.Evidence UnprotectedGetEvidence()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnprotectedGetEvidence.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
-        }
-
-
-        public virtual void Resolve()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResolve.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean LoadPermissions(System.Reflection.Assembly @a, ref System.IntPtr @minimum, ref System.Int32 @minLength, ref System.IntPtr @optional, ref System.Int32 @optLength, ref System.IntPtr @refused, ref System.Int32 @refLength)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @minimum, @minLength, @optional, @optLength, @refused, @refLength};
-            var ___result = RMLoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.IO.Stream GetManifestResourceStream(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetManifestResourceStream_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.Stream>(___result);
+		}
+
+
+		public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @name};
+			var ___result = RMGetManifestResourceStream_Type_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.Stream>(___result);
+		}
+
+
+		public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributeType, @inherit};
+			var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inherit};
+			var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object[]>(___result);
+		}
+
+
+		public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@attributeType, @inherit};
+			var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object[]>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCustomAttributesData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IList<System.Reflection.CustomAttributeData>>(___result);
+		}
+
+
+		public virtual System.Reflection.Module GetManifestModule()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManifestModule.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
+
+
+		public virtual System.Reflection.Module GetManifestModuleInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManifestModuleInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
+
+
+		public virtual System.Reflection.Module[] GetModulesInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetModulesInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
+		}
+
+
+		public virtual System.Object GetFilesInternal(System.String @name, System.Boolean @getResourceModules)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @getResourceModules};
+			var ___result = RMGetFilesInternal_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.IO.FileStream[] GetFiles(System.Boolean @getResourceModules)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@getResourceModules};
+			var ___result = RMGetFiles_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.FileStream[]>(___result);
+		}
+
+
+		public virtual System.IO.FileStream GetFile(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetFile_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.FileStream>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Security.Policy.Evidence UnprotectedGetEvidence()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnprotectedGetEvidence.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
+		}
+
+
+		public virtual void Resolve()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResolve.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean LoadPermissions(System.Reflection.Assembly @a, ref System.IntPtr @minimum, ref System.Int32 @minLength, ref System.IntPtr @optional, ref System.Int32 @optLength, ref System.IntPtr @refused, ref System.Int32 @refLength)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @minimum, @minLength, @optional, @optLength, @refused, @refLength};
+			var ___result = RMLoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@minimum = ReflectionUtils.Convert<System.IntPtr>(___parameters[1]);
 			@minLength = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 			@optional = ReflectionUtils.Convert<System.IntPtr>(___parameters[3]);
 			@optLength = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
 			@refused = ReflectionUtils.Convert<System.IntPtr>(___parameters[5]);
 			@refLength = ReflectionUtils.Convert<System.Int32>(___parameters[6]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void LoadAssemblyPermissions()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadAssemblyPermissions.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.IO.FileStream[] GetFiles()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFiles.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IO.FileStream[]>(___result);
-        }
+		public virtual void LoadAssemblyPermissions()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadAssemblyPermissions.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name, System.Boolean @skipSecurityCheck, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
+		public virtual System.IO.FileStream[] GetFiles()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFiles.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IO.FileStream[]>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
-            var ___result = RMGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+		public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name, System.Boolean @skipSecurityCheck, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
+			var ___result = RMGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[3]);
+			return ReflectionUtils.Convert<System.IO.Stream>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.IO.Stream>(___result);
-        }
 
-
-        public virtual System.IO.Stream GetManifestResourceStream(System.String @name, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @skipSecurityCheck)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
-            var ___result = RMGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual System.IO.Stream GetManifestResourceStream(System.String @name, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @skipSecurityCheck)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
+			var ___result = RMGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.IO.Stream>(___result);
-        }
-
-
-        public virtual System.String GetSimpleName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSimpleName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.IO.Stream>(___result);
+		}
 
 
-        public virtual System.Byte[] GetPublicKey()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPublicKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public virtual System.String GetSimpleName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSimpleName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Version GetVersion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Version>(___result);
-        }
+		public virtual System.Byte[] GetPublicKey()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPublicKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public virtual System.Type[] GetTypes(System.Boolean @exportedOnly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@exportedOnly};
-            var ___result = RMGetTypes_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
+		public virtual System.Version GetVersion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Version>(___result);
+		}
 
 
-        public virtual System.Type[] GetTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
+		public virtual System.Type[] GetTypes(System.Boolean @exportedOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@exportedOnly};
+			var ___result = RMGetTypes_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
 
 
-        public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @throwOnError};
-            var ___result = RMGetType_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type[] GetTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
 
 
-        public virtual System.Type GetType(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetType_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @throwOnError};
+			var ___result = RMGetType_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Type InternalGetType(System.Reflection.Module @module, System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@module, @name, @throwOnError, @ignoreCase};
-            var ___result = RMInternalGetType_Module_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetType_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Reflection.AssemblyName GetName()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetName.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
-        }
+		public virtual System.Type InternalGetType(System.Reflection.Module @module, System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@module, @name, @throwOnError, @ignoreCase};
+			var ___result = RMInternalGetType_Module_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnError, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
+		public virtual System.Reflection.AssemblyName GetName()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetName.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.AssemblyName>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
-            var ___result = RMGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+		public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnError, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
+			var ___result = RMGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
-        }
 
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly InternalGetSatelliteAssembly(System.String @name, System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnFileNotFound, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
-            var ___result = RMInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly InternalGetSatelliteAssembly(System.String @name, System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnFileNotFound, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
+			var ___result = RMInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[4]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
-        }
-
-
-        public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@moduleName, @rawModule};
-            var ___result = RMLoadModule_String_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
+		}
 
 
-        public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule, System.Byte[] @rawSymbolStore)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@moduleName, @rawModule, @rawSymbolStore};
-            var ___result = RMLoadModule_String_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module>(___result);
-        }
+		public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@moduleName, @rawModule};
+			var ___result = RMLoadModule_String_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
 
 
-        public virtual System.Object CreateInstance(System.String @typeName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeName};
-            var ___result = RMCreateInstance_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule, System.Byte[] @rawSymbolStore)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@moduleName, @rawModule, @rawSymbolStore};
+			var ___result = RMLoadModule_String_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module>(___result);
+		}
 
 
-        public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeName, @ignoreCase};
-            var ___result = RMCreateInstance_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object CreateInstance(System.String @typeName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeName};
+			var ___result = RMCreateInstance_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
-            var ___result = RMCreateInstance_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeName, @ignoreCase};
+			var ___result = RMCreateInstance_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Reflection.Module[] GetLoadedModules()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLoadedModules.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
-        }
+		public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
+			var ___result = RMCreateInstance_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Reflection.Module[] GetModules()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetModules.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
-        }
+		public virtual System.Reflection.Module[] GetLoadedModules()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLoadedModules.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
+		}
 
 
-        public virtual System.Type[] GetForwardedTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetForwardedTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type[]>(___result);
-        }
+		public virtual System.Reflection.Module[] GetModules()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetModules.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Reflection.Module[]>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Type[] GetForwardedTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetForwardedTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type[]>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -2454,1315 +2454,1016 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public static void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args};
-            var ___result = RMAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args};
+			var ___result = RMAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void AsyncLocalSetCurrentUICulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args};
-            var ___result = RMAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void AsyncLocalSetCurrentUICulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args};
+			var ___result = RMAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Start()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Start()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMStart.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Start(System.Object @parameter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parameter};
-            var ___result = RMStart_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Start(System.Object @parameter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parameter};
+			var ___result = RMStart_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Start(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stackMark.Value};
-            var ___result = RMStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public virtual void Start(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stackMark.Value};
+			var ___result = RMStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[0]);
+		}
+
 
-            
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader GetExecutionContextReader()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExecutionContextReader.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader GetExecutionContextReader()
-        {
+		public virtual System.Threading.ExecutionContext GetMutableExecutionContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMutableExecutionContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExecutionContextReader.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader>(___result);
-        }
+		public virtual void SetExecutionContext(System.Threading.ExecutionContext @value, System.Boolean @belongsToCurrentScope)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @belongsToCurrentScope};
+			var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Threading.ExecutionContext GetMutableExecutionContext()
-        {
+		public virtual void SetExecutionContext(Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @value, System.Boolean @belongsToCurrentScope)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value, @belongsToCurrentScope};
+			var ___result = RMSetExecutionContext_Reader_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMutableExecutionContext.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
-        }
+		public virtual void SetCompressedStack(System.Threading.CompressedStack @stack)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stack};
+			var ___result = RMSetCompressedStack_CompressedStack.Invoke(___genericsType, ___parameters);
+		}
+
 
+		public virtual System.Threading.CompressedStack GetCompressedStack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCompressedStack.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
+		}
 
-        public virtual void SetExecutionContext(System.Threading.ExecutionContext @value, System.Boolean @belongsToCurrentScope)
-        {
+
+		public static void ResetAbort()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetAbort.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetAbortNative()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetAbortNative.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Suspend()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSuspend.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SuspendInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSuspendInternal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Resume()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResume.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResumeInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResumeInternal.Invoke(___genericsType, ___parameters);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @belongsToCurrentScope};
-            var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetExecutionContext(Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @value, System.Boolean @belongsToCurrentScope)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value, @belongsToCurrentScope};
-            var ___result = RMSetExecutionContext_Reader_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCompressedStack(System.Threading.CompressedStack @stack)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stack};
-            var ___result = RMSetCompressedStack_CompressedStack.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Threading.CompressedStack GetCompressedStack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCompressedStack.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
-        }
-
-
-        public static void ResetAbort()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetAbort.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetAbortNative()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetAbortNative.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Suspend()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSuspend.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SuspendInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSuspendInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Resume()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResume.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResumeInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResumeInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Interrupt()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInterrupt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InterruptInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInterruptInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetPriorityNative()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPriorityNative.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetPriorityNative(System.Int32 @priority)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@priority};
-            var ___result = RMSetPriorityNative_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean JoinInternal(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMJoinInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Join()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMJoin.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Join(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMJoin_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Join(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMJoin_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SleepInternal(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMSleepInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Sleep(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMSleep_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Sleep(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMSleep_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean YieldInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMYieldInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Yield()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMYield.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetStartHelper(System.Delegate @start, System.Int32 @maxStackSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @maxStackSize};
-            var ___result = RMSetStartHelper_Delegate_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.LocalDataStoreSlot AllocateDataSlot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
-        }
-
-
-        public static void FreeNamedDataSlot(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Object GetData(System.LocalDataStoreSlot @slot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot};
-            var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slot, @data};
-            var ___result = RMSetData_LocalDataStoreSlot_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Globalization.CultureInfo GetCurrentUICultureNoAppX()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCurrentUICultureNoAppX.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public virtual System.Globalization.CultureInfo GetCurrentCultureNoAppX()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCurrentCultureNoAppX.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static void nativeInitCultureAccessors()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMnativeInitCultureAccessors.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void MemoryBarrier()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemoryBarrier.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
-        {
+		public virtual void Interrupt()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInterrupt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InterruptInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInterruptInternal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetPriorityNative()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPriorityNative.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetPriorityNative(System.Int32 @priority)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@priority};
+			var ___result = RMSetPriorityNative_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean JoinInternal(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMJoinInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Join()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMJoin.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Join(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMJoin_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Join(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMJoin_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void SleepInternal(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMSleepInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Sleep(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMSleep_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Sleep(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMSleep_TimeSpan.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean YieldInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMYieldInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Yield()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMYield.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetStartHelper(System.Delegate @start, System.Int32 @maxStackSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @maxStackSize};
+			var ___result = RMSetStartHelper_Delegate_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.LocalDataStoreSlot AllocateDataSlot()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
+		}
+
+
+		public static void FreeNamedDataSlot(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMFreeNamedDataSlot_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Object GetData(System.LocalDataStoreSlot @slot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot};
+			var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slot, @data};
+			var ___result = RMSetData_LocalDataStoreSlot_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Globalization.CultureInfo GetCurrentUICultureNoAppX()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCurrentUICultureNoAppX.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public virtual System.Globalization.CultureInfo GetCurrentCultureNoAppX()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCurrentCultureNoAppX.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static void nativeInitCultureAccessors()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMnativeInitCultureAccessors.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void MemoryBarrier()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemoryBarrier.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
+		{
 			@pcTInfo = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pcTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pcTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
+			var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ConstructInternalThread()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMConstructInternalThread.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ConstructInternalThread()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMConstructInternalThread.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Byte[] ByteArrayToRootDomain(System.Byte[] @arr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arr};
-            var ___result = RMByteArrayToRootDomain_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public static System.Byte[] ByteArrayToRootDomain(System.Byte[] @arr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arr};
+			var ___result = RMByteArrayToRootDomain_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public static System.Byte[] ByteArrayToCurrentDomain(System.Byte[] @arr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arr};
-            var ___result = RMByteArrayToCurrentDomain_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+		public static System.Byte[] ByteArrayToCurrentDomain(System.Byte[] @arr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arr};
+			var ___result = RMByteArrayToCurrentDomain_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
 
 
-        public static void DeserializePrincipal(System.Threading.Thread @th)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@th};
-            var ___result = RMDeserializePrincipal_Thread.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void DeserializePrincipal(System.Threading.Thread @th)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@th};
+			var ___result = RMDeserializePrincipal_Thread.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void SerializePrincipal(System.Threading.Thread @th, System.Security.Principal.IPrincipal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@th, @value};
-            var ___result = RMSerializePrincipal_Thread_IPrincipal.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SerializePrincipal(System.Threading.Thread @th, System.Security.Principal.IPrincipal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@th, @value};
+			var ___result = RMSerializePrincipal_Thread_IPrincipal.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.AppDomain GetDomain()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDomain.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.AppDomain>(___result);
-        }
+		public static System.AppDomain GetDomain()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDomain.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.AppDomain>(___result);
+		}
 
 
-        public static void GetCurrentThread_icall(ref System.Threading.Thread @thread)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread};
-            var ___result = RMGetCurrentThread_icall_Ref_Thread.Invoke(___genericsType, ___parameters);
+		public static void GetCurrentThread_icall(ref System.Threading.Thread @thread)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread};
+			var ___result = RMGetCurrentThread_icall_Ref_Thread.Invoke(___genericsType, ___parameters);
 			@thread = ReflectionUtils.Convert<System.Threading.Thread>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Threading.Thread GetCurrentThread()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCurrentThread.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.Thread>(___result);
-        }
+		public static System.Threading.Thread GetCurrentThread()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCurrentThread.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.Thread>(___result);
+		}
 
 
-        public static System.Int32 GetDomainID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDomainID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 GetDomainID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDomainID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Thread_internal(System.MulticastDelegate @start)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start};
-            var ___result = RMThread_internal_MulticastDelegate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Thread_internal(System.MulticastDelegate @start)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start};
+			var ___result = RMThread_internal_MulticastDelegate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.String GetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value};
-            var ___result = RMGetName_internal_InternalThread.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String GetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value};
+			var ___result = RMGetName_internal_InternalThread.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public unsafe static void SetName_icall(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Char* @name, System.Int32 @nameLength)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value, Pointer.Box(@name, typeof(System.Char)), @nameLength};
-            var ___result = RMSetName_icall_InternalThread_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public unsafe static void SetName_icall(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Char* @name, System.Int32 @nameLength)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value, Pointer.Box(@name, typeof(System.Char)), @nameLength};
+			var ___result = RMSetName_icall_InternalThread_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void SetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value, @name};
-            var ___result = RMSetName_internal_InternalThread_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value, @name};
+			var ___result = RMSetName_internal_InternalThread_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Abort_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Object @stateInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value, @stateInfo};
-            var ___result = RMAbort_internal_InternalThread_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Abort_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Object @stateInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value, @stateInfo};
+			var ___result = RMAbort_internal_InternalThread_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Abort()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAbort.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Abort()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAbort.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Abort(System.Object @stateInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@stateInfo};
-            var ___result = RMAbort_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Abort(System.Object @stateInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@stateInfo};
+			var ___result = RMAbort_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object GetAbortExceptionState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAbortExceptionState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetAbortExceptionState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAbortExceptionState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual void ClearAbortReason()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearAbortReason.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearAbortReason()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearAbortReason.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void SpinWait_nop()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSpinWait_nop.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SpinWait_nop()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSpinWait_nop.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void SpinWait(System.Int32 @iterations)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iterations};
-            var ___result = RMSpinWait_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SpinWait(System.Int32 @iterations)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iterations};
+			var ___result = RMSpinWait_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void StartInternal(System.Object @principal, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@principal, @stackMark.Value};
-            var ___result = RMStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+		public virtual void StartInternal(System.Object @principal, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@principal, @stackMark.Value};
+			var ___result = RMStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void SetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @set)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value, @set};
-            var ___result = RMSetState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @set)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value, @set};
+			var ___result = RMSetState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void ClrState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @clr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value, @clr};
-            var ___result = RMClrState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void ClrState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @clr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value, @clr};
+			var ___result = RMClrState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Threading.ThreadState GetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@thread.Value};
-            var ___result = RMGetState_InternalThread.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
-        }
+		public static System.Threading.ThreadState GetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@thread.Value};
+			var ___result = RMGetState_InternalThread.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
+		}
 
 
-        public static System.Byte VolatileRead(ref System.Byte @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Byte.Invoke(___genericsType, ___parameters);
+		public static System.Byte VolatileRead(ref System.Byte @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Byte.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Byte>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
 
-
-        public static System.Double VolatileRead(ref System.Double @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Double.Invoke(___genericsType, ___parameters);
+		public static System.Double VolatileRead(ref System.Double @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Double.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Double>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
 
-
-        public static System.Int16 VolatileRead(ref System.Int16 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Int16.Invoke(___genericsType, ___parameters);
+		public static System.Int16 VolatileRead(ref System.Int16 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Int16.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int16>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
 
-
-        public static System.Int32 VolatileRead(ref System.Int32 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Int32.Invoke(___genericsType, ___parameters);
+		public static System.Int32 VolatileRead(ref System.Int32 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int64 VolatileRead(ref System.Int64 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Int64.Invoke(___genericsType, ___parameters);
+		public static System.Int64 VolatileRead(ref System.Int64 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Int64.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int64>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
 
-
-        public static System.IntPtr VolatileRead(ref System.IntPtr @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_IntPtr.Invoke(___genericsType, ___parameters);
+		public static System.IntPtr VolatileRead(ref System.IntPtr @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_IntPtr.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.IntPtr>(___parameters[0]);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
 
-
-        public static System.Object VolatileRead(ref System.Object @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Object.Invoke(___genericsType, ___parameters);
+		public static System.Object VolatileRead(ref System.Object @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Object.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Object>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
 
-
-        public static System.SByte VolatileRead(ref System.SByte @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_SByte.Invoke(___genericsType, ___parameters);
+		public static System.SByte VolatileRead(ref System.SByte @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_SByte.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.SByte>(___parameters[0]);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
 
-
-        public static System.Single VolatileRead(ref System.Single @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_Single.Invoke(___genericsType, ___parameters);
+		public static System.Single VolatileRead(ref System.Single @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_Single.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Single>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
 
-
-        public static System.UInt16 VolatileRead(ref System.UInt16 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_UInt16.Invoke(___genericsType, ___parameters);
+		public static System.UInt16 VolatileRead(ref System.UInt16 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_UInt16.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt16>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
 
-
-        public static System.UInt32 VolatileRead(ref System.UInt32 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_UInt32.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 VolatileRead(ref System.UInt32 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_UInt32.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static System.UInt64 VolatileRead(ref System.UInt64 @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_UInt64.Invoke(___genericsType, ___parameters);
+		public static System.UInt64 VolatileRead(ref System.UInt64 @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_UInt64.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
 
-
-        public static System.UIntPtr VolatileRead(ref System.UIntPtr @address)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address};
-            var ___result = RMVolatileRead_Ref_UIntPtr.Invoke(___genericsType, ___parameters);
+		public static System.UIntPtr VolatileRead(ref System.UIntPtr @address)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address};
+			var ___result = RMVolatileRead_Ref_UIntPtr.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UIntPtr>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UIntPtr>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UIntPtr>(___result);
-        }
 
-
-        public static void VolatileWrite(ref System.Byte @address, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Byte_Byte.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Byte @address, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Byte_Byte.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Byte>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Double @address, System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Double_Double.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Double @address, System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Double_Double.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Double>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Int16 @address, System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Int16_Int16.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Int16 @address, System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Int16_Int16.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int16>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Int32 @address, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Int32 @address, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Int64 @address, System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Int64_Int64.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Int64 @address, System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Int64_Int64.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Int64>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.IntPtr @address, System.IntPtr @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.IntPtr @address, System.IntPtr @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.IntPtr>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Object @address, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Object_Object.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Object @address, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Object_Object.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Object>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.SByte @address, System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_SByte_SByte.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.SByte @address, System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_SByte_SByte.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.SByte>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.Single @address, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_Single_Single.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.Single @address, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_Single_Single.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.Single>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.UInt16 @address, System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_UInt16_UInt16.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.UInt16 @address, System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_UInt16_UInt16.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt16>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.UInt32 @address, System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.UInt32 @address, System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.UInt64 @address, System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_UInt64_UInt64.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.UInt64 @address, System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_UInt64_UInt64.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void VolatileWrite(ref System.UIntPtr @address, System.UIntPtr @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@address, @value};
-            var ___result = RMVolatileWrite_Ref_UIntPtr_UIntPtr.Invoke(___genericsType, ___parameters);
+		public static void VolatileWrite(ref System.UIntPtr @address, System.UIntPtr @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@address, @value};
+			var ___result = RMVolatileWrite_Ref_UIntPtr_UIntPtr.Invoke(___genericsType, ___parameters);
 			@address = ReflectionUtils.Convert<System.UIntPtr>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Int32 SystemMaxStackStize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystemMaxStackStize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 SystemMaxStackStize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystemMaxStackStize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Int32 GetProcessDefaultStackSize(System.Int32 @maxStackSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@maxStackSize};
-            var ___result = RMGetProcessDefaultStackSize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 GetProcessDefaultStackSize(System.Int32 @maxStackSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@maxStackSize};
+			var ___result = RMGetProcessDefaultStackSize_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void SetStart(System.MulticastDelegate @start, System.Int32 @maxStackSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @maxStackSize};
-            var ___result = RMSetStart_MulticastDelegate_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetStart(System.MulticastDelegate @start, System.Int32 @maxStackSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @maxStackSize};
+			var ___result = RMSetStart_MulticastDelegate_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void BeginCriticalRegion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginCriticalRegion.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void BeginCriticalRegion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginCriticalRegion.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void EndCriticalRegion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndCriticalRegion.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void EndCriticalRegion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndCriticalRegion.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void BeginThreadAffinity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginThreadAffinity.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void BeginThreadAffinity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginThreadAffinity.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void EndThreadAffinity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndThreadAffinity.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void EndThreadAffinity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndThreadAffinity.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Threading.ApartmentState GetApartmentState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetApartmentState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ApartmentState>(___result);
-        }
+		public virtual System.Threading.ApartmentState GetApartmentState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetApartmentState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ApartmentState>(___result);
+		}
 
 
-        public virtual void SetApartmentState(System.Threading.ApartmentState @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMSetApartmentState_ApartmentState.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetApartmentState(System.Threading.ApartmentState @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMSetApartmentState_ApartmentState.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TrySetApartmentState(System.Threading.ApartmentState @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMTrySetApartmentState_ApartmentState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean TrySetApartmentState(System.Threading.ApartmentState @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMTrySetApartmentState_ApartmentState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static void GetStackTraces(out System.Threading.Thread[] @threads, out System.Object[] @stack_frames)
-        {
+		public static void GetStackTraces(out System.Threading.Thread[] @threads, out System.Object[] @stack_frames)
+		{
 			@threads = default;
 			@stack_frames = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@threads, @stack_frames};
-            var ___result = RMGetStackTraces_Out_ThreadArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@threads, @stack_frames};
+			var ___result = RMGetStackTraces_Out_ThreadArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
 			@threads = ReflectionUtils.Convert<System.Threading.Thread[]>(___parameters[0]);
 			@stack_frames = ReflectionUtils.Convert<System.Object[]>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace> Mono_GetStackTraces()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMono_GetStackTraces.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace>>(___result);
-        }
+		public static System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace> Mono_GetStackTraces()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMono_GetStackTraces.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace>>(___result);
+		}
 
 
-        public virtual void DisableComObjectEagerCleanup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisableComObjectEagerCleanup.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DisableComObjectEagerCleanup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisableComObjectEagerCleanup.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Threading.ThreadState ValidateThreadState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidateThreadState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
-        }
+		public virtual System.Threading.ThreadState ValidateThreadState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidateThreadState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
+		}
 
 
-        public static System.Int32 GetCurrentProcessorId()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCurrentProcessorId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 GetCurrentProcessorId()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCurrentProcessorId.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -1974,915 +1974,713 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual System.Boolean HasLargeHeader()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasLargeHeader.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasLargeHeader()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasLargeHeader.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @context, @editorType};
-            var ___result = RMCreateEditorWithContext_ObjectArray_Object_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
+		public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @context, @editorType};
+			var ___result = RMCreateEditorWithContext_ObjectArray_Object_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
 
 
-        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @context};
-            var ___result = RMCreateEditorWithContext_ObjectArray_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
+		public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @context};
+			var ___result = RMCreateEditorWithContext_ObjectArray_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
 
 
-        public static void CreateCachedEditorWithContext(UnityEngine.Object @targetObject, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObject, @context, @editorType, @previousEditor};
-            var ___result = RMCreateCachedEditorWithContext_Object_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
+		public static void CreateCachedEditorWithContext(UnityEngine.Object @targetObject, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObject, @context, @editorType, @previousEditor};
+			var ___result = RMCreateCachedEditorWithContext_Object_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
 			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void CreateCachedEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @context, @editorType, @previousEditor};
-            var ___result = RMCreateCachedEditorWithContext_ObjectArray_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
+		public static void CreateCachedEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @context, @editorType, @previousEditor};
+			var ___result = RMCreateCachedEditorWithContext_ObjectArray_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
 			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public static void CreateCachedEditor(UnityEngine.Object @targetObject, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObject, @editorType, @previousEditor};
-            var ___result = RMCreateCachedEditor_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
+		public static void CreateCachedEditor(UnityEngine.Object @targetObject, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObject, @editorType, @previousEditor};
+			var ___result = RMCreateCachedEditor_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
 			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void CreateCachedEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @editorType, @previousEditor};
-            var ___result = RMCreateCachedEditor_ObjectArray_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
+		public static void CreateCachedEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @editorType, @previousEditor};
+			var ___result = RMCreateCachedEditor_ObjectArray_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
 			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[2]);
-
-            
-        }
-
-
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObject};
-            var ___result = RMCreateEditor_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject, System.Type @editorType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObject, @editorType};
-            var ___result = RMCreateEditor_Object_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects};
-            var ___result = RMCreateEditor_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @editorType};
-            var ___result = RMCreateEditor_ObjectArray_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public virtual void CleanupPropertyEditor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanupPropertyEditor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisableINTERNAL()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisableINTERNAL.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.SerializedObject GetSerializedObjectInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerializedObjectInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedObject>(___result);
-        }
-
-
-        public virtual void CreateSerializedObject()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateSerializedObject.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void AssignCachedProperties<T>(T @self, UnityEditor.SerializedProperty @root) where T : class
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@self, @root};
-            var ___result = RMAssignCachedProperties_GT_T_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetTargets(UnityEngine.Object[] @t)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
-            var ___result = RMInternalSetTargets_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetHidden(System.Boolean @hidden)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@hidden};
-            var ___result = RMInternalSetHidden_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetContextObject(UnityEngine.Object @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@context};
-            var ___result = RMInternalSetContextObject_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Bounds UnityEditor__2__IToolModeOwner__2__GetWorldBoundsOfTargets()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnityEditor__2__IToolModeOwner__2__GetWorldBoundsOfTargets.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
-        }
-
-
-        public virtual UnityEngine.Bounds GetWorldBoundsOfTarget(UnityEngine.Object @targetObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObject};
-            var ___result = RMGetWorldBoundsOfTarget_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
-        }
-
-
-        public virtual System.Boolean UnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange(System.Int32 @toolMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toolMode};
-            var ___result = RMUnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnForceReloadInspector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnForceReloadInspector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetOptimizedGUIBlock(System.Boolean @isDirty, System.Boolean @isVisible, out System.Single @height)
-        {
+		}
+
+
+		public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObject};
+			var ___result = RMCreateEditor_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject, System.Type @editorType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObject, @editorType};
+			var ___result = RMCreateEditor_Object_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects};
+			var ___result = RMCreateEditor_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @editorType};
+			var ___result = RMCreateEditor_ObjectArray_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public virtual void CleanupPropertyEditor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanupPropertyEditor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisableINTERNAL()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisableINTERNAL.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.SerializedObject GetSerializedObjectInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerializedObjectInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedObject>(___result);
+		}
+
+
+		public virtual void CreateSerializedObject()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateSerializedObject.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void AssignCachedProperties<T>(T @self, UnityEditor.SerializedProperty @root) where T : class
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@self, @root};
+			var ___result = RMAssignCachedProperties_GT_T_SerializedProperty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetTargets(UnityEngine.Object[] @t)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@t};
+			var ___result = RMInternalSetTargets_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetHidden(System.Boolean @hidden)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@hidden};
+			var ___result = RMInternalSetHidden_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalSetContextObject(UnityEngine.Object @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@context};
+			var ___result = RMInternalSetContextObject_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Bounds UnityEditor__2__IToolModeOwner__2__GetWorldBoundsOfTargets()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnityEditor__2__IToolModeOwner__2__GetWorldBoundsOfTargets.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
+		}
+
+
+		public virtual UnityEngine.Bounds GetWorldBoundsOfTarget(UnityEngine.Object @targetObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObject};
+			var ___result = RMGetWorldBoundsOfTarget_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
+		}
+
+
+		public virtual System.Boolean UnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange(System.Int32 @toolMode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toolMode};
+			var ___result = RMUnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void OnForceReloadInspector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnForceReloadInspector.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetOptimizedGUIBlock(System.Boolean @isDirty, System.Boolean @isVisible, out System.Single @height)
+		{
 			@height = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isDirty, @isVisible, @height};
-            var ___result = RMGetOptimizedGUIBlock_Boolean_Boolean_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isDirty, @isVisible, @height};
+			var ___result = RMGetOptimizedGUIBlock_Boolean_Boolean_Out_Single.Invoke(___genericsType, ___parameters);
 			@height = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean OnOptimizedInspectorGUI(UnityEngine.Rect @contentRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentRect};
-            var ___result = RMOnOptimizedInspectorGUI_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void DrawPropertiesExcluding(UnityEditor.SerializedObject @obj, System.String[] @propertyToExclude)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @propertyToExclude};
-            var ___result = RMDrawPropertiesExcluding_SerializedObject_StringArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean DrawDefaultInspector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawDefaultInspector.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean DoDrawDefaultInspector(UnityEditor.SerializedObject @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMDoDrawDefaultInspector_SerializedObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DoDrawDefaultInspector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDoDrawDefaultInspector.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Repaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnInspectorGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnInspectorGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement CreateInspectorGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateInspectorGUI.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual System.Boolean RequiresConstantRepaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRequiresConstantRepaint.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void DrawHeader()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawHeader.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnHeaderGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnHeaderGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnHeaderControlsGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnHeaderControlsGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowOpenButton(UnityEngine.Object[] @assets, System.Boolean @enableCondition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assets, @enableCondition};
-            var ___result = RMShowOpenButton_ObjectArray_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ShouldHideOpenButton()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShouldHideOpenButton.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CanOpenMultipleObjects()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanOpenMultipleObjects.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ShouldTryToMakeEditableOnOpen()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShouldTryToMakeEditableOnOpen.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnHeaderIconGUI(UnityEngine.Rect @iconRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iconRect};
-            var ___result = RMOnHeaderIconGUI_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnHeaderTitleGUI(UnityEngine.Rect @titleRect, System.String @header)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@titleRect, @header};
-            var ___result = RMOnHeaderTitleGUI_Rect_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect DrawHeaderHelpAndSettingsGUI(UnityEngine.Rect @r)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r};
-            var ___result = RMDrawHeaderHelpAndSettingsGUI_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void DrawHeaderFromInsideHierarchy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawHeaderFromInsideHierarchy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @header};
-            var ___result = RMDrawHeaderGUI_Editor_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header, System.Single @leftMargin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @header, @leftMargin};
-            var ___result = RMDrawHeaderGUI_Editor_String_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public static void CheckForMainObjectNameMismatch(UnityEditor.Editor @editor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor};
-            var ___result = RMCheckForMainObjectNameMismatch_Editor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawPostIconContent(UnityEngine.Rect @iconRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@iconRect};
-            var ___result = RMDrawPostIconContent_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawPostIconContent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawPostIconContent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DrawFoldoutInspector(UnityEngine.Object @target, ref UnityEditor.Editor @editor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @editor};
-            var ___result = RMDrawFoldoutInspector_Object_Ref_Editor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean OnOptimizedInspectorGUI(UnityEngine.Rect @contentRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentRect};
+			var ___result = RMOnOptimizedInspectorGUI_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void DrawPropertiesExcluding(UnityEditor.SerializedObject @obj, System.String[] @propertyToExclude)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @propertyToExclude};
+			var ___result = RMDrawPropertiesExcluding_SerializedObject_StringArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean DrawDefaultInspector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawDefaultInspector.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean DoDrawDefaultInspector(UnityEditor.SerializedObject @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMDoDrawDefaultInspector_SerializedObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DoDrawDefaultInspector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDoDrawDefaultInspector.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Repaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnInspectorGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnInspectorGUI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.VisualElement CreateInspectorGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateInspectorGUI.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
+
+
+		public virtual System.Boolean RequiresConstantRepaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRequiresConstantRepaint.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void DrawHeader()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawHeader.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnHeaderGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnHeaderGUI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnHeaderControlsGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnHeaderControlsGUI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowOpenButton(UnityEngine.Object[] @assets, System.Boolean @enableCondition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assets, @enableCondition};
+			var ___result = RMShowOpenButton_ObjectArray_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ShouldHideOpenButton()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShouldHideOpenButton.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanOpenMultipleObjects()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanOpenMultipleObjects.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ShouldTryToMakeEditableOnOpen()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShouldTryToMakeEditableOnOpen.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void OnHeaderIconGUI(UnityEngine.Rect @iconRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iconRect};
+			var ___result = RMOnHeaderIconGUI_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnHeaderTitleGUI(UnityEngine.Rect @titleRect, System.String @header)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@titleRect, @header};
+			var ___result = RMOnHeaderTitleGUI_Rect_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect DrawHeaderHelpAndSettingsGUI(UnityEngine.Rect @r)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r};
+			var ___result = RMDrawHeaderHelpAndSettingsGUI_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void DrawHeaderFromInsideHierarchy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawHeaderFromInsideHierarchy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editor, @header};
+			var ___result = RMDrawHeaderGUI_Editor_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header, System.Single @leftMargin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editor, @header, @leftMargin};
+			var ___result = RMDrawHeaderGUI_Editor_String_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public static void CheckForMainObjectNameMismatch(UnityEditor.Editor @editor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editor};
+			var ___result = RMCheckForMainObjectNameMismatch_Editor.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawPostIconContent(UnityEngine.Rect @iconRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@iconRect};
+			var ___result = RMDrawPostIconContent_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawPostIconContent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawPostIconContent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void DrawFoldoutInspector(UnityEngine.Object @target, ref UnityEditor.Editor @editor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @editor};
+			var ___result = RMDrawFoldoutInspector_Object_Ref_Editor.Invoke(___genericsType, ___parameters);
 			@editor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual System.Boolean HasPreviewGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasPreviewGUI.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.GUIContent GetPreviewTitle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPreviewTitle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
-        }
-
-
-        public virtual UnityEngine.Texture2D RenderStaticPreview(System.String @assetPath, UnityEngine.Object[] @subAssets, System.Int32 @width, System.Int32 @height)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetPath, @subAssets, @width, @height};
-            var ___result = RMRenderStaticPreview_String_ObjectArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
-        }
-
-
-        public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r, @background};
-            var ___result = RMOnPreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r, @background};
-            var ___result = RMOnInteractivePreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnPreviewSettings()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnPreviewSettings.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetInfoString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInfoString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void DrawPreview(UnityEngine.Rect @previewArea)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@previewArea};
-            var ___result = RMDrawPreview_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReloadPreviewInstances()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReloadPreviewInstances.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean CanBeExpandedViaAFoldout()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanBeExpandedViaAFoldout.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CanBeExpandedViaAFoldoutWithoutUpdate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanBeExpandedViaAFoldoutWithoutUpdate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsAppropriateFileOpenForEdit(UnityEngine.Object @assetObject)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetObject};
-            var ___result = RMIsAppropriateFileOpenForEdit_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsEnabled()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsEnabled.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsOpenForEdit()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsOpenForEdit.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean UseDefaultMargins()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUseDefaultMargins.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Initialize(UnityEngine.Object[] @targets)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targets};
-            var ___result = RMInitialize_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Cleanup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean MoveNextTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveNextTarget.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ResetTarget()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetTarget.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAssetStoreInspectorGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAssetStoreInspectorGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEditor.Editor CreateEditorWithContextInternal(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetObjects, @context, @editorType};
-            var ___result = RMCreateEditorWithContextInternal_ObjectArray_Object_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public static UnityEngine.Vector2 GetCurrentMousePosition()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCurrentMousePosition.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual System.Int32 UnityEditor__2__IToolModeOwner__2__GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUnityEditor__2__IToolModeOwner__2__GetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void GetCurrentMousePosition_Injected(out UnityEngine.Vector2 @ret)
-        {
+		}
+
+
+		public virtual System.Boolean HasPreviewGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasPreviewGUI.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.GUIContent GetPreviewTitle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPreviewTitle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
+		}
+
+
+		public virtual UnityEngine.Texture2D RenderStaticPreview(System.String @assetPath, UnityEngine.Object[] @subAssets, System.Int32 @width, System.Int32 @height)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetPath, @subAssets, @width, @height};
+			var ___result = RMRenderStaticPreview_String_ObjectArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
+		}
+
+
+		public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r, @background};
+			var ___result = RMOnPreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r, @background};
+			var ___result = RMOnInteractivePreviewGUI_Rect_GUIStyle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnPreviewSettings()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnPreviewSettings.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetInfoString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInfoString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void DrawPreview(UnityEngine.Rect @previewArea)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@previewArea};
+			var ___result = RMDrawPreview_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReloadPreviewInstances()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReloadPreviewInstances.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CanBeExpandedViaAFoldout()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanBeExpandedViaAFoldout.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanBeExpandedViaAFoldoutWithoutUpdate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanBeExpandedViaAFoldoutWithoutUpdate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsAppropriateFileOpenForEdit(UnityEngine.Object @assetObject)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetObject};
+			var ___result = RMIsAppropriateFileOpenForEdit_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsEnabled()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsEnabled.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsOpenForEdit()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsOpenForEdit.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean UseDefaultMargins()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUseDefaultMargins.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Initialize(UnityEngine.Object[] @targets)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targets};
+			var ___result = RMInitialize_ObjectArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Cleanup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean MoveNextTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveNextTarget.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ResetTarget()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetTarget.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAssetStoreInspectorGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAssetStoreInspectorGUI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEditor.Editor CreateEditorWithContextInternal(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetObjects, @context, @editorType};
+			var ___result = RMCreateEditorWithContextInternal_ObjectArray_Object_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public static UnityEngine.Vector2 GetCurrentMousePosition()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCurrentMousePosition.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual System.Int32 UnityEditor__2__IToolModeOwner__2__GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUnityEditor__2__IToolModeOwner__2__GetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void GetCurrentMousePosition_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetCurrentMousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetCurrentMousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

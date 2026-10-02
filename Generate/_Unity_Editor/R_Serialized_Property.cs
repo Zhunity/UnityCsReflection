@@ -4278,2086 +4278,1643 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.SerializedProperty Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty FindPropertyRelative(System.String @relativePropertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativePropertyPath};
-            var ___result = RMFindPropertyRelative_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetArrayElementAtIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual void SetToValueOfTarget(UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMSetToValueOfTarget_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean EndOfData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndOfData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SyncSerializedObjectVersion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSyncSerializedObjectVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Verify(Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags @verifyFlags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@verifyFlags.Value};
-            var ___result = RMVerify_VerifyFlags.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean NextVisible(System.Boolean @enterChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enterChildren};
-            var ___result = RMNextVisible_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean NextVisibleInternal(System.Boolean @enterChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enterChildren};
-            var ___result = RMNextVisibleInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ClearArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearArrayInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearArrayInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean FindPropertyInternal(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMFindPropertyInternal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_Destroy(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean EqualContents(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMEqualContents_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean EqualContentsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMEqualContentsInternal_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean DataEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMDataEquals_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean VersionEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMVersionEquals_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean DataEqualsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMDataEqualsInternal_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 HasMultipleDifferentValuesInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasMultipleDifferentValuesInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetBitAtIndexForAllTargetsImmediate(System.Int32 @index, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMSetBitAtIndexForAllTargetsImmediate_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetBitAtIndexForAllTargetsImmediateInternal(System.Int32 @index, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMSetBitAtIndexForAllTargetsImmediateInternal_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetMangledNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMangledNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetSerializedPropertyTypeNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerializedPropertyTypeNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsSerializedPropertyTypeFloatInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsSerializedPropertyTypeFloatInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetSerializedPropertyArrayElementTypeNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerializedPropertyArrayElementTypeNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetTooltipInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTooltipInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetDepthInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDepthInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String GetPropertyPathInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPropertyPathInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCodeForPropertyPathWithoutArrayIndexInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCodeForPropertyPathWithoutArrayIndexInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean GetEditableInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEditableInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsReorderable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsReorderable.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsAnimatedInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnimatedInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsCandidateInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsCandidateInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsKeyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsKeyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GetIsExpandedInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsExpandedInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetIsExpandedInternal(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetIsExpandedInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean HasChildrenInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasChildrenInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasVisibleChildrenInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasVisibleChildrenInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GetIsInstantiatedPrefabInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsInstantiatedPrefabInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsReferencingAManagedReferenceFieldInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsReferencingAManagedReferenceFieldInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetFullyQualifiedTypenameForCurrentTypeTreeInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFullyQualifiedTypenameForCurrentTypeTreeInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetPropertyPathInCurrentManagedTypeTreeInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPropertyPathInCurrentManagedTypeTreeInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetManagedReferencePropertyPathInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManagedReferencePropertyPathInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean GetPrefabOverrideInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPrefabOverrideInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPrefabOverrideInternal(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetPrefabOverrideInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetIsDefaultOverrideInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsDefaultOverrideInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GetIsDrivenRectTransformPropertyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsDrivenRectTransformPropertyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetSerializedPropertyTypeInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSerializedPropertyTypeInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int64 GetIntValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIntValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual void SetIntValueInternal(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetIntValueInternal_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetBoolValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBoolValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetBoolValueInternal(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetBoolValueInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Double GetFloatValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFloatValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual void SetFloatValueInternal(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetFloatValueInternal_Double.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Double[] GetAllFloatValues()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAllFloatValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double[]>(___result);
-        }
-
-
-        public virtual void SetAllFloatValuesImmediate(System.Double[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetAllFloatValuesImmediate_DoubleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int64[] GetAllIntValues()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAllIntValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64[]>(___result);
-        }
-
-
-        public virtual void SetAllIntValuesImmediate(System.Int64[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetAllIntValuesImmediate_Int64Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetStringValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetStringValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void SetStringValueInternal(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetStringValueInternal_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Color GetColorValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetColorValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
-        }
-
-
-        public virtual void SetColorValueInternal(UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetColorValueInternal_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.AnimationCurve GetAnimationCurveValueCopyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAnimationCurveValueCopyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
-        }
-
-
-        public virtual void SetAnimationCurveValueInternal(UnityEngine.AnimationCurve @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetAnimationCurveValueInternal_AnimationCurve.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Gradient GetGradientValueCopyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetGradientValueCopyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Gradient>(___result);
-        }
-
-
-        public virtual void SetGradientValueInternal(UnityEngine.Gradient @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetGradientValueInternal_Gradient.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int64 GetManagedReferenceIdInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManagedReferenceIdInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.String GetManagedReferenceFullTypeNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetManagedReferenceFullTypeNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void SetManagedReferenceValueInternal(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetManagedReferenceValueInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object LookupInstanceByIdInternal(System.Int64 @refId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@refId};
-            var ___result = RMLookupInstanceByIdInternal_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual UnityEngine.Object GetPPtrValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPPtrValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual void SetPPtrValueInternal(UnityEngine.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetPPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetPPtrValueFromInstanceIDInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPPtrValueFromInstanceIDInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetPPtrValueFromInstanceIDInternal(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMSetPPtrValueFromInstanceIDInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetPPtrStringValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPPtrStringValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateObjectReferenceValue(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMValidateObjectReferenceValue_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidatePPtrValueInternal(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMValidatePPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateObjectReferenceValueExact(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMValidateObjectReferenceValueExact_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValidatePPtrValueExact(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMValidatePPtrValueExact_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetPPtrClassNameInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPPtrClassNameInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void AppendFoldoutPPtrValue(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMAppendFoldoutPPtrValue_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AppendFoldoutPPtrValueInternal(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMAppendFoldoutPPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.String GetLayerMaskStringValue(System.UInt32 @layers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layers};
-            var ___result = RMGetLayerMaskStringValue_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.UInt32 GetLayerMaskBitsInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLayerMaskBitsInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int32 GetEnumValueIndexInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumValueIndexInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SetEnumValueIndexInternal(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetEnumValueIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String[] GetEnumNamesInternal(System.Boolean @nicify)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nicify};
-            var ___result = RMGetEnumNamesInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 GetValueVector2Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueVector2Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void SetValueVector2Internal(UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector2Internal_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector3 GetValueVector3Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueVector3Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public virtual void SetValueVector3Internal(UnityEngine.Vector3 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector3Internal_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector4 GetValueVector4Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueVector4Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual void SetValueVector4Internal(UnityEngine.Vector4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector4Internal_Vector4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2Int GetValueVector2IntInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueVector2IntInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
-        }
-
-
-        public virtual void SetValueVector2IntInternal(UnityEngine.Vector2Int @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector2IntInternal_Vector2Int.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector3Int GetValueVector3IntInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueVector3IntInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
-        }
-
-
-        public virtual void SetValueVector3IntInternal(UnityEngine.Vector3Int @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector3IntInternal_Vector3Int.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Quaternion GetValueQuaternionInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueQuaternionInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
-        }
-
-
-        public virtual void SetValueQuaternionInternal(UnityEngine.Quaternion @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueQuaternionInternal_Quaternion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect GetValueRectInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueRectInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void SetValueRectInternal(UnityEngine.Rect @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueRectInternal_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.RectInt GetValueRectIntInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueRectIntInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.RectInt>(___result);
-        }
-
-
-        public virtual void SetValueRectIntInternal(UnityEngine.RectInt @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueRectIntInternal_RectInt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Bounds GetValueBoundsInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueBoundsInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
-        }
-
-
-        public virtual void SetValueBoundsInternal(UnityEngine.Bounds @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueBoundsInternal_Bounds.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.BoundsInt GetValueBoundsIntInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValueBoundsIntInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.BoundsInt>(___result);
-        }
-
-
-        public virtual void SetValueBoundsIntInternal(UnityEngine.BoundsInt @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueBoundsIntInternal_BoundsInt.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Hash128 GetHash128ValueInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHash128ValueInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
-        }
-
-
-        public virtual void SetHash128ValueInternal(UnityEngine.Hash128 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetHash128ValueInternal_Hash128.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Next(System.Boolean @enterChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enterChildren};
-            var ___result = RMNext_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean NextInternal(System.Boolean @enterChildren)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enterChildren};
-            var ___result = RMNextInternal_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 CountRemaining()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCountRemaining.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CountRemainingInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCountRemainingInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CountInProperty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCountInProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CountInPropertyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCountInPropertyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty CopyInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty CopyInternalImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopyInternalImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual System.Boolean DuplicateCommand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDuplicateCommand.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DuplicateCommandInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDuplicateCommandInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DeleteCommand()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteCommand.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DeleteCommandInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteCommandInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetEndProperty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEndProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetEndProperty(System.Boolean @includeInvisible)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@includeInvisible};
-            var ___result = RMGetEndProperty_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual System.Boolean FindPropertyRelativeInternal(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMFindPropertyRelativeInternal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean FindRelativeProperty(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMFindRelativeProperty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetMinArraySize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetMinArraySize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetInspectableArraySize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInspectableArraySize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void ResizeArray(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMResizeArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetArrayElementAtIndexInternal(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GetArrayElementAtIndexImpl(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetArrayElementAtIndexImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void InsertArrayElementAtIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMInsertArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InsertArrayElementAtIndexInternal(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMInsertArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DeleteArrayElementAtIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMDeleteArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DeleteArrayElementAtIndexInternal(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMDeleteArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean MoveArrayElement(System.Int32 @srcIndex, System.Int32 @dstIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcIndex, @dstIndex};
-            var ___result = RMMoveArrayElement_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean MoveArrayElementInternal(System.Int32 @srcIndex, System.Int32 @dstIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@srcIndex, @dstIndex};
-            var ___result = RMMoveArrayElementInternal_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsFixedBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsFixedBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetFixedBufferSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetFixedBufferSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean GetIsValidDisplayNameCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsValidDisplayNameCache.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetIsValidDisplayNameCache(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetIsValidDisplayNameCache_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetIsValidTooltipCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIsValidTooltipCache.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetIsValidTooltipCache(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetIsValidTooltipCache_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetFixedBufferElementAtIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetFixedBufferElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual System.Boolean GetFixedBufferAtIndexInternal(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetFixedBufferAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean AnimationCurveValueEquals(UnityEngine.AnimationCurve @curve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@curve};
-            var ___result = RMAnimationCurveValueEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValueEquals(UnityEngine.AnimationCurve @curve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@curve};
-            var ___result = RMValueEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GradientValueEquals(UnityEngine.Gradient @gradient)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@gradient};
-            var ___result = RMGradientValueEquals_Gradient.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValueEquals(UnityEngine.Gradient @gradient)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@gradient};
-            var ___result = RMValueEquals_Gradient.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean StringValueEquals(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMStringValueEquals_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ValueEquals(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMValueEquals_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GetColorValueInternal_Injected(out UnityEngine.Color @ret)
-        {
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty FindPropertyRelative(System.String @relativePropertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativePropertyPath};
+			var ___result = RMFindPropertyRelative_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetArrayElementAtIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual void SetToValueOfTarget(UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMSetToValueOfTarget_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean EndOfData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndOfData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SyncSerializedObjectVersion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSyncSerializedObjectVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Verify(Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags @verifyFlags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@verifyFlags.Value};
+			var ___result = RMVerify_VerifyFlags.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean NextVisible(System.Boolean @enterChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enterChildren};
+			var ___result = RMNextVisible_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean NextVisibleInternal(System.Boolean @enterChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enterChildren};
+			var ___result = RMNextVisibleInternal_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ClearArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearArrayInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearArrayInternal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean FindPropertyInternal(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMFindPropertyInternal_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_Destroy(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean EqualContents(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMEqualContents_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean EqualContentsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMEqualContentsInternal_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean DataEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMDataEquals_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean VersionEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMVersionEquals_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean DataEqualsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMDataEqualsInternal_SerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 HasMultipleDifferentValuesInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasMultipleDifferentValuesInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetBitAtIndexForAllTargetsImmediate(System.Int32 @index, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMSetBitAtIndexForAllTargetsImmediate_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetBitAtIndexForAllTargetsImmediateInternal(System.Int32 @index, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMSetBitAtIndexForAllTargetsImmediateInternal_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetMangledNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMangledNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetSerializedPropertyTypeNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerializedPropertyTypeNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsSerializedPropertyTypeFloatInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsSerializedPropertyTypeFloatInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetSerializedPropertyArrayElementTypeNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerializedPropertyArrayElementTypeNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetTooltipInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTooltipInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 GetDepthInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDepthInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String GetPropertyPathInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPropertyPathInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCodeForPropertyPathWithoutArrayIndexInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCodeForPropertyPathWithoutArrayIndexInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean GetEditableInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEditableInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsReorderable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsReorderable.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsAnimatedInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAnimatedInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsCandidateInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsCandidateInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsKeyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsKeyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean GetIsExpandedInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsExpandedInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetIsExpandedInternal(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetIsExpandedInternal_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean HasChildrenInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasChildrenInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean HasVisibleChildrenInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasVisibleChildrenInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean GetIsInstantiatedPrefabInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsInstantiatedPrefabInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsReferencingAManagedReferenceFieldInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsReferencingAManagedReferenceFieldInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetFullyQualifiedTypenameForCurrentTypeTreeInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFullyQualifiedTypenameForCurrentTypeTreeInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetPropertyPathInCurrentManagedTypeTreeInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPropertyPathInCurrentManagedTypeTreeInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetManagedReferencePropertyPathInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManagedReferencePropertyPathInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean GetPrefabOverrideInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPrefabOverrideInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetPrefabOverrideInternal(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetPrefabOverrideInternal_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetIsDefaultOverrideInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsDefaultOverrideInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean GetIsDrivenRectTransformPropertyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsDrivenRectTransformPropertyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetSerializedPropertyTypeInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSerializedPropertyTypeInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int64 GetIntValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIntValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual void SetIntValueInternal(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetIntValueInternal_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetBoolValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetBoolValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetBoolValueInternal(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetBoolValueInternal_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Double GetFloatValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFloatValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual void SetFloatValueInternal(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetFloatValueInternal_Double.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Double[] GetAllFloatValues()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAllFloatValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double[]>(___result);
+		}
+
+
+		public virtual void SetAllFloatValuesImmediate(System.Double[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetAllFloatValuesImmediate_DoubleArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int64[] GetAllIntValues()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAllIntValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64[]>(___result);
+		}
+
+
+		public virtual void SetAllIntValuesImmediate(System.Int64[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetAllIntValuesImmediate_Int64Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetStringValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetStringValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void SetStringValueInternal(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetStringValueInternal_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Color GetColorValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetColorValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Color>(___result);
+		}
+
+
+		public virtual void SetColorValueInternal(UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetColorValueInternal_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.AnimationCurve GetAnimationCurveValueCopyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAnimationCurveValueCopyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
+		}
+
+
+		public virtual void SetAnimationCurveValueInternal(UnityEngine.AnimationCurve @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetAnimationCurveValueInternal_AnimationCurve.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Gradient GetGradientValueCopyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetGradientValueCopyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Gradient>(___result);
+		}
+
+
+		public virtual void SetGradientValueInternal(UnityEngine.Gradient @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetGradientValueInternal_Gradient.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int64 GetManagedReferenceIdInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManagedReferenceIdInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.String GetManagedReferenceFullTypeNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetManagedReferenceFullTypeNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void SetManagedReferenceValueInternal(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetManagedReferenceValueInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object LookupInstanceByIdInternal(System.Int64 @refId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@refId};
+			var ___result = RMLookupInstanceByIdInternal_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual UnityEngine.Object GetPPtrValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPPtrValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public virtual void SetPPtrValueInternal(UnityEngine.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetPPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetPPtrValueFromInstanceIDInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPPtrValueFromInstanceIDInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetPPtrValueFromInstanceIDInternal(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMSetPPtrValueFromInstanceIDInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetPPtrStringValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPPtrStringValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateObjectReferenceValue(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMValidateObjectReferenceValue_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidatePPtrValueInternal(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMValidatePPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidateObjectReferenceValueExact(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMValidateObjectReferenceValueExact_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValidatePPtrValueExact(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMValidatePPtrValueExact_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetPPtrClassNameInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPPtrClassNameInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void AppendFoldoutPPtrValue(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMAppendFoldoutPPtrValue_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AppendFoldoutPPtrValueInternal(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMAppendFoldoutPPtrValueInternal_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.String GetLayerMaskStringValue(System.UInt32 @layers)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@layers};
+			var ___result = RMGetLayerMaskStringValue_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.UInt32 GetLayerMaskBitsInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLayerMaskBitsInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int32 GetEnumValueIndexInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumValueIndexInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SetEnumValueIndexInternal(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetEnumValueIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String[] GetEnumNamesInternal(System.Boolean @nicify)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@nicify};
+			var ___result = RMGetEnumNamesInternal_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetValueVector2Internal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueVector2Internal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual void SetValueVector2Internal(UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector2Internal_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector3 GetValueVector3Internal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueVector3Internal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
+		}
+
+
+		public virtual void SetValueVector3Internal(UnityEngine.Vector3 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector3Internal_Vector3.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetValueVector4Internal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueVector4Internal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual void SetValueVector4Internal(UnityEngine.Vector4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector4Internal_Vector4.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector2Int GetValueVector2IntInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueVector2IntInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
+		}
+
+
+		public virtual void SetValueVector2IntInternal(UnityEngine.Vector2Int @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector2IntInternal_Vector2Int.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector3Int GetValueVector3IntInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueVector3IntInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
+		}
+
+
+		public virtual void SetValueVector3IntInternal(UnityEngine.Vector3Int @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector3IntInternal_Vector3Int.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Quaternion GetValueQuaternionInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueQuaternionInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
+		}
+
+
+		public virtual void SetValueQuaternionInternal(UnityEngine.Quaternion @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueQuaternionInternal_Quaternion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect GetValueRectInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueRectInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void SetValueRectInternal(UnityEngine.Rect @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueRectInternal_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.RectInt GetValueRectIntInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueRectIntInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.RectInt>(___result);
+		}
+
+
+		public virtual void SetValueRectIntInternal(UnityEngine.RectInt @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueRectIntInternal_RectInt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Bounds GetValueBoundsInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueBoundsInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Bounds>(___result);
+		}
+
+
+		public virtual void SetValueBoundsInternal(UnityEngine.Bounds @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueBoundsInternal_Bounds.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.BoundsInt GetValueBoundsIntInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValueBoundsIntInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.BoundsInt>(___result);
+		}
+
+
+		public virtual void SetValueBoundsIntInternal(UnityEngine.BoundsInt @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueBoundsIntInternal_BoundsInt.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Hash128 GetHash128ValueInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHash128ValueInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
+		}
+
+
+		public virtual void SetHash128ValueInternal(UnityEngine.Hash128 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetHash128ValueInternal_Hash128.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Next(System.Boolean @enterChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enterChildren};
+			var ___result = RMNext_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean NextInternal(System.Boolean @enterChildren)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enterChildren};
+			var ___result = RMNextInternal_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetInternal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 CountRemaining()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCountRemaining.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CountRemainingInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCountRemainingInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CountInProperty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCountInProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CountInPropertyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCountInPropertyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty CopyInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopyInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty CopyInternalImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopyInternalImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual System.Boolean DuplicateCommand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDuplicateCommand.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DuplicateCommandInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDuplicateCommandInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DeleteCommand()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteCommand.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DeleteCommandInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteCommandInternal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetEndProperty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEndProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetEndProperty(System.Boolean @includeInvisible)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@includeInvisible};
+			var ___result = RMGetEndProperty_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual System.Boolean FindPropertyRelativeInternal(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMFindPropertyRelativeInternal_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean FindRelativeProperty(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMFindRelativeProperty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetMinArraySize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetMinArraySize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetInspectableArraySize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInspectableArraySize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void ResizeArray(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMResizeArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetArrayElementAtIndexInternal(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean GetArrayElementAtIndexImpl(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetArrayElementAtIndexImpl_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void InsertArrayElementAtIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMInsertArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InsertArrayElementAtIndexInternal(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMInsertArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DeleteArrayElementAtIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMDeleteArrayElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DeleteArrayElementAtIndexInternal(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMDeleteArrayElementAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean MoveArrayElement(System.Int32 @srcIndex, System.Int32 @dstIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcIndex, @dstIndex};
+			var ___result = RMMoveArrayElement_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean MoveArrayElementInternal(System.Int32 @srcIndex, System.Int32 @dstIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@srcIndex, @dstIndex};
+			var ___result = RMMoveArrayElementInternal_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsFixedBuffer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsFixedBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetFixedBufferSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetFixedBufferSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean GetIsValidDisplayNameCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsValidDisplayNameCache.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetIsValidDisplayNameCache(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetIsValidDisplayNameCache_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetIsValidTooltipCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIsValidTooltipCache.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetIsValidTooltipCache(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetIsValidTooltipCache_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetFixedBufferElementAtIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetFixedBufferElementAtIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual System.Boolean GetFixedBufferAtIndexInternal(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetFixedBufferAtIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean AnimationCurveValueEquals(UnityEngine.AnimationCurve @curve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@curve};
+			var ___result = RMAnimationCurveValueEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValueEquals(UnityEngine.AnimationCurve @curve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@curve};
+			var ___result = RMValueEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean GradientValueEquals(UnityEngine.Gradient @gradient)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@gradient};
+			var ___result = RMGradientValueEquals_Gradient.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValueEquals(UnityEngine.Gradient @gradient)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@gradient};
+			var ___result = RMValueEquals_Gradient.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean StringValueEquals(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMStringValueEquals_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ValueEquals(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMValueEquals_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GetColorValueInternal_Injected(out UnityEngine.Color @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetColorValueInternal_Injected_Out_Color.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetColorValueInternal_Injected_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetColorValueInternal_Injected(ref UnityEngine.Color @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetColorValueInternal_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void SetColorValueInternal_Injected(ref UnityEngine.Color @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetColorValueInternal_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueVector2Internal_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void GetValueVector2Internal_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueVector2Internal_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueVector2Internal_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueVector2Internal_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector2Internal_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueVector2Internal_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector2Internal_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueVector3Internal_Injected(out UnityEngine.Vector3 @ret)
-        {
+		public virtual void GetValueVector3Internal_Injected(out UnityEngine.Vector3 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueVector3Internal_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueVector3Internal_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueVector3Internal_Injected(ref UnityEngine.Vector3 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector3Internal_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueVector3Internal_Injected(ref UnityEngine.Vector3 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector3Internal_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueVector4Internal_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void GetValueVector4Internal_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueVector4Internal_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueVector4Internal_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueVector4Internal_Injected(ref UnityEngine.Vector4 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector4Internal_Injected_Ref_Vector4.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueVector4Internal_Injected(ref UnityEngine.Vector4 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector4Internal_Injected_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueVector2IntInternal_Injected(out UnityEngine.Vector2Int @ret)
-        {
+		public virtual void GetValueVector2IntInternal_Injected(out UnityEngine.Vector2Int @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueVector2IntInternal_Injected_Out_Vector2Int.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueVector2IntInternal_Injected_Out_Vector2Int.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2Int>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueVector2IntInternal_Injected(ref UnityEngine.Vector2Int @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector2IntInternal_Injected_Ref_Vector2Int.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueVector2IntInternal_Injected(ref UnityEngine.Vector2Int @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector2IntInternal_Injected_Ref_Vector2Int.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2Int>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueVector3IntInternal_Injected(out UnityEngine.Vector3Int @ret)
-        {
+		public virtual void GetValueVector3IntInternal_Injected(out UnityEngine.Vector3Int @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueVector3IntInternal_Injected_Out_Vector3Int.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueVector3IntInternal_Injected_Out_Vector3Int.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector3Int>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueVector3IntInternal_Injected(ref UnityEngine.Vector3Int @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueVector3IntInternal_Injected_Ref_Vector3Int.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueVector3IntInternal_Injected(ref UnityEngine.Vector3Int @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueVector3IntInternal_Injected_Ref_Vector3Int.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector3Int>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueQuaternionInternal_Injected(out UnityEngine.Quaternion @ret)
-        {
+		public virtual void GetValueQuaternionInternal_Injected(out UnityEngine.Quaternion @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueQuaternionInternal_Injected_Out_Quaternion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueQuaternionInternal_Injected_Out_Quaternion.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueQuaternionInternal_Injected(ref UnityEngine.Quaternion @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueQuaternionInternal_Injected_Ref_Quaternion.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueQuaternionInternal_Injected(ref UnityEngine.Quaternion @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueQuaternionInternal_Injected_Ref_Quaternion.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueRectInternal_Injected(out UnityEngine.Rect @ret)
-        {
+		public virtual void GetValueRectInternal_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueRectInternal_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueRectInternal_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueRectInternal_Injected(ref UnityEngine.Rect @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueRectInternal_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueRectInternal_Injected(ref UnityEngine.Rect @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueRectInternal_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueRectIntInternal_Injected(out UnityEngine.RectInt @ret)
-        {
+		public virtual void GetValueRectIntInternal_Injected(out UnityEngine.RectInt @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueRectIntInternal_Injected_Out_RectInt.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueRectIntInternal_Injected_Out_RectInt.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueRectIntInternal_Injected(ref UnityEngine.RectInt @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueRectIntInternal_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueRectIntInternal_Injected(ref UnityEngine.RectInt @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueRectIntInternal_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueBoundsInternal_Injected(out UnityEngine.Bounds @ret)
-        {
+		public virtual void GetValueBoundsInternal_Injected(out UnityEngine.Bounds @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueBoundsInternal_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueBoundsInternal_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueBoundsInternal_Injected(ref UnityEngine.Bounds @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueBoundsInternal_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueBoundsInternal_Injected(ref UnityEngine.Bounds @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueBoundsInternal_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetValueBoundsIntInternal_Injected(out UnityEngine.BoundsInt @ret)
-        {
+		public virtual void GetValueBoundsIntInternal_Injected(out UnityEngine.BoundsInt @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetValueBoundsIntInternal_Injected_Out_BoundsInt.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetValueBoundsIntInternal_Injected_Out_BoundsInt.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.BoundsInt>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetValueBoundsIntInternal_Injected(ref UnityEngine.BoundsInt @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetValueBoundsIntInternal_Injected_Ref_BoundsInt.Invoke(___genericsType, ___parameters);
+		public virtual void SetValueBoundsIntInternal_Injected(ref UnityEngine.BoundsInt @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetValueBoundsIntInternal_Injected_Ref_BoundsInt.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.BoundsInt>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetHash128ValueInternal_Injected(out UnityEngine.Hash128 @ret)
-        {
+		public virtual void GetHash128ValueInternal_Injected(out UnityEngine.Hash128 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetHash128ValueInternal_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetHash128ValueInternal_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SetHash128ValueInternal_Injected(ref UnityEngine.Hash128 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetHash128ValueInternal_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
+		public virtual void SetHash128ValueInternal_Injected(ref UnityEngine.Hash128 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetHash128ValueInternal_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

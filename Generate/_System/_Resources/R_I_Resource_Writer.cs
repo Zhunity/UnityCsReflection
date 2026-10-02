@@ -118,59 +118,44 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 		}
 
 
-        public virtual void AddResource(System.String @name, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddResource_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddResource(System.String @name, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddResource_String_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddResource(System.String @name, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddResource_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddResource(System.String @name, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddResource_String_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddResource(System.String @name, System.Byte[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddResource_String_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddResource(System.String @name, System.Byte[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddResource_String_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Generate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGenerate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Generate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGenerate.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -70,26 +70,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.EventBase @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@currentFocusable, @e};
-            var ___result = RMGetFocusChangeDirection_Focusable_EventBase.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.FocusChangeDirection>(___result);
-        }
+		public virtual UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.EventBase @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@currentFocusable, @e};
+			var ___result = RMGetFocusChangeDirection_Focusable_EventBase.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.FocusChangeDirection>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.Focusable GetNextFocusable(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.FocusChangeDirection @direction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@currentFocusable, @direction};
-            var ___result = RMGetNextFocusable_Focusable_FocusChangeDirection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
-        }
+		public virtual UnityEngine.UIElements.Focusable GetNextFocusable(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.FocusChangeDirection @direction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@currentFocusable, @direction};
+			var ___result = RMGetNextFocusable_Focusable_FocusChangeDirection.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
+		}
 
 
     }

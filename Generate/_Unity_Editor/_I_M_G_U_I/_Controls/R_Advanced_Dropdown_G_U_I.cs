@@ -438,169 +438,133 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 
-        public static void LoadStyles()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadStyles.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void LoadStyles()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadStyles.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, System.String @name, UnityEngine.Texture2D @icon, System.Boolean @enabled, System.Boolean @drawArrow, System.Boolean @selected, System.Boolean @hasSearch)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @name, @icon, @enabled, @drawArrow, @selected, @hasSearch};
-            var ___result = RMDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, System.String @name, UnityEngine.Texture2D @icon, System.Boolean @enabled, System.Boolean @drawArrow, System.Boolean @selected, System.Boolean @hasSearch)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item, @name, @icon, @enabled, @drawArrow, @selected, @hasSearch};
+			var ___result = RMDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawLineSeparator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawLineSeparator.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawLineSeparator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawLineSeparator.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawHeader(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @group, System.Action @backButtonPressed, System.Boolean @hasParent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@group, @backButtonPressed, @hasParent};
-            var ___result = RMDrawHeader_AdvancedDropdownItem_Action_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawHeader(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @group, System.Action @backButtonPressed, System.Boolean @hasParent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@group, @backButtonPressed, @hasParent};
+			var ___result = RMDrawHeader_AdvancedDropdownItem_Action_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawSearchField(System.Boolean @isSearchFieldDisabled, System.String @searchString, System.Action<System.String> @searchChanged)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isSearchFieldDisabled, @searchString, @searchChanged};
-            var ___result = RMDrawSearchField_Boolean_String_Action_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawSearchField(System.Boolean @isSearchFieldDisabled, System.String @searchString, System.Action<System.String> @searchChanged)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isSearchFieldDisabled, @searchString, @searchChanged};
+			var ___result = RMDrawSearchField_Boolean_String_Action_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String DrawSearchFieldControl(System.String @searchString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@searchString};
-            var ___result = RMDrawSearchFieldControl_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String DrawSearchFieldControl(System.String @searchString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@searchString};
+			var ___result = RMDrawSearchFieldControl_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual UnityEngine.Rect GetAnimRect(UnityEngine.Rect @position, System.Single @anim)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @anim};
-            var ___result = RMGetAnimRect_Rect_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
+		public virtual UnityEngine.Rect GetAnimRect(UnityEngine.Rect @position, System.Single @anim)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @anim};
+			var ___result = RMGetAnimRect_Rect_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
 
 
-        public virtual UnityEngine.Vector2 CalculateContentSize(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dataSource.Value};
-            var ___result = RMCalculateContentSize_AdvancedDropdownDataSource.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
+		public virtual UnityEngine.Vector2 CalculateContentSize(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dataSource.Value};
+			var ___result = RMCalculateContentSize_AdvancedDropdownDataSource.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
 
 
-        public virtual System.Single GetSelectionHeight(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource, UnityEngine.Rect @buttonRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dataSource.Value, @buttonRect};
-            var ___result = RMGetSelectionHeight_AdvancedDropdownDataSource_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetSelectionHeight(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource, UnityEngine.Rect @buttonRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dataSource.Value, @buttonRect};
+			var ___result = RMGetSelectionHeight_AdvancedDropdownDataSource_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

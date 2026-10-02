@@ -3110,1227 +3110,925 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void SetParentInspector(Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow @inspector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inspector.Value};
-            var ___result = RMSetParentInspector_InspectorWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDestroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CreateTracker()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateTracker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.Editor GetLastInteractedEditor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLastInteractedEditor.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
-        }
-
-
-        public virtual void RebuildContentsContainers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuildContentsContainers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawPreview()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawPreview.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddItemsToMenu(UnityEditor.GenericMenu @menu)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@menu};
-            var ___result = RMAddItemsToMenu_GenericMenu.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowButton(UnityEngine.Rect @r)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@r};
-            var ___result = RMShowButton_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean CanMaximize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanMaximize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void __0__RebuildContentsContainers__1__b__10_0()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__0__RebuildContentsContainers__1__b__10_0.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Awake()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAwake.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RefreshTitle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefreshTitle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateWindowObjectNameTitle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateWindowObjectNameTitle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean CloseIfEmpty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCloseIfEmpty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void BeginRebuildContentContainers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginRebuildContentContainers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean BeginDrawPreviewAndLabels()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginDrawPreviewAndLabels.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void EndDrawPreviewAndLabels(UnityEngine.Event @evt, UnityEngine.Rect @rect, UnityEngine.Rect @dragRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @rect, @dragRect};
-            var ___result = RMEndDrawPreviewAndLabels_Event_Rect_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetObjectsLocked(System.Collections.Generic.List<UnityEngine.Object> @objs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@objs};
-            var ___result = RMGetObjectsLocked_List_d_Object_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetObjectsLocked(System.Collections.Generic.List<UnityEngine.Object> @objs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@objs};
-            var ___result = RMSetObjectsLocked_List_d_Object_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Object GetInspectedObject()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInspectedObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual UnityEngine.Object[] GetInspectedObjects()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInspectedObjects.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public virtual void OnFocusChanged(System.Boolean @focus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@focus};
-            var ___result = RMOnFocusChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnLostFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnInspectorUpdate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnInspectorUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMode(UnityEditor.InspectorMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mode};
-            var ___result = RMSetMode_InspectorMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetTitle(UnityEngine.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMSetTitle_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LoadVisualTreeFromUxml()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadVisualTreeFromUxml.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddDebugItemsToMenu(UnityEditor.GenericMenu @menu)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@menu};
-            var ___result = RMAddDebugItemsToMenu_GenericMenu.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExpandAllComponents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExpandAllComponents.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsAnyComponentCollapsed()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnyComponentCollapsed.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CollapseAllComponents()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCollapseAllComponents.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsAnyComponentExpanded()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnyComponentExpanded.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean LoadPersistedObject()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLoadPersistedObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CreatePreviewables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePreviewables.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearPreviewables()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearPreviewables.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @onGUIHandler, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@onGUIHandler, @name};
-            var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
-        }
-
-
-        public virtual void EndRebuildContentContainers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndRebuildContentContainers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AutoScroll(UnityEngine.Vector2 @mousePosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mousePosition};
-            var ___result = RMAutoScroll_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ScrollTo(UnityEngine.Vector2 @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position};
-            var ___result = RMScrollTo_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable GetEditorThatControlsPreview(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> @editors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors.Value};
-            var ___result = RMGetEditorThatControlsPreview_IPreviewableArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> GetEditorsWithPreviews(UnityEditor.Editor[] @editors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors};
-            var ___result = RMGetEditorsWithPreviews_EditorArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable>>(___result);
-        }
-
-
-        public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors, @editorIndex, @target};
-            var ___result = RMWasEditorVisible_EditorArray_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @target};
-            var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editors, @editorIndex};
-            var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SaveViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveViewData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetViewDataDictionary.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary>(___result);
-        }
-
-
-        public virtual void DisableViewDataPersistence()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDisableViewDataPersistence.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearPersistentViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearPersistentViewData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginWindows()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBeginWindows.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndWindows()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEndWindows.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnResized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnResized.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBackgroundViewResized(UnityEngine.Rect @pos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pos};
-            var ___result = RMOnBackgroundViewResized_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckForWindowRepaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckForWindowRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.GUIContent GetLocalizedTitleContent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLocalizedTitleContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
-        }
-
-
-        public virtual void ShowNotification(UnityEngine.GUIContent @notification)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@notification};
-            var ___result = RMShowNotification_GUIContent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowNotification(UnityEngine.GUIContent @notification, System.Double @fadeoutWait)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@notification, @fadeoutWait};
-            var ___result = RMShowNotification_GUIContent_Double.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveNotification()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveNotification.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawNotification()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDrawNotification.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMaximized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnMaximized.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetNumTabs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNumTabs.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean ShowNextTabIfPossible()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowNextTabIfPossible.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ShowTab()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowTab.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsSelectedTab()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsSelectedTab.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Focus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MakeParentsSettingsMatchMe()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMakeParentsSettingsMatchMe.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowUtility()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowUtility.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowTooltip()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowTooltip.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowPopup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowPopup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowModalUtility()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowModalUtility.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowPopupWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mode.Value, @giveFocus};
-            var ___result = RMShowPopupWithMode_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mode.Value};
-            var ___result = RMShowWithMode_ShowMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buttonRect, @windowSize};
-            var ___result = RMShowAsDropDown_Rect_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
-            var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value};
-            var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value, @giveFocus};
-            var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
-            var ___result = RMShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual void Show()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Show(System.Boolean @immediateDisplay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@immediateDisplay};
-            var ___result = RMShow_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowAuxWindow()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowAuxWindow.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ShowModal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShowModal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFromDockArea()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveFromDockArea.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SaveChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DiscardChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDiscardChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Repaint()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RepaintImmediately()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRepaintImmediately.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetParentGameViewDimensions(UnityEngine.Rect @rect, UnityEngine.Rect @clippedRect, UnityEngine.Vector2 @targetSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @clippedRect, @targetSize};
-            var ___result = RMSetParentGameViewDimensions_Rect_Rect_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPlayModeViewSize(UnityEngine.Vector2 @targetSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetSize};
-            var ___result = RMSetPlayModeViewSize_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2 @targetSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetSize};
-            var ___result = RMSetMainPlayModeViewSize_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetDisplayViewSize(System.Int32 @displayId, UnityEngine.Vector2 @targetSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@displayId, @targetSize};
-            var ___result = RMSetDisplayViewSize_Int32_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32 @displayId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@displayId};
-            var ___result = RMGetDisplayViewSize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void SetPlayModeView(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetPlayModeView_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean SendEvent(UnityEngine.Event @e)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMSendEvent_Event.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddSceneTab()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddSceneTab.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddGameTab()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddGameTab.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerable<System.Type> GetExtraPaneTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExtraPaneTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Type>>(___result);
-        }
-
-
-        public virtual System.Boolean TryGetOverlay(System.String @id, out UnityEditor.Overlays.Overlay @match)
-        {
+		public virtual void SetParentInspector(Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow @inspector)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inspector.Value};
+			var ___result = RMSetParentInspector_InspectorWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDestroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CreateTracker()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateTracker.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.Editor GetLastInteractedEditor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLastInteractedEditor.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
+		}
+
+
+		public virtual void RebuildContentsContainers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuildContentsContainers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawPreview()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawPreview.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddItemsToMenu(UnityEditor.GenericMenu @menu)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@menu};
+			var ___result = RMAddItemsToMenu_GenericMenu.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowButton(UnityEngine.Rect @r)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@r};
+			var ___result = RMShowButton_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CanMaximize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanMaximize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void __0__RebuildContentsContainers__1__b__10_0()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__0__RebuildContentsContainers__1__b__10_0.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Awake()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAwake.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RefreshTitle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRefreshTitle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateWindowObjectNameTitle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateWindowObjectNameTitle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CloseIfEmpty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCloseIfEmpty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void BeginRebuildContentContainers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginRebuildContentContainers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean BeginDrawPreviewAndLabels()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginDrawPreviewAndLabels.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void EndDrawPreviewAndLabels(UnityEngine.Event @evt, UnityEngine.Rect @rect, UnityEngine.Rect @dragRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt, @rect, @dragRect};
+			var ___result = RMEndDrawPreviewAndLabels_Event_Rect_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetObjectsLocked(System.Collections.Generic.List<UnityEngine.Object> @objs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@objs};
+			var ___result = RMGetObjectsLocked_List_d_Object_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetObjectsLocked(System.Collections.Generic.List<UnityEngine.Object> @objs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@objs};
+			var ___result = RMSetObjectsLocked_List_d_Object_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Object GetInspectedObject()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInspectedObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object>(___result);
+		}
+
+
+		public virtual UnityEngine.Object[] GetInspectedObjects()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInspectedObjects.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
+		}
+
+
+		public virtual void OnFocusChanged(System.Boolean @focus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@focus};
+			var ___result = RMOnFocusChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnLostFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnInspectorUpdate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnInspectorUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnGUI()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnGUI.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMode(UnityEditor.InspectorMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mode};
+			var ___result = RMSetMode_InspectorMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetTitle(UnityEngine.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMSetTitle_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void LoadVisualTreeFromUxml()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadVisualTreeFromUxml.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddDebugItemsToMenu(UnityEditor.GenericMenu @menu)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@menu};
+			var ___result = RMAddDebugItemsToMenu_GenericMenu.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExpandAllComponents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExpandAllComponents.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsAnyComponentCollapsed()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAnyComponentCollapsed.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CollapseAllComponents()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCollapseAllComponents.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsAnyComponentExpanded()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAnyComponentExpanded.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean LoadPersistedObject()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLoadPersistedObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CreatePreviewables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreatePreviewables.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearPreviewables()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearPreviewables.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @onGUIHandler, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@onGUIHandler, @name};
+			var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
+		}
+
+
+		public virtual void EndRebuildContentContainers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndRebuildContentContainers.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AutoScroll(UnityEngine.Vector2 @mousePosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mousePosition};
+			var ___result = RMAutoScroll_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ScrollTo(UnityEngine.Vector2 @position)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position};
+			var ___result = RMScrollTo_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable GetEditorThatControlsPreview(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> @editors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors.Value};
+			var ___result = RMGetEditorThatControlsPreview_IPreviewableArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> GetEditorsWithPreviews(UnityEditor.Editor[] @editors)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors};
+			var ___result = RMGetEditorsWithPreviews_EditorArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable>>(___result);
+		}
+
+
+		public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors, @editorIndex, @target};
+			var ___result = RMWasEditorVisible_EditorArray_Int32_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editor, @target};
+			var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@editors, @editorIndex};
+			var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SaveViewData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSaveViewData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetViewDataDictionary.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary>(___result);
+		}
+
+
+		public virtual void DisableViewDataPersistence()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDisableViewDataPersistence.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearPersistentViewData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearPersistentViewData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BeginWindows()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBeginWindows.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void EndWindows()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEndWindows.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnResized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnResized.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBackgroundViewResized(UnityEngine.Rect @pos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@pos};
+			var ___result = RMOnBackgroundViewResized_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckForWindowRepaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckForWindowRepaint.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.GUIContent GetLocalizedTitleContent()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLocalizedTitleContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
+		}
+
+
+		public virtual void ShowNotification(UnityEngine.GUIContent @notification)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@notification};
+			var ___result = RMShowNotification_GUIContent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowNotification(UnityEngine.GUIContent @notification, System.Double @fadeoutWait)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@notification, @fadeoutWait};
+			var ___result = RMShowNotification_GUIContent_Double.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveNotification()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveNotification.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawNotification()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDrawNotification.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnMaximized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnMaximized.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetNumTabs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNumTabs.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean ShowNextTabIfPossible()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowNextTabIfPossible.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void ShowTab()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowTab.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsSelectedTab()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsSelectedTab.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Focus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void MakeParentsSettingsMatchMe()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMakeParentsSettingsMatchMe.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowUtility()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowUtility.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowTooltip()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowTooltip.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowPopup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowPopup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowModalUtility()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowModalUtility.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowPopupWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mode.Value, @giveFocus};
+			var ___result = RMShowPopupWithMode_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@mode.Value};
+			var ___result = RMShowWithMode_ShowMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buttonRect, @windowSize};
+			var ___result = RMShowAsDropDown_Rect_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+			var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value};
+			var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value, @giveFocus};
+			var ___result = RMShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+			var ___result = RMShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual void Show()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Show(System.Boolean @immediateDisplay)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@immediateDisplay};
+			var ___result = RMShow_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowAuxWindow()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowAuxWindow.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ShowModal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMShowModal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFromDockArea()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveFromDockArea.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SaveChanges()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSaveChanges.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DiscardChanges()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDiscardChanges.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Repaint()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RepaintImmediately()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRepaintImmediately.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetParentGameViewDimensions(UnityEngine.Rect @rect, UnityEngine.Rect @clippedRect, UnityEngine.Vector2 @targetSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @clippedRect, @targetSize};
+			var ___result = RMSetParentGameViewDimensions_Rect_Rect_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetPlayModeViewSize(UnityEngine.Vector2 @targetSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetSize};
+			var ___result = RMSetPlayModeViewSize_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2 @targetSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetSize};
+			var ___result = RMSetMainPlayModeViewSize_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetDisplayViewSize(System.Int32 @displayId, UnityEngine.Vector2 @targetSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@displayId, @targetSize};
+			var ___result = RMSetDisplayViewSize_Int32_Vector2.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32 @displayId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@displayId};
+			var ___result = RMGetDisplayViewSize_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual void SetPlayModeView(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMSetPlayModeView_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean SendEvent(UnityEngine.Event @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMSendEvent_Event.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddSceneTab()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddSceneTab.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddGameTab()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddGameTab.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerable<System.Type> GetExtraPaneTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExtraPaneTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Type>>(___result);
+		}
+
+
+		public virtual System.Boolean TryGetOverlay(System.String @id, out UnityEditor.Overlays.Overlay @match)
+		{
 			@match = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id, @match};
-            var ___result = RMTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id, @match};
+			var ___result = RMTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
 			@match = ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void OnBackingScaleFactorChangedInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBackingScaleFactorChangedInternal.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void OnBackingScaleFactorChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBackingScaleFactorChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnBackingScaleFactorChangedInternal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBackingScaleFactorChangedInternal.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnBackingScaleFactorChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBackingScaleFactorChanged.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

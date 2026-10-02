@@ -662,272 +662,208 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void AddSubPage(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSubPage @subPage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@subPage.Value};
-            var ___result = RMAddSubPage_SubPage.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddSubPage(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSubPage @subPage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@subPage.Value};
+			var ___result = RMAddSubPage_SubPage.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState GetVisualState(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMGetVisualState_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState GetVisualState(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMGetVisualState_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState GetSelectedVisualState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSelectedVisualState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState GetSelectedVisualState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSelectedVisualState.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState>(___result);
+		}
 
 
-        public virtual void LoadMore(System.Int64 @numberOfPackages)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@numberOfPackages};
-            var ___result = RMLoadMore_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void LoadMore(System.Int64 @numberOfPackages)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@numberOfPackages};
+			var ___result = RMLoadMore_Int64.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearFilters()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearFilters.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearFilters()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearFilters.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UpdateFilters(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters @filters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filters.Value};
-            var ___result = RMUpdateFilters_PageFilters.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UpdateFilters(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters @filters)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filters.Value};
+			var ___result = RMUpdateFilters_PageFilters.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetSelectedVersion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSelectedVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetSelectedVersion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSelectedVersion.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
+		}
 
 
-        public virtual void GetSelectedPackageAndVersion(out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
+		public virtual void GetSelectedPackageAndVersion(out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+		{
 			@package = default;
 			@version = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @version.Value};
-            var ___result = RMGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @version.Value};
+			var ___result = RMGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion.Invoke(___genericsType, ___parameters);
 			@package = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___parameters[0]);
 			@version = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___parameters[1]);
+		}
+
 
-            
-        }
+		public virtual void OnPackagesChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @added, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @removed, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @preUpdate, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @postUpdate)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@added.Value, @removed.Value, @preUpdate.Value, @postUpdate.Value};
+			var ___result = RMOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Rebuild()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRebuild.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Load(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @version.Value};
+			var ___result = RMLoad_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSelected(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @version.Value};
+			var ___result = RMSetSelected_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetSelected(System.String @packageUniqueId, System.String @versionUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId, @versionUniqueId};
+			var ___result = RMSetSelected_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void TriggerOnSelectionChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTriggerOnSelectionChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetExpanded(System.String @packageUniqueId, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId, @value};
+			var ___result = RMSetExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetExpanded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @value};
+			var ___result = RMSetExpanded_IPackage_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsGroupExpanded(System.String @groupName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@groupName};
+			var ___result = RMIsGroupExpanded_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetGroupExpanded(System.String @groupName, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@groupName, @value};
+			var ___result = RMSetGroupExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String GetGroupName(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMGetGroupName_IPackage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMContains_IPackage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
 
-
-        public virtual void OnPackagesChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @added, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @removed, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @preUpdate, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @postUpdate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@added.Value, @removed.Value, @preUpdate.Value, @postUpdate.Value};
-            var ___result = RMOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Rebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRebuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Load(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @version.Value};
-            var ___result = RMLoad_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSelected(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @version.Value};
-            var ___result = RMSetSelected_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSelected(System.String @packageUniqueId, System.String @versionUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @versionUniqueId};
-            var ___result = RMSetSelected_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TriggerOnSelectionChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTriggerOnSelectionChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetExpanded(System.String @packageUniqueId, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @value};
-            var ___result = RMSetExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetExpanded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @value};
-            var ___result = RMSetExpanded_IPackage_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsGroupExpanded(System.String @groupName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@groupName};
-            var ___result = RMIsGroupExpanded_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetGroupExpanded(System.String @groupName, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@groupName, @value};
-            var ___result = RMSetGroupExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String GetGroupName(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMGetGroupName_IPackage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMContains_IPackage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMContains_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPackagesUserUnlockedState(System.Collections.Generic.IEnumerable<System.String> @packageUniqueIds, System.Boolean @unlocked)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueIds, @unlocked};
-            var ___result = RMSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResetUserUnlockedState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetUserUnlockedState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean GetDefaultLockState(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value};
-            var ___result = RMGetDefaultLockState_IPackage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Contains(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMContains_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetPackagesUserUnlockedState(System.Collections.Generic.IEnumerable<System.String> @packageUniqueIds, System.Boolean @unlocked)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueIds, @unlocked};
+			var ___result = RMSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResetUserUnlockedState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetUserUnlockedState.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean GetDefaultLockState(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value};
+			var ___result = RMGetDefaultLockState_IPackage.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
     }

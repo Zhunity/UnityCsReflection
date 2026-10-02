@@ -1942,466 +1942,371 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 		}
 
 
-        public static System.Globalization.CultureInfo ConstructCurrentCulture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMConstructCurrentCulture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo ConstructCurrentUICulture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMConstructCurrentUICulture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public virtual System.Globalization.CultureInfo GetConsoleFallbackUICulture()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetConsoleFallbackUICulture.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public virtual void ClearCachedData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCachedData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@types};
-            var ___result = RMGetCultures_CultureTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData GetTextInfoData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTextInfoData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo ReadOnly(System.Globalization.CultureInfo @ci)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ci};
-            var ___result = RMReadOnly_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void CheckNeutral()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckNeutral.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object GetFormat(System.Type @formatType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@formatType};
-            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void Construct()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMConstruct.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean construct_internal_locale_from_lcid(System.Int32 @lcid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lcid};
-            var ___result = RMconstruct_internal_locale_from_lcid_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean construct_internal_locale_from_name(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMconstruct_internal_locale_from_name_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String get_current_locale_name()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_current_locale_name.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo[] internal_get_cultures(System.Boolean @neutral, System.Boolean @specific, System.Boolean @installed)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@neutral, @specific, @installed};
-            var ___result = RMinternal_get_cultures_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
-        }
-
-
-        public virtual void ConstructInvariant(System.Boolean @read_only)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@read_only};
-            var ___result = RMConstructInvariant_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Globalization.TextInfo CreateTextInfo(System.Boolean @readOnly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@readOnly};
-            var ___result = RMCreateTextInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.TextInfo>(___result);
-        }
-
-
-        public static void insert_into_shared_tables(System.Globalization.CultureInfo @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMinsert_into_shared_tables_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Globalization.CultureInfo GetCultureInfo(System.Int32 @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture};
-            var ___result = RMGetCultureInfo_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo GetCultureInfo(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetCultureInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo GetCultureInfo(System.String @name, System.String @altName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @altName};
-            var ___result = RMGetCultureInfo_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo GetCultureInfoByIetfLanguageTag(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetCultureInfoByIetfLanguageTag_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo CreateCulture(System.String @name, System.Boolean @reference)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @reference};
-            var ___result = RMCreateCulture_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo CreateSpecificCulture(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMCreateSpecificCulture_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public virtual System.Boolean ConstructLocaleFromName(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMConstructLocaleFromName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMCreateSpecificCultureFromNeutral_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static System.Globalization.Calendar CreateCalendar(System.Int32 @calendarType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@calendarType};
-            var ___result = RMCreateCalendar_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
-        }
-
-
-        public static System.Exception CreateNotFoundException(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMCreateNotFoundException_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Exception>(___result);
-        }
-
-
-        public static void InitializeUserPreferredCultureInfoInAppX(Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.ROnCultureInfoChangedDelegate @onCultureInfoChangedInAppX)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@onCultureInfoChangedInAppX.Value};
-            var ___result = RMInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetUserPreferredCultureInfoInAppX(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMSetUserPreferredCultureInfoInAppX_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnCultureInfoChangedInAppX(System.String @language)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@language};
-            var ___result = RMOnCultureInfoChangedInAppX_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Globalization.CultureInfo GetCultureInfoForUserPreferredLanguageInAppX()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCultureInfoForUserPreferredLanguageInAppX.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
-        }
-
-
-        public static void SetCultureInfoForUserPreferredLanguageInAppX(System.Globalization.CultureInfo @cultureInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cultureInfo};
-            var ___result = RMSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CheckDomainSafetyObject(System.Object @obj, System.Object @container)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @container};
-            var ___result = RMCheckDomainSafetyObject_Object_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean VerifyCultureName(System.String @cultureName, System.Boolean @throwException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cultureName, @throwException};
-            var ___result = RMVerifyCultureName_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean VerifyCultureName(System.Globalization.CultureInfo @culture, System.Boolean @throwException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture, @throwException};
-            var ___result = RMVerifyCultureName_CultureInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Globalization.CultureInfo ConstructCurrentCulture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMConstructCurrentCulture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo ConstructCurrentUICulture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMConstructCurrentUICulture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public virtual System.Globalization.CultureInfo GetConsoleFallbackUICulture()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetConsoleFallbackUICulture.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public virtual void ClearCachedData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCachedData.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes @types)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@types};
+			var ___result = RMGetCultures_CultureTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData GetTextInfoData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTextInfoData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo ReadOnly(System.Globalization.CultureInfo @ci)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ci};
+			var ___result = RMReadOnly_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void CheckNeutral()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckNeutral.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Object GetFormat(System.Type @formatType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@formatType};
+			var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void Construct()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMConstruct.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean construct_internal_locale_from_lcid(System.Int32 @lcid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lcid};
+			var ___result = RMconstruct_internal_locale_from_lcid_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean construct_internal_locale_from_name(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMconstruct_internal_locale_from_name_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String get_current_locale_name()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_current_locale_name.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo[] internal_get_cultures(System.Boolean @neutral, System.Boolean @specific, System.Boolean @installed)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@neutral, @specific, @installed};
+			var ___result = RMinternal_get_cultures_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
+		}
+
+
+		public virtual void ConstructInvariant(System.Boolean @read_only)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@read_only};
+			var ___result = RMConstructInvariant_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Globalization.TextInfo CreateTextInfo(System.Boolean @readOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@readOnly};
+			var ___result = RMCreateTextInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.TextInfo>(___result);
+		}
+
+
+		public static void insert_into_shared_tables(System.Globalization.CultureInfo @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMinsert_into_shared_tables_CultureInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Globalization.CultureInfo GetCultureInfo(System.Int32 @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture};
+			var ___result = RMGetCultureInfo_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo GetCultureInfo(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetCultureInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo GetCultureInfo(System.String @name, System.String @altName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @altName};
+			var ___result = RMGetCultureInfo_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo GetCultureInfoByIetfLanguageTag(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetCultureInfoByIetfLanguageTag_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo CreateCulture(System.String @name, System.Boolean @reference)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @reference};
+			var ___result = RMCreateCulture_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo CreateSpecificCulture(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMCreateSpecificCulture_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public virtual System.Boolean ConstructLocaleFromName(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMConstructLocaleFromName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMCreateSpecificCultureFromNeutral_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static System.Globalization.Calendar CreateCalendar(System.Int32 @calendarType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@calendarType};
+			var ___result = RMCreateCalendar_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
+		}
+
+
+		public static System.Exception CreateNotFoundException(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMCreateNotFoundException_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Exception>(___result);
+		}
+
+
+		public static void InitializeUserPreferredCultureInfoInAppX(Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.ROnCultureInfoChangedDelegate @onCultureInfoChangedInAppX)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@onCultureInfoChangedInAppX.Value};
+			var ___result = RMInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetUserPreferredCultureInfoInAppX(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMSetUserPreferredCultureInfoInAppX_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OnCultureInfoChangedInAppX(System.String @language)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@language};
+			var ___result = RMOnCultureInfoChangedInAppX_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Globalization.CultureInfo GetCultureInfoForUserPreferredLanguageInAppX()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetCultureInfoForUserPreferredLanguageInAppX.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
+		}
+
+
+		public static void SetCultureInfoForUserPreferredLanguageInAppX(System.Globalization.CultureInfo @cultureInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cultureInfo};
+			var ___result = RMSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CheckDomainSafetyObject(System.Object @obj, System.Object @container)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @container};
+			var ___result = RMCheckDomainSafetyObject_Object_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean VerifyCultureName(System.String @cultureName, System.Boolean @throwException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cultureName, @throwException};
+			var ___result = RMVerifyCultureName_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean VerifyCultureName(System.Globalization.CultureInfo @culture, System.Boolean @throwException)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture, @throwException};
+			var ___result = RMVerifyCultureName_CultureInfo_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

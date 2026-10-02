@@ -630,279 +630,224 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 		}
 
 
-        public static System.Boolean IsValidInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMIsValidInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String GetPathInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetPathInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String GetNameInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetNameInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static void SetNameInternal(System.Int32 @sceneHandle, System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle, @name};
-            var ___result = RMSetNameInternal_Int32_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.String GetGUIDInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetGUIDInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Boolean IsSubScene(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMIsSubScene_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SetIsSubScene(System.Int32 @sceneHandle, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle, @value};
-            var ___result = RMSetIsSubScene_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean GetIsLoadedInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetIsLoadedInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState GetLoadingStateInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetLoadingStateInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState>(___result);
-        }
-
-
-        public static System.Boolean GetIsDirtyInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetIsDirtyInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 GetDirtyID(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetDirtyID_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetBuildIndexInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetBuildIndexInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 GetRootCountInternal(System.Int32 @sceneHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle};
-            var ___result = RMGetRootCountInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void GetRootGameObjectsInternal(System.Int32 @sceneHandle, System.Object @resultRootList)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle, @resultRootList};
-            var ___result = RMGetRootGameObjectsInternal_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsValid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.GameObject[] GetRootGameObjects()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRootGameObjects.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GameObject[]>(___result);
-        }
-
-
-        public virtual void GetRootGameObjects(System.Collections.Generic.List<UnityEngine.GameObject> @rootGameObjects)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rootGameObjects};
-            var ___result = RMGetRootGameObjects_List_d_GameObject_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_Scene_Scene.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_Scene_Scene.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Boolean IsValidInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMIsValidInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String GetPathInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetPathInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String GetNameInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetNameInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static void SetNameInternal(System.Int32 @sceneHandle, System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle, @name};
+			var ___result = RMSetNameInternal_Int32_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.String GetGUIDInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetGUIDInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Boolean IsSubScene(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMIsSubScene_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void SetIsSubScene(System.Int32 @sceneHandle, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle, @value};
+			var ___result = RMSetIsSubScene_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean GetIsLoadedInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetIsLoadedInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState GetLoadingStateInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetLoadingStateInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState>(___result);
+		}
+
+
+		public static System.Boolean GetIsDirtyInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetIsDirtyInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 GetDirtyID(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetDirtyID_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetBuildIndexInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetBuildIndexInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 GetRootCountInternal(System.Int32 @sceneHandle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle};
+			var ___result = RMGetRootCountInternal_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void GetRootGameObjectsInternal(System.Int32 @sceneHandle, System.Object @resultRootList)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sceneHandle, @resultRootList};
+			var ___result = RMGetRootGameObjectsInternal_Int32_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsValid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEngine.GameObject[] GetRootGameObjects()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRootGameObjects.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GameObject[]>(___result);
+		}
+
+
+		public virtual void GetRootGameObjects(System.Collections.Generic.List<UnityEngine.GameObject> @rootGameObjects)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rootGameObjects};
+			var ___result = RMGetRootGameObjects_List_d_GameObject_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean op_Equality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_Scene_Scene.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_Scene_Scene.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

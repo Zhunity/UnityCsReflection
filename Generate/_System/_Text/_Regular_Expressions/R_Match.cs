@@ -726,235 +726,187 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		}
 
 
-        public virtual void Reset(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart};
-            var ___result = RMReset_Regex_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.RegularExpressions.Match NextMatch()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNextMatch.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
-        }
-
-
-        public virtual System.String Result(System.String @replacement)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@replacement};
-            var ___result = RMResult_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GroupToStringImpl(System.Int32 @groupnum)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@groupnum};
-            var ___result = RMGroupToStringImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> LastGroupToStringImpl()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLastGroupToStringImpl.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public static System.Text.RegularExpressions.Match Synchronized(System.Text.RegularExpressions.Match @inner)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inner};
-            var ___result = RMSynchronized_Match.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
-        }
-
-
-        public virtual void AddMatch(System.Int32 @cap, System.Int32 @start, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap, @start, @len};
-            var ___result = RMAddMatch_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BalanceMatch(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMBalanceMatch_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveMatch(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMRemoveMatch_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsMatched(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMIsMatched_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 MatchIndex(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMMatchIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 MatchLength(System.Int32 @cap)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cap};
-            var ___result = RMMatchLength_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Tidy(System.Int32 @textpos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textpos};
-            var ___result = RMTidy_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetLeftSubstring()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLeftSubstring.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetRightSubstring()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRightSubstring.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual void Reset(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@regex, @text, @textbeg, @textend, @textstart};
+			var ___result = RMReset_Regex_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.RegularExpressions.Match NextMatch()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNextMatch.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
+		}
+
+
+		public virtual System.String Result(System.String @replacement)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@replacement};
+			var ___result = RMResult_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GroupToStringImpl(System.Int32 @groupnum)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@groupnum};
+			var ___result = RMGroupToStringImpl_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> LastGroupToStringImpl()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLastGroupToStringImpl.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public static System.Text.RegularExpressions.Match Synchronized(System.Text.RegularExpressions.Match @inner)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@inner};
+			var ___result = RMSynchronized_Match.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
+		}
+
+
+		public virtual void AddMatch(System.Int32 @cap, System.Int32 @start, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap, @start, @len};
+			var ___result = RMAddMatch_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void BalanceMatch(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMBalanceMatch_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveMatch(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMRemoveMatch_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsMatched(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMIsMatched_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 MatchIndex(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMMatchIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 MatchLength(System.Int32 @cap)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cap};
+			var ___result = RMMatchLength_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Tidy(System.Int32 @textpos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textpos};
+			var ___result = RMTidy_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetLeftSubstring()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLeftSubstring.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetRightSubstring()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRightSubstring.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

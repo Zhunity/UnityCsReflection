@@ -264,125 +264,97 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		}
 
 
-        public virtual void OnCompleted(System.Action @continuation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continuation};
-            var ___result = RMOnCompleted_Action.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnCompleted(System.Action @continuation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continuation};
+			var ___result = RMOnCompleted_Action.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void UnsafeOnCompleted(System.Action @continuation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continuation};
-            var ___result = RMUnsafeOnCompleted_Action.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void UnsafeOnCompleted(System.Action @continuation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continuation};
+			var ___result = RMUnsafeOnCompleted_Action.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void QueueContinuation(System.Action @continuation, System.Boolean @flowContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@continuation, @flowContext};
-            var ___result = RMQueueContinuation_Action_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void QueueContinuation(System.Action @continuation, System.Boolean @flowContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@continuation, @flowContext};
+			var ___result = RMQueueContinuation_Action_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void RunAction(System.Object @state)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state};
-            var ___result = RMRunAction_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void RunAction(System.Object @state)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@state};
+			var ___result = RMRunAction_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetResult()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetResult.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetResult()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetResult.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

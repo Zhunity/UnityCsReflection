@@ -70,26 +70,20 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		}
 
 
-        public virtual void SetCheckSum(System.Guid @algorithmId, System.Byte[] @checkSum)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@algorithmId, @checkSum};
-            var ___result = RMSetCheckSum_Guid_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetCheckSum(System.Guid @algorithmId, System.Byte[] @checkSum)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@algorithmId, @checkSum};
+			var ___result = RMSetCheckSum_Guid_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void SetSource(System.Byte[] @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source};
-            var ___result = RMSetSource_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetSource(System.Byte[] @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source};
+			var ___result = RMSetSource_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -390,208 +390,170 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual UnityEngine.Rendering.LocalKeyword[] GetKeywords()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeywords.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
-        }
+		public virtual UnityEngine.Rendering.LocalKeyword[] GetKeywords()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeywords.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
+		}
 
 
-        public virtual System.String[] GetKeywordNames()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeywordNames.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public virtual System.String[] GetKeywordNames()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeywordNames.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public virtual System.UInt32 GetKeywordCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeywordCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
+		public virtual System.UInt32 GetKeywordCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeywordCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
 
-        public virtual UnityEngine.Rendering.LocalKeyword GetKeyword(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetKeyword_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
-        }
+		public virtual UnityEngine.Rendering.LocalKeyword GetKeyword(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetKeyword_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
+		}
 
 
-        public virtual UnityEngine.Rendering.LocalKeyword FindKeyword(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMFindKeyword_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
-        }
+		public virtual UnityEngine.Rendering.LocalKeyword FindKeyword(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMFindKeyword_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeywordSpace @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rhs};
-            var ___result = RMEquals_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeywordSpace @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rhs};
+			var ___result = RMEquals_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Equality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@lhs, @rhs};
+			var ___result = RMop_Inequality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static UnityEngine.Rendering.LocalKeyword[] GetKeywords_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetKeywords_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Rendering.LocalKeyword[] GetKeywords_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetKeywords_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
-        }
 
-
-        public static System.String[] GetKeywordNames_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetKeywordNames_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+		public static System.String[] GetKeywordNames_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetKeywordNames_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
 
-
-        public static System.UInt32 GetKeywordCount_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetKeywordCount_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
+		public static System.UInt32 GetKeywordCount_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetKeywordCount_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
 
-
-        public static void GetKeyword_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self, System.String @name, out UnityEngine.Rendering.LocalKeyword @ret)
-        {
+		public static void GetKeyword_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self, System.String @name, out UnityEngine.Rendering.LocalKeyword @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @name, @ret};
-            var ___result = RMGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @name, @ret};
+			var ___result = RMGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

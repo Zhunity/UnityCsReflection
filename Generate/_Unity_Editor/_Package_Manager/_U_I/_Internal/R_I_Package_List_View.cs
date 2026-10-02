@@ -166,92 +166,69 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageItem GetPackageItem(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMGetPackageItem_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageItem>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageItem GetPackageItem(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMGetPackageItem_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageItem>(___result);
+		}
 
 
-        public virtual void ScrollToSelection()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMScrollToSelection.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ScrollToSelection()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMScrollToSelection.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnVisualStateChange(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState> @visualStates)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@visualStates.Value};
-            var ___result = RMOnVisualStateChange_IEnumerable_d_VisualState_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnVisualStateChange(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState> @visualStates)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@visualStates.Value};
+			var ___result = RMOnVisualStateChange_IEnumerable_d_VisualState_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnListRebuild(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage @page)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@page.Value};
-            var ___result = RMOnListRebuild_IPage.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnListRebuild(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage @page)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@page.Value};
+			var ___result = RMOnListRebuild_IPage.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnListUpdate(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RListUpdateArgs @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMOnListUpdate_ListUpdateArgs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnListUpdate(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RListUpdateArgs @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args.Value};
+			var ___result = RMOnListUpdate_ListUpdateArgs.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnFilterTabChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @filterTab)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filterTab.Value};
-            var ___result = RMOnFilterTabChanged_PackageFilterTab.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnFilterTabChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @filterTab)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filterTab.Value};
+			var ___result = RMOnFilterTabChanged_PackageFilterTab.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnSeeAllPackageVersionsChanged(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMOnSeeAllPackageVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnSeeAllPackageVersionsChanged(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMOnSeeAllPackageVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnKeyDownShortcut(UnityEngine.UIElements.KeyDownEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnKeyDownShortcut_KeyDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnKeyDownShortcut(UnityEngine.UIElements.KeyDownEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMOnKeyDownShortcut_KeyDownEvent.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

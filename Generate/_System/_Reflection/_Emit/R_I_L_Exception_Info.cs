@@ -358,180 +358,139 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 		}
 
 
-        public virtual System.Int32 NumHandlers()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNumHandlers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 NumHandlers()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNumHandlers.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void AddCatch(System.Type @extype, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@extype, @offset};
-            var ___result = RMAddCatch_Type_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddCatch(System.Type @extype, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@extype, @offset};
+			var ___result = RMAddCatch_Type_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddFinally(System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset};
-            var ___result = RMAddFinally_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddFinally(System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset};
+			var ___result = RMAddFinally_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddFault(System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset};
-            var ___result = RMAddFault_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddFault(System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset};
+			var ___result = RMAddFault_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddFilter(System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset};
-            var ___result = RMAddFilter_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddFilter(System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset};
+			var ___result = RMAddFilter_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void End(System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset};
-            var ___result = RMEnd_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void End(System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset};
+			var ___result = RMEnd_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 LastClauseType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLastClauseType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 LastClauseType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLastClauseType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void PatchFilterClause(System.Int32 @start)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start};
-            var ___result = RMPatchFilterClause_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PatchFilterClause(System.Int32 @start)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start};
+			var ___result = RMPatchFilterClause_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Debug(System.Int32 @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@b};
-            var ___result = RMDebug_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Debug(System.Int32 @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@b};
+			var ___result = RMDebug_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void add_block(System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset};
-            var ___result = RMadd_block_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void add_block(System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@offset};
+			var ___result = RMadd_block_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

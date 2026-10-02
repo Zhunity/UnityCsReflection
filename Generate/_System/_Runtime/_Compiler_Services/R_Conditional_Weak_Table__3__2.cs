@@ -486,217 +486,172 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RehashWithoutResize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRehashWithoutResize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RehashWithoutResize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRehashWithoutResize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void RecomputeSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRecomputeSize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RecomputeSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRecomputeSize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Rehash()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRehash.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Rehash()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRehash.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddOrUpdate(TKey @key, TValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMAddOrUpdate_TKey_TValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddOrUpdate(TKey @key, TValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMAddOrUpdate_TKey_TValue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Add(TKey @key, TValue @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMAdd_TKey_TValue.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Add(TKey @key, TValue @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMAdd_TKey_TValue.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Remove(TKey @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Remove(TKey @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
-        {
+		public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual TValue GetOrCreateValue(TKey @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMGetOrCreateValue_TKey.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<TValue>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual TValue GetValue(TKey @key, Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<Hvak.Editor.Refleaction.RType, Hvak.Editor.Refleaction.RType>.RCreateValueCallback @createValueCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @createValueCallback.Value};
-            var ___result = RMGetValue_TKey_CreateValueCallback.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<TValue>(___result);
-        }
+		public virtual TValue GetOrCreateValue(TKey @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMGetOrCreateValue_TKey.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<TValue>(___result);
+		}
 
 
-        public virtual TKey FindEquivalentKeyUnsafe(TKey @key, out TValue @value)
-        {
+		public virtual TValue GetValue(TKey @key, Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<Hvak.Editor.Refleaction.RType, Hvak.Editor.Refleaction.RType>.RCreateValueCallback @createValueCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @createValueCallback.Value};
+			var ___result = RMGetValue_TKey_CreateValueCallback.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<TValue>(___result);
+		}
+
+
+		public virtual TKey FindEquivalentKeyUnsafe(TKey @key, out TValue @value)
+		{
 			@value = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key, @value};
-            var ___result = RMFindEquivalentKeyUnsafe_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key, @value};
+			var ___result = RMFindEquivalentKeyUnsafe_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
-
-            return ReflectionUtils.Convert<TKey>(___result);
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<TKey>(___result);
+		}
 
 
-        public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>>(___result);
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
+		public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -726,345 +726,272 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void Internal_Destroy(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetIterator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIterator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual UnityEditor.SerializedProperty FindProperty(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMFindProperty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual System.Boolean ApplyModifiedProperties()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyModifiedProperties.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetIsDifferentCacheDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetIsDifferentCacheDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.SerializedProperty GetIterator_Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetIterator_Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateIfDirtyOrScript()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateIfDirtyOrScript.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean UpdateIfRequiredOrScript()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateIfRequiredOrScript.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UpdateExpandedState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateExpandedState.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr InternalCreate(UnityEngine.Object[] @monoObjs, UnityEngine.Object @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@monoObjs, @context};
-            var ___result = RMInternalCreate_ObjectArray_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual UnityEditor.PropertyModification ExtractPropertyModification(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMExtractPropertyModification_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PropertyModification>(___result);
-        }
-
-
-        public virtual System.Object InternalExtractPropertyModification(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMInternalExtractPropertyModification_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void Cache(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMCache_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CacheInternal(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMCacheInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEditor.SerializedObject LoadFromCache(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMLoadFromCache_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedObject>(___result);
-        }
-
-
-        public virtual System.Boolean ApplyModifiedPropertiesWithoutUndo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyModifiedPropertiesWithoutUndo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CopyFromSerializedProperty(UnityEditor.SerializedProperty @prop)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop};
-            var ___result = RMCopyFromSerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyFromSerializedPropertyInternal(UnityEditor.SerializedProperty @prop)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop};
-            var ___result = RMCopyFromSerializedPropertyInternal_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean CopyFromSerializedPropertyIfDifferent(UnityEditor.SerializedProperty @prop)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop};
-            var ___result = RMCopyFromSerializedPropertyIfDifferent_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean CopyFromSerializedPropertyIfDifferentInternal(UnityEditor.SerializedProperty @prop)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prop};
-            var ___result = RMCopyFromSerializedPropertyIfDifferentInternal_SerializedProperty.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasAnyInstantiatedPrefabs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasAnyInstantiatedPrefabs.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean VersionEquals(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMVersionEquals_SerializedObject_SerializedObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean VersionEqualsInternal(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x, @y};
-            var ___result = RMVersionEqualsInternal_SerializedObject_SerializedObject.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void Internal_Destroy(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetIterator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIterator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty FindProperty(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMFindProperty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual System.Boolean ApplyModifiedProperties()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyModifiedProperties.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetIsDifferentCacheDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetIsDifferentCacheDirty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.SerializedProperty GetIterator_Internal()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetIterator_Internal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
+		}
+
+
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateIfDirtyOrScript()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateIfDirtyOrScript.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean UpdateIfRequiredOrScript()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateIfRequiredOrScript.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UpdateExpandedState()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateExpandedState.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr InternalCreate(UnityEngine.Object[] @monoObjs, UnityEngine.Object @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@monoObjs, @context};
+			var ___result = RMInternalCreate_ObjectArray_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual UnityEditor.PropertyModification ExtractPropertyModification(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMExtractPropertyModification_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PropertyModification>(___result);
+		}
+
+
+		public virtual System.Object InternalExtractPropertyModification(System.String @propertyPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@propertyPath};
+			var ___result = RMInternalExtractPropertyModification_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual void Cache(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMCache_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CacheInternal(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMCacheInternal_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEditor.SerializedObject LoadFromCache(System.Int32 @instanceID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@instanceID};
+			var ___result = RMLoadFromCache_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.SerializedObject>(___result);
+		}
+
+
+		public virtual System.Boolean ApplyModifiedPropertiesWithoutUndo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyModifiedPropertiesWithoutUndo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CopyFromSerializedProperty(UnityEditor.SerializedProperty @prop)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop};
+			var ___result = RMCopyFromSerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyFromSerializedPropertyInternal(UnityEditor.SerializedProperty @prop)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop};
+			var ___result = RMCopyFromSerializedPropertyInternal_SerializedProperty.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean CopyFromSerializedPropertyIfDifferent(UnityEditor.SerializedProperty @prop)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop};
+			var ___result = RMCopyFromSerializedPropertyIfDifferent_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CopyFromSerializedPropertyIfDifferentInternal(UnityEditor.SerializedProperty @prop)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prop};
+			var ___result = RMCopyFromSerializedPropertyIfDifferentInternal_SerializedProperty.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean HasAnyInstantiatedPrefabs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasAnyInstantiatedPrefabs.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean VersionEquals(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMVersionEquals_SerializedObject_SerializedObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean VersionEqualsInternal(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x, @y};
+			var ___result = RMVersionEqualsInternal_SerializedObject_SerializedObject.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

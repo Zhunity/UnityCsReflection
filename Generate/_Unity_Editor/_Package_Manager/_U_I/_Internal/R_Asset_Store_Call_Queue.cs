@@ -630,257 +630,194 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient @assetStoreClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@application.Value, @unityConnect.Value, @packageFiltering.Value, @assetStoreClient.Value, @assetStoreCache.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnFilterChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @filterTab)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filterTab.Value};
-            var ___result = RMOnFilterChanged_PackageFilterTab.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnLocalInfosChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @addedOrUpdated, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @removed)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@addedOrUpdated.Value, @removed.Value};
-            var ___result = RMOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddToFetchDetailsQueue(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMAddToFetchDetailsQueue_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveFromFetchDetailsQueue(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMRemoveFromFetchDetailsQueue_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FetchDetailsFromQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFetchDetailsFromQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckUpdateFromStack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckUpdateFromStack.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InsertToCheckUpdateQueue(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMInsertToCheckUpdateQueue_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable<System.String> @productIds)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIds};
-            var ___result = RMInsertToCheckUpdateQueue_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ProcessCallQueue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMProcessCallQueue.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean __0__OnLocalInfosChanged__1__b__20_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info.Value};
-            var ___result = RM__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void __0__CheckUpdateFromStack__1__b__25_0()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RM__0__CheckUpdateFromStack__1__b__25_0.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient @assetStoreClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@application.Value, @unityConnect.Value, @packageFiltering.Value, @assetStoreClient.Value, @assetStoreCache.Value};
+			var ___result = RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnFilterChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @filterTab)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filterTab.Value};
+			var ___result = RMOnFilterChanged_PackageFilterTab.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnLocalInfosChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @addedOrUpdated, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @removed)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@addedOrUpdated.Value, @removed.Value};
+			var ___result = RMOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddToFetchDetailsQueue(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMAddToFetchDetailsQueue_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveFromFetchDetailsQueue(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMRemoveFromFetchDetailsQueue_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FetchDetailsFromQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFetchDetailsFromQueue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CheckUpdateFromStack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCheckUpdateFromStack.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InsertToCheckUpdateQueue(System.String @productId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId};
+			var ___result = RMInsertToCheckUpdateQueue_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable<System.String> @productIds)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIds};
+			var ___result = RMInsertToCheckUpdateQueue_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ProcessCallQueue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMProcessCallQueue.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean __0__OnLocalInfosChanged__1__b__20_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info.Value};
+			var ___result = RM__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void __0__CheckUpdateFromStack__1__b__25_0()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RM__0__CheckUpdateFromStack__1__b__25_0.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

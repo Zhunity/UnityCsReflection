@@ -518,235 +518,183 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void SendPackageSelectionChangedEvent(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @version.Value};
-            var ___result = RMSendPackageSelectionChangedEvent_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs @packageManagerPrefs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageManagerPrefs.Value};
-            var ___result = RMResolveDependencies_PackageManagerPrefs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnWindowCreated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow @window, UnityEngine.UIElements.VisualElement @detailsExtensionContainer, UnityEngine.UIElements.VisualElement @toolbarExtensionsContainer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@window.Value, @detailsExtensionContainer, @toolbarExtensionsContainer};
-            var ___result = RMOnWindowCreated_IWindow_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnWindowDestroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnWindowDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CollapsedPackageActionsOnBeforeShowDropdown()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCollapsedPackageActionsOnBeforeShowDropdown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RefreshPackageActionsBasedOnWidth()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefreshPackageActionsBasedOnWidth.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDetailsExtension CreateDetailsExtension()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateDetailsExtension.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDetailsExtension>(___result);
-        }
-
-
-        public virtual void OnDetailsExtensionPriorityChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDetailsExtensionPriorityChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageAction()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePackageAction.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageActionButton()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePackageActionButton.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageActionMenu()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePackageActionMenu.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
-        }
-
-
-        public virtual void OnPackageActionPriorityChanged()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnPackageActionPriorityChanged.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 CompareExtensions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIExtension @e1, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIExtension @e2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e1.Value, @e2.Value};
-            var ___result = RMCompareExtensions_IExtension_IExtension.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean IsSorted<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @extensions)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@extensions.Value};
-            var ___result = RMIsSorted_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void __0__OnWindowCreated__1__b__12_0(UnityEngine.UIElements.GeometryChangedEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RM__0__OnWindowCreated__1__b__12_0_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void SendPackageSelectionChangedEvent(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@package.Value, @version.Value};
+			var ___result = RMSendPackageSelectionChangedEvent_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs @packageManagerPrefs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageManagerPrefs.Value};
+			var ___result = RMResolveDependencies_PackageManagerPrefs.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnWindowCreated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow @window, UnityEngine.UIElements.VisualElement @detailsExtensionContainer, UnityEngine.UIElements.VisualElement @toolbarExtensionsContainer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@window.Value, @detailsExtensionContainer, @toolbarExtensionsContainer};
+			var ___result = RMOnWindowCreated_IWindow_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnWindowDestroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnWindowDestroy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CollapsedPackageActionsOnBeforeShowDropdown()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCollapsedPackageActionsOnBeforeShowDropdown.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RefreshPackageActionsBasedOnWidth()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRefreshPackageActionsBasedOnWidth.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDetailsExtension CreateDetailsExtension()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateDetailsExtension.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDetailsExtension>(___result);
+		}
+
+
+		public virtual void OnDetailsExtensionPriorityChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDetailsExtensionPriorityChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageAction()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreatePackageAction.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageActionButton()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreatePackageActionButton.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction CreatePackageActionMenu()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreatePackageActionMenu.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAction>(___result);
+		}
+
+
+		public virtual void OnPackageActionPriorityChanged()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnPackageActionPriorityChanged.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 CompareExtensions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIExtension @e1, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIExtension @e2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e1.Value, @e2.Value};
+			var ___result = RMCompareExtensions_IExtension_IExtension.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean IsSorted<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @extensions)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@extensions.Value};
+			var ___result = RMIsSorted_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void __0__OnWindowCreated__1__b__12_0(UnityEngine.UIElements.GeometryChangedEvent @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RM__0__OnWindowCreated__1__b__12_0_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

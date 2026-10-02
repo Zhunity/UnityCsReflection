@@ -4102,2703 +4102,2192 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static System.Int32 CompareOrdinalIgnoreCaseHelper(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMCompareOrdinalIgnoreCaseHelper_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean EqualsHelper(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMEqualsHelper_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinalHelper(System.String @strA, System.Int32 @indexA, System.Int32 @countA, System.String @strB, System.Int32 @indexB, System.Int32 @countB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @countA, @strB, @indexB, @countB};
-            var ___result = RMCompareOrdinalHelper_String_Int32_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean EqualsIgnoreCaseAsciiHelper(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMEqualsIgnoreCaseAsciiHelper_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinalHelper(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMCompareOrdinalHelper_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMCompare_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.String @strB, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB, @ignoreCase};
-            var ___result = RMCompare_String_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.String @strB, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB, @comparisonType};
-            var ___result = RMCompare_String_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.String @strB, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB, @culture, @options};
-            var ___result = RMCompare_String_String_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.String @strB, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB, @ignoreCase, @culture};
-            var ___result = RMCompare_String_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length};
-            var ___result = RMCompare_String_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @ignoreCase};
-            var ___result = RMCompare_String_Int32_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @ignoreCase, @culture};
-            var ___result = RMCompare_String_Int32_String_Int32_Int32_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @culture, @options};
-            var ___result = RMCompare_String_Int32_String_Int32_Int32_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @comparisonType};
-            var ___result = RMCompare_String_Int32_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinal(System.String @strA, System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @strB};
-            var ___result = RMCompareOrdinal_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strA, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA.Value, @strB.Value};
-            var ___result = RMCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 CompareOrdinal(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length};
-            var ___result = RMCompareOrdinal_String_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.String @strB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@strB};
-            var ___result = RMCompareTo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean EndsWith(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEndsWith_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean EndsWith(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMEndsWith_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean EndsWith(System.String @value, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @ignoreCase, @culture};
-            var ___result = RMEndsWith_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean EndsWith(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEndsWith_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEquals_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMEquals_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Equals(System.String @a, System.String @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMEquals_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean Equals(System.String @a, System.String @b, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @comparisonType};
-            var ___result = RMEquals_String_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.String @a, System.String @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Equality_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.String @a, System.String @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Inequality_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode(System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comparisonType};
-            var ___result = RMGetHashCode_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetLegacyNonRandomizedHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLegacyNonRandomizedHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean StartsWith(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMStartsWith_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean StartsWith(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMStartsWith_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean StartsWith(System.String @value, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @ignoreCase, @culture};
-            var ___result = RMStartsWith_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean StartsWith(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMStartsWith_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckStringComparison(System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@comparisonType};
-            var ___result = RMCheckStringComparison_StringComparison.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void FillStringChecked(System.String @dest, System.Int32 @destPos, System.String @src)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dest, @destPos, @src};
-            var ___result = RMFillStringChecked_String_Int32_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.String Concat(System.Object @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg0};
-            var ___result = RMConcat_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.Object @arg0, System.Object @arg1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg0, @arg1};
-            var ___result = RMConcat_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.Object @arg0, System.Object @arg1, System.Object @arg2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg0, @arg1, @arg2};
-            var ___result = RMConcat_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args};
-            var ___result = RMConcat_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat<T>(System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@values};
-            var ___result = RMConcat_GT_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.Collections.Generic.IEnumerable<System.String> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@values};
-            var ___result = RMConcat_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.String @str0, System.String @str1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str0, @str1};
-            var ___result = RMConcat_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.String @str0, System.String @str1, System.String @str2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str0, @str1, @str2};
-            var ___result = RMConcat_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.String @str0, System.String @str1, System.String @str2, System.String @str3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str0, @str1, @str2, @str3};
-            var ___result = RMConcat_String_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Concat(System.String[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@values};
-            var ___result = RMConcat_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.String @format, System.Object @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0};
-            var ___result = RMFormat_String_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.String @format, System.Object @arg0, System.Object @arg1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0, @arg1};
-            var ___result = RMFormat_String_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0, @arg1, @arg2};
-            var ___result = RMFormat_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.String @format, System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @args};
-            var ___result = RMFormat_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0};
-            var ___result = RMFormat_IFormatProvider_String_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0, @arg1};
-            var ___result = RMFormat_IFormatProvider_String_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0, @arg1, @arg2};
-            var ___result = RMFormat_IFormatProvider_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @args};
-            var ___result = RMFormat_IFormatProvider_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String FormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @args.Value};
-            var ___result = RMFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Insert(System.Int32 @startIndex, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @value};
-            var ___result = RMInsert_Int32_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.Char @separator, System.String[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @value};
-            var ___result = RMJoin_Char_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.Char @separator, System.Object[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMJoin_Char_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join<T>(System.Char @separator, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMJoin_GT_Char_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.Char @separator, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @value, @startIndex, @count};
-            var ___result = RMJoin_Char_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.String @separator, System.String[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @value};
-            var ___result = RMJoin_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.String @separator, System.Object[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMJoin_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join<T>(System.String @separator, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMJoin_GT_String_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.String @separator, System.Collections.Generic.IEnumerable<System.String> @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMJoin_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Join(System.String @separator, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @value, @startIndex, @count};
-            var ___result = RMJoin_String_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String JoinCore(System.Char* @separator, System.Int32 @separatorLength, System.Object[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
-            var ___result = RMJoinCore_CharPointer_Int32_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String JoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
-            var ___result = RMJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String JoinCore(System.Char* @separator, System.Int32 @separatorLength, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @value, @startIndex, @count};
-            var ___result = RMJoinCore_CharPointer_Int32_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String PadLeft(System.Int32 @totalWidth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@totalWidth};
-            var ___result = RMPadLeft_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String PadLeft(System.Int32 @totalWidth, System.Char @paddingChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@totalWidth, @paddingChar};
-            var ___result = RMPadLeft_Int32_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String PadRight(System.Int32 @totalWidth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@totalWidth};
-            var ___result = RMPadRight_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String PadRight(System.Int32 @totalWidth, System.Char @paddingChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@totalWidth, @paddingChar};
-            var ___result = RMPadRight_Int32_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Remove(System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @count};
-            var ___result = RMRemove_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Remove(System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex};
-            var ___result = RMRemove_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Replace(System.String @oldValue, System.String @newValue, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue, @ignoreCase, @culture};
-            var ___result = RMReplace_String_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Replace(System.String @oldValue, System.String @newValue, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue, @comparisonType};
-            var ___result = RMReplace_String_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ReplaceCore(System.String @oldValue, System.String @newValue, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue, @culture, @options};
-            var ___result = RMReplaceCore_String_String_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Replace(System.Char @oldChar, System.Char @newChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldChar, @newChar};
-            var ___result = RMReplace_Char_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Replace(System.String @oldValue, System.String @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue};
-            var ___result = RMReplace_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ReplaceHelper(System.Int32 @oldValueLength, System.String @newValue, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @indices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValueLength, @newValue, @indices.Value};
-            var ___result = RMReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char @separator, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @options};
-            var ___result = RMSplit_Char_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char @separator, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count, @options};
-            var ___result = RMSplit_Char_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char[] @separator)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator};
-            var ___result = RMSplit_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char[] @separator, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count};
-            var ___result = RMSplit_CharArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char[] @separator, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @options};
-            var ___result = RMSplit_CharArray_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.Char[] @separator, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count, @options};
-            var ___result = RMSplit_CharArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] SplitInternal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separators.Value, @count, @options};
-            var ___result = RMSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.String @separator, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @options};
-            var ___result = RMSplit_String_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.String @separator, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count, @options};
-            var ___result = RMSplit_String_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.String[] @separator, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @options};
-            var ___result = RMSplit_StringArray_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] Split(System.String[] @separator, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count, @options};
-            var ___result = RMSplit_StringArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] SplitInternal(System.String @separator, System.String[] @separators, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @separators, @count, @options};
-            var ___result = RMSplitInternal_String_StringArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] SplitInternal(System.String @separator, System.Int32 @count, System.StringSplitOptions @options)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @count, @options};
-            var ___result = RMSplitInternal_String_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] SplitKeepEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sepList.Value, @lengthList.Value, @defaultLength, @count};
-            var ___result = RMSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] SplitOmitEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sepList.Value, @lengthList.Value, @defaultLength, @count};
-            var ___result = RMSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual void MakeSeparatorList(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separators.Value, @sepListBuilder.Value};
-            var ___result = RMMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		public static System.Int32 CompareOrdinalIgnoreCaseHelper(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMCompareOrdinalIgnoreCaseHelper_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean EqualsHelper(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMEqualsHelper_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinalHelper(System.String @strA, System.Int32 @indexA, System.Int32 @countA, System.String @strB, System.Int32 @indexB, System.Int32 @countB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @countA, @strB, @indexB, @countB};
+			var ___result = RMCompareOrdinalHelper_String_Int32_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean EqualsIgnoreCaseAsciiHelper(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMEqualsIgnoreCaseAsciiHelper_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinalHelper(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMCompareOrdinalHelper_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMCompare_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.String @strB, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB, @ignoreCase};
+			var ___result = RMCompare_String_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.String @strB, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB, @comparisonType};
+			var ___result = RMCompare_String_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.String @strB, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB, @culture, @options};
+			var ___result = RMCompare_String_String_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.String @strB, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB, @ignoreCase, @culture};
+			var ___result = RMCompare_String_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length};
+			var ___result = RMCompare_String_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @ignoreCase};
+			var ___result = RMCompare_String_Int32_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @ignoreCase, @culture};
+			var ___result = RMCompare_String_Int32_String_Int32_Int32_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @culture, @options};
+			var ___result = RMCompare_String_Int32_String_Int32_Int32_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 Compare(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length, @comparisonType};
+			var ___result = RMCompare_String_Int32_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinal(System.String @strA, System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @strB};
+			var ___result = RMCompareOrdinal_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strA, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA.Value, @strB.Value};
+			var ___result = RMCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 CompareOrdinal(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @length};
+			var ___result = RMCompareOrdinal_String_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.String @strB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@strB};
+			var ___result = RMCompareTo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean EndsWith(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEndsWith_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean EndsWith(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMEndsWith_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean EndsWith(System.String @value, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @ignoreCase, @culture};
+			var ___result = RMEndsWith_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean EndsWith(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEndsWith_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMEquals_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMEquals_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Equals(System.String @a, System.String @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMEquals_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean Equals(System.String @a, System.String @b, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b, @comparisonType};
+			var ___result = RMEquals_String_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.String @a, System.String @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Equality_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.String @a, System.String @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMop_Inequality_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode(System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comparisonType};
+			var ___result = RMGetHashCode_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetLegacyNonRandomizedHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLegacyNonRandomizedHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean StartsWith(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMStartsWith_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean StartsWith(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMStartsWith_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean StartsWith(System.String @value, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @ignoreCase, @culture};
+			var ___result = RMStartsWith_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean StartsWith(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMStartsWith_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CheckStringComparison(System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@comparisonType};
+			var ___result = RMCheckStringComparison_StringComparison.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void FillStringChecked(System.String @dest, System.Int32 @destPos, System.String @src)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@dest, @destPos, @src};
+			var ___result = RMFillStringChecked_String_Int32_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.String Concat(System.Object @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg0};
+			var ___result = RMConcat_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.Object @arg0, System.Object @arg1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg0, @arg1};
+			var ___result = RMConcat_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.Object @arg0, System.Object @arg1, System.Object @arg2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg0, @arg1, @arg2};
+			var ___result = RMConcat_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@args};
+			var ___result = RMConcat_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat<T>(System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@values};
+			var ___result = RMConcat_GT_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.Collections.Generic.IEnumerable<System.String> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@values};
+			var ___result = RMConcat_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.String @str0, System.String @str1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str0, @str1};
+			var ___result = RMConcat_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.String @str0, System.String @str1, System.String @str2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str0, @str1, @str2};
+			var ___result = RMConcat_String_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.String @str0, System.String @str1, System.String @str2, System.String @str3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str0, @str1, @str2, @str3};
+			var ___result = RMConcat_String_String_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Concat(System.String[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@values};
+			var ___result = RMConcat_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.String @format, System.Object @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0};
+			var ___result = RMFormat_String_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.String @format, System.Object @arg0, System.Object @arg1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0, @arg1};
+			var ___result = RMFormat_String_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0, @arg1, @arg2};
+			var ___result = RMFormat_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.String @format, System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @args};
+			var ___result = RMFormat_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0};
+			var ___result = RMFormat_IFormatProvider_String_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0, @arg1};
+			var ___result = RMFormat_IFormatProvider_String_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0, @arg1, @arg2};
+			var ___result = RMFormat_IFormatProvider_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Format(System.IFormatProvider @provider, System.String @format, System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @args};
+			var ___result = RMFormat_IFormatProvider_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String FormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @args.Value};
+			var ___result = RMFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Insert(System.Int32 @startIndex, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @value};
+			var ___result = RMInsert_Int32_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.Char @separator, System.String[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @value};
+			var ___result = RMJoin_Char_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.Char @separator, System.Object[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMJoin_Char_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join<T>(System.Char @separator, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMJoin_GT_Char_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.Char @separator, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @value, @startIndex, @count};
+			var ___result = RMJoin_Char_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.String @separator, System.String[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @value};
+			var ___result = RMJoin_String_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.String @separator, System.Object[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMJoin_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join<T>(System.String @separator, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMJoin_GT_String_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.String @separator, System.Collections.Generic.IEnumerable<System.String> @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMJoin_String_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Join(System.String @separator, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @value, @startIndex, @count};
+			var ___result = RMJoin_String_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String JoinCore(System.Char* @separator, System.Int32 @separatorLength, System.Object[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+			var ___result = RMJoinCore_CharPointer_Int32_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String JoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+			var ___result = RMJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String JoinCore(System.Char* @separator, System.Int32 @separatorLength, System.String[] @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @value, @startIndex, @count};
+			var ___result = RMJoinCore_CharPointer_Int32_StringArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String PadLeft(System.Int32 @totalWidth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@totalWidth};
+			var ___result = RMPadLeft_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String PadLeft(System.Int32 @totalWidth, System.Char @paddingChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@totalWidth, @paddingChar};
+			var ___result = RMPadLeft_Int32_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String PadRight(System.Int32 @totalWidth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@totalWidth};
+			var ___result = RMPadRight_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String PadRight(System.Int32 @totalWidth, System.Char @paddingChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@totalWidth, @paddingChar};
+			var ___result = RMPadRight_Int32_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Remove(System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @count};
+			var ___result = RMRemove_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Remove(System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex};
+			var ___result = RMRemove_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Replace(System.String @oldValue, System.String @newValue, System.Boolean @ignoreCase, System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue, @ignoreCase, @culture};
+			var ___result = RMReplace_String_String_Boolean_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Replace(System.String @oldValue, System.String @newValue, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue, @comparisonType};
+			var ___result = RMReplace_String_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ReplaceCore(System.String @oldValue, System.String @newValue, System.Globalization.CultureInfo @culture, System.Globalization.CompareOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue, @culture, @options};
+			var ___result = RMReplaceCore_String_String_CultureInfo_CompareOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Replace(System.Char @oldChar, System.Char @newChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldChar, @newChar};
+			var ___result = RMReplace_Char_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Replace(System.String @oldValue, System.String @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue};
+			var ___result = RMReplace_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ReplaceHelper(System.Int32 @oldValueLength, System.String @newValue, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @indices)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValueLength, @newValue, @indices.Value};
+			var ___result = RMReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char @separator, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @options};
+			var ___result = RMSplit_Char_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char @separator, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count, @options};
+			var ___result = RMSplit_Char_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char[] @separator)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator};
+			var ___result = RMSplit_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char[] @separator, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count};
+			var ___result = RMSplit_CharArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char[] @separator, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @options};
+			var ___result = RMSplit_CharArray_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.Char[] @separator, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count, @options};
+			var ___result = RMSplit_CharArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] SplitInternal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separators.Value, @count, @options};
+			var ___result = RMSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.String @separator, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @options};
+			var ___result = RMSplit_String_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.String @separator, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count, @options};
+			var ___result = RMSplit_String_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.String[] @separator, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @options};
+			var ___result = RMSplit_StringArray_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] Split(System.String[] @separator, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count, @options};
+			var ___result = RMSplit_StringArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] SplitInternal(System.String @separator, System.String[] @separators, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @separators, @count, @options};
+			var ___result = RMSplitInternal_String_StringArray_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] SplitInternal(System.String @separator, System.Int32 @count, System.StringSplitOptions @options)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @count, @options};
+			var ___result = RMSplitInternal_String_Int32_StringSplitOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] SplitKeepEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sepList.Value, @lengthList.Value, @defaultLength, @count};
+			var ___result = RMSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] SplitOmitEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sepList.Value, @lengthList.Value, @defaultLength, @count};
+			var ___result = RMSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual void MakeSeparatorList(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separators.Value, @sepListBuilder.Value};
+			var ___result = RMMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
 			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void MakeSeparatorList(System.String @separator, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @sepListBuilder.Value};
-            var ___result = RMMakeSeparatorList_String_Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		public virtual void MakeSeparatorList(System.String @separator, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @sepListBuilder.Value};
+			var ___result = RMMakeSeparatorList_String_Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
 			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void MakeSeparatorList(System.String[] @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthListBuilder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separators, @sepListBuilder.Value, @lengthListBuilder.Value};
-            var ___result = RMMakeSeparatorList_StringArray_Ref_ValueListBuilder_d_Int32_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
+		public virtual void MakeSeparatorList(System.String[] @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthListBuilder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separators, @sepListBuilder.Value, @lengthListBuilder.Value};
+			var ___result = RMMakeSeparatorList_StringArray_Ref_ValueListBuilder_d_Int32_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
 			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
 			@lengthListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[2]);
+		}
+
+
+		public virtual System.String Substring(System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex};
+			var ___result = RMSubstring_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Substring(System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @length};
+			var ___result = RMSubstring_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String InternalSubString(System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @length};
+			var ___result = RMInternalSubString_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToLower()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToLower.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToLower(System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture};
+			var ___result = RMToLower_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToLowerInvariant()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToLowerInvariant.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToUpper()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToUpper.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToUpper(System.Globalization.CultureInfo @culture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@culture};
+			var ___result = RMToUpper_CultureInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToUpperInvariant()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToUpperInvariant.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Trim()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrim.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Trim(System.Char @trimChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChar};
+			var ___result = RMTrim_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
 
-            
-        }
-
-
-        public virtual System.String Substring(System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex};
-            var ___result = RMSubstring_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Substring(System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @length};
-            var ___result = RMSubstring_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String InternalSubString(System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @length};
-            var ___result = RMInternalSubString_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToLower()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToLower.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToLower(System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture};
-            var ___result = RMToLower_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToLowerInvariant()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToLowerInvariant.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToUpper()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToUpper.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToUpper(System.Globalization.CultureInfo @culture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@culture};
-            var ___result = RMToUpper_CultureInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToUpperInvariant()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToUpperInvariant.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Trim()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrim.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Trim(System.Char @trimChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChar};
-            var ___result = RMTrim_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Trim(System.Char[] @trimChars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChars};
-            var ___result = RMTrim_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrimStart.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimStart(System.Char @trimChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChar};
-            var ___result = RMTrimStart_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimStart(System.Char[] @trimChars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChars};
-            var ___result = RMTrimStart_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrimEnd.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimEnd(System.Char @trimChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChar};
-            var ___result = RMTrimEnd_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimEnd(System.Char[] @trimChars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimChars};
-            var ___result = RMTrimEnd_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String TrimWhiteSpaceHelper(Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@trimType.Value};
-            var ___result = RMTrimWhiteSpaceHelper_TrimType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe virtual System.String TrimHelper(System.Char* @trimChars, System.Int32 @trimCharsLength, Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@trimChars, typeof(System.Char)), @trimCharsLength, @trimType.Value};
-            var ___result = RMTrimHelper_CharPointer_Int32_TrimType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String CreateTrimmedString(System.Int32 @start, System.Int32 @end)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @end};
-            var ___result = RMCreateTrimmedString_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMContains_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMContains_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMContains_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Contains(System.Char @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMContains_Char_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIndexOf_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.Char @value, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex};
-            var ___result = RMIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.Char @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMIndexOf_Char_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.Char @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMIndexOf_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfAny(System.Char[] @anyOf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf};
-            var ___result = RMIndexOfAny_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex};
-            var ___result = RMIndexOfAny_CharArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex, @count};
-            var ___result = RMIndexOfAny_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfAny(System.Char @value1, System.Char @value2, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value1, @value2, @startIndex, @count};
-            var ___result = RMIndexOfAny_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfAny(System.Char @value1, System.Char @value2, System.Char @value3, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value1, @value2, @value3, @startIndex, @count};
-            var ___result = RMIndexOfAny_Char_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfCharArray(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex, @count};
-            var ___result = RMIndexOfCharArray_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe static void InitializeProbabilisticMap(System.UInt32* @charMap, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @anyOf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @anyOf.Value};
-            var ___result = RMInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean ArrayContains(System.Char @searchChar, System.Char[] @anyOf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@searchChar, @anyOf};
-            var ___result = RMArrayContains_Char_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public unsafe static System.Boolean IsCharBitSet(System.UInt32* @charMap, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @value};
-            var ___result = RMIsCharBitSet_UInt32Pointer_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public unsafe static void SetCharBit(System.UInt32* @charMap, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @value};
-            var ___result = RMSetCharBit_UInt32Pointer_Byte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIndexOf_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex};
-            var ___result = RMIndexOf_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMIndexOf_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMIndexOf_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @comparisonType};
-            var ___result = RMIndexOf_String_Int32_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count, @comparisonType};
-            var ___result = RMIndexOf_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMLastIndexOf_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.Char @value, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex};
-            var ___result = RMLastIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.Char @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMLastIndexOf_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf};
-            var ___result = RMLastIndexOfAny_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex};
-            var ___result = RMLastIndexOfAny_CharArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex, @count};
-            var ___result = RMLastIndexOfAny_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfCharArray(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@anyOf, @startIndex, @count};
-            var ___result = RMLastIndexOfCharArray_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMLastIndexOf_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex};
-            var ___result = RMLastIndexOf_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMLastIndexOf_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @comparisonType};
-            var ___result = RMLastIndexOf_String_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @comparisonType};
-            var ___result = RMLastIndexOf_String_Int32_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count, System.StringComparison @comparisonType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count, @comparisonType};
-            var ___result = RMLastIndexOf_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.String Ctor(System.Char[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMCtor_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Ctor(System.Char[] @value, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @length};
-            var ___result = RMCtor_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String Ctor(System.Char* @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char))};
-            var ___result = RMCtor_CharPointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String Ctor(System.Char* @ptr, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char)), @startIndex, @length};
-            var ___result = RMCtor_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String Ctor(System.SByte* @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte))};
-            var ___result = RMCtor_SBytePointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String Ctor(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length};
-            var ___result = RMCtor_SBytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String CreateStringForSByteConstructor(System.Byte* @pb, System.Int32 @numBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@pb, typeof(System.Byte)), @numBytes};
-            var ___result = RMCreateStringForSByteConstructor_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.String Ctor(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length, System.Text.Encoding @enc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length, @enc};
-            var ___result = RMCtor_SBytePointer_Int32_Int32_Encoding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Ctor(System.Char @c, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c, @count};
-            var ___result = RMCtor_Char_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Ctor(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMCtor_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Create<TState>(System.Int32 @length, TState @state, System.Buffers.SpanAction<System.Char, TState> @action)
-        {
-
-            var ___genericsType = new Type[] {typeof(TState)};
-            var ___parameters = new object[]{@length, @state, @action};
-            var ___result = RMCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> op_Implicit(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
-        }
-
-
-        public virtual System.Object Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.String Copy(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMCopy_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void CopyTo(System.Int32 @sourceIndex, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceIndex, @destination, @destinationIndex, @count};
-            var ___result = RMCopyTo_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Char[] ToCharArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToCharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public virtual System.Char[] ToCharArray(System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @length};
-            var ___result = RMToCharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char[]>(___result);
-        }
-
-
-        public static System.Boolean IsNullOrEmpty(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIsNullOrEmpty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean IsNullOrWhiteSpace(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMIsNullOrWhiteSpace_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char GetRawStringData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetRawStringData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public unsafe static System.String CreateStringFromEncoding(System.Byte* @bytes, System.Int32 @byteLength, System.Text.Encoding @encoding)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteLength, @encoding};
-            var ___result = RMCreateStringFromEncoding_BytePointer_Int32_Encoding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String CreateFromChar(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMCreateFromChar_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static void wstrcpy(System.Char* @dmem, System.Char* @smem, System.Int32 @charCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dmem, typeof(System.Char)), Pointer.Box(@smem, typeof(System.Char)), @charCount};
-            var ___result = RMwstrcpy_CharPointer_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.CharEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.CharEnumerator>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.IEnumerator<System.Char> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Char__1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Char__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<System.Char>>(___result);
-        }
-
-
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public unsafe static System.Int32 wcslen(System.Char* @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char))};
-            var ___result = RMwcslen_CharPointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @provider};
-            var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean IsNormalized()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsNormalized.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsNormalized(System.Text.NormalizationForm @normalizationForm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@normalizationForm};
-            var ___result = RMIsNormalized_NormalizationForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String Normalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String Normalize(System.Text.NormalizationForm @normalizationForm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@normalizationForm};
-            var ___result = RMNormalize_NormalizationForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfUnchecked(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMIndexOfUnchecked_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.String Concat(System.Object @arg0, System.Object @arg1, System.Object @arg2, System.Object @arg3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arg0, @arg1, @arg2, @arg3};
-            var ___result = RMConcat_Object_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 IndexOfUncheckedIgnoreCase(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMIndexOfUncheckedIgnoreCase_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfUnchecked(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMLastIndexOfUnchecked_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 LastIndexOfUncheckedIgnoreCase(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMLastIndexOfUncheckedIgnoreCase_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean StartsWithOrdinalUnchecked(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMStartsWithOrdinalUnchecked_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String FastAllocateString(System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@length};
-            var ___result = RMFastAllocateString_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String InternalIsInterned(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMInternalIsInterned_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String InternalIntern(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMInternalIntern_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe static System.Int32 FastCompareStringHelper(System.UInt32* @strAChars, System.Int32 @countA, System.UInt32* @strBChars, System.Int32 @countB)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@strAChars, typeof(System.UInt32)), @countA, Pointer.Box(@strBChars, typeof(System.UInt32)), @countB};
-            var ___result = RMFastCompareStringHelper_UInt32Pointer_Int32_UInt32Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe static void memset(System.Byte* @dest, System.Int32 @val, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @val, @len};
-            var ___result = RMmemset_BytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void memcpy(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
-            var ___result = RMmemcpy_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void bzero(System.Byte* @dest, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
-            var ___result = RMbzero_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void bzero_aligned_1(System.Byte* @dest, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
-            var ___result = RMbzero_aligned_1_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void bzero_aligned_2(System.Byte* @dest, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
-            var ___result = RMbzero_aligned_2_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void bzero_aligned_4(System.Byte* @dest, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
-            var ___result = RMbzero_aligned_4_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void bzero_aligned_8(System.Byte* @dest, System.Int32 @len)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
-            var ___result = RMbzero_aligned_8_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void memcpy_aligned_1(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
-            var ___result = RMmemcpy_aligned_1_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void memcpy_aligned_2(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
-            var ___result = RMmemcpy_aligned_2_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void memcpy_aligned_4(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
-            var ___result = RMmemcpy_aligned_4_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe static void memcpy_aligned_8(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
-            var ___result = RMmemcpy_aligned_8_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public unsafe virtual System.String CreateString(System.SByte* @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte))};
-            var ___result = RMCreateString_SBytePointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe virtual System.String CreateString(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length};
-            var ___result = RMCreateString_SBytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe virtual System.String CreateString(System.Char* @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char))};
-            var ___result = RMCreateString_CharPointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe virtual System.String CreateString(System.Char* @value, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @startIndex, @length};
-            var ___result = RMCreateString_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String CreateString(System.Char[] @val, System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@val, @startIndex, @length};
-            var ___result = RMCreateString_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String CreateString(System.Char[] @val)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@val};
-            var ___result = RMCreateString_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String CreateString(System.Char @c, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c, @count};
-            var ___result = RMCreateString_Char_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public unsafe virtual System.String CreateString(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length, System.Text.Encoding @enc)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length, @enc};
-            var ___result = RMCreateString_SBytePointer_Int32_Int32_Encoding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String CreateString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMCreateString_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String Intern(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMIntern_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String IsInterned(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMIsInterned_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 LegacyStringGetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLegacyStringGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.String Trim(System.Char[] @trimChars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChars};
+			var ___result = RMTrim_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrimStart.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimStart(System.Char @trimChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChar};
+			var ___result = RMTrimStart_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimStart(System.Char[] @trimChars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChars};
+			var ___result = RMTrimStart_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrimEnd.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimEnd(System.Char @trimChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChar};
+			var ___result = RMTrimEnd_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimEnd(System.Char[] @trimChars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimChars};
+			var ___result = RMTrimEnd_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String TrimWhiteSpaceHelper(Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@trimType.Value};
+			var ___result = RMTrimWhiteSpaceHelper_TrimType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe virtual System.String TrimHelper(System.Char* @trimChars, System.Int32 @trimCharsLength, Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@trimChars, typeof(System.Char)), @trimCharsLength, @trimType.Value};
+			var ___result = RMTrimHelper_CharPointer_Int32_TrimType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String CreateTrimmedString(System.Int32 @start, System.Int32 @end)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @end};
+			var ___result = RMCreateTrimmedString_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMContains_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMContains_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMContains_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Contains(System.Char @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMContains_Char_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIndexOf_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.Char @value, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex};
+			var ___result = RMIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.Char @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMIndexOf_Char_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.Char @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMIndexOf_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfAny(System.Char[] @anyOf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf};
+			var ___result = RMIndexOfAny_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex};
+			var ___result = RMIndexOfAny_CharArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex, @count};
+			var ___result = RMIndexOfAny_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfAny(System.Char @value1, System.Char @value2, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value1, @value2, @startIndex, @count};
+			var ___result = RMIndexOfAny_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfAny(System.Char @value1, System.Char @value2, System.Char @value3, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value1, @value2, @value3, @startIndex, @count};
+			var ___result = RMIndexOfAny_Char_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfCharArray(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex, @count};
+			var ___result = RMIndexOfCharArray_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe static void InitializeProbabilisticMap(System.UInt32* @charMap, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @anyOf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @anyOf.Value};
+			var ___result = RMInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean ArrayContains(System.Char @searchChar, System.Char[] @anyOf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@searchChar, @anyOf};
+			var ___result = RMArrayContains_Char_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public unsafe static System.Boolean IsCharBitSet(System.UInt32* @charMap, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @value};
+			var ___result = RMIsCharBitSet_UInt32Pointer_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public unsafe static void SetCharBit(System.UInt32* @charMap, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@charMap, typeof(System.UInt32)), @value};
+			var ___result = RMSetCharBit_UInt32Pointer_Byte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIndexOf_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex};
+			var ___result = RMIndexOf_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMIndexOf_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMIndexOf_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @comparisonType};
+			var ___result = RMIndexOf_String_Int32_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count, @comparisonType};
+			var ___result = RMIndexOf_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMLastIndexOf_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.Char @value, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex};
+			var ___result = RMLastIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.Char @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMLastIndexOf_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf};
+			var ___result = RMLastIndexOfAny_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex};
+			var ___result = RMLastIndexOfAny_CharArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfAny(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex, @count};
+			var ___result = RMLastIndexOfAny_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfCharArray(System.Char[] @anyOf, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@anyOf, @startIndex, @count};
+			var ___result = RMLastIndexOfCharArray_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMLastIndexOf_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex};
+			var ___result = RMLastIndexOf_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMLastIndexOf_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @comparisonType};
+			var ___result = RMLastIndexOf_String_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @comparisonType};
+			var ___result = RMLastIndexOf_String_Int32_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOf(System.String @value, System.Int32 @startIndex, System.Int32 @count, System.StringComparison @comparisonType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count, @comparisonType};
+			var ___result = RMLastIndexOf_String_Int32_Int32_StringComparison.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.String Ctor(System.Char[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMCtor_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Ctor(System.Char[] @value, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @length};
+			var ___result = RMCtor_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String Ctor(System.Char* @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char))};
+			var ___result = RMCtor_CharPointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String Ctor(System.Char* @ptr, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char)), @startIndex, @length};
+			var ___result = RMCtor_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String Ctor(System.SByte* @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte))};
+			var ___result = RMCtor_SBytePointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String Ctor(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length};
+			var ___result = RMCtor_SBytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String CreateStringForSByteConstructor(System.Byte* @pb, System.Int32 @numBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@pb, typeof(System.Byte)), @numBytes};
+			var ___result = RMCreateStringForSByteConstructor_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.String Ctor(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length, System.Text.Encoding @enc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length, @enc};
+			var ___result = RMCtor_SBytePointer_Int32_Int32_Encoding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Ctor(System.Char @c, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c, @count};
+			var ___result = RMCtor_Char_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Ctor(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMCtor_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Create<TState>(System.Int32 @length, TState @state, System.Buffers.SpanAction<System.Char, TState> @action)
+		{
+			var ___genericsType = new Type[] {typeof(TState)};
+			var ___parameters = new object[]{@length, @state, @action};
+			var ___result = RMCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> op_Implicit(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
+		}
+
+
+		public virtual System.Object Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.String Copy(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMCopy_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void CopyTo(System.Int32 @sourceIndex, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceIndex, @destination, @destinationIndex, @count};
+			var ___result = RMCopyTo_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Char[] ToCharArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToCharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public virtual System.Char[] ToCharArray(System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @length};
+			var ___result = RMToCharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char[]>(___result);
+		}
+
+
+		public static System.Boolean IsNullOrEmpty(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIsNullOrEmpty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsNullOrWhiteSpace(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMIsNullOrWhiteSpace_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char GetRawStringData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetRawStringData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public unsafe static System.String CreateStringFromEncoding(System.Byte* @bytes, System.Int32 @byteLength, System.Text.Encoding @encoding)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteLength, @encoding};
+			var ___result = RMCreateStringFromEncoding_BytePointer_Int32_Encoding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String CreateFromChar(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMCreateFromChar_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static void wstrcpy(System.Char* @dmem, System.Char* @smem, System.Int32 @charCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dmem, typeof(System.Char)), Pointer.Box(@smem, typeof(System.Char)), @charCount};
+			var ___result = RMwstrcpy_CharPointer_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.CharEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.CharEnumerator>(___result);
+		}
+
+
+		public virtual System.Collections.Generic.IEnumerator<System.Char> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Char__1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Char__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<System.Char>>(___result);
+		}
+
+
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
+
+
+		public unsafe static System.Int32 wcslen(System.Char* @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@ptr, typeof(System.Char))};
+			var ___result = RMwcslen_CharPointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @provider};
+			var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean IsNormalized()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsNormalized.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsNormalized(System.Text.NormalizationForm @normalizationForm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@normalizationForm};
+			var ___result = RMIsNormalized_NormalizationForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String Normalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMNormalize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String Normalize(System.Text.NormalizationForm @normalizationForm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@normalizationForm};
+			var ___result = RMNormalize_NormalizationForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfUnchecked(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMIndexOfUnchecked_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.String Concat(System.Object @arg0, System.Object @arg1, System.Object @arg2, System.Object @arg3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arg0, @arg1, @arg2, @arg3};
+			var ___result = RMConcat_Object_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 IndexOfUncheckedIgnoreCase(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMIndexOfUncheckedIgnoreCase_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfUnchecked(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMLastIndexOfUnchecked_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 LastIndexOfUncheckedIgnoreCase(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMLastIndexOfUncheckedIgnoreCase_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean StartsWithOrdinalUnchecked(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMStartsWithOrdinalUnchecked_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String FastAllocateString(System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@length};
+			var ___result = RMFastAllocateString_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String InternalIsInterned(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMInternalIsInterned_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String InternalIntern(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMInternalIntern_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe static System.Int32 FastCompareStringHelper(System.UInt32* @strAChars, System.Int32 @countA, System.UInt32* @strBChars, System.Int32 @countB)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@strAChars, typeof(System.UInt32)), @countA, Pointer.Box(@strBChars, typeof(System.UInt32)), @countB};
+			var ___result = RMFastCompareStringHelper_UInt32Pointer_Int32_UInt32Pointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe static void memset(System.Byte* @dest, System.Int32 @val, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @val, @len};
+			var ___result = RMmemset_BytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void memcpy(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
+			var ___result = RMmemcpy_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void bzero(System.Byte* @dest, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
+			var ___result = RMbzero_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void bzero_aligned_1(System.Byte* @dest, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
+			var ___result = RMbzero_aligned_1_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void bzero_aligned_2(System.Byte* @dest, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
+			var ___result = RMbzero_aligned_2_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void bzero_aligned_4(System.Byte* @dest, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
+			var ___result = RMbzero_aligned_4_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void bzero_aligned_8(System.Byte* @dest, System.Int32 @len)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), @len};
+			var ___result = RMbzero_aligned_8_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void memcpy_aligned_1(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
+			var ___result = RMmemcpy_aligned_1_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void memcpy_aligned_2(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
+			var ___result = RMmemcpy_aligned_2_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void memcpy_aligned_4(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
+			var ___result = RMmemcpy_aligned_4_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe static void memcpy_aligned_8(System.Byte* @dest, System.Byte* @src, System.Int32 @size)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@dest, typeof(System.Byte)), Pointer.Box(@src, typeof(System.Byte)), @size};
+			var ___result = RMmemcpy_aligned_8_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public unsafe virtual System.String CreateString(System.SByte* @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte))};
+			var ___result = RMCreateString_SBytePointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe virtual System.String CreateString(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length};
+			var ___result = RMCreateString_SBytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe virtual System.String CreateString(System.Char* @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char))};
+			var ___result = RMCreateString_CharPointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe virtual System.String CreateString(System.Char* @value, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @startIndex, @length};
+			var ___result = RMCreateString_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String CreateString(System.Char[] @val, System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@val, @startIndex, @length};
+			var ___result = RMCreateString_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String CreateString(System.Char[] @val)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@val};
+			var ___result = RMCreateString_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String CreateString(System.Char @c, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c, @count};
+			var ___result = RMCreateString_Char_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public unsafe virtual System.String CreateString(System.SByte* @value, System.Int32 @startIndex, System.Int32 @length, System.Text.Encoding @enc)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.SByte)), @startIndex, @length, @enc};
+			var ___result = RMCreateString_SBytePointer_Int32_Int32_Encoding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String CreateString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMCreateString_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String Intern(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMIntern_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String IsInterned(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMIsInterned_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 LegacyStringGetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMLegacyStringGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

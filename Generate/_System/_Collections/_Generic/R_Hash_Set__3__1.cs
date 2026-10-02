@@ -1158,580 +1158,455 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		}
 
 
-        public virtual void CopyFrom(System.Collections.Generic.HashSet<T> @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source};
-            var ___result = RMCopyFrom_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CopyFrom(System.Collections.Generic.HashSet<T> @source)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source};
+			var ___result = RMCopyFrom_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add_T.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Contains(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Contains(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex};
-            var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex};
+			var ___result = RMCopyTo_TArray_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Remove(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Remove(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
+		}
 
 
-        public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
-        }
+		public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
+		}
 
 
-        public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
+		public virtual System.Collections.IEnumerator System__2__Collections__2__IEnumerable__2__GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
+		}
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnDeserialization(System.Object @sender)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sender};
-            var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void OnDeserialization(System.Object @sender)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sender};
+			var ___result = RMOnDeserialization_Object.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Add(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Add(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetValue(T @equalValue, out T @actualValue)
-        {
+		public virtual System.Boolean TryGetValue(T @equalValue, out T @actualValue)
+		{
 			@actualValue = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@equalValue, @actualValue};
-            var ___result = RMTryGetValue_T_Out_T.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@equalValue, @actualValue};
+			var ___result = RMTryGetValue_T_Out_T.Invoke(___genericsType, ___parameters);
 			@actualValue = ReflectionUtils.Convert<T>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UnionWith(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMUnionWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IntersectWith(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIntersectWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExceptWith(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMExceptWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SymmetricExceptWith(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMSymmetricExceptWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsProperSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsProperSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsProperSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsProperSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Overlaps(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMOverlaps_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetEquals(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMSetEquals_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void CopyTo(T[] @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array};
-            var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array, @arrayIndex, @count};
-            var ___result = RMCopyTo_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 RemoveWhere(System.Predicate<T> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMRemoveWhere_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@capacity};
-            var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void TrimExcess()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMTrimExcess.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>> CreateSetComparer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateSetComparer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>>>(___result);
-        }
-
-
-        public virtual System.Int32 Initialize(System.Int32 @capacity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@capacity};
-            var ___result = RMInitialize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void IncreaseCapacity()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIncreaseCapacity.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCapacity(System.Int32 @newSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newSize};
-            var ___result = RMSetCapacity_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean AddIfNotPresent(T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAddIfNotPresent_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddValue(System.Int32 @index, System.Int32 @hashCode, T @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @hashCode, @value};
-            var ___result = RMAddValue_Int32_Int32_T.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ContainsAllElements(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMContainsAllElements_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsSubsetOfHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIntersectWithHashSetWithSameEC_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IntersectWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMIntersectWithEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 InternalIndexOf(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMInternalIndexOf_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void SymmetricExceptWithUniqueHashSet(System.Collections.Generic.HashSet<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SymmetricExceptWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMSymmetricExceptWithEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean AddOrGetLocation(T @value, out System.Int32 @location)
-        {
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void UnionWith(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMUnionWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IntersectWith(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIntersectWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExceptWith(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMExceptWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SymmetricExceptWith(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMSymmetricExceptWith_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsProperSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsProperSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsProperSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsProperSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Overlaps(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMOverlaps_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean SetEquals(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMSetEquals_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void CopyTo(T[] @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array};
+			var ___result = RMCopyTo_TArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array, @arrayIndex, @count};
+			var ___result = RMCopyTo_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 RemoveWhere(System.Predicate<T> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMRemoveWhere_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@capacity};
+			var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void TrimExcess()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMTrimExcess.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>> CreateSetComparer()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateSetComparer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>>>(___result);
+		}
+
+
+		public virtual System.Int32 Initialize(System.Int32 @capacity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@capacity};
+			var ___result = RMInitialize_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void IncreaseCapacity()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIncreaseCapacity.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetCapacity(System.Int32 @newSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newSize};
+			var ___result = RMSetCapacity_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean AddIfNotPresent(T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAddIfNotPresent_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void AddValue(System.Int32 @index, System.Int32 @hashCode, T @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @hashCode, @value};
+			var ___result = RMAddValue_Int32_Int32_T.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean ContainsAllElements(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMContainsAllElements_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsSubsetOfHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIntersectWithHashSetWithSameEC_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void IntersectWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMIntersectWithEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 InternalIndexOf(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMInternalIndexOf_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void SymmetricExceptWithUniqueHashSet(System.Collections.Generic.HashSet<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SymmetricExceptWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMSymmetricExceptWithEnumerable_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean AddOrGetLocation(T @value, out System.Int32 @location)
+		{
 			@location = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @location};
-            var ___result = RMAddOrGetLocation_T_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @location};
+			var ___result = RMAddOrGetLocation_T_Out_Int32.Invoke(___genericsType, ___parameters);
 			@location = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T> @other, System.Boolean @returnIfUnfound)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other, @returnIfUnfound};
-            var ___result = RMCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean HashSetEquals(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2, System.Collections.Generic.IEqualityComparer<T> @comparer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@set1, @set2, @comparer};
-            var ___result = RMHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T> @other, System.Boolean @returnIfUnfound)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other, @returnIfUnfound};
+			var ___result = RMCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount>(___result);
+		}
 
 
-        public static System.Boolean AreEqualityComparersEqual(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@set1, @set2};
-            var ___result = RMAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean HashSetEquals(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2, System.Collections.Generic.IEqualityComparer<T> @comparer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@set1, @set2, @comparer};
+			var ___result = RMHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 InternalGetHashCode(T @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMInternalGetHashCode_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Boolean AreEqualityComparersEqual(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@set1, @set2};
+			var ___result = RMAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 InternalGetHashCode(T @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMInternalGetHashCode_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -86,15 +86,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 
-        public virtual void Add(UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element};
-            var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Add(UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element};
+			var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

@@ -438,240 +438,193 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression Parse(System.String @syntax)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@syntax};
-            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression Parse(System.String @syntax)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@syntax};
+			var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseExpression(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseExpression_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseExpression(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseExpression_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual void ProcessCombinatorStack()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMProcessCombinatorStack.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ProcessCombinatorStack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMProcessCombinatorStack.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseTerm(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseTerm_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseTerm(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseTerm_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator ParseCombinatorType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseCombinatorType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator ParseCombinatorType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseCombinatorType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseGroup(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseGroup_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseGroup(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseGroup_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseDataType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseDataType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseDataType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseDataType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseNonTerminalValue(System.String @syntax)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@syntax};
-            var ___result = RMParseNonTerminalValue_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseNonTerminalValue(System.String @syntax)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@syntax};
+			var ___result = RMParseNonTerminalValue_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMParseProperty_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression ParseProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMParseProperty_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression>(___result);
+		}
 
 
-        public virtual void ParseMultiplier(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier @multiplier)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value, @multiplier.Value};
-            var ___result = RMParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.Invoke(___genericsType, ___parameters);
+		public virtual void ParseMultiplier(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier @multiplier)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value, @multiplier.Value};
+			var ___result = RMParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.Invoke(___genericsType, ___parameters);
 			@multiplier = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ParseRanges(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer, out System.Int32 @min, out System.Int32 @max)
-        {
+		public virtual void ParseRanges(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer, out System.Int32 @min, out System.Int32 @max)
+		{
 			@min = default;
 			@max = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value, @min, @max};
-            var ___result = RMParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value, @min, @max};
+			var ___result = RMParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@min = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@max = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void EatSpace(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tokenizer.Value};
-            var ___result = RMEatSpace_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void EatSpace(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer @tokenizer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tokenizer.Value};
+			var ___result = RMEatSpace_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean IsExpressionEnd(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token.Value};
-            var ___result = RMIsExpressionEnd_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsExpressionEnd(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token.Value};
+			var ___result = RMIsExpressionEnd_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IsCombinator(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token.Value};
-            var ___result = RMIsCombinator_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsCombinator(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token.Value};
+			var ___result = RMIsCombinator_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean IsMultiplier(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@token.Value};
-            var ___result = RMIsMultiplier_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean IsMultiplier(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken @token)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@token.Value};
+			var ___result = RMIsMultiplier_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

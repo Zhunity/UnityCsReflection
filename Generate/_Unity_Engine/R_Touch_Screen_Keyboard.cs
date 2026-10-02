@@ -726,264 +726,212 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static void Internal_Destroy(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void Internal_Destroy(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Destroy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDestroy.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Destroy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDestroy.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments @arguments, System.String @text, System.String @textPlaceholder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@arguments.Value, @text, @textPlaceholder};
-            var ___result = RMTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String.Invoke(___genericsType, ___parameters);
+		public static System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments @arguments, System.String @text, System.String @textPlaceholder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@arguments.Value, @text, @textPlaceholder};
+			var ___result = RMTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String.Invoke(___genericsType, ___parameters);
 			@arguments = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.Boolean IsRequiredToForceOpen()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsRequiredToForceOpen.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert, System.String @textPlaceholder, System.Int32 @characterLimit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder, @characterLimit};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static System.Boolean IsRequiredToForceOpen()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsRequiredToForceOpen.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert, System.String @textPlaceholder)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert, System.String @textPlaceholder, System.Int32 @characterLimit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder, @characterLimit};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert, System.String @textPlaceholder)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure, System.Boolean @alert)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline, System.Boolean @secure)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType, @autocorrection};
-            var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection, System.Boolean @multiline)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @keyboardType};
-            var ___result = RMOpen_String_TouchScreenKeyboardType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType, System.Boolean @autocorrection)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType, @autocorrection};
+			var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static UnityEngine.TouchScreenKeyboard Open(System.String @text)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text};
-            var ___result = RMOpen_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text, UnityEngine.TouchScreenKeyboardType @keyboardType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @keyboardType};
+			var ___result = RMOpen_String_TouchScreenKeyboardType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static System.Boolean GetDone(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMGetDone_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static UnityEngine.TouchScreenKeyboard Open(System.String @text)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text};
+			var ___result = RMOpen_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
+		}
 
 
-        public static System.Boolean GetWasCanceled(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMGetWasCanceled_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public static System.Boolean GetDone(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMGetDone_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static void GetSelection(out System.Int32 @start, out System.Int32 @length)
-        {
+		public static System.Boolean GetWasCanceled(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMGetWasCanceled_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void GetSelection(out System.Int32 @start, out System.Int32 @length)
+		{
 			@start = default;
 			@length = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMGetSelection_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMGetSelection_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@start = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 			@length = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void SetSelection(System.Int32 @start, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMSetSelection_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void SetSelection(System.Int32 @start, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMSetSelection_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void get_area_Injected(out UnityEngine.Rect @ret)
-        {
+		public static void get_area_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_area_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_area_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

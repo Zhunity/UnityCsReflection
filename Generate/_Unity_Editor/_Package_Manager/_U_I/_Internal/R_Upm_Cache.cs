@@ -950,356 +950,278 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs @packageManagerPrefs)
-        {
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs @packageManagerPrefs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageManagerPrefs.Value};
+			var ___result = RMResolveDependencies_PackageManagerPrefs.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> FindUpdatedPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @oldInfos, System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @newInfos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldInfos, @newInfos};
+			var ___result = RMFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
+		}
+
+
+		public static System.Boolean IsDifferent(UnityEditor.PackageManager.PackageInfo @p1, UnityEditor.PackageManager.PackageInfo @p2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@p1, @p2};
+			var ___result = RMIsDifferent_PackageInfo_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsLoadAllVersions(System.String @packageUniqueId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId};
+			var ___result = RMIsLoadAllVersions_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetLoadAllVersions(System.String @packageUniqueId, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageUniqueId, @value};
+			var ___result = RMSetLoadAllVersions_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnBeforeSerialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddExtraPackageInfo(UnityEditor.PackageManager.PackageInfo @packageInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfo};
+			var ___result = RMAddExtraPackageInfo_PackageInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> GetExtraPackageInfos(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMGetExtraPackageInfos_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo>>(___result);
+		}
+
+
+		public virtual void RemoveInstalledPackageInfo(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMRemoveInstalledPackageInfo_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean IsPackageInstalled(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMIsPackageInstalled_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo GetInstalledPackageInfo(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMGetInstalledPackageInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageManagerPrefs.Value};
-            var ___result = RMResolveDependencies_PackageManagerPrefs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> FindUpdatedPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @oldInfos, System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @newInfos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldInfos, @newInfos};
-            var ___result = RMFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
-        }
-
-
-        public static System.Boolean IsDifferent(UnityEditor.PackageManager.PackageInfo @p1, UnityEditor.PackageManager.PackageInfo @p2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p1, @p2};
-            var ___result = RMIsDifferent_PackageInfo_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLoadAllVersions(System.String @packageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId};
-            var ___result = RMIsLoadAllVersions_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetLoadAllVersions(System.String @packageUniqueId, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @value};
-            var ___result = RMSetLoadAllVersions_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddExtraPackageInfo(UnityEditor.PackageManager.PackageInfo @packageInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfo};
-            var ___result = RMAddExtraPackageInfo_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> GetExtraPackageInfos(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMGetExtraPackageInfos_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo>>(___result);
-        }
-
-
-        public virtual void RemoveInstalledPackageInfo(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMRemoveInstalledPackageInfo_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsPackageInstalled(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMIsPackageInstalled_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo GetInstalledPackageInfo(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMGetInstalledPackageInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo GetInstalledPackageInfoById(System.String @packageId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageId};
-            var ___result = RMGetInstalledPackageInfoById_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual void SetInstalledPackageInfo(UnityEditor.PackageManager.PackageInfo @info, System.Boolean @isSpecialInstallation)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @isSpecialInstallation};
-            var ___result = RMSetInstalledPackageInfo_PackageInfo_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetInstalledPackageInfos(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos, System.Int64 @timestamp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfos, @timestamp};
-            var ___result = RMSetInstalledPackageInfos_IEnumerable_d_PackageInfo_p__Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo GetSearchPackageInfo(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMGetSearchPackageInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo GetBestMatchPackageInfo(System.String @packageName, System.Boolean @isInstalled, System.String @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName, @isInstalled, @version};
-            var ___result = RMGetBestMatchPackageInfo_String_Boolean_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual void SetSearchPackageInfos(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos, System.Int64 @timestamp)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfos, @timestamp};
-            var ___result = RMSetSearchPackageInfos_IEnumerable_d_PackageInfo_p__Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEditor.PackageManager.PackageInfo GetProductPackageInfo(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMGetProductPackageInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
-
-
-        public virtual void SetProductPackageInfo(System.String @productId, UnityEditor.PackageManager.PackageInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @info};
-            var ___result = RMSetProductPackageInfo_String_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TriggerOnPackageInfosUpdated(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfos};
-            var ___result = RMTriggerOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.Dictionary<System.String, System.Object> ParseUpmReserved(UnityEditor.PackageManager.PackageInfo @packageInfo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfo};
-            var ___result = RMParseUpmReserved_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
-        }
-
-
-        public virtual System.String GetProductId(System.String @packageName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageName};
-            var ___result = RMGetProductId_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearProductCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearProductCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean __0__SetInstalledPackageInfos__1__b__45_2(UnityEditor.PackageManager.PackageInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info};
-            var ___result = RM__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual UnityEditor.PackageManager.PackageInfo GetInstalledPackageInfoById(System.String @packageId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageId};
+			var ___result = RMGetInstalledPackageInfoById_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual void SetInstalledPackageInfo(UnityEditor.PackageManager.PackageInfo @info, System.Boolean @isSpecialInstallation)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @isSpecialInstallation};
+			var ___result = RMSetInstalledPackageInfo_PackageInfo_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetInstalledPackageInfos(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos, System.Int64 @timestamp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfos, @timestamp};
+			var ___result = RMSetInstalledPackageInfos_IEnumerable_d_PackageInfo_p__Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo GetSearchPackageInfo(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMGetSearchPackageInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo GetBestMatchPackageInfo(System.String @packageName, System.Boolean @isInstalled, System.String @version)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName, @isInstalled, @version};
+			var ___result = RMGetBestMatchPackageInfo_String_Boolean_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual void SetSearchPackageInfos(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos, System.Int64 @timestamp)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfos, @timestamp};
+			var ___result = RMSetSearchPackageInfos_IEnumerable_d_PackageInfo_p__Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEditor.PackageManager.PackageInfo GetProductPackageInfo(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMGetProductPackageInfo_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
+
+
+		public virtual void SetProductPackageInfo(System.String @productId, UnityEditor.PackageManager.PackageInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productId, @info};
+			var ___result = RMSetProductPackageInfo_String_PackageInfo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void TriggerOnPackageInfosUpdated(System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.PackageInfo> @packageInfos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfos};
+			var ___result = RMTriggerOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Collections.Generic.Dictionary<System.String, System.Object> ParseUpmReserved(UnityEditor.PackageManager.PackageInfo @packageInfo)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageInfo};
+			var ___result = RMParseUpmReserved_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
+		}
+
+
+		public virtual System.String GetProductId(System.String @packageName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@packageName};
+			var ___result = RMGetProductId_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearProductCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearProductCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean __0__SetInstalledPackageInfos__1__b__45_2(UnityEditor.PackageManager.PackageInfo @info)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info};
+			var ___result = RM__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

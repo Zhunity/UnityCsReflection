@@ -886,352 +886,279 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual System.Int32 GetNextChildSerialNumber()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNextChildSerialNumber.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetNextChildSerialNumber()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNextChildSerialNumber.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer Instantiate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInstantiate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
-        }
+		public virtual UnityEngine.UIElements.TemplateContainer Instantiate()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInstantiate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer Instantiate(System.String @bindingPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingPath};
-            var ___result = RMInstantiate_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
-        }
+		public virtual UnityEngine.UIElements.TemplateContainer Instantiate(System.String @bindingPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingPath};
+			var ___result = RMInstantiate_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer CloneTree()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCloneTree.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
-        }
+		public virtual UnityEngine.UIElements.TemplateContainer CloneTree()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCloneTree.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
+		}
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer CloneTree(System.String @bindingPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bindingPath};
-            var ___result = RMCloneTree_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
-        }
+		public virtual UnityEngine.UIElements.TemplateContainer CloneTree(System.String @bindingPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bindingPath};
+			var ___result = RMCloneTree_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.TemplateContainer>(___result);
+		}
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMCloneTree_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMCloneTree_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, out System.Int32 @firstElementIndex, out System.Int32 @elementAddedCount)
-        {
+		public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, out System.Int32 @firstElementIndex, out System.Int32 @elementAddedCount)
+		{
 			@firstElementIndex = default;
 			@elementAddedCount = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @firstElementIndex, @elementAddedCount};
-            var ___result = RMCloneTree_VisualElement_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @firstElementIndex, @elementAddedCount};
+			var ___result = RMCloneTree_VisualElement_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@firstElementIndex = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 			@elementAddedCount = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement> @slotInsertionPoints, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride> @attributeOverrides)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @slotInsertionPoints, @attributeOverrides.Value};
-            var ___result = RMCloneTree_VisualElement_Dictionary_d_String_VisualElement_p__List_d_AttributeOverride_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement> @slotInsertionPoints, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride> @attributeOverrides)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target, @slotInsertionPoints, @attributeOverrides.Value};
+			var ___result = RMCloneTree_VisualElement_Dictionary_d_String_VisualElement_p__List_d_AttributeOverride_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @root, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@root.Value, @idToChildren.Value, @context};
-            var ___result = RMCloneSetupRecursively_VisualElementAsset_Dictionary_d_Int32_List_d_VisualElementAsset_p__p__CreationContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
+		public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @root, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@root.Value, @idToChildren.Value, @context};
+			var ___result = RMCloneSetupRecursively_VisualElementAsset_Dictionary_d_Int32_List_d_VisualElementAsset_p__p__CreationContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
 
 
-        public static System.Int32 CompareForOrder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @a, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a.Value, @b.Value};
-            var ___result = RMCompareForOrder_VisualElementAsset_VisualElementAsset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 CompareForOrder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @a, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a.Value, @b.Value};
+			var ___result = RMCompareForOrder_VisualElementAsset_VisualElementAsset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean SlotDefinitionExists(System.String @slotName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slotName};
-            var ___result = RMSlotDefinitionExists_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean SlotDefinitionExists(System.String @slotName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slotName};
+			var ___result = RMSlotDefinitionExists_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean AddSlotDefinition(System.String @slotName, System.Int32 @resId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slotName, @resId};
-            var ___result = RMAddSlotDefinition_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean AddSlotDefinition(System.String @slotName, System.Int32 @resId)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@slotName, @resId};
+			var ___result = RMAddSlotDefinition_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TryGetSlotInsertionPoint(System.Int32 @insertionPointId, out System.String @slotName)
-        {
+		public virtual System.Boolean TryGetSlotInsertionPoint(System.Int32 @insertionPointId, out System.String @slotName)
+		{
 			@slotName = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@insertionPointId, @slotName};
-            var ___result = RMTryGetSlotInsertionPoint_Int32_Out_String.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@insertionPointId, @slotName};
+			var ___result = RMTryGetSlotInsertionPoint_Int32_Out_String.Invoke(___genericsType, ___parameters);
 			@slotName = ReflectionUtils.Convert<System.String>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualTreeAsset ResolveTemplate(System.String @templateName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@templateName};
-            var ___result = RMResolveTemplate_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualTreeAsset>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean TemplateExists(System.String @templateName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@templateName};
-            var ___result = RMTemplateExists_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual UnityEngine.UIElements.VisualTreeAsset ResolveTemplate(System.String @templateName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@templateName};
+			var ___result = RMResolveTemplate_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualTreeAsset>(___result);
+		}
 
 
-        public virtual void RegisterTemplate(System.String @templateName, System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@templateName, @path};
-            var ___result = RMRegisterTemplate_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean TemplateExists(System.String @templateName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@templateName};
+			var ___result = RMTemplateExists_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void RegisterTemplate(System.String @templateName, UnityEngine.UIElements.VisualTreeAsset @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@templateName, @asset};
-            var ___result = RMRegisterTemplate_String_VisualTreeAsset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterTemplate(System.String @templateName, System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@templateName, @path};
+			var ___result = RMRegisterTemplate_String_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InsertUsingEntry(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry @entry)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@entry.Value};
-            var ___result = RMInsertUsingEntry_UsingEntry.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RegisterTemplate(System.String @templateName, UnityEngine.UIElements.VisualTreeAsset @asset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@templateName, @asset};
+			var ___result = RMRegisterTemplate_String_VisualTreeAsset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.UIElements.VisualElement Create(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.CreationContext @ctx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset.Value, @ctx};
-            var ___result = RMCreate_VisualElementAsset_CreationContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
+		public virtual void InsertUsingEntry(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry @entry)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@entry.Value};
+			var ___result = RMInsertUsingEntry_UsingEntry.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void AssignClassListFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset.Value, @element};
-            var ___result = RMAssignClassListFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static UnityEngine.UIElements.VisualElement Create(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.CreationContext @ctx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset.Value, @ctx};
+			var ___result = RMCreate_VisualElementAsset_CreationContext.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
 
 
-        public static void AssignStyleSheetFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset.Value, @element};
-            var ___result = RMAssignStyleSheetFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void AssignClassListFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset.Value, @element};
+			var ___result = RMAssignClassListFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet<System.String> @names)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@names};
-            var ___result = RMExtractUsedUxmlQualifiedNames_HashSet_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void AssignStyleSheetFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@asset.Value, @element};
+			var ___result = RMAssignStyleSheetFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__55_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass55_0 @_______)
-        {
+		public virtual void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet<System.String> @names)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@names};
+			var ___result = RMExtractUsedUxmlQualifiedNames_HashSet_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_______.Value};
-            var ___result = RM__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0.Invoke(___genericsType, ___parameters);
+
+		public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__55_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass55_0 @_______)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_______.Value};
+			var ___result = RM__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0.Invoke(___genericsType, ___parameters);
 			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass55_0>(___parameters[0]);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void SetDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void SetDirty()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

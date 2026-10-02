@@ -1878,1081 +1878,872 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 		}
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info, @context};
-            var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AssertInvariants()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAssertInvariants.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@capacity};
-            var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @length};
-            var ___result = RMToString_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Clear()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Char @value, System.Int32 @repeatCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @repeatCount};
-            var ___result = RMAppend_Char_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @charCount};
-            var ___result = RMAppend_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual void AppendHelper(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppendHelper_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.String @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMAppend_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_StringBuilder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMAppend_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendCore(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value, @startIndex, @count};
-            var ___result = RMAppendCore_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendLine()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAppendLine.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendLine(System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppendLine_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual void CopyTo(System.Int32 @sourceIndex, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceIndex, @destination, @destinationIndex, @count};
-            var ___result = RMCopyTo_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyTo(System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceIndex, @destination.Value, @count};
-            var ___result = RMCopyTo_Int32_Span_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value, @count};
-            var ___result = RMInsert_Int32_String_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Remove(System.Int32 @startIndex, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @length};
-            var ___result = RMRemove_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_SByte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Int16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_UInt16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_UInt64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendSpanFormattable<T>(T @value) where T : System.IFormattable
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppendSpanFormattable_GT_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(System.Char[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMAppend_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Append(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value.Value};
-            var ___result = RMAppend_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.Object[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin<T>(System.String @separator, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_GT_String_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.String[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.Object[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_Char_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin<T>(System.Char @separator, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_GT_Char_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.String[] @values)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@separator, @values};
-            var ___result = RMAppendJoin_Char_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, System.Collections.Generic.IEnumerable<T> @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
-            var ___result = RMAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, T[] @values)
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
-            var ___result = RMAppendJoinCore_GT_CharPointer_Int32_TArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_SByte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Int16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_CharArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value, @startIndex, @charCount};
-            var ___result = RMInsert_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Double.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Decimal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_UInt16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_UInt64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value};
-            var ___result = RMInsert_Int32_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @value.Value};
-            var ___result = RMInsert_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0};
-            var ___result = RMAppendFormat_String_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0, @arg1};
-            var ___result = RMAppendFormat_String_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @arg0, @arg1, @arg2};
-            var ___result = RMAppendFormat_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @args};
-            var ___result = RMAppendFormat_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0};
-            var ___result = RMAppendFormat_IFormatProvider_String_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0, @arg1};
-            var ___result = RMAppendFormat_IFormatProvider_String_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @arg0, @arg1, @arg2};
-            var ___result = RMAppendFormat_IFormatProvider_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object[] @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @args};
-            var ___result = RMAppendFormat_IFormatProvider_String_ObjectArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public static void FormatError()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFormatError.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider, @format, @args.Value};
-            var ___result = RMAppendFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue};
-            var ___result = RMReplace_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Text.StringBuilder @sb)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sb};
-            var ___result = RMEquals_StringBuilder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @span)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@span.Value};
-            var ___result = RMEquals_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldValue, @newValue, @startIndex, @count};
-            var ___result = RMReplace_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldChar, @newChar};
-            var ___result = RMReplace_Char_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar, System.Int32 @startIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldChar, @newChar, @startIndex, @count};
-            var ___result = RMReplace_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public unsafe virtual System.Text.StringBuilder Append(System.Char* @value, System.Int32 @valueCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @valueCount};
-            var ___result = RMAppend_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
-
-
-        public unsafe virtual void Insert(System.Int32 @index, System.Char* @value, System.Int32 @valueCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, Pointer.Box(@value, typeof(System.Char)), @valueCount};
-            var ___result = RMInsert_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ReplaceAllInChunk(System.Int32[] @replacements, System.Int32 @replacementsCount, System.Text.StringBuilder @sourceChunk, System.Int32 @removeCount, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@replacements, @replacementsCount, @sourceChunk, @removeCount, @value};
-            var ___result = RMReplaceAllInChunk_Int32Array_Int32_StringBuilder_Int32_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean StartsWith(System.Text.StringBuilder @chunk, System.Int32 @indexInChunk, System.Int32 @count, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chunk, @indexInChunk, @count, @value};
-            var ___result = RMStartsWith_StringBuilder_Int32_Int32_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public unsafe virtual void ReplaceInPlaceAtChunk(ref System.Text.StringBuilder @chunk, ref System.Int32 @indexInChunk, System.Char* @value, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chunk, @indexInChunk, Pointer.Box(@value, typeof(System.Char)), @count};
-            var ___result = RMReplaceInPlaceAtChunk_Ref_StringBuilder_Ref_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@info, @context};
+			var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AssertInvariants()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAssertInvariants.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@capacity};
+			var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @length};
+			var ___result = RMToString_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Clear()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClear.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Char @value, System.Int32 @repeatCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @repeatCount};
+			var ___result = RMAppend_Char_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @charCount};
+			var ___result = RMAppend_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual void AppendHelper(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppendHelper_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.String @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMAppend_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_StringBuilder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMAppend_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendCore(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value, @startIndex, @count};
+			var ___result = RMAppendCore_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendLine()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAppendLine.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendLine(System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppendLine_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual void CopyTo(System.Int32 @sourceIndex, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceIndex, @destination, @destinationIndex, @count};
+			var ___result = RMCopyTo_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyTo(System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceIndex, @destination.Value, @count};
+			var ___result = RMCopyTo_Int32_Span_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value, @count};
+			var ___result = RMInsert_Int32_String_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Remove(System.Int32 @startIndex, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @length};
+			var ___result = RMRemove_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_SByte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Int16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_UInt16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_UInt64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendSpanFormattable<T>(T @value) where T : System.IFormattable
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppendSpanFormattable_GT_T.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(System.Char[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMAppend_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Append(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value.Value};
+			var ___result = RMAppend_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.Object[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin<T>(System.String @separator, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_GT_String_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.String[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_String_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.Object[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_Char_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin<T>(System.Char @separator, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_GT_Char_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.String[] @values)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@separator, @values};
+			var ___result = RMAppendJoin_Char_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, System.Collections.Generic.IEnumerable<T> @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+			var ___result = RMAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, T[] @values)
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+			var ___result = RMAppendJoinCore_GT_CharPointer_Int32_TArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_SByte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Int16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_CharArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value, @startIndex, @charCount};
+			var ___result = RMInsert_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Double.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Decimal.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_UInt16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_UInt64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value};
+			var ___result = RMInsert_Int32_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Insert(System.Int32 @index, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @value.Value};
+			var ___result = RMInsert_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0};
+			var ___result = RMAppendFormat_String_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0, @arg1};
+			var ___result = RMAppendFormat_String_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @arg0, @arg1, @arg2};
+			var ___result = RMAppendFormat_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @args};
+			var ___result = RMAppendFormat_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0};
+			var ___result = RMAppendFormat_IFormatProvider_String_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0, @arg1};
+			var ___result = RMAppendFormat_IFormatProvider_String_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @arg0, @arg1, @arg2};
+			var ___result = RMAppendFormat_IFormatProvider_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object[] @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @args};
+			var ___result = RMAppendFormat_IFormatProvider_String_ObjectArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public static void FormatError()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFormatError.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider, @format, @args.Value};
+			var ___result = RMAppendFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue};
+			var ___result = RMReplace_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Text.StringBuilder @sb)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sb};
+			var ___result = RMEquals_StringBuilder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @span)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@span.Value};
+			var ___result = RMEquals_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldValue, @newValue, @startIndex, @count};
+			var ___result = RMReplace_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldChar, @newChar};
+			var ___result = RMReplace_Char_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar, System.Int32 @startIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@oldChar, @newChar, @startIndex, @count};
+			var ___result = RMReplace_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public unsafe virtual System.Text.StringBuilder Append(System.Char* @value, System.Int32 @valueCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @valueCount};
+			var ___result = RMAppend_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
+
+
+		public unsafe virtual void Insert(System.Int32 @index, System.Char* @value, System.Int32 @valueCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, Pointer.Box(@value, typeof(System.Char)), @valueCount};
+			var ___result = RMInsert_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ReplaceAllInChunk(System.Int32[] @replacements, System.Int32 @replacementsCount, System.Text.StringBuilder @sourceChunk, System.Int32 @removeCount, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@replacements, @replacementsCount, @sourceChunk, @removeCount, @value};
+			var ___result = RMReplaceAllInChunk_Int32Array_Int32_StringBuilder_Int32_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean StartsWith(System.Text.StringBuilder @chunk, System.Int32 @indexInChunk, System.Int32 @count, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chunk, @indexInChunk, @count, @value};
+			var ___result = RMStartsWith_StringBuilder_Int32_Int32_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public unsafe virtual void ReplaceInPlaceAtChunk(ref System.Text.StringBuilder @chunk, ref System.Int32 @indexInChunk, System.Char* @value, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chunk, @indexInChunk, Pointer.Box(@value, typeof(System.Char)), @count};
+			var ___result = RMReplaceInPlaceAtChunk_Ref_StringBuilder_Ref_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
 			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
 			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public unsafe static void ThreadSafeCopy(System.Char* @sourcePtr, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@sourcePtr, typeof(System.Char)), @destination, @destinationIndex, @count};
-            var ___result = RMThreadSafeCopy_CharPointer_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public unsafe static void ThreadSafeCopy(System.Char* @sourcePtr, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@sourcePtr, typeof(System.Char)), @destination, @destinationIndex, @count};
+			var ___result = RMThreadSafeCopy_CharPointer_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void ThreadSafeCopy(System.Char[] @source, System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @destinationIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @sourceIndex, @destination.Value, @destinationIndex, @count};
-            var ___result = RMThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void ThreadSafeCopy(System.Char[] @source, System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @destinationIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@source, @sourceIndex, @destination.Value, @destinationIndex, @count};
+			var ___result = RMThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Text.StringBuilder FindChunkForIndex(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMFindChunkForIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
+		public virtual System.Text.StringBuilder FindChunkForIndex(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMFindChunkForIndex_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
 
 
-        public virtual System.Text.StringBuilder FindChunkForByte(System.Int32 @byteIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@byteIndex};
-            var ___result = RMFindChunkForByte_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
+		public virtual System.Text.StringBuilder FindChunkForByte(System.Int32 @byteIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@byteIndex};
+			var ___result = RMFindChunkForByte_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
 
 
-        public virtual System.Text.StringBuilder Next(System.Text.StringBuilder @chunk)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@chunk};
-            var ___result = RMNext_StringBuilder.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
-        }
+		public virtual System.Text.StringBuilder Next(System.Text.StringBuilder @chunk)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@chunk};
+			var ___result = RMNext_StringBuilder.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
+		}
 
 
-        public virtual void ExpandByABlock(System.Int32 @minBlockCharCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@minBlockCharCount};
-            var ___result = RMExpandByABlock_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ExpandByABlock(System.Int32 @minBlockCharCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@minBlockCharCount};
+			var ___result = RMExpandByABlock_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void MakeRoom(System.Int32 @index, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk, System.Boolean @doNotMoveFollowingChars)
-        {
+		public virtual void MakeRoom(System.Int32 @index, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk, System.Boolean @doNotMoveFollowingChars)
+		{
 			@chunk = default;
 			@indexInChunk = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @count, @chunk, @indexInChunk, @doNotMoveFollowingChars};
-            var ___result = RMMakeRoom_Int32_Int32_Out_StringBuilder_Out_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @count, @chunk, @indexInChunk, @doNotMoveFollowingChars};
+			var ___result = RMMakeRoom_Int32_Int32_Out_StringBuilder_Out_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[2]);
 			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual void Remove(System.Int32 @startIndex, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk)
-        {
+		public virtual void Remove(System.Int32 @startIndex, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk)
+		{
 			@chunk = default;
 			@indexInChunk = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @count, @chunk, @indexInChunk};
-            var ___result = RMRemove_Int32_Int32_Out_StringBuilder_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@startIndex, @count, @chunk, @indexInChunk};
+			var ___result = RMRemove_Int32_Int32_Out_StringBuilder_Out_Int32.Invoke(___genericsType, ___parameters);
 			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[2]);
 			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

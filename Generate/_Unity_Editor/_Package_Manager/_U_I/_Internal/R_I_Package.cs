@@ -326,59 +326,47 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual System.Boolean Is(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type.Value};
-            var ___result = RMIs_PackageType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Is(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type.Value};
+			var ___result = RMIs_PackageType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@error.Value};
-            var ___result = RMAddError_UIError.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@error.Value};
+			var ___result = RMAddError_UIError.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ClearErrors(Hvak.Editor.Refleaction.RSystem.RPredicate<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match.Value};
-            var ___result = RMClearErrors_Predicate_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ClearErrors(Hvak.Editor.Refleaction.RSystem.RPredicate<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match.Value};
+			var ___result = RMClearErrors_Predicate_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage Clone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage Clone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
+		}
 
 
-        public virtual System.String GetDescriptor(System.Boolean @isFirstLetterCapitalized)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isFirstLetterCapitalized};
-            var ___result = RMGetDescriptor_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String GetDescriptor(System.Boolean @isFirstLetterCapitalized)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@isFirstLetterCapitalized};
+			var ___result = RMGetDescriptor_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

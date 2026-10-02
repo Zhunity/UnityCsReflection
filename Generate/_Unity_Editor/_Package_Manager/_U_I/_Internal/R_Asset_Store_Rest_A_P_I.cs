@@ -646,180 +646,137 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth @assetStoreOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityConnect.Value, @assetStoreOAuth.Value, @assetStoreCache.Value, @httpClientFactory.Value};
-            var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth @assetStoreOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unityConnect.Value, @assetStoreOAuth.Value, @assetStoreCache.Value, @httpClientFactory.Value};
+			var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetPurchases(System.String @query, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@query, @doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetPurchases(System.String @query, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@query, @doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetCategories(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetCategories(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetTaggings(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetTaggings(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetProductDetail(System.Int64 @productID, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productID, @doneCallbackAction};
-            var ___result = RMGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetProductDetail(System.Int64 @productID, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productID, @doneCallbackAction};
+			var ___result = RMGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetDownloadDetail(System.Int64 @productID, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo> @doneCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productID, @doneCallbackAction.Value};
-            var ___result = RMGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetDownloadDetail(System.Int64 @productID, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo> @doneCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productID, @doneCallbackAction.Value};
+			var ___result = RMGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void GetProductUpdateDetail(System.Collections.Generic.IEnumerable<System.String> @productIds, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIds, @doneCallbackAction};
-            var ___result = RMGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void GetProductUpdateDetail(System.Collections.Generic.IEnumerable<System.String> @productIds, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@productIds, @doneCallbackAction};
+			var ___result = RMGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void CheckTermsAndConditions(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CheckTermsAndConditions(System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void HandleHttpRequest(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpRequest, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@httpRequest.Value, @doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void HandleHttpRequest(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpRequest, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@httpRequest.Value, @doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void HandleHttpRequest(Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient> @httpRequestCreate, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@httpRequestCreate.Value, @doneCallbackAction, @errorCallbackAction.Value};
-            var ___result = RMHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void HandleHttpRequest(Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient> @httpRequestCreate, System.Action<System.Collections.Generic.Dictionary<System.String, System.Object>> @doneCallbackAction, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallbackAction)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@httpRequestCreate.Value, @doneCallbackAction, @errorCallbackAction.Value};
+			var ___result = RMHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

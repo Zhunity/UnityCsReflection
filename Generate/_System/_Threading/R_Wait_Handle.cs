@@ -998,501 +998,403 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 		}
 
 
-        public virtual void Init()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInit.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMSetHandleInternal_SafeWaitHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout, @exitContext};
-            var ___result = RMWaitOne_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOne(System.TimeSpan @timeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout, @exitContext};
-            var ___result = RMWaitOne_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOne()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitOne.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RMWaitOne_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOne(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMWaitOne_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOne(System.Int64 @timeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout, @exitContext};
-            var ___result = RMWaitOne_Int64_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean InternalWaitOne(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.Int64 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
-            var ___result = RMInternalWaitOne_SafeHandle_Int64_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean WaitOneWithoutFAS()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitOneWithoutFAS.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
-            var ___result = RMWaitAll_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
-            var ___result = RMWaitAll_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles};
-            var ___result = RMWaitAll_WaitHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
-            var ___result = RMWaitAll_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @timeout};
-            var ___result = RMWaitAll_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
-            var ___result = RMWaitAny_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
-            var ___result = RMWaitAny_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @timeout};
-            var ___result = RMWaitAny_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles};
-            var ___result = RMWaitAny_WaitHandleArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
-            var ___result = RMWaitAny_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toSignal, @toWaitOn};
-            var ___result = RMSignalAndWait_WaitHandle_WaitHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.TimeSpan @timeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toSignal, @toWaitOn, @timeout, @exitContext};
-            var ___result = RMSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toSignal, @toWaitOn, @millisecondsTimeout, @exitContext};
-            var ___result = RMSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void ThrowAbandonedMutexException()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMThrowAbandonedMutexException.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ThrowAbandonedMutexException(System.Int32 @location, System.Threading.WaitHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@location, @handle};
-            var ___result = RMThrowAbandonedMutexException_Int32_WaitHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose(System.Boolean @explicitDisposing)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@explicitDisposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.UInt32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
-            var ___result = RMWaitOneNative_SafeHandle_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 WaitMultiple(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext, System.Boolean @WaitAll)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext, @WaitAll};
-            var ___result = RMWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public unsafe static System.Int32 Wait_internal(System.IntPtr* @handles, System.Int32 @numHandles, System.Boolean @waitAll, System.Int32 @ms)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@handles, typeof(System.IntPtr)), @numHandles, @waitAll, @ms};
-            var ___result = RMWait_internal_IntPtrPointer_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 SignalAndWaitOne(Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToSignal, Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@waitHandleToSignal, @waitHandleToWaitOn, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
-            var ___result = RMSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 SignalAndWait_Internal(System.IntPtr @toSignal, System.IntPtr @toWaitOn, System.Int32 @ms)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toSignal, @toWaitOn, @ms};
-            var ___result = RMSignalAndWait_Internal_IntPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Int32 ToTimeoutMilliseconds(System.TimeSpan @timeout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeout};
-            var ___result = RMToTimeoutMilliseconds_TimeSpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
-        {
+		public virtual void Init()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInit.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle};
+			var ___result = RMSetHandleInternal_SafeWaitHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout, @exitContext};
+			var ___result = RMWaitOne_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOne(System.TimeSpan @timeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout, @exitContext};
+			var ___result = RMWaitOne_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOne()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitOne.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@millisecondsTimeout};
+			var ___result = RMWaitOne_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOne(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMWaitOne_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOne(System.Int64 @timeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout, @exitContext};
+			var ___result = RMWaitOne_Int64_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean InternalWaitOne(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.Int64 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
+			var ___result = RMInternalWaitOne_SafeHandle_Int64_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean WaitOneWithoutFAS()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitOneWithoutFAS.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
+			var ___result = RMWaitAll_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
+			var ___result = RMWaitAll_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles};
+			var ___result = RMWaitAll_WaitHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
+			var ___result = RMWaitAll_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @timeout};
+			var ___result = RMWaitAll_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
+			var ___result = RMWaitAny_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
+			var ___result = RMWaitAny_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @timeout};
+			var ___result = RMWaitAny_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles};
+			var ___result = RMWaitAny_WaitHandleArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
+			var ___result = RMWaitAny_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toSignal, @toWaitOn};
+			var ___result = RMSignalAndWait_WaitHandle_WaitHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.TimeSpan @timeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toSignal, @toWaitOn, @timeout, @exitContext};
+			var ___result = RMSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toSignal, @toWaitOn, @millisecondsTimeout, @exitContext};
+			var ___result = RMSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void ThrowAbandonedMutexException()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMThrowAbandonedMutexException.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void ThrowAbandonedMutexException(System.Int32 @location, System.Threading.WaitHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@location, @handle};
+			var ___result = RMThrowAbandonedMutexException_Int32_WaitHandle.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Close()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @explicitDisposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@explicitDisposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.UInt32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
+			var ___result = RMWaitOneNative_SafeHandle_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 WaitMultiple(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext, System.Boolean @WaitAll)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext, @WaitAll};
+			var ___result = RMWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public unsafe static System.Int32 Wait_internal(System.IntPtr* @handles, System.Int32 @numHandles, System.Boolean @waitAll, System.Int32 @ms)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@handles, typeof(System.IntPtr)), @numHandles, @waitAll, @ms};
+			var ___result = RMWait_internal_IntPtrPointer_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 SignalAndWaitOne(Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToSignal, Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@waitHandleToSignal, @waitHandleToWaitOn, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
+			var ___result = RMSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 SignalAndWait_Internal(System.IntPtr @toSignal, System.IntPtr @toWaitOn, System.Int32 @ms)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@toSignal, @toWaitOn, @ms};
+			var ___result = RMSignalAndWait_Internal_IntPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static System.Int32 ToTimeoutMilliseconds(System.TimeSpan @timeout)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeout};
+			var ___result = RMToTimeoutMilliseconds_TimeSpan.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+		{
 			@IsClient = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj, @IsClient};
+			var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
-        }
-
-
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@requestedType};
-            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
+		}
 
 
-        public virtual System.Object GetLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@requestedType};
+			var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
+		}
 
 
-        public virtual System.Object InitializeLifetimeService()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object GetLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
-        }
+		public virtual System.Object InitializeLifetimeService()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cloneIdentity};
+			var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

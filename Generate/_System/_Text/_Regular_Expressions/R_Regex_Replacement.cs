@@ -358,125 +358,100 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@replRef.Value, @replacement, @caps, @capsize, @capnames, @roptions};
-            var ___result = RMGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@replRef.Value, @replacement, @caps, @capsize, @capnames, @roptions};
+			var ___result = RMGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement>(___result);
+		}
 
 
-        public virtual void ReplacementImpl(System.Text.StringBuilder @sb, System.Text.RegularExpressions.Match @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sb, @match};
-            var ___result = RMReplacementImpl_StringBuilder_Match.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ReplacementImpl(System.Text.StringBuilder @sb, System.Text.RegularExpressions.Match @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sb, @match};
+			var ___result = RMReplacementImpl_StringBuilder_Match.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ReplacementImplRTL(System.Collections.Generic.List<System.String> @al, System.Text.RegularExpressions.Match @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@al, @match};
-            var ___result = RMReplacementImplRTL_List_d_String_p__Match.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ReplacementImplRTL(System.Collections.Generic.List<System.String> @al, System.Text.RegularExpressions.Match @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@al, @match};
+			var ___result = RMReplacementImplRTL_List_d_String_p__Match.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.String Replacement(System.Text.RegularExpressions.Match @match)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@match};
-            var ___result = RMReplacement_Match.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String Replacement(System.Text.RegularExpressions.Match @match)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@match};
+			var ___result = RMReplacement_Match.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.String Replace(System.Text.RegularExpressions.Regex @regex, System.String @input, System.Int32 @count, System.Int32 @startat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@regex, @input, @count, @startat};
-            var ___result = RMReplace_Regex_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String Replace(System.Text.RegularExpressions.Regex @regex, System.String @input, System.Int32 @count, System.Int32 @startat)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@regex, @input, @count, @startat};
+			var ___result = RMReplace_Regex_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

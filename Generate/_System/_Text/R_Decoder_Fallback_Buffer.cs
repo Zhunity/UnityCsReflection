@@ -326,169 +326,134 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 		}
 
 
-        public virtual System.Boolean Fallback(System.Byte[] @bytesUnknown, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytesUnknown, @index};
-            var ___result = RMFallback_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Fallback(System.Byte[] @bytesUnknown, System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytesUnknown, @index};
+			var ___result = RMFallback_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Char GetNextChar()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNextChar.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
+		public virtual System.Char GetNextChar()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNextChar.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
 
 
-        public virtual System.Boolean MovePrevious()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMovePrevious.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean MovePrevious()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMovePrevious.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Reset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void InternalReset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void InternalReset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalReset.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public unsafe virtual void InternalInitialize(System.Byte* @byteStart, System.Char* @charEnd)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@byteStart, typeof(System.Byte)), Pointer.Box(@charEnd, typeof(System.Char))};
-            var ___result = RMInternalInitialize_BytePointer_CharPointer.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public unsafe virtual void InternalInitialize(System.Byte* @byteStart, System.Char* @charEnd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@byteStart, typeof(System.Byte)), Pointer.Box(@charEnd, typeof(System.Char))};
+			var ___result = RMInternalInitialize_BytePointer_CharPointer.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public unsafe virtual System.Boolean InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes, ref System.Char* @chars)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte)), Pointer.Box(@chars, typeof(System.Char))};
-            var ___result = RMInternalFallback_ByteArray_BytePointer_Ref_CharPointer.Invoke(___genericsType, ___parameters);
-			@chars = (System.Char*)Pointer.Unbox(___parameters[2]);
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public unsafe virtual System.Boolean InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes, ref System.Char* @chars)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte)), Pointer.Box(@chars, typeof(System.Char))};
+			var ___result = RMInternalFallback_ByteArray_BytePointer_Ref_CharPointer.Invoke(___genericsType, ___parameters);
+			@chars = (System.Char*)Pointer.Unbox(___parameters[2]);			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public unsafe virtual System.Int32 InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte))};
-            var ___result = RMInternalFallback_ByteArray_BytePointer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public unsafe virtual System.Int32 InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte))};
+			var ___result = RMInternalFallback_ByteArray_BytePointer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void ThrowLastBytesRecursive(System.Byte[] @bytesUnknown)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytesUnknown};
-            var ___result = RMThrowLastBytesRecursive_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ThrowLastBytesRecursive(System.Byte[] @bytesUnknown)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@bytesUnknown};
+			var ___result = RMThrowLastBytesRecursive_ByteArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

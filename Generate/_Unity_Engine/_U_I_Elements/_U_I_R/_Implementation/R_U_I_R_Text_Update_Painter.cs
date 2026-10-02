@@ -454,158 +454,122 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 
-        public virtual void Begin(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice @device)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @device.Value};
-            var ___result = RMBegin_VisualElement_UIRenderDevice.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Begin(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice @device)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @device.Value};
+			var ___result = RMBegin_VisualElement_UIRenderDevice.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void End()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void End()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMEnd.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawRectangle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value};
-            var ___result = RMDrawRectangle_RectangleParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawRectangle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rectParams.Value};
+			var ___result = RMDrawRectangle_RectangleParams.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawBorder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams @borderParams)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@borderParams.Value};
-            var ___result = RMDrawBorder_BorderParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawBorder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams @borderParams)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@borderParams.Value};
+			var ___result = RMDrawBorder_BorderParams.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void DrawImmediate(System.Action @callback, System.Boolean @cullingEnabled)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @cullingEnabled};
-            var ___result = RMDrawImmediate_Action_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawImmediate(System.Action @callback, System.Boolean @cullingEnabled)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback, @cullingEnabled};
+			var ___result = RMDrawImmediate_Action_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
-            var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
-        }
+		public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
+			var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+		}
 
 
-        public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
-            var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+			var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

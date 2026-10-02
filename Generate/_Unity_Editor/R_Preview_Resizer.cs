@@ -566,204 +566,163 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual void Init(System.String @prefName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@prefName};
-            var ___result = RMInit_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Init(System.String @prefName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@prefName};
+			var ___result = RMInit_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight};
-            var ___result = RMResizeHandle_Rect_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight};
+			var ___result = RMResizeHandle_Rect_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect};
-            var ___result = RMResizeHandle_Rect_Single_Single_Single_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect};
+			var ___result = RMResizeHandle_Rect_Single_Single_Single_Rect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Single SetExpanded(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect, System.Boolean @isExpanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect, @isExpanded};
-            var ___result = RMSetExpanded_Rect_Single_Single_Single_Rect_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single SetExpanded(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect, System.Boolean @isExpanded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect, @isExpanded};
+			var ___result = RMSetExpanded_Rect_Single_Single_Single_Rect_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Boolean GetExpanded()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExpanded.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean GetExpanded()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExpanded.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Single GetPreviewSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPreviewSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
+		public virtual System.Single GetPreviewSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPreviewSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Boolean GetExpandedBeforeDragging()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExpandedBeforeDragging.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean GetExpandedBeforeDragging()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetExpandedBeforeDragging.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void SetExpanded(System.Boolean @expanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@expanded};
-            var ___result = RMSetExpanded_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetExpanded(System.Boolean @expanded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@expanded};
+			var ___result = RMSetExpanded_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ToggleExpanded()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToggleExpanded.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ToggleExpanded()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToggleExpanded.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded};
-            var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.Invoke(___genericsType, ___parameters);
+		public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded};
+			var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.Invoke(___genericsType, ___parameters);
 			@expanded = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
 
-
-        public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded, System.Boolean @localFrame)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded, @localFrame};
-            var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded, System.Boolean @localFrame)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded, @localFrame};
+			var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@expanded = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void SetContainer(UnityEngine.UIElements.IMGUIContainer @container, System.Single @minimumHeightCollapsed)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@container, @minimumHeightCollapsed};
-            var ___result = RMSetContainer_IMGUIContainer_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void SetContainer(UnityEngine.UIElements.IMGUIContainer @container, System.Single @minimumHeightCollapsed)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@container, @minimumHeightCollapsed};
+			var ___result = RMSetContainer_IMGUIContainer_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

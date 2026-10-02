@@ -1206,558 +1206,436 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		}
 
 
-        public virtual void SetType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMSetType_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean Compare(System.Byte[] @a, System.Byte[] @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMCompare_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void DemandForUnsafeAssemblyNameAssignments(System.String @originalAssemblyName, System.String @newAssemblyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@originalAssemblyName, @newAssemblyName};
-            var ___result = RMDemandForUnsafeAssemblyNameAssignments_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsAssemblyNameAssignmentSafe(System.String @originalAssemblyName, System.String @newAssemblyName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@originalAssemblyName, @newAssemblyName};
-            var ___result = RMIsAssemblyNameAssignmentSafe_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Runtime.Serialization.SerializationInfoEnumerator GetEnumerator()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Runtime.Serialization.SerializationInfoEnumerator>(___result);
-        }
-
-
-        public virtual void ExpandArrays()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExpandArrays.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Object @value, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value, @type};
-            var ___result = RMAddValue_String_Object_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_SByte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Byte.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Int16.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_UInt16.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Int64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_UInt64.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Double @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Double.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.Decimal @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_Decimal.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValue(System.String @name, System.DateTime @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMAddValue_String_DateTime.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddValueInternal(System.String @name, System.Object @value, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value, @type};
-            var ___result = RMAddValueInternal_String_Object_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateValue(System.String @name, System.Object @value, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value, @type};
-            var ___result = RMUpdateValue_String_Object_Type.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 FindElement(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMFindElement_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Object GetElement(System.String @name, out System.Type @foundType)
-        {
+		public virtual void SetType(System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMSetType_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean Compare(System.Byte[] @a, System.Byte[] @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMCompare_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void DemandForUnsafeAssemblyNameAssignments(System.String @originalAssemblyName, System.String @newAssemblyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@originalAssemblyName, @newAssemblyName};
+			var ___result = RMDemandForUnsafeAssemblyNameAssignments_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsAssemblyNameAssignmentSafe(System.String @originalAssemblyName, System.String @newAssemblyName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@originalAssemblyName, @newAssemblyName};
+			var ___result = RMIsAssemblyNameAssignmentSafe_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Runtime.Serialization.SerializationInfoEnumerator GetEnumerator()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Runtime.Serialization.SerializationInfoEnumerator>(___result);
+		}
+
+
+		public virtual void ExpandArrays()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExpandArrays.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Object @value, System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value, @type};
+			var ___result = RMAddValue_String_Object_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Object.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Char.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_SByte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Byte.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Int16.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_UInt16.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_UInt32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Int64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_UInt64.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Double @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Double.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.Decimal @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_Decimal.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValue(System.String @name, System.DateTime @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value};
+			var ___result = RMAddValue_String_DateTime.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddValueInternal(System.String @name, System.Object @value, System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value, @type};
+			var ___result = RMAddValueInternal_String_Object_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateValue(System.String @name, System.Object @value, System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @value, @type};
+			var ___result = RMUpdateValue_String_Object_Type.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 FindElement(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMFindElement_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Object GetElement(System.String @name, out System.Type @foundType)
+		{
 			@foundType = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @foundType};
-            var ___result = RMGetElement_String_Out_Type.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @foundType};
+			var ___result = RMGetElement_String_Out_Type.Invoke(___genericsType, ___parameters);
 			@foundType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
 
-
-        public virtual System.Object GetElementNoThrow(System.String @name, out System.Type @foundType)
-        {
+		public virtual System.Object GetElementNoThrow(System.String @name, out System.Type @foundType)
+		{
 			@foundType = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @foundType};
-            var ___result = RMGetElementNoThrow_String_Out_Type.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @foundType};
+			var ___result = RMGetElementNoThrow_String_Out_Type.Invoke(___genericsType, ___parameters);
 			@foundType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object GetValue(System.String @name, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @type};
-            var ___result = RMGetValue_String_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object GetValueNoThrow(System.String @name, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @type};
-            var ___result = RMGetValueNoThrow_String_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean GetBoolean(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetBoolean_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char GetChar(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetChar_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte GetSByte(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetSByte_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte GetByte(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetByte_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 GetInt16(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetInt16_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 GetUInt16(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetUInt16_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 GetInt32(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetInt32_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 GetUInt32(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetUInt32_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 GetInt64(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetInt64_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 GetUInt64(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetUInt64_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single GetSingle(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetSingle_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double GetDouble(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDouble_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal GetDecimal(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDecimal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime GetDateTime(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetDateTime_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.String GetString(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Object GetValue(System.String @name, System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @type};
+			var ___result = RMGetValue_String_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Object GetValueNoThrow(System.String @name, System.Type @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name, @type};
+			var ___result = RMGetValueNoThrow_String_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean GetBoolean(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetBoolean_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char GetChar(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetChar_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte GetSByte(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetSByte_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte GetByte(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetByte_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 GetInt16(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetInt16_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 GetUInt16(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetUInt16_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 GetInt32(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetInt32_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 GetUInt32(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetUInt32_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 GetInt64(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetInt64_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 GetUInt64(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetUInt64_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single GetSingle(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetSingle_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double GetDouble(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDouble_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal GetDecimal(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDecimal_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime GetDateTime(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetDateTime_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.String GetString(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMGetString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

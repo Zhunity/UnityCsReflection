@@ -2358,632 +2358,487 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Create()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Create()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreate.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
+		}
 
 
-        public virtual void FinalizeApply(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parentStyle.Value};
-            var ___result = RMFinalizeApply_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void FinalizeApply(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parentStyle.Value};
+			var ___result = RMFinalizeApply_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void SyncWithLayout(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @targetNode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetNode.Value};
-            var ___result = RMSyncWithLayout_YogaNode.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SyncWithLayout(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @targetNode)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetNode.Value};
+			var ___result = RMSyncWithLayout_YogaNode.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean ApplyGlobalKeyword(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
-            var ___result = RMApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean ApplyGlobalKeyword(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+			var ___result = RMApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual System.Boolean ApplyGlobalKeyword(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleKeyword @keyword, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @keyword, @parentStyle.Value};
-            var ___result = RMApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean ApplyGlobalKeyword(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleKeyword @keyword, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @keyword, @parentStyle.Value};
+			var ___result = RMApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RemoveCustomStyleProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value};
-            var ___result = RMRemoveCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ApplyCustomStyleProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value};
-            var ___result = RMApplyCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RemoveCustomStyleProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value};
+			var ___result = RMRemoveCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyAllPropertyInitial()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMApplyAllPropertyInitial.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyCustomStyleProperty(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value};
+			var ___result = RMApplyCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ResetComputedTransitions()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetComputedTransitions.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyAllPropertyInitial()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMApplyAllPropertyInitial.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType CompareChanges(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @x, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @y)
-        {
+		public virtual void ResetComputedTransitions()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMResetComputedTransitions.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x.Value, @y.Value};
-            var ___result = RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType CompareChanges(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @x, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @y)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@x.Value, @y.Value};
+			var ___result = RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@x = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
 			@y = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTextShadow @textShadow, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @textShadow, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTextShadow @textShadow, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @computedStyle.Value, @textShadow, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInlineRotate(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleRotate @rotate, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @rotate, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInlineRotate(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleRotate @rotate, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @computedStyle.Value, @rotate, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInlineTranslate(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTranslate @translate, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @translate, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInlineTranslate(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTranslate @translate, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @computedStyle.Value, @translate, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInlineScale(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleScale @scale, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @scale, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInlineScale(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleScale @scale, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @computedStyle.Value, @scale, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInlineTransformOrigin(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTransformOrigin @transformOrigin, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @transformOrigin, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInlineTransformOrigin(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTransformOrigin @transformOrigin, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @computedStyle.Value, @transformOrigin, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Create(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@parentStyle.Value};
-            var ___result = RMCreate_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Create(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@parentStyle.Value};
+			var ___result = RMCreate_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle CreateInitial()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateInitial.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Acquire()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAcquire.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle CreateInitial()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateInitial.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
+		}
 
 
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Acquire()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAcquire.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___result);
+		}
 
 
-        public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @other)
-        {
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMCopyFrom_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+		public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other.Value};
+			var ___result = RMCopyFrom_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@other = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyProperties(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
-            var ___result = RMApplyProperties_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyProperties(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+			var ___result = RMApplyProperties_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @sv, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
-            var ___result = RMApplyStyleValue_StyleValue_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @sv, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
+			var ___result = RMApplyStyleValue_StyleValue_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @sv, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
-            var ___result = RMApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @sv, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
+			var ___result = RMApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyStyleCursor(UnityEngine.UIElements.Cursor @cursor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursor};
-            var ___result = RMApplyStyleCursor_Cursor.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleCursor(UnityEngine.UIElements.Cursor @cursor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursor};
+			var ___result = RMApplyStyleCursor_Cursor.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyStyleTextShadow(UnityEngine.UIElements.TextShadow @st)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@st};
-            var ___result = RMApplyStyleTextShadow_TextShadow.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleTextShadow(UnityEngine.UIElements.TextShadow @st)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@st};
+			var ___result = RMApplyStyleTextShadow_TextShadow.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyFromComputedStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @other.Value};
-            var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyFromComputedStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @other.Value};
+			var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@other = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Length @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Length.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Length @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Length.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Single.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Int32 @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Color.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Background @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Background.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Background @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Background.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Font @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Font.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Font @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Font.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.FontDefinition @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.FontDefinition @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TextShadow @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TextShadow @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Translate @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Translate @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TransformOrigin @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.TransformOrigin @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Rotate @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Rotate @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Scale @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.Scale @newValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ve, @id.Value, @newValue};
+			var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean StartAnimation(UnityEngine.UIElements.VisualElement @element, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @oldStyle, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @id.Value, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimation(UnityEngine.UIElements.VisualElement @element, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @oldStyle, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @id.Value, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@oldStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[2]);
 			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationAllProperty(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @oldStyle, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationAllProperty(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @oldStyle, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@oldStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
 			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean StartAnimationInline(UnityEngine.UIElements.VisualElement @element, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @sv, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @id.Value, @computedStyle.Value, @sv.Value, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+		public static System.Boolean StartAnimationInline(UnityEngine.UIElements.VisualElement @element, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @sv, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@element, @id.Value, @computedStyle.Value, @sv.Value, @durationMs, @delayMs, @easingCurve};
+			var ___result = RMStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleTransformOrigin(UnityEngine.UIElements.TransformOrigin @st)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@st};
-            var ___result = RMApplyStyleTransformOrigin_TransformOrigin.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void ApplyStyleTranslate(UnityEngine.UIElements.Translate @translateValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@translateValue};
-            var ___result = RMApplyStyleTranslate_Translate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleTransformOrigin(UnityEngine.UIElements.TransformOrigin @st)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@st};
+			var ___result = RMApplyStyleTransformOrigin_TransformOrigin.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyStyleRotate(UnityEngine.UIElements.Rotate @rotateValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rotateValue};
-            var ___result = RMApplyStyleRotate_Rotate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleTranslate(UnityEngine.UIElements.Translate @translateValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@translateValue};
+			var ___result = RMApplyStyleTranslate_Translate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyStyleScale(UnityEngine.UIElements.Scale @scaleValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scaleValue};
-            var ___result = RMApplyStyleScale_Scale.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleRotate(UnityEngine.UIElements.Rotate @rotateValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rotateValue};
+			var ___result = RMApplyStyleRotate_Rotate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyInitialValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value};
-            var ___result = RMApplyInitialValue_StylePropertyReader.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyStyleScale(UnityEngine.UIElements.Scale @scaleValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@scaleValue};
+			var ___result = RMApplyStyleScale_Scale.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyInitialValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMApplyInitialValue_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ApplyInitialValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value};
+			var ___result = RMApplyInitialValue_StylePropertyReader.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void ApplyUnsetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
+		public virtual void ApplyInitialValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value};
+			var ___result = RMApplyInitialValue_StylePropertyId.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
-            var ___result = RMApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+		public virtual void ApplyUnsetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+			var ___result = RMApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void ApplyUnsetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @parentStyle.Value};
-            var ___result = RMApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+		public virtual void ApplyUnsetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @parentStyle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@id.Value, @parentStyle.Value};
+			var ___result = RMApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

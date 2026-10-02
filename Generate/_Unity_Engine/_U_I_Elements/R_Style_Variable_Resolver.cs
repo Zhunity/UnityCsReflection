@@ -502,188 +502,150 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value, @sheet, @handles.Value};
-            var ___result = RMInit_StyleProperty_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@property.Value, @sheet, @handles.Value};
+			var ___result = RMInit_StyleProperty_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void PushContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @handles.Value};
-            var ___result = RMPushContext_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PushContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @handles.Value};
+			var ___result = RMPushContext_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void PopContext()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPopContext.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void PopContext()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPopContext.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void AddValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle.Value};
-            var ___result = RMAddValue_StyleValueHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void AddValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@handle.Value};
+			var ___result = RMAddValue_StyleValueHandle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean ResolveVarFunction(ref System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMResolveVarFunction_Ref_Int32.Invoke(___genericsType, ___parameters);
+		public virtual System.Boolean ResolveVarFunction(ref System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMResolveVarFunction_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVarFunction(ref System.Int32 @index, System.Int32 @argc, System.String @varName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @argc, @varName};
-            var ___result = RMResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVarFunction(ref System.Int32 @index, System.Int32 @argc, System.String @varName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @argc, @varName};
+			var ___result = RMResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
 			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
-        }
-
-
-        public virtual System.Boolean ValidateResolvedValues()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidateResolvedValues.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVariable(System.String @variableName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@variableName};
-            var ___result = RMResolveVariable_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
-        }
+		public virtual System.Boolean ValidateResolvedValues()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMValidateResolvedValues.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveFallback(ref System.Int32 @index)
-        {
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVariable(System.String @variableName)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@variableName};
+			var ___result = RMResolveVariable_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
+
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveFallback(ref System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
+		}
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
-        }
 
-
-        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles, ref System.Int32 @index, out System.Int32 @argCount, out System.String @variableName)
-        {
+		public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles, ref System.Int32 @index, out System.Int32 @argCount, out System.String @variableName)
+		{
 			@argCount = default;
 			@variableName = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sheet, @handles.Value, @index, @argCount, @variableName};
-            var ___result = RMParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sheet, @handles.Value, @index, @argCount, @variableName};
+			var ___result = RMParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.Invoke(___genericsType, ___parameters);
 			@index = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 			@argCount = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 			@variableName = ReflectionUtils.Convert<System.String>(___parameters[4]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

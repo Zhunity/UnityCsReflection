@@ -534,284 +534,231 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		}
 
 
-        public virtual void CreateFromBinaryForm(System.IntPtr @binaryForm, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @length};
-            var ___result = RMCreateFromBinaryForm_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt64 GetSidAuthority()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSidAuthority.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Byte GetSidSubAuthorityCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSidSubAuthorityCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.UInt32 GetSidSubAuthority(System.Byte @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetSidSubAuthority_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMCompareTo_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMEquals_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean IsAccountSid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAccountSid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsEqualDomainSid(System.Security.Principal.SecurityIdentifier @sid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sid};
-            var ___result = RMIsEqualDomainSid_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValidTargetType(System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetType};
-            var ___result = RMIsValidTargetType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsWellKnown(System.Security.Principal.WellKnownSidType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMIsWellKnown_WellKnownSidType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Security.Principal.IdentityReference Translate(System.Type @targetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetType};
-            var ___result = RMTranslate_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Equality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMop_Inequality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetSddlForm()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Security.Principal.SecurityIdentifier ParseSddlForm(System.String @sddlForm, ref System.Int32 @pos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sddlForm, @pos};
-            var ___result = RMParseSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
+		public virtual void CreateFromBinaryForm(System.IntPtr @binaryForm, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @length};
+			var ___result = RMCreateFromBinaryForm_IntPtr_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt64 GetSidAuthority()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSidAuthority.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Byte GetSidSubAuthorityCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSidSubAuthorityCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.UInt32 GetSidSubAuthority(System.Byte @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetSidSubAuthority_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMCompareTo_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMEquals_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@binaryForm, @offset};
+			var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean IsAccountSid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsAccountSid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsEqualDomainSid(System.Security.Principal.SecurityIdentifier @sid)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sid};
+			var ___result = RMIsEqualDomainSid_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsValidTargetType(System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetType};
+			var ___result = RMIsValidTargetType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsWellKnown(System.Security.Principal.WellKnownSidType @type)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type};
+			var ___result = RMIsWellKnown_WellKnownSidType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Security.Principal.IdentityReference Translate(System.Type @targetType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@targetType};
+			var ___result = RMTranslate_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
+		}
+
+
+		public static System.Boolean op_Equality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Equality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean op_Inequality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMop_Inequality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String GetSddlForm()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.Security.Principal.SecurityIdentifier ParseSddlForm(System.String @sddlForm, ref System.Int32 @pos)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sddlForm, @pos};
+			var ___result = RMParseSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@pos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Security.Principal.SecurityIdentifier>(___result);
-        }
-
-
-        public static System.Byte[] ParseSddlForm(System.String @sddlForm)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sddlForm};
-            var ___result = RMParseSddlForm_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
+			return ReflectionUtils.Convert<System.Security.Principal.SecurityIdentifier>(___result);
+		}
 
 
-        public static System.Boolean TryParseAuthority(System.String @s, out System.UInt64 @result)
-        {
+		public static System.Byte[] ParseSddlForm(System.String @sddlForm)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sddlForm};
+			var ___result = RMParseSddlForm_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public static System.Boolean TryParseAuthority(System.String @s, out System.UInt64 @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @result};
-            var ___result = RMTryParseAuthority_String_Out_UInt64.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @result};
+			var ___result = RMTryParseAuthority_String_Out_UInt64.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.UInt64>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParseSubAuthority(System.String @s, out System.UInt32 @result)
-        {
+		public static System.Boolean TryParseSubAuthority(System.String @s, out System.UInt32 @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s, @result};
-            var ___result = RMTryParseSubAuthority_String_Out_UInt32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@s, @result};
+			var ___result = RMTryParseSubAuthority_String_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.UInt32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

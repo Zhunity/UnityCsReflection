@@ -742,433 +742,327 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual void Finalize()
-        {
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Dispose(System.Boolean @disposing)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@disposing};
+			var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean RequiresCompute(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target.Value};
+			var ___result = RMRequiresCompute_Target.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Boolean IsVertexIndexOrCopyOnly(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target.Value};
+			var ___result = RMIsVertexIndexOrCopyOnly_Target.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.IntPtr InitBuffer(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target, System.Int32 @count, System.Int32 @stride)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target.Value, @count, @stride};
+			var ___result = RMInitBuffer_Target_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static void DestroyBuffer(UnityEngine.GraphicsBuffer @buf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buf};
+			var ___result = RMDestroyBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Release()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRelease.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsValidBuffer(UnityEngine.GraphicsBuffer @buf)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@buf};
+			var ___result = RMIsValidBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean IsValid()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void SetData(System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMSetData_Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMSetData_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value};
+			var ___result = RMSetData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose()
-        {
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetData_GT_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+			var ___result = RMSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void Dispose(System.Boolean @disposing)
-        {
+		public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@disposing};
-            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void InternalSetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalSetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean RequiresCompute(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target)
-        {
+		public virtual void GetData(System.Array @data)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data};
+			var ___result = RMGetData_Array.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value};
-            var ___result = RMRequiresCompute_Target.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void GetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
+			var ___result = RMGetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static System.Boolean IsVertexIndexOrCopyOnly(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target)
-        {
+		public virtual void InternalGetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
+			var ___result = RMInternalGetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value};
-            var ___result = RMIsVertexIndexOrCopyOnly_Target.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.IntPtr GetNativeBufferPtr()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetNativeBufferPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
+
+		public virtual void SetName(System.String @name)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@name};
+			var ___result = RMSetName_String.Invoke(___genericsType, ___parameters);
+		}
 
-        public static System.IntPtr InitBuffer(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target, System.Int32 @count, System.Int32 @stride)
-        {
+
+		public virtual void SetCounterValue(System.UInt32 @counterValue)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@counterValue};
+			var ___result = RMSetCounterValue_UInt32.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value, @count, @stride};
-            var ___result = RMInitBuffer_Target_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static void DestroyBuffer(UnityEngine.GraphicsBuffer @buf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buf};
-            var ___result = RMDestroyBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Release()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsValidBuffer(UnityEngine.GraphicsBuffer @buf)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@buf};
-            var ___result = RMIsValidBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetData(System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMSetData_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMSetData_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value};
-            var ___result = RMSetData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetData_GT_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
-            var ___result = RMSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalSetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalSetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetData(System.Array @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
-            var ___result = RMGetData_Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
-            var ___result = RMGetData_Array_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalGetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count, @elemSize};
-            var ___result = RMInternalGetData_Array_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetNativeBufferPtr()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNativeBufferPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void SetName(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMSetName_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetCounterValue(System.UInt32 @counterValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@counterValue};
-            var ___result = RMSetCounterValue_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCountCC(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCountCC_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCountGC(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCountGC_GraphicsBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCountCG(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCountCG_ComputeBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCountGG(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCountGG_GraphicsBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCount_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCount(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCount_GraphicsBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCount_ComputeBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CopyCount(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
-            var ___result = RMCopyCount_GraphicsBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddBufferToLeakDetector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddBufferToLeakDetector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveBufferFromLeakDetector()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRemoveBufferFromLeakDetector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+
+		public static void CopyCountCC(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCountCC_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCountGC(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCountGC_GraphicsBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCountCG(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCountCG_ComputeBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCountGG(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCountGG_GraphicsBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCount_ComputeBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCount(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCount_GraphicsBuffer_ComputeBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCount_ComputeBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CopyCount(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.Int32 @dstOffsetBytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@src, @dst, @dstOffsetBytes};
+			var ___result = RMCopyCount_GraphicsBuffer_GraphicsBuffer_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void AddBufferToLeakDetector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMAddBufferToLeakDetector.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void RemoveBufferFromLeakDetector()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMRemoveBufferFromLeakDetector.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

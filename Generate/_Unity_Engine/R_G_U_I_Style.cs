@@ -2070,891 +2070,692 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static System.IntPtr Internal_Create(UnityEngine.GUIStyle @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_Create_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static System.IntPtr Internal_Copy(UnityEngine.GUIStyle @self, UnityEngine.GUIStyle @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @other};
-            var ___result = RMInternal_Copy_GUIStyle_GUIStyle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public static void Internal_Destroy(System.IntPtr @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetStyleStatePtr(System.Int32 @idx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idx};
-            var ___result = RMGetStyleStatePtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void AssignStyleState(System.Int32 @idx, System.IntPtr @srcStyleState)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idx, @srcStyleState};
-            var ___result = RMAssignStyleState_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.IntPtr GetRectOffsetPtr(System.Int32 @idx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idx};
-            var ___result = RMGetRectOffsetPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual void AssignRectOffset(System.Int32 @idx, System.IntPtr @srcRectOffset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idx, @srcRectOffset};
-            var ___result = RMAssignRectOffset_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Single Internal_GetLineHeight(System.IntPtr @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMInternal_GetLineHeight_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void Internal_Draw(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_Draw2(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on};
-            var ___result = RMInternal_Draw2_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, UnityEngine.Color @cursorColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @pos, @cursorColor};
-            var ___result = RMInternal_DrawCursor_Rect_GUIContent_Int32_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawWithTextSelection(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor};
-            var ___result = RMInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorStringIndex};
-            var ___result = RMInternal_GetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual System.Int32 Internal_GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
-            var ___result = RMInternal_GetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String Internal_GetSelectedRenderedText(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
-            var ___result = RMInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPosition, @mContent};
-            var ___result = RMInternal_GetHyperlinksRect_Rect_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
-
-
-        public virtual System.Int32 Internal_GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @width};
-            var ___result = RMInternal_GetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMInternal_CalcSize_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @maxSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @maxSize};
-            var ___result = RMInternal_CalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual System.Single Internal_CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @width};
-            var ___result = RMInternal_CalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMInternal_CalcMinMaxWidth_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void Internal_DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on};
-            var ___result = RMInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_DrawContent(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor, UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @hasTextInput, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor, @imageColor, @textOffsetX, @textOffsetY, @imageTopOffset, @imageLeftOffset, @overflowX, @overflowY};
-            var ___result = RMInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void SetMouseTooltip(System.String @tooltip, UnityEngine.Rect @screenRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tooltip, @screenRect};
-            var ___result = RMSetMouseTooltip_String_Rect.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean IsTooltipActive(System.String @tooltip)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tooltip};
-            var ___result = RMIsTooltipActive_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Single Internal_GetCursorFlashOffset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternal_GetCursorFlashOffset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public static void SetDefaultFont(UnityEngine.Font @font)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@font};
-            var ___result = RMSetDefaultFont_Font.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void CleanupRoots()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCleanupRoots.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalOnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMInternalOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDraw_Rect_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, System.String @text, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @text, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDraw_Rect_String_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.Texture @image, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @image, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID};
-            var ___result = RMDraw_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on};
-            var ___result = RMDraw_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on, System.Boolean @hover)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on, @hover};
-            var ___result = RMDraw_Rect_GUIContent_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlId, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlId, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID};
-            var ___result = RMDrawPrefixLabel_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @character)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @character};
-            var ___result = RMDrawCursor_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isActive, System.Boolean @hasKeyboardFocus, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition, UnityEngine.Color @selectionColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @isActive, @hasKeyboardFocus, @firstSelectedCharacter, @lastSelectedCharacter, @drawSelectionAsComposition, @selectionColor};
-            var ___result = RMDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @firstSelectedCharacter, @lastSelectedCharacter, @drawSelectionAsComposition};
-            var ___result = RMDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @firstSelectedCharacter, @lastSelectedCharacter};
-            var ___result = RMDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.GUIStyle op_Implicit(System.String @str)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@str};
-            var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GUIStyle>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorStringIndex};
-            var ___result = RMGetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual System.Int32 GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
-            var ___result = RMGetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @width};
-            var ___result = RMGetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMCalcSize_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @constraints)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @constraints};
-            var ___result = RMCalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 CalcScreenSize(UnityEngine.Vector2 @contentSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@contentSize};
-            var ___result = RMCalcScreenSize_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual System.Single CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @width};
-            var ___result = RMCalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void CalcMinMaxWidth(UnityEngine.GUIContent @content, out System.Single @minWidth, out System.Single @maxWidth)
-        {
+		public static System.IntPtr Internal_Create(UnityEngine.GUIStyle @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_Create_GUIStyle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static System.IntPtr Internal_Copy(UnityEngine.GUIStyle @self, UnityEngine.GUIStyle @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self, @other};
+			var ___result = RMInternal_Copy_GUIStyle_GUIStyle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public static void Internal_Destroy(System.IntPtr @self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@self};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IntPtr GetStyleStatePtr(System.Int32 @idx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@idx};
+			var ___result = RMGetStyleStatePtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual void AssignStyleState(System.Int32 @idx, System.IntPtr @srcStyleState)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@idx, @srcStyleState};
+			var ___result = RMAssignStyleState_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.IntPtr GetRectOffsetPtr(System.Int32 @idx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@idx};
+			var ___result = RMGetRectOffsetPtr_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual void AssignRectOffset(System.Int32 @idx, System.IntPtr @srcRectOffset)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@idx, @srcRectOffset};
+			var ___result = RMAssignRectOffset_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Single Internal_GetLineHeight(System.IntPtr @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMInternal_GetLineHeight_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void Internal_Draw(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_Draw2(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on};
+			var ___result = RMInternal_Draw2_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, UnityEngine.Color @cursorColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @pos, @cursorColor};
+			var ___result = RMInternal_DrawCursor_Rect_GUIContent_Int32_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawWithTextSelection(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor};
+			var ___result = RMInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorStringIndex};
+			var ___result = RMInternal_GetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual System.Int32 Internal_GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
+			var ___result = RMInternal_GetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String Internal_GetSelectedRenderedText(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
+			var ___result = RMInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localPosition, @mContent};
+			var ___result = RMInternal_GetHyperlinksRect_Rect_GUIContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
+
+
+		public virtual System.Int32 Internal_GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @width};
+			var ___result = RMInternal_GetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent @content)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content};
+			var ___result = RMInternal_CalcSize_GUIContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @maxSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @maxSize};
+			var ___result = RMInternal_CalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual System.Single Internal_CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @width};
+			var ___result = RMInternal_CalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent @content)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content};
+			var ___result = RMInternal_CalcMinMaxWidth_GUIContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual void Internal_DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on};
+			var ___result = RMInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Internal_DrawContent(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor, UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @hasTextInput, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor, @imageColor, @textOffsetX, @textOffsetY, @imageTopOffset, @imageLeftOffset, @overflowX, @overflowY};
+			var ___result = RMInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void SetMouseTooltip(System.String @tooltip, UnityEngine.Rect @screenRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tooltip, @screenRect};
+			var ___result = RMSetMouseTooltip_String_Rect.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.Boolean IsTooltipActive(System.String @tooltip)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tooltip};
+			var ___result = RMIsTooltipActive_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Single Internal_GetCursorFlashOffset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternal_GetCursorFlashOffset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public static void SetDefaultFont(UnityEngine.Font @font)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@font};
+			var ___result = RMSetDefaultFont_Font.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void CleanupRoots()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCleanupRoots.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void InternalOnAfterDeserialize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMInternalOnAfterDeserialize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMDraw_Rect_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, System.String @text, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @text, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMDraw_Rect_String_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.Texture @image, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @image, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID};
+			var ___result = RMDraw_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on};
+			var ___result = RMDraw_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on, System.Boolean @hover)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on, @hover};
+			var ___result = RMDraw_Rect_GUIContent_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlId, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlId, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID};
+			var ___result = RMDrawPrefixLabel_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @character)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @character};
+			var ___result = RMDrawCursor_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isActive, System.Boolean @hasKeyboardFocus, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition, UnityEngine.Color @selectionColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @isActive, @hasKeyboardFocus, @firstSelectedCharacter, @lastSelectedCharacter, @drawSelectionAsComposition, @selectionColor};
+			var ___result = RMDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @firstSelectedCharacter, @lastSelectedCharacter, @drawSelectionAsComposition};
+			var ___result = RMDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @firstSelectedCharacter, @lastSelectedCharacter};
+			var ___result = RMDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.GUIStyle op_Implicit(System.String @str)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@str};
+			var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.GUIStyle>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorStringIndex};
+			var ___result = RMGetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual System.Int32 GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
+			var ___result = RMGetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@text, @width};
+			var ___result = RMGetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent @content)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content};
+			var ___result = RMCalcSize_GUIContent.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @constraints)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @constraints};
+			var ___result = RMCalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 CalcScreenSize(UnityEngine.Vector2 @contentSize)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@contentSize};
+			var ___result = RMCalcScreenSize_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual System.Single CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @width};
+			var ___result = RMCalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual void CalcMinMaxWidth(UnityEngine.GUIContent @content, out System.Single @minWidth, out System.Single @maxWidth)
+		{
 			@minWidth = default;
 			@maxWidth = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @minWidth, @maxWidth};
-            var ___result = RMCalcMinMaxWidth_GUIContent_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @minWidth, @maxWidth};
+			var ___result = RMCalcMinMaxWidth_GUIContent_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
 			@minWidth = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 			@maxWidth = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void get_contentOffset_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_contentOffset_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_contentOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_contentOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_contentOffset_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_contentOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_contentOffset_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_contentOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_clipOffset_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_clipOffset_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_clipOffset_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_clipOffset_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_Internal_clipOffset_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_Internal_clipOffset_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_Internal_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_Internal_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void set_Internal_clipOffset_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_Internal_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual void set_Internal_clipOffset_Injected(ref UnityEngine.Vector2 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMset_Internal_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_Draw_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_Draw_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
+			var ___result = RMInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_Draw2_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on};
-            var ___result = RMInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_Draw2_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on};
+			var ___result = RMInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawCursor_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, ref UnityEngine.Color @cursorColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @pos, @cursorColor};
-            var ___result = RMInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawCursor_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, ref UnityEngine.Color @cursorColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @pos, @cursorColor};
+			var ___result = RMInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawWithTextSelection_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor};
-            var ___result = RMInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawWithTextSelection_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor};
+			var ___result = RMInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color.Invoke(___genericsType, ___parameters);
 			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[9]);
 			@selectionColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[10]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_GetCursorPixelPosition_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex, out UnityEngine.Vector2 @ret)
-        {
+		public virtual void Internal_GetCursorPixelPosition_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex, out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorStringIndex, @ret};
-            var ___result = RMInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorStringIndex, @ret};
+			var ___result = RMInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public virtual System.Int32 Internal_GetCursorStringIndex_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @cursorPixelPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
-            var ___result = RMInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2.Invoke(___genericsType, ___parameters);
+		public virtual System.Int32 Internal_GetCursorStringIndex_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @cursorPixelPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
+			var ___result = RMInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@cursorPixelPosition = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public virtual System.String Internal_GetSelectedRenderedText_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
-            var ___result = RMInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
+		public virtual System.String Internal_GetSelectedRenderedText_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
+			var ___result = RMInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@localPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
 
-
-        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPosition, @mContent};
-            var ___result = RMInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.Invoke(___genericsType, ___parameters);
+		public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@localPosition, @mContent};
+			var ___result = RMInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.Invoke(___genericsType, ___parameters);
 			@localPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
 
-
-        public virtual void Internal_CalcSize_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
-        {
+		public virtual void Internal_CalcSize_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @ret};
-            var ___result = RMInternal_CalcSize_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @ret};
+			var ___result = RMInternal_CalcSize_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @maxSize, out UnityEngine.Vector2 @ret)
-        {
+		public virtual void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @maxSize, out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @maxSize, @ret};
-            var ___result = RMInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @maxSize, @ret};
+			var ___result = RMInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@maxSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
-        {
+		public virtual void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @ret};
-            var ___result = RMInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@content, @ret};
+			var ___result = RMInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawPrefixLabel_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @content, @controlID, @on};
-            var ___result = RMInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawPrefixLabel_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@position, @content, @controlID, @on};
+			var ___result = RMInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Internal_DrawContent_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor, ref UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @hasTextInput, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor, @imageColor, @textOffsetX, @textOffsetY, @imageTopOffset, @imageLeftOffset, @overflowX, @overflowY};
-            var ___result = RMInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		public virtual void Internal_DrawContent_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor, ref UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @hasTextInput, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor, @imageColor, @textOffsetX, @textOffsetY, @imageTopOffset, @imageLeftOffset, @overflowX, @overflowY};
+			var ___result = RMInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[10]);
 			@selectionColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[11]);
 			@imageColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[12]);
-
-            
-        }
+		}
 
 
-        public static void SetMouseTooltip_Injected(System.String @tooltip, ref UnityEngine.Rect @screenRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tooltip, @screenRect};
-            var ___result = RMSetMouseTooltip_Injected_String_Ref_Rect.Invoke(___genericsType, ___parameters);
+		public static void SetMouseTooltip_Injected(System.String @tooltip, ref UnityEngine.Rect @screenRect)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@tooltip, @screenRect};
+			var ___result = RMSetMouseTooltip_Injected_String_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

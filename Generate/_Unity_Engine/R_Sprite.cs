@@ -1062,533 +1062,426 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public virtual System.Int32 GetPackingMode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPackingMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPackingRotation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPackingRotation.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPacked()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPacked.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect GetTextureRect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTextureRect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 GetTextureRectOffset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTextureRectOffset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector4 GetInnerUVs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInnerUVs.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector4 GetOuterUVs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetOuterUVs.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector4 GetPadding()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPadding.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
-        }
-
-
-        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
-            var ___result = RMCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
-            var ___result = RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public virtual UnityEngine.Texture2D GetSecondaryTexture(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetSecondaryTexture_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
-        }
-
-
-        public virtual System.Int32 GetPhysicsShapeCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPhysicsShapeCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPhysicsShapePointCount(System.Int32 @shapeIdx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shapeIdx};
-            var ___result = RMGetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 Internal_GetPhysicsShapePointCount(System.Int32 @shapeIdx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shapeIdx};
-            var ___result = RMInternal_GetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetPhysicsShape(System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@shapeIdx, @physicsShape};
-            var ___result = RMGetPhysicsShape_Int32_List_d_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static void GetPhysicsShapeImpl(UnityEngine.Sprite @sprite, System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sprite, @shapeIdx, @physicsShape};
-            var ___result = RMGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OverridePhysicsShape(System.Collections.Generic.IList<UnityEngine.Vector2[]> @physicsShapes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@physicsShapes};
-            var ___result = RMOverridePhysicsShape_IList_d_Vector2Array_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OverridePhysicsShapeCount(UnityEngine.Sprite @sprite, System.Int32 @physicsShapeCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sprite, @physicsShapeCount};
-            var ___result = RMOverridePhysicsShapeCount_Sprite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OverridePhysicsShape(UnityEngine.Sprite @sprite, UnityEngine.Vector2[] @physicsShape, System.Int32 @idx)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sprite, @physicsShape, @idx};
-            var ___result = RMOverridePhysicsShape_Sprite_Vector2Array_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OverrideGeometry(UnityEngine.Vector2[] @vertices, System.UInt16[] @triangles)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vertices, @triangles};
-            var ___result = RMOverrideGeometry_Vector2Array_UInt16Array.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
-            var ___result = RMCreate_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits};
-            var ___result = RMCreate_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot};
-            var ___result = RMCreate_Texture2D_Rect_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public virtual void GetTextureRect_Injected(out UnityEngine.Rect @ret)
-        {
+		public virtual System.Int32 GetPackingMode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPackingMode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPackingRotation()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPackingRotation.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPacked()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPacked.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual UnityEngine.Rect GetTextureRect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTextureRect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector2 GetTextureRectOffset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTextureRectOffset.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetInnerUVs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInnerUVs.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetOuterUVs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetOuterUVs.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public virtual UnityEngine.Vector4 GetPadding()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPadding.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+		}
+
+
+		public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
+			var ___result = RMCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
+			var ___result = RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public virtual UnityEngine.Texture2D GetSecondaryTexture(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetSecondaryTexture_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
+		}
+
+
+		public virtual System.Int32 GetPhysicsShapeCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPhysicsShapeCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPhysicsShapePointCount(System.Int32 @shapeIdx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shapeIdx};
+			var ___result = RMGetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 Internal_GetPhysicsShapePointCount(System.Int32 @shapeIdx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shapeIdx};
+			var ___result = RMInternal_GetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 GetPhysicsShape(System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@shapeIdx, @physicsShape};
+			var ___result = RMGetPhysicsShape_Int32_List_d_Vector2_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public static void GetPhysicsShapeImpl(UnityEngine.Sprite @sprite, System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sprite, @shapeIdx, @physicsShape};
+			var ___result = RMGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OverridePhysicsShape(System.Collections.Generic.IList<UnityEngine.Vector2[]> @physicsShapes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@physicsShapes};
+			var ___result = RMOverridePhysicsShape_IList_d_Vector2Array_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OverridePhysicsShapeCount(UnityEngine.Sprite @sprite, System.Int32 @physicsShapeCount)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sprite, @physicsShapeCount};
+			var ___result = RMOverridePhysicsShapeCount_Sprite_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static void OverridePhysicsShape(UnityEngine.Sprite @sprite, UnityEngine.Vector2[] @physicsShape, System.Int32 @idx)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sprite, @physicsShape, @idx};
+			var ___result = RMOverridePhysicsShape_Sprite_Vector2Array_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OverrideGeometry(UnityEngine.Vector2[] @vertices, System.UInt16[] @triangles)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@vertices, @triangles};
+			var ___result = RMOverrideGeometry_Vector2Array_UInt16Array.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
+			var ___result = RMCreate_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits};
+			var ___result = RMCreate_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
+			var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border};
+			var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType};
+			var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude};
+			var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit};
+			var ___result = RMCreate_Texture2D_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot};
+			var ___result = RMCreate_Texture2D_Rect_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
+
+
+		public virtual void GetTextureRect_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetTextureRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetTextureRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetTextureRectOffset_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void GetTextureRectOffset_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetTextureRectOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetTextureRectOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetInnerUVs_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void GetInnerUVs_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetInnerUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetInnerUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetOuterUVs_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void GetOuterUVs_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetOuterUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetOuterUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void GetPadding_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void GetPadding_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMGetPadding_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMGetPadding_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting_Injected(ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
-            var ___result = RMCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting_Injected(ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
+			var ___result = RMCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 			@pivot = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
 
-
-        public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D @texture, ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, ref UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
-            var ___result = RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
+		public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D @texture, ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, ref UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
+			var ___result = RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 			@pivot = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 			@border = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[6]);
+			return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
+		}
 
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
 
-
-        public virtual void get_bounds_Injected(out UnityEngine.Bounds @ret)
-        {
+		public virtual void get_bounds_Injected(out UnityEngine.Bounds @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
-        {
+		public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_border_Injected(out UnityEngine.Vector4 @ret)
-        {
+		public virtual void get_border_Injected(out UnityEngine.Vector4 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_border_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_border_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void get_pivot_Injected(out UnityEngine.Vector2 @ret)
-        {
+		public virtual void get_pivot_Injected(out UnityEngine.Vector2 @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_pivot_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ret};
+			var ___result = RMget_pivot_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Int32 GetInstanceID()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetInstanceID()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

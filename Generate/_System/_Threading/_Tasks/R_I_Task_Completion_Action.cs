@@ -70,15 +70,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		}
 
 
-        public virtual void Invoke(System.Threading.Tasks.Task @completingTask)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@completingTask};
-            var ___result = RMInvoke_Task.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Invoke(System.Threading.Tasks.Task @completingTask)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@completingTask};
+			var ___result = RMInvoke_Task.Invoke(___genericsType, ___parameters);
+		}
 
 
     }

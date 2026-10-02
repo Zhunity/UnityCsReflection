@@ -1622,851 +1622,639 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void OnDetectFocusChange()
-        {
+		public virtual void OnDetectFocusChange()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDetectFocusChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnCursorIndexChange()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnCursorIndexChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnSelectIndexChange()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnSelectIndexChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnLostFocus()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean HandleKeyEvent(UnityEngine.Event @e)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e};
+			var ___result = RMHandleKeyEvent_Event.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean HandleKeyEvent(UnityEngine.Event @e, System.Boolean @textIsReadOnly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @textIsReadOnly};
+			var ___result = RMHandleKeyEvent_Event_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DeleteLineBack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteLineBack.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DeleteWordBack()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteWordBack.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DeleteWordForward()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteWordForward.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Delete()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDelete.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean CanPaste()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCanPaste.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDetectFocusChange.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual System.Boolean Backspace()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBackspace.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void OnCursorIndexChange()
-        {
+		public virtual void SelectAll()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectAll.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnCursorIndexChange.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void SelectNone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectNone.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnSelectIndexChange()
-        {
+		public virtual System.Boolean DeleteSelection()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDeleteSelection.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnSelectIndexChange.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void ReplaceSelection(System.String @replace)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@replace};
+			var ___result = RMReplaceSelection_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnFocus()
-        {
+		public virtual void Insert(System.Char @c)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@c};
+			var ___result = RMInsert_Char.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnFocus.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void MoveSelectionToAltCursor()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveSelectionToAltCursor.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void OnLostFocus()
-        {
+		public virtual void MoveRight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveRight.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnLostFocus.Invoke(___genericsType, ___parameters);
 
-            
-        }
+		public virtual void MoveLeft()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveLeft.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HandleKeyEvent(UnityEngine.Event @e)
-        {
+		public virtual void MoveUp()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveUp.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e};
-            var ___result = RMHandleKeyEvent_Event.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveDown()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveDown.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean HandleKeyEvent(UnityEngine.Event @e, System.Boolean @textIsReadOnly)
-        {
+		public virtual void MoveLineStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveLineStart.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @textIsReadOnly};
-            var ___result = RMHandleKeyEvent_Event_Boolean.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveLineEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveLineEnd.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean DeleteLineBack()
-        {
+		public virtual void MoveGraphicalLineStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveGraphicalLineStart.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteLineBack.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveGraphicalLineEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveGraphicalLineEnd.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean DeleteWordBack()
-        {
+		public virtual void MoveTextStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveTextStart.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteWordBack.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveTextEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveTextEnd.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean DeleteWordForward()
-        {
+		public virtual void MoveParagraphForward()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveParagraphForward.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteWordForward.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveParagraphBackward()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveParagraphBackward.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Delete()
-        {
+		public virtual void MoveCursorToPosition(UnityEngine.Vector2 @cursorPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursorPosition};
+			var ___result = RMMoveCursorToPosition_Vector2.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDelete.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual void MoveCursorToPosition_Internal(UnityEngine.Vector2 @cursorPosition, System.Boolean @shift)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursorPosition, @shift};
+			var ___result = RMMoveCursorToPosition_Internal_Vector2_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean CanPaste()
-        {
+		public virtual void MoveAltCursorToPosition(UnityEngine.Vector2 @cursorPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursorPosition};
+			var ___result = RMMoveAltCursorToPosition_Vector2.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCanPaste.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsOverSelection(UnityEngine.Vector2 @cursorPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursorPosition};
+			var ___result = RMIsOverSelection_Vector2.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
+
+		public virtual void SelectToPosition(UnityEngine.Vector2 @cursorPosition)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@cursorPosition};
+			var ___result = RMSelectToPosition_Vector2.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual System.Boolean Backspace()
-        {
+
+		public virtual void SelectLeft()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectLeft.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBackspace.Invoke(___genericsType, ___parameters);
+
+		public virtual void SelectRight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectRight.Invoke(___genericsType, ___parameters);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+
+		public virtual void SelectUp()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectUp.Invoke(___genericsType, ___parameters);
+		}
 
+
+		public virtual void SelectDown()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectDown.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SelectAll()
-        {
+
+		public virtual void SelectTextEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectTextEnd.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectAll.Invoke(___genericsType, ___parameters);
+
+		public virtual void SelectTextStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectTextStart.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
+
+		public virtual void MouseDragSelectsWholeWords(System.Boolean @on)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@on};
+			var ___result = RMMouseDragSelectsWholeWords_Boolean.Invoke(___genericsType, ___parameters);
+		}
 
+
+		public virtual void DblClickSnap(Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping @snapping)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@snapping.Value};
+			var ___result = RMDblClickSnap_DblClickSnapping.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual void SelectNone()
-        {
+
+		public virtual void MoveWordRight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveWordRight.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectNone.Invoke(___genericsType, ___parameters);
+
+		public virtual void MoveToStartOfNextWord()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveToStartOfNextWord.Invoke(___genericsType, ___parameters);
+		}
 
-            
-        }
+
+		public virtual void MoveToEndOfPreviousWord()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveToEndOfPreviousWord.Invoke(___genericsType, ___parameters);
+		}
 
+
+		public virtual void SelectToStartOfNextWord()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectToStartOfNextWord.Invoke(___genericsType, ___parameters);
+		}
 
-        public virtual System.Boolean DeleteSelection()
-        {
+
+		public virtual void SelectToEndOfPreviousWord()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectToEndOfPreviousWord.Invoke(___genericsType, ___parameters);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDeleteSelection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ReplaceSelection(System.String @replace)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@replace};
-            var ___result = RMReplaceSelection_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Insert(System.Char @c)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@c};
-            var ___result = RMInsert_Char.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveSelectionToAltCursor()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveSelectionToAltCursor.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveRight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveRight.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveLeft()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveLeft.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveUp()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveUp.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveDown()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveLineStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveLineStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveLineEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveLineEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveGraphicalLineStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveGraphicalLineStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveGraphicalLineEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveGraphicalLineEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveTextStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveTextStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveTextEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveTextEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveParagraphForward()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveParagraphForward.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveParagraphBackward()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveParagraphBackward.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveCursorToPosition(UnityEngine.Vector2 @cursorPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursorPosition};
-            var ___result = RMMoveCursorToPosition_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveCursorToPosition_Internal(UnityEngine.Vector2 @cursorPosition, System.Boolean @shift)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursorPosition, @shift};
-            var ___result = RMMoveCursorToPosition_Internal_Vector2_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveAltCursorToPosition(UnityEngine.Vector2 @cursorPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursorPosition};
-            var ___result = RMMoveAltCursorToPosition_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsOverSelection(UnityEngine.Vector2 @cursorPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursorPosition};
-            var ___result = RMIsOverSelection_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SelectToPosition(UnityEngine.Vector2 @cursorPosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cursorPosition};
-            var ___result = RMSelectToPosition_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectLeft()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectLeft.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectRight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectRight.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectUp()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectUp.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectDown()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectDown.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectTextEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectTextEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectTextStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectTextStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MouseDragSelectsWholeWords(System.Boolean @on)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@on};
-            var ___result = RMMouseDragSelectsWholeWords_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DblClickSnap(Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping @snapping)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@snapping.Value};
-            var ___result = RMDblClickSnap_DblClickSnapping.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveWordRight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveWordRight.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveToStartOfNextWord()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveToStartOfNextWord.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MoveToEndOfPreviousWord()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveToEndOfPreviousWord.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectToStartOfNextWord()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectToStartOfNextWord.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectToEndOfPreviousWord()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectToEndOfPreviousWord.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 FindStartOfNextWord(System.Int32 @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p};
-            var ___result = RMFindStartOfNextWord_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void MoveWordLeft()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMoveWordLeft.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectWordRight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectWordRight.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectWordLeft()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectWordLeft.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExpandSelectGraphicalLineStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExpandSelectGraphicalLineStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ExpandSelectGraphicalLineEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMExpandSelectGraphicalLineEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectGraphicalLineStart()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectGraphicalLineStart.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectGraphicalLineEnd()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectGraphicalLineEnd.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectParagraphForward()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectParagraphForward.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectParagraphBackward()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectParagraphBackward.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectCurrentWord()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectCurrentWord.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SelectCurrentParagraph()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSelectCurrentParagraph.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateScrollOffsetIfNeeded(UnityEngine.Event @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMUpdateScrollOffsetIfNeeded_Event.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateScrollOffset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateScrollOffset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawCursor(System.String @newText)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newText};
-            var ___result = RMDrawCursor_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SaveBackup()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveBackup.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Undo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUndo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Cut()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCut.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Copy()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Rect[] GetHyperlinksRect()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHyperlinksRect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
-        }
-
-
-        public virtual System.Boolean Paste()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPaste.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void DetectFocusChange()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDetectFocusChange.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+
+		public virtual System.Int32 FindStartOfNextWord(System.Int32 @p)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@p};
+			var ___result = RMFindStartOfNextWord_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void MoveWordLeft()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMoveWordLeft.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectWordRight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectWordRight.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectWordLeft()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectWordLeft.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExpandSelectGraphicalLineStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExpandSelectGraphicalLineStart.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ExpandSelectGraphicalLineEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMExpandSelectGraphicalLineEnd.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectGraphicalLineStart()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectGraphicalLineStart.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectGraphicalLineEnd()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectGraphicalLineEnd.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectParagraphForward()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectParagraphForward.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectParagraphBackward()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectParagraphBackward.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectCurrentWord()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectCurrentWord.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SelectCurrentParagraph()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSelectCurrentParagraph.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateScrollOffsetIfNeeded(UnityEngine.Event @evt)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@evt};
+			var ___result = RMUpdateScrollOffsetIfNeeded_Event.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void UpdateScrollOffset()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdateScrollOffset.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DrawCursor(System.String @newText)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@newText};
+			var ___result = RMDrawCursor_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SaveBackup()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMSaveBackup.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void Undo()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUndo.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Cut()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCut.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Copy()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCopy.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Rect[] GetHyperlinksRect()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHyperlinksRect.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
+		}
+
+
+		public virtual System.Boolean Paste()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPaste.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void DetectFocusChange()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMDetectFocusChange.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

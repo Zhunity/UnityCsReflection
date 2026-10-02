@@ -454,206 +454,168 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static System.ReadOnlyMemory<T> op_Implicit(T[] @array)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@array};
-            var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
-        }
+		public static System.ReadOnlyMemory<T> op_Implicit(T[] @array)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@array};
+			var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
+		}
 
 
-        public static System.ReadOnlyMemory<T> op_Implicit(System.ArraySegment<T> @segment)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@segment};
-            var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
-        }
+		public static System.ReadOnlyMemory<T> op_Implicit(System.ArraySegment<T> @segment)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@segment};
+			var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.ReadOnlyMemory<T> Slice(System.Int32 @start)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start};
-            var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
-        }
+		public virtual System.ReadOnlyMemory<T> Slice(System.Int32 @start)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start};
+			var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
+		}
 
 
-        public virtual System.ReadOnlyMemory<T> Slice(System.Int32 @start, System.Int32 @length)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
-        }
+		public virtual System.ReadOnlyMemory<T> Slice(System.Int32 @start, System.Int32 @length)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
+		}
 
 
-        public virtual void CopyTo(System.Memory<T> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination};
-            var ___result = RMCopyTo_Memory_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CopyTo(System.Memory<T> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination};
+			var ___result = RMCopyTo_Memory_d_T_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean TryCopyTo(System.Memory<T> @destination)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination};
-            var ___result = RMTryCopyTo_Memory_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean TryCopyTo(System.Memory<T> @destination)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@destination};
+			var ___result = RMTryCopyTo_Memory_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Buffers.MemoryHandle Pin()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPin.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Buffers.MemoryHandle>(___result);
-        }
+		public virtual System.Buffers.MemoryHandle Pin()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMPin.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Buffers.MemoryHandle>(___result);
+		}
 
 
-        public virtual T[] ToArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
+		public virtual T[] ToArray()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<T[]>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.ReadOnlyMemory<T> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_ReadOnlyMemory_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.ReadOnlyMemory<T> @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_ReadOnlyMemory_d_T_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Int32 CombineHashCodes(System.Int32 @left, System.Int32 @right)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@left, @right};
-            var ___result = RMCombineHashCodes_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 CombineHashCodes(System.Int32 @left, System.Int32 @right)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@left, @right};
+			var ___result = RMCombineHashCodes_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static System.Int32 CombineHashCodes(System.Int32 @h1, System.Int32 @h2, System.Int32 @h3)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@h1, @h2, @h3};
-            var ___result = RMCombineHashCodes_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 CombineHashCodes(System.Int32 @h1, System.Int32 @h2, System.Int32 @h3)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@h1, @h2, @h3};
+			var ___result = RMCombineHashCodes_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Object GetObjectStartLength(out System.Int32 @start, out System.Int32 @length)
-        {
+		public virtual System.Object GetObjectStartLength(out System.Int32 @start, out System.Int32 @length)
+		{
 			@start = default;
 			@length = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@start, @length};
-            var ___result = RMGetObjectStartLength_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@start, @length};
+			var ___result = RMGetObjectStartLength_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@start = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 			@length = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

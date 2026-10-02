@@ -710,382 +710,306 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 
-        public virtual void Update()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Update()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void WaitForCompletion()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMWaitForCompletion.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void WaitForCompletion()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMWaitForCompletion.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetData<T>(System.Int32 @layer) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@layer};
-            var ___result = RMGetData_GT_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetData<T>(System.Int32 @layer) where T : struct
+		{
+			var ___genericsType = new Type[] {typeof(T)};
+			var ___parameters = new object[]{@layer};
+			var ___result = RMGetData_GT_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
+		}
 
 
-        public virtual System.Boolean IsDone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsDone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean IsDone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMIsDone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Boolean HasError()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasError.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean HasError()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMHasError.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetLayerCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLayerCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetLayerCount()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLayerCount.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetLayerDataSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLayerDataSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetLayerDataSize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetLayerDataSize.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetWidth()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetWidth.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetWidth()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetWidth.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHeight()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Int32 GetDepth()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDepth.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetDepth()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetDepth.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void CreateSafetyHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreateSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void CreateSafetyHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMCreateSafetyHandle.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
-        }
+		public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetSafetyHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___result);
+		}
 
 
-        public virtual void SetScriptingCallback(System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback};
-            var ___result = RMSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void SetScriptingCallback(System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@callback};
+			var ___result = RMSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.IntPtr GetDataRaw(System.Int32 @layer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layer};
-            var ___result = RMGetDataRaw_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
+		public virtual System.IntPtr GetDataRaw(System.Int32 @layer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@layer};
+			var ___result = RMGetDataRaw_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public static void Update_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMUpdate_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static void Update_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMUpdate_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void WaitForCompletion_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static void WaitForCompletion_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean IsDone_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMIsDone_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Boolean IsDone_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMIsDone_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean HasError_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMHasError_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Boolean HasError_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMHasError_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Int32 GetLayerCount_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetLayerCount_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int32 GetLayerDataSize_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetLayerDataSize_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int32 GetWidth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetWidth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetWidth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetWidth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int32 GetHeight_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetHeight_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetHeight_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetHeight_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static System.Int32 GetDepth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetDepth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static System.Int32 GetDepth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMGetDepth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public static void CreateSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
+		public static void CreateSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self};
+			var ___result = RMCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static void GetSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
-        {
+		public static void GetSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @ret};
-            var ___result = RMGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @ret};
+			var ___result = RMGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void SetScriptingCallback_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @callback};
-            var ___result = RMSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+		public static void SetScriptingCallback_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @callback};
+			var ___result = RMSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.IntPtr GetDataRaw_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Int32 @layer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @layer};
-            var ___result = RMGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.Invoke(___genericsType, ___parameters);
+		public static System.IntPtr GetDataRaw_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Int32 @layer)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@_unity_self, @layer};
+			var ___result = RMGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.Invoke(___genericsType, ___parameters);
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

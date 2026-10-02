@@ -838,235 +838,177 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy @unityOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityConnect.Value, @unityOAuth.Value, @httpClientFactory.Value};
-            var ___result = RMResolveDependencies_UnityConnectProxy_UnityOAuthProxy_HttpClientFactory.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnDisable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnUserLoginStateChange(System.Boolean @userInfoReady, System.Boolean @loggedIn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@userInfoReady, @loggedIn};
-            var ___result = RMOnUserLoginStateChange_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearCache()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FetchUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback.Value, @errorCallback.Value};
-            var ___result = RMFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetAuthCode(System.Action<System.String> @doneCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback};
-            var ___result = RMGetAuthCode_Action_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback.Value};
-            var ___result = RMGetAccessToken_Action_d_AccessToken_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback, System.String @authCode, System.String @refreshToken)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback.Value, @authCode, @refreshToken};
-            var ___result = RMGetAccessToken_Action_d_AccessToken_p__String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetTokenInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> @doneCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback.Value};
-            var ___result = RMGetTokenInfo_Action_d_TokenInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@doneCallback.Value};
-            var ___result = RMGetUserInfo_Action_d_UserInfo_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnGetAccessTokenError(System.String @errorMessage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@errorMessage};
-            var ___result = RMOnGetAccessTokenError_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnOperationError(System.String @errorMessage)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@errorMessage};
-            var ___result = RMOnOperationError_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__GetAuthCode__1__b__46_0(Hvak.Editor.Refleaction.RUnityEditor.RConnect.RUnityOAuth.RAuthCodeResponse @authCodeResponse)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@authCodeResponse.Value};
-            var ___result = RM__0__GetAuthCode__1__b__46_0_AuthCodeResponse.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__GetAccessToken__1__b__48_0(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpClient)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@httpClient.Value};
-            var ___result = RM__0__GetAccessToken__1__b__48_0_IAsyncHTTPClient.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy @unityOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@unityConnect.Value, @unityOAuth.Value, @httpClientFactory.Value};
+			var ___result = RMResolveDependencies_UnityConnectProxy_UnityOAuthProxy_HttpClientFactory.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnEnable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnDisable()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMOnDisable.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnUserLoginStateChange(System.Boolean @userInfoReady, System.Boolean @loggedIn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@userInfoReady, @loggedIn};
+			var ___result = RMOnUserLoginStateChange_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void ClearCache()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMClearCache.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FetchUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback.Value, @errorCallback.Value};
+			var ___result = RMFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetAuthCode(System.Action<System.String> @doneCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback};
+			var ___result = RMGetAuthCode_Action_d_String_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback.Value};
+			var ___result = RMGetAccessToken_Action_d_AccessToken_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback, System.String @authCode, System.String @refreshToken)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback.Value, @authCode, @refreshToken};
+			var ___result = RMGetAccessToken_Action_d_AccessToken_p__String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetTokenInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> @doneCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback.Value};
+			var ___result = RMGetTokenInfo_Action_d_TokenInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void GetUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@doneCallback.Value};
+			var ___result = RMGetUserInfo_Action_d_UserInfo_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnGetAccessTokenError(System.String @errorMessage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@errorMessage};
+			var ___result = RMOnGetAccessTokenError_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void OnOperationError(System.String @errorMessage)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@errorMessage};
+			var ___result = RMOnOperationError_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__GetAuthCode__1__b__46_0(Hvak.Editor.Refleaction.RUnityEditor.RConnect.RUnityOAuth.RAuthCodeResponse @authCodeResponse)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@authCodeResponse.Value};
+			var ___result = RM__0__GetAuthCode__1__b__46_0_AuthCodeResponse.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void __0__GetAccessToken__1__b__48_0(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpClient)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@httpClient.Value};
+			var ___result = RM__0__GetAccessToken__1__b__48_0_IAsyncHTTPClient.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -1270,158 +1270,129 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo FindForAssetPath(System.String @assetPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetPath};
-            var ___result = RMFindForAssetPath_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo FindForAssetPath(System.String @assetPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetPath};
+			var ___result = RMFindForAssetPath_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo FindForAssembly(System.Reflection.Assembly @assembly)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assembly};
-            var ___result = RMFindForAssembly_Assembly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo FindForAssembly(System.Reflection.Assembly @assembly)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assembly};
+			var ___result = RMFindForAssembly_Assembly.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
 
 
-        public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> GetForAssemblyFilePaths(System.Collections.Generic.List<System.String> @assemblyPaths)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assemblyPaths};
-            var ___result = RMGetForAssemblyFilePaths_List_d_String_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
-        }
+		public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> GetForAssemblyFilePaths(System.Collections.Generic.List<System.String> @assemblyPaths)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assemblyPaths};
+			var ___result = RMGetForAssemblyFilePaths_List_d_String_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] GetAllRegisteredPackages()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAllRegisteredPackages.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] GetAllRegisteredPackages()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAllRegisteredPackages.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo[] GetAll()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAll.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo[] GetAll()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetAll.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+		}
 
 
-        public static System.String[] GetPredefinedPackageTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPredefinedPackageTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetPredefinedPackageTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPredefinedPackageTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public static System.String[] GetPredefinedHiddenByDefaultPackageTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPredefinedHiddenByDefaultPackageTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
+		public static System.String[] GetPredefinedHiddenByDefaultPackageTypes()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetPredefinedHiddenByDefaultPackageTypes.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
 
 
-        public static UnityEditor.PackageManager.PackageInfo GetPackageByAssetPath(System.String @assetPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetPath};
-            var ___result = RMGetPackageByAssetPath_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
-        }
+		public static UnityEditor.PackageManager.PackageInfo GetPackageByAssetPath(System.String @assetPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@assetPath};
+			var ___result = RMGetPackageByAssetPath_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

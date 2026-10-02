@@ -262,122 +262,97 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 
-        public static void Dispose(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safety, @sentinel};
-            var ___result = RMDispose_Ref_AtomicSafetyHandle_Ref_DisposeSentinel.Invoke(___genericsType, ___parameters);
+		public static void Dispose(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@safety, @sentinel};
+			var ___result = RMDispose_Ref_AtomicSafetyHandle_Ref_DisposeSentinel.Invoke(___genericsType, ___parameters);
 			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 			@sentinel = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.DisposeSentinel>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void Create(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, out Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel, System.Int32 @callSiteStackDepth, Unity.Collections.Allocator @allocator)
-        {
+		public static void Create(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, out Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel, System.Int32 @callSiteStackDepth, Unity.Collections.Allocator @allocator)
+		{
 			@safety = default;
 			@sentinel = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safety, @sentinel, @callSiteStackDepth, @allocator};
-            var ___result = RMCreate_Out_AtomicSafetyHandle_Out_DisposeSentinel_Int32_Allocator.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@safety, @sentinel, @callSiteStackDepth, @allocator};
+			var ___result = RMCreate_Out_AtomicSafetyHandle_Out_DisposeSentinel_Int32_Allocator.Invoke(___genericsType, ___parameters);
 			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 			@sentinel = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.DisposeSentinel>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void CreateInternal(ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel, System.Int32 @callSiteStackDepth)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sentinel, @callSiteStackDepth};
-            var ___result = RMCreateInternal_Ref_DisposeSentinel_Int32.Invoke(___genericsType, ___parameters);
+		public static void CreateInternal(ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel, System.Int32 @callSiteStackDepth)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sentinel, @callSiteStackDepth};
+			var ___result = RMCreateInternal_Ref_DisposeSentinel_Int32.Invoke(___genericsType, ___parameters);
 			@sentinel = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.DisposeSentinel>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void Clear(ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sentinel};
-            var ___result = RMClear_Ref_DisposeSentinel.Invoke(___genericsType, ___parameters);
+		public static void Clear(ref Unity.Collections.LowLevel.Unsafe.DisposeSentinel @sentinel)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sentinel};
+			var ___result = RMClear_Ref_DisposeSentinel.Invoke(___genericsType, ___parameters);
 			@sentinel = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.DisposeSentinel>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

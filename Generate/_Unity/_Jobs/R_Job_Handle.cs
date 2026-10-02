@@ -502,315 +502,252 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 		}
 
 
-        public virtual void Complete()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMComplete.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Complete()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMComplete.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1};
-            var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1};
+			var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1, @job2};
-            var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1, @job2};
+			var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void CompleteAll(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@jobs.Value};
-            var ___result = RMCompleteAll_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void CompleteAll(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@jobs.Value};
+			var ___result = RMCompleteAll_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void ScheduleBatchedJobs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMScheduleBatchedJobs.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public static void ScheduleBatchedJobs()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMScheduleBatchedJobs.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static void ScheduleBatchedJobsAndComplete(ref Unity.Jobs.JobHandle @job)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job};
-            var ___result = RMScheduleBatchedJobsAndComplete_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static void ScheduleBatchedJobsAndComplete(ref Unity.Jobs.JobHandle @job)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job};
+			var ___result = RMScheduleBatchedJobsAndComplete_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean ScheduleBatchedJobsAndIsCompleted(ref Unity.Jobs.JobHandle @job)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job};
-            var ___result = RMScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static System.Boolean ScheduleBatchedJobsAndIsCompleted(ref Unity.Jobs.JobHandle @job)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job};
+			var ___result = RMScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public unsafe static void ScheduleBatchedJobsAndCompleteAll(void* @jobs, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
-            var ___result = RMScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1};
-            var ___result = RMCombineDependencies_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
+		public unsafe static void ScheduleBatchedJobsAndCompleteAll(void* @jobs, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
+			var ___result = RMScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1, Unity.Jobs.JobHandle @job2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1, @job2};
-            var ___result = RMCombineDependencies_JobHandle_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
+		public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1};
+			var ___result = RMCombineDependencies_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@jobs.Value};
-            var ___result = RMCombineDependencies_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
+		public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1, Unity.Jobs.JobHandle @job2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1, @job2};
+			var ___result = RMCombineDependencies_JobHandle_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@jobs.Value};
-            var ___result = RMCombineDependencies_NativeSlice_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
+		public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@jobs.Value};
+			var ___result = RMCombineDependencies_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
 
-        public static Unity.Jobs.JobHandle CombineDependenciesInternal2(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
-        {
+		public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@jobs.Value};
+			var ___result = RMCombineDependencies_NativeSlice_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1};
-            var ___result = RMCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+
+		public static Unity.Jobs.JobHandle CombineDependenciesInternal2(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1};
+			var ___result = RMCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
 
-
-        public static Unity.Jobs.JobHandle CombineDependenciesInternal3(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1, @job2};
-            var ___result = RMCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static Unity.Jobs.JobHandle CombineDependenciesInternal3(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1, @job2};
+			var ___result = RMCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
-
-
-        public unsafe static Unity.Jobs.JobHandle CombineDependenciesInternalPtr(void* @jobs, System.Int32 @count)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
-            var ___result = RMCombineDependenciesInternalPtr_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
-        }
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
 
-        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle @jobHandle, Unity.Jobs.JobHandle @dependsOn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@jobHandle, @dependsOn};
-            var ___result = RMCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public unsafe static Unity.Jobs.JobHandle CombineDependenciesInternalPtr(void* @jobs, System.Int32 @count)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
+			var ___result = RMCombineDependenciesInternalPtr_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
+		}
 
 
-        public static void CombineDependenciesInternal2_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, out Unity.Jobs.JobHandle @ret)
-        {
+		public static System.Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle @jobHandle, Unity.Jobs.JobHandle @dependsOn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@jobHandle, @dependsOn};
+			var ___result = RMCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static void CombineDependenciesInternal2_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, out Unity.Jobs.JobHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1, @ret};
-            var ___result = RMCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1, @ret};
+			var ___result = RMCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static void CombineDependenciesInternal3_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2, out Unity.Jobs.JobHandle @ret)
-        {
+		public static void CombineDependenciesInternal3_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2, out Unity.Jobs.JobHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@job0, @job1, @job2, @ret};
-            var ___result = RMCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@job0, @job1, @job2, @ret};
+			var ___result = RMCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
 			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
 			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[3]);
-
-            
-        }
+		}
 
 
-        public unsafe static void CombineDependenciesInternalPtr_Injected(void* @jobs, System.Int32 @count, out Unity.Jobs.JobHandle @ret)
-        {
+		public unsafe static void CombineDependenciesInternalPtr_Injected(void* @jobs, System.Int32 @count, out Unity.Jobs.JobHandle @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count, @ret};
-            var ___result = RMCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count, @ret};
+			var ___result = RMCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
-
-            
-        }
+		}
 
 
-        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(ref Unity.Jobs.JobHandle @jobHandle, ref Unity.Jobs.JobHandle @dependsOn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@jobHandle, @dependsOn};
-            var ___result = RMCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
+		public static System.Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(ref Unity.Jobs.JobHandle @jobHandle, ref Unity.Jobs.JobHandle @dependsOn)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@jobHandle, @dependsOn};
+			var ___result = RMCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@jobHandle = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 			@dependsOn = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

@@ -390,147 +390,116 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 
-        public virtual void ReloadData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReloadData.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void ReloadData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMReloadData.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem FetchData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFetchData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>(___result);
-        }
+		public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem FetchData()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFetchData.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>(___result);
+		}
 
 
-        public virtual void RebuildSearch(System.String @search)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@search};
-            var ___result = RMRebuildSearch_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void RebuildSearch(System.String @search)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@search};
+			var ___result = RMRebuildSearch_String.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean AddMatchItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @e, System.String @name, System.String[] @searchWords, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesStart, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesWithin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@e, @name, @searchWords, @matchesStart, @matchesWithin};
-            var ___result = RMAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean AddMatchItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @e, System.String @name, System.String[] @searchWords, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesStart, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesWithin)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@e, @name, @searchWords, @matchesStart, @matchesWithin};
+			var ___result = RMAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem Search(System.String @searchString)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@searchString};
-            var ___result = RMSearch_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>(___result);
-        }
+		public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem Search(System.String @searchString)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@searchString};
+			var ___result = RMSearch_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>(___result);
+		}
 
 
-        public virtual void BuildSearchableElements()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBuildSearchableElements.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BuildSearchableElements()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMBuildSearchableElements.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual void BuildSearchableElements(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
-            var ___result = RMBuildSearchableElements_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void BuildSearchableElements(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@item};
+			var ___result = RMBuildSearchableElements_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

@@ -550,294 +550,236 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 
-        public static void Internal_Destroy(System.IntPtr @ptr)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ptr};
-            var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.IntPtr Internal_Create(UnityEngine.Keyframe[] @keys)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keys};
-            var ___result = RMInternal_Create_KeyframeArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
-        }
-
-
-        public virtual System.Boolean Internal_Equals(System.IntPtr @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMInternal_Equals_IntPtr.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Single Evaluate(System.Single @time)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time};
-            var ___result = RMEvaluate_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Int32 AddKey(System.Single @time, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@time, @value};
-            var ___result = RMAddKey_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 AddKey(UnityEngine.Keyframe @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMAddKey_Keyframe.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 AddKey_Internal(UnityEngine.Keyframe @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMAddKey_Internal_Keyframe.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 MoveKey(System.Int32 @index, UnityEngine.Keyframe @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @key};
-            var ___result = RMMoveKey_Int32_Keyframe.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void RemoveKey(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMRemoveKey_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetKeys(UnityEngine.Keyframe[] @keys)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@keys};
-            var ___result = RMSetKeys_KeyframeArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Keyframe GetKey(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetKey_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Keyframe>(___result);
-        }
-
-
-        public virtual UnityEngine.Keyframe[] GetKeys()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetKeys.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Keyframe[]>(___result);
-        }
-
-
-        public virtual void SmoothTangents(System.Int32 @index, System.Single @weight)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @weight};
-            var ___result = RMSmoothTangents_Int32_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.AnimationCurve Constant(System.Single @timeStart, System.Single @timeEnd, System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeStart, @timeEnd, @value};
-            var ___result = RMConstant_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
-        }
-
-
-        public static UnityEngine.AnimationCurve Linear(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
-            var ___result = RMLinear_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
-        }
-
-
-        public static UnityEngine.AnimationCurve EaseInOut(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
-            var ___result = RMEaseInOut_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @o)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(UnityEngine.AnimationCurve @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 AddKey_Internal_Injected(ref UnityEngine.Keyframe @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@key};
-            var ___result = RMAddKey_Internal_Injected_Ref_Keyframe.Invoke(___genericsType, ___parameters);
+		public static void Internal_Destroy(System.IntPtr @ptr)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@ptr};
+			var ___result = RMInternal_Destroy_IntPtr.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static System.IntPtr Internal_Create(UnityEngine.Keyframe[] @keys)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keys};
+			var ___result = RMInternal_Create_KeyframeArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.IntPtr>(___result);
+		}
+
+
+		public virtual System.Boolean Internal_Equals(System.IntPtr @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMInternal_Equals_IntPtr.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Single Evaluate(System.Single @time)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time};
+			var ___result = RMEvaluate_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Int32 AddKey(System.Single @time, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@time, @value};
+			var ___result = RMAddKey_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 AddKey(UnityEngine.Keyframe @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMAddKey_Keyframe.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 AddKey_Internal(UnityEngine.Keyframe @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMAddKey_Internal_Keyframe.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 MoveKey(System.Int32 @index, UnityEngine.Keyframe @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @key};
+			var ___result = RMMoveKey_Int32_Keyframe.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual void RemoveKey(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMRemoveKey_Int32.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void SetKeys(UnityEngine.Keyframe[] @keys)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@keys};
+			var ___result = RMSetKeys_KeyframeArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual UnityEngine.Keyframe GetKey(System.Int32 @index)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index};
+			var ___result = RMGetKey_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Keyframe>(___result);
+		}
+
+
+		public virtual UnityEngine.Keyframe[] GetKeys()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetKeys.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.Keyframe[]>(___result);
+		}
+
+
+		public virtual void SmoothTangents(System.Int32 @index, System.Single @weight)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @weight};
+			var ___result = RMSmoothTangents_Int32_Single.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public static UnityEngine.AnimationCurve Constant(System.Single @timeStart, System.Single @timeEnd, System.Single @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeStart, @timeEnd, @value};
+			var ___result = RMConstant_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
+		}
+
+
+		public static UnityEngine.AnimationCurve Linear(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
+			var ___result = RMLinear_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
+		}
+
+
+		public static UnityEngine.AnimationCurve EaseInOut(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
+			var ___result = RMEaseInOut_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @o)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(UnityEngine.AnimationCurve @other)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@other};
+			var ___result = RMEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Int32 AddKey_Internal_Injected(ref UnityEngine.Keyframe @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@key};
+			var ___result = RMAddKey_Internal_Injected_Ref_Keyframe.Invoke(___genericsType, ___parameters);
 			@key = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[0]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public virtual System.Int32 MoveKey_Injected(System.Int32 @index, ref UnityEngine.Keyframe @key)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @key};
-            var ___result = RMMoveKey_Injected_Int32_Ref_Keyframe.Invoke(___genericsType, ___parameters);
+		public virtual System.Int32 MoveKey_Injected(System.Int32 @index, ref UnityEngine.Keyframe @key)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @key};
+			var ___result = RMMoveKey_Injected_Int32_Ref_Keyframe.Invoke(___genericsType, ___parameters);
 			@key = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
 
-
-        public virtual void GetKey_Injected(System.Int32 @index, out UnityEngine.Keyframe @ret)
-        {
+		public virtual void GetKey_Injected(System.Int32 @index, out UnityEngine.Keyframe @ret)
+		{
 			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @ret};
-            var ___result = RMGetKey_Injected_Int32_Out_Keyframe.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@index, @ret};
+			var ___result = RMGetKey_Injected_Int32_Out_Keyframe.Invoke(___genericsType, ___parameters);
 			@ret = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[1]);
-
-            
-        }
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }

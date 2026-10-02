@@ -1158,765 +1158,628 @@ namespace Hvak.Editor.Refleaction.RSystem
 		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames GetCachedValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Boolean @getNames)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @getNames};
-            var ___result = RMGetCachedValuesAndNames_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames GetCachedValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Boolean @getNames)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value, @getNames};
+			var ___result = RMGetCachedValuesAndNames_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames>(___result);
+		}
 
 
-        public static System.String InternalFormattedHexString(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMInternalFormattedHexString_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String InternalFormattedHexString(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMInternalFormattedHexString_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.String InternalFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eT.Value, @value};
-            var ___result = RMInternalFormat_RuntimeType_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String InternalFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eT.Value, @value};
+			var ___result = RMInternalFormat_RuntimeType_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.String InternalFlagsFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eT.Value, @value};
-            var ___result = RMInternalFlagsFormat_RuntimeType_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public static System.String InternalFlagsFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@eT.Value, @value};
+			var ___result = RMInternalFlagsFormat_RuntimeType_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
-        public static System.UInt64 ToUInt64(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMToUInt64_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
+		public static System.UInt64 ToUInt64(System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@value};
+			var ___result = RMToUInt64_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
 
 
-        public static System.Int32 InternalCompareTo(System.Object @o1, System.Object @o2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@o1, @o2};
-            var ___result = RMInternalCompareTo_Object_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
+		public static System.Int32 InternalCompareTo(System.Object @o1, System.Object @o2)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@o1, @o2};
+			var ___result = RMInternalCompareTo_Object_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
 
 
-        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType InternalGetUnderlyingType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value};
-            var ___result = RMInternalGetUnderlyingType_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
-        }
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType InternalGetUnderlyingType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value};
+			var ___result = RMInternalGetUnderlyingType_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
+		}
 
 
-        public static System.Boolean GetEnumValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, out System.UInt64[] @values, out System.String[] @names)
-        {
+		public static System.Boolean GetEnumValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, out System.UInt64[] @values, out System.String[] @names)
+		{
 			@values = default;
 			@names = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @values, @names};
-            var ___result = RMGetEnumValuesAndNames_RuntimeType_Out_UInt64Array_Out_StringArray.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value, @values, @names};
+			var ___result = RMGetEnumValuesAndNames_RuntimeType_Out_UInt64Array_Out_StringArray.Invoke(___genericsType, ___parameters);
 			@values = ReflectionUtils.Convert<System.UInt64[]>(___parameters[1]);
 			@names = ReflectionUtils.Convert<System.String[]>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Object InternalBoxEnum(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @value};
-            var ___result = RMInternalBoxEnum_RuntimeType_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Boolean TryParse<TEnum>(System.String @value, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
-        {
+		public static System.Object InternalBoxEnum(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value, @value};
+			var ___result = RMInternalBoxEnum_RuntimeType_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Boolean TryParse<TEnum>(System.String @value, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {typeof(TEnum)};
-            var ___parameters = new object[]{@value, @result.Value};
-            var ___result = RMTryParse_GTEnum_String_Out_TEnum.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(TEnum)};
+			var ___parameters = new object[]{@value, @result.Value};
+			var ___result = RMTryParse_GTEnum_String_Out_TEnum.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[1]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse<TEnum>(System.String @value, System.Boolean @ignoreCase, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
-        {
+		public static System.Boolean TryParse<TEnum>(System.String @value, System.Boolean @ignoreCase, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {typeof(TEnum)};
-            var ___parameters = new object[]{@value, @ignoreCase, @result.Value};
-            var ___result = RMTryParse_GTEnum_String_Boolean_Out_TEnum.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {typeof(TEnum)};
+			var ___parameters = new object[]{@value, @ignoreCase, @result.Value};
+			var ___result = RMTryParse_GTEnum_String_Boolean_Out_TEnum.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Object Parse(System.Type @enumType, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMParse_Type_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public static System.Object Parse(System.Type @enumType, System.String @value, System.Boolean @ignoreCase)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value, @ignoreCase};
-            var ___result = RMParse_Type_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public static System.Object Parse(System.Type @enumType, System.String @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMParse_Type_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
-        public static System.Boolean TryParseEnum(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, ref Hvak.Editor.Refleaction.RSystem.REnum.REnumResult @parseResult)
-        {
+		public static System.Object Parse(System.Type @enumType, System.String @value, System.Boolean @ignoreCase)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value, @ignoreCase};
+			var ___result = RMParse_Type_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value, @ignoreCase, @parseResult.Value};
-            var ___result = RMTryParseEnum_Type_String_Boolean_Ref_EnumResult.Invoke(___genericsType, ___parameters);
+
+		public static System.Boolean TryParseEnum(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, ref Hvak.Editor.Refleaction.RSystem.REnum.REnumResult @parseResult)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value, @ignoreCase, @parseResult.Value};
+			var ___result = RMTryParseEnum_Type_String_Boolean_Ref_EnumResult.Invoke(___genericsType, ___parameters);
 			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.REnum.REnumResult>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Type GetUnderlyingType(System.Type @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType};
-            var ___result = RMGetUnderlyingType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public static System.Array GetValues(System.Type @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType};
-            var ___result = RMGetValues_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Array>(___result);
-        }
-
-
-        public static System.UInt64[] InternalGetValues(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value};
-            var ___result = RMInternalGetValues_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64[]>(___result);
-        }
-
-
-        public static System.String GetName(System.Type @enumType, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMGetName_Type_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.String[] GetNames(System.Type @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType};
-            var ___result = RMGetNames_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public static System.String[] InternalGetNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value};
-            var ___result = RMInternalGetNames_RuntimeType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Boolean IsDefined(System.Type @enumType, System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMIsDefined_Type_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.String Format(System.Type @enumType, System.Object @value, System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value, @format};
-            var ___result = RMFormat_Type_Object_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Object get_value()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_value.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object GetValue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Boolean InternalHasFlag(System.Enum @flags)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@flags};
-            var ___result = RMInternalHasFlag_Enum.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 get_hashcode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMget_hashcode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format, @provider};
-            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 CompareTo(System.Object @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString(System.String @format)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@format};
-            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToString(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean HasFlag(System.Enum @flag)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@flag};
-            var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.TypeCode GetTypeCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.TypeCode>(___result);
-        }
-
-
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Char>(___result);
-        }
-
-
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.SByte>(___result);
-        }
-
-
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte>(___result);
-        }
-
-
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int16>(___result);
-        }
-
-
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt16>(___result);
-        }
-
-
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int64>(___result);
-        }
-
-
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Double>(___result);
-        }
-
-
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Decimal>(___result);
-        }
-
-
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@provider};
-            var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.DateTime>(___result);
-        }
-
-
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @provider};
-            var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.SByte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_SByte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Int16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Int16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Int32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Byte @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Byte.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.UInt16 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_UInt16.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.UInt32 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Int64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Int64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.UInt64 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_UInt64.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Char @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Char.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static System.Object ToObject(System.Type @enumType, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value};
-            var ___result = RMToObject_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value) where TEnum : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(TEnum)};
-            var ___parameters = new object[]{@value};
-            var ___result = RMParse_GTEnum_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value, System.Boolean @ignoreCase) where TEnum : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(TEnum)};
-            var ___parameters = new object[]{@value, @ignoreCase};
-            var ___result = RMParse_GTEnum_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
-        }
-
-
-        public static System.Boolean TryParse(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, out System.Object @result)
-        {
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.Type GetUnderlyingType(System.Type @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType};
+			var ___result = RMGetUnderlyingType_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public static System.Array GetValues(System.Type @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType};
+			var ___result = RMGetValues_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Array>(___result);
+		}
+
+
+		public static System.UInt64[] InternalGetValues(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value};
+			var ___result = RMInternalGetValues_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64[]>(___result);
+		}
+
+
+		public static System.String GetName(System.Type @enumType, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMGetName_Type_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public static System.String[] GetNames(System.Type @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType};
+			var ___result = RMGetNames_Type.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public static System.String[] InternalGetNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType.Value};
+			var ___result = RMInternalGetNames_RuntimeType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Boolean IsDefined(System.Type @enumType, System.Object @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMIsDefined_Type_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public static System.String Format(System.Type @enumType, System.Object @value, System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value, @format};
+			var ___result = RMFormat_Type_Object_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Object get_value()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_value.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Object GetValue()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.Boolean InternalHasFlag(System.Enum @flags)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@flags};
+			var ___result = RMInternalHasFlag_Enum.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 get_hashcode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMget_hashcode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format, @provider};
+			var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Int32 CompareTo(System.Object @target)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@target};
+			var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.String ToString(System.String @format)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@format};
+			var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String ToString(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean HasFlag(System.Enum @flag)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@flag};
+			var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.TypeCode GetTypeCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.TypeCode>(___result);
+		}
+
+
+		public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Char>(___result);
+		}
+
+
+		public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.SByte>(___result);
+		}
+
+
+		public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte>(___result);
+		}
+
+
+		public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int16>(___result);
+		}
+
+
+		public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt16>(___result);
+		}
+
+
+		public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt32>(___result);
+		}
+
+
+		public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int64>(___result);
+		}
+
+
+		public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Single>(___result);
+		}
+
+
+		public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Double>(___result);
+		}
+
+
+		public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Decimal>(___result);
+		}
+
+
+		public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@provider};
+			var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.DateTime>(___result);
+		}
+
+
+		public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@type, @provider};
+			var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.SByte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_SByte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Int16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Int16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Int32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Int32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Byte @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Byte.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.UInt16 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_UInt16.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.UInt32 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_UInt32.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Int64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Int64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.UInt64 @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_UInt64.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Char @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Char.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static System.Object ToObject(System.Type @enumType, System.Boolean @value)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value};
+			var ___result = RMToObject_Type_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value) where TEnum : struct
+		{
+			var ___genericsType = new Type[] {typeof(TEnum)};
+			var ___parameters = new object[]{@value};
+			var ___result = RMParse_GTEnum_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
+
+
+		public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value, System.Boolean @ignoreCase) where TEnum : struct
+		{
+			var ___genericsType = new Type[] {typeof(TEnum)};
+			var ___parameters = new object[]{@value, @ignoreCase};
+			var ___result = RMParse_GTEnum_String_Boolean.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
+		}
+
+
+		public static System.Boolean TryParse(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, out System.Object @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value, @ignoreCase, @result};
-            var ___result = RMTryParse_Type_String_Boolean_Out_Object.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value, @ignoreCase, @result};
+			var ___result = RMTryParse_Type_String_Boolean_Out_Object.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Object>(___parameters[3]);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
-
-        public static System.Boolean TryParse(System.Type @enumType, System.String @value, out System.Object @result)
-        {
+		public static System.Boolean TryParse(System.Type @enumType, System.String @value, out System.Object @result)
+		{
 			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType, @value, @result};
-            var ___result = RMTryParse_Type_String_Out_Object.Invoke(___genericsType, ___parameters);
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@enumType, @value, @result};
+			var ___result = RMTryParse_Type_String_Out_Object.Invoke(___genericsType, ___parameters);
 			@result = ReflectionUtils.Convert<System.Object>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
 
 
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
 
 
-        public virtual System.Object MemberwiseClone()
-        {
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
 
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
 
 
     }

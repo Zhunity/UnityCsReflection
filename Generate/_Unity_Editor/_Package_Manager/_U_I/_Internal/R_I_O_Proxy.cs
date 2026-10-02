@@ -550,345 +550,273 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void DirectoryCopy(System.String @sourcePath, System.String @destinationPath, System.Boolean @makeWritable, System.Action<System.String, System.Single> @progressCallback)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourcePath, @destinationPath, @makeWritable, @progressCallback};
-            var ___result = RMDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt64 DirectorySizeInBytes(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMDirectorySizeInBytes_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual void RemovePathAndMeta(System.String @path, System.Boolean @removeEmptyParent)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path, @removeEmptyParent};
-            var ___result = RMRemovePathAndMeta_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.String PathsCombine(System.String[] @components)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@components};
-            var ___result = RMPathsCombine_StringArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetParentDirectory(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMGetParentDirectory_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsDirectoryEmpty(System.String @directoryPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath};
-            var ___result = RMIsDirectoryEmpty_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DirectoryExists(System.String @directoryPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath};
-            var ___result = RMDirectoryExists_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String[] DirectoryGetDirectories(System.String @directoryPath, System.String @searchPattern, System.IO.SearchOption @searchOption)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath, @searchPattern, @searchOption};
-            var ___result = RMDirectoryGetDirectories_String_String_SearchOption.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual System.String[] DirectoryGetFiles(System.String @directoryPath, System.String @searchPattern, System.IO.SearchOption @searchOption)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath, @searchPattern, @searchOption};
-            var ___result = RMDirectoryGetFiles_String_String_SearchOption.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public virtual void CreateDirectory(System.String @directoryPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath};
-            var ___result = RMCreateDirectory_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DeleteDirectory(System.String @directoryPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directoryPath};
-            var ___result = RMDeleteDirectory_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath GetPackageAbsoluteDirectory(System.String @relativePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativePath};
-            var ___result = RMGetPackageAbsoluteDirectory_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
-        }
-
-
-        public virtual System.String GetProjectDirectory()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetProjectDirectory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean IsSamePackageDirectory(System.String @a, System.String @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMIsSamePackageDirectory_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void MakeFileWritable(System.String @filePath, System.Boolean @writable)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath, @writable};
-            var ___result = RMMakeFileWritable_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CopyFile(System.String @sourceFileName, System.String @destFileName, System.Boolean @overwrite)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sourceFileName, @destFileName, @overwrite};
-            var ___result = RMCopyFile_String_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt64 GetFileSize(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMGetFileSize_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.String GetFileName(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMGetFileName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void DeleteFile(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMDeleteFile_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean FileExists(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMFileExists_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Byte[] FileReadAllBytes(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMFileReadAllBytes_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Byte[]>(___result);
-        }
-
-
-        public virtual System.String FileReadAllText(System.String @filePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath};
-            var ___result = RMFileReadAllText_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void FileWriteAllBytes(System.String @filePath, System.Byte[] @bytes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath, @bytes};
-            var ___result = RMFileWriteAllBytes_String_ByteArray.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FileWriteAllText(System.String @filePath, System.String @contents)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filePath, @contents};
-            var ___result = RMFileWriteAllText_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.UInt64 __0__DirectorySizeInBytes__1__b__1_0(System.UInt64 @current, System.String @file)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@current, @file};
-            var ___result = RM__0__DirectorySizeInBytes__1__b__1_0_UInt64_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt64>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Type GetType()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Type>(___result);
-        }
-
-
-        public virtual System.Object MemberwiseClone()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
+		public virtual void DirectoryCopy(System.String @sourcePath, System.String @destinationPath, System.Boolean @makeWritable, System.Action<System.String, System.Single> @progressCallback)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourcePath, @destinationPath, @makeWritable, @progressCallback};
+			var ___result = RMDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt64 DirectorySizeInBytes(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMDirectorySizeInBytes_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual void RemovePathAndMeta(System.String @path, System.Boolean @removeEmptyParent)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path, @removeEmptyParent};
+			var ___result = RMRemovePathAndMeta_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.String PathsCombine(System.String[] @components)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@components};
+			var ___result = RMPathsCombine_StringArray.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.String GetParentDirectory(System.String @path)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@path};
+			var ___result = RMGetParentDirectory_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsDirectoryEmpty(System.String @directoryPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath};
+			var ___result = RMIsDirectoryEmpty_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Boolean DirectoryExists(System.String @directoryPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath};
+			var ___result = RMDirectoryExists_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.String[] DirectoryGetDirectories(System.String @directoryPath, System.String @searchPattern, System.IO.SearchOption @searchOption)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath, @searchPattern, @searchOption};
+			var ___result = RMDirectoryGetDirectories_String_String_SearchOption.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual System.String[] DirectoryGetFiles(System.String @directoryPath, System.String @searchPattern, System.IO.SearchOption @searchOption)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath, @searchPattern, @searchOption};
+			var ___result = RMDirectoryGetFiles_String_String_SearchOption.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String[]>(___result);
+		}
+
+
+		public virtual void CreateDirectory(System.String @directoryPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath};
+			var ___result = RMCreateDirectory_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void DeleteDirectory(System.String @directoryPath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@directoryPath};
+			var ___result = RMDeleteDirectory_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath GetPackageAbsoluteDirectory(System.String @relativePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@relativePath};
+			var ___result = RMGetPackageAbsoluteDirectory_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+		}
+
+
+		public virtual System.String GetProjectDirectory()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetProjectDirectory.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual System.Boolean IsSamePackageDirectory(System.String @a, System.String @b)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@a, @b};
+			var ___result = RMIsSamePackageDirectory_String_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void MakeFileWritable(System.String @filePath, System.Boolean @writable)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath, @writable};
+			var ___result = RMMakeFileWritable_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void CopyFile(System.String @sourceFileName, System.String @destFileName, System.Boolean @overwrite)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@sourceFileName, @destFileName, @overwrite};
+			var ___result = RMCopyFile_String_String_Boolean.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt64 GetFileSize(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMGetFileSize_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.String GetFileName(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMGetFileName_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void DeleteFile(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMDeleteFile_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Boolean FileExists(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMFileExists_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual System.Byte[] FileReadAllBytes(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMFileReadAllBytes_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Byte[]>(___result);
+		}
+
+
+		public virtual System.String FileReadAllText(System.String @filePath)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath};
+			var ___result = RMFileReadAllText_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
+
+
+		public virtual void FileWriteAllBytes(System.String @filePath, System.Byte[] @bytes)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath, @bytes};
+			var ___result = RMFileWriteAllBytes_String_ByteArray.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual void FileWriteAllText(System.String @filePath, System.String @contents)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@filePath, @contents};
+			var ___result = RMFileWriteAllText_String_String.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.UInt64 __0__DirectorySizeInBytes__1__b__1_0(System.UInt64 @current, System.String @file)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@current, @file};
+			var ___result = RM__0__DirectorySizeInBytes__1__b__1_0_UInt64_String.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.UInt64>(___result);
+		}
+
+
+		public virtual System.Boolean Equals(System.Object @obj)
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{@obj};
+			var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Boolean>(___result);
+		}
+
+
+		public virtual void Finalize()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+		}
+
+
+		public virtual System.Int32 GetHashCode()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Int32>(___result);
+		}
+
+
+		public virtual System.Type GetType()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMGetType.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Type>(___result);
+		}
+
+
+		public virtual System.Object MemberwiseClone()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.Object>(___result);
+		}
+
+
+		public virtual System.String ToString()
+		{
+			var ___genericsType = new Type[] {};
+			var ___parameters = new object[]{};
+			var ___result = RMToString.Invoke(___genericsType, ___parameters);
+			return ReflectionUtils.Convert<System.String>(___result);
+		}
 
 
     }
